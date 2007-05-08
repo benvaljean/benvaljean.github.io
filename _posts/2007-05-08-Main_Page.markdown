@@ -18,3 +18,7 @@ using the wiki software.
 -   [MediaWiki FAQ](http://www.mediawiki.org/wiki/Help:FAQ)
 -   [MediaWiki release mailing
     list](http://mail.wikimedia.org/mailman/listinfo/mediawiki-announce)
+
+### My Stuff
+
+[Scratchpad](Scratchpad "wikilink")

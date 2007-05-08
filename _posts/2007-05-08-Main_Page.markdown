@@ -3,6 +3,8 @@ layout: post
 title: Main Page
 ---
 
+![Roger rabbit](roger2.gif "Roger rabbit")
+
 <big>**MediaWiki has been successfully installed.**</big>
 
 Consult the [User\'s

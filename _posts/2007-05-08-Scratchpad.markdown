@@ -3,6 +3,8 @@ layout: post
 title: Scratchpad
 ---
 
+[1](http://www.debianhelp.org)
+
 [Dapperguide](http://doc.gwos.org/index.php/DapperGuide)
 
 winprsufse01 pc-01014484 m50081 m20082

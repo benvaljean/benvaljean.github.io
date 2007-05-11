@@ -8,3 +8,8 @@ Process](http://www.microsoft.com/technet/prodtechnol/winxppro/reskit/c29621675.
 
 [Simpler Web: Exchange/DNS
 Issues](http://www.swinc.com/resources/exchange/smtp_dnsissues.asp)
+
+[Security Accounts
+Manager](http://www.beginningtoseethelight.org/ntsecurity/index.php)
+
+[Fasthosts.co.uk](http://www.fasthosts.co.uk)

@@ -3,7 +3,7 @@ layout: post
 title: Scratchpad
 ---
 
-[1](http://www.debianhelp.org)
+[Debianhelp.org](http://www.debianhelp.org)
 
 [Dapperguide](http://doc.gwos.org/index.php/DapperGuide)
 

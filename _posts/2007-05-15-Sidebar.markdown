@@ -12,5 +12,5 @@ title: Sidebar
     -   helppage\|help
     -   sitesupport-url\|sitesupport
 -   Sites
-    -   Yahoo.com\|<http://www.yahoo.com>
-    -   Google.com\|<http://www.google.com>
+    -   <http://www.yahoo.com%7CYahoo.com>
+    -   <http://www.google.com%7CGoogle.com>

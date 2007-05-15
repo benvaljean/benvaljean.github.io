@@ -1,0 +1,16 @@
+---
+layout: post 
+title: Sidebar
+---
+
+-   Navigation
+    -   mainpage\|mainpage
+    -   portal-url\|portal
+    -   currentevents-url\|currentevents
+    -   recentchanges-url\|recentchanges
+    -   randompage-url\|randompage
+    -   helppage\|help
+    -   sitesupport-url\|sitesupport
+-   Sites
+    -   Yahoo.com\|<http://www.yahoo.com>
+    -   Google.com\|<http://www.google.com>

@@ -6,8 +6,142 @@ title: Common.css
 `/** `
 
     <nowiki> */
+     /***** BACKGROUND COLORS FOR NAMESPACES *****/
 
-    /** CSS placed here will be applied to all skins */
+      /* Colour of pseudo NS Special (light grey) */
+     
+     .ns--2 #content, .ns--2 #p-cactions li, .ns--2 #p-cactions li a { background: #f4f4f4; }
+     .ns--2 div.thumb { border-color: #f4f4f4; } 
+
+     /* Colour of NS Project + Project_talk (light sky blue) */
+     
+     .ns-4 #content, .ns-4 #p-cactions li, .ns-4 #p-cactions li a { background: #f8fcff; }
+     .ns-4 div.thumb { border-color: #f8fcff; } 
+     
+     .ns-5 #content, .ns-5 #p-cactions li, .ns-5 #p-cactions li a { background: #f8fcff; }
+     .ns-5 div.thumb { border-color: #f8fcff; }
+
+     /* Colour of NS MediaWiki + MediaWiki_talk (light grey) */
+     
+     .ns-8 #content, .ns-8 #p-cactions li, .ns-8 #p-cactions li a { background: #f4f4f4; }
+     .ns-8 div.thumb { border-color: #f4f4f4; } 
+     
+     .ns-9 #content, .ns-9 #p-cactions li, .ns-9 #p-cactions li a { background: #f4f4f4; }
+     .ns-9 div.thumb { border-color: #f4f4f4; }
+
+     /* Blue border for Public Domain namespaces.  This is currently NS Help (but NOT Help_talk) */
+     
+     .ns-12 #content { 
+        border: 2px solid #0000CC; border-right: none; 
+
+        background-image: url(http://upload.wikimedia.org/wikipedia/mediawiki/b/b8/PD-banner.png);
+        background-repeat: no-repeat;
+        background-position: right top;
+      }
+
+      .ns-12 #bodyContent {
+        background-image: url(http://upload.wikimedia.org/wikipedia/mediawiki/6/67/PD-icon-faded.png);
+        background-repeat: no-repeat;
+        background-position: right 5em;
+      }
+
+     /* Colour of NS Manual + Manual_talk (light bluish violet) */
+     
+     .ns-100 #content, .ns-100 #p-cactions li, .ns-100 #p-cactions li a { background: #f3f3ff; }
+     .ns-100 div.thumb { border-color: #f3f3ff; } 
+     
+     .ns-101 #content, .ns-101 #p-cactions li, .ns-101 #p-cactions li a { background: #f3f3ff; }
+     .ns-101 div.thumb { border-color: #f3f3ff; }
+
+     /***** BACKGROUND AND BORDER COLORS FOR CONTENT  *****/
+
+     /* Border colors */
+     
+     .borderc1 { border-color: #e9e9e9; border-width:thin; }  /* light grey */
+     
+     .borderc2 { border-color: #aaaaaa; border-width:thin; }  /* grey (as toc) */
+     
+     .borderc3 { border-color: #777777; border-width:thin; }  /* dark grey */
+     
+     .borderc4 { border-color: #000000; border-width:thin; }  /* black */
+     
+     .borderc5 { border-color: #c00000; border-width:thin; }  /* red */
+      
+     .borderc6 { border-color: #025e9d; border-width:thin; }  /* blue */
+      
+     .borderc7 { border-color: #008040; border-width:thin; }  /* green */
+     
+     .borderc8 { border-color: #ffcc00; border-width:thin; }  /* yellow */
+
+     /* Background colors */
+     
+     .backgroundc1 { background-color: #ffffff; }  /* white */
+     
+     .backgroundc2 { background-color: #f9f9f9; }  /* light grey (as toc)  */
+     
+     .backgroundc3 { background-color: #eeeeee; }  /* light grey (headers) */ 
+     
+     .backgroundc4 { background-color: #e0e0e0; }  /* more grey */
+     
+     .backgroundc5 { background-color: #d2d2d2; }  /* more grey */
+     
+     .backgroundc6 { background-color: #b7b7b7; }  /* more grey */
+     
+     .backgroundc7 { background-color: #a3a3a3; }  /* darker grey */
+
+     /***** SOME OTHER SMALL THINGS *****/
+
+     /* Marking redirects in Special:Allpages  */
+     
+     .allpagesredirect { font-style: italic; }
+     
+     .watchlistredir { font-style: italic; }
+
+     /* Bug 1583 Printing of thumbnails */
+     
+     div.tright { clear: right; }
+
+     /* SideBoxes ([[:de:Wikipedia:TownBox|TB]]) */
+     
+     div.sideBox {
+         position: relative;
+         float: right;
+         background: white;
+         margin-left: 1em;
+         border: 1px solid gray;
+         padding: 0.3em;
+         width: 200px;
+         overflow: hidden;
+         clear: right;
+     }
+     div.sideBox dl {
+         padding: 0;
+         margin: 0 0 0.3em 0;
+         font-size: 96%;
+     }
+     div.sideBox dl dt {
+         background: none;
+         margin: 0.4em 0 0 0;
+     }
+     div.sideBox dl dd {
+         margin: 0.1em 0 0 1.1em;
+         background-color: #f3f3f3;
+     }
+
+     .LanguageLinks {
+       margin-top: 0.5em;
+     }
+
+    /* Major warning - used on the main page template to warn against editing carelessly, but can be used elsewhere as well */
+    .majorwarning {
+      background: yellow; 
+      padding: 0.3em; 
+      text-align: center; 
+      font-size: 125%; 
+      border: 2px solid red;
+    }
+
+    /******* MAIN PAGE STYLING **********/
 
     #mainpage_topbox {
       background: #f9f9f9; 
@@ -16,6 +150,247 @@ title: Common.css
       margin: 0.2em 10px 10px;
     }
 
+    .mainpage_boxtitle, .mainpage_hubtitle, #mainpage_pagetitle {
+      font-size: 105%; 
+      padding: 0.4em; 
+      background-color: #eeeeee; 
+      border-bottom: 1px solid #aaaaaa; 
+
+    }
+
+    .mainpage_boxtitle {
+      line-height: 120%;
+    }
+
+    #mainpage_pagetitle {
+      color: #cf7606; 
+      font-size: 200% !important;
+    }
+
+    #mainpage_sitelinks {
+      padding: 0.2em; 
+      text-align: center;
+      background-color: white;
+    }
+    .mainpage_hubtitle {
+      text-align: center;
+    }
+
+    .mainpage_boxcontents, .mainpage_boxcontents_small {
+      background: #ffffff;
+      padding:0.2em 0.4em;
+    }
+
+    .mainpage_boxcontents_small {
+      font-size: 95%;
+    }
+
+    .mainpage_hubbox, #mainpage_newscell, #mainpage_downloadcell {
+      padding: 0;
+      border: 1px solid #aaaaaa;
+    }
+
+    .mainpage_hubbox {
+      margin-bottom: 0;
+    }
+
+    #mainpage_newscell {
+      margin-bottom: 15px;
+      margin-top: 0 !important;
+    }
+
+    #mainpage_downloadcell {
+      width: 17em; 
+      margin-bottom: 5px; 
+    }
+
+    /* The words 'MediaWiki.org' in the title.*/
+    #mainpage_mwtitle {
+      color: #005288;
+    }
+
+    /********* Extension Infobox Styling ***********/
+
+    .ext-infobox {
+      border: 2px solid #aaaaaa;
+      width: 272px; 
+      float: right; 
+      margin: 0 0 0.5em 0.5em; 
+      border-collapse: collapse; 
+      background-color: white;
+    }
+
+    .ext-infobox td {
+      border: 2px none #aaaaaa;
+      padding: 0.2em 0.5em;
+      border-bottom: 1px solid #f0f0f0 !important;
+    }
+
+    .ext-header {
+      background-color: #aaaaaa;
+      color: white;
+      text-align: left;
+    }
+    .ext-header td {
+      padding-top: 0.5em;
+    }
+
+    .ext-header img {
+      padding: 0 0.2em 0 0.5em;
+    }
+
+    .ext-status-unstable, .ext-status-unstable td {
+      border-color: #990000;
+    }
+    .ext-status-unstable .ext-header {
+      background-color: #990000;
+      color: #ffff00;
+    }
+
+    .ext-status-experimental, .ext-status-experimental td {
+      border-color: #CC6600;
+    }
+    .ext-status-experimental .ext-header {
+      background-color: #CC6600;
+    }
+
+    .ext-status-beta, .ext-status-beta td {
+      border-color: #000099;
+    }
+    .ext-status-beta .ext-header {
+      background-color: #000099;
+    }
+
+    .ext-status-stable, .ext-status-stable td  {
+      border-color: #009900;
+    }
+    .ext-status-stable .ext-header {
+      background-color: #009900;
+    }
+
+
+      /**** prettify [[Extension Matrix]] ****/  
+      
+      .xm-table {
+        border: 1px solid #666666;
+        background-color: white;
+      }
+      
+      .xm-table td, .xm-table th {
+        vertical-align: top;
+        text-align: left;
+        border: none;
+        background-color: #EEEEEE;
+      }
+      
+      .xm-table th {
+        font-weight: bold;
+      }
+      
+      .xm-name { font-weight: bold; }
+      
+      .xm-status-unknown { color:#888888; }
+      .xm-status-experimental { color:red; }
+      .xm-status-beta { color:blue; }
+      .xm-status-stable { color:green; }
+      
+      .xm-type-unknown { color:#888888; }
+      
+      .xm-name, .xm-status, .xm-type, .xm-version, .xm-updated { white-space: nowrap; }
+      
+      .xm-updated { font-size:80%; }
+     
+      .xm-alert { background-color: yellow; }
+      
+      td.xm-blank { background-color: inherit; }
+      td.xm-updated { background-color: inherit; }
+      
+      td.xm-description { 
+        background-color: inherit;
+        font-style: italic;
+      }
+      
+      th.xm-blank, th.xm-updated, th.xm-description { 
+        background-color: inherit; 
+        padding-bottom:0.6ex;
+        border-bottom: 1px solid #666666;
+      }
+      
+      th.xm-description { 
+        font-style: italic;
+      }
+
+    /** GENERAL PURPOSE PRETTY TABLES */
+    table.datatable th, td {
+        padding: 4px;
+    }
+    table.datatable th {
+        text-align: left;
+        background-color: #999999;
+    }
+    table.datatable tr {
+        background-color: #CCCCCC;
+    }
+    table.datatable tr:hover {
+        background-color: #FFFFCC;
+    }
+
+    /* wikitable/prettytable class for skinning normal tables */
+    table.wikitable,
+    table.prettytable {
+      margin: 1em 1em 1em 0;
+      background: #f9f9f9;
+      border: 1px #aaa solid;
+      border-collapse: collapse;
+      empty-cells:show;
+    }
+
+    table.wikitable th, table.wikitable td,
+    table.prettytable th, table.prettytable td {
+      border: 1px #aaa solid;
+      padding: 0.2em;
+    }
+
+    table.wikitable th, table.wikitable td .hl3, table.wikitable th .hl3
+    table.prettytable th, table.prettytable td .hl3, table.wikitable th .hl3 {
+      background: #8da7d6;
+      text-align: center;
+    }
+
+    table.wikitable td .hl1, table.wikitable th .hl1
+    table.prettytable td .hl1, table.wikitable th .hl1 {
+      background: #c5d8fc;
+      text-align: center;
+    }
+
+    table.wikitable td .hl2, table.wikitable th .hl2
+    table.prettytable td .hl2, table.wikitable th .hl2 {
+      background: #a7c1f2;
+      text-align: center;
+    }
+
+    table.wikitable caption,
+    table.prettytable caption {
+      margin-left: inherit;
+      margin-right: inherit;
+      font-weight: bold;
+    }
+
+
+    /** Sidebar External Links **/
+
+    #n-browse-cvs a, #n-phpdoc a, #n-Mailing-list a {
+        background: url(/skins-1.5/monobook/external.png) center right no-repeat;
+        padding-right: 13px;
+        color: #36b;
+    }
+
+    /* make the list of references look smaller */
+    ol.references {
+       font-size: 100%;
+    }
+
+    .references-small { font-size: 90%;}
 
     /** </nowiki>
 

@@ -20,3 +20,5 @@ contents of MediaWiki:Mainpage to point to a different title. This will
 not affect any of the links of the main navigation bar, including the
 \'Main Page\' link included there at install time; to change these
 links, edit MediaWiki:Sidebar.
+
+<http://www.mediawiki.org/wiki/MediaWiki:Common.css>

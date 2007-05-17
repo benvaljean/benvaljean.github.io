@@ -3,13 +3,20 @@ layout: post
 title: Common.css
 ---
 
-/\*\* CSS placed here will be applied to all skins \*/
+`/** `
 
-1.  mainpage\_topbox {
+    <nowiki> */
 
-` background: #f9f9f9; `\
-` padding: 0px; `\
-` border: 1px solid #aaaaaa; `\
-` margin: 0.2em 10px 10px;`
+    /** CSS placed here will be applied to all skins */
 
-}
+    #mainpage_topbox {
+      background: #f9f9f9; 
+      padding: 0px; 
+      border: 1px solid #aaaaaa; 
+      margin: 0.2em 10px 10px;
+    }
+
+
+    /** </nowiki>
+
+\*/

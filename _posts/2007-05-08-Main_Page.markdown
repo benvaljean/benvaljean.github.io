@@ -25,4 +25,4 @@ using the wiki software.
 
 [Useful Sites](Useful_Sites "wikilink")
 
-[Wiki stuff](Wiki_stuff "wikilink")
+[Wiki Stuff](Wiki_Stuff "wikilink")

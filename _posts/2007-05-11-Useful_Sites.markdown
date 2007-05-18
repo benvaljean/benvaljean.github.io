@@ -18,3 +18,13 @@ Manager](http://www.beginningtoseethelight.org/ntsecurity/index.php)
 
 [Windows XP Support Tools](http://support.microsoft.com/kb/838079/en-us)
 Includes DOS-based add to domain tool
+
+[How to re-initialize the offline files cache and
+database](http://support.microsoft.com/kb/230738)
+
+[Dapper Custmisation
+Guide](http://ubuntuforums.org/showthread.php?t=296462) unverified to be
+useful
+
+[Linux/Server HOWTO site](http://gentoo-wiki.com/Index:HOWTO) Great
+guide

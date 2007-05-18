@@ -23,6 +23,6 @@ using the wiki software.
 
 [Scratchpad](Scratchpad "wikilink")
 
-[Useful\_sites](Useful_sites "wikilink")
+[Useful Sites](Useful_Sites "wikilink")
 
-[Wiki\_Stuff](Wiki_Stuff "wikilink")
+[Wiki stuff](Wiki_stuff "wikilink")

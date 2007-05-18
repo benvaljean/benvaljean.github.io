@@ -15,3 +15,6 @@ Manager](http://www.beginningtoseethelight.org/ntsecurity/index.php)
 [Fasthosts.co.uk](http://www.fasthosts.co.uk)
 
 [Robotex](http://www.robtex.com) Great IP investigation site
+
+[Windows XP Support Tools](http://support.microsoft.com/kb/838079/en-us)
+Includes DOS-based add to domain tool

@@ -21,5 +21,8 @@ using the wiki software.
 
 ### My Stuff
 
-[Scratchpad](Scratchpad "wikilink") [Useful
-sites](Useful_sites "wikilink") [Wiki Stuff](Wiki_Stuff "wikilink")
+[Scratchpad](Scratchpad "wikilink")
+
+[Useful\_sites](Useful_sites "wikilink")
+
+[Wiki\_Stuff](Wiki_Stuff "wikilink")

@@ -16,9 +16,6 @@ Manager](http://www.beginningtoseethelight.org/ntsecurity/index.php)
 
 [Robotex](http://www.robtex.com) Great IP investigation site
 
-[Windows XP Support Tools](http://support.microsoft.com/kb/838079/en-us)
-Includes DOS-based add to domain tool
-
 [How to re-initialize the offline files cache and
 database](http://support.microsoft.com/kb/230738)
 
@@ -40,3 +37,12 @@ Tips](http://www.windowsnetworking.com/kbase/WindowsTips/WindowsNT/RegistryTips/
     Secrets](http://www.windowsnetworking.com/nt/registry/rtips320.shtml)
 
 [1](http://en.wikipedia.org/wiki/Wikipedia:Featured_pictures/Aeronautics_and_aviation)
+
+### Downloads
+
+[Windows XP Support Tools](http://support.microsoft.com/kb/838079/en-us)
+Includes DOS-based add to domain tool
+
+[Invisible
+Secrets](http://software.techrepublic.com.com/download.aspx?&docid=236355&promo=100511)
+Hide files inside JPG/BMP etc

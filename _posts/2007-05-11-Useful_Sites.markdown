@@ -28,3 +28,13 @@ useful
 
 [Linux/Server HOWTO site](http://gentoo-wiki.com/Index:HOWTO) Great
 guide
+
+[Registry
+Tips](http://www.windowsnetworking.com/kbase/WindowsTips/WindowsNT/RegistryTips/)
+
+:   [CachedLogonHashes](http://www.windowsnetworking.com/kbase/WindowsTips/WindowsNT/RegistryTips/Password/CachedLogonHashes.html)
+
+<!-- -->
+
+:   [LSA
+    Secrets](http://www.windowsnetworking.com/nt/registry/rtips320.shtml)

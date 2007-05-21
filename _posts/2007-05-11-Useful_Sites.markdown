@@ -38,3 +38,5 @@ Tips](http://www.windowsnetworking.com/kbase/WindowsTips/WindowsNT/RegistryTips/
 
 :   [LSA
     Secrets](http://www.windowsnetworking.com/nt/registry/rtips320.shtml)
+
+[1](http://en.wikipedia.org/wiki/Wikipedia:Featured_pictures/Aeronautics_and_aviation)

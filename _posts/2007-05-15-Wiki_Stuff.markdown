@@ -3,6 +3,8 @@ layout: post
 title: Wiki Stuff
 ---
 
+\_\_NOTOC\_\_
+
 <http://www.mediawiki.org/wiki/Manual:FAQ>
 <http://www.mediawiki.org/wiki/Manual:Navigation_bar>
 

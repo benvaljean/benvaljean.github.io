@@ -78,6 +78,7 @@ left behind in your right click menu from a previous software install.
 
 ### See Also
 
-[Slow right click](http://windowsxp.mvps.org/slowrightclick.htm) [Manage
-the context-menu entries for folders, drives and Namespace
+[Slow right click](http://windowsxp.mvps.org/slowrightclick.htm)
+
+[Manage the context-menu entries for folders, drives and Namespace
 objects](http://windowsxp.mvps.org/context_folders.htm)

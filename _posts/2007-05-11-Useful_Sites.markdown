@@ -36,7 +36,8 @@ Tips](http://www.windowsnetworking.com/kbase/WindowsTips/WindowsNT/RegistryTips/
 :   [LSA
     Secrets](http://www.windowsnetworking.com/nt/registry/rtips320.shtml)
 
-[1](http://en.wikipedia.org/wiki/Wikipedia:Featured_pictures/Aeronautics_and_aviation)
+[Password Protect Directory With
+htaccess](http://www.cyberciti.biz/faq/howto-setup-apache-password-protect-directory-with-htaccess-file/)
 
 ### Downloads
 
@@ -46,3 +47,9 @@ Includes DOS-based add to domain tool
 [Invisible
 Secrets](http://software.techrepublic.com.com/download.aspx?&docid=236355&promo=100511)
 Hide files inside JPG/BMP etc
+
+### Not IT
+
+[Escape!](http://members.iinet.net.au/~pontipak/redsquare.html)
+
+[1](http://en.wikipedia.org/wiki/Wikipedia:Featured_pictures/Aeronautics_and_aviation)

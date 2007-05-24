@@ -41,6 +41,8 @@ htaccess](http://www.cyberciti.biz/faq/howto-setup-apache-password-protect-direc
 
 [PHP Tutorial](http://www.w3schools.com/php/default.asp)
 
+:   [Sessions](http://www.w3schools.com/php/php_sessions.asp)
+
 ### Downloads
 
 [Windows XP Support Tools](http://support.microsoft.com/kb/838079/en-us)

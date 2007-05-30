@@ -86,8 +86,9 @@ title: Registry (Windows)
         -   Microsoft\\\\Office\\\\\<9.0\|10.0\|11.0\>\\\\Outlook\\\\Security
             -   Level1Remove: (string) Specify extensions to not be
                 blocked by the internal blocking function within
-                Outlook, seperated by semi-colons. See also Unblock
-                Outlook attachment blocking
+                Outlook, seperated by semi-colons. See also [Disable
+                Attachment Blocking
+                (Outlook)](Disable_Attachment_Blocking_(Outlook) "wikilink")
         -   Microsoft\\\\Windows\\\\CurrentVersion
             -   Internet Settings
                 -   ProxyServer: Address for a proxy server for the

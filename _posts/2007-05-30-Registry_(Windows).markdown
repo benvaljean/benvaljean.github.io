@@ -258,7 +258,8 @@ title: Registry (Windows)
                 product key. Tools which can read the product key on
                 your PC decode this. Change one of the values in this
                 key to deactivate Windows to allow a new key to be
-                entered. See also: \[Change Product Key (Windows XP)\]
+                entered. See also: [Change Product Key (Windows
+                XP)](Change_Product_Key_(Windows_XP) "wikilink")
     -   \\\\Policies:
         -   System
             -   ReadOnlyProfile: (0 or 1) Disables the saving of the

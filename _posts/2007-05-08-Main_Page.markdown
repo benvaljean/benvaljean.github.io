@@ -29,5 +29,7 @@ using the wiki software.
 
 ### IT Stuff
 
-[Registry](Registry "wikilink") [Change Product Key (Windows
+[Registry](Registry "wikilink")
+
+[Change Product Key (Windows
 XP)](Change_Product_Key_(Windows_XP) "wikilink")

@@ -26,3 +26,8 @@ using the wiki software.
 [Useful Sites](Useful_Sites "wikilink")
 
 [Wiki Stuff](Wiki_Stuff "wikilink")
+
+### IT Stuff
+
+[Registry](Registry "wikilink") [Change Product Key (Windows
+XP)](Change_Product_Key_(Windows_XP) "wikilink")

@@ -175,3 +175,82 @@ title: Registry (Windows)
             -   DateTime\\\\Servers: Time server for synchronising your
                 time are set here, use sub-keys with the names or 1,2,3,
                 etc to set preference.
+        -   Explorer
+            -   EnableBalloonTips: (0 or 1)
+            -   FolderContentsInfoTip: (0 or 1) Disable folder stats on
+                mouse hover.
+            -   StartButtonBalloonTip: (0 or 1) Disable Start Menu mouse
+                hover tips.
+            -   InternetOpenWith: (0 or 1) Allows the disabling of the
+                web service dialog when a file of an unknown type is
+                opened - opening with Open With dialog instead.
+            -   PersistBrowsers: (0 or 1) With this enabled Windows will
+                reopen and directories that were open when shutting
+                down. - A little like sesion saving with X Window but
+                for directory listings only.
+            -   ThumbnailSize: (height in pixels) This settings
+                specifies the size of the thumbnails in the thumbnail
+                view - this is useful if you have a large screen
+                resolution and your thumbnails are too small. Windows
+                may need to be restarted for the changes make to take
+                effect.
+            -   ThumbnailQuality: (percent) If your thumbs.db files are
+                huge you can can reduce this figure.
+            -   AlwaysUnloadDLL: (0 or 1) Windows caches DLLs in use by
+                a programme after it has quit for a while. It benefit is
+                lost on low-memory for heavy-load systems, disable it by
+                setting the key to 1.
+        -   Policies:
+            -   DontDisplayLastUserName: (0 or 1) Set this to 1 and upon
+                relogging in the last user name to do will not be shown.
+            -   Explorer:
+                -   ClassicShell: (0 or 1) Set to 1 to disable web
+                    content in Explorer - can improve performance.
+                -   NoDriveTypeAutoRun: dword:000000ff Disable autorun
+                    for CDs.
+                -   NoSaveSettings: (0 or 1) Check this key if your
+                    profile is not saving, or use it under HKCU for a
+                    standardised login/layout.
+                -   MemCheckBoxInRunDlg: (0 or 1) Show the run in
+                    seperate memory space option in the run dialog box.
+                    This is useful if you fdind your 16-bit apps have
+                    never run properly from Win2k onwards as running the
+                    virtual DOS machine in sandbox mode might allow it
+                    run properly.
+        -   OptimalLayout
+            -   EnableAutoLayout: (0 or 1) Auto moves data on your disk
+                when idle so that frequently used drivers/programmes are
+                quicker to access.
+    -   \\\\Microsoft\\\\Windows CE Services: Settings in realtion to
+        PDAs/smartphone, typically with regard to ActiveSync.
+        -   GuestOnly: (0 or 1) Set to 1 to disable the ability to
+            create new partnerships.
+        -   AppMgr
+            -   SilentInstall: (0 or 1) Set to 0 to stop the
+                ActiveSyncinstalling whenever the device is connected,
+                also delete the key below:
+        -   AutoStartOnConnect
+            -   CEAppMgr: (string) Use this key if you wish to set a
+                third-party app back to use the PDA/smartphone after
+                ActiveSync has installed itself over the top.
+    -   \\\\Microsoft\\\\Windows NT\\\\CurrentVersion
+        -   Winlogon
+            -   PasswordExpiryWarning: (no of days in DWORD)
+            -   LogonType: (0 or 1) This value is 0 by default for
+                Win2k/XP Pro and 1 for XP Home. If you have XP Home but
+                miss the Ctrl+Alt+Del functions of XP Pro then this is a
+                good key to know.
+            -   AllowMultipleTSSessions: (0 or 1) Enables fast user
+                switching thus without having to close any programmes.
+            -   Welcome: (string) Use this key to append text to the end
+                of the logon and security dialog titles.
+            -   ForceAutoLogon: (0 or 1) With the auto logon feature
+                enabled it can be disabled on a per-session basis my
+                holding shift - this key disables that ability.
+            -   LegalNoticeText: (string) create a dialog box before
+                logging on that the users have to click past, whch can
+                be used for legal notices but is also used for system
+                announcements in some environments.
+            -   LegalNoticeCaption: (string) Set the title for the lega
+                notice window.
+        -   WPAEvents

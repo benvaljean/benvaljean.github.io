@@ -86,4 +86,4 @@ to (adding the if statement and indenting existing lines)
 
 The logo image should be 135 pixels square.
 
-[1](http://meta.wikimedia.org/wiki/Word_macros#Word2Wiki)
+[Word2Wiki macro](http://meta.wikimedia.org/wiki/Word_macros#Word2Wiki)

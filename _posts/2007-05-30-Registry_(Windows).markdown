@@ -277,36 +277,35 @@ title: Registry (Windows)
                 -   IdleEnable: (0 or 1) Set this to one to increase the
                     USB polling inerval. This is useful for laptops as
                     it allows a better standby.
-                -   Session Manager
-                    -   SafeDllSearchMode: Change the search orger for a
-                        required DLL for a pgoramme. 1 = search Windows
-                        dirs first, 0 = current dir first.
-                    -   Memory Management
-                        -   SystemPages: This key relfects the number of
-                            page table entries, if you find your system
-                            is crashing under heavy I/O loads this could
-                            fix it.
-                        -   DisablePagingExecutive: (0 or 1) Systems
-                            with a large amount of RAM can easily
-                            incrase system performance by forcing
-                            Windows to not page its core systems - the
-                            Windows Executive.
-                        -   ClearPageFileAtShutdown: (0 or 1) Heavy load
-                            systems will benefit from a fresh page file
-                            and it makes it harder for hackers to try
-                            and mine passwords from it.
-                        -   LargeSystemCache: (DWORD 0=desktops
-                            1=servers) Control the memory dedicated for
-                            file caching. Desktops tend to be optimal
-                            when more memory is for apps - the reverse
-                            is true for servers although setting this
-                            value to 1 on a desktop could speed it up.
-                    -   Subsystems
-                        -   Optional: The session manager loads OS/2 and
-                            Posix when they are rarely used. You can
-                            disable both sub systems from removing
-                            \"Posix\" from the key. Leave \"OS/2\" in
-                            the key if it is there.
+            -   Session Manager
+                -   SafeDllSearchMode: Change the search orger for a
+                    required DLL for a pgoramme. 1 = search Windows dirs
+                    first, 0 = current dir first.
+                -   Memory Management
+                    -   SystemPages: This key relfects the number of
+                        page table entries, if you find your system is
+                        crashing under heavy I/O loads this could fix
+                        it.
+                    -   DisablePagingExecutive: (0 or 1) Systems with a
+                        large amount of RAM can easily incrase system
+                        performance by forcing Windows to not page its
+                        core systems - the Windows Executive.
+                    -   ClearPageFileAtShutdown: (0 or 1) Heavy load
+                        systems will benefit from a fresh page file and
+                        it makes it harder for hackers to try and mine
+                        passwords from it.
+                    -   LargeSystemCache: (DWORD 0=desktops 1=servers)
+                        Control the memory dedicated for file caching.
+                        Desktops tend to be optimal when more memory is
+                        for apps - the reverse is true for servers
+                        although setting this value to 1 on a desktop
+                        could speed it up.
+                -   Subsystems
+                    -   Optional: The session manager loads OS/2 and
+                        Posix when they are rarely used. You can disable
+                        both sub systems from removing \"Posix\" from
+                        the key. Leave \"OS/2\" in the key if it is
+                        there.
         -   Services
             -   Tcpip
                 -   Parameters

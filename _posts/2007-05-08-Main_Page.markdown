@@ -41,3 +41,16 @@ XP)](Change_Product_Key_(Windows_XP) "wikilink")
 (Explorer)](Context_Menu_Handler_(Explorer) "wikilink")
 
 [Startup Methods](Startup_Methods "wikilink")
+
+### IT Reference
+
+[Contig](http://www.microsoft.com/technet/sysinternals/FileAndDisk/Contig.mspx)
+- defrag specific files
+
+[MoveFile](http://www.microsoft.com/technet/sysinternals/FileAndDisk/pendmoves.mspx)
+- set a rename/delete schedule at reboot for a file which is in use.
+
+[Wndows File Protection](http://support.microsoft.com/kb/222193/EN-US/)
+
+[Windows
+Debugging](http://www.microsoft.com/whdc/devtools/debugging/debugstart.mspx)

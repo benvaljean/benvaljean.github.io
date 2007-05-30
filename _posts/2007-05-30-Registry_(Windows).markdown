@@ -113,7 +113,7 @@ title: Registry (Windows)
         PDAs/smartphone, typically with regard to ActiveSync. Note the
         US spelling.
         -   Briefcase Creation: States when the synchronisation was
-            setup in secondd from 12:00 AM 0/0/0
+            setup in seconds from 12:00 AM 0/0/0
         -   ResetPartner: (0 or 1) Set to 1 to force the reset of a
             partnership.
     -   \\\\Microsoft\\\\Windows NT\\\\Curent Version
@@ -121,10 +121,57 @@ title: Registry (Windows)
             restrictions; usually set by Group Policy.
             -   NoRun: (0 or 1)
             -   NoFileMenu: (0 or 1)
-            -   NoClose: (0 or 1) Why would a sysadmin want to restrict
-                the closing of Task Manager?
+            -   NoClose: (0 or 1)
         -   Winlogon
             -   BuildNumber: You can have great fun with this if you are
                 bored.
             -   ParseAutoexec: Force Windows to parse the autoexec.bat
                 file.
+
+<!-- -->
+
+-   **HKEY\_LOCAL\_MACHINE**: Contains information about the hardware
+    and software settings that are generic to all users of this
+    particular computer.
+    -   Hardware: Information regarding hardware of the system,
+        populated by NTDETECT.COM, loaded by NTLDR, at the very
+        beginning of the boot process.
+    -   Security: Network security settings.
+    -   Software: Software specific information/settings, often by make
+        first
+        -   Microsoft\\\\Windows\\\\CurrentVersion
+            -   ProgramFilesDir: Change the default dir for new programs
+                here.
+            -   Sourcepath: (string) Windows uses this key or the one
+                under the Setup key below as a source for the
+                Windows CD. Copy your i386 dir on your Windows CD and
+                set this key accordingly and you will no longer have to
+                insert your Windows CD when Windows requires files from
+                it.
+            -   Setup
+                -   Sourcepath: (string) Some apps use the key here
+                    instead of the one detailed above; set both to
+                    reflect you i386 folder location.
+            -   CommonFilesDir: Location of the Common files dir.
+                Default is c:\\\\program files\\\\Common files
+            -   Netcache: Settings relating to offline folders; entries
+                here are often put there by Group Policy in Computer
+                Configuration\\\\Administrative
+                Templates\\\\Network\\\\Offline Files folder.
+                -   Enabled: (0 or 1) Disables or enables and restricts
+                    the user from changing the setting.
+                -   NoCacheViewer: (0 or 1) Disables the \'Offline
+                    Files\' folder although it is still enabled through
+                    using the network drives offline.
+                -   NoReminders: (0 or 1) Disables reminders to
+                    synchronise. Ensure this is set to 1 if you have it
+                    disabled it via editing the registry - it can cause
+                    problems otherwise.
+                -   FormatDatabase: (1) If there is corruption in the
+                    offline files/CSC database and the Offline Files tab
+                    cannot be accesed, create this key. The actual value
+                    is ignored; upon rebooting Windows will clear the
+                    CSC database and del the key.
+            -   DateTime\\\\Servers: Time server for synchronising your
+                time are set here, use sub-keys with the names or 1,2,3,
+                etc to set preference.

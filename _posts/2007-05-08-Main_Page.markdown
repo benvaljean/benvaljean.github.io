@@ -54,3 +54,44 @@ XP)](Change_Product_Key_(Windows_XP) "wikilink")
 
 [Windows
 Debugging](http://www.microsoft.com/whdc/devtools/debugging/debugstart.mspx)
+
+[Not broadcasting your Wireless SSID does not hide your
+network](http://www.wi-fiplanet.com/tutorials/article.php/3576541)
+
+[Translate SID \<\-\-\--\>
+Username](http://www.microsoft.com/technet/scriptcenter/resources/qanda/dec04/hey1203.mspx)
+
+[1](http://blogs.msdn.com/larryosterman/archive/2004/09/02/224713.aspx)
+
+### Trobuleshooting
+
+[Word Trobuleshooting](http://support.microsoft.com/kb/820919/)
+
+[CD Burning Driver
+Conflicts](http://support.microsoft.com/default.aspx?scid=KB;EN-US;q315345&)
+
+[Windows Installer Cleanup
+Utility](http://support.microsoft.com/kb/290301/en-us) - use this to
+remove persistent install dialogs etc.
+
+[Windows Installer](http://support.microsoft.com/kb/555175/en-us)
+
+[Print Spooler Issues](http://support.microsoft.com/kb/324757)
+
+[ActiveSync General Troubleshooting
+Guide](http://www.pocketpcfaq.com/faqs/activesync/initialconfig.htm)
+
+[ActiveSync 4.0/4.1/4.2 USB Connection Troubleshooting
+Guide](http://www.microsoft.com/windowsmobile/help/activesync/default.mspx)
+
+### IT Forum Sites
+
+[Tek-Tips](http://www.tek-tips.com/)
+
+[theeldergeek.com](http://www.theeldergeek.com/)
+
+[Webopedia](http://www.webopedia.com/)
+
+[OSROnline](http://www.osronline.com/)
+
+[forums.techguy.org](http://forums.techguy.org/)

@@ -254,3 +254,77 @@ title: Registry (Windows)
             -   LegalNoticeCaption: (string) Set the title for the lega
                 notice window.
         -   WPAEvents
+            -   OOBETimer: (binary) This key is a hash of your Windows
+                product key. Tools which can read the product key on
+                your PC decode this. Change one of the values in this
+                key to deactivate Windows to allow a new key to be
+                entered. See also: <u>Change Windows Product Key</u>
+    -   \\\\Policies:
+        -   System
+            -   ReadOnlyProfile: (0 or 1) Disables the saving of the
+                profile.
+    -   System: Contains information on which device drivers should be
+        loaded at startup, it is populated from
+        systemroot\\\\System32\\\\Config\\\\System. NTLDR uses this hive
+        to ascertain which device drivers need to be loaded during
+        startup. Each configuration of device drivers is stored under
+        ControlSetxxx. Other subkeys include:
+        -   CurrentControlSet: A pointer to a ControlSetxxx - the one
+            currently in use.
+            -   Control
+            -   \\\\Class\\\\{36FC9E60-C465-11CF-8056-444553540000}\\\\0000
+                -   IdleEnable: (0 or 1) Set this to one to increase the
+                    USB polling inerval. This is useful for laptops as
+                    it allows a better standby.
+                -   Session Manager
+                    -   SafeDllSearchMode: Change the search orger for a
+                        required DLL for a pgoramme. 1 = search Windows
+                        dirs first, 0 = current dir first.
+                    -   Memory Management
+                        -   SystemPages: This key relfects the number of
+                            page table entries, if you find your system
+                            is crashing under heavy I/O loads this could
+                            fix it.
+                        -   DisablePagingExecutive: (0 or 1) Systems
+                            with a large amount of RAM can easily
+                            incrase system performance by forcing
+                            Windows to not page its core systems - the
+                            Windows Executive.
+                        -   ClearPageFileAtShutdown: (0 or 1) Heavy load
+                            systems will benefit from a fresh page file
+                            and it makes it harder for hackers to try
+                            and mine passwords from it.
+                        -   LargeSystemCache: (DWORD 0=desktops
+                            1=servers) Control the memory dedicated for
+                            file caching. Desktops tend to be optimal
+                            when more memory is for apps - the reverse
+                            is true for servers although setting this
+                            value to 1 on a desktop could speed it up.
+                    -   Subsystems
+                        -   Optional: The session manager loads OS/2 and
+                            Posix when they are rarely used. You can
+                            disable both sub systems from removing
+                            \"Posix\" from the key. Leave \"OS/2\" in
+                            the key if it is there.
+        -   Services
+            -   Tcpip
+                -   Parameters
+                    -   DisableTaskOffload: (0 or 1) Set this to 0 to
+                        use the CPU within your NIC if it has one; this
+                        slightly reduces the load on your CPU.
+        -   Select: Information on which ControlSet is chosen when:
+            -   Default: The CS that will be used/attempted on the next
+                bootup
+            -   Current
+            -   Failed: If 0 then no fail has ever occured - otherwise
+                this states a config that has previously failed.
+            -   LastKnownGood: Points to the CS that was used during the
+                last user session.
+-   **HKEY\_USERS:** Contains all user profiles stored by their SID, you
+    should only require use of this key if you want to edit the registry
+    of a user whilst not logged on as the user. HKEY\_CURRENT\_USER
+    points to the SID of the user currently logged on and
+    HKEY\_CLASSES\_ROOT points to the \"<SID>\_Classes\" key (along with
+    HKEY\_LOCAL\_MACHINE\\\\SOFTWARE\\\\Classes.)
+    -   .DEFAULT: The profile windows uses at the login prompt/GINA
+        chain and the default profile when new users are created.

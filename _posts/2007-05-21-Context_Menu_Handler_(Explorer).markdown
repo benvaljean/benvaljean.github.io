@@ -43,6 +43,8 @@ class, folder, allfilesystemobjects, HKCR\\\\\* registry keys), it\'s a
 difficult task for an end-user to pinpoint which shell extension is
 causing the problem.
 
+### Resolution
+
 #### Method 1
 
 First, isolate the problem. Observe when the problem occurs. While

@@ -20,4 +20,6 @@ You may need to reboot before you can start using Windows Update etc.
 
 ### See Also
 
-[KB328874](http://support.microsoft.com/kb/328874) \[test\]
+[KB328874](http://support.microsoft.com/kb/328874)
+
+[Registry](Registry "wikilink")

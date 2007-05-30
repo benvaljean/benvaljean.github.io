@@ -118,19 +118,17 @@ title: Registry (Windows)
                 setup in seconds from 12:00 AM 0/0/0
             -   ResetPartner: (0 or 1) Set to 1 to force the reset of a
                 partnership.
-
-<!-- -->
-
--   -   Microsoft\\\\Windows NT\\\\Curent Version
-        -   Program Manager\\\\Restrictions: Allows manipulation
-            restrictions; usually set by Group Policy.
-            -   NoRun: (0 or 1)
-            -   NoFileMenu: (0 or 1)
-            -   NoClose: (0 or 1)
-    -   Winlogon
-        -   BuildNumber: You can have great fun with this if you are
-            bored.
-        -   ParseAutoexec: Force Windows to parse the autoexec.bat file.
+        -   Microsoft\\\\Windows NT\\\\Curent Version
+            -   Program Manager\\\\Restrictions: Allows manipulation
+                restrictions; usually set by Group Policy.
+                -   NoRun: (0 or 1)
+                -   NoFileMenu: (0 or 1)
+                -   NoClose: (0 or 1)
+        -   Winlogon
+            -   BuildNumber: You can have great fun with this if you are
+                bored.
+            -   ParseAutoexec: Force Windows to parse the autoexec.bat
+                file.
 
 <!-- -->
 
@@ -225,50 +223,55 @@ title: Registry (Windows)
             -   EnableAutoLayout: (0 or 1) Auto moves data on your disk
                 when idle so that frequently used drivers/programmes are
                 quicker to access.
-    -   \\\\Microsoft\\\\Windows CE Services: Settings in realtion to
-        PDAs/smartphone, typically with regard to ActiveSync.
-        -   GuestOnly: (0 or 1) Set to 1 to disable the ability to
-            create new partnerships.
-        -   AppMgr
-            -   SilentInstall: (0 or 1) Set to 0 to stop the
-                ActiveSyncinstalling whenever the device is connected,
-                also delete the key below:
-        -   AutoStartOnConnect
-            -   CEAppMgr: (string) Use this key if you wish to set a
-                third-party app back to use the PDA/smartphone after
-                ActiveSync has installed itself over the top.
-    -   \\\\Microsoft\\\\Windows NT\\\\CurrentVersion
-        -   Winlogon
-            -   PasswordExpiryWarning: (no of days in DWORD)
-            -   LogonType: (0 or 1) This value is 0 by default for
-                Win2k/XP Pro and 1 for XP Home. If you have XP Home but
-                miss the Ctrl+Alt+Del functions of XP Pro then this is a
-                good key to know.
-            -   AllowMultipleTSSessions: (0 or 1) Enables fast user
-                switching thus without having to close any programmes.
-            -   Welcome: (string) Use this key to append text to the end
-                of the logon and security dialog titles.
-            -   ForceAutoLogon: (0 or 1) With the auto logon feature
-                enabled it can be disabled on a per-session basis my
-                holding shift - this key disables that ability.
-            -   LegalNoticeText: (string) create a dialog box before
-                logging on that the users have to click past, whch can
-                be used for legal notices but is also used for system
-                announcements in some environments.
-            -   LegalNoticeCaption: (string) Set the title for the lega
-                notice window.
-        -   WPAEvents
+        -   Microsoft\\\\Windows CE Services: Settings in realtion to
+            PDAs/smartphone, typically with regard to ActiveSync.
+            -   GuestOnly: (0 or 1) Set to 1 to disable the ability to
+                create new partnerships.
+            -   AppMgr
+                -   SilentInstall: (0 or 1) Set to 0 to stop the
+                    ActiveSyncinstalling whenever the device is
+                    connected, also delete the key below:
+            -   AutoStartOnConnect
+                -   CEAppMgr: (string) Use this key if you wish to set a
+                    third-party app back to use the PDA/smartphone after
+                    ActiveSync has installed itself over the top.
+        -   Microsoft\\\\Windows NT\\\\CurrentVersion
+            -   Winlogon
+                -   PasswordExpiryWarning: (no of days in DWORD)
+                -   LogonType: (0 or 1) This value is 0 by default for
+                    Win2k/XP Pro and 1 for XP Home. If you have XP Home
+                    but miss the Ctrl+Alt+Del functions of XP Pro then
+                    this is a good key to know.
+                -   AllowMultipleTSSessions: (0 or 1) Enables fast user
+                    switching thus without having to close any
+                    programmes.
+                -   Welcome: (string) Use this key to append text to the
+                    end of the logon and security dialog titles.
+                -   ForceAutoLogon: (0 or 1) With the auto logon feature
+                    enabled it can be disabled on a per-session basis my
+                    holding shift - this key disables that ability.
+                -   LegalNoticeText: (string) create a dialog box before
+                    logging on that the users have to click past, whch
+                    can be used for legal notices but is also used for
+                    system announcements in some environments.
+                -   LegalNoticeCaption: (string) Set the title for the
+                    lega notice window.
+            -   WPAEvents
             -   OOBETimer: (binary) This key is a hash of your Windows
                 product key. Tools which can read the product key on
                 your PC decode this. Change one of the values in this
                 key to deactivate Windows to allow a new key to be
                 entered. See also: [Change Product Key (Windows
                 XP)](Change_Product_Key_(Windows_XP) "wikilink")
-    -   \\\\Policies:
+
+<!-- -->
+
+-   -   Policies:
         -   System
             -   ReadOnlyProfile: (0 or 1) Disables the saving of the
                 profile.
-    -   System: Contains information on which device drivers should be
+
+-   -   System: Contains information on which device drivers should be
         loaded at startup, it is populated from
         systemroot\\\\System32\\\\Config\\\\System. NTLDR uses this hive
         to ascertain which device drivers need to be loaded during
@@ -277,10 +280,10 @@ title: Registry (Windows)
         -   CurrentControlSet: A pointer to a ControlSetxxx - the one
             currently in use.
             -   Control
-            -   \\\\Class\\\\{36FC9E60-C465-11CF-8056-444553540000}\\\\0000
-                -   IdleEnable: (0 or 1) Set this to one to increase the
-                    USB polling inerval. This is useful for laptops as
-                    it allows a better standby.
+                -   Class\\\\{36FC9E60-C465-11CF-8056-444553540000}\\\\0000
+                    -   IdleEnable: (0 or 1) Set this to one to increase
+                        the USB polling inerval. This is useful for
+                        laptops as it allows a better standby.
             -   Session Manager
                 -   SafeDllSearchMode: Change the search orger for a
                     required DLL for a pgoramme. 1 = search Windows dirs
@@ -324,6 +327,7 @@ title: Registry (Windows)
                 this states a config that has previously failed.
             -   LastKnownGood: Points to the CS that was used during the
                 last user session.
+
 -   **HKEY\_USERS:** Contains all user profiles stored by their SID, you
     should only require use of this key if you want to edit the registry
     of a user whilst not logged on as the user. HKEY\_CURRENT\_USER

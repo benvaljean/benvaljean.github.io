@@ -257,12 +257,13 @@ title: Registry (Windows)
                 -   LegalNoticeCaption: (string) Set the title for the
                     lega notice window.
             -   WPAEvents
-            -   OOBETimer: (binary) This key is a hash of your Windows
-                product key. Tools which can read the product key on
-                your PC decode this. Change one of the values in this
-                key to deactivate Windows to allow a new key to be
-                entered. See also: [Change Product Key (Windows
-                XP)](Change_Product_Key_(Windows_XP) "wikilink")
+                -   OOBETimer: (binary) This key is a hash of your
+                    Windows product key. Tools which can read the
+                    product key on your PC decode this. Change one of
+                    the values in this key to deactivate Windows to
+                    allow a new key to be entered. See also: [Change
+                    Product Key (Windows
+                    XP)](Change_Product_Key_(Windows_XP) "wikilink")
 
 <!-- -->
 

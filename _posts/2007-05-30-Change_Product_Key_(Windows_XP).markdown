@@ -20,4 +20,5 @@ You may need to reboot before you can start using Windows Update etc.
 
 ### See Also
 
-[KB328874](http://support.microsoft.com/kb/328874)
+[KB328874](http://support.microsoft.com/kb/328874) \[Change Product Key
+(Windows XP)\]

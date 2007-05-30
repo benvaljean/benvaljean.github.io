@@ -264,15 +264,11 @@ title: Registry (Windows)
                     allow a new key to be entered. See also: [Change
                     Product Key (Windows
                     XP)](Change_Product_Key_(Windows_XP) "wikilink")
-
-<!-- -->
-
--   -   Policies:
-        -   System
-            -   ReadOnlyProfile: (0 or 1) Disables the saving of the
-                profile.
-
--   -   System: Contains information on which device drivers should be
+        -   Policies:
+            -   System
+                -   ReadOnlyProfile: (0 or 1) Disables the saving of the
+                    profile.
+    -   System: Contains information on which device drivers should be
         loaded at startup, it is populated from
         systemroot\\\\System32\\\\Config\\\\System. NTLDR uses this hive
         to ascertain which device drivers need to be loaded during
@@ -328,7 +324,6 @@ title: Registry (Windows)
                 this states a config that has previously failed.
             -   LastKnownGood: Points to the CS that was used during the
                 last user session.
-
 -   **HKEY\_USERS:** Contains all user profiles stored by their SID, you
     should only require use of this key if you want to edit the registry
     of a user whilst not logged on as the user. HKEY\_CURRENT\_USER

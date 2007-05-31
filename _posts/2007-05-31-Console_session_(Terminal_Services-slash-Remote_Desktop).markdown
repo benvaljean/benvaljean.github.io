@@ -19,10 +19,10 @@ support a console option.
 
 A new client for 2003 exists as well that uses RDP 5.2 (it has a
 re-connect option if the connection is dropped and some other stuff):
-<http://www.microsoft.com/downloads/details>\...&DisplayLang=en Unlike
-the previous version it can be installed from 95 and up - although
-advanced features such as mapping local drives will not be supported pre
-XP.
+<http://www.microsoft.com/downloads/details.aspx?FamilyID=a8255ffc-4b4a-40e7-a706-cde7e9b57e79&DisplayLang=en>
+Unlike the previous version it can be installed from 95 and up -
+although advanced features such as mapping local drives will not be
+supported pre XP.
 
 To connect to the console session you start the client from a command
 prompt (or create a shortcut) or directly under Start Menu -\> Run with

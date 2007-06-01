@@ -5,6 +5,20 @@ title: Wiki Stuff
 
 \_\_NOTOC\_\_
 
+<big>**MediaWiki has been successfully installed.**</big>
+
+Consult the [User\'s
+Guide](http://meta.wikimedia.org/wiki/Help:Contents) for information on
+using the wiki software.
+
+### Getting started
+
+-   [Configuration settings
+    list](http://www.mediawiki.org/wiki/Help:Configuration_settings)
+-   [MediaWiki FAQ](http://www.mediawiki.org/wiki/Help:FAQ)
+-   [MediaWiki release mailing
+    list](http://mail.wikimedia.org/mailman/listinfo/mediawiki-announce)
+
 <http://www.mediawiki.org/wiki/Manual:FAQ>
 <http://www.mediawiki.org/wiki/Manual:Navigation_bar>
 

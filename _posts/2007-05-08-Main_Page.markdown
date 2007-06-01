@@ -63,6 +63,9 @@ Desktop)](Console_session_(Terminal_Services/Remote_Desktop) "wikilink")
 [Windows
 Debugging](http://www.microsoft.com/whdc/devtools/debugging/debugstart.mspx)
 
+[Terminal Services Client
+Install](http://microsoft.com/windowsxp/pro/downloads/rdclientdl.asp)
+
 [Not broadcasting your Wireless SSID does not hide your
 network](http://www.wi-fiplanet.com/tutorials/article.php/3576541)
 

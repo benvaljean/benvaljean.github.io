@@ -43,6 +43,10 @@ htaccess](http://www.cyberciti.biz/faq/howto-setup-apache-password-protect-direc
 
 :   [Sessions](http://www.w3schools.com/php/php_sessions.asp)
 
+[How to recover the information store on Exchange 2000 Server or
+Exchange Server 2003 in a single
+site](http://support.microsoft.com/kb/313184/)
+
 ### Downloads
 
 [Windows XP Support Tools](http://support.microsoft.com/kb/838079/en-us)

@@ -3,6 +3,9 @@ layout: post
 title: Scratchpad
 ---
 
+[Orbit
+Downloader](http://www.download.com/Orbit-Downloader/3640-2071_4-10692758.html?tag=tab_ur)
+
 [Debianhelp.org](http://www.debianhelp.org)
 
 [Dapperguide](http://doc.gwos.org/index.php/DapperGuide)

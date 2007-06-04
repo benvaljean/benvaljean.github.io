@@ -82,6 +82,9 @@ Guide](http://www.pocketpcfaq.com/faqs/activesync/initialconfig.htm)
 [ActiveSync 4.0/4.1/4.2 USB Connection Troubleshooting
 Guide](http://www.microsoft.com/windowsmobile/help/activesync/default.mspx)
 
+[Windows Media Player Troubleshooting
+Guide](http://www.zachd.com/pss/pss.html)
+
 ### IT Forum Sites
 
 [Tek-Tips](http://www.tek-tips.com/)

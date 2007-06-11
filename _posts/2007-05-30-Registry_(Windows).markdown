@@ -197,8 +197,10 @@ title: Registry (Windows)
                 resolution and your thumbnails are too small. Windows
                 may need to be restarted for the changes make to take
                 effect.
-            -   ThumbnailQuality: (percent) If your thumbs.db files are
-                huge you can can reduce this figure.
+            -   ThumbnailQuality: (percent) Setting this will decrease
+                the thumbnail size by (100-thumbnail\_quality)% and blow
+                it up to the size in the ThumbnailSize key. Pixelation
+                is blurred.
             -   AlwaysUnloadDLL: (0 or 1) Windows caches DLLs in use by
                 a programme after it has quit for a while. It benefit is
                 lost on low-memory for heavy-load systems, disable it by

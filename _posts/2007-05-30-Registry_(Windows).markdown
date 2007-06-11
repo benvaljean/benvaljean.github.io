@@ -280,12 +280,22 @@ title: Registry (Windows)
         -   CurrentControlSet: A pointer to a ControlSetxxx - the one
             currently in use.
             -   Control
+                -   FileSystem
+                    -   NtfsDisable8dot3NameCreation: (0 or 1) 2000/XP
+                        still creates 8dot3 filenames for backwards
+                        compatibility with apps that do not support
+                        Windows 95+. If none of your apps are that old
+                        set this key to 1 to improve performance.
+                    -   NtfsDisableLastAccessUpdate: (0 or 1) Disable
+                        updating of the last accessed timestamp to
+                        improve performance. Updating of other
+                        timestamps is unaffected.
                 -   Class\\\\{36FC9E60-C465-11CF-8056-444553540000}\\\\0000
                     -   IdleEnable: (0 or 1) Set this to one to increase
                         the USB polling inerval. This is useful for
                         laptops as it allows a better standby.
             -   Session Manager
-                -   SafeDllSearchMode: Change the search orger for a
+                -   SafeDllSearchMode: Change the search order for a
                     required DLL for a pgoramme. 1 = search Windows dirs
                     first, 0 = current dir first.
                 -   Memory Management

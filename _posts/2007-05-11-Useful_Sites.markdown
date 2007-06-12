@@ -56,8 +56,12 @@ Includes DOS-based add to domain tool
 Secrets](http://software.techrepublic.com.com/download.aspx?&docid=236355&promo=100511)
 Hide files inside JPG/BMP etc
 
+### Registry Related
+
+[1](http://technet2.microsoft.com/windowsserver/en/library/c07587ec-4a60-4bca-8508-29a4296b72121033.mspx?mfr=true)
+
 ### Not IT
 
 [Escape!](http://members.iinet.net.au/~pontipak/redsquare.html)
 
-[1](http://en.wikipedia.org/wiki/Wikipedia:Featured_pictures/Aeronautics_and_aviation)
+[2](http://en.wikipedia.org/wiki/Wikipedia:Featured_pictures/Aeronautics_and_aviation)

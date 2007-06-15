@@ -5,6 +5,10 @@ title: Registry (Windows)
 
 ### Structure
 
+SK/UK = System key/User key: This key can be used as a user key under
+HKEY\_CURRENT\_USER or as system key affecting all users on the machine
+under HKEY\_CURRENT\_USER.
+
 -   **HKEY\_CLASSES\_ROOT**: Contains software settings about
     drag-and-drop operations, handles shortcut information, and other
     user interface information. There is a subkey here for every file
@@ -96,6 +100,17 @@ title: Registry (Windows)
                 -   ProxyEnable: (0 or 1)
                 -   ProxyOveride: Exculded addreses
             -   Explorer
+                -   Shell Folders
+                    -   Personal: (string) Location of the \'My
+                        Documents\' folder. See also: [Restore/Repair My
+                        Documents
+                        (Windows)](Restore/Repair_My_Documents_(Windows) "wikilink")
+                -   User Shell Folders
+                    -   Personal: (string) Location of the \'My
+                        Documents\' folder - some apps check this key
+                        instead of \'Shell Folders\'. See also:
+                        [Restore/Repair My Documents
+                        (Windows)](Restore/Repair_My_Documents_(Windows) "wikilink")
                 -   Advanced
                     -   Hidden (1 = show 2 = do not show) Display hidden
                         files.
@@ -210,7 +225,7 @@ title: Registry (Windows)
                 relogging in the last user name to do will not be shown.
             -   Explorer:
                 -   ClassicShell: (0 or 1) Set to 1 to disable web
-                    content in Explorer - can improve performance.
+                    content in Explorer - can improve performance. SK/UK
                 -   NoDriveTypeAutoRun: dword:000000ff Disable autorun
                     for CDs.
                 -   NoSaveSettings: (0 or 1) Check this key if your

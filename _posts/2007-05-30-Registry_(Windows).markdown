@@ -100,6 +100,19 @@ under HKEY\_CURRENT\_USER.
                 -   ProxyEnable: (0 or 1)
                 -   ProxyOveride: Exculded addreses
             -   Explorer
+                -   Desktop
+                    -   DesktopProcess: (1=seperate process 0=default)
+                        Windows will normally use the same process for
+                        the Desktop, takebar and directory-windows.
+                        Should any one of these crash then the taskbar
+                        and Desktop will need to restart as well.
+                        Setthis key to 1 to put your desktop and taskbar
+                        in a seperate process. Note: Active Desktop, IE
+                        pre 5.5 cannot be used with this key set to 1.
+                    -   CleanupWiz
+                        -   \"Days between clean up\"
+                        -   NoRun: (0 or 1) Set to disable the desktop
+                            cleanup wizard
                 -   Shell Folders
                     -   Personal: (string) Location of the \'My
                         Documents\' folder. See also: [Restore/Repair My
@@ -224,8 +237,10 @@ under HKEY\_CURRENT\_USER.
             -   DontDisplayLastUserName: (0 or 1) Set this to 1 and upon
                 relogging in the last user name to do will not be shown.
             -   Explorer:
-                -   ClassicShell: (0 or 1) Set to 1 to disable web
-                    content in Explorer - can improve performance. SK/UK
+                -   ClassicShell: (0 or 1) Set to 1 to disable most of
+                    the Windows 98+ features in Explorer. Features
+                    including Active Desktop, Web & thumbnail views will
+                    be disabled. SK/UK
                 -   NoDriveTypeAutoRun: dword:000000ff Disable autorun
                     for CDs.
                 -   NoSaveSettings: (0 or 1) Check this key if your
@@ -273,7 +288,11 @@ under HKEY\_CURRENT\_USER.
                     can be used for legal notices but is also used for
                     system announcements in some environments.
                 -   LegalNoticeCaption: (string) Set the title for the
-                    lega notice window.
+                    legal notice window.
+                -   ScreenSaverGracePeriod: (string inseconds) This
+                    setting determines how many seconds after the
+                    screensaver appears that the machine should be
+                    locked if it is enabled.
             -   WPAEvents
                 -   OOBETimer: (binary) This key is a hash of your
                     Windows product key. Tools which can read the

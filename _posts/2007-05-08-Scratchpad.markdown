@@ -3,6 +3,14 @@ layout: post
 title: Scratchpad
 ---
 
+set WshShell = WScript.CreateObject(\"WScript.Shell\") set oShortCutLink
+= WshShell.CreateShortcut(\"D:\\\\Documents and Settings\\\\All
+Users\\\\Start Menu\\\\Programs\\\\Startup\" & \"\\\\My\_Notepad.lnk\")
+oShortCutLink.TargetPath = \"D:\\\\WINDOWS\\\\Notepad.exe\"
+oShortCutLink.WindowStyle = 1 oShortCutLink.Hotkey = \"CTRL+SHIFT+N\"
+oShortCutLink.Description = \"MY\_Notepad Example Shortcut\"
+oShortCutLink.Save
+
 CUK2263
 
 [Orbit

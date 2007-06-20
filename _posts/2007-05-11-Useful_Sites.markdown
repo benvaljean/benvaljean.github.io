@@ -56,6 +56,8 @@ Includes DOS-based add to domain tool
 Secrets](http://software.techrepublic.com.com/download.aspx?&docid=236355&promo=100511)
 Hide files inside JPG/BMP etc
 
+[Auto hotkey](http://www.autohotkey.com/)
+
 ### Registry Related
 
 [1](http://technet2.microsoft.com/windowsserver/en/library/c07587ec-4a60-4bca-8508-29a4296b72121033.mspx?mfr=true)

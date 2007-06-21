@@ -94,6 +94,11 @@ under HKEY\_CURRENT\_USER.
                 Attachment Blocking
                 (Outlook)](Disable_Attachment_Blocking_(Outlook) "wikilink")
         -   Microsoft\\\\Windows\\\\CurrentVersion
+            -   Policies
+                -   Explorer
+                    -   NoResolveTrack: (0 or 1) If a shortcut is broken
+                        when double-clicked Windows will try to find it
+                        be default; set to 1 to disable this feature.
             -   Internet Settings
                 -   ProxyServer: Address for a proxy server for the
                     Internet API

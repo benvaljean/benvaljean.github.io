@@ -87,82 +87,77 @@ under HKEY\_CURRENT\_USER.
             -   AdvancedTab
             -   ConnectionsTab
             -   ProgramsTab
-        -   Microsoft\\\\Office\\\\\<9.0\|10.0\|11.0\>\\\\Outlook\\\\Security
-            -   Level1Remove: (string) Specify extensions to not be
-                blocked by the internal blocking function within
-                Outlook, seperated by semi-colons. See also [Disable
-                Attachment Blocking
-                (Outlook)](Disable_Attachment_Blocking_(Outlook) "wikilink")
-        -   Microsoft\\\\Windows\\\\CurrentVersion
-            -   Policies
-                -   Explorer
-                    -   NoResolveTrack: (0 or 1) If a shortcut is broken
-                        when double-clicked Windows will try to find it
-                        be default; set to 1 to disable this feature.
-            -   Internet Settings
-                -   ProxyServer: Address for a proxy server for the
-                    Internet API
-                -   ProxyEnable: (0 or 1)
-                -   ProxyOveride: Exculded addreses
+    -   Microsoft\\\\Office\\\\\<9.0\|10.0\|11.0\>\\\\Outlook\\\\Security
+        -   Level1Remove: (string) Specify extensions to not be blocked
+            by the internal blocking function within Outlook, seperated
+            by semi-colons. See also [Disable Attachment Blocking
+            (Outlook)](Disable_Attachment_Blocking_(Outlook) "wikilink")
+    -   Microsoft\\\\Windows\\\\CurrentVersion
+        -   Policies
             -   Explorer
-                -   Desktop
-                    -   DesktopProcess: (1=seperate process 0=default)
-                        Windows will normally use the same process for
-                        the Desktop, takebar and directory-windows.
-                        Should any one of these crash then the taskbar
-                        and Desktop will need to restart as well.
-                        Setthis key to 1 to put your desktop and taskbar
-                        in a seperate process. Note: Active Desktop, IE
-                        pre 5.5 cannot be used with this key set to 1.
-                    -   CleanupWiz
-                        -   \"Days between clean up\"
-                        -   NoRun: (0 or 1) Set to disable the desktop
-                            cleanup wizard
-                -   Shell Folders
-                    -   Personal: (string) Location of the \'My
-                        Documents\' folder. See also: [Restore/Repair My
-                        Documents
-                        (Windows)](Restore/Repair_My_Documents_(Windows) "wikilink")
-                -   User Shell Folders
-                    -   Personal: (string) Location of the \'My
-                        Documents\' folder - some apps check this key
-                        instead of \'Shell Folders\'. See also:
-                        [Restore/Repair My Documents
-                        (Windows)](Restore/Repair_My_Documents_(Windows) "wikilink")
-                -   Advanced
-                    -   Hidden (1 = show 2 = do not show) Display hidden
-                        files.
-                    -   ShowSuperHidden: (0 = hide files 1= show files)
-                        As above but for files when are hidden and
-                        system.
-                    -   Intellimenus: (0 or 1) Set to 0 to disable the
-                        hiding of rarely used menu items until you
-                        select the down-arrows.
-                    -   StartMenuScrollPrograms (\"yes\" or \"no\")
-                        Allow scrolling of programs in the start menu.
-                -   CabinetState
-                    -   \"Use Search Asst\": Set to \"no\" to enable the
-                        Win2k search interface, inculde the spaces in
-                        the key name.
-        -   Microsoft\\\\Windows CE Services\\\\Partners\\\\<Device ID>
-            \\\\Services\\\\Synchronization: Settings in realtion to
-            PDAs/smartphone, typically with regard to ActiveSync. Note
-            the US spelling.
-            -   Briefcase Creation: States when the synchronisation was
-                setup in seconds from 12:00 AM 0/0/0
-            -   ResetPartner: (0 or 1) Set to 1 to force the reset of a
-                partnership.
-        -   Microsoft\\\\Windows NT\\\\Curent Version
-            -   Program Manager\\\\Restrictions: Allows manipulation
-                restrictions; usually set by Group Policy.
-                -   NoRun: (0 or 1)
-                -   NoFileMenu: (0 or 1)
-                -   NoClose: (0 or 1)
-        -   Winlogon
-            -   BuildNumber: You can have great fun with this if you are
-                bored.
-            -   ParseAutoexec: Force Windows to parse the autoexec.bat
-                file.
+                -   NoResolveTrack: (0 or 1) If a shortcut is broken
+                    when double-clicked Windows will try to find it be
+                    default; set to 1 to disable this feature.
+        -   Internet Settings
+            -   ProxyServer: Address for a proxy server for the Internet
+                API
+            -   ProxyEnable: (0 or 1)
+            -   ProxyOveride: Exculded addreses
+        -   Explorer
+            -   Desktop
+                -   DesktopProcess: (1=seperate process 0=default)
+                    Windows will normally use the same process for the
+                    Desktop, takebar and directory-windows. Should any
+                    one of these crash then the taskbar and Desktop will
+                    need to restart as well. Setthis key to 1 to put
+                    your desktop and taskbar in a seperate process.
+                    Note: Active Desktop, IE pre 5.5 cannot be used with
+                    this key set to 1.
+                -   CleanupWiz
+                    -   \"Days between clean up\"
+                    -   NoRun: (0 or 1) Set to disable the desktop
+                        cleanup wizard
+            -   Shell Folders
+                -   Personal: (string) Location of the \'My Documents\'
+                    folder. See also: [Restore/Repair My Documents
+                    (Windows)](Restore/Repair_My_Documents_(Windows) "wikilink")
+            -   User Shell Folders
+                -   Personal: (string) Location of the \'My Documents\'
+                    folder - some apps check this key instead of \'Shell
+                    Folders\'. See also: [Restore/Repair My Documents
+                    (Windows)](Restore/Repair_My_Documents_(Windows) "wikilink")
+            -   Advanced
+                -   Hidden (1 = show 2 = do not show) Display hidden
+                    files.
+                -   ShowSuperHidden: (0 = hide files 1= show files) As
+                    above but for files when are hidden and system.
+                -   Intellimenus: (0 or 1) Set to 0 to disable the
+                    hiding of rarely used menu items until you select
+                    the down-arrows.
+                -   StartMenuScrollPrograms (\"yes\" or \"no\") Allow
+                    scrolling of programs in the start menu.
+            -   CabinetState
+                -   \"Use Search Asst\": Set to \"no\" to enable the
+                    Win2k search interface, inculde the spaces in the
+                    key name.
+    -   Microsoft\\\\Windows CE Services\\\\Partners\\\\<Device ID>
+        \\\\Services\\\\Synchronization: Settings in realtion to
+        PDAs/smartphone, typically with regard to ActiveSync. Note the
+        US spelling.
+        -   Briefcase Creation: States when the synchronisation was
+            setup in seconds from 12:00 AM 0/0/0
+        -   ResetPartner: (0 or 1) Set to 1 to force the reset of a
+            partnership.
+    -   Microsoft\\\\Windows NT\\\\Curent Version
+        -   Program Manager\\\\Restrictions: Allows manipulation
+            restrictions; usually set by Group Policy.
+            -   NoRun: (0 or 1)
+            -   NoFileMenu: (0 or 1)
+            -   NoClose: (0 or 1)
+    -   Winlogon
+        -   BuildNumber: You can have great fun with this if you are
+            bored.
+        -   ParseAutoexec: Force Windows to parse the autoexec.bat file.
 
 <!-- -->
 

@@ -164,10 +164,11 @@ under HKEY\_CURRENT\_USER.
             -   NoRun: (0 or 1)
             -   NoFileMenu: (0 or 1)
             -   NoClose: (0 or 1)
-    -   Winlogon
-        -   BuildNumber: You can have great fun with this if you are
-            bored.
-        -   ParseAutoexec: Force Windows to parse the autoexec.bat file.
+        -   Winlogon
+            -   BuildNumber: You can have great fun with this if you are
+                bored.
+            -   ParseAutoexec: Force Windows to parse the autoexec.bat
+                file.
 
 <!-- -->
 

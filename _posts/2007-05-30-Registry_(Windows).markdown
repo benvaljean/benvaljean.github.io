@@ -87,11 +87,18 @@ under HKEY\_CURRENT\_USER.
             -   AdvancedTab
             -   ConnectionsTab
             -   ProgramsTab
-    -   Microsoft\\\\Office\\\\\<9.0\|10.0\|11.0\>\\\\Outlook\\\\Security
-        -   Level1Remove: (string) Specify extensions to not be blocked
-            by the internal blocking function within Outlook, seperated
-            by semi-colons. See also [Disable Attachment Blocking
-            (Outlook)](Disable_Attachment_Blocking_(Outlook) "wikilink")
+    -   Microsoft\\\\Office\\\\\<9.0\|10.0\|11.0\>
+        -   Word\\\\Options
+            -   SQLSecurityCheck: (0 or 1) Set this to 0 to disable the
+                \"Opening this document will run the following SQL
+                command\" prompt when opeing the Word doc that runs a
+                SQL query.
+        -   Outlook\\\\Security
+            -   Level1Remove: (string) Specify extensions to not be
+                blocked by the internal blocking function within
+                Outlook, seperated by semi-colons. See also [Disable
+                Attachment Blocking
+                (Outlook)](Disable_Attachment_Blocking_(Outlook) "wikilink")
     -   Microsoft\\\\Windows\\\\CurrentVersion
         -   Policies
             -   Explorer

@@ -13,6 +13,16 @@ title: Main Page
 
 [Wiki Stuff](Wiki_Stuff "wikilink")
 
+### Fun Stuff
+
+[Flash Movies](Flash_Movies "wikilink")
+
+### Fact Stuff
+
+[Myths (Eye)](Myths_(Eye) "wikilink")
+
+[Myths (Common Cold)](Myths_(Common_Cold) "wikilink")
+
 ### IT Stuff
 
 [Registry](Registry "wikilink")
@@ -35,6 +45,11 @@ XP)](Change_Product_Key_(Windows_XP) "wikilink")
 
 [Console session (Terminal Services/Remote
 Desktop)](Console_session_(Terminal_Services/Remote_Desktop) "wikilink")
+
+[Restore/Repair My Documents
+(Windows)](Restore/Repair_My_Documents_(Windows) "wikilink")
+
+[DOS Scripting](DOS_Scripting "wikilink")
 
 ### IT Reference
 
@@ -61,7 +76,7 @@ Username](http://www.microsoft.com/technet/scriptcenter/resources/qanda/dec04/he
 [Fun things to do with
 SIDS](http://blogs.msdn.com/larryosterman/archive/2004/09/02/224713.aspx)
 
-### Trobuleshooting
+### IT Trobuleshooting
 
 [Word Trobuleshooting](http://support.microsoft.com/kb/820919/)
 

@@ -51,6 +51,9 @@ Desktop)](Console_session_(Terminal_Services/Remote_Desktop) "wikilink")
 
 [DOS Scripting](DOS_Scripting "wikilink")
 
+[System Volume Information folder
+(Windows)](System_Volume_Information_folder_(Windows) "wikilink")
+
 ### IT Reference
 
 [Contig](http://www.microsoft.com/technet/sysinternals/FileAndDisk/Contig.mspx)

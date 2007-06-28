@@ -264,3 +264,6 @@ FOR](http://www.ericphelps.com/batch/lines/word-for.htm)
 [Stupid DOS Tricks](http://www.ericphelps.com/batch/tricks/index.htm)
 
 [Joseph Hayes Tips](http://www.ericphelps.com/batch/samples/jhayes.txt)
+
+[Win32 Scripting
+Tutorial](http://supportweb.cs.bham.ac.uk/documentation/tutorials/docsystem/build/tutorials/win32scripting/win32scripting.html)

@@ -160,9 +160,9 @@ Although this works on both but does it in a different way:
 If the IP is required by itself then it can be filted using for
 tokens/delims:
 
-`  ipconfig | find "IP Address" > ip1.txt`\
-`  for /f "tokens=1-2 delims=:" %i in (ip1.txt) do echo %j> ip2.txt`\
-`  for /f "tokens=1-3 delims=." %i in (ip2.txt) do echo %i.%j.%k.21> ip3.txt`
+`  ipconfig|find /i "ip address" >ip1`\
+`  for /f "tokens=1-2 delims=:" %i in (C:\\bg1) do echo %j >ip2`\
+`  for /f "tokens=1 delims= " %i in (C:\\bg2) do echo %i`
 
 It would be a nightmare trying to do this on Win 9x are it does not have
 for natively.

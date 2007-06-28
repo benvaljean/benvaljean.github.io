@@ -162,7 +162,11 @@ tokens/delims:
 
 `  ipconfig|find /i "ip address" >ip1`\
 `  for /f "tokens=1-2 delims=:" %i in (C:\\bg1) do echo %j >ip2`\
-`  for /f "tokens=1 delims= " %i in (C:\\bg2) do echo %i`
+`  for /f "tokens=1 delims= " %i in (C:\\bg2) do echo %i >ip.txt`\
+`  ''rem IP address is now in ip.txt`\
+`  rem To populate it in an evironment variable:''`\
+`  for /f "tokens=1 delims=*" %i in (ip.txt) do set ipaddress=%i`\
+`  echo IP address is: %ipaddress%`
 
 It would be a nightmare trying to do this on Win 9x are it does not have
 for natively.

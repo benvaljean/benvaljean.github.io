@@ -3,7 +3,7 @@ layout: post
 title: Document has already been deleted Error (Lotus Notes)
 ---
 
-When trying to delete a document/email within [Lotus
+When trying to delete a particular document/email within [Lotus
 Notes](http://en.wikipedia.org/wiki/Lotus_Notes) the following error can
 occur: **Document has already been deleted** and the document/email
 cannot be deleted.
@@ -11,7 +11,8 @@ cannot be deleted.
 This occurs when soft deletions are enabled and orphened entries in the
 view are still present; linking to documents/email when are no longer in
 the database. - The emails have actually *already been* deleted, but the
-entry in the view is still present.
+entry in the view is still present. The orphaned entries are also unable
+to be moved.
 
 To fix this do one of the following, starting with the first:
 

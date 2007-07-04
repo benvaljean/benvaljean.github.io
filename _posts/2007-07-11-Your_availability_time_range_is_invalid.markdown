@@ -1,9 +1,9 @@
 ---
 layout: post 
-title: Your availability time range is invalid
+title: Your availability time range is invalid, please correct Error (Lotus Notes)
 ---
 
-f1\@goodacre.name,![Availability
+![Availability
 issue](Availissue_LotusNotes.JPG "fig:Availability issue") From within
 Preferences in a database in [Lotus
 Notes](http://en.wikipedia.org/wiki/Lotus_Notes) the following error /

@@ -30,6 +30,19 @@ under HKEY\_CURRENT\_USER.
                 and disable the feature. When you see those notes about
                 backing up the reg before editing it they are talking
                 about keys like this, so ensure you get the right one.
+            -   {20D04FE0-3AEA-1069-A2D8-08002B30309D} This class ID
+                relates to the My Computer icon on the desktop.
+                -   LocalisedString: (string) The text that appears for
+                    the My Computer icon can be manipulated here to make
+                    it more useful. For instance Environment variables
+                    can be inserted to read: %username% on
+                    %computername%. If IE5.5 or earlier or pre XP alter
+                    the part of key that reads \"My Computer\" only for
+                    instance it could read
+                    \"\@C:\\\\WINNT\\\\system32\\\\shell32.dll,-9216\@1033,%USERNAME%
+                    on %COMPUTERNAME%\". If IE6+ or XP then the key
+                    simply read the actual name under the icon itself,
+                    for example: \"%USERNAME% on %COMPUTERNAME%\".
 
 <!-- -->
 

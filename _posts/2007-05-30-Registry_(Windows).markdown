@@ -118,6 +118,8 @@ under HKEY\_CURRENT\_USER.
                     -   NoResolveTrack: (0 or 1) If a shortcut is broken
                         when double-clicked Windows will try to find it
                         be default; set to 1 to disable this feature.
+                    -   NoInternetIcon: (0= IE icon appears on desktop
+                        1=IE icon not on desktop) SK/UK
             -   Internet Settings
                 -   ProxyServer: Address for a proxy server for the
                     Internet API

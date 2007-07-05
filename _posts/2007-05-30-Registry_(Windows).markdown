@@ -218,6 +218,17 @@ under HKEY\_CURRENT\_USER.
                 time are set here, use sub-keys with the names or 1,2,3,
                 etc to set preference.
         -   Explorer
+            -   Desktop\\\\NameSpace: Listed here GUIDS for CLASS IDs
+                for icons/functions to appear on the Desktop. These are
+                usually used by Windows itself, for example My Documents
+                is listed here. See also: [Create custom System Folder
+                on Desktop/My Computer
+                (Windows)](Create_custom_System_Folder_on_Desktop/My_Computer_(Windows) "wikilink")
+            -   MyComputer\\\\Namespace: Listed here GUIDS for CLASS IDs
+                for icons/functions to appear within My Compurer. For
+                example Control Panel has an entry here. See also:
+                [Create custom System Folder on Desktop/My Computer
+                (Windows)](Create_custom_System_Folder_on_Desktop/My_Computer_(Windows) "wikilink")
             -   EnableBalloonTips: (0 or 1)
             -   FolderContentsInfoTip: (0 or 1) Disable folder stats on
                 mouse hover.

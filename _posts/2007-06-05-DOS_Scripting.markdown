@@ -160,9 +160,9 @@ Although this works on both but does it in a different way:
 If the IP is required by itself then it can be filted using for
 tokens/delims:
 
-`  ipconfig|find /i "ip address" >ip1`\
-`  for /f "tokens=1-2 delims=:" %i in (C:\\bg1) do echo %j >ip2`\
-`  for /f "tokens=1 delims= " %i in (C:\\bg2) do echo %i >ip.txt`\
+`  ipconfig|find /i "ip address" >bg1`\
+`  for /f "tokens=1-2 delims=:" %i in (bg1) do echo %j >bg2`\
+`  for /f "tokens=1 delims= " %i in (bg2) do echo %i >ip.txt`\
 `  ''rem IP address is now in ip.txt`\
 `  rem To populate it in an evironment variable:''`\
 `  for /f "tokens=1 delims=*" %i in (ip.txt) do set ipaddress=%i`\

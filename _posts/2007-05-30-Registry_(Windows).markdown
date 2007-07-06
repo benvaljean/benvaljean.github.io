@@ -126,6 +126,8 @@ under HKEY\_CURRENT\_USER.
                 -   ProxyEnable: (0 or 1)
                 -   ProxyOveride: Exculded addreses
             -   Explorer
+                -   link: (binary) 00 00 00 00 = no \"Shortcut to\"
+                    prefix on shortuts.
                 -   Desktop
                     -   DesktopProcess: (1=seperate process 0=default)
                         Windows will normally use the same process for

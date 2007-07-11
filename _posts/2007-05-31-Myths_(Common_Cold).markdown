@@ -88,3 +88,5 @@ evidence that excess eating will cure a cold.
 
 On the other hand, eating tasty food will not make a cold worse and may
 help the cold victim feel better.
+
+[Category:Fun](Category:Fun "wikilink")

@@ -23,3 +23,5 @@ You may need to reboot before you can start using Windows Update etc.
 [KB328874](http://support.microsoft.com/kb/328874)
 
 [Registry](Registry "wikilink")
+
+[Category:Windows](Category:Windows "wikilink")

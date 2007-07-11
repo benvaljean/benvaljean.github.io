@@ -51,3 +51,5 @@ Service](http://msdn.microsoft.com/library/en-us/dnanchor/html/indexserv.asp)
 Service](http://msdn.microsoft.com/msdnmag/issues/01/12/XPKernel/default.aspx)
 
 [KB309531](http://support.microsoft.com/kb/309531)
+
+[Category:Windows](Category:Windows "wikilink")

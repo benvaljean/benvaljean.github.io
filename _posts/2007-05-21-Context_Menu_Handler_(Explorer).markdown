@@ -84,3 +84,5 @@ left behind in your right click menu from a previous software install.
 
 [Manage the context-menu entries for folders, drives and Namespace
 objects](http://windowsxp.mvps.org/context_folders.htm)
+
+[Category:Windows](Category:Windows "wikilink")

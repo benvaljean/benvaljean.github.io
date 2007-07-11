@@ -35,3 +35,5 @@ from the GAL.
 
 -   **OR**: [Manually Update Your Local Copy of The Global Address
     List](http://www.depts.ttu.edu/helpcentral/directions/update_gal.php)
+
+[Category:Outlook](Category:Outlook "wikilink")

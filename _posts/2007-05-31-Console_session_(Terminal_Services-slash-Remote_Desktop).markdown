@@ -93,3 +93,5 @@ the methods mentioned above.
 
 *Full credit to
 [Argyle](http://forums.theplanet.com/index.php?s=17fbd90104cc8defc9bde032fcf52158&showuser=38621)*
+
+[Category:Windows](Category:Windows "wikilink")

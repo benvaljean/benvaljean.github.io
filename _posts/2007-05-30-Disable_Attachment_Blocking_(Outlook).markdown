@@ -23,3 +23,5 @@ you wish to allow; seperating them with commas.
 Outlook](http://office.microsoft.com/en-us/outlook/HP030850041033.aspx)
 
 [Registry](Registry "wikilink")
+
+[Category:Outlook](Category:Outlook "wikilink")

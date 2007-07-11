@@ -120,6 +120,9 @@ under HKEY\_CURRENT\_USER.
                         be default; set to 1 to disable this feature.
                     -   NoInternetIcon: (0= IE icon appears on desktop
                         1=IE icon not on desktop) SK/UK
+                    -   NoSMConfigurePrograms: (0 or 1) Set to 1 to
+                        remove to remove the Set Program Access and
+                        Defaults icon on the start menu. SK/UK
             -   Internet Settings
                 -   ProxyServer: Address for a proxy server for the
                     Internet API
@@ -167,6 +170,9 @@ under HKEY\_CURRENT\_USER.
                     -   \"Use Search Asst\": Set to \"no\" to enable the
                         Win2k search interface, inculde the spaces in
                         the key name.
+                -   RunMRU: The cached entries for Run commands in the
+                    start menu are stored hereandcan be safely deleted
+                    if required.
     -   Microsoft\\\\Windows CE Services\\\\Partners\\\\<Device ID>
         \\\\Services\\\\Synchronization: Settings in realtion to
         PDAs/smartphone, typically with regard to ActiveSync. Note the

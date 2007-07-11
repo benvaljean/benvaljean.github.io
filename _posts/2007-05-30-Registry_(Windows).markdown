@@ -418,3 +418,5 @@ under HKEY\_CURRENT\_USER.
     HKEY\_LOCAL\_MACHINE\\\\SOFTWARE\\\\Classes.)
     -   .DEFAULT: The profile windows uses at the login prompt/GINA
         chain and the default profile when new users are created.
+
+[Category:Windows](Category:Windows "wikilink")

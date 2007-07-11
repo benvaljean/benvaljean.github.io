@@ -57,3 +57,5 @@ under the Desktop or My Computer namespace.
 ### See Also
 
 [Registry](Registry "wikilink")
+
+[Category:Windows](Category:Windows "wikilink")

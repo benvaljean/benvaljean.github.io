@@ -77,3 +77,5 @@ fixes that issue:
 ### See Also
 
 [Registry](Registry "wikilink")
+
+[Category:Fun](Category:Fun "wikilink")

@@ -48,3 +48,5 @@ can be activated by pressing Alt+11:
     End If
     Set objRecip = Nothing
     End Sub
+
+[Category:Outlook](Category:Outlook "wikilink")

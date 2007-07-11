@@ -29,3 +29,5 @@ Has everyone had more sex than me?\] Very professionally made\
 [Mario remix](http://www.rogerrabbit.net/flash/mario.swf) Very good\
 [Starwaz](http://www.rogerrabbit.net/flash/starwarz.swf) Gangster rap
 meets StarWars, very good.\
+
+[Category:Fun](Category:Fun "wikilink")

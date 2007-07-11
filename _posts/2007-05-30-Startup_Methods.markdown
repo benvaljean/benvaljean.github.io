@@ -58,3 +58,5 @@ that.
 ### See Also
 
 [Registry](Registry "wikilink")
+
+[Category:Windows](Category:Windows "wikilink")

@@ -259,7 +259,7 @@ under HKEY\_CURRENT\_USER.
                 hover tips.
             -   InternetOpenWith: (0 or 1) Allows the disabling of the
                 web service dialog when a file of an unknown type is
-                opened - opening with Open With dialog instead.
+                opened - opening with Open With dialog instead. SK/UK
             -   PersistBrowsers: (0 or 1) With this enabled Windows will
                 reopen and directories that were open when shutting
                 down. - A little like sesion saving with X Window but

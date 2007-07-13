@@ -34,6 +34,6 @@ Panel\\\\Desktop\\\\WindowMetrics\\\\\"Shell Icon BPP\" to match the
 number of bits in the current screen mode. To ascertain the number of
 bits in the screen mode follow the steps above.
 
-\'This specific issue refers to when all Windows icons are affected, if
-you are having an issue withjustsome of them, it can be fixed by
-[Rebuliding Icons (Windows)](rebuilding_your_icons "wikilink").
+*This specific issue refers to when all Windows icons are affected, if
+you are having an issue with just some of them, it can be fixed by
+[Rebuliding Icons (Windows)](rebuilding_your_icons "wikilink").*

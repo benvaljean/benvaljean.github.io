@@ -109,6 +109,10 @@ Notes)](Your_availability_time_range_is_invalid,_please_correct_Error_(Lotus_Not
 [Document has already been deleted Error (Lotus
 Notes)](Document_has_already_been_deleted_Error_(Lotus_Notes) "wikilink")
 
+[Icon problem: Low colour icons (4 bits/16 colours) even with 16/32 bit
+screen mode
+(Windows)](Icon_problem:_Low_colour_icons_(4_bits/16_colours)_even_with_16/32_bit_screen_mode_(Windows) "wikilink")
+
 ### IT Forum Sites
 
 [Tek-Tips](http://www.tek-tips.com/)

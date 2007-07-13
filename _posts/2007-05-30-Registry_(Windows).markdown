@@ -62,6 +62,14 @@ under HKEY\_CURRENT\_USER.
                 -   MinAnimate: (string value: 0 or 1) Allows you to
                     disable the title-bar animation when you minimise a
                     window.
+                -   \"Shell Icon BPP: (no of bytes as string) This key
+                    details the bit-depth (number of colours) for the
+                    icons. In nearly all cases this should equal the
+                    bit-depth of your screen. If this setting is too
+                    high Windows will default to 4 bit/16 colour icons.
+                    See also: \[Icon problem: Low colour icons (4
+                    bits/16 colours) even with 16/32 bit screen mode
+                    (Windows)\]
     -   InstallLocationsMRU: Contains the paths for the Startup folder
         programs.
     -   Keyboard layout: Specifies current keyboard layout.

@@ -43,4 +43,6 @@ you are having an issue with just some of them, it can be fixed by
 [Annoyances.org re: Question about \'Use True-Color
 Icons\'](http://www.annoyances.org/exec/forum/win2000/1007890983)
 
+\_\_NOTOC\_\_
+
 [Category:Registry](Category:Registry "wikilink")

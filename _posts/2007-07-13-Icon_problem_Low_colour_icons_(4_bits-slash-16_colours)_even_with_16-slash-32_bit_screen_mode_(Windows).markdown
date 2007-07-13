@@ -37,3 +37,10 @@ bits in the screen mode follow the steps above.
 *This specific issue refers to when all Windows icons are affected, if
 you are having an issue with just some of them, it can be fixed by
 [Rebuliding Icons (Windows)](rebuilding_your_icons "wikilink").*
+
+### See Also
+
+[Annoyances.org re: Question about \'Use True-Color
+Icons\'](http://www.annoyances.org/exec/forum/win2000/1007890983)
+
+[Category:Registry](Category:Registry "wikilink")

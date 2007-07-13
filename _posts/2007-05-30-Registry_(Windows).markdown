@@ -67,9 +67,9 @@ under HKEY\_CURRENT\_USER.
                     icons. In nearly all cases this should equal the
                     bit-depth of your screen. If this setting is too
                     high Windows will default to 4 bit/16 colour icons.
-                    See also: \[Icon problem: Low colour icons (4
-                    bits/16 colours) even with 16/32 bit screen mode
-                    (Windows)\]
+                    See also: [Icon problem: Low colour icons (4 bits/16
+                    colours) even with 16/32 bit screen mode
+                    (Windows)](Icon_problem:_Low_colour_icons_(4_bits/16_colours)_even_with_16/32_bit_screen_mode_(Windows) "wikilink")
     -   InstallLocationsMRU: Contains the paths for the Startup folder
         programs.
     -   Keyboard layout: Specifies current keyboard layout.

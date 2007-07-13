@@ -3,9 +3,8 @@ layout: post
 title: Icon problem: Low colour icons (4 bits/16 colours) even with 16/32 bit screen mode (Windows)
 ---
 
-![16 colour icons with a 65k colour desktop behind it\|16 colour icons
-with a 65k colour desktop behind
-it](LowColourIcons.JPG "16 colour icons with a 65k colour desktop behind it|16 colour icons with a 65k colour desktop behind it")
+![16 colour icons with a 65k colour desktop behind
+it](LowColourIcons.JPG "16 colour icons with a 65k colour desktop behind it"){width="200"}
 
 ### Symptoms
 

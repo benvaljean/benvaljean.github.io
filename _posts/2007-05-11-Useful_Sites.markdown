@@ -47,6 +47,8 @@ htaccess](http://www.cyberciti.biz/faq/howto-setup-apache-password-protect-direc
 Exchange Server 2003 in a single
 site](http://support.microsoft.com/kb/313184/)
 
+[Domino/Notes IBM Forum](http://www-10.lotus.com/ldd/nd6forum.nsf)
+
 ### Downloads
 
 [Windows XP Support Tools](http://support.microsoft.com/kb/838079/en-us)

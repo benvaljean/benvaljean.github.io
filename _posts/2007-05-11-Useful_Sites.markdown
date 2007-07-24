@@ -49,6 +49,9 @@ site](http://support.microsoft.com/kb/313184/)
 
 [Domino/Notes IBM Forum](http://www-10.lotus.com/ldd/nd6forum.nsf)
 
+[Dosreference](http://www.tekweb.dk/manuals/command/COMMANDS/F/FINDSTR.HTM)
+Very good
+
 ### Downloads
 
 [Windows XP Support Tools](http://support.microsoft.com/kb/838079/en-us)

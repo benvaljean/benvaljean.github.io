@@ -12,6 +12,8 @@ Issues](http://www.swinc.com/resources/exchange/smtp_dnsissues.asp)
 [Security Accounts
 Manager](http://www.beginningtoseethelight.org/ntsecurity/index.php)
 
+[More SAM
+stuff](http://archives.neohapsis.com/archives/ntbugtraq/2003-q3/0033.html)
 [Fasthosts.co.uk](http://www.fasthosts.co.uk)
 
 [Robotex](http://www.robtex.com) Great IP investigation site

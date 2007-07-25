@@ -74,3 +74,5 @@ Hide files inside JPG/BMP etc
 [Escape!](http://members.iinet.net.au/~pontipak/redsquare.html)
 
 [2](http://en.wikipedia.org/wiki/Wikipedia:Featured_pictures/Aeronautics_and_aviation)
+
+[Amiga magazine rack - AF](http://amr.abime.net/issues_4)

@@ -65,6 +65,10 @@ Hide files inside JPG/BMP etc
 
 [Auto hotkey](http://www.autohotkey.com/)
 
+[Diino
+4.1](http://www.download.com/Diino/3000-2196_4-10648970.html?ctype=rubics&cval=1.1.2.14758)
+2gb free storage backup tool
+
 ### Registry Related
 
 [1](http://technet2.microsoft.com/windowsserver/en/library/c07587ec-4a60-4bca-8508-29a4296b72121033.mspx?mfr=true)

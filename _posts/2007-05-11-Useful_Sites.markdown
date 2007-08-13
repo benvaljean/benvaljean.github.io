@@ -59,6 +59,12 @@ Very good
 Topics](http://technet2.microsoft.com/windowsserver/en/operations/wins.mspx)
 Very exhaustive
 
+[LinuxHomeNetworking](http://www.linuxhomenetworking.com/wiki/index.php)
+Great site
+
+:   [Setup a
+    VPN](http://www.linuxhomenetworking.com/wiki/index.php/Quick_HOWTO_:_Ch35_:_Configuring_Linux_VPNs)
+
 ### Downloads
 
 [Windows XP Support Tools](http://support.microsoft.com/kb/838079/en-us)

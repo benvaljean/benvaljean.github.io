@@ -14,6 +14,7 @@ Manager](http://www.beginningtoseethelight.org/ntsecurity/index.php)
 
 [More SAM
 stuff](http://archives.neohapsis.com/archives/ntbugtraq/2003-q3/0033.html)
+
 [Fasthosts.co.uk](http://www.fasthosts.co.uk)
 
 [Robotex](http://www.robtex.com) Great IP investigation site
@@ -53,6 +54,10 @@ site](http://support.microsoft.com/kb/313184/)
 
 [Dosreference](http://www.tekweb.dk/manuals/command/COMMANDS/F/FINDSTR.HTM)
 Very good
+
+[WINS Operations
+Topics](http://technet2.microsoft.com/windowsserver/en/operations/wins.mspx)
+Very exhaustive
 
 ### Downloads
 

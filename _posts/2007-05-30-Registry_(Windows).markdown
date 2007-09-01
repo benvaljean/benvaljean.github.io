@@ -37,11 +37,11 @@ under HKEY\_CURRENT\_USER.
                     it more useful. For instance Environment variables
                     can be inserted to read: %username% on
                     %computername%. If IE5.5 or earlier or pre XP alter
-                    the part of key that reads \"My Computer\" only for
+                    the part of key that reads \"My Computer\" for
                     instance it could read
                     \"\@C:\\\\WINNT\\\\system32\\\\shell32.dll,-9216\@1033,%USERNAME%
                     on %COMPUTERNAME%\". If IE6+ or XP then the key
-                    simply read the actual name under the icon itself,
+                    simply reads the actual name under the icon itself,
                     for example: \"%USERNAME% on %COMPUTERNAME%\".
 
 <!-- -->
@@ -131,6 +131,9 @@ under HKEY\_CURRENT\_USER.
                     -   NoSMConfigurePrograms: (0 or 1) Set to 1 to
                         remove to remove the Set Program Access and
                         Defaults icon on the start menu. SK/UK
+                    -   MaxRecentDocs: (no of documents as DWORD) The
+                        setting dictates the number of documents to be
+                        displayed in Recent Documents. SK/UK
             -   Internet Settings
                 -   ProxyServer: Address for a proxy server for the
                     Internet API
@@ -174,6 +177,19 @@ under HKEY\_CURRENT\_USER.
                         select the down-arrows.
                     -   StartMenuScrollPrograms (\"yes\" or \"no\")
                         Allow scrolling of programs in the start menu.
+                    -   EnableBalloonTips: (0 or 1) Set to 0 to disable
+                        balloon tips for example print notifications and
+                        the tour.
+                    -   TaskbarSizeMove: (0 = locked 1 = unlocked) If
+                        context menus on the start menu have been
+                        disabled than the start menu position can still
+                        be locked/unlocked with this key.
+                    -   TaskbarGlomming: (0 = not groups/Win2k style 1 =
+                        grouped) This key controls taskbar item
+                        grouping.
+                    -   NoTrayContextMenu: (0 = disabled 1 = enabled)
+                        This key controls context menus for the start
+                        menu.
                 -   CabinetState
                     -   \"Use Search Asst\": Set to \"no\" to enable the
                         Win2k search interface, inculde the spaces in

@@ -7,7 +7,7 @@ title: Registry (Windows)
 
 SK/UK = System key/User key: This key can be used as a user key under
 HKEY\_CURRENT\_USER or as system key affecting all users on the machine
-under HKEY\_CURRENT\_USER.
+under HKEY\_CURRENT\_USER. All keys are DWORD unless otherwise stated.
 
 -   **HKEY\_CLASSES\_ROOT**: Contains software settings about
     drag-and-drop operations, handles shortcut information, and other

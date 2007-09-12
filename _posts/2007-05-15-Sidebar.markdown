@@ -5,12 +5,9 @@ title: Sidebar
 
 -   Navigation
     -   mainpage\|mainpage
-    -   portal-url\|portal
     -   currentevents-url\|currentevents
     -   recentchanges-url\|recentchanges
     -   randompage-url\|randompage
-    -   helppage\|help
-    -   sitesupport-url\|sitesupport
--   Sites
+-   Search engines
     -   <http://www.yahoo.com%7CYahoo.com>
     -   <http://www.google.com%7CGoogle.com>

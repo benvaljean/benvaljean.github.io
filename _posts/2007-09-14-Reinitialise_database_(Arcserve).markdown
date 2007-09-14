@@ -23,7 +23,7 @@ the largest databases as they contain session data. Consequently
 corruption is usually in one of these databases and reinitialising these
 only will keep the media pool / rotation information.
 
-===Troubleshooting==
+#### Troubleshooting
 
 If a EC-1 error is given: \"Server x failed to authenticate the user
 caroot (EC=-1)\" check that the Brightstor services are running.

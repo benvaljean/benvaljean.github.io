@@ -61,7 +61,7 @@ check the astpsdat.001; astpsdat.002 \... files in turn. Supplying
 \"astpsdat.001\" as a parameter will not work.
 
 If performing a dbfix on all the databases does nothing the only option
-is to [Reinitialise database
-(Arcserve)](Reinitialise_the_database "wikilink").
+is to [Reinitialise the
+database](Reinitialise_database_(Arcserve) "wikilink").
 
 [Category:Arcserve](Category:Arcserve "wikilink")

@@ -1,0 +1,53 @@
+---
+layout: post 
+title: Database Corruption (Arcserve)
+---
+
+Database corruption affects detailed session records even if a merge is
+done on the tape. Consequently restore by session/tree/query does not
+work but the backed up data itself does not work. For a quick work
+around to enable the restoration of data without investigating/fixing
+database corruption choose **Restore by Media**. This does not rely on a
+Arcserve database but a whole particular session will have to be
+restored, although file filters (such as \*.doc) can be specified.
+
+### Symptoms
+
+Symptoms can be any or all of the following:
+
+-   Asterixes (\*) appear next to the job ID in the activity log;
+    indicating issues updating the database in the job the *last* time
+    it was run.
+-   Backup job hanging at 99% complete
+-   rds.exe (Arcserve database engine process) utilising as much CPU as
+    it can - typically 99%.
+-   E3073 Unable to login as user (User=xxx EC=xxx). Although this error
+    could be incorrect caching of the login details. Try re-entering the
+    system account in Server Admin and then restarting the Arcserve
+    services.
+-   \*.cat files in the <Arcserve dir>\\\\TEMP directory when no jobs
+    are running. This is session data that should have merged into the
+    database.
+-   E4101 Unable to login to database engine (DATABASE=CASDB, EC=-2005)
+    Do not confuse this error with the one outlined in [Cannot login to
+    VLDB Utilites](Cannot_run_VLDB_Utilities_(Arcserve) "wikilink");
+    which could be completely different.
+
+### Cause
+
+-   Not running regular maintenance: Utilities such as dgfix, dbdefrag
+    and keybuild.
+-   Shutdown/Server crash whilst the database is bring written to.
+-   Server runs out of disk space
+-   Database size limit reached: The maximum size is 360m records -
+    \~36Gb of data. Each file backed up uses \~80 bytes of data in the
+    database.
+-   Database prune time: Prune jobs running whilst a backup or restore
+    is done on a regular basis has been known to cause corruption. The
+    default time for the prune job as midnight. This is the worst time
+    to do this as usually backups are occurring at this time. A daily
+    prune job for midday is recommended.
+
+### Resolution
+
+<not finished>

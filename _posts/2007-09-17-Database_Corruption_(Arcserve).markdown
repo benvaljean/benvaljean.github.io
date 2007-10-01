@@ -50,4 +50,24 @@ Symptoms can be any or all of the following:
 
 ### Resolution
 
-<not finished>
+Corruption is usually in the astpsdat database as this contains session
+data and therefore the bulk of data associated with Arcserve; therefore
+it is prudent to start here. Like all Arcserve databases it can be
+presented in chunks to the filesystem itself (.001, .002 etc.) but the
+database name as a whole is always supplied to the VLDB utilities.
+
+1.  Before running any utilities ensure that all ArcServe serivces
+    apaprt from the database engine have stopped.
+2.  Open a commend prompt and change to the Arcserve directory, type:
+    dbdefrag -a -L casdb;admin;secret astpsdat
+3.  Followed by: keybuild -k -L casdb;admin;secret astpsdat
+
+These commands can reduce the size of the database and therefore reduce
+the time for checks on the database if required. Test whether the issue
+is resolved, if the issue is resolved, you do not have to follow the
+remaining steps. If the issue is not resolved, go to step 3, and then
+follow the remaining steps.
+
+3\. dbfix -a -L casdb;admin;secret astpsdat
+
+Depending on the amount of corruption \... <not finished>

@@ -5,7 +5,7 @@ title: Database Corruption (Arcserve)
 
 Database corruption affects detailed session records even if a merge is
 done on the tape. Consequently restore by session/tree/query does not
-work but the backed up data itself does not work. For a quick work
+work but the backed up data itself is unaffected. For a quick work
 around to enable the restoration of data without investigating/fixing
 database corruption choose **Restore by Media**. This does not rely on a
 Arcserve database but a whole particular session will have to be
@@ -68,6 +68,6 @@ is resolved, if the issue is resolved, you do not have to follow the
 remaining steps. If the issue is not resolved, go to step 3, and then
 follow the remaining steps.
 
-3\. dbfix -a -L casdb;admin;secret astpsdat
+:   3\. dbfix -a -L casdb;admin;secret astpsdat
 
 Depending on the amount of corruption \... <not finished>

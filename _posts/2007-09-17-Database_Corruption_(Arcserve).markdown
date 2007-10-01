@@ -68,6 +68,10 @@ is resolved, if the issue is resolved, you do not have to follow the
 remaining steps. If the issue is not resolved, go to step 3, and then
 follow the remaining steps.
 
-:   3\. dbfix -a -L casdb;admin;secret astpsdat
+:   4\. dbfix -a -L casdb;admin;secret astpsdat
 
-Depending on the amount of corruption \... <not finished>
+Depending on the amount of corruption and the size of the database this
+usually takes 12 hours or even several days. If it is still running
+after 48 hours or if the above step fails the next step is to
+[reinitialise the
+database](Reinitialise_database_(Arcserve) "wikilink").

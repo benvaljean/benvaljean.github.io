@@ -56,8 +56,10 @@ it is prudent to start here. Like all Arcserve databases it can be
 presented in chunks to the filesystem itself (.001, .002 etc.) but the
 database name as a whole is always supplied to the VLDB utilities.
 
-1.  Before running any utilities ensure that all ArcServe serivces
-    apaprt from the database engine have stopped.
+1.  For correct operation of the VLDB utilities every service should not
+    be running apart from the Database engine. To do this run
+    services.msc , find the services beginning with CA Brightstor and
+    stop all of them apart from \"CA Brightstor Database Engline.\"
 2.  Open a commend prompt and change to the Arcserve directory, type:
     dbdefrag -a -L casdb;admin;secret astpsdat
 3.  Followed by: keybuild -k -L casdb;admin;secret astpsdat
@@ -72,6 +74,6 @@ follow the remaining steps.
 
 Depending on the amount of corruption and the size of the database this
 usually takes 12 hours or even several days. If it is still running
-after 48 hours or if the above step fails the next step is to
-[reinitialise the
+after 48 hours or if the above command does not fix the corruption the
+next step is to [reinitialise the
 database](Reinitialise_database_(Arcserve) "wikilink").

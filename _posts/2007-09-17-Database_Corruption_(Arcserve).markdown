@@ -77,3 +77,5 @@ usually takes 12 hours or even several days. If it is still running
 after 48 hours or if the above command does not fix the corruption the
 next step is to [reinitialise the
 database](Reinitialise_database_(Arcserve) "wikilink").
+
+[Category:Arcserve](Category:Arcserve "wikilink")

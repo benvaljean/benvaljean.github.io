@@ -128,6 +128,9 @@ screen mode
 Find window in Outlook
 2002](http://support.microsoft.com/default.aspx?scid=kb;en-us;301415)
 
+[Blackberry stuck on egg
+timer](http://blackberryforums.pinstack.com/12976-post7.html)
+
 ### IT Forum Sites
 
 [Tek-Tips](http://www.tek-tips.com/)

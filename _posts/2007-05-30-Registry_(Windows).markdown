@@ -397,6 +397,16 @@ under HKEY\_CURRENT\_USER. All keys are DWORD unless otherwise stated.
                     -   IdleEnable: (0 or 1) Set this to one to increase
                         the USB polling inerval. This is useful for
                         laptops as it allows a better standby.
+                -   Terminal Server
+                    -   Winstations
+                        -   RDP-Tcp
+                            -   Portnumber: The default port for
+                                terminal services / remote desktop;
+                                useful for hardening security by
+                                changing the standard port, 3389. See
+                                also: [Change Remote Desktop listening
+                                port
+                                (MyDigitalLife)](http://www.mydigitallife.info/2006/12/04/modify-and-change-remote-desktop-listening-port/)
             -   Session Manager
                 -   SafeDllSearchMode: Change the search order for a
                     required DLL for a pgoramme. 1 = search Windows dirs

@@ -131,6 +131,9 @@ Find window in Outlook
 [Blackberry stuck on egg
 timer](http://blackberryforums.pinstack.com/12976-post7.html)
 
+[Troubleshooting the device status on a RIM
+BlackBerry](http://supportcingular.atgnow.com/cng/knowledgebase/KB3218.html)
+
 ### IT Forum Sites
 
 [Tek-Tips](http://www.tek-tips.com/)

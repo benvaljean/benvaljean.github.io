@@ -74,6 +74,10 @@ Very good tutorials, especially on programming
 [Chsnging default email address in
 Exchange](http://support.microsoft.com/default.aspx?kbid=285136)
 
+[Outlook Auto Completion
+Tips](http://www.ingressor.com/autocompletetips.htm) including migrating
+from one PC to another - informative page
+
 ### Downloads
 
 [Windows XP Support Tools](http://support.microsoft.com/kb/838079/en-us)

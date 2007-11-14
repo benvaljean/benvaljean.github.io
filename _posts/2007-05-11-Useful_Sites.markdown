@@ -78,6 +78,11 @@ Exchange](http://support.microsoft.com/default.aspx?kbid=285136)
 Tips](http://www.ingressor.com/autocompletetips.htm) including migrating
 from one PC to another - informative page
 
+[SSL
+Explorer](http://www.tomsnetworking.com/2006/07/21/diy_ssl_vpn_with_ssl_explorer_pt1/)
+Installation info - free SSL VPN including web-based RDP (similar to
+logmein/PCAnywhere)
+
 ### Downloads
 
 [Windows XP Support Tools](http://support.microsoft.com/kb/838079/en-us)

@@ -338,6 +338,10 @@ under HKEY\_CURRENT\_USER. All keys are DWORD unless otherwise stated.
                     third-party app back to use the PDA/smartphone after
                     ActiveSync has installed itself over the top.
         -   Microsoft\\\\Windows NT\\\\CurrentVersion
+            -   Setup
+                -   RecoveryConsole
+                    -   SetCommand: (0=disallow 1=allow) Allow access to
+                        HDs and floppy drive from the recovery console.
             -   Winlogon
                 -   PasswordExpiryWarning: (no of days in DWORD)
                 -   LogonType: (0 or 1) This value is 0 by default for

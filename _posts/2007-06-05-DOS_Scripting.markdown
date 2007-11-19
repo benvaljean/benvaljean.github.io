@@ -268,4 +268,6 @@ FOR](http://www.ericphelps.com/batch/lines/word-for.htm)
 [Win32 Scripting
 Tutorial](http://supportweb.cs.bham.ac.uk/documentation/tutorials/docsystem/build/tutorials/win32scripting/win32scripting.html)
 
+[1](http://cwashington.netreach.net/depo/view.asp?Index=1036)
+
 [Category:Windows](Category:Windows "wikilink")

@@ -83,7 +83,12 @@ Explorer](http://www.tomsnetworking.com/2006/07/21/diy_ssl_vpn_with_ssl_explorer
 Installation info - free SSL VPN including web-based RDP (similar to
 logmein/PCAnywhere)
 
-[1](http://www.trilithium.com/johan/2005/06/grub-grub-grub/) Good site
+[Trilithium.com](http://www.trilithium.com/johan/2005/06/grub-grub-grub/)
+Good site
+
+[Computer Performance: Exchange
+2003](http://www.computerperformance.co.uk/exchange2003) Good exchange
+site
 
 ### Downloads
 
@@ -102,13 +107,13 @@ Hide files inside JPG/BMP etc
 
 ### Registry Related
 
-[2](http://technet2.microsoft.com/windowsserver/en/library/c07587ec-4a60-4bca-8508-29a4296b72121033.mspx?mfr=true)
+[1](http://technet2.microsoft.com/windowsserver/en/library/c07587ec-4a60-4bca-8508-29a4296b72121033.mspx?mfr=true)
 
 ### Not IT
 
 [Escape!](http://members.iinet.net.au/~pontipak/redsquare.html)
 
-[3](http://en.wikipedia.org/wiki/Wikipedia:Featured_pictures/Aeronautics_and_aviation)
+[2](http://en.wikipedia.org/wiki/Wikipedia:Featured_pictures/Aeronautics_and_aviation)
 
 [Amiga magazine rack - AF](http://amr.abime.net/issues_4)
 

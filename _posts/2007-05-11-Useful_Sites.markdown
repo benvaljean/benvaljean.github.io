@@ -3,6 +3,8 @@ layout: post
 title: Useful Sites
 ---
 
+\_\_NOTOC\_\_
+
 [Windows XP Professional Resource Kit: Troubleshooting the Startup
 Process](http://www.microsoft.com/technet/prodtechnol/winxppro/reskit/c29621675.mspx)
 
@@ -89,6 +91,12 @@ Good site
 [Computer Performance: Exchange
 2003](http://www.computerperformance.co.uk/exchange2003) Good exchange
 site
+
+### Linux Related
+
+[Ubuntuguide: Dapper](http://ubuntuguide.org/wiki/Ubuntu_dapper) Great
+guide [Setup load balanched clustered mysql servers on
+Debian](http://www.howtoforge.com/loadbalanced_mysql_cluster_debian)
 
 ### Downloads
 

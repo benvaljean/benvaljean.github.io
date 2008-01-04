@@ -94,9 +94,15 @@ site
 
 ### Linux Related
 
-[Ubuntuguide: Dapper](http://ubuntuguide.org/wiki/Ubuntu_dapper) Great
-guide [Setup load balanched clustered mysql servers on
-Debian](http://www.howtoforge.com/loadbalanced_mysql_cluster_debian)
+-   [Ubuntuguide: Dapper](http://ubuntuguide.org/wiki/Ubuntu_dapper)
+    Great guide
+-   [Setup load balanched clustered mysql servers on
+    Debian](http://www.howtoforge.com/loadbalanced_mysql_cluster_debian)
+
+### NFS
+
+-   <https://help.ubuntu.com/6.06/ubuntu/serverguide/C/network-file-system.html>
+-   <http://www.openfree.org/pet/index.php/Mount_an_NFS_share_from_Windows>
 
 ### Downloads
 

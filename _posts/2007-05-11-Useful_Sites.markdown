@@ -98,8 +98,10 @@ site
     Great guide
 -   [Setup load balanched clustered mysql servers on
     Debian](http://www.howtoforge.com/loadbalanced_mysql_cluster_debian)
+-   [DNS Resource Record
+    Guide](http://technet2.microsoft.com/windowsserver/en/library/7b005a9b-4397-4d94-a584-34c037e2457c1033.mspx?mfr=true)
 
-### NFS
+#### NFS
 
 -   <https://help.ubuntu.com/6.06/ubuntu/serverguide/C/network-file-system.html>
 -   <http://www.openfree.org/pet/index.php/Mount_an_NFS_share_from_Windows>

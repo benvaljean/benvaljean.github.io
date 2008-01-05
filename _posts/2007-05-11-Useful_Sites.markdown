@@ -24,13 +24,6 @@ stuff](http://archives.neohapsis.com/archives/ntbugtraq/2003-q3/0033.html)
 [How to re-initialize the offline files cache and
 database](http://support.microsoft.com/kb/230738)
 
-[Dapper Custmisation
-Guide](http://ubuntuforums.org/showthread.php?t=296462) unverified to be
-useful
-
-[Linux/Server HOWTO site](http://gentoo-wiki.com/Index:HOWTO) Great
-guide
-
 [Registry
 Tips](http://www.windowsnetworking.com/kbase/WindowsTips/WindowsNT/RegistryTips/)
 
@@ -40,9 +33,6 @@ Tips](http://www.windowsnetworking.com/kbase/WindowsTips/WindowsNT/RegistryTips/
 
 :   [LSA
     Secrets](http://www.windowsnetworking.com/nt/registry/rtips320.shtml)
-
-[Password Protect Directory With
-htaccess](http://www.cyberciti.biz/faq/howto-setup-apache-password-protect-directory-with-htaccess-file/)
 
 [PHP Tutorial](http://www.w3schools.com/php/default.asp)
 
@@ -60,12 +50,6 @@ Very good
 [WINS Operations
 Topics](http://technet2.microsoft.com/windowsserver/en/operations/wins.mspx)
 Very exhaustive
-
-[LinuxHomeNetworking](http://www.linuxhomenetworking.com/wiki/index.php)
-Great site
-
-:   [Setup a
-    VPN](http://www.linuxhomenetworking.com/wiki/index.php/Quick_HOWTO_:_Ch35_:_Configuring_Linux_VPNs)
 
 [CA University
 Knowledgebank](http://www.cauniversity.org/knowledgebank?file=kb.php&action=view&id=99)
@@ -93,6 +77,27 @@ Good site
 site
 
 ### Linux Related
+
+-   [Linux/Server HOWTO site](http://gentoo-wiki.com/Index:HOWTO) Great
+    guide
+-   [Dapper Custmisation
+    Guide](http://ubuntuforums.org/showthread.php?t=296462) unverified
+    to be useful
+-   [Cyberciti.biz](http://www.cyberciti.biz) Great site, now known as
+    Nixcraft.
+
+:\*[Linux: Synchronize Personal Data / Email / Pictures with Online
+Service or Other
+Computer](http://www.cyberciti.biz/tips/linux-data-photo-email-bookmark-synchronize-software.html)
+
+:\*[Password Protect Directory With
+htaccess](http://www.cyberciti.biz/faq/howto-setup-apache-password-protect-directory-with-htaccess-file/)
+
+-   [LinuxHomeNetworking](http://www.linuxhomenetworking.com/wiki/index.php)
+    Great site
+
+:   [Setup a
+    VPN](http://www.linuxhomenetworking.com/wiki/index.php/Quick_HOWTO_:_Ch35_:_Configuring_Linux_VPNs)
 
 -   [Ubuntuguide: Dapper](http://ubuntuguide.org/wiki/Ubuntu_dapper)
     Great guide

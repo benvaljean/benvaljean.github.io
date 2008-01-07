@@ -111,6 +111,17 @@ htaccess](http://www.cyberciti.biz/faq/howto-setup-apache-password-protect-direc
 -   <https://help.ubuntu.com/6.06/ubuntu/serverguide/C/network-file-system.html>
 -   <http://www.openfree.org/pet/index.php/Mount_an_NFS_share_from_Windows>
 
+### Vista
+
+-   [Disable Security Center Popup Notifications in Windows
+    Vista](http://www.howtogeek.com/howto/windows-vista/disable-security-center-popup-notifications-in-windows-vista/)
+
+<!-- -->
+
+-   [Disable annoying need your permission to continue prompts (User
+    Account
+    Control)](http://lifehacker.com/software/vista/windows-vista-tip--disable-annoying-need-your-permission-to-continue-prompts-230866.php)
+
 ### Downloads
 
 [Windows XP Support Tools](http://support.microsoft.com/kb/838079/en-us)

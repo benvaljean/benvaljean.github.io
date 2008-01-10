@@ -76,6 +76,9 @@ Good site
 2003](http://www.computerperformance.co.uk/exchange2003) Good exchange
 site
 
+[Manual Update of Symantec AV
+Updates](http://www.symantec.com/avcenter/download.html)
+
 ### Linux Related
 
 -   [Linux/Server HOWTO site](http://gentoo-wiki.com/Index:HOWTO) Great

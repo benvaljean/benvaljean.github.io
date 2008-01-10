@@ -114,6 +114,12 @@ htaccess](http://www.cyberciti.biz/faq/howto-setup-apache-password-protect-direc
 -   <https://help.ubuntu.com/6.06/ubuntu/serverguide/C/network-file-system.html>
 -   <http://www.openfree.org/pet/index.php/Mount_an_NFS_share_from_Windows>
 
+### Outlook
+
+-   [How to Work with Public Folders
+    Offline](http://www.intermedia.net/support/kb/default.asp?id=746)
+    Also improves search speed
+
 ### Vista
 
 -   [Disable Security Center Popup Notifications in Windows

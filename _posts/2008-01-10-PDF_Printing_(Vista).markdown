@@ -276,3 +276,7 @@ delete it. this worked fine for me after that. Then I deleted the print
 driver and the package. Toshiba was late in getting suitable print
 drivers out for Vista, much like HP. Everything seems fin after I
 deleted the in compatable print drivers.
+
+------------------------------------------------------------------------
+
+61.53.25.9 hpmcpc25.gpd 9.18.2006

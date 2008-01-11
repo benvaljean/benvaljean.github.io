@@ -3,9 +3,8 @@ layout: post
 title: Useful Sites
 ---
 
-\_\_NOTOC\_\_
-
-[Windows XP Professional Resource Kit: Troubleshooting the Startup
+\_\_NOTOC\_\_[Windows XP Professional Resource Kit: Troubleshooting the
+Startup
 Process](http://www.microsoft.com/technet/prodtechnol/winxppro/reskit/c29621675.mspx)
 
 [Simpler Web: Exchange/DNS

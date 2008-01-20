@@ -111,6 +111,8 @@ htaccess](http://www.cyberciti.biz/faq/howto-setup-apache-password-protect-direc
     Debian](http://www.howtoforge.com/loadbalanced_mysql_cluster_debian)
 -   [DNS Resource Record
     Guide](http://technet2.microsoft.com/windowsserver/en/library/7b005a9b-4397-4d94-a584-34c037e2457c1033.mspx?mfr=true)
+-   [Bash scripting
+    guide](http://www.linuxtopia.org/online_books/advanced_bash_scripting_guide/moreadv.html)
 
 #### NFS
 

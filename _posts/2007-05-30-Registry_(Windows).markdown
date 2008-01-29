@@ -7,7 +7,8 @@ title: Registry (Windows)
 
 SK/UK = System key/User key: This key can be used as a user key under
 HKEY\_CURRENT\_USER or as system key affecting all users on the machine
-under HKEY\_CURRENT\_USER. All keys are DWORD unless otherwise stated.
+under HKEY\_CURRENT\_USER. Unless otherwise stated all keys are DWORD, 0
+disables the feature and 1 enables it.
 
 -   **HKEY\_CLASSES\_ROOT**: Contains software settings about
     drag-and-drop operations, handles shortcut information, and other
@@ -305,6 +306,9 @@ under HKEY\_CURRENT\_USER. All keys are DWORD unless otherwise stated.
         -   Policies:
             -   DontDisplayLastUserName: (0 or 1) Set this to 1 and upon
                 relogging in the last user name to do will not be shown.
+            -   VerboseStatus: (0 or 1) When enababled this will show
+                verbose information when logging on or off or booting up
+                or shutting down. Useful for dignosing slow startups.
             -   Explorer:
                 -   ClassicShell: (0 or 1) Set to 1 to disable most of
                     the Windows 98+ features in Explorer. Features
@@ -339,6 +343,17 @@ under HKEY\_CURRENT\_USER. All keys are DWORD unless otherwise stated.
                     ActiveSync has installed itself over the top.
         -   Microsoft\\\\Windows NT\\\\CurrentVersion
             -   Setup
+                -   Diagnostics: *Read this if you intend to apply these
+                    keys to Windows Server 2003: [MS KB
+                    889088](http://support.microsoft.com/kb/889088)*
+                    -   RunDiagnosticLoggingGlobal: Enable user
+                        environment event logging
+                    -   RunDiagnosticLoggingGroupPolicy: Enable event
+                        logging for group policies only
+                    -   RunDiagnosticLoggingAppDeploy: Enable event
+                        logging for GPO application deployment only
+                    -   RunDiagnosticLoggingIntelliMirror: Enable event
+                        logging for remote boot only
                 -   RecoveryConsole
                     -   SetCommand: (0=disallow 1=allow) Allow access to
                         HDs and floppy drive from the recovery console.

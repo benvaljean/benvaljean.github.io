@@ -29,16 +29,19 @@ to all or a particular web page.
     Administrator. To resolve, see the \"NoViewSource\" registry value
     in Internet Explorer Restrictions.
 
-4\. Incomplete Page Download Some times if the page download is stopped
-before it has finished Internet Explorer may now show the \"View
-Source\" item. 5. Invalid Temporary Directory
+4\. Incomplete Page Download
+
+:   Some times if the page download is stopped before it has finished
+    Internet Explorer may now show the \"View Source\" item.
+
+5\. Invalid Temporary Directory
 
 :   It is unlikely but possible that this error is due to the path
     specified for the TMP environment variable being invalid. To
     resolve, ensure that the TEMP directory is a valid directory and
     that there is sufficient space on the drive.
 
-5\. Invalid View Source Program
+6\. Invalid View Source Program
 
 :   The editor that is automatically opened is defined by a registry
     key, this could be invalid. Check the contents of the key in:
@@ -46,13 +49,13 @@ Source\" item. 5. Invalid Temporary Directory
     Explorer\\\\View Source Editor\\\\Editor Name. A string value of
     \"%windir%\\\\wordpad.exe\" is suggested.
 
-6\. Right-click disabled by Web Page
+7\. Right-click disabled by Web Page
 
 :   Some web pages implement a restriction to stop visitors from
     right-clicking on the web page; usually to stop the saving of media.
     The source may still be viewed by using the menu: View \> Source.
 
-7\. Missing Notepad.exe
+8\. Missing Notepad.exe
 
 :   The View Source function uses Notepad to display the HTML, if
     \"notepad.exe\" is missing from the Windows directory then it will

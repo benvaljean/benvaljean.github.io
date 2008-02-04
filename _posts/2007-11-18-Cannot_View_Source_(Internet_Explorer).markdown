@@ -5,8 +5,8 @@ title: Cannot View Source (Internet Explorer)
 
 ### Symptom
 
-From withini Internet Explorer it is not possible to view the source
-code to all or a particular web page.
+From within Internet Explorer it is not possible to view the source code
+to all or a particular web page.
 
 ### Causes and Resolution
 

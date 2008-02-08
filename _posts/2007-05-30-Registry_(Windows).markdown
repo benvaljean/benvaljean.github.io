@@ -79,34 +79,25 @@ disables the feature and 1 enables it.
         Dial-Up Networking.
     -   Policies
         -   Microsoft\\\\Internet Explorer\\\\Control Panel: This key
-            contains details on whether settings can be changed by the
-            user or whether they are ghosted. For each key below 0=user
-            can edit settings, 1=appears ghosted/unavilable. All are
-            DWORD.
-            -   HomePage
-            -   Cache
-            -   History
-            -   Colors
-            -   Links
-            -   Fonts
-            -   Languages
-            -   Accessibility
-            -   Certificates
-            -   Profiles
-            -   Wallet
-            -   Connection Wizard
-            -   Connection Settings
-            -   Proxy
-            -   Autoconfig
-            -   Messaging
-            -   CalendarContact
-            -   Check\_If\_Default
-            -   Advanced
-            -   ConnWiz Admin Lock
-            -   SecurityTab
-            -   AdvancedTab
-            -   ConnectionsTab
-            -   ProgramsTab
+            allow restrictions in editing settingsInternet Explorer
+            settings. For each key below 0=user can edit settings,
+            1=appears ghosted/unavilable. All are DWORD.
+            -   HomePage: Restrict change of home page
+            -   Cache: Restrict changes to temporary Internet files
+            -   History: Restrict changes to history settings
+            -   Colors: Restrict changing of colour settings
+            -   Fonts: Restrict font settings
+            -   Accessibility: Restrict accessibility settings
+            -   Profiles: Restrict changes to profiles
+            -   Proxy: Restrict the changing of the proxy.
+            -   Autoconfig: Disable autoconfig
+            -   Advanced: Restrict advanced settings; does not remove
+                tab.
+            -   ConnWiz Admin Lock: Disable connection wizard
+            -   SecurityTab: Hides Security tab in Settings.
+            -   AdvancedTab: Hides Advanced tab in Settings.
+            -   ConnectionsTab: Hides Connections tab in Settings.
+            -   ProgramsTab: Hides Programs tab in Settings.
     -   Software: Software configuration settings for the currently
         logged-on user.
         -   Microsoft\\\\Office\\\\\<9.0\|10.0\|11.0\>

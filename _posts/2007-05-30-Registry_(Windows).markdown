@@ -143,56 +143,66 @@ disables the feature and 1 enables it.
             -   Explorer
                 -   link: (binary) 00 00 00 00 = no \"Shortcut to\"
                     prefix on shortuts. SK/UK
-
-StuckRects: This key includes information relating to the taskbar. If
-the taskbar is not working for some reason this key can be deleted to
-revert it to its default values.
-
--   -   Desktop
-        -   DesktopProcess: (1=seperate process 0=default) Windows will
-            normally use the same process for the Desktop, takebar and
-            directory-windows. Should any one of these crash then the
-            taskbar and Desktop will need to restart as well. Setthis
-            key to 1 to put your desktop and taskbar in a seperate
-            process. Note: Active Desktop, IE pre 5.5 cannot be used
-            with this key set to 1.
-        -   CleanupWiz
-            -   \"Days between clean up\"
-            -   NoRun: (0 or 1) Set to disable the desktop cleanup
-                wizard
-    -   Shell Folders
-        -   Personal: (string) Location of the \'My Documents\' folder.
-            See also: [Restore/Repair My Documents
-            (Windows)](Restore/Repair_My_Documents_(Windows) "wikilink")
-    -   User Shell Folders
-        -   Personal: (string) Location of the \'My Documents\' folder -
-            some apps check this key instead of \'Shell Folders\'. See
-            also: [Restore/Repair My Documents
-            (Windows)](Restore/Repair_My_Documents_(Windows) "wikilink")
-    -   Advanced
-        -   Hidden (1 = show 2 = do not show) Display hidden files.
-        -   ShowSuperHidden: (0 = hide files 1= show files) As above but
-            for files when are hidden and system.
-        -   Intellimenus: (0 or 1) Set to 0 to disable the hiding of
-            rarely used menu items until you select the down-arrows.
-        -   StartMenuScrollPrograms (\"yes\" or \"no\") Allow scrolling
-            of programs in the start menu.
-        -   EnableBalloonTips: (0 or 1) Set to 0 to disable balloon tips
-            for example print notifications and the tour.
-        -   TaskbarSizeMove: (0 = locked 1 = unlocked) If context menus
-            on the start menu have been disabled than the start menu
-            position can still be locked/unlocked with this key.
-        -   TaskbarGlomming: (0 = not groups/Win2k style 1 = grouped)
-            This key controls taskbar item grouping.
-        -   NoTrayContextMenu: (0 = disabled 1 = enabled) This key
-            controls context menus for the start menu.
-    -   CabinetState
-        -   \"Use Search Asst\": Set to \"no\" to enable the Win2k
-            search interface, inculde the spaces in the key name.
-    -   RunMRU: The cached entries for Run commands in the start menu
-        are stored hereandcan be safely deleted if required.
-
--   -   Microsoft\\\\Windows CE Services\\\\Partners\\\\<Device ID>
+                -   StuckRects: This key includes information relating
+                    to the taskbar. If the taskbar is not working for
+                    some reason this key can be deleted to revert it to
+                    its default values.
+                -   Desktop
+                    -   DesktopProcess: (1=seperate process 0=default)
+                        Windows will normally use the same process for
+                        the Desktop, takebar and directory-windows.
+                        Should any one of these crash then the taskbar
+                        and Desktop will need to restart as well.
+                        Setthis key to 1 to put your desktop and taskbar
+                        in a seperate process. Note: Active Desktop, IE
+                        pre 5.5 cannot be used with this key set to 1.
+                    -   CleanupWiz
+                        -   \"Days between clean up\"
+                        -   NoRun: (0 or 1) Set to disable the desktop
+                            cleanup wizard
+                -   Shell Folders
+                    -   Personal: (string) Location of the \'My
+                        Documents\' folder. See also: [Restore/Repair My
+                        Documents
+                        (Windows)](Restore/Repair_My_Documents_(Windows) "wikilink")
+                -   User Shell Folders
+                    -   Personal: (string) Location of the \'My
+                        Documents\' folder - some apps check this key
+                        instead of \'Shell Folders\'. See also:
+                        [Restore/Repair My Documents
+                        (Windows)](Restore/Repair_My_Documents_(Windows) "wikilink")
+                -   Advanced
+                    -   Hidden (1 = show 2 = do not show) Display hidden
+                        files.
+                    -   ShowSuperHidden: (0 = hide files 1= show files)
+                        As above but for files when are hidden and
+                        system.
+                    -   Intellimenus: (0 or 1) Set to 0 to disable the
+                        hiding of rarely used menu items until you
+                        select the down-arrows.
+                    -   StartMenuScrollPrograms (\"yes\" or \"no\")
+                        Allow scrolling of programs in the start menu.
+                    -   EnableBalloonTips: (0 or 1) Set to 0 to disable
+                        balloon tips for example print notifications and
+                        the tour.
+                    -   TaskbarSizeMove: (0 = locked 1 = unlocked) If
+                        context menus on the start menu have been
+                        disabled than the start menu position can still
+                        be locked/unlocked with this key.
+                    -   TaskbarGlomming: (0 = not groups/Win2k style 1 =
+                        grouped) This key controls taskbar item
+                        grouping.
+                    -   NoTrayContextMenu: (0 = disabled 1 = enabled)
+                        This key controls context menus for the start
+                        menu.
+                -   CabinetState
+                    -   \"Use Search Asst\": Set to \"no\" to enable the
+                        Win2k search interface, inculde the spaces in
+                        the key name.
+                -   RunMRU: The cached entries for Run commands in the
+                    start menu are stored hereandcan be safely deleted
+                    if required.
+    -   Microsoft\\\\Windows CE Services\\\\Partners\\\\<Device ID>
         \\\\Services\\\\Synchronization: Settings in realtion to
         PDAs/smartphone, typically with regard to ActiveSync. Note the
         US spelling.

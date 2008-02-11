@@ -127,6 +127,9 @@ htaccess](http://www.cyberciti.biz/faq/howto-setup-apache-password-protect-direc
     Transfers](http://www.cyberciti.biz/tips/howto-restrict-unauthorized-zone-transfers-dns-bind.html)
 -   [Frequently Asked Questions about BIND
     9](http://www.isc.org/index.pl?/sw/bind/FAQ.php) Good
+-   [Bind 9 Configuration
+    Reference](http://www.isc.org/sw/bind/arm93/Bv9ARM.ch06.html) Very
+    concise
 
 ### Outlook
 

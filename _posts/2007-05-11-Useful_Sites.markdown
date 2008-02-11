@@ -119,6 +119,15 @@ htaccess](http://www.cyberciti.biz/faq/howto-setup-apache-password-protect-direc
 -   <https://help.ubuntu.com/6.06/ubuntu/serverguide/C/network-file-system.html>
 -   <http://www.openfree.org/pet/index.php/Mount_an_NFS_share_from_Windows>
 
+#### BIND
+
+-   [BIND
+    Troubleshooting](http://www.cyberciti.biz/tips/troubleshooting-bind-dns-2.html)
+-   [Restrict Zone
+    Transfers](http://www.cyberciti.biz/tips/howto-restrict-unauthorized-zone-transfers-dns-bind.html)
+-   [Frequently Asked Questions about BIND
+    9](http://www.isc.org/index.pl?/sw/bind/FAQ.php) Good
+
 ### Outlook
 
 -   [How to Work with Public Folders

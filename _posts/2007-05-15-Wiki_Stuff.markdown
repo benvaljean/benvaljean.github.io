@@ -19,8 +19,11 @@ using the wiki software.
 -   [MediaWiki release mailing
     list](http://mail.wikimedia.org/mailman/listinfo/mediawiki-announce)
 
-<http://www.mediawiki.org/wiki/Manual:FAQ>
-<http://www.mediawiki.org/wiki/Manual:Navigation_bar>
+<!-- -->
+
+-   <http://www.mediawiki.org/wiki/Manual:FAQ>
+-   <http://www.mediawiki.org/wiki/Manual:Navigation_bar>
+-   <http://meta.wikimedia.org/wiki/MediaWiki_FAQ>
 
 Edit <http://www.mediawiki.org/wiki/MediaWiki:Sidebar>
 

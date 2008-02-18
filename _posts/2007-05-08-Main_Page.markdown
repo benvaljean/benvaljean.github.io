@@ -5,146 +5,114 @@ title: Main Page
 
 ![Roger rabbit](roger2.gif "Roger rabbit")
 
-### My Stuff
-
-[Scratchpad](Scratchpad "wikilink")
-
 [Useful Sites](Useful_Sites "wikilink")
 
-[Wiki Stuff](Wiki_Stuff "wikilink")
+[Favorite Flash movies](Flash_Movies "wikilink")
 
-### Fun Stuff
+[Mediawiki Notes](Wiki_Stuff "wikilink")
 
-[Flash Movies](Flash_Movies "wikilink")
+[Squid Notes](Squid_Stuff "wikilink")
 
 ### Fact Stuff
 
-[Myths (Eye)](Myths_(Eye) "wikilink")
+-   [Common Myths of the Eyes](Myths_(Eye) "wikilink")
+-   [Common Myths of the Common cold](Myths_(Common_Cold) "wikilink")
 
-[Myths (Common Cold)](Myths_(Common_Cold) "wikilink")
+### Microsoft Windows
 
-### IT Stuff
+-   [Registry](Registry "wikilink")
+-   [Change Product Key (Windows
+    XP)](Change_Product_Key_(Windows_XP) "wikilink")
+-   [Startup Methods](Startup_Methods "wikilink")
+-   [Console session (Terminal Services/Remote
+    Desktop)](Console_session_(Terminal_Services/Remote_Desktop) "wikilink")
+-   [DOS Scripting](DOS_Scripting "wikilink")
+-   [System Volume Information
+    folder](System_Volume_Information_folder_(Windows) "wikilink")
+-   [Windows Installer Cleanup
+    Utility](http://support.microsoft.com/kb/290301/en-us) - use this to
+    remove persistent install dialogs etc.
+-   [Windows Installer](http://support.microsoft.com/kb/555175/en-us)
 
-[Registry](Registry "wikilink")
+#### Troublehooting
 
-[Change Product Key (Windows
-XP)](Change_Product_Key_(Windows_XP) "wikilink")
+-   [Context Menu Handler
+    (Explorer)](Context_Menu_Handler_(Explorer) "wikilink")
+-   [Restore/Repair My
+    Documents](Restore/Repair_My_Documents_(Windows) "wikilink")
+-   [Icon problem: Low colour icons (4 bits/16 colours) even with 16/32
+    bit screen
+    mode](Icon_problem:_Low_colour_icons_(4_bits/16_colours)_even_with_16/32_bit_screen_mode_(Windows) "wikilink")
+-   [Print Spooler Issues](http://support.microsoft.com/kb/324757)
+-   [CD Burning Driver
+    Conflicts](http://support.microsoft.com/default.aspx?scid=KB;EN-US;q315345&)
 
-[Disable Attachment Blocking
-(Outlook)](Disable_Attachment_Blocking_(Outlook) "wikilink")
+### Microsoft Office Troubleshooting
 
-[Context Menu Handler
-(Explorer)](Context_Menu_Handler_(Explorer) "wikilink")
+-   [Disable Attachment Blocking
+    (Outlook)](Disable_Attachment_Blocking_(Outlook) "wikilink")
+-   [Always add BCC (Outlook)](Always_add_BCC_(Outlook) "wikilink")
+-   [Global Address List not updating
+    (Outlook)](Global_Address_List_not_updating_(Outlook) "wikilink")
+-   [Cannot View Source (Internet
+    Explorer)](Cannot_View_Source_(Internet_Explorer) "wikilink")
+-   [Word Trobuleshooting](http://support.microsoft.com/kb/820919/)
+-   [You receive error messages when you move or copy items in the
+    Advance Find window in Outlook
+    2002](http://support.microsoft.com/default.aspx?scid=kb;en-us;301415)
 
-[Startup Methods](Startup_Methods "wikilink")
+### CA Brightstor Arcserve Trobuleshooting
 
-[Always add BCC (Outlook)](Always_add_BCC_(Outlook) "wikilink")
+-   [Database Corruption](Database_Corruption_(Arcserve) "wikilink")
+-   [Database login problems / Cannot run VLDB utilities / -2005
+    error](Database_login_problems_/_Cannot_run_VLDB_utilities_/_-2005_error_(Arcserve) "wikilink")
+-   [Reinitialise database](Reinitialise_database_(Arcserve) "wikilink")
 
-[Global Address List not updating
-(Outlook)](Global_Address_List_not_updating_(Outlook) "wikilink")
+### Lotus Notes Trobuleshooting
 
-[Console session (Terminal Services/Remote
-Desktop)](Console_session_(Terminal_Services/Remote_Desktop) "wikilink")
+-   [Your availability time range is invalid, please correct
+    Error](Your_availability_time_range_is_invalid,_please_correct_Error_(Lotus_Notes) "wikilink")
+-   [Document has already been deleted
+    Error](Document_has_already_been_deleted_Error_(Lotus_Notes) "wikilink")
+-   [Stationary Locked for other
+    users](Stationary_Locked_for_other_users_(Lotus_Notes) "wikilink")
 
-[Restore/Repair My Documents
-(Windows)](Restore/Repair_My_Documents_(Windows) "wikilink")
+### Other IT Trobuleshooting
 
-[DOS Scripting](DOS_Scripting "wikilink")
-
-[System Volume Information folder
-(Windows)](System_Volume_Information_folder_(Windows) "wikilink")
-
-[Cannot View Source (Internet
-Explorer)](Cannot_View_Source_(Internet_Explorer) "wikilink")
-
-#### Arcserve
-
-[Database Corruption
-(Arcserve)](Database_Corruption_(Arcserve) "wikilink")
-
-[Database login problems / Cannot run VLDB utilities / -2005 error
-(Arcserve)](Database_login_problems_/_Cannot_run_VLDB_utilities_/_-2005_error_(Arcserve) "wikilink")
-
-[Reinitialise database
-(Arcserve)](Reinitialise_database_(Arcserve) "wikilink")
+-   [ActiveSync General Troubleshooting
+    Guide](http://www.pocketpcfaq.com/faqs/activesync/initialconfig.htm)
+-   [ActiveSync 4.0/4.1/4.2 USB Connection Troubleshooting
+    Guide](http://www.microsoft.com/windowsmobile/help/activesync/default.mspx)
+-   [Windows Media Player Troubleshooting
+    Guide](http://www.zachd.com/pss/pss.html)
+-   [Blackberry stuck on egg
+    timer](http://blackberryforums.pinstack.com/12976-post7.html)
+-   [Troubleshooting the device status on a RIM
+    BlackBerry](http://supportcingular.atgnow.com/cng/knowledgebase/KB3218.html)
 
 ### IT Reference
 
-[Contig](http://www.microsoft.com/technet/sysinternals/FileAndDisk/Contig.mspx)
-- defrag specific files
-
-[MoveFile](http://www.microsoft.com/technet/sysinternals/FileAndDisk/pendmoves.mspx)
-- set a rename/delete schedule at reboot for a file which is in use.
-
-[Wndows File Protection](http://support.microsoft.com/kb/222193/EN-US/)
-
-[Windows
-Debugging](http://www.microsoft.com/whdc/devtools/debugging/debugstart.mspx)
-
-[Terminal Services Client
-Install](http://microsoft.com/windowsxp/pro/downloads/rdclientdl.asp)
-
-[Not broadcasting your Wireless SSID does not hide your
-network](http://www.wi-fiplanet.com/tutorials/article.php/3576541)
-
-[Translate SID \<\-\-\--\>
-Username](http://www.microsoft.com/technet/scriptcenter/resources/qanda/dec04/hey1203.mspx)
-
-[Fun things to do with
-SIDS](http://blogs.msdn.com/larryosterman/archive/2004/09/02/224713.aspx)
-
-### IT Trobuleshooting
-
-[Word Trobuleshooting](http://support.microsoft.com/kb/820919/)
-
-[CD Burning Driver
-Conflicts](http://support.microsoft.com/default.aspx?scid=KB;EN-US;q315345&)
-
-[Windows Installer Cleanup
-Utility](http://support.microsoft.com/kb/290301/en-us) - use this to
-remove persistent install dialogs etc.
-
-[Windows Installer](http://support.microsoft.com/kb/555175/en-us)
-
-[Print Spooler Issues](http://support.microsoft.com/kb/324757)
-
-[ActiveSync General Troubleshooting
-Guide](http://www.pocketpcfaq.com/faqs/activesync/initialconfig.htm)
-
-[ActiveSync 4.0/4.1/4.2 USB Connection Troubleshooting
-Guide](http://www.microsoft.com/windowsmobile/help/activesync/default.mspx)
-
-[Windows Media Player Troubleshooting
-Guide](http://www.zachd.com/pss/pss.html)
-
-[Your availability time range is invalid, please correct Error (Lotus
-Notes)](Your_availability_time_range_is_invalid,_please_correct_Error_(Lotus_Notes) "wikilink")
-
-[Document has already been deleted Error (Lotus
-Notes)](Document_has_already_been_deleted_Error_(Lotus_Notes) "wikilink")
-
-[Icon problem: Low colour icons (4 bits/16 colours) even with 16/32 bit
-screen mode
-(Windows)](Icon_problem:_Low_colour_icons_(4_bits/16_colours)_even_with_16/32_bit_screen_mode_(Windows) "wikilink")
-
-[You receive error messages when you move or copy items in the Advance
-Find window in Outlook
-2002](http://support.microsoft.com/default.aspx?scid=kb;en-us;301415)
-
-[Blackberry stuck on egg
-timer](http://blackberryforums.pinstack.com/12976-post7.html)
-
-[Troubleshooting the device status on a RIM
-BlackBerry](http://supportcingular.atgnow.com/cng/knowledgebase/KB3218.html)
+-   [Contig](http://www.microsoft.com/technet/sysinternals/FileAndDisk/Contig.mspx) -
+    defrag specific files
+-   [MoveFile](http://www.microsoft.com/technet/sysinternals/FileAndDisk/pendmoves.mspx) -
+    set a rename/delete schedule at reboot for a file which is in use.
+-   [Wndows File
+    Protection](http://support.microsoft.com/kb/222193/EN-US/)
+-   [Windows
+    Debugging](http://www.microsoft.com/whdc/devtools/debugging/debugstart.mspx)
+-   [Terminal Services Client
+    Install](http://microsoft.com/windowsxp/pro/downloads/rdclientdl.asp)
+-   [Not broadcasting your Wireless SSID does not hide your
+    network](http://www.wi-fiplanet.com/tutorials/article.php/3576541)
+-   [Translate SID \<\-\-\--\>
+    Username](http://www.microsoft.com/technet/scriptcenter/resources/qanda/dec04/hey1203.mspx)
+-   [Fun things to do with
+    SIDS](http://blogs.msdn.com/larryosterman/archive/2004/09/02/224713.aspx)
 
 ### IT Forum Sites
 
-[Tek-Tips](http://www.tek-tips.com/)
-
-[theeldergeek.com](http://www.theeldergeek.com/)
-
-[Webopedia](http://www.webopedia.com/)
-
-[OSROnline](http://www.osronline.com/)
-
-[forums.techguy.org](http://forums.techguy.org/)
+-   [Tek-Tips](http://www.tek-tips.com/)
+-   [theeldergeek.com](http://www.theeldergeek.com/)
+-   [Webopedia](http://www.webopedia.com/)
+-   [OSROnline](http://www.osronline.com/)
+-   [forums.techguy.org](http://forums.techguy.org/)

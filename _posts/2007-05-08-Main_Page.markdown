@@ -29,6 +29,8 @@ title: Main Page
 -   [DOS Scripting](DOS_Scripting "wikilink")
 -   [System Volume Information
     folder](System_Volume_Information_folder_(Windows) "wikilink")
+-   [Rename Mapped or Network Drives
+    Automatically](Rename_Mapped_or_Network_Drives_Automatically "wikilink")
 -   [Windows Installer Cleanup
     Utility](http://support.microsoft.com/kb/290301/en-us) - use this to
     remove persistent install dialogs etc.

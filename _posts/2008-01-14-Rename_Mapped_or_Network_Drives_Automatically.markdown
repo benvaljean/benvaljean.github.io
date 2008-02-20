@@ -19,3 +19,5 @@ renamedrive.vbs for instance.
 Next, add the following line to the login script:
 
     wscript //b renamedrive.vbs
+
+[Category:Windows](Category:Windows "wikilink")

@@ -82,9 +82,6 @@ site
 [Manual Update of Symantec AV
 Updates](http://www.symantec.com/avcenter/download.html)
 
-[Guide on setting up Squid 2.6 as a Reverse
-Proxy](http://wiki.squid-cache.org/SquidFaq/ReverseProxy)
-
 ### Linux Related
 
 -   [Linux/Server HOWTO site](http://gentoo-wiki.com/Index:HOWTO) Great
@@ -133,6 +130,11 @@ htaccess](http://www.cyberciti.biz/faq/howto-setup-apache-password-protect-direc
 -   [Bind 9 Configuration
     Reference](http://www.isc.org/sw/bind/arm93/Bv9ARM.ch06.html) Very
     concise
+
+### Squid
+
+[Guide on setting up Squid 2.6 as a Reverse
+Proxy](http://wiki.squid-cache.org/SquidFaq/ReverseProxy)
 
 ### Outlook
 

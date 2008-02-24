@@ -82,6 +82,9 @@ site
 [Manual Update of Symantec AV
 Updates](http://www.symantec.com/avcenter/download.html)
 
+[Guide on setting up Squid 2.6 as a Reverse
+Proxy](http://wiki.squid-cache.org/SquidFaq/ReverseProxy)
+
 ### Linux Related
 
 -   [Linux/Server HOWTO site](http://gentoo-wiki.com/Index:HOWTO) Great

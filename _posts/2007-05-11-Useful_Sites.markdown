@@ -82,6 +82,9 @@ site
 [Manual Update of Symantec AV
 Updates](http://www.symantec.com/avcenter/download.html)
 
+[How to configure RPC over HTTP in Exchange Server
+2003](http://support.microsoft.com/kb/833401)
+
 ### Linux Related
 
 -   [Linux/Server HOWTO site](http://gentoo-wiki.com/Index:HOWTO) Great

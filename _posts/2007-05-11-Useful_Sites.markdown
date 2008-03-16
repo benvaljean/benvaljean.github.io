@@ -7,9 +7,6 @@ title: Useful Sites
 Startup
 Process](http://www.microsoft.com/technet/prodtechnol/winxppro/reskit/c29621675.mspx)
 
-[Simpler Web: Exchange/DNS
-Issues](http://www.swinc.com/resources/exchange/smtp_dnsissues.asp)
-
 [Security Accounts
 Manager](http://www.beginningtoseethelight.org/ntsecurity/index.php)
 
@@ -41,10 +38,6 @@ Tips](http://www.windowsnetworking.com/kbase/WindowsTips/WindowsNT/RegistryTips/
 
 :   [Sessions](http://www.w3schools.com/php/php_sessions.asp)
 
-[How to recover the information store on Exchange 2000 Server or
-Exchange Server 2003 in a single
-site](http://support.microsoft.com/kb/313184/)
-
 [Domino/Notes IBM Forum](http://www-10.lotus.com/ldd/nd6forum.nsf)
 
 [Dosreference](http://www.tekweb.dk/manuals/command/COMMANDS/F/FINDSTR.HTM)
@@ -60,9 +53,6 @@ Very good tutorials, especially on programming
 
 [OWA Apache2 Reverse proxy](http://3cx.org/item/46)
 
-[Chsnging default email address in
-Exchange](http://support.microsoft.com/default.aspx?kbid=285136)
-
 [Outlook Auto Completion
 Tips](http://www.ingressor.com/autocompletetips.htm) including migrating
 from one PC to another - informative page
@@ -75,15 +65,8 @@ logmein/PCAnywhere)
 [Trilithium.com](http://www.trilithium.com/johan/2005/06/grub-grub-grub/)
 Good site
 
-[Computer Performance: Exchange
-2003](http://www.computerperformance.co.uk/exchange2003) Good exchange
-site
-
 [Manual Update of Symantec AV
 Updates](http://www.symantec.com/avcenter/download.html)
-
-[How to configure RPC over HTTP in Exchange Server
-2003](http://support.microsoft.com/kb/833401)
 
 ### Linux Related
 
@@ -149,12 +132,26 @@ Proxy](http://wiki.squid-cache.org/SquidFaq/ReverseProxy)
 
 -   [Disable Security Center Popup Notifications in Windows
     Vista](http://www.howtogeek.com/howto/windows-vista/disable-security-center-popup-notifications-in-windows-vista/)
-
-<!-- -->
-
 -   [Disable annoying need your permission to continue prompts (User
     Account
     Control)](http://lifehacker.com/software/vista/windows-vista-tip--disable-annoying-need-your-permission-to-continue-prompts-230866.php)
+
+### Exchange
+
+-   [Offline Backup and Restoration Procedures for
+    Exchange](http://support.microsoft.com/kb/296788)
+-   [Simpler Web: Exchange/DNS
+    Issues](http://www.swinc.com/resources/exchange/smtp_dnsissues.asp)
+-   [How to recover the information store on Exchange 2000 Server or
+    Exchange Server 2003 in a single
+    site](http://support.microsoft.com/kb/313184/)
+-   [Changing default email address in
+    Exchange](http://support.microsoft.com/default.aspx?kbid=285136)
+-   [How to configure RPC over HTTP in Exchange Server
+    2003](http://support.microsoft.com/kb/833401)
+-   [Computer Performance: Exchange
+    2003](http://www.computerperformance.co.uk/exchange2003) Good
+    exchange site
 
 ### Downloads
 

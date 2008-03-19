@@ -5,68 +5,52 @@ title: Useful Sites
 
 \_\_NOTOC\_\_[Windows XP Professional Resource Kit: Troubleshooting the
 Startup
-Process](http://www.microsoft.com/technet/prodtechnol/winxppro/reskit/c29621675.mspx)
-
+Process](http://www.microsoft.com/technet/prodtechnol/winxppro/reskit/c29621675.mspx)\
 [Security Accounts
-Manager](http://www.beginningtoseethelight.org/ntsecurity/index.php)
-
+Manager](http://www.beginningtoseethelight.org/ntsecurity/index.php)\
 [More SAM
-stuff](http://archives.neohapsis.com/archives/ntbugtraq/2003-q3/0033.html)
-
-[Fasthosts.co.uk](http://www.fasthosts.co.uk)
-
+stuff](http://archives.neohapsis.com/archives/ntbugtraq/2003-q3/0033.html)\
+[Fasthosts.co.uk](http://www.fasthosts.co.uk)\
 [Streamline.net Unlimited
 Package](http://www.streamlinenet.co.uk/uu.php) Unlimited bandwidth and
-space for £45/year
-
-[Robotex](http://www.robtex.com) Great IP investigation site
-
+space for £45/year\
+[Robotex](http://www.robtex.com) Great IP investigation site\
 [How to re-initialize the offline files cache and
-database](http://support.microsoft.com/kb/230738)
-
+database](http://support.microsoft.com/kb/230738)\
 [Registry
 Tips](http://www.windowsnetworking.com/kbase/WindowsTips/WindowsNT/RegistryTips/)
 
 :   [CachedLogonHashes](http://www.windowsnetworking.com/kbase/WindowsTips/WindowsNT/RegistryTips/Password/CachedLogonHashes.html)
-
-<!-- -->
-
 :   [LSA
     Secrets](http://www.windowsnetworking.com/nt/registry/rtips320.shtml)
 
 [PHP Tutorial](http://www.w3schools.com/php/default.asp)
 
-:   [Sessions](http://www.w3schools.com/php/php_sessions.asp)
+:   [Sessions](http://www.w3schools.com/php/php_sessions.asp)\
 
-[Domino/Notes IBM Forum](http://www-10.lotus.com/ldd/nd6forum.nsf)
-
+[Domino/Notes IBM Forum](http://www-10.lotus.com/ldd/nd6forum.nsf)\
 [Dosreference](http://www.tekweb.dk/manuals/command/COMMANDS/F/FINDSTR.HTM)
-Very good
-
+Very good\
 [WINS Operations
 Topics](http://technet2.microsoft.com/windowsserver/en/operations/wins.mspx)
-Very exhaustive
-
+Very exhaustive\
 [CA University
 Knowledgebank](http://www.cauniversity.org/knowledgebank?file=kb.php&action=view&id=99)
-Very good tutorials, especially on programming
-
-[OWA Apache2 Reverse proxy](http://3cx.org/item/46)
-
+Very good tutorials, especially on programming\
+[OWA Apache2 Reverse proxy](http://3cx.org/item/46)\
 [Outlook Auto Completion
 Tips](http://www.ingressor.com/autocompletetips.htm) including migrating
-from one PC to another - informative page
-
+from one PC to another - informative page\
 [SSL
 Explorer](http://www.tomsnetworking.com/2006/07/21/diy_ssl_vpn_with_ssl_explorer_pt1/)
 Installation info - free SSL VPN including web-based RDP (similar to
-logmein/PCAnywhere)
-
+logmein/PCAnywhere)\
 [Trilithium.com](http://www.trilithium.com/johan/2005/06/grub-grub-grub/)
-Good site
-
+Good site\
 [Manual Update of Symantec AV
-Updates](http://www.symantec.com/avcenter/download.html)
+Updates](http://www.symantec.com/avcenter/download.html)\
+[Opera Keyboard
+shortcuts](http://help.opera.com/Windows/9.20/en/keyboard.html)\
 
 ### Linux Related
 
@@ -121,6 +105,8 @@ htaccess](http://www.cyberciti.biz/faq/howto-setup-apache-password-protect-direc
 
 [Guide on setting up Squid 2.6 as a Reverse
 Proxy](http://wiki.squid-cache.org/SquidFaq/ReverseProxy)
+
+See Also: [Squid Stuff](Squid_Stuff "wikilink")
 
 ### Outlook
 

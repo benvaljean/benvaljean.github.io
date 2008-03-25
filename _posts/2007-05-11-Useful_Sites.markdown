@@ -83,6 +83,9 @@ htaccess](http://www.cyberciti.biz/faq/howto-setup-apache-password-protect-direc
     Guide](http://technet2.microsoft.com/windowsserver/en/library/7b005a9b-4397-4d94-a584-34c037e2457c1033.mspx?mfr=true)
 -   [Bash scripting
     guide](http://www.linuxtopia.org/online_books/advanced_bash_scripting_guide/moreadv.html)
+-   [Ubuntu Blog guide](http://onlyubuntu.blogspot.com)
+-   [Install JRE on
+    Ubuntu](http://www.ubuntugeek.com/how-to-install-java-runtime-environment-jre-in-ubuntu.html)
 
 #### NFS
 

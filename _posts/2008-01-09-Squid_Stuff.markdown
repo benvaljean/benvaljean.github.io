@@ -23,5 +23,4 @@ a RAIDed LUN on a SAN if not just RAID 0</font>
     Very good page about having several sites (virtual or otherwise)
     being reverse proxied though the same squid server. Also gives
     details on how squid can pass-through authentication.
-
-SSL pass-through will fllow soon - for OWA among other things.
+:   [Squid Logs Guide](http://wiki.squid-cache.org/SquidFaq/SquidLogs)

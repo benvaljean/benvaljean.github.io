@@ -249,3 +249,6 @@ system message page.
     body.page-Main_Page h1.firstHeading {
         display: none !important;
     }
+
+Images in mediawiki:
+<http://askdrwiki.com/mediawiki/index.php?title=Help:Images_and_other_Media>

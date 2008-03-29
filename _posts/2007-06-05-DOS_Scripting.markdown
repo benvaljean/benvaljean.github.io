@@ -43,7 +43,8 @@ answer is to use the START command with the /WAIT option like this:
 
 `  start /wait notepad.exe`
 
-However this does not work for programmes lke compressed-executables.
+This works for the majority of programmes, however there could be
+problems; such as Self-extracting exes.
 
 #### Make a time dealy
 

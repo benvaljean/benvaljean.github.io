@@ -44,7 +44,7 @@ answer is to use the START command with the /WAIT option like this:
 `  start /wait notepad.exe`
 
 This works for the majority of programmes, however there could be
-problems; such as Self-extracting exes.
+problems with Self-extracting exes for instance.
 
 #### Make a time dealy
 

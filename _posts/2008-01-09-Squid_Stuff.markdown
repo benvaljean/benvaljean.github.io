@@ -24,3 +24,6 @@ a RAIDed LUN on a SAN if not just RAID 0</font>
     being reverse proxied though the same squid server. Also gives
     details on how squid can pass-through authentication.
 :   [Squid Logs Guide](http://wiki.squid-cache.org/SquidFaq/SquidLogs)
+:   [Config example for Reverse proxying Outlook Web Access with
+    Squid](http://wiki.squid-cache.org/ConfigExamples/SquidAndOutlookWebAccess)
+    Not been able to get this to work myself

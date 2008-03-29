@@ -51,6 +51,7 @@ Good site\
 Updates](http://www.symantec.com/avcenter/download.html)\
 [Opera Keyboard
 shortcuts](http://help.opera.com/Windows/9.20/en/keyboard.html)\
+[File sync utilities](http://www.nonags.com/nonags/filesync.html)\
 
 ### Linux Related
 

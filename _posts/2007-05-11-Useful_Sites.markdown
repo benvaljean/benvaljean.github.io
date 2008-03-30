@@ -87,6 +87,8 @@ htaccess](http://www.cyberciti.biz/faq/howto-setup-apache-password-protect-direc
 -   [Ubuntu Blog guide](http://onlyubuntu.blogspot.com)
 -   [Install JRE on
     Ubuntu](http://www.ubuntugeek.com/how-to-install-java-runtime-environment-jre-in-ubuntu.html)
+-   [Linux command reference](http://www.computerhope.com/unix.htm)
+    Excellent reference including MS-DOS vs Linux list.
 
 #### NFS
 

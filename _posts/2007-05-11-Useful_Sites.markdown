@@ -92,6 +92,9 @@ htaccess](http://www.cyberciti.biz/faq/howto-setup-apache-password-protect-direc
     Ubuntu](http://www.ubuntugeek.com/how-to-install-java-runtime-environment-jre-in-ubuntu.html)
 -   [Linux command reference](http://www.computerhope.com/unix.htm)
     Excellent reference including MS-DOS vs Linux list.
+-   [Advanced BASH scripting Guide:
+    Loops](http://www.museum.state.il.us/ismdepts/library/linuxguides/abs-guide/loops1.html)
+    Good
 
 #### NFS
 

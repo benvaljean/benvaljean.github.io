@@ -5,8 +5,9 @@ title: Global Address List not updating (Outlook)
 
 ### Symptom
 
-The GAL (Global Address List) does not update on a Outlook client
-despite changes/new addresses appearing on other machines.
+The [Global Address List](Global_Address_List_(Exchange) "wikilink")
+(GAL) does not update on a Outlook client despite changes/new addresses
+appearing on other machines.
 
 ### Cause
 

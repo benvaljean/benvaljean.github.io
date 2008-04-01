@@ -3,7 +3,10 @@ layout: post
 title: Exmerge error 0x8004011d (Exchange)
 ---
 
-When attempting to either import a PST file into an Exchange mailbox; or
+![Default permissions for the Administrator account deny Send As/Receve
+As - these are required for
+Exmerge](Exmerge_error.JPG "fig:Default permissions for the Administrator account deny Send As/Receve As - these are required for Exmerge"){width="600"}When
+attempting to either import a PST file into an Exchange mailbox; or
 exporting data to a PST file through using Exmerge the following error
 is not uncommon:
 
@@ -47,3 +50,5 @@ To create a new account and give it access to all mailboxes:
 
 Depending on the configuration of your network changes made can take up
 to 15 minutes totake effect.
+
+[Category:Windows](Category:Windows "wikilink")

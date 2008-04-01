@@ -18,7 +18,9 @@ Managing Global Address Lists\]\
 list if there is more than one global address
 list](http://support.microsoft.com/kb/312287/en-us)\
 [How to create an offline address list that contains a filtered copy of
-the global address list](http://support.microsoft.com/kb/280435/en-us)
+the global address list](http://support.microsoft.com/kb/280435/en-us)\
+[How to work with the Exchange Recipient Update
+Service](http://support.microsoft.com/kb/319065)
 
 ### See Also
 

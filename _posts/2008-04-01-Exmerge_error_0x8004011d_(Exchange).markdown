@@ -20,6 +20,10 @@ Before troubleshooting this error check the following:
     store is mounted.
 2.  If extracting to/importing from a mailbox in the Recovery Storage
     group ensure the mailbox has not been moved.
+3.  Mailboxes must already exist; Exmerge will not create them
+    on-the-fly
+4.  Mailboxes\' user accountsmust be enabled, and exist in the Global
+    Address List.
 
 If the above potential issues have been ruled out the most likely cause
 is that the user performing the Exmerge does not have the necessary

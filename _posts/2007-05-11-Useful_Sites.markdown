@@ -150,6 +150,8 @@ See Also: [Squid Stuff](Squid_Stuff "wikilink")
 -   [Computer Performance: Exchange
     2003](http://www.computerperformance.co.uk/exchange2003) Good
     exchange site
+-   [OutlookExchange.com](http://www.outlookexchange.com/Articles/home/default.asp)
+    Good site, has some very-technical resources
 
 #### Outlook Web Access (OWA)
 

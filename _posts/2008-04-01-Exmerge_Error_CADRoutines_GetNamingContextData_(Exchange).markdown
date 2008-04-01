@@ -3,6 +3,8 @@ layout: post
 title: Exmerge Error CADRoutines::GetNamingContextData (Exchange)
 ---
 
+![Forcing an update to the Exchange Recipient Update
+Service](RUS.JPG "fig:Forcing an update to the Exchange Recipient Update Service"){width="500"}
 When attempting to either import a PST file into an Exchange mailbox; or
 exporting data to a PST file through using Exmerge the following error
 can occur:
@@ -28,3 +30,5 @@ manually updated:
 
 If the above does not work try Rebulid. In a large environment it may be
 required to Update/Rebulid the enterprise Recipient Update Service.
+
+[Category:Windows](Category:Windows "wikilink")

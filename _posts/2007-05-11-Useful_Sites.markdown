@@ -95,6 +95,8 @@ htaccess](http://www.cyberciti.biz/faq/howto-setup-apache-password-protect-direc
 -   [Advanced BASH scripting Guide:
     Loops](http://www.museum.state.il.us/ismdepts/library/linuxguides/abs-guide/loops1.html)
     Good
+-   [/etc/host.allow and hosts.deny
+    Guide](http://www.redhat.com/docs/manuals/enterprise/RHEL-3-Manual/ref-guide/s1-tcpwrappers-access.html#S3-TCPWRAPPERS-ACCESS-RULES-WILD)
 
 #### NFS
 

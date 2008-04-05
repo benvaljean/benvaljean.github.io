@@ -50,7 +50,7 @@ and reboot.
 :\# Delete r\*.\* in <arcservedir>/database
 
 4\. Sometimes an incorrect syntax can produce an error like the one
-documented here or similar to it. When specifying the database name do
+documented here or familier to it. When specifying the database name do
 not supply the whole filename - Arcserve only requires the common name
 of the database itself and not the exact filenames. For instance:
 

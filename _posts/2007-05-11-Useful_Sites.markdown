@@ -56,10 +56,66 @@ shortcuts](http://help.opera.com/Windows/9.20/en/keyboard.html)\
 [IDrive](http://www.idrive.com) Free 2gb of stoarege - also includes a
 tool to allow you to map a network drive. 150Gb of storage is \$50/year
 
-kSuIri <a href="http://dyzcimuatfqa.com/">dyzcimuatfqa</a>,
-\[url=<http://xshxztfdiheo.com/%5Dxshxztfdiheo%5B/url%5D>,
-\[link=<http://jjeztqqcswka.com/%5Djjeztqqcswka%5B/link%5D>,
-<http://ptqdrfknzbvl.com/>
+### Linux Related
+
+-   [Linux/Server HOWTO site](http://gentoo-wiki.com/Index:HOWTO) Great
+    guide
+-   [Dapper Custmisation
+    Guide](http://ubuntuforums.org/showthread.php?t=296462) unverified
+    to be useful
+-   [Cyberciti.biz](http://www.cyberciti.biz) Great site, now known as
+    Nixcraft.
+
+:\*[Linux: Synchronize Personal Data / Email / Pictures with Online
+Service or Other
+Computer](http://www.cyberciti.biz/tips/linux-data-photo-email-bookmark-synchronize-software.html)
+
+:\*[Password Protect Directory With
+htaccess](http://www.cyberciti.biz/faq/howto-setup-apache-password-protect-directory-with-htaccess-file/)
+
+-   [LinuxHomeNetworking](http://www.linuxhomenetworking.com/wiki/index.php)
+    Great site
+
+:   [Setup a
+    VPN](http://www.linuxhomenetworking.com/wiki/index.php/Quick_HOWTO_:_Ch35_:_Configuring_Linux_VPNs)
+
+-   [Ubuntuguide: Dapper](http://ubuntuguide.org/wiki/Ubuntu_dapper)
+    Great guide
+-   [Setup load balanched clustered mysql servers on
+    Debian](http://www.howtoforge.com/loadbalanced_mysql_cluster_debian)
+-   [DNS Resource Record
+    Guide](http://technet2.microsoft.com/windowsserver/en/library/7b005a9b-4397-4d94-a584-34c037e2457c1033.mspx?mfr=true)
+-   [Bash scripting
+    guide](http://www.linuxtopia.org/online_books/advanced_bash_scripting_guide/moreadv.html)
+-   [Ubuntu Blog guide](http://onlyubuntu.blogspot.com)
+-   [Install JRE on
+    Ubuntu](http://www.ubuntugeek.com/how-to-install-java-runtime-environment-jre-in-ubuntu.html)
+-   [Linux command reference](http://www.computerhope.com/unix.htm)
+    Excellent reference including MS-DOS vs Linux list.
+-   [Advanced BASH scripting Guide:
+    Loops](http://www.museum.state.il.us/ismdepts/library/linuxguides/abs-guide/loops1.html)
+    Good
+-   [/etc/host.allow and hosts.deny
+    Guide](http://www.redhat.com/docs/manuals/enterprise/RHEL-3-Manual/ref-guide/s1-tcpwrappers-access.html#S3-TCPWRAPPERS-ACCESS-RULES-WILD)
+-   [Guide to using
+    grep](http://www.mkssoftware.com/docs/man1/grep.1.asp)
+
+#### NFS
+
+-   <https://help.ubuntu.com/6.06/ubuntu/serverguide/C/network-file-system.html>
+-   <http://www.openfree.org/pet/index.php/Mount_an_NFS_share_from_Windows>
+
+#### BIND
+
+-   [BIND
+    Troubleshooting](http://www.cyberciti.biz/tips/troubleshooting-bind-dns-2.html)
+-   [Restrict Zone
+    Transfers](http://www.cyberciti.biz/tips/howto-restrict-unauthorized-zone-transfers-dns-bind.html)
+-   [Frequently Asked Questions about BIND
+    9](http://www.isc.org/index.pl?/sw/bind/FAQ.php) Good
+-   [Bind 9 Configuration
+    Reference](http://www.isc.org/sw/bind/arm93/Bv9ARM.ch06.html) Very
+    concise
 
 ### Squid
 

@@ -156,6 +156,8 @@ See Also: [Squid Stuff](Squid_Stuff "wikilink")
     exchange site
 -   [OutlookExchange.com](http://www.outlookexchange.com/Articles/home/default.asp)
     Good site, has some very-technical resources
+-   [Using Outlook 2003 to connect to Exchange 2003 using RPC over
+    HTTPS](http://www.msexchange.org/tutorials/Outlook_2003_Connect_Exchange_2003.html)
 
 #### Outlook Web Access (OWA)
 

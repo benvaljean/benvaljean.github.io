@@ -99,6 +99,8 @@ htaccess](http://www.cyberciti.biz/faq/howto-setup-apache-password-protect-direc
     Guide](http://www.redhat.com/docs/manuals/enterprise/RHEL-3-Manual/ref-guide/s1-tcpwrappers-access.html#S3-TCPWRAPPERS-ACCESS-RULES-WILD)
 -   [Guide to using
     grep](http://www.mkssoftware.com/docs/man1/grep.1.asp)
+-   [Scripting with
+    if](http://www.cyberciti.biz/nixcraft/linux/docs/uniqlinuxfeatures/lsst/ch03sec02.html)
 
 #### NFS
 

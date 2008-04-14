@@ -8,7 +8,7 @@ Exchange; it contains all users that have Exchange attributes,
 distribution groups and also contains other Exchange resources such as
 certificates relating to encrypted email.
 
-### Favourite Resources
+### Favorite Resources
 
 \[<http://technet.microsoft.com/en-us/library/bb232119(EXCHG.80>).aspx
 Understanding Address Lists\]\

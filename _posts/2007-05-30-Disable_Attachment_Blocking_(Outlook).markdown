@@ -10,7 +10,8 @@ the client-level and establish filtering at another level.
 
 To disable blocking on a per-extension basis:
 
-Locate the following key, where <version> is your version of Outlook:
+Locate the following [registry](registry "wikilink") key, where
+<version> is your version of Outlook:
 
 `    [HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\`<version>`\\Outlook\\Security]`
 

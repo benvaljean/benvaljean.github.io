@@ -54,7 +54,11 @@ shortcuts](http://help.opera.com/Windows/9.20/en/keyboard.html)\
 [File sync utilities](http://www.nonags.com/nonags/filesync.html)\
 [ADrive](http://www.adrive.com) Free 50Gb of storage\
 [IDrive](http://www.idrive.com) Free 2gb of stoarege - also includes a
-tool to allow you to map a network drive. 150Gb of storage is \$50/year
+tool to allow you to map a network drive. 150Gb of storage is \$50/year\
+[ISP port blocking
+listing](http://forums.microsoft.com/WindowsHomeServer/ShowPost.aspx?PostID=1849610&SiteID=50)
+A reference of ISPs globally that block or do not block ports 80 and
+443.
 
 ### Linux Related
 

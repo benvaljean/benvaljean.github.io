@@ -53,6 +53,6 @@ To create a new account and give it access to all mailboxes:
         ensure that Send As and Receive As are ticked, under **Allow**.
 
 Depending on the configuration of your network changes made can take up
-to 15 minutes totake effect.
+to 15 minutes to take effect.
 
 [Category:Windows](Category:Windows "wikilink")

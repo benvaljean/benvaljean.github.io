@@ -58,7 +58,8 @@ tool to allow you to map a network drive. 150Gb of storage is \$50/year\
 [ISP port blocking
 listing](http://forums.microsoft.com/WindowsHomeServer/ShowPost.aspx?PostID=1849610&SiteID=50)
 A reference of ISPs globally that block or do not block ports 80 and
-443.
+443.\
+[Very good subnet calculator](http://ccna.exampointers.com/subnet.phtml)
 
 ### Linux Related
 

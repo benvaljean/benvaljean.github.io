@@ -106,6 +106,10 @@ htaccess](http://www.cyberciti.biz/faq/howto-setup-apache-password-protect-direc
     grep](http://www.mkssoftware.com/docs/man1/grep.1.asp)
 -   [Scripting with
     if](http://www.cyberciti.biz/nixcraft/linux/docs/uniqlinuxfeatures/lsst/ch03sec02.html)
+-   [File sharing/SMB/CIFS/Samba over SSH without disabling local file
+    sharing](http://www.blisstonia.com/eolson/notes/smboverssh.php)
+    Certainly not something you could guide a user thorugh over the
+    phone but very good nonetheless.
 
 #### NFS
 

@@ -88,6 +88,10 @@ htaccess](http://www.cyberciti.biz/faq/howto-setup-apache-password-protect-direc
     Great guide
 -   [Setup load balanched clustered mysql servers on
     Debian](http://www.howtoforge.com/loadbalanced_mysql_cluster_debian)
+-   [Setup true MySQL cluster with High
+    Availability](http://www.davz.net/static/howto/mysqlcluster) Uses 3
+    servers, 2 mysql and 1 management server. Management server can go
+    down after the cluster starts.
 -   [DNS Resource Record
     Guide](http://technet2.microsoft.com/windowsserver/en/library/7b005a9b-4397-4d94-a584-34c037e2457c1033.mspx?mfr=true)
 -   [Bash scripting

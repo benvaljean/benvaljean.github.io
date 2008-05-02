@@ -29,8 +29,8 @@ from the GAL.
 -   Another option is to set the
     HKCU\\\\software\\\\policies\\\\microsoft\\\\office\\\\<version>\\\\outlook\\\\cached
     mode\\\\DownloadOAB setting to 0 on the client. This will prevent
-    the OAB from being downloaded to the client and i belive outlook
-    2003 in cached mode will hit the GAL if no OAB is available.
+    the OAB from being downloaded to the client and in Outlook 2003 in
+    cached mode will hit the GAL if no OAB is available.
 
 <!-- -->
 

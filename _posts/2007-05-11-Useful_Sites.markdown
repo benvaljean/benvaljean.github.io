@@ -58,9 +58,13 @@ tool to allow you to map a network drive. 150Gb of storage is \$50/year\
 listing](http://forums.microsoft.com/WindowsHomeServer/ShowPost.aspx?PostID=1849610&SiteID=50)
 A reference of ISPs globally that block or do not block ports 80 and
 443.\
-[Very good subnet calculator](http://ccna.exampointers.com/subnet.phtml)
+[Very good subnet
+calculator](http://ccna.exampointers.com/subnet.phtml)\
 [Delete failed Domain Controllers from Active
-Directory](http://www.petri.co.il/delete_failed_dcs_from_ad.htm)
+Directory](http://www.petri.co.il/delete_failed_dcs_from_ad.htm)\
+[Email address image/icon generator to create an anti-spam posting of
+your email
+address](http://services.nexodyne.com/email/index_custom.php)\
 
 ### Linux Related
 
@@ -115,6 +119,9 @@ htaccess](http://www.cyberciti.biz/faq/howto-setup-apache-password-protect-direc
     sharing](http://www.blisstonia.com/eolson/notes/smboverssh.php)
     Certainly not something you could guide a user thorugh over the
     phone but very good nonetheless.
+-   [Automate an SFTP transfer between two
+    servers](http://ask-leo.com/how_can_i_automate_an_sftp_transfer_between_two_servers.html)
+    Good page from a good site
 
 #### NFS
 
@@ -135,6 +142,8 @@ htaccess](http://www.cyberciti.biz/faq/howto-setup-apache-password-protect-direc
 
 ### Apache Related
 
+-   [1](http://www.keithjbrown.co.uk/vworks/unix/apache.php) Apache
+    configuration notes
 -   [OWA Apache2 Reverse proxy](http://3cx.org/item/46)
 -   [Force the use of a particular hostname in preference of another
     that points to the same site
@@ -143,8 +152,7 @@ htaccess](http://www.cyberciti.biz/faq/howto-setup-apache-password-protect-direc
 ### Squid
 
 [Guide on setting up Squid 2.6 as a Reverse
-Proxy](http://wiki.squid-cache.org/SquidFaq/ReverseProxy)
-
+Proxy](http://wiki.squid-cache.org/SquidFaq/ReverseProxy)\
 See Also: [Squid Stuff](Squid_Stuff "wikilink")
 
 ### Outlook
@@ -212,7 +220,7 @@ Hide files inside JPG/BMP etc
 
 ### Registry Related
 
-[1](http://technet2.microsoft.com/windowsserver/en/library/c07587ec-4a60-4bca-8508-29a4296b72121033.mspx?mfr=true)
+[2](http://technet2.microsoft.com/windowsserver/en/library/c07587ec-4a60-4bca-8508-29a4296b72121033.mspx?mfr=true)
 
 ### Not IT
 

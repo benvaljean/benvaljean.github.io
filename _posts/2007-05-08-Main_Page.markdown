@@ -94,6 +94,8 @@ title: Main Page
 
 ### IT Reference
 
+-   [Difference between Quick Format and a normal/long Format
+    (Computing)](Difference_between_Quick_Format_and_a_normal/long_Format_(Computing) "wikilink")
 -   [Contig](http://www.microsoft.com/technet/sysinternals/FileAndDisk/Contig.mspx) -
     defrag specific files
 -   [MoveFile](http://www.microsoft.com/technet/sysinternals/FileAndDisk/pendmoves.mspx) -

@@ -9,10 +9,6 @@ title: Main Page
 
 [Favorite Flash movies](Flash_Movies "wikilink")
 
-[Mediawiki Notes](Wiki_Stuff "wikilink")
-
-[Squid Notes](Squid_Stuff "wikilink")
-
 ### Fact Stuff
 
 -   [Common Myths of the Eyes](Myths_(Eye) "wikilink")
@@ -129,3 +125,9 @@ title: Main Page
 -   [Webopedia](http://www.webopedia.com/)
 -   [OSROnline](http://www.osronline.com/)
 -   [forums.techguy.org](http://forums.techguy.org/)
+
+### Site Notes
+
+[Mediawiki Notes](Wiki_Stuff "wikilink")
+
+[Squid Notes](Squid_Stuff "wikilink")

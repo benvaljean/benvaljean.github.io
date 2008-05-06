@@ -84,6 +84,8 @@ title: Main Page
 
 ### Other IT Trobuleshooting
 
+-   [Reset Root password
+    (MySQL)](Reset_Root_password_(MySQL) "wikilink")
 -   [ActiveSync General Troubleshooting
     Guide](http://www.pocketpcfaq.com/faqs/activesync/initialconfig.htm)
 -   [ActiveSync 4.0/4.1/4.2 USB Connection Troubleshooting

@@ -3,11 +3,11 @@ layout: post
 title: Main Page
 ---
 
-![Roger rabbit](roger2.gif "Roger rabbit")
+\_\_NOEDITSECTION\_\_![Roger rabbit](roger2.gif "fig:Roger rabbit")
 
 [Useful Sites](Useful_Sites "wikilink")
 
-[Favorite Flash movies](Flash_Movies "wikilink")
+[Favourite Flash movies](Flash_Movies "wikilink")
 
 ### Fact Stuff
 
@@ -130,6 +130,5 @@ title: Main Page
 
 ### Site Notes
 
-[Mediawiki Notes](Wiki_Stuff "wikilink")
-
-[Squid Notes](Squid_Stuff "wikilink")
+-   [Mediawiki Notes](Wiki_Stuff "wikilink")
+-   [Squid Notes](Squid_Stuff "wikilink")

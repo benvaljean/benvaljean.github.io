@@ -60,6 +60,8 @@ listing](http://forums.microsoft.com/WindowsHomeServer/ShowPost.aspx?PostID=1849
 A reference of ISPs globally that block or do not block ports 80 and
 443.\
 [Very good subnet calculator](http://ccna.exampointers.com/subnet.phtml)
+[Delete failed Domain Controllers from Active
+Directory](http://www.petri.co.il/delete_failed_dcs_from_ad.htm)
 
 ### Linux Related
 

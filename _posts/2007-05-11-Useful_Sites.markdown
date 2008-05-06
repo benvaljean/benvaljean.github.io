@@ -37,7 +37,6 @@ Very exhaustive\
 [CA University
 Knowledgebank](http://www.cauniversity.org/knowledgebank?file=kb.php&action=view&id=99)
 Very good tutorials, especially on programming\
-[OWA Apache2 Reverse proxy](http://3cx.org/item/46)\
 [Outlook Auto Completion
 Tips](http://www.ingressor.com/autocompletetips.htm) including migrating
 from one PC to another - informative page\
@@ -133,6 +132,13 @@ htaccess](http://www.cyberciti.biz/faq/howto-setup-apache-password-protect-direc
 -   [Bind 9 Configuration
     Reference](http://www.isc.org/sw/bind/arm93/Bv9ARM.ch06.html) Very
     concise
+
+### Apache Related
+
+-   [OWA Apache2 Reverse proxy](http://3cx.org/item/46)
+-   [Force the use of a particular hostname in preference of another
+    that points to the same site
+    (Apache)](http://scope.dghartung.com/index.php/Rewrite_Rules_For_Apache)
 
 ### Squid
 

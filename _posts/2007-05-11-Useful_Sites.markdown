@@ -143,8 +143,8 @@ htaccess](http://www.cyberciti.biz/faq/howto-setup-apache-password-protect-direc
 
 ### Apache Related
 
--   [1](http://www.keithjbrown.co.uk/vworks/unix/apache.php) Apache
-    configuration notes
+-   [Apache configuration
+    notes](http://www.keithjbrown.co.uk/vworks/unix/apache.php)
 -   [OWA Apache2 Reverse proxy](http://3cx.org/item/46)
 -   [Force the use of a particular hostname in preference of another
     that points to the same site
@@ -221,7 +221,8 @@ Hide files inside JPG/BMP etc
 
 ### Registry Related
 
-[2](http://technet2.microsoft.com/windowsserver/en/library/c07587ec-4a60-4bca-8508-29a4296b72121033.mspx?mfr=true)
+[Internet Explorer URL Action and Advanced Security Settings in Group
+Policy](http://technet2.microsoft.com/windowsserver/en/library/c07587ec-4a60-4bca-8508-29a4296b72121033.mspx?mfr=true)
 
 ### Not IT
 

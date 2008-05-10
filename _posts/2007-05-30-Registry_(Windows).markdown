@@ -477,4 +477,13 @@ disables the feature and 1 enables it.
     -   .DEFAULT: The profile windows uses at the login prompt/GINA
         chain and the default profile when new users are created.
 
+### See Also
+
+-   [Windows registry information for advanced
+    users](http://support.microsoft.com/kb/256986)
+-   [Demystifying the Windows
+    Registry](http://www.bleepingcomputer.com/tutorials/tutorial74.html)
+-   [Kelly\'s Korner XP: XP Registry
+    tweaks](http://www.kellys-korner-xp.com/xp_tweaks.htm) Great site
+
 [Category:Windows](Category:Windows "wikilink")

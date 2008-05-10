@@ -94,4 +94,11 @@ console session and two other \"standard\" sessions as in Windows 2000
 Server, where the console never is the default one unless you use one of
 the methods mentioned above.
 
+### See Also
+
+-   [Windows Server 2003 Terminal
+    Services](http://www.microsoft.com/windowsserver2003/technologies/terminalservices/default.mspx)
+-   [Remote Desktop Connection Client for
+    Windows](http://support.microsoft.com/kb/925876)
+
 [Category:Windows](Category:Windows "wikilink")

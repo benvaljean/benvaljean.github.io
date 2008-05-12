@@ -25,8 +25,13 @@ it will need to be turned off and back on.
 
 ### See Also
 
--   \[Limit Out of Office auto replies to specific senders/external
-    users (Outlook)\]
--   [1](http://www.smallbizserver.net/Default.aspx?tabid=53&forumid=5&postid=55615&view=topic)
+-   [Limit Out of Office auto replies to specific senders/external users
+    (Outlook)](Limit_Out_of_Office_auto_replies_to_specific_senders/external_users_(Outlook) "wikilink")
+-   [How to use the Out of Office Assistant in
+    Outlook](http://support.microsoft.com/kb/290846)
+-   [Techworld.com - \'Out of office\' messages turned into spam
+    relays](http://www.techworld.com/security/news/index.cfm?newsid=11544)
+-   [Symprex Out-of-Office
+    Extender](http://www.symprex.com/products/out-of-office-extender/)
 
 [Category:Windows](Category:Windows "wikilink")

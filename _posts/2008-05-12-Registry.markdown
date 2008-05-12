@@ -3,4 +3,5 @@ layout: post
 title: Registry
 ---
 
-1.  REDIRECT [Registry (Windows)](Registry_(Windows) "wikilink")
+1.  REDIRECT [Talk:Registry
+    (Windows)](Talk:Registry_(Windows) "wikilink")

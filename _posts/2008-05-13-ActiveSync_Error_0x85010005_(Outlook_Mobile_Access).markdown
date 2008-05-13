@@ -35,4 +35,9 @@ candidates for this error are:
     resolved from the server entered pointing to the wrong server on the
     DMZ/LAN.
 
+### See Also
+
+[ActiveSync Errors
+Guide](http://www.shijaz.com/exchange/activesync_errors.htm)
+
 [Category:Windows](Category:Windows "wikilink")

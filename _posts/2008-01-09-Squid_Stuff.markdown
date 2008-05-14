@@ -6,6 +6,8 @@ title: Squid Stuff
 <font color=red>Do not have the Squid disk-cache on a RAIDed volume, or
 a RAIDed LUN on a SAN if not just RAID 0</font>
 
+#### Useful Sites
+
 <http://wiki.squid-cache.org/ConfigExamples>
 
 <http://meta.wikimedia.org/wiki/Squid_caching>
@@ -24,6 +26,9 @@ a RAIDed LUN on a SAN if not just RAID 0</font>
     being reverse proxied though the same squid server. Also gives
     details on how squid can pass-through authentication.
 :   [Squid Logs Guide](http://wiki.squid-cache.org/SquidFaq/SquidLogs)
+
+[Six Things First-Time Squid Administrators Should
+Know](http://www.onlamp.com/pub/a/onlamp/2004/02/12/squid.html)
 
 #### Using Squid to Reverse Proxy Outlook Web Access
 

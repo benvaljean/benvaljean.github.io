@@ -5,9 +5,13 @@ title: Sidebar
 
 -   Navigation
     -   mainpage\|mainpage
-    -   currentevents-url\|currentevents
+
+<!-- -->
+
+-   -   usefulpages-url\|usefulpages
     -   recentchanges-url\|recentchanges
     -   randompage-url\|randompage
+
 -   Search engines
     -   <http://www.yahoo.com%7CYahoo.com>
     -   <http://www.google.com%7CGoogle.com>

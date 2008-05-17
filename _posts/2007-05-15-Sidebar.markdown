@@ -8,7 +8,7 @@ title: Sidebar
 
 <!-- -->
 
--   -   usefulpages-url\|usefulpages
+-   -   <http://www.rogerrabbit.net/wiki/Useful_Pages%7CUseful> Pages
     -   recentchanges-url\|recentchanges
     -   randompage-url\|randompage
 

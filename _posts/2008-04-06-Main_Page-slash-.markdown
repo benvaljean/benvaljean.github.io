@@ -3,6 +3,4 @@ layout: post
 title: Main Page/
 ---
 
-This is a place-holder page to prevent spam.
-
-See [Main Page](Main_Page "wikilink")
+1.  Redirect [Main Page](Main_Page "wikilink")

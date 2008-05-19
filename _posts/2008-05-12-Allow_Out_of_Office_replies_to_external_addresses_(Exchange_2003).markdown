@@ -4,7 +4,7 @@ title: Allow Out of Office replies to external addresses (Exchange 2003)
 ---
 
 ![Allowing external Out of Office
-replies](AllowOOOExternal.JPG "fig:Allowing external Out of Office replies"){width="500"}
+replies](AllowOOOExternal2.JPG "fig:Allowing external Out of Office replies"){width="500"}
 Contrary to popular belief, by default Out of Office auto replies will
 only be sent to internal email addresses of the domain - not to
 addresses outside of the organisation. To allow Out of Office auto

@@ -67,6 +67,13 @@ address](http://services.nexodyne.com/email/index_custom.php)\
 -   [Delete failed Domain Controllers from Active
     Directory](http://www.petri.co.il/delete_failed_dcs_from_ad.htm)
 
+### IIS and SQL Server Realted
+
+-   [How to access SQL Server in Active Server
+    Pages](http://support.microsoft.com/kb/169377)
+-   [IIS 6 rsource kit](http://go.microsoft.com/fwlink/?LinkId=34407)
+    includes migration tool and fetch for diagnostics
+
 ### Linux Related
 
 -   [Linux/Server HOWTO site](http://gentoo-wiki.com/Index:HOWTO) Great

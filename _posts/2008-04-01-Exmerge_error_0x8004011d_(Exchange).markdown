@@ -31,7 +31,7 @@ permissions to read/write to the mailbox. **Contrary to popular opinion,
 by default Exchange Full Administrators cannot read every mailbox in a
 domain.**
 
-To setup the required permissions it is reccomened to create a new user
+To setup the required permissions it is recommended to create a new user
 for this purpose as:
 
 :\#Depending on the internal metrics of your organisation it may not the

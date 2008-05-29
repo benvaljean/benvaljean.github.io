@@ -67,12 +67,17 @@ address](http://services.nexodyne.com/email/index_custom.php)\
 -   [Delete failed Domain Controllers from Active
     Directory](http://www.petri.co.il/delete_failed_dcs_from_ad.htm)
 
-### IIS and SQL Server Realted
+### IIS and SQL Server Related
 
 -   [How to access SQL Server in Active Server
     Pages](http://support.microsoft.com/kb/169377)
 -   [IIS 6 rsource kit](http://go.microsoft.com/fwlink/?LinkId=34407)
     includes migration tool and fetch for diagnostics
+-   [How to build a SQL server
+    cluster](http://searchsqlserver.techtarget.com/searchSQLServer/downloads/SQL_Cluster_Ezine_Final_needs_URL.pdf)
+
+[SQL Clustering (Database
+Server)](SQL_Clustering_(Database_Server) "wikilink")
 
 ### Linux Related
 
@@ -197,6 +202,8 @@ See Also: [Squid Stuff](Squid_Stuff "wikilink")
     Good site, has some very-technical resources
 -   [Using Outlook 2003 to connect to Exchange 2003 using RPC over
     HTTPS](http://www.msexchange.org/tutorials/Outlook_2003_Connect_Exchange_2003.html)
+-   [Tips for Clustering Exchange
+    Successfully](http://windowsitpro.com/articles/articleid/8262/Tips_for_Clustering_Exchange_Successfully.html)
 
 #### Outlook Web Access (OWA)
 

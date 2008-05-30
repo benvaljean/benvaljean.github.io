@@ -4,9 +4,9 @@ title: Access rights/Privileges/Grants (MySQL)
 ---
 
 The `GRANTS` part in MySQL is where the access rights/privileges as to
-what actions the MySQL users can perform. For inatance a MySQL user may
-only be able to read certain databases or indeed it may be required to
-create a user that can read all databases.
+what actions the MySQL users can perform are set. For inatance a MySQL
+user may only be able to read certain databases or indeed it may be
+required to create a user that can read all databases.
 
 ### View the current users/grants
 
@@ -51,8 +51,8 @@ access to a database called \'maroon2\':
 
 ### Deleting accounts
 
-<font color=red>Be careful!</font> To delete a user called rabbit who is
-connecting from localhost:
+<font color=red>Be careful!</font>\
+To delete a user called rabbit who is connecting from localhost:
 
     DELETE FROM mysql.user WHERE User='rabbit' and host='localhost';
 

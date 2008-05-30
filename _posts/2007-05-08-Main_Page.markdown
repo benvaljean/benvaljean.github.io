@@ -70,6 +70,13 @@ title: Main Page
 -   [Allow Out of Office replies to external addresses
     (Exchange)](Allow_Out_of_Office_replies_to_external_addresses_(Exchange) "wikilink")
 
+### MySQL
+
+-   [Access rights/Privileges/Grants
+    (MySQL)](Access_rights/Privileges/Grants_(MySQL) "wikilink")\*
+-   [Reset Root password
+    (MySQL)](Reset_Root_password_(MySQL) "wikilink")
+
 ### CA Brightstor Arcserve Trobuleshooting
 
 -   [Database Corruption](Database_Corruption_(Arcserve) "wikilink")
@@ -88,8 +95,6 @@ title: Main Page
 
 ### Other IT Trobuleshooting
 
--   [Reset Root password
-    (MySQL)](Reset_Root_password_(MySQL) "wikilink")
 -   [ActiveSync General Troubleshooting
     Guide](http://www.pocketpcfaq.com/faqs/activesync/initialconfig.htm)
 -   [ActiveSync 4.0/4.1/4.2 USB Connection Troubleshooting

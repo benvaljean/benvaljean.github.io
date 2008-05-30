@@ -58,8 +58,12 @@ connecting from localhost:
 
 ### Removing/Revoking access to a database/table
 
-The bottom line here is that the syntax is exactly the same except
-`GRANT` is replaced with `REVOKE` for nearly all situations.
+To remove/revoke privileges from a user the syntax is very similar to
+that for granting priviliges.\
+To remove the SELECT, INSERT, UPDATE and DELETE priviliges for a user
+when connecting from localhost on the database maroon3:
+
+    REVOKE SELECT, INSERT, UPDATE, DELETE ON maroon3.* FROM 'username'@'localhost';
 
 ### Setting a root password
 

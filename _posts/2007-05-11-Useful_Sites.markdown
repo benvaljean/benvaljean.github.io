@@ -82,6 +82,15 @@ Server)](SQL_Clustering_(Database_Server) "wikilink")
 -   [The Definitive Guide to Scaling Out SQL Server
     2005](http://www.dell.com/content/topics/global.aspx/alliances/en/ebook_landing?c=us&cs=555&l=en&s=biz)
 
+#### IIS Rewrite tools
+
+IIS cannot perform rewrite natively but it can do through the use of
+these plugins:
+
+-   [ISAPI\_rewrite](http://www.isapirewrite.com)
+-   [IIS Rewrite](http://www.qwerksoft.com/products/iisrewrite/)
+-   [OpURL](http://www.opcode.co.uk/components/rewrite.asp)
+
 ### Linux Related
 
 -   [Linux/Server HOWTO site](http://gentoo-wiki.com/Index:HOWTO) Great

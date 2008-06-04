@@ -81,6 +81,8 @@ Server)](SQL_Clustering_(Database_Server) "wikilink")
 
 -   [The Definitive Guide to Scaling Out SQL Server
     2005](http://www.dell.com/content/topics/global.aspx/alliances/en/ebook_landing?c=us&cs=555&l=en&s=biz)
+-   [How to: Create a New SQL Server 2005 Failover Cluster
+    (Setup)](http://msdn.microsoft.com/en-us/library/ms179530.aspx)
 
 #### IIS Rewrite tools
 

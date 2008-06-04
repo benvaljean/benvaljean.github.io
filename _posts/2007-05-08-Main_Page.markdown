@@ -70,6 +70,11 @@ title: Main Page
 -   [Allow Out of Office replies to external addresses
     (Exchange)](Allow_Out_of_Office_replies_to_external_addresses_(Exchange) "wikilink")
 
+### Microsfot SQL Server
+
+-   [SQL Log shipping](SQL_Log_shipping_(Database_Server) "wikilink")
+-   [SQL Clustering](SQL_Clustering_(Database_Server) "wikilink")
+
 ### MySQL
 
 -   [Access rights/Privileges/Grants

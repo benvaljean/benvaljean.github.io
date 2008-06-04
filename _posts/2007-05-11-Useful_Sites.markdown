@@ -83,6 +83,10 @@ Server)](SQL_Clustering_(Database_Server) "wikilink")
     2005](http://www.dell.com/content/topics/global.aspx/alliances/en/ebook_landing?c=us&cs=555&l=en&s=biz)
 -   [How to: Create a New SQL Server 2005 Failover Cluster
     (Setup)](http://msdn.microsoft.com/en-us/library/ms179530.aspx)
+-   [Active/Active clusters in SQL
+    Server](http://searchsqlserver.techtarget.com/tip/0,289483,sid87_gci1232340,00.html)
+-   [Database Mirroring in SQL Server
+    2005](http://www.microsoft.com/technet/prodtechnol/sql/2005/dbmirror.mspx)
 
 #### IIS Rewrite tools
 

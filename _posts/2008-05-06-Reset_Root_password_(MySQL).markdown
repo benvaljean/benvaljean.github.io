@@ -26,3 +26,5 @@ Local/Domain Admin (Windows) access on the MySQL server.
 6.  Stop the MySQL server: `/etc/init.d/mysql stop`
 7.  Remove or comment-out the `skip-grant-tables` line.
 8.  Start the MySQL server: `/etc/init.d/mysql start`
+
+[Category:MySQL](Category:MySQL "wikilink")

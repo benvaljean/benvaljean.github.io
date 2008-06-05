@@ -70,3 +70,5 @@ when connecting from localhost on the database maroon3:
 Login to MySQL as root and enter the followng:
 
     SET PASSWORD for root@localhost=PASSWORD('yourpasswordhere');
+
+[Category:MySQL](Category:MySQL "wikilink")

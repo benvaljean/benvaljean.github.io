@@ -38,15 +38,6 @@ calculator](http://ccna.exampointers.com/subnet.phtml)\
 [Email address image/icon generator to create an anti-spam posting of
 your email
 address](http://services.nexodyne.com/email/index_custom.php)\
-gq5xVS \[URL=<http://abactor.info/map.html%5Donline%5B/URL%5D>
-\[URL=<http://abactor.info/women-in-thongs.html%5Dwomen> in
-thongs\[/URL\] <http://abactor.info/map.html>
-<http://abactor.info/naked-yoga.html>
-<http://abactor.info/adult-halloween-costume-ideas.html>
-<a href=http://abactor.info/map.html >online</a> \<
-href=<http://abactor.info/naked-yoga.html> \>naked yoga</a>
-<a href=http://abactor.info/adult-halloween-costume-ideas.html >adult
-halloween costume ideas</a>
 
 ### IIS and SQL Server Related
 

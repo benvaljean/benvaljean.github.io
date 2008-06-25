@@ -125,6 +125,8 @@ htaccess](http://www.cyberciti.biz/faq/howto-setup-apache-password-protect-direc
 -   [Automate an SFTP transfer between two
     servers](http://ask-leo.com/how_can_i_automate_an_sftp_transfer_between_two_servers.html)
     Good page from a good site
+-   [Fighting malware and spam with
+    Postfix](http://advosys.ca/papers/printable/postfix-filtering.html)
 -   [Fairly-Secure Anti-SPAM Gateway Using OpenBSD, Postfix,
     Amavisd-new, SpamAssassin, Razor and
     DCC](http://www.flakshack.com/anti-spam/old-index.html)

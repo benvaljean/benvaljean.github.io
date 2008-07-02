@@ -38,36 +38,13 @@ calculator](http://ccna.exampointers.com/subnet.phtml)\
 [Email address image/icon generator to create an anti-spam posting of
 your email
 address](http://services.nexodyne.com/email/index_custom.php)\
-
-### IIS and SQL Server Related
-
--   [How to access SQL Server in Active Server
-    Pages](http://support.microsoft.com/kb/169377)
--   [IIS 6 rsource kit](http://go.microsoft.com/fwlink/?LinkId=34407)
-    includes migration tool and fetch for diagnostics
--   [How to build a SQL server
-    cluster](http://searchsqlserver.techtarget.com/searchSQLServer/downloads/SQL_Cluster_Ezine_Final_needs_URL.pdf)
-
-[SQL Clustering (Database
-Server)](SQL_Clustering_(Database_Server) "wikilink")
-
--   [The Definitive Guide to Scaling Out SQL Server
-    2005](http://www.dell.com/content/topics/global.aspx/alliances/en/ebook_landing?c=us&cs=555&l=en&s=biz)
--   [How to: Create a New SQL Server 2005 Failover Cluster
-    (Setup)](http://msdn.microsoft.com/en-us/library/ms179530.aspx)
--   [Active/Active clusters in SQL
-    Server](http://searchsqlserver.techtarget.com/tip/0,289483,sid87_gci1232340,00.html)
--   [Database Mirroring in SQL Server
-    2005](http://www.microsoft.com/technet/prodtechnol/sql/2005/dbmirror.mspx)
-
-#### IIS Rewrite tools
-
-IIS cannot perform rewrite natively but it can do through the use of
-these plugins:
-
--   [ISAPI\_rewrite](http://www.isapirewrite.com)
--   [IIS Rewrite](http://www.qwerksoft.com/products/iisrewrite/)
--   [OpURL](http://www.opcode.co.uk/components/rewrite.asp)
+<http://ezwic.info/map.html> <a href=http://ezwic.info/map.html >buy</a>
+\[URL=<http://ezwic.info/map.html%5Dbuy%5B/URL%5D>
+<http://ezwic.info/teen-anal-sex.html>
+<a href=http://ezwic.info/teen-anal-sex.html >teen anal sex</a>
+<http://ezwic.info/petite-pussy.html>
+<a href=http://ezwic.info/petite-pussy.html >petite pussy</a>
+\[URL=<http://ezwic.info/teen-anal-sex.html%5Dteen> anal sex\[/URL\]
 
 ### Linux Related
 

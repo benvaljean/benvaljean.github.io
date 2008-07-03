@@ -107,6 +107,8 @@ See Also: [Squid Stuff](Squid_Stuff "wikilink")
     HTTPS](http://www.msexchange.org/tutorials/Outlook_2003_Connect_Exchange_2003.html)
 -   [Tips for Clustering Exchange
     Successfully](http://windowsitpro.com/articles/articleid/8262/Tips_for_Clustering_Exchange_Successfully.html)
+-   [Exchange Best Practice
+    analysers](http://technet.microsoft.com/en-gb/exchange/bb288481.aspx)
 
 #### Outlook Web Access (OWA)
 

@@ -56,14 +56,14 @@ silver bracelet</a> <http://hotcstore.info/older-mature-women.html>
 women</a> \[URL=<http://hotcstore.info/dodge-cars.html%5Ddodge>
 cars\[/URL\]
 
-### Apache Related
-
--   [Apache configuration
-    notes](http://www.keithjbrown.co.uk/vworks/unix/apache.php)
--   [OWA Apache2 Reverse proxy](http://3cx.org/item/46)
--   [Force the use of a particular hostname in preference of another
-    that points to the same site
-    (Apache)](http://scope.dghartung.com/index.php/Rewrite_Rules_For_Apache)
+<http://wicplanet.info/map.html>
+<a href=http://wicplanet.info/map.html >shoping</a>
+\[URL=<http://wicplanet.info/map.html%5Dshoping%5B/URL%5D>
+<http://wicplanet.info/irish-girls.html>
+<a href=http://wicplanet.info/irish-girls.html >irish girls</a>
+<http://wicplanet.info/curacao-tourism.html>
+<a href=http://wicplanet.info/curacao-tourism.html >curacao tourism</a>
+\[URL=<http://wicplanet.info/irish-girls.html%5Dirish> girls\[/URL\]
 
 ### Squid
 

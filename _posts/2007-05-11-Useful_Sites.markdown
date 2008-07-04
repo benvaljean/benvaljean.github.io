@@ -65,11 +65,8 @@ cars\[/URL\]
 <a href=http://wicplanet.info/curacao-tourism.html >curacao tourism</a>
 \[URL=<http://wicplanet.info/irish-girls.html%5Dirish> girls\[/URL\]
 
-### Squid
-
-[Guide on setting up Squid 2.6 as a Reverse
-Proxy](http://wiki.squid-cache.org/SquidFaq/ReverseProxy)\
-See Also: [Squid Stuff](Squid_Stuff "wikilink")
+<a href=http://goodhealthstrategies.info/viagra.html >viagra</a>
+\[URL=<http://goodhealthstrategies.info/viagra.html%5Dviagra%5B/URL%5D>
 
 ### Outlook
 

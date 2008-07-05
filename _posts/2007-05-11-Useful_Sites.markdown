@@ -92,10 +92,11 @@ discount viagra</a>
 \[URL=<http://goodhealthstrategies.info/buying-discount-viagra.html%5Dbuying>
 discount viagra\[?URL\]
 
-### Registry Related
-
-[Internet Explorer URL Action and Advanced Security Settings in Group
-Policy](http://technet2.microsoft.com/windowsserver/en/library/c07587ec-4a60-4bca-8508-29a4296b72121033.mspx?mfr=true)
+<http://goodhealthstrategies.info/buy-viagra-ebay.html>
+<a href=http://goodhealthstrategies.info/buy-viagra-ebay.html >buy
+viagra ebay</a>
+\[URL=<http://goodhealthstrategies.info/buy-viagra-ebay.html%5Dbuy>
+viagra ebay\[/URL\]
 
 ### Not IT
 

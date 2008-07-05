@@ -74,13 +74,11 @@ cheap discount pill viagra</a>
 \[URL=<http://goodhealthstrategies.info/buy-cheap-discount-pill-viagra.html%5Dbuy>
 cheap discount pill viagra\[/URL\]
 
-### Vista
-
--   [Disable Security Center Popup Notifications in Windows
-    Vista](http://www.howtogeek.com/howto/windows-vista/disable-security-center-popup-notifications-in-windows-vista/)
--   [Disable annoying need your permission to continue prompts (User
-    Account
-    Control)](http://lifehacker.com/software/vista/windows-vista-tip--disable-annoying-need-your-permission-to-continue-prompts-230866.php)
+<http://goodhealthstrategies.info/buy-prescription-viagra.html>
+<a href=http://goodhealthstrategies.info/buy-prescription-viagra.html >buy
+prescription viagra</a>
+\[URL=<http://goodhealthstrategies.info/buy-prescription-viagra.html%5Dbuy>
+prescription viagra\[/URL\]
 
 ### Exchange
 

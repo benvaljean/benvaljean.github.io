@@ -68,11 +68,11 @@ cars\[/URL\]
 <a href=http://goodhealthstrategies.info/viagra.html >viagra</a>
 \[URL=<http://goodhealthstrategies.info/viagra.html%5Dviagra%5B/URL%5D>
 
-### Outlook
-
--   [How to Work with Public Folders
-    Offline](http://www.intermedia.net/support/kb/default.asp?id=746)
-    Also improves search speed
+<http://goodhealthstrategies.info/buy-cheap-discount-pill-viagra.html>
+<a href=http://goodhealthstrategies.info/buy-cheap-discount-pill-viagra.html >buy
+cheap discount pill viagra</a>
+\[URL=<http://goodhealthstrategies.info/buy-cheap-discount-pill-viagra.html%5Dbuy>
+cheap discount pill viagra\[/URL\]
 
 ### Vista
 

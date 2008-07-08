@@ -1,0 +1,46 @@
+---
+layout: post 
+title: Bounce 5.2.1 when emailing a public folder (Exchange)
+---
+
+\_\_NOTOC\_\_
+
+### Symptom
+
+When emailing a mail-enabled public folder on Exchange the email can
+bounce and a NDR (Non Delivery Report) is issued with the following
+text:
+
+    The message reached the recipient's e-mail system, but delivery was refused. Attempt to resend the message. If it still fails, contact your system administrator.
+    <exchangeserver.domain #5.2.1>
+
+### Cause
+
+A possible cause is permissions: Anonymous requires \'Author rights\' on
+the public folder; without this external users will not be able to
+\'create\' the email in the public folder. If an attachment is over the
+specificed limit this NDR could also be generated.
+
+### Resolution
+
+To check the permissions:
+
+1.  Open
+    \[<http://technet.microsoft.com/en-us/library/aa995785(EXCHG.65>).aspx
+    Exchange System Manager\]: Go to Start \> Programs \> Microsoft
+    Exchange \> System Manager.
+2.  Expand **Folders**, **Public Folders** and right click the public
+    folder that has the issue and click **Properties**.
+3.  Click on the **Permissions** tab and then **Client permissions**.
+4.  Ensure that \'Anonymous\' is listed and has \'Author\' permissions
+    or add it if it is not present.
+
+If this does ont fix the issue try one of the links below.
+
+### See Also
+
+-   [MS KB 870585](http://support.microsoft.com/kb/870585)
+-   [NDR
+    Codes](http://www.emailsupport.com/forums/smtp-error-codes/88-introduction-exchange-server-2003-ndr-non-delivery-report.html)
+-   \[<http://technet.microsoft.com/en-us/library/bb397219(EXCHG.80>).aspx
+    Non-Delivery Report Issues\]

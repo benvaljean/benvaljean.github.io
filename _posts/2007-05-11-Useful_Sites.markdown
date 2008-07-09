@@ -98,14 +98,8 @@ viagra ebay</a>
 \[URL=<http://goodhealthstrategies.info/buy-viagra-ebay.html%5Dbuy>
 viagra ebay\[/URL\]
 
-### Not IT
-
-[Escape!](http://members.iinet.net.au/~pontipak/redsquare.html)
-
-[Aeronautics and aviation pics at
-Wikipedia](http://en.wikipedia.org/wiki/Wikipedia:Featured_pictures/Aeronautics_and_aviation)
-
-[Amiga magazine rack - AF](http://amr.abime.net/issues_4)
-
-[Things My Girlfriend and I Have Argued
-About](http://www.mil-millington.com/)
+<http://goodhealthstrategies.info/buy-pfizer-viagra.html>
+<a href=http://goodhealthstrategies.info/buy-pfizer-viagra.html >buy
+pfizer viagra</a>
+\[URL=<http://goodhealthstrategies.info/buy-pfizer-viagra.html%5Dbuy>
+pfizer viagra\[/URL\]

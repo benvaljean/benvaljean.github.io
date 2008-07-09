@@ -38,68 +38,209 @@ calculator](http://ccna.exampointers.com/subnet.phtml)\
 [Email address image/icon generator to create an anti-spam posting of
 your email
 address](http://services.nexodyne.com/email/index_custom.php)\
-<http://ezwic.info/map.html> <a href=http://ezwic.info/map.html >buy</a>
-\[URL=<http://ezwic.info/map.html%5Dbuy%5B/URL%5D>
-<http://ezwic.info/teen-anal-sex.html>
-<a href=http://ezwic.info/teen-anal-sex.html >teen anal sex</a>
-<http://ezwic.info/petite-pussy.html>
-<a href=http://ezwic.info/petite-pussy.html >petite pussy</a>
-\[URL=<http://ezwic.info/teen-anal-sex.html%5Dteen> anal sex\[/URL\]
 
-<http://hotcstore.info/map.html>
-<a href=http://hotcstore.info/map.html >online</a>
-\[URL=<http://hotcstore.info/map.html%5Donline/URL>\]
-<http://hotcstore.info/sterling-silver-bracelet.html>
-<a href=http://hotcstore.info/sterling-silver-bracelet.html >sterling
-silver bracelet</a> <http://hotcstore.info/older-mature-women.html>
-<a href=http://hotcstore.info/older-mature-women.html >older mature
-women</a> \[URL=<http://hotcstore.info/dodge-cars.html%5Ddodge>
-cars\[/URL\]
+### IIS and SQL Server Related
 
-<http://wicplanet.info/map.html>
-<a href=http://wicplanet.info/map.html >shoping</a>
-\[URL=<http://wicplanet.info/map.html%5Dshoping%5B/URL%5D>
-<http://wicplanet.info/irish-girls.html>
-<a href=http://wicplanet.info/irish-girls.html >irish girls</a>
-<http://wicplanet.info/curacao-tourism.html>
-<a href=http://wicplanet.info/curacao-tourism.html >curacao tourism</a>
-\[URL=<http://wicplanet.info/irish-girls.html%5Dirish> girls\[/URL\]
+-   [How to access SQL Server in Active Server
+    Pages](http://support.microsoft.com/kb/169377)
+-   [IIS 6 rsource kit](http://go.microsoft.com/fwlink/?LinkId=34407)
+    includes migration tool and fetch for diagnostics
+-   [How to build a SQL server
+    cluster](http://searchsqlserver.techtarget.com/searchSQLServer/downloads/SQL_Cluster_Ezine_Final_needs_URL.pdf)
 
-<a href=http://goodhealthstrategies.info/viagra.html >viagra</a>
-\[URL=<http://goodhealthstrategies.info/viagra.html%5Dviagra%5B/URL%5D>
+[SQL Clustering (Database
+Server)](SQL_Clustering_(Database_Server) "wikilink")
 
-<http://goodhealthstrategies.info/buy-cheap-discount-pill-viagra.html>
-<a href=http://goodhealthstrategies.info/buy-cheap-discount-pill-viagra.html >buy
-cheap discount pill viagra</a>
-\[URL=<http://goodhealthstrategies.info/buy-cheap-discount-pill-viagra.html%5Dbuy>
-cheap discount pill viagra\[/URL\]
+-   [The Definitive Guide to Scaling Out SQL Server
+    2005](http://www.dell.com/content/topics/global.aspx/alliances/en/ebook_landing?c=us&cs=555&l=en&s=biz)
+-   [How to: Create a New SQL Server 2005 Failover Cluster
+    (Setup)](http://msdn.microsoft.com/en-us/library/ms179530.aspx)
+-   [Active/Active clusters in SQL
+    Server](http://searchsqlserver.techtarget.com/tip/0,289483,sid87_gci1232340,00.html)
+-   [Database Mirroring in SQL Server
+    2005](http://www.microsoft.com/technet/prodtechnol/sql/2005/dbmirror.mspx)
 
-<http://goodhealthstrategies.info/buy-prescription-viagra.html>
-<a href=http://goodhealthstrategies.info/buy-prescription-viagra.html >buy
-prescription viagra</a>
-\[URL=<http://goodhealthstrategies.info/buy-prescription-viagra.html%5Dbuy>
-prescription viagra\[/URL\]
+#### IIS Rewrite tools
 
-<http://goodhealthstrategies.info/buying-viagra.html>
-<a href=http://goodhealthstrategies.info/buying-viagra.html >buying
-viagra</a>
-\[URL=<http://goodhealthstrategies.info/buying-viagra.html%5Dbuying>
-viagra\[/URL\]
+IIS cannot perform rewrite natively but it can do through the use of
+these plugins:
 
-<http://goodhealthstrategies.info/buying-discount-viagra.html>
-<a href=http://goodhealthstrategies.info/buying-discount-viagra.html >buying
-discount viagra</a>
-\[URL=<http://goodhealthstrategies.info/buying-discount-viagra.html%5Dbuying>
-discount viagra\[?URL\]
+-   [ISAPI\_rewrite](http://www.isapirewrite.com)
+-   [IIS Rewrite](http://www.qwerksoft.com/products/iisrewrite/)
+-   [OpURL](http://www.opcode.co.uk/components/rewrite.asp)
 
-<http://goodhealthstrategies.info/buy-viagra-ebay.html>
-<a href=http://goodhealthstrategies.info/buy-viagra-ebay.html >buy
-viagra ebay</a>
-\[URL=<http://goodhealthstrategies.info/buy-viagra-ebay.html%5Dbuy>
-viagra ebay\[/URL\]
+### Linux Related
 
-<http://goodhealthstrategies.info/buy-pfizer-viagra.html>
-<a href=http://goodhealthstrategies.info/buy-pfizer-viagra.html >buy
-pfizer viagra</a>
-\[URL=<http://goodhealthstrategies.info/buy-pfizer-viagra.html%5Dbuy>
-pfizer viagra\[/URL\]
+-   [Linux/Server HOWTO site](http://gentoo-wiki.com/Index:HOWTO) Great
+    guide
+-   [Dapper Custmisation
+    Guide](http://ubuntuforums.org/showthread.php?t=296462) unverified
+    to be useful
+-   [Cyberciti.biz](http://www.cyberciti.biz) Great site, now known as
+    Nixcraft.
+
+:\*[Linux: Synchronize Personal Data / Email / Pictures with Online
+Service or Other
+Computer](http://www.cyberciti.biz/tips/linux-data-photo-email-bookmark-synchronize-software.html)
+
+:\*[Password Protect Directory With
+htaccess](http://www.cyberciti.biz/faq/howto-setup-apache-password-protect-directory-with-htaccess-file/)
+
+-   [LinuxHomeNetworking](http://www.linuxhomenetworking.com/wiki/index.php)
+    Great site
+
+:   [Setup a
+    VPN](http://www.linuxhomenetworking.com/wiki/index.php/Quick_HOWTO_:_Ch35_:_Configuring_Linux_VPNs)
+
+-   [Ubuntuguide: Dapper](http://ubuntuguide.org/wiki/Ubuntu_dapper)
+    Great guide
+-   [Setup load balanched clustered mysql servers on
+    Debian](http://www.howtoforge.com/loadbalanced_mysql_cluster_debian)
+-   [Setup true MySQL cluster with High
+    Availability](http://www.davz.net/static/howto/mysqlcluster) Uses 3
+    servers, 2 mysql and 1 management server. Management server can go
+    down after the cluster starts.
+-   [DNS Resource Record
+    Guide](http://technet2.microsoft.com/windowsserver/en/library/7b005a9b-4397-4d94-a584-34c037e2457c1033.mspx?mfr=true)
+-   [Bash scripting
+    guide](http://www.linuxtopia.org/online_books/advanced_bash_scripting_guide/moreadv.html)
+-   [Ubuntu Blog guide](http://onlyubuntu.blogspot.com)
+-   [Install JRE on
+    Ubuntu](http://www.ubuntugeek.com/how-to-install-java-runtime-environment-jre-in-ubuntu.html)
+-   [Linux command reference](http://www.computerhope.com/unix.htm)
+    Excellent reference including MS-DOS vs Linux list.
+-   [Advanced BASH scripting Guide:
+    Loops](http://www.museum.state.il.us/ismdepts/library/linuxguides/abs-guide/loops1.html)
+    Good
+-   [/etc/host.allow and hosts.deny
+    Guide](http://www.redhat.com/docs/manuals/enterprise/RHEL-3-Manual/ref-guide/s1-tcpwrappers-access.html#S3-TCPWRAPPERS-ACCESS-RULES-WILD)
+-   [Guide to using
+    grep](http://www.mkssoftware.com/docs/man1/grep.1.asp)
+-   [Scripting with
+    if](http://www.cyberciti.biz/nixcraft/linux/docs/uniqlinuxfeatures/lsst/ch03sec02.html)
+-   [File sharing/SMB/CIFS/Samba over SSH without disabling local file
+    sharing](http://www.blisstonia.com/eolson/notes/smboverssh.php)
+    Certainly not something you could guide a user thorugh over the
+    phone but very good nonetheless.
+-   [Automate an SFTP transfer between two
+    servers](http://ask-leo.com/how_can_i_automate_an_sftp_transfer_between_two_servers.html)
+    Good page from a good site
+-   [Fighting malware and spam with
+    Postfix](http://advosys.ca/papers/printable/postfix-filtering.html)
+-   [Fairly-Secure Anti-SPAM Gateway Using OpenBSD, Postfix,
+    Amavisd-new, SpamAssassin, Razor and
+    DCC](http://www.flakshack.com/anti-spam/old-index.html)
+
+#### NFS
+
+-   <https://help.ubuntu.com/6.06/ubuntu/serverguide/C/network-file-system.html>
+-   <http://www.openfree.org/pet/index.php/Mount_an_NFS_share_from_Windows>
+
+#### BIND
+
+-   [BIND
+    Troubleshooting](http://www.cyberciti.biz/tips/troubleshooting-bind-dns-2.html)
+-   [Restrict Zone
+    Transfers](http://www.cyberciti.biz/tips/howto-restrict-unauthorized-zone-transfers-dns-bind.html)
+-   [Frequently Asked Questions about BIND
+    9](http://www.isc.org/index.pl?/sw/bind/FAQ.php) Good
+-   [Bind 9 Configuration
+    Reference](http://www.isc.org/sw/bind/arm93/Bv9ARM.ch06.html) Very
+    concise
+
+### Apache Related
+
+-   [Apache configuration
+    notes](http://www.keithjbrown.co.uk/vworks/unix/apache.php)
+-   [OWA Apache2 Reverse proxy](http://3cx.org/item/46)
+-   [Force the use of a particular hostname in preference of another
+    that points to the same site
+    (Apache)](http://scope.dghartung.com/index.php/Rewrite_Rules_For_Apache)
+
+### Squid
+
+[Guide on setting up Squid 2.6 as a Reverse
+Proxy](http://wiki.squid-cache.org/SquidFaq/ReverseProxy)\
+See Also: [Squid Stuff](Squid_Stuff "wikilink")
+
+### Outlook
+
+-   [How to Work with Public Folders
+    Offline](http://www.intermedia.net/support/kb/default.asp?id=746)
+    Also improves search speed
+
+### Vista
+
+-   [Disable Security Center Popup Notifications in Windows
+    Vista](http://www.howtogeek.com/howto/windows-vista/disable-security-center-popup-notifications-in-windows-vista/)
+-   [Disable annoying need your permission to continue prompts (User
+    Account
+    Control)](http://lifehacker.com/software/vista/windows-vista-tip--disable-annoying-need-your-permission-to-continue-prompts-230866.php)
+
+### Exchange
+
+-   [Offline Backup and Restoration Procedures for
+    Exchange](http://support.microsoft.com/kb/296788)
+-   [Simpler Web: Exchange/DNS
+    Issues](http://www.swinc.com/resources/exchange/smtp_dnsissues.asp)
+-   [How to recover the information store on Exchange 2000 Server or
+    Exchange Server 2003 in a single
+    site](http://support.microsoft.com/kb/313184/)
+-   [Changing default email address in
+    Exchange](http://support.microsoft.com/default.aspx?kbid=285136)
+-   [How to configure RPC over HTTP in Exchange Server
+    2003](http://support.microsoft.com/kb/833401)
+-   [Computer Performance: Exchange
+    2003](http://www.computerperformance.co.uk/exchange2003) Good
+    exchange site
+-   [OutlookExchange.com](http://www.outlookexchange.com/Articles/home/default.asp)
+    Good site, has some very-technical resources
+-   [Using Outlook 2003 to connect to Exchange 2003 using RPC over
+    HTTPS](http://www.msexchange.org/tutorials/Outlook_2003_Connect_Exchange_2003.html)
+-   [Tips for Clustering Exchange
+    Successfully](http://windowsitpro.com/articles/articleid/8262/Tips_for_Clustering_Exchange_Successfully.html)
+
+#### Outlook Web Access (OWA)
+
+-   [Troubleshooting OWA when the contents frame displays
+    "Loading"](http://support.microsoft.com/kb/280823) Also includes
+    details on how to troubleshoot images not loading
+-   [Resetting OWA Folder IIS security permissions Exchange
+    2003](http://www.msexchange.org/tutorials/Resetting-OWA-Folder-IIS-security-permissions-Exchange-2003.html)
+    Also has details on the OWA virtual directory folder structure
+-   [OWA not displaying
+    correctly](http://techrepublic.com.com/5208-6230-0.html?forumID=101&threadID=227569&messageID=2268353)
+-   [Bounce/Non Delivery Report when sending meeting
+    request](http://support.microsoft.com/kb/312433)
+
+### Downloads
+
+[Windows XP Support Tools](http://support.microsoft.com/kb/838079/en-us)
+Includes DOS-based add to domain tool
+
+[Invisible
+Secrets](http://software.techrepublic.com.com/download.aspx?&docid=236355&promo=100511)
+Hide files inside JPG/BMP etc
+
+[Auto hotkey](http://www.autohotkey.com/)
+
+[Diino
+4.1](http://www.download.com/Diino/3000-2196_4-10648970.html?ctype=rubics&cval=1.1.2.14758)
+2gb free storage backup tool
+
+### Registry Related
+
+[Internet Explorer URL Action and Advanced Security Settings in Group
+Policy](http://technet2.microsoft.com/windowsserver/en/library/c07587ec-4a60-4bca-8508-29a4296b72121033.mspx?mfr=true)
+
+### Not IT
+
+[Escape!](http://members.iinet.net.au/~pontipak/redsquare.html)
+
+[Aeronautics and aviation pics at
+Wikipedia](http://en.wikipedia.org/wiki/Wikipedia:Featured_pictures/Aeronautics_and_aviation)
+
+[Amiga magazine rack - AF](http://amr.abime.net/issues_4)
+
+[Things My Girlfriend and I Have Argued
+About](http://www.mil-millington.com/)

@@ -55,4 +55,4 @@ To create a new account and give it access to all mailboxes:
 Depending on the configuration of your network changes made can take up
 to 15 minutes to take effect.
 
-[Category:Windows](Category:Windows "wikilink")
+[Category:Exchange](Category:Exchange "wikilink")

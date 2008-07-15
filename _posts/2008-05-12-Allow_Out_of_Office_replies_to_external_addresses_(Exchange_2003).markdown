@@ -35,3 +35,4 @@ it will need to be turned off and back on.
     Extender](http://www.symprex.com/products/out-of-office-extender/)
 
 [Category:Windows](Category:Windows "wikilink")
+[Category:Exchange](Category:Exchange "wikilink")

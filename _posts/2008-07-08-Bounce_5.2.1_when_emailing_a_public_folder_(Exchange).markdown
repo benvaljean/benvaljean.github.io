@@ -44,3 +44,5 @@ If this does ont fix the issue try one of the links below.
     Codes](http://www.emailsupport.com/forums/smtp-error-codes/88-introduction-exchange-server-2003-ndr-non-delivery-report.html)
 -   \[<http://technet.microsoft.com/en-us/library/bb397219(EXCHG.80>).aspx
     Non-Delivery Report Issues\]
+
+[Category:Exchange](Category:Exchange "wikilink")

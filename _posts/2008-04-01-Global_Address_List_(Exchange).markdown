@@ -26,3 +26,5 @@ Service](http://support.microsoft.com/kb/319065)
 
 [Global Address List not updating
 (Outlook)](Global_Address_List_not_updating_(Outlook) "wikilink")
+
+[Category:Exchange](Category:Exchange "wikilink")

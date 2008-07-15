@@ -112,3 +112,5 @@ title: Non-Delivery Report (NDR) / Bounce Codes (Email)
 |-
 | x.7.7                              message integrity failure
 |}
+
+[[Category:Email]]

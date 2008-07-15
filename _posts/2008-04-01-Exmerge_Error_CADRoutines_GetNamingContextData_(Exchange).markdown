@@ -31,4 +31,4 @@ manually updated:
 If the above does not work try Rebulid. In a large environment it may be
 required to Update/Rebulid the enterprise Recipient Update Service.
 
-[Category:Windows](Category:Windows "wikilink")
+[Category:Exchange](Category:Exchange "wikilink")

@@ -252,3 +252,10 @@ system message page.
 
 Images in mediawiki:
 <http://askdrwiki.com/mediawiki/index.php?title=Help:Images_and_other_Media>
+
+### Useful Wiki Sites
+
+[Copy & Paste Excel-to-Wiki
+Converter](http://people.fas.harvard.edu/~sdouglas/table.cgi) Also works
+in any tab that generates tabs between the cells in copied text - such
+as Opera

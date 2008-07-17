@@ -41,6 +41,8 @@ title: Main Page
 -   [Icon problem: Low colour icons (4 bits/16 colours) even with 16/32
     bit screen
     mode](Icon_problem:_Low_colour_icons_(4_bits/16_colours)_even_with_16/32_bit_screen_mode_(Windows) "wikilink")
+-   [Cannot View Source (Internet
+    Explorer)](Cannot_View_Source_(Internet_Explorer) "wikilink")
 -   [Print Spooler Issues](http://support.microsoft.com/kb/324757)
 -   [CD Burning Driver
     Conflicts](http://support.microsoft.com/default.aspx?scid=KB;EN-US;q315345&)
@@ -54,8 +56,7 @@ title: Main Page
 -   [Always add BCC (Outlook)](Always_add_BCC_(Outlook) "wikilink")
 -   [Global Address List not updating
     (Outlook)](Global_Address_List_not_updating_(Outlook) "wikilink")
--   [Cannot View Source (Internet
-    Explorer)](Cannot_View_Source_(Internet_Explorer) "wikilink")
+-   <http://www.rogerrabbit.net/wiki/Bounce_when_Sending_Meeting_Request_(Outlook)>
 -   [Word Trobuleshooting](http://support.microsoft.com/kb/820919/)
 -   [You receive error messages when you move or copy items in the
     Advanced Find window in Outlook

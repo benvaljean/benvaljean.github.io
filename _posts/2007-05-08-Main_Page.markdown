@@ -56,7 +56,7 @@ title: Main Page
 -   [Always add BCC (Outlook)](Always_add_BCC_(Outlook) "wikilink")
 -   [Global Address List not updating
     (Outlook)](Global_Address_List_not_updating_(Outlook) "wikilink")
--   <http://www.rogerrabbit.net/wiki/Bounce_when_Sending_Meeting_Request_(Outlook)>
+-   [Bounce\_when\_Sending\_Meeting\_Request\_(Outlook)](Bounce_when_Sending_Meeting_Request_(Outlook) "wikilink")
 -   [Word Trobuleshooting](http://support.microsoft.com/kb/820919/)
 -   [You receive error messages when you move or copy items in the
     Advanced Find window in Outlook

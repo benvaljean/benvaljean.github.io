@@ -20,7 +20,7 @@ title: Non-Delivery Report (NDR) / Bounce Codes (Email)
 |-
 | x.1.0                              other address status
 |-
-| x.1.1                              bad destination mailbox address
+| x.1.1                              bad destination mailbox address Example: 5.1.1 [[Bounce when Sending Meeting Request (Outlook)]]
 |-
 | x.1.2                              bad destination system address
 |-

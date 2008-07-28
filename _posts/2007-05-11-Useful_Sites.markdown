@@ -53,14 +53,12 @@ cialis\[/url\]
 \[url=<http://healthlinkmed.info/buying-cialis.html%5Dbuying>
 cialis\[/url\]
 
-### Apache Related
-
--   [Apache configuration
-    notes](http://www.keithjbrown.co.uk/vworks/unix/apache.php)
--   [OWA Apache2 Reverse proxy](http://3cx.org/item/46)
--   [Force the use of a particular hostname in preference of another
-    that points to the same site
-    (Apache)](http://scope.dghartung.com/index.php/Rewrite_Rules_For_Apache)
+<a href=http://healthlinkmed.info/buy-cialis-pharmacy-online.html >buy
+cialis pharmacy online</a>
+<a href=http://healthlinkmed.info/buy-cialis-cheap-prices-fast-delivery.html >buy
+cialis cheap prices fast delivery</a>
+<a href=http://healthlinkmed.info/buy-cialis-on-line.html >buy cialis on
+line</a>
 
 ### Squid
 

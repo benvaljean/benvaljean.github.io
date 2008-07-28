@@ -60,11 +60,12 @@ cialis cheap prices fast delivery</a>
 <a href=http://healthlinkmed.info/buy-cialis-on-line.html >buy cialis on
 line</a>
 
-### Squid
-
-[Guide on setting up Squid 2.6 as a Reverse
-Proxy](http://wiki.squid-cache.org/SquidFaq/ReverseProxy)\
-See Also: [Squid Stuff](Squid_Stuff "wikilink")
+<a href=http://healthlinkmed.info/buy-cialis-tadalafil.html >buy cialis
+tadalafil</a>
+<a href=http://healthlinkmed.info/buy-discounted-cialis-softtabs.html >buy
+discounted cialis softtabs</a>
+<a href=http://healthlinkmed.info/buy-cialis-fast-shipping.html >buy
+cialis fast shipping</a>
 
 ### Outlook
 

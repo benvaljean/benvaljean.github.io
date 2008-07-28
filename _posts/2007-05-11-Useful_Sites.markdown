@@ -67,11 +67,12 @@ discounted cialis softtabs</a>
 <a href=http://healthlinkmed.info/buy-cialis-fast-shipping.html >buy
 cialis fast shipping</a>
 
-### Outlook
-
--   [How to Work with Public Folders
-    Offline](http://www.intermedia.net/support/kb/default.asp?id=746)
-    Also improves search speed
+<a href=http://healthlinkmed.info/buy-cheapest-cialis.html >buy cheapest
+cialis</a>
+<a href=http://healthlinkmed.info/buy-cialis-australia.html >buy cialis
+australia</a>
+<a href=http://healthlinkmed.info/buying-cialis-generic-mt.html >buying
+cialis generic mt</a>
 
 ### Vista
 

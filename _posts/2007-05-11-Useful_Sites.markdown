@@ -74,13 +74,12 @@ australia</a>
 <a href=http://healthlinkmed.info/buying-cialis-generic-mt.html >buying
 cialis generic mt</a>
 
-### Vista
-
--   [Disable Security Center Popup Notifications in Windows
-    Vista](http://www.howtogeek.com/howto/windows-vista/disable-security-center-popup-notifications-in-windows-vista/)
--   [Disable annoying need your permission to continue prompts (User
-    Account
-    Control)](http://lifehacker.com/software/vista/windows-vista-tip--disable-annoying-need-your-permission-to-continue-prompts-230866.php)
+<a href=http://healthlinkmed.info/buy-cialis-fda.html >buy cialis
+fda</a>
+<a href=http://healthlinkmed.info/buy-cialis-online-nopw.html >buy
+cialis online nopw</a>
+<a href=http://healthlinkmed.info/buy-generic-cialis-softtabs-cheap.html >buy
+generic cialis softtabs cheap</a>
 
 ### Exchange
 

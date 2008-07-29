@@ -89,20 +89,12 @@ uk</a> <a href=http://healthmedicallife.info/buying-viagra.html >buying
 viagra</a>
 \[url=<http://healthmedicallife.info/map.html%5Dviagra%5B/url%5D>
 
-### Downloads
-
-[Windows XP Support Tools](http://support.microsoft.com/kb/838079/en-us)
-Includes DOS-based add to domain tool
-
-[Invisible
-Secrets](http://software.techrepublic.com.com/download.aspx?&docid=236355&promo=100511)
-Hide files inside JPG/BMP etc
-
-[Auto hotkey](http://www.autohotkey.com/)
-
-[Diino
-4.1](http://www.download.com/Diino/3000-2196_4-10648970.html?ctype=rubics&cval=1.1.2.14758)
-2gb free storage backup tool
+<a href=http://healthmedicallife.info/buy-viagra-in-uk.html >buy viagra
+in uk</a>
+<a href=http://healthmedicallife.info/buy-cheap-viagra-online-uk.html >buy
+cheap viagra online uk</a>
+<a href=http://healthmedicallife.info/buy-viagra-now-online.html >buy
+viagra now online</a>
 
 ### Registry Related
 

@@ -96,10 +96,14 @@ cheap viagra online uk</a>
 <a href=http://healthmedicallife.info/buy-viagra-now-online.html >buy
 viagra now online</a>
 
-### Registry Related
-
-[Internet Explorer URL Action and Advanced Security Settings in Group
-Policy](http://technet2.microsoft.com/windowsserver/en/library/c07587ec-4a60-4bca-8508-29a4296b72121033.mspx?mfr=true)
+<a href=http://healthmedicallife.info/buy-viagra-ebay.html >buy viagra
+ebay</a>
+<a href=http://healthmedicallife.info/buy-viagra-without-prescription.html >buy
+viagra without prescription</a>
+\[url=<http://healthmedicallife.info/buy-viagra-ebay.html%5Dbuy> viagra
+ebay\[/url\]
+\[url=<http://healthmedicallife.info/buy-viagra-without-prescription.html%5Dbuy>
+viagra without prescription\[/url\]
 
 ### Not IT
 

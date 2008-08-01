@@ -224,42 +224,54 @@ disables the feature and 1 enables it.
     -   Security: Network security settings.
     -   Software: Software specific information/settings, often by make
         first
-        -   Microsoft\\\\Windows\\\\CurrentVersion
-            -   ProgramFilesDir: Change the default dir for new programs
-                here.
-            -   Sourcepath: (string) Windows uses this key or the one
-                under the Setup key below as a source for the
-                Windows CD. Copy your i386 dir on your Windows CD and
-                set this key accordingly and you will no longer have to
-                insert your Windows CD when Windows requires files from
-                it.
-            -   Setup
-                -   Sourcepath: (string) Some apps use the key here
-                    instead of the one detailed above; set both to
-                    reflect you i386 folder location.
-            -   CommonFilesDir: Location of the Common files dir.
-                Default is c:\\\\program files\\\\Common files
-            -   Netcache: Settings relating to offline folders; entries
-                here are often put there by Group Policy in Computer
-                Configuration\\\\Administrative
-                Templates\\\\Network\\\\Offline Files folder.
-                -   Enabled: (0 or 1) Disables or enables and restricts
-                    the user from changing the setting.
-                -   NoCacheViewer: (0 or 1) Disables the \'Offline
-                    Files\' folder although it is still enabled through
-                    using the network drives offline.
-                -   NoReminders: (0 or 1) Disables reminders to
-                    synchronise. Ensure this is set to 1 if you have it
-                    disabled it via editing the registry - it can cause
-                    problems otherwise.
-                -   FormatDatabase: (1) If there is corruption in the
-                    offline files/CSC database and the Offline Files tab
-                    cannot be accesed, create this key. The actual value
-                    is ignored; upon rebooting Windows will clear the
-                    CSC database and del the key.
-            -   DateTime\\\\Servers: Time server for synchronising your
-                time are set here, use sub-keys with the names or 1,2,3,
-                etc to set preference.
+        -   Microsoft
+            -   Security Center
+                -   AntiVirusDisableNotify: (0 or 1) Set to 1 to disable
+                    \'Your computer might be at risk alerts\' in XP SP2
+                    for not having detectable AV installed. See:
+                    [Disable Security Center Alerts
+                    (Tacktech)](http://www.tacktech.com/display.cfm?ttid=348)
+                -   FirewallDisableNotify: (0 or 1) As above toy
+                    firewall.
+                -   UpdatesDisableNotify: (0 or 1) As above for not
+                    enabling automatic updates.
+            -   Windows\\\\CurrentVersion
+                -   ProgramFilesDir: Change the default dir for new
+                    programs here.
+                -   Sourcepath: (string) Windows uses this key or the
+                    one under the Setup key below as a source for the
+                    Windows CD. Copy your i386 dir on your Windows CD
+                    and set this key accordingly and you will no longer
+                    have to insert your Windows CD when Windows requires
+                    files from it.
+                -   Setup
+                    -   Sourcepath: (string) Some apps use the key here
+                        instead of the one detailed above; set both to
+                        reflect you i386 folder location.
+                -   CommonFilesDir: Location of the Common files dir.
+                    Default is c:\\\\program files\\\\Common files
+                -   Netcache: Settings relating to offline folders;
+                    entries here are often put there by Group Policy in
+                    Computer Configuration\\\\Administrative
+                    Templates\\\\Network\\\\Offline Files folder.
+                    -   Enabled: (0 or 1) Disables or enables and
+                        restricts the user from changing the setting.
+                    -   NoCacheViewer: (0 or 1) Disables the \'Offline
+                        Files\' folder although it is still enabled
+                        through using the network drives offline.
+                    -   NoReminders: (0 or 1) Disables reminders to
+                        synchronise. Ensure this is set to 1 if you have
+                        it disabled it via editing the registry - it can
+                        cause problems otherwise.
+                    -   FormatDatabase: (1) If there is corruption in
+                        the offline files/CSC database and the Offline
+                        Files tab cannot be accesed, create this key.
+                        The actual value is ignored; upon rebooting
+                        Windows will clear the CSC database and del the
+                        key.
+                -   DateTime\\\\Servers: Time server for synchronising
+                    your time are set here, use sub-keys with the names
+                    or 1,2,3, etc to set preference.
         -   Explorer
             -   Desktop\\\\NameSpace: Listed here GUIDS for CLASS IDs
                 for icons/functions to appear on the Desktop. These are

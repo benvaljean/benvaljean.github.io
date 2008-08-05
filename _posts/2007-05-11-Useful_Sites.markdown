@@ -157,7 +157,8 @@ htaccess](http://www.cyberciti.biz/faq/howto-setup-apache-password-protect-direc
 -   [OWA Apache2 Reverse proxy](http://3cx.org/item/46)
 -   [Force the use of a particular hostname in preference of another
     that points to the same site
-    (Apache)](http://scope.dghartung.com/index.php/Rewrite_Rules_For_Apache)
+    (Apache)](http://www.dghartung.com/docs/index.php/Rewrite_Rules_For_Apache)
+    Canonical Hostnames
 
 ### Squid
 

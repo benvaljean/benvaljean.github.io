@@ -38,6 +38,8 @@ calculator](http://ccna.exampointers.com/subnet.phtml)\
 [Email address image/icon generator to create an anti-spam posting of
 your email
 address](http://services.nexodyne.com/email/index_custom.php)\
+[Get cacheability of a web
+page](http://www.ircache.net/cgi-bin/cacheability.py)
 
 ### IIS and SQL Server Related
 

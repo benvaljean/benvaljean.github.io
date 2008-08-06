@@ -180,7 +180,7 @@ See Also: [Squid Stuff](Squid_Stuff "wikilink")
     Account
     Control)](http://lifehacker.com/software/vista/windows-vista-tip--disable-annoying-need-your-permission-to-continue-prompts-230866.php)
 
-### Exchange
+### Microsoft Exchange
 
 -   [Offline Backup and Restoration Procedures for
     Exchange](http://support.microsoft.com/kb/296788)
@@ -204,6 +204,10 @@ See Also: [Squid Stuff](Squid_Stuff "wikilink")
     Successfully](http://windowsitpro.com/articles/articleid/8262/Tips_for_Clustering_Exchange_Successfully.html)
 -   [Exchange Best Practice
     analysers](http://technet.microsoft.com/en-gb/exchange/bb288481.aspx)
+-   [Setting size limits for messages in
+    Exchange](http://www.petri.co.il/setting_size_limits_for_messages.htm)
+    Details the 8 different places in System Manager that message limits
+    can be inposed.
 
 #### Outlook Web Access (OWA)
 

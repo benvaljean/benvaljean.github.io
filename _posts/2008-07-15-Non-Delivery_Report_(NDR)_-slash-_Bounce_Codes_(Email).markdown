@@ -113,4 +113,7 @@ title: Non-Delivery Report (NDR) / Bounce Codes (Email)
 | x.7.7                              message integrity failure
 |}
 
+==See Also==
+[http://support.microsoft.com/kb/284204 Delivery status notifications in Exchange Server and in Small Business Server (Microsoft Support)]
+
 [[Category:Exchange]]

@@ -3,7 +3,7 @@ layout: post
 title: Useful Sites
 ---
 
-Excellent site. It was pleasant to me.
+Great site. Good info
 <a href="http://seatemotion.free.fr/forum/member.php?u=46">cialis</a>
 \[URL=<http://seatemotion.free.fr/forum/member.php?u=46%5Dcialis%5B/URL%5D>
 <http://seatemotion.free.fr/forum/member.php?u=46>

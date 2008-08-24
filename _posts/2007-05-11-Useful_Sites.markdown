@@ -3,22 +3,16 @@ layout: post
 title: Useful Sites
 ---
 
-Great site. Good info
-<a href="http://seatemotion.free.fr/forum/member.php?u=46">cialis</a>
-\[URL=<http://seatemotion.free.fr/forum/member.php?u=46%5Dcialis%5B/URL%5D>
-<http://seatemotion.free.fr/forum/member.php?u=46>
-<a href="http://www.seborabsinth.co.uk/forums/member.php?u=14215">viagra</a>
-\[URL=<http://www.seborabsinth.co.uk/forums/member.php?u=14215%5Dviagra%5B/URL%5D>
-<http://www.seborabsinth.co.uk/forums/member.php?u=14215>
-<a href="http://xboxuser.de/forum/member.php?u=9701">cialis</a>
-\[URL=<http://xboxuser.de/forum/member.php?u=9701%5Dcialis%5B/URL%5D>
-<http://xboxuser.de/forum/member.php?u=9701>
-<a href="http://www.seborabsinth.co.uk/forums/member.php?u=14216">cialis</a>
-\[URL=<http://www.seborabsinth.co.uk/forums/member.php?u=14216%5Dcialis%5B/URL%5D>
-<http://www.seborabsinth.co.uk/forums/member.php?u=14216>
-<a href="http://finalfantasyrpg.pytalhost.de/upload/member.php?u=2490">cialis</a>
-\[URL=<http://finalfantasyrpg.pytalhost.de/upload/member.php?u=2490%5Dcialis%5B/URL%5D>
-<http://finalfantasyrpg.pytalhost.de/upload/member.php?u=2490>
-<a href="http://bezzeghoud.jaddiamar.free.fr/member.php?u=3167">cialis</a>
-\[URL=<http://bezzeghoud.jaddiamar.free.fr/member.php?u=3167%5Dcialis%5B/URL%5D>
-<http://bezzeghoud.jaddiamar.free.fr/member.php?u=3167>
+Beautiful site!
+<a href="http://www.pfv-berlin.de/forum/member.php?u=10925">viagra</a>
+\[URL=<http://www.pfv-berlin.de/forum/member.php?u=10925%5Dviagra%5B/URL%5D>
+<http://www.pfv-berlin.de/forum/member.php?u=10925>
+<a href="http://www.actiontrack.org.uk/actionchat/member.php?u=574">cialis</a>
+\[URL=<http://www.actiontrack.org.uk/actionchat/member.php?u=574%5Dcialis%5B/URL%5D>
+<http://www.actiontrack.org.uk/actionchat/member.php?u=574>
+<a href="http://finalfantasyrpg.pytalhost.de/upload/member.php?u=2492">cialis</a>
+\[URL=<http://finalfantasyrpg.pytalhost.de/upload/member.php?u=2492%5Dcialis%5B/URL%5D>
+<http://finalfantasyrpg.pytalhost.de/upload/member.php?u=2492>
+<a href="http://www.newbusinessportal.co.uk/forum/member.php?u=2742">viagra</a>
+\[URL=<http://www.newbusinessportal.co.uk/forum/member.php?u=2742%5Dviagra%5B/URL%5D>
+<http://www.newbusinessportal.co.uk/forum/member.php?u=2742>

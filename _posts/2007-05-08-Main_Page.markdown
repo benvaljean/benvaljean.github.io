@@ -27,7 +27,7 @@ title: Main Page
     folder](System_Volume_Information_folder_(Windows) "wikilink")
 -   [Rename Mapped or Network Drives
     Automatically](Rename_Mapped_or_Network_Drives_Automatically "wikilink")
--   [Visual Basic Scripting](Visual_Basic_Scripting "wikilink")
+-   [Visual Basic Scripts](Visual_Basic_Scripts "wikilink")
 -   [Windows Installer Cleanup
     Utility](http://support.microsoft.com/kb/290301/en-us) - use this to
     remove persistent install dialogs etc.

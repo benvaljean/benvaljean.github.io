@@ -5,8 +5,8 @@ title: Add Whitelist functionality to Intelligent Message Filter/IMF (Exchange 2
 
 ### Background
 
-\[Intelligent Message Filter
-<http://technet.microsoft.com/en-us/exchange/bb288484.aspx>\] is a
+[Intelligent Message
+Filter](http://technet.microsoft.com/en-us/exchange/bb288484.aspx) is a
 sever-side anti-apam technology bundled with [Microsoft
 Exchange](http://www.microsoft.com/exchange/evaluation/default.mspx).
 The version with Exchange 2007 is more robust however the version with
@@ -175,9 +175,9 @@ immediately gets delivered.
 
 ### See Also
 
-[Exchange 2007 Content FIlter: The Whitelist Is
-Here!](http://exchangepedia.com/blog/2007/01/exchange-2007-content-filter-whitelist.html)
-[MSExchange: IMF
-v2](http://www.msexchange.org/tutorials/Intelligent-Message-Filter-version-2-IMF-v2.html)
-[Caveats in
-IMF](http://blogs.mcbsys.com/mark/post/Exchange-IMF-and-Custom-Weight-Lists.aspx)
+-   [Exchange 2007 Content FIlter: The Whitelist Is
+    Here!](http://exchangepedia.com/blog/2007/01/exchange-2007-content-filter-whitelist.html)
+-   [MSExchange: IMF
+    v2](http://www.msexchange.org/tutorials/Intelligent-Message-Filter-version-2-IMF-v2.html)
+-   [Caveats in
+    IMF](http://blogs.mcbsys.com/mark/post/Exchange-IMF-and-Custom-Weight-Lists.aspx)

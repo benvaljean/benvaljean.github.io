@@ -1,0 +1,8 @@
+---
+layout: post 
+title: Fun Stuff
+---
+
+-   [Favourite Flash movies](Flash_Movies "wikilink")
+-   [Common Myths of the Eye](Myths_(Eye) "wikilink")
+-   [Common Myths of the Common cold](Myths_(Common_Cold) "wikilink")

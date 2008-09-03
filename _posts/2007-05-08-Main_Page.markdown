@@ -5,7 +5,14 @@ title: Main Page
 
 \_\_NOEDITSECTION\_\_![Roger rabbit](roger2.gif "fig:Roger rabbit")
 
-[Useful Sites](Useful_Sites "wikilink")
+<div style="font-size:140%">
+
+Rogerrabbit.net is a site mainly relating to Windows and Linux; spanning
+troubleshooting, guides and reference articles. There is also some fun
+stuff for a little brain relaxation and a list of [useful
+sites](Useful_Sites "wikilink").
+
+</div>
 
 [Favourite Flash movies](Flash_Movies "wikilink")
 

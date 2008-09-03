@@ -5,13 +5,9 @@ title: Sidebar
 
 -   Navigation
     -   mainpage\|mainpage
-
-<!-- -->
-
--   -   <http://www.rogerrabbit.net/wiki/Useful_Pages%7CUseful> Pages
+    -   Useful\_Sites\|Useful Sites
     -   recentchanges-url\|recentchanges
     -   randompage-url\|randompage
-
 -   Search engines
     -   <http://www.yahoo.com%7CYahoo.com>
     -   <http://www.google.com%7CGoogle.com>

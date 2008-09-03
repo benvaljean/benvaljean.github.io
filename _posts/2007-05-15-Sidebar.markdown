@@ -6,8 +6,6 @@ title: Sidebar
 -   Navigation
     -   mainpage\|mainpage
     -   Useful\_Sites\|Useful Sites
+    -   Fun\_Stuff\|Fun Stuff
     -   recentchanges-url\|recentchanges
     -   randompage-url\|randompage
--   Search engines
-    -   <http://www.yahoo.com%7CYahoo.com>
-    -   <http://www.google.com%7CGoogle.com>

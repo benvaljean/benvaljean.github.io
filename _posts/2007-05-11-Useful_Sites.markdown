@@ -161,6 +161,8 @@ htaccess](http://www.cyberciti.biz/faq/howto-setup-apache-password-protect-direc
     that points to the same site
     (Apache)](http://www.dghartung.com/docs/index.php/Rewrite_Rules_For_Apache)
     Canonical Hostnames
+-   [Apache mod\_rewrite
+    generator](http://www.generateit.net/mod-rewrite/)
 
 ### Squid
 

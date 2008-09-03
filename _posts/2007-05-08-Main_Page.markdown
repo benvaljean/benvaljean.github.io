@@ -74,6 +74,8 @@ title: Main Page
     (Exchange)](Allow_Out_of_Office_replies_to_external_addresses_(Exchange) "wikilink")
 -   [Non-Delivery Report (NDR) / Bounce Codes
     (Email)](Non-Delivery_Report_(NDR)_/_Bounce_Codes_(Email) "wikilink")
+-   [Add Whitelist functonality to Intelligent Message Filter/IMF
+    (Exchange)](Add_Whitelist_functonality_to_Intelligent_Message_Filter/IMF_(Exchange) "wikilink")
 
 ### Microsfot SQL Server
 

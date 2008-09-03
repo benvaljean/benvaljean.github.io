@@ -8,18 +8,11 @@ title: Main Page
 <div style="font-size:140%">
 
 Rogerrabbit.net is a site mainly relating to Windows and Linux; spanning
-troubleshooting, guides and reference articles. There is also some fun
-stuff for a little brain relaxation and a list of [useful
-sites](Useful_Sites "wikilink").
+troubleshooting, guides and reference articles. There is also some [fun
+stuff](Fun_Stuff "wikilink") for a little brain relaxation and a list of
+[useful sites](Useful_Sites "wikilink").
 
 </div>
-
-[Favourite Flash movies](Flash_Movies "wikilink")
-
-### Fact Stuff
-
--   [Common Myths of the Eyes](Myths_(Eye) "wikilink")
--   [Common Myths of the Common cold](Myths_(Common_Cold) "wikilink")
 
 ### Microsoft Windows
 

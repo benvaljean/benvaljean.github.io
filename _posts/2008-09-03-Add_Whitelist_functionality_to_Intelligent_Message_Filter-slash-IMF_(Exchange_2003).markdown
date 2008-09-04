@@ -181,3 +181,5 @@ immediately gets delivered.
     v2](http://www.msexchange.org/tutorials/Intelligent-Message-Filter-version-2-IMF-v2.html)
 -   [Caveats in
     IMF](http://blogs.mcbsys.com/mark/post/Exchange-IMF-and-Custom-Weight-Lists.aspx)
+-   [Exclude a particular recipient from anti-spam
+    filtering](http://support.microsoft.com/?id=912587)

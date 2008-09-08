@@ -212,6 +212,8 @@ See Also: [Squid Stuff](Squid_Stuff "wikilink")
     Exchange](http://www.petri.co.il/setting_size_limits_for_messages.htm)
     Details the 8 different places in System Manager that message limits
     can be inposed.
+-   [HOW TO: Reconnect a mailbox to another user on
+    Exchange](http://exchangepedia.com/blog/2006/03/how-to-reconnect-mailbox-to-another.html)
 
 #### Outlook Web Access (OWA)
 

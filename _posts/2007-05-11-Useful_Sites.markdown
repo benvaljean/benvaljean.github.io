@@ -186,6 +186,8 @@ See Also: [Squid Stuff](Squid_Stuff "wikilink")
 
 ### Microsoft Exchange
 
+-   [Mailbox/Brick level backups using
+    Exmerge](http://www.petri.co.il/brick_level_backup_of_mailboxes_by_using_exmerge.htm)
 -   [Offline Backup and Restoration Procedures for
     Exchange](http://support.microsoft.com/kb/296788)
 -   [Simpler Web: Exchange/DNS

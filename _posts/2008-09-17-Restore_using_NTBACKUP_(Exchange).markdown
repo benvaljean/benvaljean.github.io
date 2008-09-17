@@ -38,8 +38,8 @@ pack update as the server where the database was originally hosted.
     retried as it is vital to restore the Exchange DB to the point just
     before it failed. - Retry the restore in the first instance and if
     an error occurs that prevents a decent restore.env file from being
-    created or none at all skip to: When Log file replay/hard recovery
-    is not available.
+    created or none at all see When Log file replay/hard recovery is not
+    available.
 6.  Copy all the log files available as they are without renaming the
     files to the same directory as the IS database files.
 7.  Cd to the eseutil folder, c:\\\\program files\\\\exchsvr\\\\bin by
@@ -60,7 +60,7 @@ pack update as the server where the database was originally hosted.
     account before it can be opened. Right-click the mailbox and choose
     reconnect. If the following error appears: \"The operation cannot be
     performed because this mailbox was already connected to another user
-    ID no: c1034ad6\" jump to Cannot reconnect mailboxes.
+    ID no: c1034ad6\" see Cannot reconnect mailboxes.
 10. Once the mailbox is reconnected it can be opened as usual.
 
 ### When Log file replay/hard recovery is not available

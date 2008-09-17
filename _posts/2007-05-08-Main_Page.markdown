@@ -78,6 +78,8 @@ stuff](Fun_Stuff "wikilink") for a little brain relaxation and a list of
     Filter/IMF](Add_Whitelist_functionality_to_Intelligent_Message_Filter/IMF_(Exchange) "wikilink")
 -   [Error -514 JET errBadLogVersion when using
     Eseutil](Error_-514_JET_errBadLogVersion_when_using_Eseutil_(Exchange) "wikilink")
+-   [Restore using NTBACKUP
+    (Exchange)‎](Restore_using_NTBACKUP_(Exchange)‎ "wikilink")
 
 ### Microsfot SQL Server
 

@@ -195,8 +195,9 @@ See Also: [Squid Stuff](Squid_Stuff "wikilink")
 -   [How to recover the information store on Exchange 2000 Server or
     Exchange Server 2003 in a single
     site](http://support.microsoft.com/kb/313184/)
--   [Changing default email address in
-    Exchange](http://support.microsoft.com/default.aspx?kbid=285136)
+-   [Changing default email address for new users in Exchange using
+    recipient
+    policies](http://support.microsoft.com/default.aspx?kbid=285136)
 -   [How to configure RPC over HTTP in Exchange Server
     2003](http://support.microsoft.com/kb/833401)
 -   [Computer Performance: Exchange
@@ -214,8 +215,26 @@ See Also: [Squid Stuff](Squid_Stuff "wikilink")
     Exchange](http://www.petri.co.il/setting_size_limits_for_messages.htm)
     Details the 8 different places in System Manager that message limits
     can be inposed.
+
+#### DR/Backup/Restore
+
 -   [HOW TO: Reconnect a mailbox to another user on
     Exchange](http://exchangepedia.com/blog/2006/03/how-to-reconnect-mailbox-to-another.html)
+-   [Error message when you try to remove an orphaned mailbox after a
+    failed move operation in Exchange 2003: \"The Operation cannot be
+    performed because this mailbox was already reconnected to an
+    existing user\"](http://support.microsoft.com/?kbid=930363) Also
+    applies to the same error when attepmting to reconnect mailboxes
+    after a restore
+-   [Using Recovery Storage Groups with
+    NTBACKUP](http://forums.msexchange.org/fb.aspx?m=1800464336)
+-   [Exchange/Q\_23319215.html Exchange 2007 Restore from NTBackup to
+    RSG](http://www.experts-exchange.com/Software/Server_Software/Email_Servers/)
+-   [How Recovery Storage Groups
+    Work](http://www.msexchange.org/tutorials/How-Recovery-Storage-Groups-Work.html)
+
+See also [Restore using NTBACKUP
+(Exchange)](Restore_using_NTBACKUP_(Exchange) "wikilink")
 
 #### Outlook Web Access (OWA)
 

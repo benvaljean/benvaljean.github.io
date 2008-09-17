@@ -17,9 +17,11 @@ rebuilt, and Exchange installed.
     server whose database is being restored - even if it includes the
     hostname of the previous server. NTBackup identifies which store to
     restore to based on this string.
-2.  From Exchange System Manager, open properties of the store(s) where
-    a restore is being attempted and tick \'this database can be
-    overwritten by a restore.\'
+2.  From
+    \[<http://technet.microsoft.com/en-us/library/aa995785(EXCHG.65>).aspx
+    Exchange System Manager\], open properties of the information
+    store(s) where a restore is being attempted and tick \'this database
+    can be overwritten by a restore.\'
 3.  In NTBackup, catalogue the BKF file and highlight Logs nad mailbox
     store as a minimum. Only restore the public folder store if the
     previous server is dead or will never be booted whilst connected to
@@ -47,8 +49,18 @@ rebuilt, and Exchange installed.
 8.  The process normally takes minutes and if the readout states that
     there are no errors go on to the next step; else look at When Log
     file replay/hard recovery is not available.
+9.  From Exchange System Manager go to the mailbox store and the
+    mailboxes should all be seen. Right click a blank area and choose
+    Run Clean-up agent. All the mailboxes should now have a red-cross on
+    them as they are currently not associated/connected to a user
+    account in AD. An Exchange mailbox must be connected to a user
+    account before it can be opened. Right-click the mailbox and choose
+    reconnect. If the following error appears: \"The operation cannot be
+    performed because this mailbox was already connected to another user
+    ID no: c1034ad6\" jump to Cannot reconnect mailboxes.
+10. Once the mailbox is reconnected it can be opened as usual.
 
-#### When Log file replay/hard recovery is not available
+### When Log file replay/hard recovery is not available
 
 Depending on how log file replay has failed the simplest possible method
 to allow it to work is to truncate the logs:
@@ -112,3 +124,30 @@ After this you must run **eseutil /d** to defrag the DB followed by
 salvage only can you skip these extra steps. Skipping them means that
 you may salvage less data than if you completed them, but it can also
 mean saving several hours of recovery time.
+
+### Cannot reconnect mailboxes
+
+When reconnecting mailboxes from a recently resrtored database the
+orphaned mailbox can still be associated with the original user account
+eventhough it appears to be disconnected. To resolve this: Use [ADSI
+Edit](http://www.computerperformance.co.uk/w2k3/utilities/adsi_edit.htm)
+to change the `legacyExchangeDN` attribute for the active user for the
+mailbox you wish to reconnect as System manager look for users with this
+attribute before reconnecting. When disconnecting a mailbox from a user
+this attribute would normally cleared and would not be an issue. I would
+recommend adding a suffix to the end of the attribute rather than
+removing it. Normally, changing this attribute would cause email for the
+user to stop working until reverted.
+
+If this fails to work remove the Exchange attributes for the user: Right
+click the user in AD, choose Exchange tasks followed by Remove Exchange
+attributes. The mailbox can now be reconnected.
+
+#### See Also
+
+-   [ADSI
+    FAQ](http://itknowledgeexchange.techtarget.com/itanswers/tag/adsiedit/)
+-   [ADSI Edit
+    guide](http://www.computerperformance.co.uk/w2k3/utilities/adsi_edit.htm)
+-   [AD Explorer: Alternative to ADSI
+    edit](http://exchangepedia.com/blog/2007/11/ad-explorer-better-adsiedit-than.html)

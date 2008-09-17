@@ -22,11 +22,11 @@ rebuilt, and Exchange installed.
     Exchange System Manager\], open properties of the information
     store(s) where a restore is being attempted and tick \'this database
     can be overwritten by a restore.\'
-3.  In NTBackup, catalogue the BKF file and highlight Logs nad mailbox
+3.  In NTBackup, catalogue the BKF file and highlight Logs and mailbox
     store as a minimum. Only restore the public folder store if the
     previous server is dead or will never be booted whilst connected to
-    the same forest/doamain; otherwise public folder and GAL replication
-    issues among others are likley to occur. Choose an empty temporary
+    the same forest/domain; otherwise public folder and GAL replication
+    issues among others are likely to occur. Choose an empty temporary
     directory to work from and remember it.
 4.  Choose the appropriate destination server but do not choose log file
     replay even if this is the last backup set - it is better to do it
@@ -80,11 +80,11 @@ can be googled that when applied could allow a log file replay to
 partially work. **eseutil /k <log file>** as above but checks headers
 only
 
-##### Reapairing log files
+##### Repairing log files
 
-Log file reapir should only be attempted if all of the above has been
+Log file repair should only be attempted if all of the above has been
 tried. If a repair of the log files is attempted it can make the
-scanario worse. - To save having to do a re-restore perform an offline
+scenario worse. - To save having to do a re-restore perform an offline
 backup - copy the files elsewhere. Never try this on a live server
 without performing an offline backup. If existing transaction log files
 are not found by Eseutil when it tries to run recovery or they are
@@ -99,13 +99,13 @@ recovery troubleshooting.
 
 Type: **eseutil /r E00 /i**
 
-If log file reapir states it was a sucess this does not necessarily mean
-there was a sucess. Recovery succeeds whenever all available transaction
-log data that is currently available has been applied to the database
-files. Recovery success says nothing about whether the available data
-was sufficient to restore the databases to consistency.
+If log file reapir states it was a success this does not necessarily
+mean there was a success. Recovery succeeds whenever all available
+transaction log data that is currently available has been applied to the
+database files. Recovery success says nothing about whether the
+available data was sufficient to restore the databases to consistency.
 
-##### Reapiring the database
+##### Repairing the database
 
 The last attempt to enable log file replay to work is to perform a /p on
 the database - repair mode. DBs who have a /p applied should never be
@@ -127,9 +127,9 @@ mean saving several hours of recovery time.
 
 ### Cannot reconnect mailboxes
 
-When reconnecting mailboxes from a recently resrtored database the
+When reconnecting mailboxes from a recently restored database the
 orphaned mailbox can still be associated with the original user account
-eventhough it appears to be disconnected. To resolve this: Use [ADSI
+even though it appears to be disconnected. To resolve this: Use [ADSI
 Edit](http://www.computerperformance.co.uk/w2k3/utilities/adsi_edit.htm)
 to change the `legacyExchangeDN` attribute for the active user for the
 mailbox you wish to reconnect as System manager look for users with this

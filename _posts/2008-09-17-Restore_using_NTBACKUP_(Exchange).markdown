@@ -9,7 +9,8 @@ This page details the process of restoring a Microsoft Exchange database
 using NTBACKUP and replaying the log files back into the database whilst
 overcoming some common errors. The guide below already presumes the read
 has some knowledge of Exchange and that the replacement server has been
-rebuilt, and Exchange installed.
+rebuilt, and Exchange installed. The server must have the same service
+pack update as the server where the database was originally hosted.
 
 ### The process
 
@@ -45,7 +46,9 @@ rebuilt, and Exchange installed.
     default; and type **eseutil /cc \"path to temporary dir containing
     restore.env\"** This replays the transactions logs back into the
     database without checking the checkpoint file as it is likely to
-    have been lost anyhow.
+    have been lost anyhow. If you receive a JET errBadLogVersion error
+    see: [Error -514 JET errBadLogVersion when using
+    Eseutil](Error_-514_JET_errBadLogVersion_when_using_Eseutil_(Exchange) "wikilink")
 8.  The process normally takes minutes and if the readout states that
     there are no errors go on to the next step; else look at When Log
     file replay/hard recovery is not available.

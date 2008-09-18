@@ -27,4 +27,6 @@ connection each time.
     right click the \'Microsoft Exchange POP3\' service and choose
     restart.
 3.  Eliminate firewalling or other network issues as a possibility. try
-    connecting to it locally. From the server itself in cmd type <code>
+    connecting to it locally. From the server itself in cmd type
+    `telnet 127.0.0.1 110` where 100 is the port that the service is
+    listening to.

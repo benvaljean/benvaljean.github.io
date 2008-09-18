@@ -48,3 +48,12 @@ connection each time.
     selected this can cause the connection to fail where the connectio
     is started but no server banner/header (beginning +OK) is ever
     displayed.
+
+### See Also
+
+-   [How to enable the POP3 service in Exchange
+    Server](http://msmvps.com/blogs/andersonpatricio/pages/AP0035.aspx)
+-   [Using Telnet to connect to Exchange 2003 POP3
+    mailboxes](http://www.msexchange.org/tutorials/Telnet-Exchange2003-POP3-SMTP-Troubleshooting.html)
+-   \[<http://technet.microsoft.com/en-us/library/cc540466(EXCHG.80>).aspx
+    How to Connect to an Exchange Mailbox by Using POP3 or IMAP4\]

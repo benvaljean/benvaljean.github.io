@@ -12,8 +12,8 @@ protocol and offers solutions.
 -   Unable to connection to POP3 - connection refused
 -   A connection is started except it hangs with no server banner/header
     (beginning with +OK) is shown.
--   An incorrect password error is shoen despite is being known that the
-    password is correct.
+-   An incorrect password error is shown (-ERR Unknown user name or bad
+    password) despite is being known that the password is correct.
 
 ### Resolution
 
@@ -48,6 +48,12 @@ connection each time.
     selected this can cause the connection to fail where the connectio
     is started but no server banner/header (beginning +OK) is ever
     displayed.
+7.  Depending on the configuration of your environment it may be
+    required to use the extended syntax for the username you are using.
+    The extended syntax is `domain\\username\\alias`. The mailbox alias
+    is by default it by default the same as the username and can be
+    checked on the Exchange General tab in a Exchange-enabled Active
+    Directroy Users and Compters.
 
 ### See Also
 
@@ -57,3 +63,5 @@ connection each time.
     mailboxes](http://www.msexchange.org/tutorials/Telnet-Exchange2003-POP3-SMTP-Troubleshooting.html)
 -   \[<http://technet.microsoft.com/en-us/library/cc540466(EXCHG.80>).aspx
     How to Connect to an Exchange Mailbox by Using POP3 or IMAP4\]
+-   [POP3 Access error after SP2
+    Installation](http://www.examnotes.net/article44702.html)

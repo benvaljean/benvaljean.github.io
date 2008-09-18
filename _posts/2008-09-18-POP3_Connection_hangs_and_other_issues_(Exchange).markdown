@@ -10,7 +10,7 @@ protocol and offers solutions.
 ### Symptoms
 
 -   Unable to connection to POP3 - connection refused
--   A connection is started except it hangs with no server header
+-   A connection is started except it hangs with no server banner/header
     (beginning with +OK) is shown.
 -   An incorrect password error is shoen despite is being known that the
     password is correct.
@@ -30,9 +30,21 @@ connection each time.
     connecting to it locally. From the server itself in cmd type
     `telnet 127.0.0.1 110` where 100 is the port that the service is
     listening to.
-4.  Ensure that no other applications are listening to the port that
-    POP3 is listening to: Open [Exchange System
+4.  Check that the POP3 virtual server is listening to the correct port:
+    Open [Exchange System
     Manager](http://searchexchange.techtarget.com/tip/1,289483,sid43_gci1115770,00.html),
     navigate to the server \> Protocols \> POP3 \> Default POP3 Virtual
     Server and choose properties. Click on the General tab followed by
-    Advanced
+    Advanced. Ensure that the server is listening to the default port -
+    110 - or the port where a connection is being attempted.
+5.  Ensure that no other applications are listening to the port that
+    POP3 is listening to: From cmd type `netstat -abn` to ascertain
+    which applications are listening to which ports. If any apps are
+    listening to the same port this would cause the connection to fail
+    of course.
+6.  Ensure no connection control parameters have been set: From Default
+    POP3 Virtual Server properties click on the Access tab followed by
+    Connection. If the list is empty and \'Only the list below\' is
+    selected this can cause the connection to fail where the connectio
+    is started but no server banner/header (beginning +OK) is ever
+    displayed.

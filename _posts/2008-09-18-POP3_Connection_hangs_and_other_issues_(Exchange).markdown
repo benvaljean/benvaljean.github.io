@@ -21,8 +21,8 @@ Attempt the following fixes in order, whilst re-attempting the
 connection each time.
 
 1.  Ensure that the virtual server/service is running. From cmd type
-    `services.msc` and select the \'Microsoft Exchange POP3\' serice and
-    ensure that it is started and in particular not disabled.
+    `services.msc` and select the \'Microsoft Exchange POP3\' service
+    and ensure that it is started and in particular not disabled.
 2.  Restart the POP3 service. From the same window as details above
     right click the \'Microsoft Exchange POP3\' service and choose
     restart.
@@ -35,7 +35,7 @@ connection each time.
     The extended syntax is `domain\\username\\alias`. The mailbox alias
     is by default it by default the same as the username and can be
     checked on the Exchange General tab in a Exchange-enabled Active
-    Directroy Users and Compters.
+    Directory Users and Computers.
 5.  Check that the POP3 virtual server is listening to the correct port:
     Open [Exchange System
     Manager](http://searchexchange.techtarget.com/tip/1,289483,sid43_gci1115770,00.html),
@@ -51,7 +51,7 @@ connection each time.
 7.  Ensure no connection control parameters have been set: From Default
     POP3 Virtual Server properties click on the Access tab followed by
     Connection. If the list is empty and \'Only the list below\' is
-    selected this can cause the connection to fail where the connectio
+    selected this can cause the connection to fail where the connection
     is started but no server banner/header (beginning +OK) is ever
     displayed.
 

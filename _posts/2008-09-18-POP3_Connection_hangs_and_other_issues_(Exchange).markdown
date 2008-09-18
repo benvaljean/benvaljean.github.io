@@ -30,3 +30,9 @@ connection each time.
     connecting to it locally. From the server itself in cmd type
     `telnet 127.0.0.1 110` where 100 is the port that the service is
     listening to.
+4.  Ensure that no other applications are listening to the port that
+    POP3 is listening to: Open [Exchange System
+    Manager](http://searchexchange.techtarget.com/tip/1,289483,sid43_gci1115770,00.html),
+    navigate to the server \> Protocols \> POP3 \> Default POP3 Virtual
+    Server and choose properties. Click on the General tab followed by
+    Advanced

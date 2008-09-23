@@ -28,7 +28,7 @@ connection each time.
     restart.
 3.  Eliminate firewalling or other network issues as a possibility. try
     connecting to it locally. From the server itself in cmd type
-    `telnet 127.0.0.1 110` where 100 is the port that the service is
+    `telnet 127.0.0.1 110` where 110 is the port that the service is
     listening to.
 4.  Depending on the configuration of your environment it may be
     required to use the extended syntax for the username you are using.

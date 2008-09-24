@@ -176,6 +176,14 @@ See Also: [Squid Stuff](Squid_Stuff "wikilink")
     Offline](http://www.intermedia.net/support/kb/default.asp?id=746)
     Also improves search speed
 
+### MediaWiki
+
+[Wiki Stuff](Wiki_Stuff "wikilink")\
+[Copy & Paste Excel-to-Wiki
+Converter](http://people.fas.harvard.edu/~sdouglas/table.cgi) Also works
+in any tab that generates tabs between the cells in copied text - such
+as Opera
+
 ### Vista
 
 -   [Disable Security Center Popup Notifications in Windows

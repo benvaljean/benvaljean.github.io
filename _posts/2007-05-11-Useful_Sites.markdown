@@ -277,6 +277,13 @@ Hide files inside JPG/BMP etc
 [Internet Explorer URL Action and Advanced Security Settings in Group
 Policy](http://technet2.microsoft.com/windowsserver/en/library/c07587ec-4a60-4bca-8508-29a4296b72121033.mspx?mfr=true)
 
+### Cars
+
+-   [Car parking
+    spaces](http://www.aparkingspace.com/find_a_parking_space.asp)
+-   [Toyota Nation](http://www.toyotanation.com)
+-   [Toyota Ownner Club](http://toyotaownersclub.com/forums)
+
 ### Not IT
 
 [Escape!](http://members.iinet.net.au/~pontipak/redsquare.html)

@@ -42,7 +42,7 @@ time and a log entry
       objLogFile.Close
     Next
 
-### Add Whitelist functonality to Intelligent Message Filter/IMF (Exchange)
+### Add Whitelist functionality to Intelligent Message Filter/IMF (Exchange)
 
-See [Add Whitelist functonality to Intelligent Message Filter/IMF
-(Exchange)](Add_Whitelist_functonality_to_Intelligent_Message_Filter/IMF_(Exchange) "wikilink")
+See [Add Whitelist functionality to Intelligent Message Filter/IMF
+(Exchange)](Add_Whitelist_functionality_to_Intelligent_Message_Filter/IMF_(Exchange) "wikilink")

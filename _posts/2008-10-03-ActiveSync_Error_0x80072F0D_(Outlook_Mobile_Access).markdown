@@ -7,8 +7,9 @@ When attempting to syncronise all or part of a mailbox in ActiveSync on
 a Windows Mobile based phone through the use of a wireless connection
 the following error can occur:
 
-**The security certificate on the server is invalid. Support code
-0x80072F0D**
+**The security certificate on the server is invalid. Contact you
+exchange server administrator or ISP to install a valid certificate on
+the server. Support code 0x80072F0D**
 
 Contrary to the error message in almost all cases this refers to an
 issue at the client/mobile phone end of the session. All Activesync

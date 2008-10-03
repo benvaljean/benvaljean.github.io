@@ -50,4 +50,8 @@ ActiveSync will now no longer result in this error.
 \     [How to install root certificates on a Windows Mobile-based device
 (Microsoft)](http://support.microsoft.com/kb/915840/en-us)\
 \     [0x80072F0D in Mobile Active Sync Device (Experts
-Exchange)](http://www.experts-exchange.com/Networking/Email_Groupware/Exchange_Server/Q_21905403.html)
+Exchange)](http://www.experts-exchange.com/Networking/Email_Groupware/Exchange_Server/Q_21905403.html)\
+[ActiveSync Errors
+Guide](http://www.shijaz.com/exchange/activesync_errors.htm)
+
+[Category:Windows](Category:Windows "wikilink")

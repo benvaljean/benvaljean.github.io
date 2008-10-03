@@ -52,6 +52,8 @@ stuff](Fun_Stuff "wikilink") for a little brain relaxation and a list of
 
 -   [ActiveSync Error 0x85010005 (Outlook Mobile
     Access)](ActiveSync_Error_0x85010005_(Outlook_Mobile_Access) "wikilink")
+-   [ActiveSync Error 0x80072F0D (Outlook Mobile
+    Access)](ActiveSync_Error_0x80072F0D_(Outlook_Mobile_Access) "wikilink")
 -   [Disable Attachment Blocking
     (Outlook)](Disable_Attachment_Blocking_(Outlook) "wikilink")
 -   [Always add BCC (Outlook)](Always_add_BCC_(Outlook) "wikilink")

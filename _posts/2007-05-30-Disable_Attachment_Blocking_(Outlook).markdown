@@ -16,7 +16,8 @@ Locate the following [registry](registry "wikilink") key, where
 `    [HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\`<version>`\\Outlook\\Security]`
 
 Create a new string key called \"Level1Remove\" and add the extnsion(s)
-you wish to allow; seperating them with commas.
+you wish to allow; seperating them with commas. Outlook will need to be
+restarted for the changes made to take effect.
 
 ### See Also
 

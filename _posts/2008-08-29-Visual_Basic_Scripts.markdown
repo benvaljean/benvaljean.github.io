@@ -5,10 +5,10 @@ title: Visual Basic Scripts
 
 ### What is Visual Basic?
 
-VB is a third-generation programming language based on BASIC; written by
-Microsoft. Its applications inculde scripting for Microsoft Office with
-the ability to write significant apps that use Excel and Access. It can
-also be used by itself with the [Windows Scripting
+\<! test\> VB is a third-generation programming language based on BASIC;
+written by Microsoft. Its applications inculde scripting for Microsoft
+Office with the ability to write significant apps that use Excel and
+Access. It can also be used by itself with the [Windows Scripting
 Host](http://www.pcsupportadvisor.com/Windows_scripting_host_page1.htm)
 bulit into Windows. VB scripts have the `.vbs` extension and file
 assocations are setup by default to run the script when double-clicked

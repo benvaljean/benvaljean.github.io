@@ -140,6 +140,14 @@ salvage only can you skip these extra steps. Skipping them means that
 you may salvage less data than if you completed them, but it can also
 mean saving several hours of recovery time.
 
+#### See Also
+
+-   \[<http://technet.microsoft.com/en-us/library/bb218118(EXCHG.80>).aspx
+    Database engine is unable to replay log file sequence due to fatal
+    error\]
+-   [Eseutil
+    guide](http://www.computerperformance.co.uk/exchange2007/exchange2007_eseutil.htm)
+
 ### Cannot reconnect mailboxes
 
 When reconnecting mailboxes from a recently restored database the

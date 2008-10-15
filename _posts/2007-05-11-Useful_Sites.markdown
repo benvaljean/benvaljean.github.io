@@ -39,7 +39,9 @@ calculator](http://ccna.exampointers.com/subnet.phtml)\
 your email
 address](http://services.nexodyne.com/email/index_custom.php)\
 [Get cacheability of a web
-page](http://www.ircache.net/cgi-bin/cacheability.py)
+page](http://www.ircache.net/cgi-bin/cacheability.py)\
+[ITIdiots.com](http://www.itidiots.com/content/category/7/23/67/) Great
+site
 
 ### IIS and SQL Server Related
 

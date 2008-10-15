@@ -63,6 +63,18 @@ pack update as the server where the database was originally hosted.
     ID no: c1034ad6\" see Cannot reconnect mailboxes.
 10. Once the mailbox is reconnected it can be opened as usual.
 
+#### See Also
+
+-   [Exchange 2003 Backup and Restore with
+    NTBACKUP](http://www.msexchange.org/tutorials/Exchange-2003-Backup-Restore-NTBACKUP.html)
+-   [Exchange 2007 restore using
+    NTBackup](http://davehope.co.uk/Blog/exchange-2007-restore-ntbackup/)
+-   [NTBACKUP caveat for Exchange and system state
+    backups](http://searchexchange.techtarget.com/tip/0,289483,sid43_gci1138776,00.html?track=fg_ntbackup)
+-   [Backup Operation Fails When You Back Up Exchange Server 2003
+    Databases and System State Information at the Same
+    Time](http://support.microsoft.com/default.aspx?scid=kb;en-us;820272)
+
 ### When Log file replay/hard recovery is not available
 
 Depending on how log file replay has failed the simplest possible method

@@ -225,6 +225,8 @@ as Opera
     Exchange](http://www.petri.co.il/setting_size_limits_for_messages.htm)
     Details the 8 different places in System Manager that message limits
     can be inposed.
+-   [Setting up email disclaimers and signatures in Exchange
+    Server](http://searchexchange.techtarget.com/generic/0,295582,sid43_gci1322354,00.html)
 
 #### DR/Backup/Restore
 

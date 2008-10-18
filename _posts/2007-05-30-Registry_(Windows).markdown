@@ -244,6 +244,12 @@ disables the feature and 1 enables it.
                     and set this key accordingly and you will no longer
                     have to insert your Windows CD when Windows requires
                     files from it.
+                -   Policies\\\\Ratings
+                    -   Key: This is a hash of the password for the
+                        [Internet Explorer Content
+                        Advisor](http://www.microsoft.com/technet/prodtechnol/ie/reskit/6/part2/c05ie6rk.mspx?mfr=true);
+                        if this needs to be reset delete this to set a
+                        blank password.
                 -   Setup
                     -   Sourcepath: (string) Some apps use the key here
                         instead of the one detailed above; set both to

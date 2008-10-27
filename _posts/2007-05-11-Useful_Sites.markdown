@@ -136,6 +136,8 @@ htaccess](http://www.cyberciti.biz/faq/howto-setup-apache-password-protect-direc
     DCC](http://www.flakshack.com/anti-spam/old-index.html)
 -   [Vi Tutorial](http://acs.ucsd.edu/info/vi_tutorial.shtml) Text
     editor tutorial
+-   [Debian + exim4 + spamassassin + f-prot
+    HOWTO](http://www.clues.ltd.uk/howto/debian-sa-fprot-HOWTO.html)
 
 #### NFS
 
@@ -229,8 +231,6 @@ as Opera
     Server](http://searchexchange.techtarget.com/generic/0,295582,sid43_gci1322354,00.html)
 -   [Bounce/Non Delivery Report when sending meeting
     request](http://support.microsoft.com/kb/312433)
--   [Debian + exim4 + spamassassin + f-prot
-    HOWTO](http://www.clues.ltd.uk/howto/debian-sa-fprot-HOWTO.html)
 
 #### DR/Backup/Restore
 

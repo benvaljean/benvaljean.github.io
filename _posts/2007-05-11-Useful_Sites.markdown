@@ -227,6 +227,10 @@ as Opera
     can be inposed.
 -   [Setting up email disclaimers and signatures in Exchange
     Server](http://searchexchange.techtarget.com/generic/0,295582,sid43_gci1322354,00.html)
+-   [Bounce/Non Delivery Report when sending meeting
+    request](http://support.microsoft.com/kb/312433)
+-   [Debian + exim4 + spamassassin + f-prot
+    HOWTO](http://www.clues.ltd.uk/howto/debian-sa-fprot-HOWTO.html)
 
 #### DR/Backup/Restore
 
@@ -258,8 +262,6 @@ See also [Restore using NTBACKUP
     Also has details on the OWA virtual directory folder structure
 -   [OWA not displaying
     correctly](http://techrepublic.com.com/5208-6230-0.html?forumID=101&threadID=227569&messageID=2268353)
--   [Bounce/Non Delivery Report when sending meeting
-    request](http://support.microsoft.com/kb/312433)
 
 ### Downloads
 

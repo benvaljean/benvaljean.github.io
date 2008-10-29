@@ -7,10 +7,10 @@ title: Main Page
 
 <div style="font-size:140%">
 
-Rogerrabbit.net is a site mainly relating to Windows and Linux; spanning
-troubleshooting, guides and reference articles. There is also some [fun
-stuff](Fun_Stuff "wikilink") for a little brain relaxation and a list of
-[useful sites](Useful_Sites "wikilink").
+Rogerrabbit.net is a site primarily relating to Windows and Linux;
+spanning troubleshooting, guides and reference articles. There is also
+some [fun stuff](Fun_Stuff "wikilink") for a little brain relaxation and
+a list of [useful sites](Useful_Sites "wikilink").
 
 </div>
 

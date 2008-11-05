@@ -232,6 +232,9 @@ as Opera
 -   [Bounce/Non Delivery Report when sending meeting
     request](http://support.microsoft.com/kb/312433)
 -   [Removing Exchange](http://support.microsoft.com/kb/833396/)
+-   [Removing 1st Exchange
+    Server](http://support.microsoft.com/default.aspx?kbid=822931) (pub
+    folders, sched+)
 
 #### DR/Backup/Restore
 

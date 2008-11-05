@@ -235,6 +235,8 @@ as Opera
 -   [Removing 1st Exchange
     Server](http://support.microsoft.com/default.aspx?kbid=822931) (pub
     folders, sched+)
+-   [Change SMTP
+    Banner](http://www.petri.co.il/change_the_smtp_banner.htm)
 
 #### DR/Backup/Restore
 

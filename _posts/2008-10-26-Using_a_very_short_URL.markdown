@@ -3,4 +3,4 @@ layout: post
 title: Using a very short URL
 ---
 
-Protected to avoid spam
+1.  REDIRECT [Main Page](Main_Page "wikilink")

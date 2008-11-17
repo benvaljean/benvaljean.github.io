@@ -59,6 +59,10 @@ disables the feature and 1 enables it.
             -   MenuShowDelay: (delay in ms 0-999) The delay between
                 clicking the menu/right clicking and the menu appearing,
                 it is useful to set this to 0.
+            -   CoolSwitchColumns: Configure number of columns in the
+                Alt-Tab Task Switcher
+            -   CoolSwitchRows: Configure number of rows in the Alt-Tab
+                Task Switcher
             -   WindowMetrics
                 -   MinAnimate: (string value: 0 or 1) Allows you to
                     disable the title-bar animation when you minimise a

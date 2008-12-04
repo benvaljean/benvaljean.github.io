@@ -89,6 +89,8 @@ a list of [useful sites](Useful_Sites "wikilink").
 
 -   [SQL Log shipping](SQL_Log_shipping_(Database_Server) "wikilink")
 -   [SQL Clustering](SQL_Clustering_(Database_Server) "wikilink")
+-   [Obtain Service pack
+    details](Obtain_Service_pack_details_(SQL_Server) "wikilink")
 
 ### MySQL
 

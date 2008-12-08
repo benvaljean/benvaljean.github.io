@@ -63,6 +63,8 @@ Server)](SQL_Clustering_(Database_Server) "wikilink")
     Server](http://searchsqlserver.techtarget.com/tip/0,289483,sid87_gci1232340,00.html)
 -   [Database Mirroring in SQL Server
     2005](http://www.microsoft.com/technet/prodtechnol/sql/2005/dbmirror.mspx)
+-   [SQL Mirroring with more than one
+    instance](https://forums.microsoft.com/TechNet/ShowPost.aspx?PostID=2338504&SiteID=17)
 
 #### IIS Rewrite tools
 

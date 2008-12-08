@@ -3,9 +3,6 @@ layout: post
 title: SQL Clustering (Database Server)
 ---
 
-**This is very much a WIP page, some bits are just notes and probably
-will not make sense to anyone**
-
 A cluster is a two-or-greater-node failover solution, using a
 shared-nothing model (i.e., each server owns and manages its own
 devices). A cluster isn't a fault-tolerant solution but rather a

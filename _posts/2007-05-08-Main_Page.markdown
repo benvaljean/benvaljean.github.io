@@ -91,6 +91,8 @@ a list of [useful sites](Useful_Sites "wikilink").
 -   [SQL Clustering](SQL_Clustering_(Database_Server) "wikilink")
 -   [Obtain Service pack
     details](Obtain_Service_pack_details_(SQL_Server) "wikilink")
+-   [High availability IIS & SQL using NLB &
+    Clustering](High_availability_IIS_&_SQL_using_NLB_&_Clustering "wikilink")
 
 ### MySQL
 

@@ -237,6 +237,8 @@ as Opera
     folders, sched+)
 -   [Change SMTP
     Banner](http://www.petri.co.il/change_the_smtp_banner.htm)
+-   [Moving mailbox
+    considerations](http://support.microsoft.com/kb/328810/)
 
 #### DR/Backup/Restore
 

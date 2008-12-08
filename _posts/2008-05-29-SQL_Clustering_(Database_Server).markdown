@@ -6,7 +6,7 @@ title: SQL Clustering (Database Server)
 **This is very much a WIP page, some bits are just notes and probably
 will not make sense to anyone**
 
-A Windows NT 4.0 cluster is a two-node failover solution, using a
+A cluster is a two-or-greater-node failover solution, using a
 shared-nothing model (i.e., each server owns and manages its own
 devices). A cluster isn't a fault-tolerant solution but rather a
 high-availability solution; that is, it minimizes downtime instead of
@@ -20,11 +20,10 @@ mode. Some applications can use the active/active mode (e.g., Microsoft
 SQL Server and File Services), but others must use an active/passive
 configuration (e.g., Exchange Server).
 
-A key part of an NT cluster is the shared-storage subsystem. The
-external storage devices must be based on SCSI. The connections to the
-devices can be based on either SCSI or SCSI over fibre channel (the
-cluster uses SCSI commands to reserve and release devices and to reset
-SCSI buses)
+A key part of cluster is the shared-storage subsystem. The external
+storage devices must be based on SCSI. The connections to the devices
+can be based on either SCSI or SCSI over fibre channel (the cluster uses
+SCSI commands to reserve and release devices and to reset SCSI buses)
 
 ### Clustering Basics
 
@@ -53,16 +52,16 @@ Web site that has been clustered. The process goes something like this:
     servers, thus improving both performance and availability of the Web
     site, the cluster is said to be load balanced.
 
-##### NOTE
-
 All these processes are transparent to the user, and it appears that
 just one machine is handling the requests; therefore, the set of
 clustered servers is often referred to as a virtual server.
 
+##### NLB is best used for Front-end only
+
 NLB is good for a front-end Web cluster configuration because it handles
 such TCP/IP requests and distributes them across several machines at the
 network layer, but it\'s not ideal for a back-end clustered
-configuration. Why not?
+configuration.
 
 Suppose a machine in this front-end cluster must be taken off the
 network to add new hardware or for maintenance. The NLB cluster won\'t

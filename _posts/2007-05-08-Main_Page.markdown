@@ -85,7 +85,7 @@ a list of [useful sites](Useful_Sites "wikilink").
 -   [POP3 Connection hangs and other
     issues](POP3_Connection_hangs_and_other_issues_(Exchange) "wikilink")
 
-### Microsfot SQL Server
+### Microsoft SQL Server
 
 -   [SQL Log shipping](SQL_Log_shipping_(Database_Server) "wikilink")
 -   [SQL Clustering](SQL_Clustering_(Database_Server) "wikilink")
@@ -93,6 +93,11 @@ a list of [useful sites](Useful_Sites "wikilink").
     details](Obtain_Service_pack_details_(SQL_Server) "wikilink")
 -   [High availability IIS & SQL using NLB &
     Clustering](High_availability_IIS_&_SQL_using_NLB_&_Clustering "wikilink")
+
+### Web
+
+-   [SSL Certs with Globalsign on
+    Firefox](SSL_Certs_with_Globalsign_on_Firefox "wikilink")
 
 ### MySQL
 

@@ -30,3 +30,8 @@ In your virtual host config add another directive - SSLCACertificateFile
 ; followed by the cert in .cer format.
 
 Apache needs to be restarted.
+
+### See Also
+
+[Apache SSL Cert
+setup](http://www.digicert.com/ssl-certificate-installation-apache-ensim.htm)

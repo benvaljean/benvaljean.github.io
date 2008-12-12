@@ -96,8 +96,8 @@ a list of [useful sites](Useful_Sites "wikilink").
 
 ### Web
 
--   [SSL Certs with Globalsign on
-    Firefox](SSL_Certs_with_Globalsign_on_Firefox "wikilink")
+-   [SSL Certificates with Globalsign on
+    Firefox](SSL_Certificates_with_Globalsign_on_Firefox "wikilink")
 
 ### MySQL
 

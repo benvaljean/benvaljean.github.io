@@ -148,6 +148,9 @@ htaccess](http://www.cyberciti.biz/faq/howto-setup-apache-password-protect-direc
 
 #### BIND
 
+-   [Bind
+    configuration](http://www.redhat.com/docs/manuals/linux/RHL-7.3-Manual/ref-guide/s1-bind-configuration.html)
+    Good general guide to bind conifg and zone config
 -   [BIND
     Troubleshooting](http://www.cyberciti.biz/tips/troubleshooting-bind-dns-2.html)
 -   [Restrict Zone

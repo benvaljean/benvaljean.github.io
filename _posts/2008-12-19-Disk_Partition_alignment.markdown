@@ -1,0 +1,87 @@
+---
+layout: post 
+title: Disk Partition alignment
+---
+
+Not finished
+
+Disk partition alignment involves setting the partition offset of the
+first partition on a logical or physical harddrive whilst taking into
+account the intended cluster size and RAID stiping of the volume.
+Aliging a partition correctly can have significant performance gains.
+[1](http://sqlblog.com/blogs/linchi_shea/archive/2007/02/01/performance-impact-of-disk-misalignment.aspx)
+
+### Rules for aligning
+
+Both of following calculations must produce integers in order for the
+first partition (and therefore all subsequent partitions) to be
+correctly aligned:
+
+1.  Partition\_offset divided by Stripe\_size
+2.  Stripe\_size divied by Cluster\_size
+
+For example a partition with offset of 64k, cluster size 64k and RAID
+stripe size of 64k (if applicable) will be correctly aligned. This will
+fit the majority of applications where partition aligning is applicable
+- database partitions.
+
+### How to asertain these values
+
+#### On Windows
+
+1\. Partition offset: Save the following as GetPartitionOffsets.vbs and
+run it:
+
+    'GetPartitionOffsets.vbs
+    'By Joe Chang
+    strComputer = "." 
+    Set objWMIService = GetObject("winmgmts:\\\\" & strComputer & "\\root\\CIMV2") 
+    Set colItems = objWMIService.ExecQuery( _
+        "SELECT * FROM Win32_DiskPartition",,48) 
+    'Wscript.Echo "-----------------------------------"
+    Wscript.Echo "Win32_DiskPartition instance"
+    For Each objItem in colItems 
+        Wscript.Echo "DiskIndex: " & objItem.DiskIndex & "  -- Name: " & objItem.Name & "  --  StartingOffset: " & objItem.StartingOffset
+    Next
+
+Look for the offset of the first partition \'partition \#0\' of the
+volume you wish to align.
+
+2\. Cluster size:\
+Install the Windows Server 2003 resource kit Type the following and look
+for the bytes per cluster value:
+
+    fsutil fsinfo ntfsinfo driveletter:
+
+For the RAID stripe size, refer to your controller\'s documentation. For
+HP, install the Array Configuration Utility, part of the Proliant
+Support Pack.
+
+#### On Linux
+
+1\. Partition offset:\
+For SCSI:
+
+    fdisk -l /dev/sd*
+
+For IDE:
+
+    fdisk -l /dev/hd*
+
+Look for the \'Start\' value for the partition you wish to align.
+
+2\. Cluster size:\
+As root, type the following:
+
+    /sbin/dumpe2fs /dev/hda2 | grep 'Block size'
+
+For the RAID stripe size, refer to your controller\'s documentation. For
+HP, install the Array Configuration Utility, part of the Proliant
+Support Pack.
+
+### How to create partitions that are aligned
+
+### See Also
+
+[Storage performance for SQL
+Server](http://sqlblog.com/blogs/joe_chang/archive/2008/03/04/storage-performance-for-sql-server.aspx)

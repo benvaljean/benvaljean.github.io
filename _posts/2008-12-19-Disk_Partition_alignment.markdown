@@ -6,9 +6,9 @@ title: Disk Partition alignment
 Not finished
 
 Disk partition alignment involves setting the partition offset of the
-first partition on a logical or physical harddrive whilst taking into
-account the intended cluster size and RAID stiping of the volume.
-Aliging a partition correctly can have significant performance gains.
+first partition on a logical or physical hard-drive whilst taking into
+account the intended cluster size and any RAID striping of the volume.
+Aligning a partition correctly can have significant performance gains.
 [1](http://sqlblog.com/blogs/linchi_shea/archive/2007/02/01/performance-impact-of-disk-misalignment.aspx)
 
 ### Rules for aligning
@@ -18,14 +18,13 @@ first partition (and therefore all subsequent partitions) to be
 correctly aligned:
 
 1.  Partition\_offset divided by Stripe\_size
-2.  Stripe\_size divied by Cluster\_size
+2.  Stripe\_size divided by Cluster\_size
 
 For example a partition with offset of 64k, cluster size 64k and RAID
-stripe size of 64k (if applicable) will be correctly aligned. This will
-fit the majority of applications where partition aligning is applicable
-- database partitions.
+stripe size of 64k (if applicable) will be correctly aligned. These
+settings will work best with disks that will contain databases.
 
-### How to asertain these values
+### How to ascertain these values
 
 #### On Windows
 
@@ -48,14 +47,11 @@ Look for the offset of the first partition \'partition \#0\' of the
 volume you wish to align.
 
 2\. Cluster size:\
-Install the Windows Server 2003 resource kit Type the following and look
-for the bytes per cluster value:
+Intall the [Windows Server 2003 resource
+kit](http://www.microsoft.com/downloads/details.aspx?familyid=9d467a69-57ff-4ae7-96ee-b18c4790cffd)
+Type the following and look for the bytes per cluster value:
 
     fsutil fsinfo ntfsinfo driveletter:
-
-For the RAID stripe size, refer to your controller\'s documentation. For
-HP, install the Array Configuration Utility, part of the Proliant
-Support Pack.
 
 #### On Linux
 
@@ -68,18 +64,36 @@ For IDE:
 
     fdisk -l /dev/hd*
 
-Look for the \'Start\' value for the partition you wish to align.
+Look for the \'Start\' value for the partition you wish to align. The
+values shown are in bytes, for instance 64k = 65536.
 
-2\. Cluster size:\
+2\. Cluster size / File Allocation Unit size:\
 As root, type the following:
 
-    /sbin/dumpe2fs /dev/hda2 | grep 'Block size'
+    /sbin/dumpe2fs /dev/hda1 | grep 'Block size'
+
+Replace /dev/hda1 as applicable
 
 For the RAID stripe size, refer to your controller\'s documentation. For
 HP, install the Array Configuration Utility, part of the Proliant
 Support Pack.
 
 ### How to create partitions that are aligned
+
+#### On Windows
+
+Do not create partitions using [Disk
+Management](http://www.microsoft.com/technet/prodtechnol/windows2000serv/reskit/deploy/dgbj_sto_csmg.mspx).\
+From the [Windows Server 2003 resource
+kit](http://www.microsoft.com/downloads/details.aspx?familyid=9d467a69-57ff-4ae7-96ee-b18c4790cffd)
+use the DiskPart tool:
+
+    diskpart
+    list disk
+    select disk <DiskNumber>
+    create partition primary align=<Offset_in_KB> size=<Size_in_MB>
+    assign letter=<DriveLetter>
+    format fs=<file-system> label=<"label"> unit=<FileAllocationUnitSize> nowait
 
 ### See Also
 

@@ -74,3 +74,5 @@ mkpart primary ext3 1024 2048
 
 ==See Also==
 [http://sqlblog.com/blogs/joe_chang/archive/2008/03/04/storage-performance-for-sql-server.aspx Storage performance for SQL Server]
+
+[http://support.microsoft.com/default.aspx?scid=kb;EN-US;929491 MS KB article stating partition alignment as a fix for slow performance]

@@ -3,9 +3,9 @@ layout: post
 title: SQL Log shipping (Database Server)
 ---
 
-Microsoft SQL Server Log shipping is a mathod of implementing **manual
-failover/redundancy/high-availability** to a database server and has
-been around since SQL Server 2000 Enterprise.
+Microsoft SQL Server Transaction Log shipping is a mathod of
+implementing **manual failover/redundancy/high-availability** to a SQL
+Server 2000 Enterprise or newer.
 
 ### Manual failover versus Automatic failover
 
@@ -29,7 +29,7 @@ accessed by the secondary/standby server.
 1.  Full database backup of primary is done and restored to the
     secondary.
 2.  Transaction logs from the primary need to be stored on a network
-    drive accesable to both servers - it is usually not a good idea to
+    drive accesable to both servers - it is usually bad practice to
     automatically place the primary\'s transaction logs on the
     secondary.
 3.  Secondary server\'s SQL server agent must have access to the
@@ -52,10 +52,10 @@ accessed by the secondary/standby server.
 3.  Re-create any logins required.
 
 Because Log shipping is manual failover and relies on periodic
-transaction logsfor data recovery it is unsuitable for many live
+transaction logs for data recovery it is unsuitable for many live
 environments. With the advent of NLB (Network Load Balancing) coming
-with Server 2003 and with clustering easier to implement then it used to
-be its popularity is decreasing.
+with Server 2003 and with clustering easier to implement its popularity
+is decreasing.
 
 ### See Also
 

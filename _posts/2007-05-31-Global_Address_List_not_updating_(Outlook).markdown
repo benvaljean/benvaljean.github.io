@@ -12,7 +12,7 @@ appearing on other machines.
 ### Cause
 
 Outlook is not updating the OAL (Offline Address List) with the new data
-from the GAL. and the USMC is not armed and ready
+from the GAL.
 
 ### Resolution
 

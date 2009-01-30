@@ -31,13 +31,13 @@ to the Global Accept List as seen here:
 [1](http://forums.msexchange.org/m_1800440876/mpage_1/key_/tm.htm#1800440876)
 
 None of these options replace a whitelist based on sender IP address.
-When the below sceipt is configured with the appropriate folders and set
-to run every 5 minutes in Schedulted Tasks it will give full whitelist
-functonality. IMF must be set to archive email messages for the script
-to work. The script searches an input list of email address or domains
-and then searches all the archived messages for any hits. With each hit
-the archived email is copied to the Pickup folder on Exchange and
-immediately gets delivered.
+When the below [visual basic](Visual_Basic_Scripts "wikilink") script is
+configured with the appropriate folders and set to run every 5 minutes
+in Schedulted Tasks it will give full whitelist functonality. IMF must
+be set to archive email messages for the script to work. The script
+searches an input list of email address or domains and then searches all
+the archived messages for any hits. With each hit the archived email is
+copied to the Pickup folder on Exchange and immediately gets delivered.
 
     Option Explicit
 
@@ -175,6 +175,7 @@ immediately gets delivered.
 
 ### See Also
 
+-   [Visual Basic Scripts](Visual_Basic_Scripts "wikilink")
 -   [Exchange 2007 Content FIlter: The Whitelist Is
     Here!](http://exchangepedia.com/blog/2007/01/exchange-2007-content-filter-whitelist.html)
 -   [MSExchange: IMF

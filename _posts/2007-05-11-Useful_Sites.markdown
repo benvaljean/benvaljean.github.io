@@ -42,7 +42,7 @@ address](http://services.nexodyne.com/email/index_custom.php)\
 page](http://www.ircache.net/cgi-bin/cacheability.py)\
 [ITIdiots.com](http://www.itidiots.com/content/category/7/23/67/) Great
 site\
-[FSMO
+==Server 2003 / 2008 Related== [FSMO
 Roles](http://www.windowsdevcenter.com/pub/a/windows/2004/06/15/fsmo.html)
 
 ### IIS and SQL Server Related
@@ -234,8 +234,9 @@ as Opera
     Exchange](http://www.petri.co.il/setting_size_limits_for_messages.htm)
     Details the 8 different places in System Manager that message limits
     can be inposed.
--   [Setting up email disclaimers and signatures in Exchange
-    Server](http://searchexchange.techtarget.com/generic/0,295582,sid43_gci1322354,00.html)
+
+<!-- -->
+
 -   [Bounce/Non Delivery Report when sending meeting
     request](http://support.microsoft.com/kb/312433)
 -   [Removing Exchange](http://support.microsoft.com/kb/833396/)
@@ -246,6 +247,13 @@ as Opera
     Banner](http://www.petri.co.il/change_the_smtp_banner.htm)
 -   [Moving mailbox
     considerations](http://support.microsoft.com/kb/328810/)
+
+#### Auto-append text to all outgoing emails (disclaimers)
+
+-   [Setting up email disclaimers and signatures in Exchange
+    Server](http://searchexchange.techtarget.com/generic/0,295582,sid43_gci1322354,00.html)
+-   [MSKB Method 1](http://support.microsoft.com/kb/317680/en-us)
+-   [MSKB Method 2](http://support.microsoft.com/kb/317327/en-us)
 
 #### DR/Backup/Restore
 

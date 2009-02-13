@@ -42,8 +42,12 @@ address](http://services.nexodyne.com/email/index_custom.php)\
 page](http://www.ircache.net/cgi-bin/cacheability.py)\
 [ITIdiots.com](http://www.itidiots.com/content/category/7/23/67/) Great
 site\
-==Server 2003 / 2008 Related== [FSMO
-Roles](http://www.windowsdevcenter.com/pub/a/windows/2004/06/15/fsmo.html)
+==Server 2003 / 2008 Related==
+
+-   [Ascertain FSMO role
+    holders](http://www.petri.co.il/determining_fsmo_role_holders.htm)
+-   [FSMO
+    Roles](http://www.windowsdevcenter.com/pub/a/windows/2004/06/15/fsmo.html)
 
 ### IIS and SQL Server Related
 
@@ -234,6 +238,8 @@ as Opera
     Exchange](http://www.petri.co.il/setting_size_limits_for_messages.htm)
     Details the 8 different places in System Manager that message limits
     can be inposed.
+-   [The 10 most common Exchange Server issues and how to avoid
+    them](http://searchexchange.techtarget.com/generic/0,295582,sid43_gci1243408,00.html?asrc=SS_CLA_300581&psrc=CLT_43)
 
 <!-- -->
 

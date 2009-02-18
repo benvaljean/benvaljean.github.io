@@ -7,7 +7,7 @@ title: Restore using NTBACKUP (Exchange)
 
 This page details the process of restoring a Microsoft Exchange database
 using NTBACKUP and replaying the log files back into the database whilst
-overcoming some common errors. The guide below already presumes the read
+overcoming some common errors. The guide below already presumes the user
 has some knowledge of Exchange and that the replacement server has been
 rebuilt, and Exchange installed. The server must have the same service
 pack update as the server where the database was originally hosted.

@@ -27,6 +27,12 @@ example:`blat exchange.company.local backups@company.local`\
 3. Save the below script to the PC where backups are performed as
 NTBackupNotify.vbs and adjust the variables as necessary:
 
+    'NTBackupNotify.vbs
+    'Adapted from a script by Gary Thorne http://www.halsys.com/help/default.htm
+    'www.rogerrabbit.net/wiki/Email_notifications_for_NTBACKUP
+    '
+    'Schedule this script to run straight after an NTBACKUP finishes, uses Blat www.blat.net to send out emails.
+    '
     Const strLogDir = "C:\\Documents and Settings\\schedadmin\\Local Settings\\Application Data\\Microsoft\\Windows NT\\NTBackup\\data\\"
     Const strMailSender = "backups@company.local"
     Const strMailRecipient = "admin@company.local"

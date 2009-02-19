@@ -122,6 +122,13 @@ a list of [useful sites](Useful_Sites "wikilink").
 -   [Stationary Locked for other
     users](Stationary_Locked_for_other_users_(Lotus_Notes) "wikilink")
 
+### Disaster Recovery / Backup
+
+-   [Email notifications for
+    NTBACKUP](Email_notifications_for_NTBACKUP "wikilink")
+-   [Restore using NTBACKUP
+    (Exchange)](Restore_using_NTBACKUP_(Exchange) "wikilink")
+
 ### Other IT Trobuleshooting
 
 -   [ActiveSync General Troubleshooting

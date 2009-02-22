@@ -240,6 +240,8 @@ as Opera
     can be inposed.
 -   [The 10 most common Exchange Server issues and how to avoid
     them](http://searchexchange.techtarget.com/generic/0,295582,sid43_gci1243408,00.html?asrc=SS_CLA_300581&psrc=CLT_43)
+-   [How to defrag Exchange
+    databases](http://support.microsoft.com/kb/328804)
 
 <!-- -->
 

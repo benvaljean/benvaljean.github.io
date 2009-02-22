@@ -176,6 +176,10 @@ for natively.
 
 #### Get user name
 
+An easy way set\|find \"USERNAME\"\|set username=%A echo %username%
+
+or some harder ways. ========================
+
 This exports the key from the reg and gets the value from it into a env
 variable:
 

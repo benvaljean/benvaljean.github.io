@@ -71,6 +71,10 @@ Server)](SQL_Clustering_(Database_Server) "wikilink")
     2005](http://www.microsoft.com/technet/prodtechnol/sql/2005/dbmirror.mspx)
 -   [SQL Mirroring with more than one
     instance](https://forums.microsoft.com/TechNet/ShowPost.aspx?PostID=2338504&SiteID=17)
+-   [IIS/ASP session
+    timeouts](http://justgeeks.blogspot.com/2008/07/aspnet-session-timeouts.html)
+    Good, details the different timrout settings that exist and how they
+    reflect on production
 
 #### IIS Rewrite tools
 

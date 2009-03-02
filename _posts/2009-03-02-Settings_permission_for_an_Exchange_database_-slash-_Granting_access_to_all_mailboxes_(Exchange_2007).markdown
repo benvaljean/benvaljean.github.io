@@ -7,6 +7,8 @@ In [Microsoft Exchange
 2007](http://technet.microsoft.com/en-us/library/bb124558.aspx) it is
 often a requirement to grant access at the database level - granting
 access to all mailboxes and all subsequent mailboxes that are created.
+Unlike Exchange 2003, there is no ability to use the GUI to achieve
+this.
 
 There are numerous pages online giving details on how to achieve this -
 but none of which worked for me so I thought I should write my own.

@@ -84,6 +84,9 @@ a list of [useful sites](Useful_Sites "wikilink").
     NTBACKUP](Restore_using_NTBACKUP_(Exchange) "wikilink")
 -   [POP3 Connection hangs and other
     issues](POP3_Connection_hangs_and_other_issues_(Exchange) "wikilink")
+-   [Settings permission for an Exchange database / Granting access to
+    all mailboxes
+    (Exchange 2007)](Settings_permission_for_an_Exchange_database_/_Granting_access_to_all_mailboxes_(Exchange_2007) "wikilink")
 
 ### Microsoft SQL Server
 

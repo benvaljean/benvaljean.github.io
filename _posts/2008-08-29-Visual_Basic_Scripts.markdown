@@ -42,7 +42,9 @@ time and a log entry
       objLogFile.Close
     Next
 
-### Add Whitelist functionality to Intelligent Message Filter/IMF (Exchange)
+### Other VBS scripts on this site
 
-See [Add Whitelist functionality to Intelligent Message Filter/IMF
-(Exchange)](Add_Whitelist_functionality_to_Intelligent_Message_Filter/IMF_(Exchange) "wikilink")
+-   [Add Whitelist functionality to Intelligent Message Filter/IMF
+    (Exchange)](Add_Whitelist_functionality_to_Intelligent_Message_Filter/IMF_(Exchange) "wikilink")
+-   [Email notifications for
+    NTBACKUP](Email_notifications_for_NTBACKUP "wikilink")

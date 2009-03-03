@@ -75,6 +75,10 @@ Server)](SQL_Clustering_(Database_Server) "wikilink")
     timeouts](http://justgeeks.blogspot.com/2008/07/aspnet-session-timeouts.html)
     Good, details the different timrout settings that exist and how they
     reflect on production
+-   [Database
+    Mirroring](http://www.informit.com/guides/content.aspx?g=sqlserver&seqNum=213)
+    Gives details on how to setup mirroring using T-SQL to allow it to
+    be scripted for many servers.
 
 #### IIS Rewrite tools
 

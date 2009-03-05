@@ -114,6 +114,8 @@ title: Non-Delivery Report (NDR) / Bounce Codes (Email)
 |}
 
 ==See Also==
-[http://support.microsoft.com/kb/284204 Delivery status notifications in Exchange Server and in Small Business Server (Microsoft Support)]
+[http://support.microsoft.com/kb/284204 Delivery status notifications in Exchange Server and in Small Business Server (Microsoft Support)]<br>
+[http://www.napolifirewall.com/NondeliverableReport.htm Exchange NDR Codes]
+
 
 [[Category:Exchange]]

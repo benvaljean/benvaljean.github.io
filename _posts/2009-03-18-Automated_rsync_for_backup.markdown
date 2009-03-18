@@ -27,3 +27,5 @@ every day at 5am:
     0       5       *       *       *       root    /usr/bin/rsync -azue "ssh -i /root/rsync.key" /var/backup/mysql backupserver:/backups/mysql/wiki_intranet
 
 thats it!
+
+<http://troy.jdmz.net/rsync/index.html>

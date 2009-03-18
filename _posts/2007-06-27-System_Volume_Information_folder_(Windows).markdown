@@ -9,10 +9,17 @@ C:\\\\ . The directory security is set so that not even Administrators
 can access it, although this can be changed. Files in thie folder if
 changed/deleted could cause certain functions to fail.
 
-RSjmaO <a href="http://uefrswybvzze.com/">uefrswybvzze</a>,
-\[url=<http://otcebcarfnfe.com/%5Dotcebcarfnfe%5B/url%5D>,
-\[link=<http://iacvcfieqzku.com/%5Diacvcfieqzku%5B/link%5D>,
-<http://abysscocghib.com/>
+### Folder Contents
+
+-   System Restore points: All beginning with \"\_restore\" .
+-   Distributed Link Tracking Service databases: This service tries to
+    repair broken shortcuts.
+-   File Indexes: Databases for the native file indexer.
+-   Volume Snapshot Service databases: Used to allow volume shadowing -
+    this allows previous versions of files to be restored on the same
+    hard drive allowing restores to be done by users so long as it is
+    not deleted.
+-   WinFS databases: Longhorn only
 
 ### Accessing the folder
 

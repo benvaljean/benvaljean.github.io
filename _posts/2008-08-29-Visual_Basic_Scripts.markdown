@@ -48,5 +48,3 @@ time and a log entry
     (Exchange)](Add_Whitelist_functionality_to_Intelligent_Message_Filter/IMF_(Exchange) "wikilink")
 -   [Email notifications for
     NTBACKUP](Email_notifications_for_NTBACKUP "wikilink")
-
-<http://www.test.com>

@@ -136,3 +136,82 @@ rebuild times. If it\'s hardware-based RAID, then rebuild times are
 usually dictated by the size of the drives themselves, since the
 hardware usually does the sparing in and out of the set. A 146 GB drive
 takes longer to rebuild than a 73 GB drive.
+
+### Exchange 2007 RAID Discussion
+
+*Taken from
+<http://www.experts-exchange.com/Storage/Storage_Technology/Q_22545022.html>*
+jmulvey123: Exchange 2007 has vastly improved disk performance over
+Exchange 2003. You need to be careful of advice that is given by people
+who may only have prior experience with Exchange 2003. That being said,
+you are still asking a relevant question, as disk performance is crucial
+to user\'s perception of the mail service as a whole. Let\'s start the
+discussion by talking about user perception
+
+In general, user\'s perception of the mail service is driven by the
+response time to opening email messages. Unlike when a user sends an
+email, a user is typically staring at the screen and waiting after
+double-clicking a message to read it. In Exchange 2003, disk read
+transactions were much more common than write transactions. Exchange
+2007 can leverage the additional RAM on the server to cache the data and
+respond to these reads faster. So I hope you\'re going to put a good
+amount of RAM in your server (with 500 users, 5-6 GB should give good
+performance).
+
+Anyway, RAID 1+0 has the best read performance, the best write
+performance, and the best fault tolerance. RAID 5 would almost certainly
+work in your environment due to the fact that your users have such large
+mailboxes, it\'s likely that the IOPS load of your users per disk is
+going to be relatively low (generally, users with big mailboxes don\'t
+tend to open more mail than users with small mailboxes, so your disks
+will be less utilized \[per gigabyte\] than typical Exchange
+implementations).
+
+But you\'ve also got to consider one very important additional factor
+that you haven\'t mentioned: RAID 5 rebuild performance! When one of the
+disks in your RAID 5 array dies (and it WILL), read performance (the
+metric that matters most for your users!) is absolutely horrible. And
+the level (and duration) of horror will be dependent upon the number of
+disks in your RAID 5 array. In order words, if you DO do RAID 5, I
+wouldn\'t create RAID groups of more than 5 disks.
+
+In my mind, the benefits to RAID 1+0 are obvious: Better performance,
+better redundancy. RAID 5 is a substandard solution that might be
+necessary if you just don\'t have the budget for 3 GB mailboxes. But my
+guess is that if your users are demanding enough to want 3 GB mailboxes,
+they\'re going to be unhappy with the unpredictable sacrifices they will
+eventually have to make when a RAID 5 rebuild takes place.
+
+I would highly recommend that you look at the Exchange 2007 Storage
+Calculator as well. This tool, available from Microsoft, will tell you
+exactly what the anticipated IOPS performance of the disk subsystem will
+be, and then you can determine for yourself what kind of disk array will
+satisfy the performance requirements.
+
+------------------------------------------------------------------------
+
+meyersd: The CX3-20 supports RAID 5, not RAID 6. The CLARiiON has a
+number of RAID 5 optimisations that, coupled with the CLARiiON\'s write
+cache, means that RAID 5 performance is very close to RAID 1/0
+performance for most applications. RAID 1/0 will always have the edge in
+an environment where large numbers small write operations dominate.
+Generally speaking, however, RAID 5 will out-perform RAID 1/0 on read
+operations due to greater read bandwidth, and RAID 1/0 will outperform
+RAID 5 when the array is being heavily hit - which is unlikely in your
+scenario. This document describes a CX3-20 tested with 8000 users:
+<http://www.emc.com/solutions/microsoft/esrp/pdf/esrp_clariion_cx-20_stor_sol_ms_exch_wp_ldv.pdf>
+
+Go with Fibre Channel discs for your Exchange LUNs and save the SATA II
+discs for archiving or backup to disc. You can typically expect SATAII
+discs to run at around half the speed of the FC discs depending on the
+I/O profile. FC discs remain king where the I/O load is random.
+
+jmulvey makes a very important point around rebuild performance - a RAID
+1/0 rebuild is around 4 times faster than a RAID 5 rebuild. The
+difference is that a RAID 1/0 rebuild simply involves remirroring a disc
+pair whilst RAID 5 rebuild involve reconstruction of data and parity
+form the existing discs. For me, that is often enough to overcome the
+objections of the extra cost involved in using RAID 1/0. Having said
+that, RAID 5 works extremely well on a CLARiiON - and I\'ve seen it
+running well on a CLARiiON CX700 (the previous generation to your
+system) in Exchange 2003 environments with up to 4000 users.

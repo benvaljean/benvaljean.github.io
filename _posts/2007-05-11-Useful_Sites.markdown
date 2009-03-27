@@ -252,9 +252,6 @@ as Opera
     them](http://searchexchange.techtarget.com/generic/0,295582,sid43_gci1243408,00.html?asrc=SS_CLA_300581&psrc=CLT_43)
 -   [How to defrag Exchange
     databases](http://support.microsoft.com/kb/328804)
-
-<!-- -->
-
 -   [Bounce/Non Delivery Report when sending meeting
     request](http://support.microsoft.com/kb/312433)
 -   [Removing Exchange](http://support.microsoft.com/kb/833396/)
@@ -265,6 +262,8 @@ as Opera
     Banner](http://www.petri.co.il/change_the_smtp_banner.htm)
 -   [Moving mailbox
     considerations](http://support.microsoft.com/kb/328810/)
+-   [Guide to eseutil and
+    isinteg](http://www.exchangeinbox.com/article.aspx?i=87)
 
 #### Auto-append text to all outgoing emails (disclaimers)
 

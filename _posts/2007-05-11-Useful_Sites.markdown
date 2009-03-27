@@ -264,6 +264,8 @@ as Opera
     considerations](http://support.microsoft.com/kb/328810/)
 -   [Guide to eseutil and
     isinteg](http://www.exchangeinbox.com/article.aspx?i=87)
+-   [Troubleshooting
+    Eseutil](http://www.computerperformance.co.uk/exchange2003/exchange2003_eseutil.htm)
 
 #### Auto-append text to all outgoing emails (disclaimers)
 

@@ -3,8 +3,9 @@ layout: post
 title: RAID Types
 ---
 
-\'Taken from
-<http://searchstorage.techtarget.com/expert/KnowledgebaseAnswer/0,289625,sid5_gci1126527,00.html>\'
+\'\'Taken from
+<http://searchstorage.techtarget.com/expert/KnowledgebaseAnswer/0,289625,sid5_gci1126527,00.html>
+\'\'
 
 RAID used to stand for \"redundant array of inexpensive disks\". Today
 the term has been updated to \"redundant array of independent disks\".

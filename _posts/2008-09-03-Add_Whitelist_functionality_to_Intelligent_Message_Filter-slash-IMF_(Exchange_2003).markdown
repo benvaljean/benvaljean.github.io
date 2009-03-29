@@ -44,8 +44,8 @@ immediately gets delivered.
 
 The below script is a modified version of the one
 [here](http://www.experts-exchange.com/Software/Internet_Email/Q_22461861.html).
-The version below adds a loffile and places all emails post scannig in a
-\'scanned\' folder where they can be deleted.
+The version below adds a log-file and places all emails post-scanning in
+a \'scanned\' folder where they can be deleted.
 
     Option Explicit
 

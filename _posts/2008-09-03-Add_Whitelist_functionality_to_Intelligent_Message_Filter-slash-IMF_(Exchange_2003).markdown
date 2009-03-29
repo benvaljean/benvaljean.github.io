@@ -32,7 +32,7 @@ to the Global Accept List as seen here:
 
 ### The script
 
-None of the options above replace a whitelist based on sender IP
+None of the options above replace a whitelist based on sender smtp
 address. When the below [visual basic](Visual_Basic_Scripts "wikilink")
 script is configured with the appropriate folders and set to run every 5
 minutes in Schedulted Tasks it will give full whitelist functonality.

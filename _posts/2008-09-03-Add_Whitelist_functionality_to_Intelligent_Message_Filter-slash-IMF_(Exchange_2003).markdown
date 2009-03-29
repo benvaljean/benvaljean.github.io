@@ -30,6 +30,8 @@ whitelisted is known and unlikely to change its IP address can be added
 to the Global Accept List as seen here:
 [1](http://forums.msexchange.org/m_1800440876/mpage_1/key_/tm.htm#1800440876)
 
+### The script
+
 None of these options replace a whitelist based on sender IP address.
 When the below [visual basic](Visual_Basic_Scripts "wikilink") script is
 configured with the appropriate folders and set to run every 5 minutes
@@ -38,6 +40,11 @@ be set to archive email messages for the script to work. The script
 searches an input list of email address or domains and then searches all
 the archived messages for any hits. With each hit the archived email is
 copied to the Pickup folder on Exchange and immediately gets delivered.
+
+The below script is a modified version of the one
+[here](http://www.experts-exchange.com/Software/Internet_Email/Q_22461861.html).
+The version below adds a loffile and places all emails post scannig in a
+\'scanned\' folder where they can be deleted.
 
     Option Explicit
 

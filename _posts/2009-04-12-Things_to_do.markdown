@@ -9,4 +9,4 @@ From M11 exit 8, take B1256 towards Takeley. Signposted from B1256
 
 \--
 
-LeeValley Park
+LeeValley Park M25 J26

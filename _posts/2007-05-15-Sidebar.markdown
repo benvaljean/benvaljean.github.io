@@ -9,3 +9,4 @@ title: Sidebar
     -   Fun\_Stuff\|Fun Stuff
     -   recentchanges-url\|recentchanges
     -   randompage-url\|randompage
+    -   About\_the\_Author\|About the Author

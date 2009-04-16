@@ -3,4 +3,4 @@ layout: post
 title: About the Author
 ---
 
-1.  REDIRECT \[User:Benyg\]
+1.  1.  REDIRECT \[User:Benyg\]

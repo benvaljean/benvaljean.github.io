@@ -275,6 +275,10 @@ FOR](http://www.ericphelps.com/batch/lines/word-for.htm)
 [Win32 Scripting
 Tutorial](http://supportweb.cs.bham.ac.uk/documentation/tutorials/docsystem/build/tutorials/win32scripting/win32scripting.html)
 
-[1](http://cwashington.netreach.net/depo/view.asp?Index=1036)
+[Advanced Dos Based Logon
+Script](http://cwashington.netreach.net/depo/view.asp?Index=1036)
+
+[Assorted NT/2000/XP/.. CMD.EXE Script
+Tricks](http://www.netikka.net/tsneti/info/tscmd.htm)
 
 [Category:Windows](Category:Windows "wikilink")

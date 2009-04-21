@@ -54,10 +54,10 @@ Any of the following:
 
 ### Resolution
 
-1.  Issues with cryptographic can onrmally be resolved by restarting the
-    service. If this does not resolve the issue look for entries in the
-    event log when the service was restarted.
-2.  The correct permissions for %windir%\\\\winsxs\\\\filemaps are:
+1\. Issues with cryptographic can onrmally be resolved by restarting the
+service. If this does not resolve the issue look for entries in the
+event log when the service was restarted. 2. The correct permissions for
+%windir%\\\\winsxs\\\\filemaps are:
 
 -   Local administrators, or Domain administrators if a DC: Owner,
     Read&exec, List folder, Read

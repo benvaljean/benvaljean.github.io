@@ -44,6 +44,8 @@ a list of [useful sites](Useful_Sites "wikilink").
     mode](Icon_problem:_Low_colour_icons_(4_bits/16_colours)_even_with_16/32_bit_screen_mode_(Windows) "wikilink")
 -   [Cannot View Source (Internet
     Explorer)](Cannot_View_Source_(Internet_Explorer) "wikilink")
+-   [System writer is not found in the backup Error (Windows Server
+    Backup)](System_writer_is_not_found_in_the_backup_Error_(Windows_Server_Backup) "wikilink")
 -   [Print Spooler Issues](http://support.microsoft.com/kb/324757)
 -   [CD Burning Driver
     Conflicts](http://support.microsoft.com/default.aspx?scid=KB;EN-US;q315345&)

@@ -23,7 +23,7 @@ Backup in Server 2008 the following error can occur:
 
     System writer is not found in the backup.
 
-Other symptoms can include the following enter in the event log:
+Other symptoms can include the following entry in the event log:
 
     Log Name:      Application
     Source:        Microsoft-Windows-CAPI2

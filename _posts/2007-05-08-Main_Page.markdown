@@ -89,6 +89,8 @@ a list of [useful sites](Useful_Sites "wikilink").
 -   [Settings permission for an Exchange database / Granting access to
     all mailboxes
     (Exchange 2007)](Settings_permission_for_an_Exchange_database_/_Granting_access_to_all_mailboxes_(Exchange_2007) "wikilink")
+-   [Re-create Outlook Web Access Virtual Directories
+    (Exchange 2003)](Re-create_Outlook_Web_Access_Virtual_Directories_(Exchange_2003) "wikilink")
 
 ### Microsoft SQL Server
 

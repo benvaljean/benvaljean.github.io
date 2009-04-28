@@ -3,6 +3,8 @@ layout: post
 title: Stop Producing Backscatter Spam (Exchange 2003/2007)
 ---
 
+\_\_NOTOC\_\_
+
 ### Introduction
 
 [Back-scatter](http://en.wikipedia.org/wiki/Backscatter_(e-mail)) spam

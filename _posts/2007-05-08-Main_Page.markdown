@@ -92,7 +92,7 @@ a list of [useful sites](Useful_Sites "wikilink").
 -   [Re-create Outlook Web Access Virtual Directories
     (Exchange 2003)](Re-create_Outlook_Web_Access_Virtual_Directories_(Exchange_2003) "wikilink")
 -   [Stop Producing Backscatter Spam
-    (Exchange\_2003)](Stop_Producing_Backscatter_Spam_(Exchange_2003) "wikilink")
+    (Exchange 2003)](Stop_Producing_Backscatter_Spam_(Exchange_2003) "wikilink")
 
 ### Microsoft SQL Server
 

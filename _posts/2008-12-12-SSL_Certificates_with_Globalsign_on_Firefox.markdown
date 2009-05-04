@@ -21,6 +21,7 @@ installed.
     Import\...
 3.  Follow the wizard to import the certificate.
 4.  Check that it appears certificate appears in the list.
+5.  If you\'re installing a new certificate, delete the old/expired one.
 
 No IIS services need to be restarted.
 

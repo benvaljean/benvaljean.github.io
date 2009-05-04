@@ -23,3 +23,5 @@ repository to allow them to be version-controlled:
 To revert a file back to a previous revision for instance:
 
     s svn update -r 2 hosts
+
+<http://ariejan.net/2007/07/04/how-to-resolve-subversion-conflicts/>

@@ -1,10 +1,9 @@
 ---
 layout: post 
-title: Get Last Logon Time
+title: Get Last Logon Time, Last_Logoff time, Mailbox size and Item_Count (Exchange_2007)
 ---
 
-Benjamin Goodacre,f1\@goodacre.name,This feature was removed from the
-Exchange 2007 UI.
+This feature was removed from the Exchange 2007 UI.
 
 From the [Exchange Management
 shell](http://technet.microsoft.com/en-us/library/bb123778.aspx):

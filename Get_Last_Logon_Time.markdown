@@ -14,3 +14,7 @@ shell](http://technet.microsoft.com/en-us/library/bb123778.aspx):
 The item count and mailbox size can also be obtained:
 
     Get-MailboxStatistics | Select-Object DisplayName, ItemCount, TotalItemSize | Format-Table
+
+### See Also
+
+<http://blogcastrepository.com/blogs/0_to_60_in_a_fortnight/archive/2007/05/03/when-did-a-user-last-logon-to-their-exchange-2007-mailbox-and-how-do-i-use-powershell.aspx>

@@ -53,7 +53,7 @@ a list of [useful sites](Useful_Sites "wikilink").
 
 ### Linux
 
--   [Open\_files\_(Linux)](Open_files_(Linux) "wikilink")
+-   [Open files (Linux)](Open_files_(Linux) "wikilink")
 
 ### Microsoft Office Troubleshooting
 

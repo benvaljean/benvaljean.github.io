@@ -29,6 +29,8 @@ a list of [useful sites](Useful_Sites "wikilink").
     Automatically](Rename_Mapped_or_Network_Drives_Automatically "wikilink")
 -   [Visual Basic Scripts](Visual_Basic_Scripts "wikilink")
 -   [WINS Lookup tool](WINS_Lookup_tool "wikilink")
+-   [Disable Group Policy for individual PC locally
+    (Windows)](Disable_Group_Policy_for_individual_PC_locally_(Windows) "wikilink")
 -   [Windows Installer Cleanup
     Utility](http://support.microsoft.com/kb/290301/en-us) - use this to
     remove persistent install dialogs etc.

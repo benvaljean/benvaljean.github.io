@@ -51,6 +51,10 @@ a list of [useful sites](Useful_Sites "wikilink").
 -   [CD Burning Driver
     Conflicts](http://support.microsoft.com/default.aspx?scid=KB;EN-US;q315345&)
 
+### Linux
+
+-   [Open\_files\_(Linux)](Open_files_(Linux) "wikilink")
+
 ### Microsoft Office Troubleshooting
 
 -   [ActiveSync Error 0x85010005 (Outlook Mobile

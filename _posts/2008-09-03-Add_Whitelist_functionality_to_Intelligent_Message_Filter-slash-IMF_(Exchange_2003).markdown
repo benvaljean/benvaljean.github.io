@@ -192,3 +192,5 @@ a \'scanned\' folder where they can be deleted.
     IMF](http://blogs.mcbsys.com/mark/post/Exchange-IMF-and-Custom-Weight-Lists.aspx)
 -   [Exclude a particular recipient from anti-spam
     filtering](http://support.microsoft.com/?id=912587)
+
+[Category:Exchange](Category:Exchange "wikilink")

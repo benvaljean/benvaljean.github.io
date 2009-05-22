@@ -51,3 +51,5 @@ Mailbox role
 ### See also
 
 <http://technet.microsoft.com/en-us/library/aa996319.aspx>
+
+[Category:Exchange](Category:Exchange "wikilink")

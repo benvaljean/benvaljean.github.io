@@ -65,3 +65,5 @@ connection each time.
     How to Connect to an Exchange Mailbox by Using POP3 or IMAP4\]
 -   [POP3 Access error after SP2
     Installation](http://www.examnotes.net/article44702.html)
+
+[Category:Exchange](Category:Exchange "wikilink")

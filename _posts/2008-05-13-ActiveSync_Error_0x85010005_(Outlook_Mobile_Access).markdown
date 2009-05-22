@@ -41,3 +41,4 @@ candidates for this error are:
 Guide](http://www.shijaz.com/exchange/activesync_errors.htm)
 
 [Category:Windows](Category:Windows "wikilink")
+[Category:Exchange](Category:Exchange "wikilink")

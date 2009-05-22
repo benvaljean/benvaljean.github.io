@@ -1,0 +1,30 @@
+---
+layout: post 
+title: Bounce 550 5.7.1 RESOLVER.RST.AuthRequired; authentication required (Exchange 2007)
+---
+
+### Symptom
+
+When sending an email to a distribution list on Exchange 2007 from an
+external sender the following bounce is received, or viewable in the
+SMTP/Hub Transport log:
+
+    550 5.7.1 RESOLVER.RST.AuthRequired; authentication required
+
+### Cause
+
+The external recipient expectedly as no AD permissions and consequently
+does not have the necessary permissions to send an email to the
+distribution list.
+
+### Resolution
+
+From the properties of the distribution list in Exchange AD: **Exchange
+General** tab, Un-tick **From authenticated users only**
+
+From the properties of the distribution list in [Exchange Management
+Console](http://technet.microsoft.com/en-us/library/bb123762.aspx):
+**Mail-flow settings** tab, Message Delivery Restrictions, un-tick
+**Require that all senders are authenticated**.
+
+[Category:Exchange](Category:Exchange "wikilink")

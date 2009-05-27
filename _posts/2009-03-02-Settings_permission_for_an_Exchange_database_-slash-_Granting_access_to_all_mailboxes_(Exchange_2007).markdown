@@ -37,11 +37,11 @@ permissions of the domain admin user:
 This indicates that
 `Get-MailboxDatabase|Set-ADPermission -user "domain\\user" -ExtendedRights GenericAll`
 should work but for an unkmown reason this did not work in my
-envirironment.
+environment.
 
 *Note:* If there is \>1 mailbox database on the server the -identity
 parameter can be used:
-`-identity "server\\first sotrage group\\mailbox database"`
+`-identity "server\\first storage group\\mailbox database"`
 
 ### Method 2: Use ADSI Editor or AD Explorer
 

@@ -51,13 +51,13 @@ Explorer](http://technet.microsoft.com/en-us/sysinternals/bb963907.aspx).
 AD Explorer is better but requires .NET .
 
 1.  Navigate to Configuration\\\\Services\\\\Microsoft
-    Exchange\\\\origanisationname\\\\Administrative Groups\\\\Exchange
+    Exchange\\\\organization-name\\\\Administrative Groups\\\\Exchange
     Administrative Group\\\\SERVERNAME.
 2.  Go to the properties of this \'folder\' and choose the security tab.
     Add the user you wish to have access to all databases on this
     server, giving them full control rights. Ensure there are no deny
-    attributes being inheritated at the administrative group or
-    organisation level. By default Exchange administrators have deny
+    attributes being inherited at the administrative group or
+    organization level. By default Exchange administrators have deny
     rights applied.
 
 It is not possible to give permissions to just a single database using

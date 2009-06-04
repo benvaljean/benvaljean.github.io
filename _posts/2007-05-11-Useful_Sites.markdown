@@ -266,6 +266,8 @@ as Opera
     isinteg](http://www.exchangeinbox.com/article.aspx?i=87)
 -   [Troubleshooting
     Eseutil](http://www.computerperformance.co.uk/exchange2003/exchange2003_eseutil.htm)
+-   [Outlook 2007 on Exchange 2007 certificate
+    error](http://www.shudnow.net/2007/08/10/outlook-2007-certificate-error/)
 
 #### Auto-append text to all outgoing emails (disclaimers)
 

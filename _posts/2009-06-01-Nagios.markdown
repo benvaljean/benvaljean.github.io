@@ -32,7 +32,7 @@ Then start service
 
 ### Exchange 2007 Monitoring
 
-The Ex2007 services can be monitored with the following config:
+#### Services
 
     #Mailbox servers
     define service{
@@ -138,6 +138,18 @@ The Ex2007 services can be monitored with the following config:
     hostgroup_name  ex-cashub-servers
             service_description     Ex Transport Log Search
             check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSExchangeTransportLogSearch
+            }
+
+#### Replication Health / Status
+
+If SCR, LCR or CCR is deployed in your organisation its status can be
+checked through use of Nagios monitoring its WMI counter:
+
+    define service{
+            use                     generic-service
+    hostgroup_name  ex-be-servers
+            service_description     Ex SCR
+            check_command           check_nt!COUNTER!-l "\\\\.\\MSExchange Replication(_total)\\Failed","Replication failure status (0 = OK): %.f" -c 1
             }
 
 ### Exchange 2003 Monitoring

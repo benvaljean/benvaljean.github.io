@@ -140,6 +140,52 @@ The Ex2007 services can be monitored with the following config:
             check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSExchangeTransportLogSearch
             }
 
+### Exchange 2003 Monitoring
+
+    #ex2003 Servers
+    define service{
+            use                     generic-service
+    hostgroup_name  ex2003-servers
+            service_description     Ex IS
+            check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSExchangeIS
+            }
+    define service{
+            use                     generic-service
+    hostgroup_name  ex2003-servers
+            service_description     Ex WMI
+            check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSExchangeMGMT
+            }
+    define service{
+            use                     generic-service
+    hostgroup_name  ex2003-servers
+            service_description     Ex MTA Stacks
+            check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSExchangeMTA
+            }
+    define service{
+            use                     generic-service
+    hostgroup_name  ex2003-servers
+            service_description     Ex POP3
+            check_command           check_nt!SERVICESTATE!-d SHOWALL -l POP3Svc
+            }
+    define service{
+            use                     generic-service
+    hostgroup_name  ex2003-servers
+            service_description     Ex Routing Engine
+            check_command           check_nt!SERVICESTATE!-d SHOWALL -l RESvc
+            }
+    define service{
+            use                     generic-service
+    hostgroup_name  ex2003-servers
+            service_description     Ex System Attendant
+            check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSExchangeSA
+            }
+    define service{
+            use                     generic-service
+    hostgroup_name  ex2003-servers
+            service_description     SMTP
+            check_command           check_nt!SERVICESTATE!-d SHOWALL -l SMTPSVC
+            }
+
 ### RBL Status
 
 The check\_bl plugin allows monitoring of RBL status for your outbound
@@ -153,4 +199,18 @@ relay servers.
     /usr/local/nagios/libexec
 3.  Install the NET::DNS module for perl, as otherwise the script will
     be unable to perform the necessary DNS lookups. The package name
-    varies from distro to distro. On Ubuntu it is
+    varies from distro to distro. On Ubuntu it is libnet-dns-perl .
+4.  Add the following config with your IP(S) to Nagios\' config:
+
+<!-- -->
+
+    define  command {
+            command_name    check_bl
+            command_line    $USER1$/check_bl -H 1.1.1.1 -B zen.spamhaus.org bl.spamcop.net dnsbl.ahbl.org dnsbl.njabl.org dnsbl.sorbs.net virbl.dnsbl.bit.nl rbl.efnet.org phishing.rbl.msrbl.net 0spam.fusionzero.com list.dsbl.org multihop.dsbl.org unconfirmed.dsbl.org will-spam-for-food.eu.org blacklist.spambag.org blackholes.brainerd.net blackholes.uceb.org spamsources.dnsbl.info map.spam-rbl.com ns1.unsubscore.com psbl.surriel.com l2.spews.dnsbl.sorbs.net bl.csma.biz sbl.csma.biz dynablock.njabl.org no-more-funn.moensted.dk  ubl.unsubscore.com dnsbl-1.uceprotect.net dnsbl-2.uceprotect.net dnsbl-3.uceprotect.net spamguard.leadmon.net opm.blitzed.org bl.spamcannibal.org rbl.schulte.org dnsbl.ahbl.org virbl.dnsbl.bit.nl combined.rbl.msrbl.net
+            }
+    define service{
+            use                     generic-service
+    hostgroup_name  ex-cashub-servers
+            service_description     Ex RBL Status
+            check_command           check_bl
+            }

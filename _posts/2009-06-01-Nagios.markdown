@@ -4,130 +4,153 @@ title: Nagios
 ---
 
 /usr/local/nagios/bin/nagios -v /usr/local/nagios/etc/nagios.cfg
-==Install==
-http://nagios.sourceforge.net/docs/3_0/quickstart-ubuntu.html
-==Start script==
-When I did make the make the start script wwas missing, found one, a copy is in ~/nagios.
-==Mail notifications==
+
+### Install
+
+<http://nagios.sourceforge.net/docs/3_0/quickstart-ubuntu.html>
+
+### Start script
+
+When I did make the make the start script wwas missing, found one, a
+copy is in \~/nagios.
+
+### Mail notifications
+
 Ensure package mailx is installed.
 
 Setup exim to email to remote domains:
-<pre>dpkg-reconfigure exim4-config</pre>
-==Install nsclient++ for windows machines==
-Set NSC.ini to state the Nagios server to restrict what IPs can use it.
-<pre>
-nslicent++ /install
-</pre>
-Then start service
-==Exchange 2007 Monitoring==
-The Ex2007 services can be monitored with the following config:
-<pre>
-#Mailbox servers
-define service{
-        use                     generic-service
-hostgroup_name  ex-be-servers
-        service_description     Ex AD Topology
-        check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSExchangeADTopology
-        }
-define service{
-        use                     generic-service
-hostgroup_name  ex-be-servers
-        service_description     Ex IS
-        check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSExchangeIS
-        }
-define service{
-        use                     generic-service
-hostgroup_name  ex-be-servers
-        service_description     Ex Mail Submission
-        check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSExchangeMailSubmission
-        }
-define service{
-        use                     generic-service
-hostgroup_name  ex-be-servers
-        service_description     Ex Mailbox Assistants
-        check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSExchangeMailboxAssistants
-        }
-define service{
-        use                     generic-service
-hostgroup_name  ex-be-servers
-        service_description     Ex DB Replication
-        check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSExchangeRepl
-        }
-define service{
-        use                     generic-service
-hostgroup_name  ex-be-servers
-        service_description     Ex Search Indexing
-        check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSExchangeSearch
-        }
-define service{
-        use                     generic-service
-hostgroup_name  ex-be-servers
-        service_description     Ex Service Hosting
-        check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSExchangeServiceHost
-        }
-define service{
-        use                     generic-service
-hostgroup_name  ex-be-servers
-        service_description     Ex System Attendant
-        check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSExchangeSA
-        }
-define service{
-        use                     generic-service
-hostgroup_name  ex-be-servers
-        service_description     Ex Remote Transport Log Search
-        check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSExchangeTransportLogSearch
-        }
-define service{
-        use                     generic-service
-hostgroup_name  ex-be-servers
-        service_description     Ex DB Engine for Ex Search
-        check_command           check_nt!SERVICESTATE!-d SHOWALL -l msftesql-Exchange
-        }
 
-#CAS and Hub Transport servers
-define service{
-        use                     generic-service
-hostgroup_name  ex-cashub-servers
-        service_description     Ex AD Topology
-        check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSExchangeADTopology
-        }
-define service{
-        use                     generic-service
-hostgroup_name  ex-cashub-servers
-        service_description     Ex Anti-spam Update
-        check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSExchangeAntispamUpdate
-        }
-define service{
-        use                     generic-service
-hostgroup_name  ex-cashub-servers
-        service_description     Ex File Distribution
-        check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSExchangeFDS
-        }
-define service{
-        use                     generic-service
-hostgroup_name  ex-cashub-servers
-        service_description     Ex POP3
-        check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSExchangePOP3
-        }
-define service{
-        use                     generic-service
-hostgroup_name  ex-cashub-servers
-        service_description     Ex Service Hosting
-        check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSExchangeServiceHost
-        }
-define service{
-        use                     generic-service
-hostgroup_name  ex-cashub-servers
-        service_description     Ex Transport
-        check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSExchangeTransport
-        }
-define service{
-        use                     generic-service
-hostgroup_name  ex-cashub-servers
-        service_description     Ex Transport Log Search
-        check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSExchangeTransportLogSearch
-        }
-==RBL Status==
-The check_bl plugin allows monitoring of RBL status for your outbound relay servers.
-===Plugin installation===
-Download and extract http://bashton.com/downloads/nagios-check_bl-1.0.tar.gz
+    dpkg-reconfigure exim4-config
+
+### Install nsclient++ for windows machines
+
+Set NSC.ini to state the Nagios server to restrict what IPs can use it.
+
+    nslicent++ /install
+
+Then start service
+
+### Exchange 2007 Monitoring
+
+The Ex2007 services can be monitored with the following config:
+
+    #Mailbox servers
+    define service{
+            use                     generic-service
+    hostgroup_name  ex-be-servers
+            service_description     Ex AD Topology
+            check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSExchangeADTopology
+            }
+    define service{
+            use                     generic-service
+    hostgroup_name  ex-be-servers
+            service_description     Ex IS
+            check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSExchangeIS
+            }
+    define service{
+            use                     generic-service
+    hostgroup_name  ex-be-servers
+            service_description     Ex Mail Submission
+            check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSExchangeMailSubmission
+            }
+    define service{
+            use                     generic-service
+    hostgroup_name  ex-be-servers
+            service_description     Ex Mailbox Assistants
+            check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSExchangeMailboxAssistants
+            }
+    define service{
+            use                     generic-service
+    hostgroup_name  ex-be-servers
+            service_description     Ex DB Replication
+            check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSExchangeRepl
+            }
+    define service{
+            use                     generic-service
+    hostgroup_name  ex-be-servers
+            service_description     Ex Search Indexing
+            check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSExchangeSearch
+            }
+    define service{
+            use                     generic-service
+    hostgroup_name  ex-be-servers
+            service_description     Ex Service Hosting
+            check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSExchangeServiceHost
+            }
+    define service{
+            use                     generic-service
+    hostgroup_name  ex-be-servers
+            service_description     Ex System Attendant
+            check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSExchangeSA
+            }
+    define service{
+            use                     generic-service
+    hostgroup_name  ex-be-servers
+            service_description     Ex Remote Transport Log Search
+            check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSExchangeTransportLogSearch
+            }
+    define service{
+            use                     generic-service
+    hostgroup_name  ex-be-servers
+            service_description     Ex DB Engine for Ex Search
+            check_command           check_nt!SERVICESTATE!-d SHOWALL -l msftesql-Exchange
+            }
+
+    #CAS and Hub Transport servers
+    define service{
+            use                     generic-service
+    hostgroup_name  ex-cashub-servers
+            service_description     Ex AD Topology
+            check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSExchangeADTopology
+            }
+    define service{
+            use                     generic-service
+    hostgroup_name  ex-cashub-servers
+            service_description     Ex Anti-spam Update
+            check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSExchangeAntispamUpdate
+            }
+    define service{
+            use                     generic-service
+    hostgroup_name  ex-cashub-servers
+            service_description     Ex File Distribution
+            check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSExchangeFDS
+            }
+    define service{
+            use                     generic-service
+    hostgroup_name  ex-cashub-servers
+            service_description     Ex POP3
+            check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSExchangePOP3
+            }
+    define service{
+            use                     generic-service
+    hostgroup_name  ex-cashub-servers
+            service_description     Ex Service Hosting
+            check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSExchangeServiceHost
+            }
+    define service{
+            use                     generic-service
+    hostgroup_name  ex-cashub-servers
+            service_description     Ex Transport
+            check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSExchangeTransport
+            }
+    define service{
+            use                     generic-service
+    hostgroup_name  ex-cashub-servers
+            service_description     Ex Transport Log Search
+            check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSExchangeTransportLogSearch
+            }
+
+### RBL Status
+
+The check\_bl plugin allows monitoring of RBL status for your outbound
+relay servers.
+
+#### Plugin installation
+
+1.  Download and extract
+    <http://bashton.com/downloads/nagios-check_bl-1.0.tar.gz>
+2.  Copy check\_bl (perl script) to your Nagios plugins dir, usually
+    /usr/local/nagios/libexec
+3.  Install the NET::DNS module for perl, as otherwise the script will
+    be unable to perform the necessary DNS lookups. The package name
+    varies from distro to distro. On Ubuntu it is

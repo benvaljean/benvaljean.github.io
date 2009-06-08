@@ -211,7 +211,9 @@ relay servers.
     /usr/local/nagios/libexec
 3.  Install the NET::DNS module for perl, as otherwise the script will
     be unable to perform the necessary DNS lookups. The package name
-    varies from distro to distro. On Ubuntu it is libnet-dns-perl .
+    varies from distro to distro. On Ubuntu it is libnet-dns-perl . Try
+    <http://www.bioperl.org/wiki/Tutorial:Installing_Perl_modules> if
+    you are problems finding it.
 4.  Add the following config with your IP(S) to Nagios\' config:
 
 <!-- -->

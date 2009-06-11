@@ -156,6 +156,8 @@ htaccess](http://www.cyberciti.biz/faq/howto-setup-apache-password-protect-direc
     editor tutorial
 -   [Debian + exim4 + spamassassin + f-prot
     HOWTO](http://www.clues.ltd.uk/howto/debian-sa-fprot-HOWTO.html)
+-   [Monitoring user activity, via
+    snoopy](http://www.debian-administration.org/articles/88)
 
 #### NFS
 

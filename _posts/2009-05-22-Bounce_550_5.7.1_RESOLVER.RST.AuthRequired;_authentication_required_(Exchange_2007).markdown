@@ -13,18 +13,20 @@ SMTP/Hub Transport log:
 
 ### Cause
 
-The external recipient expectedly as no AD permissions and consequently
-does not have the necessary permissions to send an email to the
-distribution list.
+By default Exchange 2007 requires that a sender be authenticated before
+being able to successfully send to a distribution list. Consequently
+external users are unable to send emails to it.
 
 ### Resolution
 
-From the properties of the distribution list in Exchange AD: **Exchange
-General** tab, Un-tick **From authenticated users only**
+-   From the properties of the distribution list in Exchange AD:
+    **Exchange General** tab, Un-tick **From authenticated users only**
 
-From the properties of the distribution list in [Exchange Management
-Console](http://technet.microsoft.com/en-us/library/bb123762.aspx):
-**Mail-flow settings** tab, Message Delivery Restrictions, un-tick
-**Require that all senders are authenticated**.
+<!-- -->
+
+-   From the properties of the distribution list in [Exchange Management
+    Console](http://technet.microsoft.com/en-us/library/bb123762.aspx):
+    **Mail-flow settings** tab, Message Delivery Restrictions, un-tick
+    **Require that all senders are authenticated**.
 
 [Category:Exchange](Category:Exchange "wikilink")

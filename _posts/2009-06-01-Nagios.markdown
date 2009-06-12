@@ -240,11 +240,19 @@ enables you to assert functionality of sending & receiving emails.
 
 1.  Download the script:
     <http://www.monitoringexchange.org/cgi-bin/page.cgi?g=Detailed%2F1807.html;d=1>
-2.  Setup relevant auto-forwards for your acc and allow-relay rules if
-    required.
-3.  Install the MAIL::POP3Client module for perl, as otherwise the
+
+<!-- -->
+
+1.  Install the MAIL::POP3Client module for perl, as otherwise the
     scruipt will be unable to perform the necessary POP3 connections.
     The package name varies from distro to distro. On Ubuntu it is
     libmail-pop3client-perl.
-
-WIP
+2.  Install Dovecot pop3 server:
+    `sudo apt-get install dovecot-common dovecot-pop3d` It takes
+    users/passes from /etc/passwd .
+3.  Install Postfix MTA: `sudo apt-get install postfix`. Configure
+    through the /etc/postfix/main.cf file or use
+    `sudo dpkg-reconfigure postfix`. See
+    <https://help.ubuntu.com/community/Postfix>
+4.  Setup relevant auto-forwards for your acc and allow-relay rules if
+    required.

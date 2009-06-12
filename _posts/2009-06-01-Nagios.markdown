@@ -228,3 +228,23 @@ relay servers.
             service_description     Ex RBL Status
             check_command           check_bl
             }
+
+### End to end email checking
+
+Nagios can monitor end-to-end email functonality when used with a perl
+script. The script sends emails via SMTP and expects them to arrive in a
+defined POP3 email account. Using an external mail forward this script
+enables you to assert functionality of sending & receiving emails.
+
+#### Plugin installation
+
+1.  Download the script:
+    <http://www.monitoringexchange.org/cgi-bin/page.cgi?g=Detailed%2F1807.html;d=1>
+2.  Setup relevant auto-forwards for your acc and allow-relay rules if
+    required.
+3.  Install the MAIL::POP3Client module for perl, as otherwise the
+    scruipt will be unable to perform the necessary POP3 connections.
+    The package name varies from distro to distro. On Ubuntu it is
+    libmail-pop3client-perl.
+
+WIP

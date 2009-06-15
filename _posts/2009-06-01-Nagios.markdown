@@ -4,255 +4,228 @@ title: Nagios
 ---
 
 /usr/local/nagios/bin/nagios -v /usr/local/nagios/etc/nagios.cfg
-
-### Install
-
-<http://nagios.sourceforge.net/docs/3_0/quickstart-ubuntu.html>
-
-### Start script
-
-When I did make the make the start script wwas missing, found one, a
-copy is in \~/nagios.
-
-### Mail notifications
-
+==Install==
+http://nagios.sourceforge.net/docs/3_0/quickstart-ubuntu.html
+==Start script==
+When I did make the make the start script wwas missing, found one, a copy is in ~/nagios.
+==Mail notifications==
 Ensure package mailx is installed.
 
 Setup exim to email to remote domains:
-
-    dpkg-reconfigure exim4-config
-
-### Install nsclient++ for windows machines
-
+<pre>dpkg-reconfigure exim4-config</pre>
+==Install nsclient++ for windows machines==
 Set NSC.ini to state the Nagios server to restrict what IPs can use it.
-
-    nslicent++ /install
-
+<pre>
+nslicent++ /install
+</pre>
 Then start service
+==Exchange 2007 Monitoring==
+===Services===
+<pre>
+#Mailbox servers
+define service{
+        use                     generic-service
+hostgroup_name  ex-be-servers
+        service_description     Ex AD Topology
+        check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSExchangeADTopology
+        }
+define service{
+        use                     generic-service
+hostgroup_name  ex-be-servers
+        service_description     Ex IS
+        check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSExchangeIS
+        }
+define service{
+        use                     generic-service
+hostgroup_name  ex-be-servers
+        service_description     Ex Mail Submission
+        check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSExchangeMailSubmission
+        }
+define service{
+        use                     generic-service
+hostgroup_name  ex-be-servers
+        service_description     Ex Mailbox Assistants
+        check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSExchangeMailboxAssistants
+        }
+define service{
+        use                     generic-service
+hostgroup_name  ex-be-servers
+        service_description     Ex DB Replication
+        check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSExchangeRepl
+        }
+define service{
+        use                     generic-service
+hostgroup_name  ex-be-servers
+        service_description     Ex Search Indexing
+        check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSExchangeSearch
+        }
+define service{
+        use                     generic-service
+hostgroup_name  ex-be-servers
+        service_description     Ex Service Hosting
+        check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSExchangeServiceHost
+        }
+define service{
+        use                     generic-service
+hostgroup_name  ex-be-servers
+        service_description     Ex System Attendant
+        check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSExchangeSA
+        }
+define service{
+        use                     generic-service
+hostgroup_name  ex-be-servers
+        service_description     Ex Remote Transport Log Search
+        check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSExchangeTransportLogSearch
+        }
+define service{
+        use                     generic-service
+hostgroup_name  ex-be-servers
+        service_description     Ex DB Engine for Ex Search
+        check_command           check_nt!SERVICESTATE!-d SHOWALL -l msftesql-Exchange
+        }
 
-### Exchange 2007 Monitoring
+#CAS and Hub Transport servers
+define service{
+        use                     generic-service
+hostgroup_name  ex-cashub-servers
+        service_description     Ex AD Topology
+        check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSExchangeADTopology
+        }
+define service{
+        use                     generic-service
+hostgroup_name  ex-cashub-servers
+        service_description     Ex Anti-spam Update
+        check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSExchangeAntispamUpdate
+        }
+define service{
+        use                     generic-service
+hostgroup_name  ex-cashub-servers
+        service_description     Ex File Distribution
+        check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSExchangeFDS
+        }
+define service{
+        use                     generic-service
+hostgroup_name  ex-cashub-servers
+        service_description     Ex POP3
+        check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSExchangePOP3
+        }
+define service{
+        use                     generic-service
+hostgroup_name  ex-cashub-servers
+        service_description     Ex Service Hosting
+        check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSExchangeServiceHost
+        }
+define service{
+        use                     generic-service
+hostgroup_name  ex-cashub-servers
+        service_description     Ex Transport
+        check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSExchangeTransport
+        }
+define service{
+        use                     generic-service
+hostgroup_name  ex-cashub-servers
+        service_description     Ex Transport Log Search
+        check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSExchangeTransportLogSearch
+        }
+</pre>
+===Replication Health / Status===
+If SCR, LCR or CCR is deployed in your organisation its status can be checked through use of Nagios monitoring its WMI counter:
+<pre>
+define service{
+        use                     generic-service
+hostgroup_name  ex-be-servers
+        service_description     Ex SCR
+        check_command           check_nt!COUNTER!-l "\\\\.\\MSExchange Replication(_total)\\Failed","Replication failure status (0 = OK): %.f" -c 1
+        }
+</pre>
 
-#### Services
+==Exchange 2003 Monitoring==
+<pre>
+#ex2003 Servers
+define service{
+        use                     generic-service
+hostgroup_name  ex2003-servers
+        service_description     Ex IS
+        check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSExchangeIS
+        }
+define service{
+        use                     generic-service
+hostgroup_name  ex2003-servers
+        service_description     Ex WMI
+        check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSExchangeMGMT
+        }
+define service{
+        use                     generic-service
+hostgroup_name  ex2003-servers
+        service_description     Ex MTA Stacks
+        check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSExchangeMTA
+        }
+define service{
+        use                     generic-service
+hostgroup_name  ex2003-servers
+        service_description     Ex POP3
+        check_command           check_nt!SERVICESTATE!-d SHOWALL -l POP3Svc
+        }
+define service{
+        use                     generic-service
+hostgroup_name  ex2003-servers
+        service_description     Ex Routing Engine
+        check_command           check_nt!SERVICESTATE!-d SHOWALL -l RESvc
+        }
+define service{
+        use                     generic-service
+hostgroup_name  ex2003-servers
+        service_description     Ex System Attendant
+        check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSExchangeSA
+        }
+define service{
+        use                     generic-service
+hostgroup_name  ex2003-servers
+        service_description     SMTP
+        check_command           check_nt!SERVICESTATE!-d SHOWALL -l SMTPSVC
+        }
+</pre>
+==RBL Status==
+The check_bl plugin allows monitoring of RBL status for your outbound relay servers.
+===Plugin installation===
+#Download and extract http://bashton.com/downloads/nagios-check_bl-1.0.tar.gz
+#Copy check_bl (perl script) to your Nagios plugins dir, usually /usr/local/nagios/libexec
+#Install the NET::DNS module for perl, as otherwise the script will be unable to perform the necessary DNS lookups. The package name varies from distro to distro. On Ubuntu it is libnet-dns-perl . Try http://www.bioperl.org/wiki/Tutorial:Installing_Perl_modules if you are problems finding it.
+#Add the following config with your IP(S) to Nagios' config:
+<pre>
+define  command {
+        command_name    check_bl
+        command_line    $USER1$/check_bl -H 1.1.1.1 -B zen.spamhaus.org bl.spamcop.net dnsbl.ahbl.org dnsbl.njabl.org dnsbl.sorbs.net virbl.dnsbl.bit.nl rbl.efnet.org phishing.rbl.msrbl.net 0spam.fusionzero.com list.dsbl.org multihop.dsbl.org unconfirmed.dsbl.org will-spam-for-food.eu.org blacklist.spambag.org blackholes.brainerd.net blackholes.uceb.org spamsources.dnsbl.info map.spam-rbl.com ns1.unsubscore.com psbl.surriel.com l2.spews.dnsbl.sorbs.net bl.csma.biz sbl.csma.biz dynablock.njabl.org no-more-funn.moensted.dk  ubl.unsubscore.com dnsbl-1.uceprotect.net dnsbl-2.uceprotect.net dnsbl-3.uceprotect.net spamguard.leadmon.net opm.blitzed.org bl.spamcannibal.org rbl.schulte.org dnsbl.ahbl.org virbl.dnsbl.bit.nl combined.rbl.msrbl.net
+        }
+define service{
+        use                     generic-service
+hostgroup_name  ex-cashub-servers
+        service_description     Ex RBL Status
+        check_command           check_bl
+        }
+</pre>
+==End to end email checking==
+Nagios can monitor end-to-end email functonality when used with a perl script. The script sends emails via SMTP and expects them to arrive in a defined POP3 email account. Using an external mail forward this script enables you to assert functionality of sending & receiving emails.
+===Plugin installation===
+#Download the script: http://www.monitoringexchange.org/cgi-bin/page.cgi?g=Detailed%2F1807.html;d=1
 
-    #Mailbox servers
-    define service{
-            use                     generic-service
-    hostgroup_name  ex-be-servers
-            service_description     Ex AD Topology
-            check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSExchangeADTopology
-            }
-    define service{
-            use                     generic-service
-    hostgroup_name  ex-be-servers
-            service_description     Ex IS
-            check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSExchangeIS
-            }
-    define service{
-            use                     generic-service
-    hostgroup_name  ex-be-servers
-            service_description     Ex Mail Submission
-            check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSExchangeMailSubmission
-            }
-    define service{
-            use                     generic-service
-    hostgroup_name  ex-be-servers
-            service_description     Ex Mailbox Assistants
-            check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSExchangeMailboxAssistants
-            }
-    define service{
-            use                     generic-service
-    hostgroup_name  ex-be-servers
-            service_description     Ex DB Replication
-            check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSExchangeRepl
-            }
-    define service{
-            use                     generic-service
-    hostgroup_name  ex-be-servers
-            service_description     Ex Search Indexing
-            check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSExchangeSearch
-            }
-    define service{
-            use                     generic-service
-    hostgroup_name  ex-be-servers
-            service_description     Ex Service Hosting
-            check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSExchangeServiceHost
-            }
-    define service{
-            use                     generic-service
-    hostgroup_name  ex-be-servers
-            service_description     Ex System Attendant
-            check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSExchangeSA
-            }
-    define service{
-            use                     generic-service
-    hostgroup_name  ex-be-servers
-            service_description     Ex Remote Transport Log Search
-            check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSExchangeTransportLogSearch
-            }
-    define service{
-            use                     generic-service
-    hostgroup_name  ex-be-servers
-            service_description     Ex DB Engine for Ex Search
-            check_command           check_nt!SERVICESTATE!-d SHOWALL -l msftesql-Exchange
-            }
-
-    #CAS and Hub Transport servers
-    define service{
-            use                     generic-service
-    hostgroup_name  ex-cashub-servers
-            service_description     Ex AD Topology
-            check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSExchangeADTopology
-            }
-    define service{
-            use                     generic-service
-    hostgroup_name  ex-cashub-servers
-            service_description     Ex Anti-spam Update
-            check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSExchangeAntispamUpdate
-            }
-    define service{
-            use                     generic-service
-    hostgroup_name  ex-cashub-servers
-            service_description     Ex File Distribution
-            check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSExchangeFDS
-            }
-    define service{
-            use                     generic-service
-    hostgroup_name  ex-cashub-servers
-            service_description     Ex POP3
-            check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSExchangePOP3
-            }
-    define service{
-            use                     generic-service
-    hostgroup_name  ex-cashub-servers
-            service_description     Ex Service Hosting
-            check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSExchangeServiceHost
-            }
-    define service{
-            use                     generic-service
-    hostgroup_name  ex-cashub-servers
-            service_description     Ex Transport
-            check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSExchangeTransport
-            }
-    define service{
-            use                     generic-service
-    hostgroup_name  ex-cashub-servers
-            service_description     Ex Transport Log Search
-            check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSExchangeTransportLogSearch
-            }
-
-#### Replication Health / Status
-
-If SCR, LCR or CCR is deployed in your organisation its status can be
-checked through use of Nagios monitoring its WMI counter:
-
-    define service{
-            use                     generic-service
-    hostgroup_name  ex-be-servers
-            service_description     Ex SCR
-            check_command           check_nt!COUNTER!-l "\\\\.\\MSExchange Replication(_total)\\Failed","Replication failure status (0 = OK): %.f" -c 1
-            }
-
-### Exchange 2003 Monitoring
-
-    #ex2003 Servers
-    define service{
-            use                     generic-service
-    hostgroup_name  ex2003-servers
-            service_description     Ex IS
-            check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSExchangeIS
-            }
-    define service{
-            use                     generic-service
-    hostgroup_name  ex2003-servers
-            service_description     Ex WMI
-            check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSExchangeMGMT
-            }
-    define service{
-            use                     generic-service
-    hostgroup_name  ex2003-servers
-            service_description     Ex MTA Stacks
-            check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSExchangeMTA
-            }
-    define service{
-            use                     generic-service
-    hostgroup_name  ex2003-servers
-            service_description     Ex POP3
-            check_command           check_nt!SERVICESTATE!-d SHOWALL -l POP3Svc
-            }
-    define service{
-            use                     generic-service
-    hostgroup_name  ex2003-servers
-            service_description     Ex Routing Engine
-            check_command           check_nt!SERVICESTATE!-d SHOWALL -l RESvc
-            }
-    define service{
-            use                     generic-service
-    hostgroup_name  ex2003-servers
-            service_description     Ex System Attendant
-            check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSExchangeSA
-            }
-    define service{
-            use                     generic-service
-    hostgroup_name  ex2003-servers
-            service_description     SMTP
-            check_command           check_nt!SERVICESTATE!-d SHOWALL -l SMTPSVC
-            }
-
-### RBL Status
-
-The check\_bl plugin allows monitoring of RBL status for your outbound
-relay servers.
-
-#### Plugin installation
-
-1.  Download and extract
-    <http://bashton.com/downloads/nagios-check_bl-1.0.tar.gz>
-2.  Copy check\_bl (perl script) to your Nagios plugins dir, usually
-    /usr/local/nagios/libexec
-3.  Install the NET::DNS module for perl, as otherwise the script will
-    be unable to perform the necessary DNS lookups. The package name
-    varies from distro to distro. On Ubuntu it is libnet-dns-perl . Try
-    <http://www.bioperl.org/wiki/Tutorial:Installing_Perl_modules> if
-    you are problems finding it.
-4.  Add the following config with your IP(S) to Nagios\' config:
-
-<!-- -->
-
-    define  command {
-            command_name    check_bl
-            command_line    $USER1$/check_bl -H 1.1.1.1 -B zen.spamhaus.org bl.spamcop.net dnsbl.ahbl.org dnsbl.njabl.org dnsbl.sorbs.net virbl.dnsbl.bit.nl rbl.efnet.org phishing.rbl.msrbl.net 0spam.fusionzero.com list.dsbl.org multihop.dsbl.org unconfirmed.dsbl.org will-spam-for-food.eu.org blacklist.spambag.org blackholes.brainerd.net blackholes.uceb.org spamsources.dnsbl.info map.spam-rbl.com ns1.unsubscore.com psbl.surriel.com l2.spews.dnsbl.sorbs.net bl.csma.biz sbl.csma.biz dynablock.njabl.org no-more-funn.moensted.dk  ubl.unsubscore.com dnsbl-1.uceprotect.net dnsbl-2.uceprotect.net dnsbl-3.uceprotect.net spamguard.leadmon.net opm.blitzed.org bl.spamcannibal.org rbl.schulte.org dnsbl.ahbl.org virbl.dnsbl.bit.nl combined.rbl.msrbl.net
-            }
-    define service{
-            use                     generic-service
-    hostgroup_name  ex-cashub-servers
-            service_description     Ex RBL Status
-            check_command           check_bl
-            }
-
-### End to end email checking
-
-Nagios can monitor end-to-end email functonality when used with a perl
-script. The script sends emails via SMTP and expects them to arrive in a
-defined POP3 email account. Using an external mail forward this script
-enables you to assert functionality of sending & receiving emails.
-
-#### Plugin installation
-
-1.  Download the script:
-    <http://www.monitoringexchange.org/cgi-bin/page.cgi?g=Detailed%2F1807.html;d=1>
-
-<!-- -->
-
-1.  Install the MAIL::POP3Client module for perl, as otherwise the
-    scruipt will be unable to perform the necessary POP3 connections.
-    The package name varies from distro to distro. On Ubuntu it is
-    libmail-pop3client-perl.
-2.  Install Dovecot pop3 server:
-    `sudo apt-get install dovecot-common dovecot-pop3d` It takes
-    users/passes from /etc/passwd .
-3.  Install Postfix MTA: `sudo apt-get install postfix`. Configure
-    through the /etc/postfix/main.cf file or use
-    `sudo dpkg-reconfigure postfix`. See
-    <https://help.ubuntu.com/community/Postfix>
-4.  Setup relevant auto-forwards for your acc and allow-relay rules if
-    required.
+#Install the MAIL::POP3Client module for perl, as otherwise the script will be unable to perform the necessary POP3 connections. The package name varies from distro to distro. On Ubuntu it is libmail-pop3client-perl.
+#Install Dovecot pop3 server: <tt>sudo apt-get install dovecot-common dovecot-pop3d</tt>  It takes users/passes from /etc/passwd .
+#Install Postfix MTA: <tt>sudo apt-get install postfix</tt>. Configure through the /etc/postfix/main.cf file or use <tt>sudo dpkg-reconfigure postfix</tt>. See https://help.ubuntu.com/community/Postfix
+#Setup relevant auto-forwards for your acc and allow-relay rules if required.
+#Add the follwing Nagios config, adjusting for your setup as required:
+<pre>
+define service{
+        use                     generic-service
+host_name  Email_server
+        service_description     Email Send/Receieve Test
+        check_command           check_email
+        }
+define command{
+command_name check_email
+command_line $USER1$/check_email.pl -poph=127.0.0.1 -popu=emailtest -pa=pop3password -smtph=FqdnOfRealyserver -from=emailtest@nagiosserver -to=emailtest@emailserver.co.uk -pendc=2 -lostc=0 -statfile=/stat/statfile
+}
+Notes:
+*The scrupt requires access to write to a temporary 'stat' file. Nagios in my setup at least is very particular with permissions. It is best to give it its own root folder as seen above or place it in /tmp.
+*The script can also server as a check_tcp for your relay server as if it cannot connect it returns critical to Nagios.
+*If using Exchange the auto forward rule will need to be set using AD (Exchange 2003) or the [http://technet.microsoft.com/en-us/library/bb123762.aspx EMC] (Exchange 2007).

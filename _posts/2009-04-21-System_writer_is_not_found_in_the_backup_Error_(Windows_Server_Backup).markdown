@@ -24,15 +24,23 @@ viagra soft
 <http://generic-kamagra-soft.gokasey.com/generico-viagra.html> generico
 viagra
 
-### Resolution
-
-1\. Issues with cryptographic can onrmally be resolved by restarting the
-service. If this does not resolve the issue look for entries in the
-event log when the service was restarted.\
-2. The correct permissions for %windir%\\\\winsxs\\\\filemaps are:
-
--   Local administrators, or Domain administrators if a DC: Owner,
-    Read&exec, List folder, Read
--   SYSTEM: Permissions as above excluding Owner
--   Local Users, or Domain Users (may not be required): As above
--   TrustedInstaller: Full Control
+Great discounts:
+<http://cheap-kamagra.gokasey.com/cheap-kamagra-soft.html> cheap kamagra
+soft <http://kamagra.gokasey.com/libero-viagra-soft.html> libero viagra
+soft <http://levitra.gokasey.com/frei-viagra-soft.html> frei viagra soft
+<http://buy-viagra-soft.gokasey.com/comprar-levitra.html> comprar
+levitra <http://generic-cialis.gokasey.com/generico-kamagra.html>
+generico kamagra
+<http://buy-cialis-soft.gokasey.com/acheter-kamagra-oral-jelly.html>
+acheter kamagra oral jelly
+<http://cheap-kamagra.gokasey.com/billig-levitra.html> billig levitra
+<http://generic-cialis.gokasey.com/generika-viagra-soft.html> generika
+viagra soft <http://levitra.gokasey.com/free-viagra.html> free viagra
+<http://viagra-soft.gokasey.com/gratuit-cialis-soft.html> gratuit cialis
+soft <http://kamagra.gokasey.com/libre-kamagra-soft.html> libre kamagra
+soft <http://buy-viagra-soft.gokasey.com/acheter-viagra-soft.html>
+acheter viagra soft
+<http://cheap-kamagra.gokasey.com/cheap-viagra-soft.html> cheap viagra
+soft <http://buy-viagra-soft.gokasey.com/acheter-viagra.html> acheter
+viagra <http://levitra.gokasey.com/libero-cialis-soft.html> libero
+cialis soft

@@ -3,11 +3,10 @@ layout: post
 title: Nagios
 ---
 
-/usr/local/nagios/bin/nagios -v /usr/local/nagios/etc/nagios.cfg
 ==Install==
 http://nagios.sourceforge.net/docs/3_0/quickstart-ubuntu.html
-==Start script==
-When I did make the make the start script wwas missing, found one, a copy is in ~/nagios.
+==Verify config==
+/usr/local/nagios/bin/nagios -v /usr/local/nagios/etc/nagios.cfg
 ==Mail notifications==
 Ensure package mailx is installed.
 

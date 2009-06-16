@@ -1,0 +1,26 @@
+---
+layout: post 
+title: Rdiff
+---
+
+Rdiff provides rsync functonality with incremental transfer natively.
+Changes to files are stored in diff files resulting in restorations of
+files from x days ago possible.
+
+### Setup on Linux
+
+Rdiff was install on Ubuntu.
+
+-   Ensure Python 2.2+ is installed
+-   Install packages python-dev and librsync-dev are installed.
+-   Download and extract the latest version:
+    <http://rdiff-backup.nongnu.org/index.html>
+-   From the directory type `sudo python setup.py install`
+
+### Setup on Windows
+
+-   Download and extract the latest version:
+    <http://rdiff-backup.nongnu.org/index.html>
+-   Download and extract the Visual C++ dlls into the same folder that
+    rdiff-backup.exe resides in:
+    <http://download.savannah.gnu.org/releases/rdiff-backup/Microsoft.VC90.zip>

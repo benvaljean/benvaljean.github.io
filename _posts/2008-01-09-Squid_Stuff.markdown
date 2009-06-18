@@ -59,3 +59,7 @@ Access](http://wiki.squid-cache.org/ConfigExamples/SquidAndOutlookWebAccess)
 
 Exchange needs to be configured to allow a Front-end server to handle
 the SSL: <http://technet.microsoft.com/en-us/library/bb124604.aspx>
+
+### Removing objects from the cache
+
+squidclient -p 80 -m PURGE <http://fullurl>

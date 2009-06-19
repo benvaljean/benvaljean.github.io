@@ -3,28 +3,54 @@ layout: post
 title: System writer is not found in the backup Error (Windows Server Backup)
 ---
 
-Acomplia is used in the treatment of obesity and related conditions.
-<http://www.thelanternjack.com/buy-generic-propecia-online.htm> propecia
-without prescription
-<http://www.art-du-bureau.com/buy-accutane-online.htm> generic accutane
-<http://www.art-du-bureau.com/buy-prozac-online.htm> prozac without
-prescription <http://www.art-du-bureau.com/buy-cialis-online.htm> cialis
-online <http://www.magneticgift.com/> 999 silver jewellery
-<http://www.thelanternjack.com/buy-generic-paxil-online.htm> buy cheap
-paxil online <http://www.art-du-bureau.com/buy-zithromax-online.htm> buy
-generic zithromax
-<http://www.rockyshoresresort.com/buy-generic-propecia-online.htm>
-propecia without prescription <http://www.magneticgift.com/> buy jewelry
-<http://www.rockyshoresresort.com/buy-generic-paxil-online.htm> buy
-generic paxil
+### Symptoms
 
-gjndecjt, <http://www.bdc-forum.it/member.php?u=16354> viagra italia,
-mjorrjob, <http://riereta.net/moodle/user/view.php?id=4553&course=1>
-cialis, iayxvcyj,
-<http://www.hardwareluxx.de/community/member.php?u=114706> cialis
-generika, icnipnsd,
-<http://gamesurf.tiscali.it/forum/member.php?u=38028> cialis acquisto,
-lykycjzp,
+When attempting to perform a system state backup using Windows Server
+Backup in Server 2008 the following error can occur:
+
+    C:\\Users\\administrator>wbadmin start systemstatebackup -backuptarget:g:
+    wbadmin 1.0 - Backup command-line tool
+    (C) Copyright 2004 Microsoft Corp.
+
+    Starting System State Backup [21/04/2009 11:04]
+    Retrieving volume information...
+
+    This would backup the system state from volume(s) Local Disk(C:) to g:.
+    Do you want to start the backup operation?
+    [Y] Yes [N] No y
+
+    Creating the shadow copy of volumes requested for backup.
+
+    System writer is not found in the backup.
+
+Other symptoms can include the following entry in the event log:
+
+    Log Name:      Application
+    Source:        Microsoft-Windows-CAPI2
+    Date:          21/04/2009 06:00:02
+    Event ID:      513
+    Task Category: None
+    Level:         Error
+    Keywords:      Classic
+    User:          N/A
+    Computer:      DC2.company.local
+    Description:
+    Cryptographic Services failed while processing the OnIdentity() call in the System Writer Object.
+
+    Details:
+    AddCoreCsiFiles : BeginFileEnumeration() failed.
+
+    System Error:
+    Access is denied.
+
+### Causes
+
+Any of the following:
+
+1.  The cryptographic service is failing, a dependancy of the VSS System
+    Writer entry which Windows Server Backup uses to backup the data. If
+    this entry is missing the data cannot be read.
+2.  Incorrect permissions on or within: %windir%\\\\winsxs\\\\filemaps
 
 ### Resolution
 

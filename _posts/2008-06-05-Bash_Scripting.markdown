@@ -13,7 +13,7 @@ to pipe it into a command or an environment variable:
 
     ifconfig|grep "inet addr:"|grep -v "127.0.0.1"|cut -d: -f2|awk '{ print $1}'
 
-### Favourite Resources
+### Favorite Resources
 
 [BASH for beginners
 book](http://books.google.co.uk/books?hl=en&id=OztsPBFGhDIC&dq=BASH&printsec=frontcover&source=web&ots=p_MixNXpzD&sig=9y_nSRxEbj9jU4HJUMsAO7l-3Y0)\

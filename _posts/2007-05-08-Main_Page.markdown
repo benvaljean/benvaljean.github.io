@@ -55,8 +55,11 @@ a list of [useful sites](Useful_Sites "wikilink").
 
 ### Linux
 
+-   [Linux tricks](Linux_tricks "wikilink")
 -   [Open files (Linux)](Open_files_(Linux) "wikilink")
 -   [BASH Scripting](BASH_Scripting "wikilink")
+-   [SVN for /etc](SVN_for_/etc "wikilink")
+-   [Vi](Vi "wikilink")
 
 ### Microsoft Office Troubleshooting
 

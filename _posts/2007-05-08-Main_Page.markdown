@@ -56,9 +56,10 @@ a list of [useful sites](Useful_Sites "wikilink").
 ### Linux
 
 -   [Linux Tricks](Linux_Tricks "wikilink")
--   [Open files (Linux)](Open_files_(Linux) "wikilink")
+-   [Open file handling](Open_file_handling_(Linux) "wikilink") List
+    open files by process and set system and process limits
 -   [BASH Scripting](BASH_Scripting "wikilink")
--   [SVN for /etc](SVN_for_/etc "wikilink")
+-   [SVN for /etc](SVN_for_/etc "wikilink") Version control your /etc
 -   [Vi](Vi "wikilink")
 
 ### Microsoft Office Troubleshooting

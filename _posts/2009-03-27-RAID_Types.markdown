@@ -137,6 +137,8 @@ usually dictated by the size of the drives themselves, since the
 hardware usually does the sparing in and out of the set. A 146 GB drive
 takes longer to rebuild than a 73 GB drive.
 
+See Also: <http://www.pcguide.com/ref/hdd/perf/raid/levels/single.htm>
+
 ### Exchange 2007 RAID Discussion
 
 *Taken from

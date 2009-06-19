@@ -24,11 +24,11 @@ This creates an SVN repository /svn/etc with the working copy being /etc
 itself. Edit files as would be done normally and \'commit\' them to the
 repository to allow them to be version-controlled:
 
-    s svn commit file
+    sudo svn commit file
 
 To revert a file back to a previous revision for instance:
 
-    s svn update -r 2 hosts
+    sudo svn update -r 2 hosts
 
 ### See Also
 

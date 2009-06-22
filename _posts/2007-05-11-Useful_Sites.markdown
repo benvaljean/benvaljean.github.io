@@ -184,6 +184,7 @@ htaccess](http://www.cyberciti.biz/faq/howto-setup-apache-password-protect-direc
 -   [Apache configuration
     notes](http://www.keithjbrown.co.uk/vworks/unix/apache.php)
 -   [OWA Apache2 Reverse proxy](http://3cx.org/item/46)
+-   <http://www.addedbytes.com/apache/url-rewriting-for-beginners/>
 -   [Force the use of a particular hostname in preference of another
     that points to the same site
     (Apache)](http://www.dghartung.com/docs/index.php/Rewrite_Rules_For_Apache)

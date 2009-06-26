@@ -19,3 +19,11 @@ Search for packages that contain a certain file
 Delete everything older than 7 days:
 
     find /directoryname -type f -mtime +7 -exec rm {} \\;
+
+Search text within files and print the lines:
+
+    find /dir -type f -exec grep "textinfile" {} \\; -print
+
+Search text within files and print only the filenames:
+
+    find /dir -type f -print | xargs grep -li "textinfile"

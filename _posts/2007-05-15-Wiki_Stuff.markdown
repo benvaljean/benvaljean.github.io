@@ -259,3 +259,9 @@ Images in mediawiki:
 Converter](http://people.fas.harvard.edu/~sdouglas/table.cgi) Also works
 in any tab that generates tabs between the cells in copied text - such
 as Opera
+
+### Reset user pass
+
+change to /w/maintenance and use changePassword.php\
+from the shell: php changePassword.php \--user=someuser
+\--password=somepass

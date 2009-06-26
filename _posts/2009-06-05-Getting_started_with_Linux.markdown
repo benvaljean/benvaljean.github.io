@@ -7,10 +7,15 @@ Copy all files inc subdirs:
 
     cp -a /usr/local/foo/* /var/temp/bar
 
-Find files:
+Find files with indexer:
 
     updatedb
     locate filename
+
+Find files without indexer:
+
+    find /dir -name filename
+    find /dir -name '*part of file name*'
 
 Search for packages that contain a certain file
 

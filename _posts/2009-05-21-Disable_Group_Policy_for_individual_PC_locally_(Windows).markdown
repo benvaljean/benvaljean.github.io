@@ -5,7 +5,7 @@ title: Disable Group Policy for individual PC locally (Windows)
 
 If there is a scenario where it is required to disable the loading of
 group policy objects for an individual machine/PC without moving the
-computer account, it is pissible to do so locally from the PC.
+computer account, it is possible to do so locally from the PC.
 
 ### Method 1
 

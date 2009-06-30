@@ -10,8 +10,7 @@ Roger Rabbit apart from a few stupid pictures?\"* \-- Chris, November
 Yes, the domain makes no sense. Originally Rogerrabbit.net was only a
 personal site, I put it online and its links found their way onto other
 websites and it slowly because a \'proper\' website, with \~2000 unique
-hits per month nowadays. I am now in a scenario where I am concerned I
-would loose Google-rankings should I change the domain. If anyone has
-any expert-information or experience on this or has any other
-suggestions please [contact
-me](http://mailhide.recaptcha.net/d?k=01Jcj-ayYQB0GU64TRohITgw==&c=CxETQcS6ISjM8VhhAdiGhkOfBYFEjCKrnhQJscsUW9o=).
+hits per month nowadays. Initially Rogerrabbit.net was served from an
+IBM laptop sitting at my feet next to my PC. the plan is to turn
+www.rogerrabbit.net/wiki into something more appropriate like
+ben.goodacre.name/tech but like everything else I do not have the time.

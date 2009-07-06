@@ -1,0 +1,6 @@
+---
+layout: post 
+title: Fun stuff
+---
+
+1.  REDIRECT [Fun Stuff](Fun_Stuff "wikilink")

@@ -25,6 +25,8 @@ non-technical user.
     Add-IPBlockListProvider -Name psbl.surriel.com -LookupDomain psbl.surriel.com -AnyMatch $True -Enabled $True -RejectionResponse "An outbound email system IP address from your company is blacklisted at http://psbl.surriel.com . Company ABC has no control over this RBL - Registered Block List."
     Add-IPBlockListProvider -Name ubl.unsubscore.com -LookupDomain ubl.unsubscore.com -AnyMatch $True -Enabled $True -RejectionResponse "An outbound email system IP address from your company is blacklisted at http://www.lashback.com/ubl.htm . Company ABC has no control over this RBL - Registered Block List."
 
+Remember to ammend \"Company ABC\" to match your comapny!
+
 ### See Also
 
 [Add-IPBlockListProvider
@@ -35,4 +37,5 @@ directory](http://www.powershellcommunity.org/Directories/Cmdlets.aspx)
 
 [Multi RBL check](http://www.anti-abuse.org/multi-rbl-check/)
 
-[Nagios](Nagios "wikilink")
+[Monitor the status of RBL listings for a specific IP address using
+Nagios](Nagios#RBL_Status "wikilink")

@@ -109,6 +109,8 @@ a list of [useful sites](Useful_Sites "wikilink").
     (Exchange 2007)](Get_Last_Logon_Time,_Last_Logoff_time,_Mailbox_size_and_Item_Count_(Exchange_2007) "wikilink")
 -   [Bounce 550 5.7.1 RESOLVER.RST.AuthRequired; authentication required
     (Exchange)](Bounce_550_5.7.1_RESOLVER.RST.AuthRequired;_authentication_required_(Exchange) "wikilink")
+-   [Adding Registered Block List (RBL) checking in Exchange
+    2007](Adding_Registered_Block_List_(RBL)_checking_in_Exchange_2007 "wikilink")
 
 ### Microsoft SQL Server
 

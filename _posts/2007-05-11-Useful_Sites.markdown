@@ -52,6 +52,8 @@ Good for when you have a service hanging under \'starting\' or
     holders](http://www.petri.co.il/determining_fsmo_role_holders.htm)
 -   [FSMO
     Roles](http://www.windowsdevcenter.com/pub/a/windows/2004/06/15/fsmo.html)
+-   [Recovering post a failed DC
+    demotion](http://articles.techrepublic.com.com/5100-10878_11-5031938.html?tag=btxcsim)
 
 ### IIS and SQL Server Related
 

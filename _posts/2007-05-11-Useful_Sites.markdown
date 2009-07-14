@@ -43,7 +43,9 @@ page](http://www.ircache.net/cgi-bin/cacheability.py)\
 [ITIdiots.com](http://www.itidiots.com/content/category/7/23/67/) Great
 site\
 [How to debug Windows services](http://support.microsoft.com/kb/Q824344)
-Good for when you have a service hanging under \'starting\'.\
+Good for when you have a service hanging under \'starting\' or
+\'stopping\'.\
+[HEX Colour chart](http://www.draac.com/hexchart.html)\
 ==Server 2003 / 2008 Related==
 
 -   [Ascertain FSMO role

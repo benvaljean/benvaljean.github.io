@@ -332,6 +332,8 @@ Hide files inside JPG/BMP etc
 
 ### Registry Related
 
+[Registry](Registry "wikilink")
+
 [Internet Explorer URL Action and Advanced Security Settings in Group
 Policy](http://technet2.microsoft.com/windowsserver/en/library/c07587ec-4a60-4bca-8508-29a4296b72121033.mspx?mfr=true)
 

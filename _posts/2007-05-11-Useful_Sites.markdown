@@ -46,7 +46,7 @@ site\
 Good for when you have a service hanging under \'starting\' or
 \'stopping\'.\
 [HEX Colour chart](http://www.draac.com/hexchart.html)\
-==Server 2003 / 2008 Related==
+==Windows Server 2003 / 2008==
 
 -   [Ascertain FSMO role
     holders](http://www.petri.co.il/determining_fsmo_role_holders.htm)

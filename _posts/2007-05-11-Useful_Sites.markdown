@@ -55,7 +55,7 @@ Good for when you have a service hanging under \'starting\' or
 -   [Recovering post a failed DC
     demotion](http://articles.techrepublic.com.com/5100-10878_11-5031938.html?tag=btxcsim)
 
-### IIS and SQL Server Related
+### IIS and SQL Server
 
 -   [How to access SQL Server in Active Server
     Pages](http://support.microsoft.com/kb/169377)

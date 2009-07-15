@@ -184,7 +184,7 @@ htaccess](http://www.cyberciti.biz/faq/howto-setup-apache-password-protect-direc
     Reference](http://www.isc.org/sw/bind/arm93/Bv9ARM.ch06.html) Very
     concise
 
-### Apache Related
+### Apache
 
 -   [Apache configuration
     notes](http://www.keithjbrown.co.uk/vworks/unix/apache.php)

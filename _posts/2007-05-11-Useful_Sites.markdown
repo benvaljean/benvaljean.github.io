@@ -346,7 +346,7 @@ Policy](http://technet2.microsoft.com/windowsserver/en/library/c07587ec-4a60-4bc
 -   [Toyota Nation](http://www.toyotanation.com)
 -   [Toyota Ownner Club](http://toyotaownersclub.com/forums)
 
-### Not IT
+### Other Stuff
 
 [Escape!](http://members.iinet.net.au/~pontipak/redsquare.html)
 

@@ -10,7 +10,7 @@ When trying to uninstall Exchange 2003 the following error can appear:
     One or more users currently use a mailbox store on this server
 
 This can occur even if there are no mailboxes on the server, or even if
-the mailbox stire itself is no longer present.
+the mailbox store itself is no longer present.
 
 ### Cause
 
@@ -41,5 +41,8 @@ From a machine that has Exchange AD installed:
 
 [The ADSI Edit
 Utility](http://windowsitpro.com/article/articleid/19626/the-adsi-edit-utility.html)
+
 \[<http://technet.microsoft.com/en-us/library/bb124152(EXCHG.65>).aspx
 Using ADSI Edit to Edit Active Directory Attributes\]
+
+[Category:Exchange](Category:Exchange "wikilink")

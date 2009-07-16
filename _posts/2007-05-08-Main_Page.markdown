@@ -111,6 +111,9 @@ a list of [useful sites](Useful_Sites "wikilink").
     (Exchange)](Bounce_550_5.7.1_RESOLVER.RST.AuthRequired;_authentication_required_(Exchange) "wikilink")
 -   [Adding Registered Block List (RBL) checking in Exchange
     2007](Adding_Registered_Block_List_(RBL)_checking_in_Exchange_2007 "wikilink")
+-   [One or more users currently use a mailbox store on this server
+    Error
+    (Exchange 2003)](One_or_more_users_currently_use_a_mailbox_store_on_this_server_Error_(Exchange_2003) "wikilink")
 
 ### Microsoft SQL Server
 

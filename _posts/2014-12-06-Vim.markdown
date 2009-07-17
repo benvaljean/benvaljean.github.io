@@ -26,7 +26,7 @@ of the file.
 
 #### Goto line number 20
 
-:   20
+    :20
 
 #### Cut/Delete a whole line
 

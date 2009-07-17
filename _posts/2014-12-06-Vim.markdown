@@ -24,6 +24,10 @@ of the file.
 
     :set nonumber
 
+#### Goto line number 20
+
+:   20
+
 #### Cut/Delete a whole line
 
     dd

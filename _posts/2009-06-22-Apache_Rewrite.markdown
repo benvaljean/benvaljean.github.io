@@ -17,8 +17,8 @@ Redirect can be used:
     RewriteCond %{HTTPS} off
     RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
 
-This works great with Apache but not ISAPI\_Rewrite for some reason, the
-following must be used:
+This works great with Apache but not ISAPI\_Rewrite, the following must
+be used:
 
     RewriteCond  %HTTPS (?!on).*
     RewriteCond Host: (.*)

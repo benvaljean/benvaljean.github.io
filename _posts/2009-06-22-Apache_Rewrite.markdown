@@ -44,3 +44,9 @@ The following will allow <http://www.whatever.com/car_info_v4_5.php> to
 be accessed via <http://www.whatever.com/cars/>
 
     RewriteRule    ^cars/?$ car_info_v4_5.php [NC,L]
+
+### See Also
+
+[Rewrite on IIS](Rewrite_on_IIS_that_actually_works "wikilink")
+
+[Category:Windows](Category:Windows "wikilink")

@@ -35,3 +35,5 @@ Apache needs to be restarted.
 
 [Apache SSL Cert
 setup](http://www.digicert.com/ssl-certificate-installation-apache-ensim.htm)
+
+[Category:Web](Category:Web "wikilink")

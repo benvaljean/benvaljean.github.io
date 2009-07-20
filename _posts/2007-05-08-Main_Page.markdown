@@ -128,6 +128,8 @@ a list of [useful sites](Useful_Sites "wikilink").
 
 -   [SSL Certificates with Globalsign on
     Firefox](SSL_Certificates_with_Globalsign_on_Firefox "wikilink")
+-   [Rewrite on IIS that actually
+    works](Rewrite_on_IIS_that_actually_works "wikilink")
 
 ### MySQL
 

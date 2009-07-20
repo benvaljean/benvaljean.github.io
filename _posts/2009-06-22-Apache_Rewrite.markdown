@@ -49,4 +49,4 @@ be accessed via <http://www.whatever.com/cars/>
 
 [Rewrite on IIS](Rewrite_on_IIS_that_actually_works "wikilink")
 
-[Category:Windows](Category:Windows "wikilink")
+[Category:Web](Category:Web "wikilink")

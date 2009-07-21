@@ -69,6 +69,8 @@ a list of [useful sites](Useful_Sites "wikilink").
 -   [Rewrite on IIS that actually
     works](Rewrite_on_IIS_that_actually_works "wikilink")
 -   [Apache Rewrite](Apache_Rewrite "wikilink")
+-   [SSL Cert Format
+    converter](https://www.sslshopper.com/ssl-converter.html)
 
 ### Microsoft Exchange
 

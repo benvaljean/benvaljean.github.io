@@ -6,7 +6,7 @@ title: Nagios
 ### Install
 
 A quick dirty method of installation on Debian based systems, incluidng
-Ubunti is to simply type: `sudo apt-get install nagios` . However the
+Ubuntu is to simply type: `sudo apt-get install nagios` . However the
 package used could be out of date. It is easy to complile Nagios from
 source using the latest version:
 <http://nagios.sourceforge.net/docs/3_0/quickstart-ubuntu.html>

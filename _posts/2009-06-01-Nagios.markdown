@@ -312,7 +312,7 @@ Notes:
     `apt-cache search Date::Manip` .
 3.  Install whois if not present on your system.
 4.  Append this command config to your
-    /usr/local/nagios/etc/commands.cfg:
+    /usr/local/nagios/etc/objects/commands.cfg:
 
 <!-- -->
 
@@ -332,4 +332,39 @@ The command should then be referenced in a service:
             host_name       Domains-Expiration
             service_description domain.com
             check_command check_whois!domain.com
+    }
+
+### LDAP Monitoring
+
+This can be used for any LDAP service including Windows Domain
+Controllers and of course OpenLDAP. The plugin cannot check Windows
+Domain Controllers when using login credentials as Windows will only
+accept credentials over SSL.
+
+1.  Download the
+    \[<http://www.monitoringexchange.org/cgi-bin/page.cgi?g=Detailed%2F1325.html;d=1>
+    plugin and save in your /usr/local/nagios/libexec dir.
+2.  Install the NET::LDAP module perl, as otherwise the script cannot
+    perform the LDAP lookups. On Ubuntu the package name is
+    libnet-ldap-perl .
+3.  Append this command config to your
+    /usr/local/nagios/etc/objects/commands.cfg:
+
+<!-- -->
+
+    define command{
+            command_name    check_ldap
+            command_line    $USER1$/check_ldap -H $HOSTADDRESS$ $ARG1$
+    }
+
+1.  The command can then be referrenced as a service, this example it
+    uses a hostgroup which contains all the Domain Controllers:
+
+<!-- -->
+
+    define service{
+            use                     generic-service
+    hostgroup_name  dcs
+            service_description     NTDS LDAP Bind check
+            check_command           check_ldap
     }

@@ -185,8 +185,8 @@ a list of [useful sites](Useful_Sites "wikilink").
 
 -   [Global Address List
     (Exchange)](Global_Address_List_(Exchange) "wikilink")
--   [Difference between Quick Format and a normal/long Format
-    (Computing)](Difference_between_Quick_Format_and_a_normal/long_Format_(Computing) "wikilink")
+-   [Difference between Quick Format and a normal/long
+    Format](Difference_between_Quick_Format_and_a_normal/long_Format "wikilink")
 -   [RAID Types](RAID_Types "wikilink")
 -   [Contig](http://www.microsoft.com/technet/sysinternals/FileAndDisk/Contig.mspx) -
     defrag specific files

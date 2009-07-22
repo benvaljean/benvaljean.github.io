@@ -357,14 +357,20 @@ accept credentials over SSL.
             command_line    $USER1$/check_ldap -H $HOSTADDRESS$ $ARG1$
     }
 
-1.  The command can then be referrenced as a service, this example it
-    uses a hostgroup which contains all the Domain Controllers:
-
-<!-- -->
+The command can then be referrenced as a service, this example it uses a
+hostgroup which contains all the Domain Controllers:
 
     define service{
             use                     generic-service
     hostgroup_name  dcs
             service_description     NTDS LDAP Bind check
             check_command           check_ldap
+    }
+
+The hostgroup config could look like this:
+
+    define hostgroup{
+            hostgroup_name dcs
+            alias Domain Controllers
+            members DC1, DC2
     }

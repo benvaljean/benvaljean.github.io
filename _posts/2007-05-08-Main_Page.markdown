@@ -61,6 +61,7 @@ a list of [useful sites](Useful_Sites "wikilink").
 -   [BASH Scripting](BASH_Scripting "wikilink")
 -   [SVN for /etc](SVN_for_/etc "wikilink") Version control your /etc
 -   [Vi](Vi "wikilink")
+-   [Nagios](Nagios "wikilink")
 
 ### Web
 

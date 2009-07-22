@@ -342,8 +342,8 @@ Domain Controllers when using login credentials as Windows will only
 accept credentials over SSL.
 
 1.  Download the
-    \[<http://www.monitoringexchange.org/cgi-bin/page.cgi?g=Detailed%2F1325.html;d=1>
-    plugin and save in your /usr/local/nagios/libexec dir.
+    [plugin](http://www.monitoringexchange.org/cgi-bin/page.cgi?g=Detailed%2F1325.html;d=1)
+    and save in your /usr/local/nagios/libexec dir.
 2.  Install the NET::LDAP module perl, as otherwise the script cannot
     perform the LDAP lookups. On Ubuntu the package name is
     libnet-ldap-perl .

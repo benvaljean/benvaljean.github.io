@@ -119,23 +119,21 @@ LocalSettings.php)
             header("Location: http://$ServerName".$_SERVER['REQUEST_URI']);
 
 :   This is a nice start but too simplistic. It will fail if you\'re
-    using
-    [Using\_a\_very\_short\_URL](Using_a_very_short_URL "wikilink") or
-    [Eliminating\_index.php\_from\_the\_url](Eliminating_index.php_from_the_url "wikilink")
-    because the page title is no longer in query string. It will also
-    serve CSS stylesheets and JavaScript files insecurely (via HTTP) on
-    the HTTPS page, making Firefox warn you that the page is only
-    \"partially encrypted\" (a padlock icon with a slash through it).
-    You will also get PHP warnings that the \'title\' array element
-    doesn\'t exist, if you hit a wiki page with no \'title\' query
-    parameter.
+    using [Using a very short
+    URL](http://www.mediawiki.org/wiki/Manual:Short_URL#URL_like_-_example.com.2FPage_title)
+    or [Eliminating index.php from the
+    url](http://www.mediawiki.org/wiki/Manual:Short_URL) because the
+    page title is no longer in query string. It will also serve CSS
+    stylesheets and JavaScript files insecurely (via HTTP) on the HTTPS
+    page, making Firefox warn you that the page is only \"partially
+    encrypted\" (a padlock icon with a slash through it). You will also
+    get PHP warnings that the \'title\' array element doesn\'t exist, if
+    you hit a wiki page with no \'title\' query parameter.
 
-<!-- -->
+------------------------------------------------------------------------
 
 :   The following is an \"extension\" that handles both these problems.
     Call it whatever you want and include it in LocalSettings.php.
-    [Maiden taiwan](User:Maiden_taiwan "wikilink") 18:11, 6 March 2007
-    (UTC)
 
 <!-- -->
 
@@ -144,9 +142,7 @@ LocalSettings.php)
     :   Update - the extension kills the \"Remember my login\" checkbox
         feature \-- you lose your sessions because cookies are created
         as secure on the https page, so the http pages can\'t access
-        them. I\'ve updated the code below. [Maiden
-        taiwan](User:Maiden_taiwan "wikilink") 04:45, 16 March 2007
-        (UTC)
+        them. I\'ve updated the code below.
 
 <!-- -->
 

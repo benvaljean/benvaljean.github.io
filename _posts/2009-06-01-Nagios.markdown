@@ -162,11 +162,26 @@ Then start service
 If SCR, LCR or CCR is deployed in your organisation its status can be
 checked through use of Nagios monitoring its WMI counter:
 
+    #This does not work as for some reason check_nt does not work with counters where the data has been presented as an argument:
     define service{
             use                     generic-service
     hostgroup_name  ex-be-servers
             service_description     Ex SCR
-            check_command           check_nt!COUNTER!-l "\\\\.\\MSExchange Replication(_total)\\Failed","Replication failure status (0 = OK): %.f" -c 1
+            check_command           check_nt!COUNTER!-l "\\\\MSExchange Replication(_total)\\Failed","Replication failure status (0 = OK): %.f" -c 1
+            }
+
+    #A dedicated command must be created per counter that needs to be monitored:
+    define command{
+            command_name ex-wmi-replication
+            command_line $USER1$/check_nt -H $HOSTADDRESS$ -p 12489 -v COUNTER -d SHOWALL -l "\\\\MSExchange Replication(_total)\\Failed","SCR Failure status: %.f" -c 1
+    }
+
+    #Then referenced directly with a service config like the following
+    define service{
+            use                     generic-service
+    hostgroup_name  ex-be-servers
+            service_description     Ex SCR
+            check_command           ex-wmi-replication
             }
 
 ### Exchange 2003 Monitoring

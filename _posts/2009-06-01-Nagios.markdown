@@ -184,7 +184,7 @@ checked through use of Nagios monitoring its WMI counter:
             check_command           ex-wmi-replication
             }
 
-### Connectivity of Mailbox server to Hub Transport server(s)
+#### Connectivity of Mailbox server to Hub Transport server(s)
 
 The Hub servers in retry counter indicates any servers that are not
 accessable from any of the mailbox servers. In Exchange 2007 if a Hub
@@ -205,7 +205,7 @@ emails wait in Outbox.
             command_line $USER1$/check_nt -H $HOSTADDRESS$ -p 12489 -v COUNTER -d SHOWALL -l "\\\\MSExchangeMailSubmission(msexchangemailsubmission)\\Hub Servers in Retry","Hub Servers in Retry state: %.f" -c 1
     }
 
-### Database Health
+#### Database Health
 
 <http://searchexchange.techtarget.com/generic/0,295582,sid43_gci1362447,00.html?track=NL-359&ad=716575&asrc=EM_NLT_8754745&uid=8701479>
 

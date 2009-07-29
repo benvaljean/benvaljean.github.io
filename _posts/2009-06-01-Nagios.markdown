@@ -339,7 +339,7 @@ Check IIS services are running:
             check_command           check_nt!SERVICESTATE!-d SHOWALL -l HTTPFilter
             }
 
-### SQL Server Monitoring
+### MSSQL Server Monitoring
 
 #### Service
 

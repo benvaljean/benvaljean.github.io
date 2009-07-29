@@ -365,7 +365,7 @@ encapsulating it within quotation marks, see below:
             check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSSQL"$$"MAIN
             }
 
-#### Default port
+#### Default port is open
 
 Default port for SQL is 1433, adjust as required. Ensure the
 [check\_tcp](http://nagiosplugins.org/man/check_tcp) plugin is
@@ -377,6 +377,14 @@ installed.
             service_description     SQL Connectivity 1433
             check_command           check_tcp!1433
     }
+
+#### Connection check
+
+The following will allow Nagios to connect to the SQL server with a
+given username and password.
+
+The plugin check\_mssql.sh is already in the contrib/ direcory of the
+nagios-plugins release. If it is not avail it can vbe downloaded WIP{
 
 ### RBL Status
 

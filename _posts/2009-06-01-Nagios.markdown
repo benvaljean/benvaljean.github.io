@@ -384,28 +384,44 @@ The following will allow Nagios to connect to the SQL server with a
 given username and password.
 
 The plugin check\_mssql.sh is already in the contrib/ direcory of the
-nagios-plugins release. If it is not avail it can vbe downloaded WIP{
+nagios-plugins release. If it is not available it can be downloaded
+here: <http://ben.goodacre.name/nagios/check_mssql.sh> . The script
+requires [FreeTDS](http://www.freetds.org) installed and setup.
 
-### RBL Status
-
-The check\_bl plugin allows monitoring of RBL status for your outbound
-relay servers.
-
-#### Plugin installation
+##### Installing FreeTDS
 
 1.  Download and extract
-    <http://bashton.com/downloads/nagios-check_bl-1.0.tar.gz>
-2.  Copy check\_bl (perl script) to your Nagios plugins dir, usually
-    /usr/local/nagios/libexec
-3.  Install the NET::DNS module for perl, as otherwise the script will
-    be unable to perform the necessary DNS lookups. The package name
-    varies from distro to distro. On Ubuntu it is libnet-dns-perl . Try
-    <http://www.bioperl.org/wiki/Tutorial:Installing_Perl_modules> if
-    you are problems finding it.
-4.  Add the following config with your IP(S) to Nagios\' config:
+    <ftp://ftp.ibiblio.org/pub/Linux/ALPHA/freetds/stable/freetds-stable.tgz>
+2.  ./configure
+3.  make
+4.  sudo make install
+5.  Edit your /usr/local/etc/freetds.conf to include your SQL server
+    details. This is important as a \"-S\" parameter refers to the
+    configuration entry here and not the hostname itself.
+6.  Test the config:
+    `tsql -S config-entry-in-square-brackets -U username -P password` If
+    you connect and see a `1>` prompt it is working ok.
 
-<!-- -->
+-   SQL authentication will need to be enabled, as well as connect
+    privilidges on the default database - usually master.
 
+##### Test the plugin
+
+    user@server:~/nagios-plugins-1.4.11/contrib$ ./check_mssql.sh config-entry-in-square-brackets nagios passwordhere 2000
+    OK - MS SQL Server 2000 has 2 user(s) connected: 1 nagios, 1 (1rowaffected).
+
+Now copy the check\_mssql.sh file to your /usr/local/nagios/libexec and
+the plugin can be used in the following service and command config:
+
+
+    ==RBL Status==
+    The check_bl plugin allows monitoring of RBL status for your outbound relay servers.
+    ===Plugin installation===
+    #Download and extract http://bashton.com/downloads/nagios-check_bl-1.0.tar.gz
+    #Copy check_bl (perl script) to your Nagios plugins dir, usually /usr/local/nagios/libexec
+    #Install the NET::DNS module for perl, as otherwise the script will be unable to perform the necessary DNS lookups. The package name varies from distro to distro. On Ubuntu it is libnet-dns-perl . Try http://www.bioperl.org/wiki/Tutorial:Installing_Perl_modules if you are problems finding it.
+    #Add the following config with your IP(S) to Nagios' config:
+    <pre>
     define  command {
             command_name    check_bl
             command_line    $USER1$/check_bl -H 1.1.1.1 -B zen.spamhaus.org bl.spamcop.net dnsbl.ahbl.org dnsbl.njabl.org dnsbl.sorbs.net virbl.dnsbl.bit.nl rbl.efnet.org phishing.rbl.msrbl.net 0spam.fusionzero.com list.dsbl.org multihop.dsbl.org unconfirmed.dsbl.org will-spam-for-food.eu.org blacklist.spambag.org blackholes.brainerd.net blackholes.uceb.org spamsources.dnsbl.info map.spam-rbl.com ns1.unsubscore.com psbl.surriel.com l2.spews.dnsbl.sorbs.net bl.csma.biz sbl.csma.biz dynablock.njabl.org no-more-funn.moensted.dk  ubl.unsubscore.com dnsbl-1.uceprotect.net dnsbl-2.uceprotect.net dnsbl-3.uceprotect.net spamguard.leadmon.net opm.blitzed.org bl.spamcannibal.org rbl.schulte.org dnsbl.ahbl.org virbl.dnsbl.bit.nl combined.rbl.msrbl.net

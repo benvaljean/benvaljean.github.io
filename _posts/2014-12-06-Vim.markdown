@@ -30,7 +30,13 @@ of the file.
 
 #### Cut/Delete a whole line
 
+To cut the current line:
+
     dd
+
+To cut 10 lines below the cursor:
+
+    10dd
 
 #### Copy/Yank many lines
 

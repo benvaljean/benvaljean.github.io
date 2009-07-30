@@ -426,6 +426,9 @@ the plugin can be used in the following service and command config:
             command_line            $USER1$/check_mssql.sh sql1 nagios Rogerrabbit45! 2000
     }
 
+See also:
+<http://serverfault.com/questions/15557/testing-that-sql-server-2005-is-listening-for-freetds>
+
 ### RBL Status
 
 The check\_bl plugin allows monitoring of RBL status for your outbound

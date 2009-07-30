@@ -390,20 +390,21 @@ requires [FreeTDS](http://www.freetds.org) installed and setup.
 
 ##### Installing FreeTDS
 
-1.  Download and extract
-    <ftp://ftp.ibiblio.org/pub/Linux/ALPHA/freetds/stable/freetds-stable.tgz>
-2.  ./configure
-3.  make
-4.  sudo make install
-5.  Edit your /usr/local/etc/freetds.conf to include your SQL server
-    hostname and port. This is important as a \"-S\" parameter refers to
-    the configuration entry here and not the hostname itself.
-6.  Test the config:
+    wget ftp://ftp.ibiblio.org/pub/Linux/ALPHA/freetds/stable/freetds-stable.tgz
+    tar zxf freetds-stable.tgz
+    cd freetds-stable/
+    ./configure
+    make
+    sudo make install
+
+-   Edit the /usr/local/etc/freetds.conf file to include your SQL server
+    hostname and port. This is important as the \"-S\" parameter refers
+    to the configuration entry here and not the hostname itself.
+-   Test the config:
     `tsql -S config-entry-in-square-brackets -U username -P password` If
     you connect and see a `1>` prompt it is working ok.
-
 -   SQL authentication will need to be enabled, as well as connect
-    privilidges on the default database - usually master.
+    privilidges on the default database - usually \'master\'.
 
 ##### Test the plugin
 

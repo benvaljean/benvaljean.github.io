@@ -26,7 +26,7 @@ a list of [useful sites](Useful_Sites "wikilink").
 -   [Accessing a server remotely when RDP/Terminal services is
     down](Accessing_a_server_remotely_when_RDP/Terminal_services_is_down "wikilink")
 -   [Performing functions via the command
-    line](Performing_functions_via_the_command_line "wikilink")
+    line](Performing_functions_via_the_command_line_(Windows) "wikilink")
 -   [Rename Mapped or Network Drives
     Automatically](Rename_Mapped_or_Network_Drives_Automatically "wikilink")
 -   [Visual Basic Scripts](Visual_Basic_Scripts "wikilink")

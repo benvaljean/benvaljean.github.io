@@ -23,8 +23,10 @@ a list of [useful sites](Useful_Sites "wikilink").
 -   [Console session (Terminal Services/Remote
     Desktop)](Console_session_(Terminal_Services/Remote_Desktop) "wikilink")
 -   [DOS Scripting](DOS_Scripting "wikilink")
--   [System Volume Information
-    folder](System_Volume_Information_folder_(Windows) "wikilink")
+-   [Accessing a server remotely when RDP/Terminal services is
+    down](Accessing_a_server_remotely_when_RDP/Terminal_services_is_down "wikilink")
+-   [Performing functions via the command
+    line](Performing_functions_via_the_command_line "wikilink")
 -   [Rename Mapped or Network Drives
     Automatically](Rename_Mapped_or_Network_Drives_Automatically "wikilink")
 -   [Visual Basic Scripts](Visual_Basic_Scripts "wikilink")
@@ -185,6 +187,8 @@ a list of [useful sites](Useful_Sites "wikilink").
 
 -   [Global Address List
     (Exchange)](Global_Address_List_(Exchange) "wikilink")
+-   [System Volume Information
+    folder](System_Volume_Information_folder_(Windows) "wikilink")
 -   [Difference between Quick Format and a normal/long
     Format](Difference_between_Quick_Format_and_a_normal/long_Format "wikilink")
 -   [RAID Types](RAID_Types "wikilink")

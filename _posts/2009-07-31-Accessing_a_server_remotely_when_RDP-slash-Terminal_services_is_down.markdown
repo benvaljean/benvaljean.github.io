@@ -19,6 +19,6 @@ to run `cmd` remotely, effectively giving telnet access to the server.
 ### See Also
 
 [Performing functions via the command
-line](Performing_functions_via_the_command_line "wikilink")
+line](Performing_functions_via_the_command_line_(Windows) "wikilink")
 
 [Category:Windows](Category:Windows "wikilink")

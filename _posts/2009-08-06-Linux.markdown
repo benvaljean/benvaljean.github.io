@@ -1,0 +1,6 @@
+---
+layout: post 
+title: Linux
+---
+
+[Category:IT](Category:IT "wikilink")

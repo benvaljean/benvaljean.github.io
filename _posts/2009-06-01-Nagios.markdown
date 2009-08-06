@@ -588,3 +588,6 @@ The hostgroup config could look like this:
             alias Domain Controllers
             members DC1, DC2
     }
+
+[Category:Linux](Category:Linux "wikilink")
+[Category:Windows](Category:Windows "wikilink")

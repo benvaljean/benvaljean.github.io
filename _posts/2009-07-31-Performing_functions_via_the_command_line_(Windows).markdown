@@ -54,3 +54,5 @@ Press F7 or use the up and down cursor keys
     Scripting](http://commandwindows.com/)
 -   [Command Line Tools \| Free software and tools for Windows
     2003/XP/Vista](http://www.tools4ever.com/products/free/command/)
+
+[Category:Windows](Category:Windows "wikilink")

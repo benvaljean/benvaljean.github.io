@@ -50,3 +50,4 @@ be accessed via <http://www.whatever.com/cars/>
 [Rewrite on IIS](Rewrite_on_IIS_that_actually_works "wikilink")
 
 [Category:Web](Category:Web "wikilink")
+[Category:Linux](Category:Linux "wikilink")

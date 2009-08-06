@@ -67,3 +67,5 @@ indents are placed on the lines. To disable this:
 #### Cheat sheet
 
 <http://www.eec.com/business/vi.html>
+
+[Category:Linux](Category:Linux "wikilink")

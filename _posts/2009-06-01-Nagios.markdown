@@ -47,6 +47,35 @@ Set NSC.ini to state the Nagios server to restrict what IPs can use it.
 
 Then start service
 
+### MySQL Monitoring
+
+-   Ensure the [check\_mysql](http://nagiosplugins.org/man/check_mysql)
+    plugin is installed.
+-   Create a username on MySQL for nagios to use, see [Access
+    rights/Privileges/Grants for
+    MySQL](Access_rights/Privileges/Grants_(MySQL) "wikilink")
+-   If your mySQL setup is one server, disable skip-networking or set
+    mysql to listen on its IP address, instead of 127.0.0.1 .
+-   Add the following to your commands.cfg:
+
+<!-- -->
+
+    define command{
+            command_name    check_mysql
+            command_line    $USER1$/check_mysql $ARG1$
+    }
+
+-   Add the following to your hosts.cfg:
+
+<!-- -->
+
+    define service{
+            use                             service
+            host_name                       dbserver
+            service_description             MySQL load check
+            check_command                   check_mysql!-d test -H dbserver -u nagios -p passwordhere
+    }
+
 ### Exchange 2007 Monitoring
 
 #### Services

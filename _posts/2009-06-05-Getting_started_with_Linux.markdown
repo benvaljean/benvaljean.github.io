@@ -32,3 +32,8 @@ Search text within files and print the lines:
 Search text within files and print only the filenames:
 
     find /dir -type f -print | xargs grep -li "textinfile"
+
+Setup SSH tunnel using ssh server on custom port 2400 to listen on local
+port 3335 parsing to db02:3306
+
+    ssh -p2400 -N localhost -L 3335:db02:3306 -f

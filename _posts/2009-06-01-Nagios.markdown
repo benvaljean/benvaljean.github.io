@@ -688,6 +688,76 @@ the plugin can be used in the following service and command config:
 See also:
 <http://serverfault.com/questions/15557/testing-that-sql-server-2005-is-listening-for-freetds>
 
+#### Load/health monitoring
+
+Below check\_nt is used to monitor WMI counters. The WMI syntax is
+different if a named instance is used as opposed to the default
+\'MSSQLSERVER\'
+
+    #Monitoring with a non-named instance:
+    define service{
+            use                     service
+            hostgroup_name          sql-servers-old
+            service_description     SQL DB Allocated Pages
+            check_command           sql-wmi-totalpages
+    }
+    define command{
+            command_name sql-wmi-totalpages
+            command_line $USER1$/check_nt -H $HOSTADDRESS$ -p 24601 -s orange26# -v COUNTER -d SHOWALL -l "\\\\SQLServer:Buffer Manager\\Total pages","Total allocated pages in memory: %.f"
+    }
+    define service{
+            use                     service
+            hostgroup_name          sql-servers-old
+            service_description     SQL DB Batch requests/sec
+            check_command           sql-wmi-batchreqs
+    }
+    define command{
+            command_name sql-wmi-batchreqs
+            command_line $USER1$/check_nt -H $HOSTADDRESS$ -p 24601 -s orange26# -v COUNTER -d SHOWALL -l "\\\\SQLServer:SQL Statistics\\Batch Requests/sec","Batch requests/sec: %.f" -w 50 -c 250
+    }
+    define service{
+            use                     service
+            hostgroup_name          sql-servers-old
+            service_description     SQL DB Log flushes/sec
+            check_command           sql-wmi-logflushes
+    }
+    define command{
+            command_name sql-wmi-logflushes
+            command_line $USER1$/check_nt -H $HOSTADDRESS$ -p 24601 -s orange26# -v COUNTER -d SHOWALL -l "\\\\SQLServer:Databases(_Total)\\Log Flushes/sec","Log flushes/sec: %.f" -w 50 -c 250
+    }
+
+    #Monitoring a named instance called PROD:
+    define service{
+            use                     service
+            hostgroup_name          sql-servers-new
+            service_description     SQL DB Allocated Pages2
+            check_command           sql-wmi-totalpages2
+    }
+    define command{
+            command_name sql-wmi-totalpages2
+            command_line $USER1$/check_nt -H $HOSTADDRESS$ -p 24601 -s orange26# -v COUNTER -d SHOWALL -l "\\\\MSSQL\\$PROD:Buffer Manager\\Total pages","Total allocated pages in memory: %.f"
+    }
+    define service{
+            use                     service
+            hostgroup_name          sql-servers-new
+            service_description     SQL DB Batch requests/sec2
+            check_command           sql-wmi-batchreqs2
+    }
+    define command{
+            command_name sql-wmi-batchreqs2
+            command_line $USER1$/check_nt -H $HOSTADDRESS$ -p 24601 -s orange26# -v COUNTER -d SHOWALL -l "\\\\MSSQL\\$PROD:SQL Statistics\\Batch Requests/sec","Batch requests/sec: %.f" -w 50 -c 250
+    }
+    define service{
+            use                     service
+            hostgroup_name          sql-servers-new
+            service_description     SQL DB Log flushes/sec2
+            check_command           sql-wmi-logflushes2
+    }
+    define command{
+            command_name sql-wmi-logflushes2
+            command_line $USER1$/check_nt -H $HOSTADDRESS$ -p 24601 -s orange26# -v COUNTER -d SHOWALL -l "\\\\MSSQL\\$PROD:Databases(_Total)\\Log Flushes/sec","Log flushes/sec: %.f" -w 50 -c 250
+    }
+
 ### RBL Status
 
 The check\_bl plugin allows monitoring of RBL status for your outbound

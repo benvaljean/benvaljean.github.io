@@ -49,6 +49,8 @@ Then start service
 
 ### MySQL Monitoring
 
+#### Connection Check
+
 -   Ensure the [check\_mysql](http://nagiosplugins.org/man/check_mysql)
     plugin is installed.
 -   Create a username on MySQL for nagios to use, see [Access
@@ -74,6 +76,234 @@ Then start service
             host_name                       dbserver
             service_description             MySQL load check
             check_command                   check_mysql!-d test -H dbserver -u nagios -p passwordhere
+    }
+
+#### Load/health monitoring
+
+If more advanced monitoring is required follow these steps:
+
+-   Install the DBD::mysql perl module, on Ubuntu the package is called
+    libdbd-mysql-perl
+-   Install the
+    [check\_mysql\_health](http://exchange.nagios.org/directory/Plugins/Databases/MySQL/check_mysql_health/details)
+    plugin, which can be found here:
+    <http://www.consol.de/fileadmin/opensource/Nagios/check_mysql_health-2.0.4.tar.gz>
+-   Create a username on MySQL for nagios to use, see [Access
+    rights/Privileges/Grants for
+    MySQL](Access_rights/Privileges/Grants_(MySQL) "wikilink")
+-   If your mySQL setup is one server, disable skip-networking or set
+    mysql to listen on its IP address, instead of 127.0.0.1 .
+-   The use of SSH tunnels is recommended if your Nagios server is in a
+    different network, the example below points to pre-existing SSH
+    tunnels:
+
+<!-- -->
+
+    define command{
+            command_name            check_mysql_health_db01
+            command_line            $USER1$/check_mysql_health --host 127.0.0.1 -P 3335 --mode $ARG1$ -u nagios -p Rogerrabbit45 -w $ARG2$ -c $ARG3$ --database aspire_production
+    }
+
+    define command{
+            command_name            check_mysql_health_db02
+            command_line            $USER1$/check_mysql_health --host 127.0.0.1 -P 3336 --mode $ARG1$ -u nagios -p ohS0aiPu -w $ARG2$ -c $ARG3$ --database aspire_production
+    }
+
+
+    define service{
+            use                             service
+            host_name                       db01
+            service_description             MySQL Connection time
+            check_command                   check_mysql_health_db01!connection-time!1!5
+            }
+    define service{
+            use                             service
+            host_name                       db01
+            service_description             MySQL Open connections
+            check_command                   check_mysql_health_db01!threads-connected!50!70
+            }
+    define service{
+            use                             service
+            host_name                       db01
+            service_description             MySQL Uptime
+            check_command                   check_mysql_health_db01!uptime!10:!5:
+            }
+    define service{
+            use                             service
+            host_name                       db01
+            service_description             MySQL Query-cache hitrate
+            check_command                   check_mysql_health_db01!qcache-hitrate!70:!50:
+            }
+    define service{
+            use                             service
+            host_name                       db01
+            service_description             MySQL Query-cache pruning
+            check_command                   check_mysql_health_db01!qcache-lowmem-prunes!1!10
+            }
+    define service{
+            use                             service
+            host_name                       db01
+            service_description             MySQL Myisam key-cache hitrate
+            check_command                   check_mysql_health_db01!keycache-hitrate!98:!95:
+            }
+    define service{
+            use                             service
+            host_name                       db01
+            service_description             MySQL Thread-cache Hitrate
+            check_command                   check_mysql_health_db01!threadcache-hitrate!90:!80:
+            }
+    define service{
+            use                             service
+            host_name                       db01
+            service_description             MySQL InnoDB buffer pool hitrate
+            check_command                   check_mysql_health_db01!bufferpool-hitrate!99:!95:
+            }
+    define service{
+            use                             service
+            host_name                       db01
+            service_description             MySQL InnoDB buffer pool waits
+            check_command                   check_mysql_health_db01!bufferpool-wait-free!1!10
+            }
+    define service{
+            use                             service
+            host_name                       db01
+            service_description             MySQL InnoDB log waits
+            check_command                   check_mysql_health_db01!log-waits!1!10
+            }
+    define service{
+            use                             service
+            host_name                       db01
+            service_description             MySQL Table cache hitrate
+            check_command                   check_mysql_health_db01!tablecache-hitrate!99:!90:
+            }
+    define service{
+            use                             service
+            host_name                       db01
+            service_description             MySQL Table lock contention
+            check_command                   check_mysql_health_db01!table-lock-contention!1!2
+            }
+    define service{
+            use                             service
+            host_name                       db01
+            service_description             MySQL Index usage
+            check_command                   check_mysql_health_db01!index-usage!90:!80:
+            }
+    define service{
+            use                             service
+            host_name                       db01
+            service_description             MySQL Tables on disk
+            check_command                   check_mysql_health_db01!tmp-disk-tables!25!50
+            }
+    define service{
+            use                             service
+            host_name                       db01
+            service_description             MySQL Slow queries
+            check_command                   check_mysql_health_db01!slow-queries!0.1!1
+            }
+    define service{
+            use                             service
+            host_name                       db01
+            service_description             MySQL Long running processes
+            check_command                   check_mysql_health_db01!long-running-procs!10!20
+            }
+
+
+
+    define service{
+            use                             service
+            host_name                       db02
+            service_description             MySQL Connection time2
+            check_command                   check_mysql_health_db02!connection-time!1!5
+            }
+    define service{
+            use                             service
+            host_name                       db02
+            service_description             MySQL Open connections2
+            check_command                   check_mysql_health_db02!threads-connected!50!70
+            }
+    define service{
+            use                             service
+            host_name                       db02
+            service_description             MySQL Uptime2
+            check_command                   check_mysql_health_db02!uptime!10:!5:
+            }
+    define service{
+            use                             service
+            host_name                       db02
+            service_description             MySQL Query-cache hitrate2
+            check_command                   check_mysql_health_db02!qcache-hitrate!70:!50:
+            }
+    define service{
+            use                             service
+            host_name                       db02
+            service_description             MySQL Query-cache pruning2
+            check_command                   check_mysql_health_db02!qcache-lowmem-prunes!1!10
+            }
+    define service{
+            use                             service
+            host_name                       db02
+            service_description             MySQL Myisam key-cache hitrate2
+            check_command                   check_mysql_health_db02!keycache-hitrate!98:!95:
+            }
+    define service{
+            use                             service
+            host_name                       db02
+            service_description             MySQL Thread-cache Hitrate2
+            check_command                   check_mysql_health_db02!threadcache-hitrate!90:!80:
+            }
+    define service{
+            use                             service
+            host_name                       db02
+            service_description             MySQL InnoDB buffer pool hitrate2
+            check_command                   check_mysql_health_db02!bufferpool-hitrate!99:!95:
+            }
+    define service{
+            use                             service
+            host_name                       db02
+            service_description             MySQL InnoDB buffer pool waits2
+            check_command                   check_mysql_health_db02!bufferpool-wait-free!1!10
+            }
+    define service{
+            use                             service
+            host_name                       db02
+            service_description             MySQL InnoDB log waits2
+            check_command                   check_mysql_health_db02!log-waits!1!10
+            }
+    define service{
+            use                             service
+            host_name                       db02
+            service_description             MySQL Table cache hitrate2
+            check_command                   check_mysql_health_db02!tablecache-hitrate!99:!90:
+            }
+    define service{
+            use                             service
+            host_name                       db02
+            service_description             MySQL Table lock contention2
+            check_command                   check_mysql_health_db02!table-lock-contention!1!2
+            }
+    define service{
+            use                             service
+            host_name                       db02
+            service_description             MySQL Index usage2
+            check_command                   check_mysql_health_db02!index-usage!90:!80:
+            }
+    define service{
+            use                             service
+            host_name                       db02
+            service_description             MySQL Tables on disk2
+            check_command                   check_mysql_health_db02!tmp-disk-tables!25!50
+            }
+    define service{
+            use                             service
+            host_name                       db02
+            service_description             MySQL Slow queries2
+            check_command                   check_mysql_health_db02!slow-queries!0.1!1
+            }
+    define service{
+            use                             service
+            host_name                       db02
+            service_description             MySQL Long running processes2
+            check_command                   check_mysql_health_db02!long-running-procs!10!20
     }
 
 ### Exchange 2007 Monitoring

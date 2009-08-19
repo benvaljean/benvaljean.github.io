@@ -286,4 +286,13 @@ in the event log can be watched for by the use of a SQL Agent Alert.
 Another method to monitor monitored is vto use system stored procedures:
 [Using Warning Thresholds and Alerts on Mirroring Performance
 Metrics](http://msdn.microsoft.com/en-us/library/ms408393.aspx)
-[Cateogry:Nagios](Cateogry:Nagios "wikilink")
+
+### Resources
+
+-   [Monitoring MS SQL from \*nix (Yes, it really
+    works!)](http://forums.cacti.net/viewtopic.php?t=27763&highlight=works)
+    A perl script for creating Nagios config
+-   [Configuring Nagios to read WMI
+    information](http://www.experts-exchange.com/Networking/Linux_Networking/Q_24049447.html)
+
+[Category:Nagios](Category:Nagios "wikilink")

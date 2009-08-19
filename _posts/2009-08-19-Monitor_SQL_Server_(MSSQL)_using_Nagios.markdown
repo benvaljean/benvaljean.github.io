@@ -3,9 +3,10 @@ layout: post
 title: Monitor SQL Server (MSSQL) using Nagios
 ---
 
-### MSSQL Server Monitoring
+[Nagios](Nagios "wikilink") is a free open-source monitoring
+software/platform.
 
-#### Service
+### Service
 
 For a non-renamed instance the following can be used:
 
@@ -29,7 +30,7 @@ encapsulating it within quotation marks, see below:
             check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSSQL"$$"MAIN
             }
 
-#### Default port is open
+### Default port is open
 
 Default port for SQL is 1433, adjust as required. Ensure the
 [check\_tcp](http://nagiosplugins.org/man/check_tcp) plugin is
@@ -42,7 +43,7 @@ installed.
             check_command           check_tcp!1433
     }
 
-#### Connection check
+### Connection check
 
 The following will allow Nagios to connect to the SQL server with a
 given username and password.
@@ -52,7 +53,7 @@ nagios-plugins release. If it is not available it can be downloaded
 here: <http://ben.goodacre.name/nagios/check_mssql.sh> . The script
 requires [FreeTDS](http://www.freetds.org) installed and setup.
 
-##### Installing FreeTDS
+#### Installing FreeTDS
 
     wget ftp://ftp.ibiblio.org/pub/Linux/ALPHA/freetds/stable/freetds-stable.tgz
     tar zxf freetds-stable.tgz
@@ -70,7 +71,7 @@ requires [FreeTDS](http://www.freetds.org) installed and setup.
 -   SQL authentication will need to be enabled, as well as connect
     privilidges on the default database - usually \'master\'.
 
-##### Test the plugin
+#### Test the plugin
 
     user@server:~/nagios-plugins-1.4.11/contrib$ ./check_mssql.sh config-entry-in-square-brackets nagios passwordhere 2000
     OK - MS SQL Server 2000 has 2 user(s) connected: 1 nagios, 1 (1rowaffected).
@@ -93,7 +94,7 @@ the plugin can be used in the following service and command config:
 See also:
 <http://serverfault.com/questions/15557/testing-that-sql-server-2005-is-listening-for-freetds>
 
-#### Load/health monitoring
+### Load/health monitoring
 
 Below check\_nt is used to monitor WMI counters. The WMI syntax is
 different if a named instance is used as opposed to the default
@@ -218,3 +219,66 @@ can again be monitored though the check\_mssql\_health plugin.
             command_name            check_mssql_health
             command_line            $USER1$/check_mssql_health -server $HOSTNAME$ -username usernamehere -password passhere --mode $ARG1$
     }
+
+### Monitor mirroring health and availability
+
+Through effective monitoring of WMI counters the queue of data on the
+master (called principal by Microsoft) awaiting to be sent to the slave
+(called mirror by Microsoft) can be monitored, called the send queue.
+Delays in waiting for the mirror to commit a transaction as well as the
+tlogs that remain to be applied to the mirror to roll it forwards can
+also be checked, called the transaction-dealy and the redo queue
+respectively.
+
+    #This monitors a named instance called PROD:
+
+    #Send queue / principal queue
+    define service{
+            use                     service
+            hostgroup_name          sql-principal
+            service_description     SQL Mirroring TLog Send queue KB
+            check_command           sql-wmi-mir-tlogqueue
+    }
+    define command{
+            command_name sql-wmi-mir-tlogqueue
+            command_line $USER1$/check_nt -H $HOSTADDRESS$ -p 24601 -s orange26# -v COUNTER -d SHOWALL -l "\\\\MSSQL\\$PROD:Database Mirroring(_Total)\\Log Send Queue KB","Mirroring TLog Send queue in KB: %.f" -w 50 -c 100
+    }
+
+    #Redo queue / mirror queue
+    define service{
+            use                     service
+            hostgroup_name          sql-mirror
+            service_description     SQL Mirroring Redo queue KB
+            check_command           sql-wmi-mir-redoqueue
+    }
+    define command{
+            command_name sql-wmi-mir-redoqueue
+            command_line $USER1$/check_nt -H $HOSTADDRESS$ -p 24601 -s orange26# -v COUNTER -d SHOWALL -l "\\\\MSSQL\\$PROD:Database Mirroring(_Total)\\Redo Queue KB","Mirroring TLog Redo queue in KB: %.f" -w 50 -c 100
+    }
+
+    #Transaction delay
+    define service{
+            use                     service
+            hostgroup_name          sql-servers-new
+            service_description     SQL Mirroring Transaction Delay
+            check_command           sql-wmi-mir-tdelay
+    }
+    define command{
+            command_name sql-wmi-mir-tdelay
+            command_line $USER1$/check_nt -H $HOSTADDRESS$ -p 24601 -s orange26# -v COUNTER -d
+     SHOWALL -l "\\\\MSSQL\\$PROD:Database Mirroring(_Total)\\Transaction Delay","Delay in transac
+    tion termination acknowledgement: %.f" -w 1000 -c 15000
+    }
+
+#### See Also
+
+Using the monitoring counters defined should covery all scenarios.
+However mirroring can be monitored using the [Database mirrroing
+monitor](http://msdn.microsoft.com/en-us/library/ms365786.aspx). Alerts
+to the event log can be setup for various thresholds and these entries
+in the event log can be watched for by the use of a SQL Agent Alert.
+
+Another method to monitor monitored is vto use system stored procedures:
+[Using Warning Thresholds and Alerts on Mirroring Performance
+Metrics](http://msdn.microsoft.com/en-us/library/ms408393.aspx)
+[Cateogry:Nagios](Cateogry:Nagios "wikilink")

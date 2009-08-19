@@ -220,6 +220,11 @@ can again be monitored though the check\_mssql\_health plugin.
             command_line            $USER1$/check_mssql_health -server $HOSTNAME$ -username usernamehere -password passhere --mode $ARG1$
     }
 
+#### See Also
+
+\[<http://translate.google.com/translate?hl=en&sl=de&u=http://www.nagios-portal.org/wbb/index.php%3Fpage%3DThread%26threadID%3D14926&ei=f5CBSu75NtirjAfVyKH2CQ&sa=X&oi=translate&resnum=1&ct=result&prev=/search%3Fq%3D%253Bport%253D1433%2527,%2527nagios%2527>,\...)%2Bfailed:%2B(no%2Berror%2Bstring)%2Bat%2B/usr/local/nagios/libexec/check\_mssql\_health%2Bline%2B1897%26hl%3Den%26client%3Dopera%26rls%3Den-GB%26hs%3DSqt
+check\_mssql\_health connect to server\] Translated from German
+
 ### Monitor mirroring health and availability
 
 Through effective monitoring of WMI counters the queue of data on the

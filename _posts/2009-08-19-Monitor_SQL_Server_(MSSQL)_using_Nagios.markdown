@@ -203,6 +203,9 @@ can again be monitored though the check\_mssql\_health plugin.
 -   Download the plugin: [check\_mssql\_health plugin homepage
     (translated from
     German)](http://babelfish.yahoo.com/translate_url?doit=done&tt=url&intl=1&fr=bf-home&trurl=http%3A%2F%2Fwww.consol.de%2Fopensource%2Fnagios%2Fcheck-mssql-health%2F&lp=de_en&btnTrUrl=Translate)
+    \-- [Original
+    page](http://www.consol.de/opensource/nagios/check-mssql-health/) in
+    German
 -   Copy to your /usr/local/nagios/libexec dir.
 -   The plugin requires [FreeTDS](http://www.freetds.org/) to be
     installed: [Installing

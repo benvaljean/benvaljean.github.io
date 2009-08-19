@@ -1,0 +1,220 @@
+---
+layout: post 
+title: Monitor SQL Server (MSSQL) using Nagios
+---
+
+### MSSQL Server Monitoring
+
+#### Service
+
+For a non-renamed instance the following can be used:
+
+    define service{
+            use                     service
+            hostgroup_name  sql-servers
+            service_description     SQL Svc
+            check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSSQLSERVER
+            }
+
+If the instance has been rewnamed the service will have a dollar-sign
+(\"\$\") as part of it, for instance an instance called \"MAIN\" will be
+called \"MSSQL\$MAIN\". Dollar-signs indicate variables to Nagios so the
+character must be escaped. Escaping characters invovles repeating it and
+encapsulating it within quotation marks, see below:
+
+    define service{
+            use                     service
+            hostgroup_name  sql-servers
+            service_description     SQL Svc PROD
+            check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSSQL"$$"MAIN
+            }
+
+#### Default port is open
+
+Default port for SQL is 1433, adjust as required. Ensure the
+[check\_tcp](http://nagiosplugins.org/man/check_tcp) plugin is
+installed.
+
+    define service{
+            use                     service
+            hostgroup_name  sql-servers-old
+            service_description     SQL Connectivity 1433
+            check_command           check_tcp!1433
+    }
+
+#### Connection check
+
+The following will allow Nagios to connect to the SQL server with a
+given username and password.
+
+The plugin check\_mssql.sh is already in the contrib/ direcory of the
+nagios-plugins release. If it is not available it can be downloaded
+here: <http://ben.goodacre.name/nagios/check_mssql.sh> . The script
+requires [FreeTDS](http://www.freetds.org) installed and setup.
+
+##### Installing FreeTDS
+
+    wget ftp://ftp.ibiblio.org/pub/Linux/ALPHA/freetds/stable/freetds-stable.tgz
+    tar zxf freetds-stable.tgz
+    cd freetds-stable/
+    ./configure
+    make
+    sudo make install
+
+-   Edit the /usr/local/etc/freetds.conf file to include your SQL server
+    hostname and port. This is important as the \"-S\" parameter refers
+    to the configuration entry here and not the hostname itself.
+-   Test the config:
+    `tsql -S config-entry-in-square-brackets -U username -P password` If
+    you connect and see a `1>` prompt it is working ok.
+-   SQL authentication will need to be enabled, as well as connect
+    privilidges on the default database - usually \'master\'.
+
+##### Test the plugin
+
+    user@server:~/nagios-plugins-1.4.11/contrib$ ./check_mssql.sh config-entry-in-square-brackets nagios passwordhere 2000
+    OK - MS SQL Server 2000 has 2 user(s) connected: 1 nagios, 1 (1rowaffected).
+
+Now copy the check\_mssql.sh file to your /usr/local/nagios/libexec and
+the plugin can be used in the following service and command config:
+
+    define service{
+            use                     service
+            host_name          sql1
+            service_description     SQL Connection Check
+            check_command           check_mssql_sql1
+    }
+    #Due to the way that Nagios expends the $HOSTNAME$ variable it does not work, so an individual check_command must be created per server. If somebody knows the correct way to do this, please add it to discussion.
+    define command{
+            check_command           check_mssql_sql1
+            command_line            $USER1$/check_mssql.sh sql1 nagios Rogerrabbit45! 2000
+    }
+
+See also:
+<http://serverfault.com/questions/15557/testing-that-sql-server-2005-is-listening-for-freetds>
+
+#### Load/health monitoring
+
+Below check\_nt is used to monitor WMI counters. The WMI syntax is
+different if a named instance is used as opposed to the default
+\'MSSQLSERVER\'
+
+    #Monitoring with a non-named instance:
+    define service{
+            use                     service
+            hostgroup_name          sql-servers-old
+            service_description     SQL DB Allocated Pages
+            check_command           sql-wmi-totalpages
+    }
+    define command{
+            command_name sql-wmi-totalpages
+            command_line $USER1$/check_nt -H $HOSTADDRESS$ -p 24601 -s orange26# -v COUNTER -d SHOWALL -l "\\\\SQLServer:Buffer Manager\\Total pages","Total allocated pages in memory: %.f"
+    }
+    define service{
+            use                     service
+            hostgroup_name          sql-servers-old
+            service_description     SQL DB Batch requests/sec
+            check_command           sql-wmi-batchreqs
+    }
+    define command{
+            command_name sql-wmi-batchreqs
+            command_line $USER1$/check_nt -H $HOSTADDRESS$ -p 24601 -s orange26# -v COUNTER -d SHOWALL -l "\\\\SQLServer:SQL Statistics\\Batch Requests/sec","Batch requests/sec: %.f" -w 50 -c 250
+    }
+    define service{
+            use                     service
+            hostgroup_name          sql-servers-old
+            service_description     SQL DB Log flushes/sec
+            check_command           sql-wmi-logflushes
+    }
+    define command{
+            command_name sql-wmi-logflushes
+            command_line $USER1$/check_nt -H $HOSTADDRESS$ -p 24601 -s orange26# -v COUNTER -d SHOWALL -l "\\\\SQLServer:Databases(_Total)\\Log Flushes/sec","Log flushes/sec: %.f" -w 50 -c 250
+    }
+
+    #Monitoring a named instance called PROD:
+    define service{
+            use                     service
+            hostgroup_name          sql-servers-new
+            service_description     SQL DB Allocated Pages2
+            check_command           sql-wmi-totalpages2
+    }
+    define command{
+            command_name sql-wmi-totalpages2
+            command_line $USER1$/check_nt -H $HOSTADDRESS$ -p 24601 -s orange26# -v COUNTER -d SHOWALL -l "\\\\MSSQL\\$PROD:Buffer Manager\\Total pages","Total allocated pages in memory: %.f"
+    }
+    define service{
+            use                     service
+            hostgroup_name          sql-servers-new
+            service_description     SQL DB Batch requests/sec2
+            check_command           sql-wmi-batchreqs2
+    }
+    define command{
+            command_name sql-wmi-batchreqs2
+            command_line $USER1$/check_nt -H $HOSTADDRESS$ -p 24601 -s orange26# -v COUNTER -d SHOWALL -l "\\\\MSSQL\\$PROD:SQL Statistics\\Batch Requests/sec","Batch requests/sec: %.f" -w 50 -c 250
+    }
+    define service{
+            use                     service
+            hostgroup_name          sql-servers-new
+            service_description     SQL DB Log flushes/sec2
+            check_command           sql-wmi-logflushes2
+    }
+    define command{
+            command_name sql-wmi-logflushes2
+            command_line $USER1$/check_nt -H $HOSTADDRESS$ -p 24601 -s orange26# -v COUNTER -d SHOWALL -l "\\\\MSSQL\\$PROD:Databases(_Total)\\Log Flushes/sec","Log flushes/sec: %.f" -w 50 -c 250
+    }
+
+### Connection time
+
+Through use of the check\_mssql\_health plugin the time to a sucessful
+connection to SQL can be monitored.
+
+-   Install the plugin: [temp](temp "wikilink")
+-   The service configuration could look like this:
+
+<!-- -->
+
+    define service{
+            use                             service
+            hostgroup_name                  sql-servers
+            service_description             SQL Connection time
+            check_command                   check_mssql_health!connection-time
+            }
+
+### I/O Busy
+
+Busy I/O should be monitored as it is an indicator of a busy server and
+can again be monitored though the check\_mssql\_health plugin.
+
+-   Install the plugin: [temp](temp "wikilink")
+-   Append the following service config :
+
+<!-- -->
+
+    define service{
+            use                             service
+            hostgroup_name                  sql-servers-new
+            service_description             IO Busy
+            check_command                   check_mssql_health!io-busy
+            }
+
+### Installing the check\_mssql\_health plugin
+
+-   Download the plugin: [check\_mssql\_health plugin homepage
+    (translated from
+    German)](http://babelfish.yahoo.com/translate_url?doit=done&tt=url&intl=1&fr=bf-home&trurl=http%3A%2F%2Fwww.consol.de%2Fopensource%2Fnagios%2Fcheck-mssql-health%2F&lp=de_en&btnTrUrl=Translate)
+-   Copy to your /usr/local/nagios/libexec dir.
+-   The plugin requires [FreeTDS](http://www.freetds.org/) to be
+    installed: [Installing
+    FreeTDS](http://www.rogerrabbit.net/w/index.php?title=Monitor_SQL_Server_%28MSSQL%29_using_Nagios&action=submit#Installing_FreeTDS)
+    The plugin can utilise a freetds.conf file that is not in the
+    location it would be expected to reside in, even if FreeTDS is
+    currently installed. Check `/usr/share/libct3/freetds.conf` ,
+    `/usr/local/etc/freetds.conf` and `/etc/freetds/freetds.conf`
+-   Append the following to your commands.cfg:
+
+<!-- -->
+
+    define command{
+            command_name            check_mssql_health
+            command_line            $USER1$/check_mssql_health -server $HOSTNAME$ -username usernamehere -password passhere --mode $ARG1$
+    }

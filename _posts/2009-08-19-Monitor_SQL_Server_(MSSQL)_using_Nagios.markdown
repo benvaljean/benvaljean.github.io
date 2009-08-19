@@ -298,4 +298,9 @@ Metrics](http://msdn.microsoft.com/en-us/library/ms408393.aspx)
 -   [Configuring Nagios to read WMI
     information](http://www.experts-exchange.com/Networking/Linux_Networking/Q_24049447.html)
 
+<!-- -->
+
+-   [Probing the depths - Windows
+    Monitoring](http://nordicmeetonnagios.op5.org/op5media/nmn2009/presentations/Michael%20Medin%20Probing%20the%20depths%20of%20Windows.pdf)
+
 [Category:Nagios](Category:Nagios "wikilink")

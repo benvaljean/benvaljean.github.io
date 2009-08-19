@@ -292,6 +292,8 @@ Metrics](http://msdn.microsoft.com/en-us/library/ms408393.aspx)
 
 ### Resources
 
+-   [Tips for Using SQL Server Performance Monitor
+    Counters](http://www.sql-server-performance.com/tips/sql_server_performance_monitor_coutners_p1.aspx)
 -   [Monitoring MS SQL from \*nix (Yes, it really
     works!)](http://forums.cacti.net/viewtopic.php?t=27763&highlight=works)
     A perl script for creating Nagios config
@@ -302,5 +304,7 @@ Metrics](http://msdn.microsoft.com/en-us/library/ms408393.aspx)
 
 -   [Probing the depths - Windows
     Monitoring](http://nordicmeetonnagios.op5.org/op5media/nmn2009/presentations/Michael%20Medin%20Probing%20the%20depths%20of%20Windows.pdf)
+-   [Monitor query performance with the SQL Server 2005 procedure
+    cache](http://blogs.techrepublic.com.com/datacenter/?p=270)
 
 [Category:Nagios](Category:Nagios "wikilink")

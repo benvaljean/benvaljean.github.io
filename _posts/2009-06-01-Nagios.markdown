@@ -778,7 +778,6 @@ The hostgroup config could look like this:
 -   [Probing the depths - Windows
     Monitoring](http://nordicmeetonnagios.op5.org/op5media/nmn2009/presentations/Michael%20Medin%20Probing%20the%20depths%20of%20Windows.pdf)
 
-[Categroy:Nagios](Categroy:Nagios "wikilink")
-
+[Category:Nagios](Category:Nagios "wikilink")
 [Category:Linux](Category:Linux "wikilink")
 [Category:Windows](Category:Windows "wikilink")

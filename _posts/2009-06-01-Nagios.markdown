@@ -3,4 +3,782 @@ layout: post
 title: Nagios
 ---
 
-[Category:IT](Category:IT "wikilink")
+### Install
+
+A quick dirty method of installation on Debian based systems, incluidng
+Ubuntu is to simply type: `sudo apt-get install nagios` . However the
+package used could be out of date. It is easy to complile Nagios from
+source using the latest version:
+<http://nagios.sourceforge.net/docs/3_0/quickstart-ubuntu.html>
+
+### Install plugins
+
+    wget http://prdownloads.sourceforge.net/sourceforge/nagiosplug/nagios-plugins-1.4.13.tar.gz
+    tar zxf nagios-plugins-1.4.13.tar.gz
+    cd nagios-plugins-1.4.13/
+    sudo apt-get install build-essential
+    ./configure --enable-perl-modules --prefix=/usr/local/nagios --with-nagios-user=nagios
+    make all
+    sudo make install
+    sudo chown nagios:nagios /usr/local/nagios/libexec
+
+### Configuration
+
+Config fies are /etc/nagios by default if installed using apt-get and
+are in /usr/local/nagios/etc by default when compliled from source.
+
+#### Verify config
+
+/usr/local/nagios/bin/nagios -v /usr/local/nagios/etc/nagios.cfg
+
+### Mail notifications
+
+Ensure package mailx is installed.
+
+Setup exim to email to remote domains:
+
+    dpkg-reconfigure exim4-config
+
+### Install nsclient++ for windows machines
+
+Set NSC.ini to state the Nagios server to restrict what IPs can use it.
+
+    nslicent++ /install
+
+Then start service
+
+### MySQL Monitoring
+
+#### Connection Check
+
+-   Ensure the [check\_mysql](http://nagiosplugins.org/man/check_mysql)
+    plugin is installed.
+-   Create a username on MySQL for nagios to use, see [Access
+    rights/Privileges/Grants for
+    MySQL](Access_rights/Privileges/Grants_(MySQL) "wikilink")
+-   If your mySQL setup is one server, disable skip-networking or set
+    mysql to listen on its IP address, instead of 127.0.0.1 .
+-   Add the following to your commands.cfg:
+
+<!-- -->
+
+    define command{
+            command_name    check_mysql
+            command_line    $USER1$/check_mysql $ARG1$
+    }
+
+-   Add the following to your hosts.cfg:
+
+<!-- -->
+
+    define service{
+            use                             service
+            host_name                       dbserver
+            service_description             MySQL load check
+            check_command                   check_mysql!-d test -H dbserver -u nagios -p passwordhere
+    }
+
+#### Load/health monitoring
+
+If more advanced monitoring is required follow these steps:
+
+-   Install the DBD::mysql perl module, on Ubuntu the package is called
+    libdbd-mysql-perl
+-   Install the
+    [check\_mysql\_health](http://exchange.nagios.org/directory/Plugins/Databases/MySQL/check_mysql_health/details)
+    plugin, which can be found here:
+    <http://www.consol.de/fileadmin/opensource/Nagios/check_mysql_health-2.0.4.tar.gz>
+-   Create a username on MySQL for nagios to use, see [Access
+    rights/Privileges/Grants for
+    MySQL](Access_rights/Privileges/Grants_(MySQL) "wikilink")
+-   If your mySQL setup is one server, disable skip-networking or set
+    mysql to listen on its IP address, instead of 127.0.0.1 .
+-   The use of SSH tunnels is recommended if your Nagios server is in a
+    different network, the example below points to pre-existing SSH
+    tunnels:
+
+<!-- -->
+
+    define command{
+            command_name            check_mysql_health_db01
+            command_line            $USER1$/check_mysql_health --host 127.0.0.1 -P 3335 --mode $ARG1$ -u nagios -p Rogerrabbit45 -w $ARG2$ -c $ARG3$ --database aspire_production
+    }
+
+    define command{
+            command_name            check_mysql_health_db02
+            command_line            $USER1$/check_mysql_health --host 127.0.0.1 -P 3336 --mode $ARG1$ -u nagios -p ohS0aiPu -w $ARG2$ -c $ARG3$ --database aspire_production
+    }
+
+
+    define service{
+            use                             service
+            host_name                       db01
+            service_description             MySQL Connection time
+            check_command                   check_mysql_health_db01!connection-time!1!5
+            }
+    define service{
+            use                             service
+            host_name                       db01
+            service_description             MySQL Open connections
+            check_command                   check_mysql_health_db01!threads-connected!50!70
+            }
+    define service{
+            use                             service
+            host_name                       db01
+            service_description             MySQL Uptime
+            check_command                   check_mysql_health_db01!uptime!10:!5:
+            }
+    define service{
+            use                             service
+            host_name                       db01
+            service_description             MySQL Query-cache hitrate
+            check_command                   check_mysql_health_db01!qcache-hitrate!70:!50:
+            }
+    define service{
+            use                             service
+            host_name                       db01
+            service_description             MySQL Query-cache pruning
+            check_command                   check_mysql_health_db01!qcache-lowmem-prunes!1!10
+            }
+    define service{
+            use                             service
+            host_name                       db01
+            service_description             MySQL Myisam key-cache hitrate
+            check_command                   check_mysql_health_db01!keycache-hitrate!98:!95:
+            }
+    define service{
+            use                             service
+            host_name                       db01
+            service_description             MySQL Thread-cache Hitrate
+            check_command                   check_mysql_health_db01!threadcache-hitrate!90:!80:
+            }
+    define service{
+            use                             service
+            host_name                       db01
+            service_description             MySQL InnoDB buffer pool hitrate
+            check_command                   check_mysql_health_db01!bufferpool-hitrate!99:!95:
+            }
+    define service{
+            use                             service
+            host_name                       db01
+            service_description             MySQL InnoDB buffer pool waits
+            check_command                   check_mysql_health_db01!bufferpool-wait-free!1!10
+            }
+    define service{
+            use                             service
+            host_name                       db01
+            service_description             MySQL InnoDB log waits
+            check_command                   check_mysql_health_db01!log-waits!1!10
+            }
+    define service{
+            use                             service
+            host_name                       db01
+            service_description             MySQL Table cache hitrate
+            check_command                   check_mysql_health_db01!tablecache-hitrate!99:!90:
+            }
+    define service{
+            use                             service
+            host_name                       db01
+            service_description             MySQL Table lock contention
+            check_command                   check_mysql_health_db01!table-lock-contention!1!2
+            }
+    define service{
+            use                             service
+            host_name                       db01
+            service_description             MySQL Index usage
+            check_command                   check_mysql_health_db01!index-usage!90:!80:
+            }
+    define service{
+            use                             service
+            host_name                       db01
+            service_description             MySQL Tables on disk
+            check_command                   check_mysql_health_db01!tmp-disk-tables!25!50
+            }
+    define service{
+            use                             service
+            host_name                       db01
+            service_description             MySQL Slow queries
+            check_command                   check_mysql_health_db01!slow-queries!0.1!1
+            }
+    define service{
+            use                             service
+            host_name                       db01
+            service_description             MySQL Long running processes
+            check_command                   check_mysql_health_db01!long-running-procs!10!20
+            }
+
+
+
+    define service{
+            use                             service
+            host_name                       db02
+            service_description             MySQL Connection time2
+            check_command                   check_mysql_health_db02!connection-time!1!5
+            }
+    define service{
+            use                             service
+            host_name                       db02
+            service_description             MySQL Open connections2
+            check_command                   check_mysql_health_db02!threads-connected!50!70
+            }
+    define service{
+            use                             service
+            host_name                       db02
+            service_description             MySQL Uptime2
+            check_command                   check_mysql_health_db02!uptime!10:!5:
+            }
+    define service{
+            use                             service
+            host_name                       db02
+            service_description             MySQL Query-cache hitrate2
+            check_command                   check_mysql_health_db02!qcache-hitrate!70:!50:
+            }
+    define service{
+            use                             service
+            host_name                       db02
+            service_description             MySQL Query-cache pruning2
+            check_command                   check_mysql_health_db02!qcache-lowmem-prunes!1!10
+            }
+    define service{
+            use                             service
+            host_name                       db02
+            service_description             MySQL Myisam key-cache hitrate2
+            check_command                   check_mysql_health_db02!keycache-hitrate!98:!95:
+            }
+    define service{
+            use                             service
+            host_name                       db02
+            service_description             MySQL Thread-cache Hitrate2
+            check_command                   check_mysql_health_db02!threadcache-hitrate!90:!80:
+            }
+    define service{
+            use                             service
+            host_name                       db02
+            service_description             MySQL InnoDB buffer pool hitrate2
+            check_command                   check_mysql_health_db02!bufferpool-hitrate!99:!95:
+            }
+    define service{
+            use                             service
+            host_name                       db02
+            service_description             MySQL InnoDB buffer pool waits2
+            check_command                   check_mysql_health_db02!bufferpool-wait-free!1!10
+            }
+    define service{
+            use                             service
+            host_name                       db02
+            service_description             MySQL InnoDB log waits2
+            check_command                   check_mysql_health_db02!log-waits!1!10
+            }
+    define service{
+            use                             service
+            host_name                       db02
+            service_description             MySQL Table cache hitrate2
+            check_command                   check_mysql_health_db02!tablecache-hitrate!99:!90:
+            }
+    define service{
+            use                             service
+            host_name                       db02
+            service_description             MySQL Table lock contention2
+            check_command                   check_mysql_health_db02!table-lock-contention!1!2
+            }
+    define service{
+            use                             service
+            host_name                       db02
+            service_description             MySQL Index usage2
+            check_command                   check_mysql_health_db02!index-usage!90:!80:
+            }
+    define service{
+            use                             service
+            host_name                       db02
+            service_description             MySQL Tables on disk2
+            check_command                   check_mysql_health_db02!tmp-disk-tables!25!50
+            }
+    define service{
+            use                             service
+            host_name                       db02
+            service_description             MySQL Slow queries2
+            check_command                   check_mysql_health_db02!slow-queries!0.1!1
+            }
+    define service{
+            use                             service
+            host_name                       db02
+            service_description             MySQL Long running processes2
+            check_command                   check_mysql_health_db02!long-running-procs!10!20
+    }
+
+### Exchange 2007 Monitoring
+
+#### Services
+
+    #Mailbox servers
+    define service{
+            use                     generic-service
+    hostgroup_name  ex-be-servers
+            service_description     Ex AD Topology
+            check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSExchangeADTopology
+            }
+    define service{
+            use                     generic-service
+    hostgroup_name  ex-be-servers
+            service_description     Ex IS
+            check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSExchangeIS
+            }
+    define service{
+            use                     generic-service
+    hostgroup_name  ex-be-servers
+            service_description     Ex Mail Submission
+            check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSExchangeMailSubmission
+            }
+    define service{
+            use                     generic-service
+    hostgroup_name  ex-be-servers
+            service_description     Ex Mailbox Assistants
+            check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSExchangeMailboxAssistants
+            }
+    define service{
+            use                     generic-service
+    hostgroup_name  ex-be-servers
+            service_description     Ex DB Replication
+            check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSExchangeRepl
+            }
+    define service{
+            use                     generic-service
+    hostgroup_name  ex-be-servers
+            service_description     Ex Search Indexing
+            check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSExchangeSearch
+            }
+    define service{
+            use                     generic-service
+    hostgroup_name  ex-be-servers
+            service_description     Ex Service Hosting
+            check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSExchangeServiceHost
+            }
+    define service{
+            use                     generic-service
+    hostgroup_name  ex-be-servers
+            service_description     Ex System Attendant
+            check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSExchangeSA
+            }
+    define service{
+            use                     generic-service
+    hostgroup_name  ex-be-servers
+            service_description     Ex Remote Transport Log Search
+            check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSExchangeTransportLogSearch
+            }
+    define service{
+            use                     generic-service
+    hostgroup_name  ex-be-servers
+            service_description     Ex DB Engine for Ex Search
+            check_command           check_nt!SERVICESTATE!-d SHOWALL -l msftesql-Exchange
+            }
+
+    #CAS and Hub Transport servers
+    define service{
+            use                     generic-service
+    hostgroup_name  ex-cashub-servers
+            service_description     Ex AD Topology
+            check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSExchangeADTopology
+            }
+    define service{
+            use                     generic-service
+    hostgroup_name  ex-cashub-servers
+            service_description     Ex Anti-spam Update
+            check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSExchangeAntispamUpdate
+            }
+    define service{
+            use                     generic-service
+    hostgroup_name  ex-cashub-servers
+            service_description     Ex File Distribution
+            check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSExchangeFDS
+            }
+    define service{
+            use                     generic-service
+    hostgroup_name  ex-cashub-servers
+            service_description     Ex POP3
+            check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSExchangePOP3
+            }
+    define service{
+            use                     generic-service
+    hostgroup_name  ex-cashub-servers
+            service_description     Ex Service Hosting
+            check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSExchangeServiceHost
+            }
+    define service{
+            use                     generic-service
+    hostgroup_name  ex-cashub-servers
+            service_description     Ex Transport
+            check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSExchangeTransport
+            }
+    define service{
+            use                     generic-service
+    hostgroup_name  ex-cashub-servers
+            service_description     Ex Transport Log Search
+            check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSExchangeTransportLogSearch
+            }
+
+#### Replication Health / Status
+
+If SCR, LCR or CCR is deployed in your organisation its status can be
+checked through use of Nagios monitoring its WMI counter:
+
+    #This does not work as for some reason check_nt does not work with counters where the data has been presented as an argument:
+    define service{
+            use                     generic-service
+    hostgroup_name  ex-be-servers
+            service_description     Ex SCR
+            check_command           check_nt!COUNTER!-l "\\\\MSExchange Replication(_total)\\Failed","Replication failure status (0 = OK): %.f" -c 1
+            }
+
+    #A dedicated command must be created per counter that needs to be monitored:
+    define command{
+            command_name ex-wmi-replication
+            command_line $USER1$/check_nt -H $HOSTADDRESS$ -p 12489 -v COUNTER -d SHOWALL -l "\\\\MSExchange Replication(_total)\\Failed","SCR Failure status: %.f" -c 1
+    }
+
+    #Then referenced directly with a service config like the following
+    define service{
+            use                     generic-service
+    hostgroup_name  ex-be-servers
+            service_description     Ex SCR
+            check_command           ex-wmi-replication
+            }
+
+#### Connectivity of Mailbox server to Hub Transport server(s)
+
+The Hub servers in retry counter indicates any servers that are not
+accessable from any of the mailbox servers. In Exchange 2007 if a Hub
+transport server were to die and there was no monitoring, users in
+cached exchange mode would not notice any issues a emails will still
+leave their Outbox. Online users in this scenario would have thier
+emails wait in Outbox.
+
+    define service{
+            use                     generic-service
+    hostgroup_name  ex-be-servers
+            service_description     Ex Hub Server in Retry State
+            check_command           ex-wmi-hub-in-retry
+            }
+
+    define command {
+            command_name ex-wmi-hub-in-retry
+            command_line $USER1$/check_nt -H $HOSTADDRESS$ -p 12489 -v COUNTER -d SHOWALL -l "\\\\MSExchangeMailSubmission(msexchangemailsubmission)\\Hub Servers in Retry","Hub Servers in Retry state: %.f" -c 1
+    }
+
+#### Database Health
+
+<http://searchexchange.techtarget.com/generic/0,295582,sid43_gci1362447,00.html?track=NL-359&ad=716575&asrc=EM_NLT_8754745&uid=8701479>
+
+    define service {
+            use                     generic-service
+            hostgroup_name          ex-be-servers
+            service_description     Ex DB TLog gen chkpt lgth
+            check_command           ex-wmi-tlog-gen-chkpt-length
+
+    }
+    define command {
+            command_name ex-wmi-tlog-gen-chkpt-length
+            command_line $USER1$/check_nt -H $HOSTADDRESS$ -p 12489 -v COUNTER -d SHOWALL -l "\\\\MSExchange Database ==> Instances(Information Store/_Total)\\Log Generation Checkpoint Depth","Ex transaction log generation checkpoint depth: %.f" -w 35 -c 500
+    }
+
+
+    define service {
+            use                     generic-service
+            hostgroup_name          ex-be-servers
+            service_description     Ex DB Page Flt Stalls/sec
+            check_command           ex-wmi-db-pagefault-stallspersec
+    }
+    define command {
+            command_name ex-wmi-db-pagefault-stallspersec
+            command_line $USER1$/check_nt -H $HOSTADDRESS$ -p 12489 -v COUNTER -d SHOWALL -l "\\\\MSExchange Database(Information Store)\\Database Page Fault Stalls/sec","Ex DB Page Fault stalls / sec: %.f" -w 1 -c 3
+    }
+
+    define service {
+            use                     generic-service
+            hostgroup_name          ex-be-servers
+            service_description     Ex DB Version Buckets
+            check_command           ex-wmi-db-version-buckets-allocated
+    }
+    define command {
+            command_name ex-wmi-db-version-buckets-allocated
+            command_line $USER1$/check_nt -H $HOSTADDRESS$ -p 12489 -v COUNTER -d SHOWALL -l "\\\\MSExchange Database(Information Store)\\Version buckets allocated","Ex DB Version Buckets allocated: %.f" -w 5000 -c 12000
+    }
+
+
+    define service {
+            use                     generic-service
+            hostgroup_name          ex-be-servers
+            service_description     Ex DB TLog Rec stalls/sec
+            check_command           ex-wmi-db-log-rec-stallspersec
+    }
+    define command {
+            command_name ex-wmi-db-log-rec-stallspersec
+            command_line $USER1$/check_nt -H $HOSTADDRESS$ -p 12489 -v COUNTER -d SHOWALL -l "\\\\MSExchange Database(Information Store)\\Log Record Stalls/sec","Ex DB transaction log record stalls / sec: %.f" -w 5000 -c 12000
+    }
+
+
+    define service {
+            use                     generic-service
+            hostgroup_name          ex-be-servers
+            service_description     Ex DB Cache Hit Percent
+            check_command           ex-wmi-db-cache-percent-hitrate
+    }
+    #No warnings set as this can flap to 0% at times.
+    define command {
+            command_name ex-wmi-db-cache-percent-hitrate
+            command_line $USER1$/check_nt -H $HOSTADDRESS$ -p 12489 -v COUNTER -d SHOWALL -l "\\\\MSExchange Database(Information Store)\\Database Cache % Hit","Ex DB cache hit percent: %.f (0 dp)"
+    }
+
+### Exchange 2003 Monitoring
+
+    #ex2003 Servers
+    define service{
+            use                     generic-service
+    hostgroup_name  ex2003-servers
+            service_description     Ex IS
+            check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSExchangeIS
+            }
+    define service{
+            use                     generic-service
+    hostgroup_name  ex2003-servers
+            service_description     Ex WMI
+            check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSExchangeMGMT
+            }
+    define service{
+            use                     generic-service
+    hostgroup_name  ex2003-servers
+            service_description     Ex MTA Stacks
+            check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSExchangeMTA
+            }
+    define service{
+            use                     generic-service
+    hostgroup_name  ex2003-servers
+            service_description     Ex POP3
+            check_command           check_nt!SERVICESTATE!-d SHOWALL -l POP3Svc
+            }
+    define service{
+            use                     generic-service
+    hostgroup_name  ex2003-servers
+            service_description     Ex Routing Engine
+            check_command           check_nt!SERVICESTATE!-d SHOWALL -l RESvc
+            }
+    define service{
+            use                     generic-service
+    hostgroup_name  ex2003-servers
+            service_description     Ex System Attendant
+            check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSExchangeSA
+            }
+    define service{
+            use                     generic-service
+    hostgroup_name  ex2003-servers
+            service_description     SMTP
+            check_command           check_nt!SERVICESTATE!-d SHOWALL -l SMTPSVC
+            }
+
+### IIS Server Monitoring
+
+Check IIS services are running:
+
+    #web servers
+    define service{
+            use                     service
+            hostgroup_name  web-servers
+            service_description     W3SVC
+            check_command           check_nt!SERVICESTATE!-d SHOWALL -l W3SVC
+            }
+    define service{
+            use                     service
+            hostgroup_name  web-servers
+            service_description     IIS Admin Service
+            check_command           check_nt!SERVICESTATE!-d SHOWALL -l IISADMIN
+            }
+    define service{
+            use                     service
+            hostgroup_name  web-servers
+            service_description     HTTP SSL
+            check_command           check_nt!SERVICESTATE!-d SHOWALL -l HTTPFilter
+            }
+
+### SQL Server (MSSQL) Server Monitoring
+
+*See full page: [Monitor SQL Server (MSSQL) using
+Nagios](Monitor_SQL_Server_(MSSQL)_using_Nagios "wikilink")*
+
+Nagios can be configured to monitor named and non-named instances of MS
+SQL Server through use of escaping characters and being aware of the
+specific WMI syntax. Details on how to monitor the following are
+explanied:
+
+-   SQL Services (check\_nt)
+-   Ports open (check\_tcp)
+-   Load / health monitoring (check\_nt and WMI counters)
+-   SQL Mirroring (check\_nt and WMI counters)
+
+### RBL Status
+
+The check\_bl plugin allows monitoring of RBL status for your outbound
+relay servers.
+
+#### Plugin installation
+
+1.  Download and extract
+    <http://bashton.com/downloads/nagios-check_bl-1.0.tar.gz>
+2.  Copy check\_bl (perl script) to your Nagios plugins dir, usually
+    /usr/local/nagios/libexec
+3.  Install the NET::DNS module for perl, as otherwise the script will
+    be unable to perform the necessary DNS lookups. The package name
+    varies from distro to distro. On Ubuntu it is libnet-dns-perl . Try
+    <http://www.bioperl.org/wiki/Tutorial:Installing_Perl_modules> if
+    you are problems finding it.
+4.  Add the following config with your IP(S) to Nagios\' config:
+
+<!-- -->
+
+    define  command {
+            command_name    check_bl
+            command_line    $USER1$/check_bl -H 1.1.1.1 -B zen.spamhaus.org bl.spamcop.net dnsbl.ahbl.org dnsbl.njabl.org dnsbl.sorbs.net virbl.dnsbl.bit.nl rbl.efnet.org phishing.rbl.msrbl.net 0spam.fusionzero.com list.dsbl.org multihop.dsbl.org unconfirmed.dsbl.org will-spam-for-food.eu.org blacklist.spambag.org blackholes.brainerd.net blackholes.uceb.org spamsources.dnsbl.info map.spam-rbl.com ns1.unsubscore.com psbl.surriel.com l2.spews.dnsbl.sorbs.net bl.csma.biz sbl.csma.biz dynablock.njabl.org no-more-funn.moensted.dk  ubl.unsubscore.com dnsbl-1.uceprotect.net dnsbl-2.uceprotect.net dnsbl-3.uceprotect.net spamguard.leadmon.net opm.blitzed.org bl.spamcannibal.org rbl.schulte.org dnsbl.ahbl.org virbl.dnsbl.bit.nl combined.rbl.msrbl.net
+            }
+    define service{
+            use                     generic-service
+    hostgroup_name  ex-cashub-servers
+            service_description     Ex RBL Status
+            check_command           check_bl
+            }
+
+### End to end email checking
+
+Nagios can monitor end-to-end email functonality when used with a perl
+script. The script sends emails via SMTP and expects them to arrive in a
+defined POP3 email account. Using an external mail forward this script
+enables you to assert functionality of sending & receiving emails.
+
+#### Plugin installation
+
+1.  Download the script:
+    <http://www.monitoringexchange.org/cgi-bin/page.cgi?g=Detailed%2F1807.html;d=1>
+
+<!-- -->
+
+1.  Install the MAIL::POP3Client module for perl, as otherwise the
+    script will be unable to perform the necessary POP3 connections. The
+    package name varies from distro to distro. On Ubuntu it is
+    libmail-pop3client-perl.
+2.  Install Dovecot pop3 server:
+    `sudo apt-get install dovecot-common dovecot-pop3d` It takes
+    users/passes from /etc/passwd .
+3.  Install Postfix MTA: `sudo apt-get install postfix`. Configure
+    through the /etc/postfix/main.cf file or use
+    `sudo dpkg-reconfigure postfix`. See
+    <https://help.ubuntu.com/community/Postfix>
+4.  Setup relevant auto-forwards for your acc and allow-relay rules if
+    required.
+5.  Add the follwing Nagios config, adjusting for your setup as
+    required:
+
+<!-- -->
+
+    define service{
+            use                     generic-service
+    host_name  Email_server
+            service_description     Email Send/Receieve Test
+            check_command           check_email
+            }
+    define command{
+    command_name check_email
+    command_line $USER1$/check_email.pl -poph=127.0.0.1 -popu=emailtest -pa=pop3password -smtph=FqdnOfRealyserver -from=emailtest@nagiosserver -to=emailtest@emailserver.co.uk -pendc=2 -lostc=0 -statfile=/stat/statfile
+    }
+
+Notes:
+
+-   The scrupt requires access to write to a temporary \'stat\' file.
+    Nagios in my setup at least is very particular with permissions. It
+    is best to give it its own root folder as seen above or place it in
+    /tmp.
+-   The script can also server as a check\_tcp for your relay server as
+    if it cannot connect it returns critical to Nagios.
+-   If using Exchange the auto forward rule will need to be set using AD
+    (Exchange 2003) or the
+    [EMC](http://technet.microsoft.com/en-us/library/bb123762.aspx)
+    (Exchange 2007).
+
+### Domain Expiry Monitoring
+
+1.  Download the
+    [plugin](http://dns.measurement-factory.com/tools/nagios-plugins/src/check_whois)
+    and save in your /usr/local/nagios/libexec dir.
+2.  Install the Date::Manip Perl module, on Ubuntu the package is
+    libdate-manip-perl , if that fails you try search for it using
+    `apt-cache search Date::Manip` .
+3.  Install whois if not present on your system.
+4.  Append this command config to your
+    /usr/local/nagios/etc/objects/commands.cfg:
+
+<!-- -->
+
+    define command{
+            command_name    check_whois
+            command_line    $USER1$/check_whois $ARG1$
+    }
+
+It is best not to use \$HOSTADDRESS\$ as the argument for the check
+command as otherwise every domain will need to have its own host config
+and Nagios will try to ping it by default.
+
+The command should then be referenced in a service:
+
+    define service{
+            use     service
+            host_name       Domains-Expiration
+            service_description domain.com
+            check_command check_whois!domain.com
+    }
+
+### LDAP Monitoring
+
+This can be used for any LDAP service including Windows Domain
+Controllers and of course OpenLDAP. The plugin cannot check Windows
+Domain Controllers when using login credentials as Windows will only
+accept credentials over SSL.
+
+1.  Download the
+    [plugin](http://www.monitoringexchange.org/cgi-bin/page.cgi?g=Detailed%2F1325.html;d=1)
+    and save in your /usr/local/nagios/libexec dir.
+2.  Install the NET::LDAP module perl, as otherwise the script cannot
+    perform the LDAP lookups. On Ubuntu the package name is
+    libnet-ldap-perl .
+3.  Append this command config to your
+    /usr/local/nagios/etc/objects/commands.cfg:
+
+<!-- -->
+
+    define command{
+            command_name    check_ldap
+            command_line    $USER1$/check_ldap -H $HOSTADDRESS$ $ARG1$
+    }
+
+The command can then be referrenced as a service, this example it uses a
+hostgroup which contains all the Domain Controllers:
+
+    define service{
+            use                     generic-service
+    hostgroup_name  dcs
+            service_description     NTDS LDAP Bind check
+            check_command           check_ldap
+    }
+
+The hostgroup config could look like this:
+
+    define hostgroup{
+            hostgroup_name dcs
+            alias Domain Controllers
+            members DC1, DC2
+    }
+
+### Resources
+
+-   [Probing the depths - Windows
+    Monitoring](http://nordicmeetonnagios.op5.org/op5media/nmn2009/presentations/Michael%20Medin%20Probing%20the%20depths%20of%20Windows.pdf)
+
+[Categroy:Nagios](Categroy:Nagios "wikilink")
+
+[Category:Linux](Category:Linux "wikilink")
+[Category:Windows](Category:Windows "wikilink")

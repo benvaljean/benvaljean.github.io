@@ -3,6 +3,9 @@ layout: post
 title: Monitoring Exchange 2007 using Nagios
 ---
 
+[Nagios](Nagios "wikilink") is a free open-source monitoring
+software/platform.
+
 ### Services
 
 #### Mailbox servers

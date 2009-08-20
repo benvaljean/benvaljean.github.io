@@ -346,8 +346,12 @@ Policy](http://technet2.microsoft.com/windowsserver/en/library/c07587ec-4a60-4bc
 
 -   [Car parking
     spaces](http://www.aparkingspace.com/find_a_parking_space.asp)
+-   [parkopedia.com](http://www.parkopedia.com)
 -   [Toyota Nation](http://www.toyotanation.com)
 -   [Toyota Ownner Club](http://toyotaownersclub.com/forums)
+-   [MR2 Owner\'s Club](http://www.mr2oc.co.uk)
+-   [Check typre pressure and
+    wear](http://www.diydoctor.org.uk/motoring/projects/checktyres.htm)
 
 ### Other Stuff
 

@@ -88,6 +88,9 @@ Server)](SQL_Clustering_(Database_Server) "wikilink")
 
 #### IIS Rewrite tools
 
+*See [Rewrite on IIS that actually
+works](Rewrite_on_IIS_that_actually_works "wikilink")*
+
 IIS cannot perform rewrite natively but it can do through the use of
 these plugins:
 

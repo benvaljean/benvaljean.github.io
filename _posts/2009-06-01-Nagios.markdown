@@ -11,7 +11,7 @@ package used could be out of date. It is easy to complile Nagios from
 source using the latest version:
 <http://nagios.sourceforge.net/docs/3_0/quickstart-ubuntu.html>
 
-### Install plugins
+### Install the Nagios-plugins release
 
     wget http://prdownloads.sourceforge.net/sourceforge/nagiosplug/nagios-plugins-1.4.13.tar.gz
     tar zxf nagios-plugins-1.4.13.tar.gz

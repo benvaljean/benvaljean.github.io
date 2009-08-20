@@ -74,7 +74,7 @@ Then start service
     define service{
             use                             service
             host_name                       dbserver
-            service_description             MySQL load check
+            service_description             MySQL connection check
             check_command                   check_mysql!-d test -H dbserver -u nagios -p passwordhere
     }
 

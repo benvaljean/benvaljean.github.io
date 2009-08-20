@@ -101,12 +101,12 @@ If more advanced monitoring is required follow these steps:
 
     define command{
             command_name            check_mysql_health_db01
-            command_line            $USER1$/check_mysql_health --host 127.0.0.1 -P 3335 --mode $ARG1$ -u nagios -p Rogerrabbit45 -w $ARG2$ -c $ARG3$ --database aspire_production
+            command_line            $USER1$/check_mysql_health --host 127.0.0.1 -P 3335 --mode $ARG1$ -u nagios -p passwordhere -w $ARG2$ -c $ARG3$ --database dbhere
     }
 
     define command{
             command_name            check_mysql_health_db02
-            command_line            $USER1$/check_mysql_health --host 127.0.0.1 -P 3336 --mode $ARG1$ -u nagios -p ohS0aiPu -w $ARG2$ -c $ARG3$ --database aspire_production
+            command_line            $USER1$/check_mysql_health --host 127.0.0.1 -P 3336 --mode $ARG1$ -u nagios -p passwordhere -w $ARG2$ -c $ARG3$ --database dbhere
     }
 
 

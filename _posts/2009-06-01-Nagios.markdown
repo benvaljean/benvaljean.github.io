@@ -610,8 +610,8 @@ explanied:
 
 -   SQL Services (check\_nt)
 -   Ports open (check\_tcp)
--   Load / health monitoring (check\_nt and WMI counters)
--   SQL Mirroring (check\_nt and WMI counters)
+-   Load / health monitoring (check\_nt and perfmon counters)
+-   SQL Mirroring (check\_nt and perfmon counters)
 
 ### RBL Status
 

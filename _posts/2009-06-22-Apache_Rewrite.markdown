@@ -11,11 +11,18 @@ Redirect can be used:
     #Redirect a particular uri to another url
     Redirect permanent /foo http://www.foobar.com/bar
 
-### Redirecting to https / Force use of SSL
+### Redirecting http to https / Force use of SSL
 
     RewriteEngine On
     RewriteCond %{HTTPS} off
     RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
+
+OR
+
+    RewriteCond %{SERVER_PORT} ^80$
+    RedirectRule ^/(.*)$ https://%{HTTP_HOST}/$1 [R=301]
+
+#### ISAPI\_rewrite
 
 This works great with Apache but not ISAPI\_Rewrite, the following must
 be used:
@@ -44,6 +51,16 @@ The following will allow <http://www.whatever.com/car_info_v4_5.php> to
 be accessed via <http://www.whatever.com/cars/>
 
     RewriteRule    ^cars/?$ car_info_v4_5.php [NC,L]
+
+### Rewrite for a specific hostname
+
+This could be achieved by created a seperate vhost config for the
+hostname, however depending on the setup this could be extra work. This
+will rewrite the base-url to <http://www.example.com/test> when the
+hostname is \'www.testing.com\':
+
+    RewriteCond %{HTTP_HOST} ^www\\.testing\\.com$
+    RedirectRule ^/$ http://www.example.com/test [R]
 
 ### See Also
 

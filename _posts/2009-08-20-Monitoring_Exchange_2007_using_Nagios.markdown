@@ -217,6 +217,8 @@ emails wait in Outbox.
             service_description     Ex DB Cache Hit Percent
             check_command           ex-wmi-db-cache-percent-hitrate
     }
+
+    [[Category:Nagios]][[Category:Exchange]]
     #No warnings set as this can flap to 0% at times.
     define command {
             command_name ex-wmi-db-cache-percent-hitrate

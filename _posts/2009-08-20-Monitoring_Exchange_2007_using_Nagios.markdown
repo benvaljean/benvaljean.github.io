@@ -218,12 +218,19 @@ emails wait in Outbox.
             check_command           ex-wmi-db-cache-percent-hitrate
     }
 
-    [[Category:Nagios]][[Category:Exchange]]
-    #No warnings set as this can flap to 0% at times.
-    define command {
-            command_name ex-wmi-db-cache-percent-hitrate
-            command_line $USER1$/check_nt -H $HOSTADDRESS$ -p 12489 -v COUNTER -d SHOWALL -l "\\\\MSExchange Database(Information Store)\\Database Cache % Hit","Ex DB cache hit percent: %.f (0 dp)"
-    }
+1.  No warnings set as this can flap to 0% at times.
+
+define command {
+
+`       command_name ex-wmi-db-cache-percent-hitrate`\
+`       command_line $USER1$/check_nt -H $HOSTADDRESS$ -p 12489 -v COUNTER -d SHOWALL -l "\\\\MSExchange Database(Information Store)\\Database Cache % Hit","Ex DB cache hit percent: %.f (0 dp)"`
+
+}
+
+</pre>
 
 See
 <http://searchexchange.techtarget.com/generic/0,295582,sid43_gci1362447,00.html?track=NL-359&ad=716575&asrc=EM_NLT_8754745&uid=8701479>
+
+[Category:Nagios](Category:Nagios "wikilink")
+[Category:Exchange](Category:Exchange "wikilink")

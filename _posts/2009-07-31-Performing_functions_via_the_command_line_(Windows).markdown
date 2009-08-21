@@ -44,6 +44,10 @@ To show all tasks called notepad:
 
 Press F7 or use the up and down cursor keys
 
+#### Append to the %path% variable
+
+    SET PATH=%PATH%;"insert additional path here"
+
 ### See Also
 
 -   [Accessing a server remotely when RDP/Terminal services is

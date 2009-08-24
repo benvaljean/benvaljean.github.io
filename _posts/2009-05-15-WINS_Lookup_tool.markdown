@@ -13,3 +13,5 @@ by typing:
 The usage is:
 
     nmblookup -U <WINSserver> -R <nametolookup>
+
+[Category:Windows](Category:Windows "wikilink")

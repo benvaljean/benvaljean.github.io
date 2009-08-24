@@ -18,9 +18,7 @@ listed here.
 
     :%s/OLD/NEW/g
 
-#### Go to line nunber
-
-<linenumber>G OR :<line number>
+#### Jump to beginning / end of file
 
 \'G\' alone moves the cursor to the end of file; \'gg\' to the beginning
 of the file.

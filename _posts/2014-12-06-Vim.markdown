@@ -3,6 +3,15 @@ layout: post
 title: Vim
 ---
 
+Vi is free, open-source advanced text editor. A clone of Vi called
+[Vim](http://www.vim.org) is now commonly used as a *vImproved*
+alternative. It is often used on Linux flavours although ports for
+Windows ([gVim portable](http://portablegvim.sourceforge.net/) and Mac
+OSX [Vim for Mac](http://macvim.org/OSX/index.php) are available. Its
+differentiator from other text editors is the many
+keyboard-shortcut-based commands available, just a few of which are
+listed here.
+
 ### Commands
 
 #### Search and replace
@@ -67,5 +76,10 @@ indents are placed on the lines. To disable this:
 #### Cheat sheet
 
 <http://www.eec.com/business/vi.html>
+
+### Recall previous command
+
+Press Esc to entewr command mode, type a single colon, after which the
+up and down keys can be used in the same manner as BASH.
 
 [Category:Linux](Category:Linux "wikilink")

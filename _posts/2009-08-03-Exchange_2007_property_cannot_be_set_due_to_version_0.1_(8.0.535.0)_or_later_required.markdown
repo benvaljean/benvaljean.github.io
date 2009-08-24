@@ -32,7 +32,8 @@ The mailbox is a 2003 / legacy mailbox but Exchange is detecting it as a
 2007 mailbox. The error message above is stating that 2007 or later is
 required but the object is only 2003, normally this error is trapped
 before this point as the interface will state that 2007 or later is
-required.
+required, as the fact that it is a 2003 mailbox is otherwise clearly
+stated.
 
 ### Resolution
 

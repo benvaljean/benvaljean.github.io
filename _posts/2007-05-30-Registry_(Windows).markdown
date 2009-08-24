@@ -103,18 +103,22 @@ Contains settings regarding the currently logged-on user.
         -   ProgramsTab: Hides Programs tab in Settings.
 -   Software: Software configuration settings for the currently
     logged-on user.
-    -   Microsoft\\\\Office\\\\\<9.0\|10.0\|11.0\>
-        -   Word\\\\Options
-            -   SQLSecurityCheck: (0 or 1) Set this to 0 to disable the
-                \"Opening this document will run the following SQL
-                command\" prompt when opeing the Word doc that runs a
-                SQL query.
-        -   Outlook\\\\Security
-            -   Level1Remove: (string) Specify extensions to not be
-                blocked by the internal blocking function within
-                Outlook, seperated by semi-colons. See also [Disable
-                Attachment Blocking
-                (Outlook)](Disable_Attachment_Blocking_(Outlook) "wikilink")
+    -   Microsoft
+        -   Command Processor
+            -   DisableUNCCheck (0 or 1) Allow UNC paths to be used in
+                commands.
+        -   Office\\\\\<9.0\|10.0\|11.0\>
+            -   Word\\\\Options
+                -   SQLSecurityCheck: (0 or 1) Set this to 0 to disable
+                    the \"Opening this document will run the following
+                    SQL command\" prompt when opeing the Word doc that
+                    runs a SQL query.
+            -   Outlook\\\\Security
+                -   Level1Remove: (string) Specify extensions to not be
+                    blocked by the internal blocking function within
+                    Outlook, seperated by semi-colons. See also [Disable
+                    Attachment Blocking
+                    (Outlook)](Disable_Attachment_Blocking_(Outlook) "wikilink")
     -   Microsoft\\\\Windows\\\\CurrentVersion
         -   Policies
             -   Explorer
@@ -199,16 +203,17 @@ Contains settings regarding the currently logged-on user.
         seconds from 12:00 AM 0/0/0
     -   ResetPartner: (0 or 1) Set to 1 to force the reset of a
         partnership.
--   Microsoft\\\\Windows NT\\\\Curent Version
-    -   Program Manager\\\\Restrictions: Allows manipulation
-        restrictions; usually set by Group Policy.
-        -   NoRun: (0 or 1)
-        -   NoFileMenu: (0 or 1)
-        -   NoClose: (0 or 1)
-    -   Winlogon
-        -   BuildNumber: You can have great fun with this if you are
-            bored.
-        -   ParseAutoexec: Force Windows to parse the autoexec.bat file.
+    -   Windows NT\\\\Curent Version
+        -   Program Manager\\\\Restrictions: Allows manipulation
+            restrictions; usually set by Group Policy.
+            -   NoRun: (0 or 1)
+            -   NoFileMenu: (0 or 1)
+            -   NoClose: (0 or 1)
+        -   Winlogon
+            -   BuildNumber: You can have great fun with this if you are
+                bored.
+            -   ParseAutoexec: Force Windows to parse the autoexec.bat
+                file.
 
 ### HKEY\_LOCAL\_MACHINE
 

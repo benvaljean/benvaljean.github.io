@@ -17,12 +17,13 @@ installed.
 
 1.  Open the certificates mmc: Start \> run \> mmc \> File \> Add/remove
     snap in\... \> Add\... \> Certificates.
-2.  Right-click intermediate certification authorities \> All tasks \>
+2.  Choose computer account
+3.  Right-click intermediate certification authorities \> All tasks \>
     Import\...
-3.  Follow the wizard to import the certificate.
-4.  Check that it appears certificate appears in the list.
-5.  If you\'re installing a new certificate, delete the old/expired one.
-6.  Run iisreset
+4.  Follow the wizard to import the certificate.
+5.  Check that it appears certificate appears in the list.
+6.  If you\'re installing a new certificate, delete the old/expired one.
+7.  Run iisreset
 
 ### Install on Apache
 

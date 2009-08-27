@@ -124,6 +124,8 @@ a list of [useful sites](Useful_Sites "wikilink").
     details](Obtain_Service_pack_details_(SQL_Server) "wikilink")
 -   [High availability IIS & SQL using NLB &
     Clustering](High_availability_IIS_&_SQL_using_NLB_&_Clustering "wikilink")
+-   [Backup all DBs on a SQL
+    Server](Backup_all_DBs_on_a_SQL_Server "wikilink")
 
 ### MySQL
 

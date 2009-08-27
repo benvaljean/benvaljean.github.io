@@ -13,12 +13,6 @@ following query can be used as an alternative:
 
     SELECT @@version
 
-Look at [this link](http://vyaskn.tripod.com/sqlsps.htm) to ascertain
-which service pack (if any) is installed from the version/revision
-number.
+Or look at the bottom panel in SQL Management Studio.
 
-To run a query on a SQL server you could for instance open [SQL Server
-Management
-Studio](http://www.microsoft.com/downloads/details.aspx?FamilyId=C243A5AE-4BD1-4E3D-94B8-5A0F62BF7796),
-right-click the instance from within object exporer and choose new
-query.
+[Category:MSSQL](Category:MSSQL "wikilink")

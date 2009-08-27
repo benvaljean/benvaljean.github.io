@@ -111,3 +111,4 @@ between the nodes and load share. Should a fail-over occur then all 1-6
 databases in this example can be accessed from just the one node.
 
 [Category:MSSQL](Category:MSSQL "wikilink")
+[Category:Web](Category:Web "wikilink")

@@ -1,0 +1,9 @@
+---
+layout: post 
+title: MSSQL
+---
+
+[http://www.functionx.com/sqlserver Microsoft SQL
+Server](http://www.functionx.com/sqlserver_Microsoft_SQL_Server "wikilink")
+
+[Category:IT](Category:IT "wikilink")

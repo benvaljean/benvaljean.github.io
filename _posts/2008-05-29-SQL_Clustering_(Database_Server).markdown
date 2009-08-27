@@ -45,3 +45,5 @@ this example can be accessed from just the one node.
     Cluster](http://articles.techrepublic.com.com/5100-10878_11-5157575.html)
 -   [Setting up a reboot cycle for an active/passive SQL
     cluster](http://www.databasejournal.com/features/mssql/article.php/3457551/Setting-up-a-reboot-cycle-for-ActivePassive-Cluster-SQL-Server.htm)
+
+[Category:MSSQL](Category:MSSQL "wikilink")

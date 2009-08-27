@@ -70,3 +70,5 @@ is decreasing.
     2005](http://sqlserveruniverse.com/content/ADMN0100111132007LogShipping.aspx)
 -   [Log shipping using Red Gate SQL Backup on Microsoft SQL
     Server](http://www.yohz.com/logship.html)
+
+[Category:MSSQL](Category:MSSQL "wikilink")

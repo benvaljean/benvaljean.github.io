@@ -109,3 +109,5 @@ different DBs. For example DBs 1-3 in most cases go to node 1 and DBs
 4-6 in most cases go to node number 2. You split the backend disk
 between the nodes and load share. Should a fail-over occur then all 1-6
 databases in this example can be accessed from just the one node.
+
+[Category:MSSQL](Category:MSSQL "wikilink")

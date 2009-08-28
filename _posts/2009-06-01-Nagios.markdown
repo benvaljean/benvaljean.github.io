@@ -403,7 +403,7 @@ Nagios](Monitor_SQL_Server_(MSSQL)_using_Nagios "wikilink")*
 
 Nagios can be configured to monitor named and non-named instances of MS
 SQL Server through use of escaping characters and being aware of the
-specific WMI syntax. Details on how to monitor the following are
+specific perfmon syntax. Details on how to monitor the following are
 explanied:
 
 -   SQL Services (check\_nt)

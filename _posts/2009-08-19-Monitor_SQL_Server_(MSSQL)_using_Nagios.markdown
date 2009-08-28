@@ -282,13 +282,13 @@ respectively.
 
 #### See Also
 
-Using the monitoring counters defined should covery all scenarios.
+Using the monitoring counters defined should cover all scenarios.
 However mirroring can be monitored using the [Database mirrroing
 monitor](http://msdn.microsoft.com/en-us/library/ms365786.aspx). Alerts
 to the event log can be setup for various thresholds and these entries
 in the event log can be watched for by the use of a SQL Agent Alert.
 
-Another method to monitor monitored is vto use system stored procedures:
+Another method to monitor mirroring is to use system stored procedures:
 [Using Warning Thresholds and Alerts on Mirroring Performance
 Metrics](http://msdn.microsoft.com/en-us/library/ms408393.aspx)
 

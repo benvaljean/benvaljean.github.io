@@ -187,7 +187,8 @@ connection to SQL can be monitored.
 Busy I/O should be monitored as it is an indicator of a busy server and
 can again be monitored though the check\_mssql\_health plugin.
 
--   Install the plugin: [temp](temp "wikilink")
+-   Install the plugin: [check\_mssql\_health
+    Installation](Nagios#Installing_the_check_mssql_health_plugin_check_mssql_health_Installation "wikilink")
 -   Append the following service config :
 
 <!-- -->

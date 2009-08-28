@@ -207,6 +207,9 @@ htaccess](http://www.cyberciti.biz/faq/howto-setup-apache-password-protect-direc
 
 [Guide on setting up Squid 2.6 as a Reverse
 Proxy](http://wiki.squid-cache.org/SquidFaq/ReverseProxy)\
+[Howto parse a Squid logfile with
+Awstats](http://longsleep.org/1/howto/squidawstats)
+
 See Also: [Squid Stuff](Squid_Stuff "wikilink")
 
 ### Outlook

@@ -240,7 +240,7 @@ tlogs that remain to be applied to the mirror to roll it forwards can
 also be checked, called the transaction-dealy and the redo queue
 respectively.
 
-    #check_nt syntax for perfmon counnters from what is seen from within perfmon for named instances
+    #check_nt syntax for perfmon counnters differs from what is seen from within perfmon for SQL named instances
     #This monitors a named instance called PROD:
 
     #Send queue / principal queue

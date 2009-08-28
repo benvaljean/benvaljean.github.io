@@ -169,7 +169,8 @@ different if a named instance is used as opposed to the default
 Through use of the check\_mssql\_health plugin the time to a sucessful
 connection to SQL can be monitored.
 
--   Install the plugin: [temp](temp "wikilink")
+-   Install the plugin: [check\_mssql\_health
+    Installation](Nagios#Installing_the_check_mssql_health_plugin_check_mssql_health_Installation "wikilink")
 -   The service configuration could look like this:
 
 <!-- -->

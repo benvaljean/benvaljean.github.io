@@ -392,13 +392,12 @@ title: Common.css
 
     .references-small { font-size: 90%;}
 
-
-    #column-one { padding-top: 225px; }   margin of the start of the sidebar
     #p-logo,
     #p-logo a,
     #p-logo a:hover {
-        height: 300px;    change logo height
-
+            height: 225px;
+    }
+    #column-one { padding-top: 225px; }
 
 
     /** </nowiki>

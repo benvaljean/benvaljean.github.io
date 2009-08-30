@@ -66,5 +66,31 @@ nuances to be aware of though.
     RewriteCond %{SERVER_PORT} ^80$
     RedirectRule ^/(.*)$ https://%{HTTP_HOST}/$1 [R=301]
 
+### Rewrite the base-URL (only) for a specific hostname
+
+In Apache the first line would not be required if a vhost configuration
+is being used. In IIRF the rewrites cannot be encapsulated within vhosts
+as this configuration does not exist of course. This will rewrite the
+base-url (only) to <http://www.example.com/test> when the hostname is
+\'www.testing.com\':
+
+    RewriteCond %{HTTP_HOST} ^www\\.testing\\.com$
+    RedirectRule ^/$ http://www.example.com/test [R]
+
+### Rewrite all URLs for a domain to a holding page
+
+A situation can arise where all URLs on a domain need to be
+diverted/rewritten to the same URL, such as a holding page.
+
+    RewriteCond %{HTTP_HOST} ^test\\.jgpskills\\.co\\.uk$
+    RedirectRule ^/(.*)$ /
+
+This does not cause a rewrite loop as the pattern-match is for a \"/\"
+and one or more characters but not for only the \"/\".
+
+### See Also
+
+[Apache Rewrite](Apache_Rewrite "wikilink")
+
 [Category:Windows](Category:Windows "wikilink")
 [Category:Web](Category:Web "wikilink")

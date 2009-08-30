@@ -29,16 +29,6 @@ be accessed via <http://www.whatever.com/cars/>
 
     RewriteRule    ^cars/?$ car_info_v4_5.php [NC,L]
 
-### Rewrite for a specific hostname
-
-This could be achieved by created a seperate vhost config for the
-hostname, however depending on the setup this could be extra work. This
-will rewrite the base-url to <http://www.example.com/test> when the
-hostname is \'www.testing.com\':
-
-    RewriteCond %{HTTP_HOST} ^www\\.testing\\.com$
-    RedirectRule ^/$ http://www.example.com/test [R]
-
 ### See Also
 
 [Rewrite on IIS](Rewrite_on_IIS_that_actually_works "wikilink")

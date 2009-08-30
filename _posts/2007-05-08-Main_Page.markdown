@@ -171,19 +171,6 @@ title: Main Page
 -   [Restore using NTBACKUP
     (Exchange)](Restore_using_NTBACKUP_(Exchange) "wikilink")
 
-### Other IT Trobuleshooting
-
--   [ActiveSync General Troubleshooting
-    Guide](http://www.pocketpcfaq.com/faqs/activesync/initialconfig.htm)
--   [ActiveSync 4.0/4.1/4.2 USB Connection Troubleshooting
-    Guide](http://www.microsoft.com/windowsmobile/help/activesync/default.mspx)
--   [Windows Media Player Troubleshooting
-    Guide](http://www.zachd.com/pss/pss.html)
--   [Blackberry stuck on egg
-    timer](http://blackberryforums.pinstack.com/12976-post7.html)
--   [Troubleshooting the device status on a RIM
-    BlackBerry](http://supportcingular.atgnow.com/cng/knowledgebase/KB3218.html)
-
 ### IT Reference
 
 -   [Global Address List

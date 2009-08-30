@@ -56,5 +56,4 @@ mailbox\"](http://www.digitalsupporttech.com/mskb/941/941146_Error_message_when_
 [Can\'t open new mailboxes in
 OWA](http://episteme.arstechnica.com/eve/forums?a=tpc&s=50009562&f=12009443&m=362006418831&r=606003038831)
 
-[Category:Windows](Category:Windows "wikilink")
 [Category:Exchange](Category:Exchange "wikilink")

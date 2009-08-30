@@ -397,7 +397,7 @@ title: Common.css
     #p-logo,
     #p-logo a,
     #p-logo a:hover {
-        height: 225px;    change logo height
+        height: 300px;    change logo height
 
 
 

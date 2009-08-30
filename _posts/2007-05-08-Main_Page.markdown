@@ -197,14 +197,6 @@ title: Main Page
 -   [Fun things to do with
     SIDS](http://blogs.msdn.com/larryosterman/archive/2004/09/02/224713.aspx)
 
-### IT Forum Sites
-
--   [Tek-Tips](http://www.tek-tips.com/)
--   [theeldergeek.com](http://www.theeldergeek.com/)
--   [Webopedia](http://www.webopedia.com/)
--   [OSROnline](http://www.osronline.com/)
--   [forums.techguy.org](http://forums.techguy.org/)
-
 ### Site Notes
 
 -   [Why was this site called

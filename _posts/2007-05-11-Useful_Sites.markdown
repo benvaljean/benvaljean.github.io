@@ -46,6 +46,8 @@ site\
 Good for when you have a service hanging under \'starting\' or
 \'stopping\'.\
 [HEX Colour chart](http://www.draac.com/hexchart.html)\
+[Windows Media Player Troubleshooting
+Guide](http://www.zachd.com/pss/pss.html)\
 ==Windows Server 2003 / 2008==
 
 -   [Ascertain FSMO role
@@ -225,6 +227,17 @@ See Also: [Squid Stuff](Squid_Stuff "wikilink")
 Converter](http://people.fas.harvard.edu/~sdouglas/table.cgi) Also works
 in any tab that generates tabs between the cells in copied text - such
 as Opera
+
+### Mobiles
+
+-   [ActiveSync General Troubleshooting
+    Guide](http://www.pocketpcfaq.com/faqs/activesync/initialconfig.htm)
+-   [ActiveSync 4.0/4.1/4.2 USB Connection Troubleshooting
+    Guide](http://www.microsoft.com/windowsmobile/help/activesync/default.mspx)
+-   [Blackberry stuck on egg
+    timer](http://blackberryforums.pinstack.com/12976-post7.html)
+-   [Troubleshooting the device status on a RIM
+    BlackBerry](http://supportcingular.atgnow.com/cng/knowledgebase/KB3218.html)
 
 ### Vista
 

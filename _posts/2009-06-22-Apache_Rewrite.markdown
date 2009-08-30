@@ -3,8 +3,8 @@ layout: post
 title: Apache Rewrite
 ---
 
-Rewrite might not always be required, changing one static URL to another
-Redirect can be used:
+Rewrite might not always be required, when changing one static URL to
+another URL a Redirect can be used:
 
     #Redirect the base-URL (only) to https
     Redirect permanent / https://mydomain.com

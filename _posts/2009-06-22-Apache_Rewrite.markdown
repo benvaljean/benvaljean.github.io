@@ -32,10 +32,10 @@ be accessed via <http://www.whatever.com/cars/>
 ### Force the use of the primary hostname
 
 Having multiple ServerName and/or ServerAlias configs will in normal
-cases create duplicate sites to serch engines as Apache will serve pages
-containing the domain used by the client. It can therefore be preferable
-to divert users to a the primary domain of your site, by replacing the
-domain of the URL. The below Rewrite rule will replace
+cases create duplicate sites to search engines as Apache will serve
+pages containing the domain used by the client. It can therefore be
+preferable to divert users to a the primary domain of your site, by
+replacing the domain of the URL. The below Rewrite rule will replace
 www.anydomain.com/anything if the domain is not www.primarydomain.com .
 
     RewriteCond %{HTTP_HOST} !^www\\.primarydomain\\.com$ [NC]

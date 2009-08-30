@@ -22,29 +22,6 @@ OR
     RewriteCond %{SERVER_PORT} ^80$
     RedirectRule ^/(.*)$ https://%{HTTP_HOST}/$1 [R=301]
 
-#### ISAPI\_rewrite
-
-This works great with Apache but not ISAPI\_Rewrite, the following must
-be used:
-
-    RewriteCond  %HTTPS (?!on).*
-    RewriteCond Host: (.*)
-    RewriteRule (.*) https\\://$1$2 [I,RP]
-
-This can be expanded to rewrite all URLs apart from a given two:
-
-    RewriteCond  %HTTPS (?!on).*
-    RewriteCond Host: test\\.test\\.co\\.uk
-    RewriteRule (.*) http\\://test\\.test.co.uk$1 [I,RP,L]
-
-    RewriteCond  %HTTPS (?!on).*
-    RewriteCond Host: demo\\.test\\.co\\.uk
-    RewriteRule (.*) http\\://demo\\.test.co.uk$1 [I,RP,L]
-
-    RewriteCond  %HTTPS (?!on).*
-    RewriteCond Host: (.*)
-    RewriteRule (.*) https\\://$1$2 [I,RP]
-
 ### Hiding PHP script names
 
 The following will allow <http://www.whatever.com/car_info_v4_5.php> to

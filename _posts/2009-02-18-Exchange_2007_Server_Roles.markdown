@@ -33,9 +33,9 @@ As BE server role in Ex2003 but can now be a true DB-only server.
 
 Uses a PABX to provide additional telephone features such as accessing
 emails and cancelling meeting requests etc. over the phone and emailing
-VMs to users. As our current system has some of these features already
-and a lot of users have email on their phone already this will not be
-implemented.
+VMs to users. This feature is about 5 - 10 years late as most users now
+have emails on thier phones and a lot of companies deploy PBXs that
+already send VMs via email.
 
 ### See also
 

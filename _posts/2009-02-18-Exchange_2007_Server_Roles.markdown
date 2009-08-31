@@ -12,9 +12,8 @@ Does not handle inbound/outbound smtp nor IMF.
 
 Essentially a FE SMTP relay server to be placed in a DMZ and also does
 anti-spam. Has to either not be a member of the domain or member of a
-seperate domain then the other Exchange servers. I will probably not
-implement this role as it will mean min 3 Ex servers and I will be using
-postfix as a relay server with spamassasin.
+seperate domain then the other Exchange servers. If you use Postfix or
+some other relay server than this role does not need to be implemented.
 
 ### Hub Transport role
 

@@ -22,8 +22,8 @@ used to be part of the BE role in Ex2000/2003. The server side part of
 MAPI has been changed and is now called the \"(information) store
 driver\". New feature message compliance allows native archiving
 policies and among other features system-wide footers/disclaimers to be
-added. The Edge transport agent can be installed to allow it to be a FE
-SMTP realy server also.
+added. The Edge transport agent can be installed to allow it to also act
+as a FE SMTP relay server also.
 
 ### Mailbox server role
 

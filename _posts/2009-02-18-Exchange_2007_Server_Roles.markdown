@@ -38,16 +38,6 @@ VMs to users. As our current system has some of these features already
 and a lot of users have email on their phone already this will not be
 implemented.
 
-Recommended setup for a SME with \~50 users==
-
-#### Server 1
-
-Client access with Hub Trans with Edge trans agents installled.
-
-#### Server 2
-
-Mailbox role
-
 ### See also
 
 <http://technet.microsoft.com/en-us/library/aa996319.aspx>

@@ -27,7 +27,7 @@ as a FE SMTP relay server also.
 
 ### Mailbox server role
 
-AS BE server role in Ex2003 but can now be a true DB-only server.
+As BE server role in Ex2003 but can now be a true DB-only server.
 
 ### Unified Messaging role
 

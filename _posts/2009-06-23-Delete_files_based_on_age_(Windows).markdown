@@ -10,13 +10,22 @@ saved with a .vbs extension:
     Dim Directory
     Dim Modified
     Dim Files
+    Dim Folder
+    If (Wscript.Arguments.Count < 1) Then 
+      Wscript.Echo "Required Parameter missing"  
+    Wscript.Quit
+    End If
+    Folder = Wscript.Arguments(0)
     Set Fso = CreateObject("Scripting.FileSystemObject")
-    Set Directory = Fso.GetFolder("C:\\Program Files\\Exchsrvr\\Mailroot\\vsi 1\\UceArchive")
+    Set Directory = Fso.GetFolder(Folder)
     Set Files = Directory.Files
     For Each Modified in Files
-    If DateDiff("D", Modified.DateLastModified, Now) > 1 Then Modified.Delete
+    If DateDiff("D", Modified.DateLastModified, Now) > 7 Then Modified.Delete
 
     Next
+
+The parameter is the folder where you want to perform the deletion
+operation.
 
 ### Automating
 

@@ -30,3 +30,5 @@ to directly, it is best to create a batch file with the follwing:
 ### Notes
 
 The VB DateDiff() function can be modified to delete in other units.
+
+[Category:Windows](Category:Windows "wikilink")

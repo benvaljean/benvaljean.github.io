@@ -5,7 +5,7 @@ title: Sidebar
 
 -   Navigation
     -   mainpage\|mainpage
-    -   Main\_Page\#Microsoft\_Windows\|Windows
+    -   <http://ben.goodacre.name/tech/Main_Page#Microsoft_Windows%7CWindows>
     -   recentchanges-url\|recentchanges
     -   randompage-url\|randompage
     -   About\_the\_Author\|About the Author

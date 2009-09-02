@@ -7,6 +7,10 @@ Copy all files inc subdirs:
 
     cp -a /usr/local/foo/* /var/temp/bar
 
+Delete all files inc subdirs:
+
+    rm -rf folder
+
 Find files with indexer:
 
     updatedb

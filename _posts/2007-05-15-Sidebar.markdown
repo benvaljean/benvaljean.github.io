@@ -5,8 +5,7 @@ title: Sidebar
 
 -   Navigation
     -   mainpage\|mainpage
-    -   Useful\_Sites\|Useful Sites
-    -   Fun\_Stuff\|Fun Stuff
+    -   Linux\|mainpage\#Windows
     -   recentchanges-url\|recentchanges
     -   randompage-url\|randompage
     -   About\_the\_Author\|About the Author

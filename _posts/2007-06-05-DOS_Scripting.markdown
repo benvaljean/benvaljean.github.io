@@ -272,8 +272,9 @@ off-site location using
     and
     [pscp](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html)
     downloaded and in your %PATH%
--   An ammended version of the \[Delete all files older than 1 day
-    (Windows)\] script; found below.
+-   An ammended version of the [Delete all files older than 1 day
+    (Windows)](Delete_all_files_older_than_1_day_(Windows) "wikilink")
+    script.
 -   The acc which the script in run under will need read permissions in
     the c:\\\\windows\\\\system32\\\\inetsrv folder of the IIS servers
     you wish to backup.
@@ -288,9 +289,9 @@ off-site location using
     echo ----------------------------- >>IISBackup.log
     echo %date% %time% Starting backup >>IISBackup.log
 
-    c:\\windows\\system32\\cscript //b DelFilesOlderThan28DaysGeneric.vbs f:\\IISBak\\iis1
-    c:\\windows\\system32\\cscript //b DelFilesOlderThan28DaysGeneric.vbs f:\\IISBak\\iis2
-    c:\\windows\\system32\\cscript //b DelFilesOlderThan28DaysGeneric.vbs f:\\IISBak\\iis3
+    c:\\windows\\system32\\cscript //b DelFilesOlderThan28Days.vbs f:\\IISBak\\iis1
+    c:\\windows\\system32\\cscript //b DelFilesOlderThan28Days.vbs f:\\IISBak\\iis2
+    c:\\windows\\system32\\cscript //b DelFilesOlderThan28Days.vbs f:\\IISBak\\iis3
 
     if not exist q:\\MetaBase.xml net use q: \\\\iis1\\c$\\windows\\system32\\inetsrv
     if %errorlevel%==1 echo %date% %time% Error in mapping Q to iis1 >>IISBackup.log

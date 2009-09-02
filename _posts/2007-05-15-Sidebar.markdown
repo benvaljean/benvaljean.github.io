@@ -5,7 +5,7 @@ title: Sidebar
 
 -   Navigation
     -   mainpage\|mainpage
-    -   Main Page\#Windows\|Windows
+    -   Main\_Page\#Microsoft\_Windows\|Windows
     -   recentchanges-url\|recentchanges
     -   randompage-url\|randompage
     -   About\_the\_Author\|About the Author

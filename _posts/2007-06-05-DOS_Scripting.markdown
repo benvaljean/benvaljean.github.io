@@ -257,6 +257,68 @@ The following uses DEBUG instead:
     del setvalue.bat
     echo User name is %value%
 
+### Backup IIS
+
+The below script backups the config of remote IIS servers, rotates files
+by deleting anything older than 28 days and uploads them to a remote
+off-site location using
+[pscp](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html).
+
+#### Requirements
+
+-   [plink](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html)
+    and
+    [pscp](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html)
+    downloaded and in your %PATH%
+-   An ammended version of the \[Delete all files older than 1 day
+    (Windows)\] script; found below.
+-   The acc which the script in run under will need read permissions in
+    the c:\\\\windows\\\\system32\\\\inetsrv folder of the IIS servers
+    you wish to backup.
+-   For the remote off-site backup the relevant dirs need to be created
+    as well as public key authentication.
+
+<!-- -->
+
+    @echo off
+    c:
+    cd \\
+    echo ----------------------------- >>IISBackup.log
+    echo %date% %time% Starting backup >>IISBackup.log
+
+    c:\\windows\\system32\\cscript //b DelFilesOlderThan28DaysGeneric.vbs f:\\IISBak\\iis1
+    c:\\windows\\system32\\cscript //b DelFilesOlderThan28DaysGeneric.vbs f:\\IISBak\\iis2
+    c:\\windows\\system32\\cscript //b DelFilesOlderThan28DaysGeneric.vbs f:\\IISBak\\iis3
+
+    if not exist q:\\MetaBase.xml net use q: \\\\iis1\\c$\\windows\\system32\\inetsrv
+    if %errorlevel%==1 echo %date% %time% Error in mapping Q to iis1 >>IISBackup.log
+    if not exist r:\\MetaBase.xml net use r: \\\\iis2\\c$\\windows\\system32\\inetsrv
+    if %errorlevel%==1 echo %date% %time% Error in mapping R to iis2 >>IISBackup.log
+    if not exist s:\\MetaBase.xml net use s: \\\\iis3\\c$\\windows\\system32\\inetsrv
+
+    copy /y q:\\MetaBase.xml f:\\IISBak\\iis1
+    copy /y q:\\MBSchema.xml f:\\IISBak\\iis1
+    copy /y r:\\MetaBase.xml f:\\IISBak\\iis2
+    copy /y r:\\MBSchema.xml f:\\IISBak\\iis2
+    copy /y s:\\MetaBase.xml f:\\IISBak\\iis3
+    copy /y s:\\MBSchema.xml f:\\IISBak\\iis3
+
+    for /f "Tokens=1-5 Delims=/ " %%i in ('date /t') do set dt=%%i_%%j_%%k
+    ren f:\\IISBak\\iis1\\MetaBase.xml Metabase_%dt%.xml
+    ren f:\\IISBak\\iis1\\MBSchema.xml MBSchema_%dt%.xml
+    ren f:\\IISBak\\iis2\\MetaBase.xml Metabase_%dt%.xml
+    ren f:\\IISBak\\iis2\\MBSchema.xml MBSchema_%dt%.xml
+    ren f:\\IISBak\\iis3\\MetaBase.xml Metabase_%dt%.xml
+    ren f:\\IISBak\\iis3\\MBSchema.xml MBSchema_%dt%.xml
+
+
+    pscp -r -i c:\\linux\\serverkey.ppk f:\\IISBak\\* schedadmin@remotelinuxserver:/home/schedadmin/iisbak/ >>IISBackup.log
+    if %errorlevel%==1 echo %date% %time% Error in scp command iisiis1 >>IISBackup.log
+
+    plink -i c:\\linux\\serverkey.ppk schedadmin@remotelinuxserver find /home/schedadmin/iisbak -type f -mtime +28 -exec rm {} \\; >>IISBackup.log
+    if %errorlevel%==1 echo %date% %time% Error in plink command to rm older than 28 days >>IISBackup.log
+    echo %date% %time% Finished >>IISBackup.log
+
 ### See Also
 
 [Process Lines of Data Using

@@ -251,8 +251,7 @@ Images in mediawiki:
 
 ### Useful Wiki Sites
 
-[Copy & Paste Excel-to-Wiki
-Converter](http://people.fas.harvard.edu/~sdouglas/table.cgi) Also works
+[Copy & Paste Excel-to-Wiki Converter](http://excel2wiki.net) Also works
 in any tab that generates tabs between the cells in copied text - such
 as Opera
 

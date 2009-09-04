@@ -3,4 +3,4 @@ layout: post
 title: Windows
 ---
 
-[Category:IT](Category:IT "wikilink")
+[Windows](http://www.microsoft.com/windows/default.aspx)

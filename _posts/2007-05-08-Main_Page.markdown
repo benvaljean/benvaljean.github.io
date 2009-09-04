@@ -182,22 +182,6 @@ title: Main Page
 -   [Difference between Quick Format and a normal/long
     Format](Difference_between_Quick_Format_and_a_normal/long_Format "wikilink")
 -   [RAID Types](RAID_Types "wikilink")
--   [Contig](http://www.microsoft.com/technet/sysinternals/FileAndDisk/Contig.mspx) -
-    defrag specific files
--   [MoveFile](http://www.microsoft.com/technet/sysinternals/FileAndDisk/pendmoves.mspx) -
-    set a rename/delete schedule at reboot for a file which is in use.
--   [Wndows File
-    Protection](http://support.microsoft.com/kb/222193/EN-US/)
--   [Windows
-    Debugging](http://www.microsoft.com/whdc/devtools/debugging/debugstart.mspx)
--   [Terminal Services Client
-    Install](http://microsoft.com/windowsxp/pro/downloads/rdclientdl.asp)
--   [Not broadcasting your Wireless SSID does not hide your
-    network](http://www.wi-fiplanet.com/tutorials/article.php/3576541)
--   [Translate SID \<\-\-\--\>
-    Username](http://www.microsoft.com/technet/scriptcenter/resources/qanda/dec04/hey1203.mspx)
--   [Fun things to do with
-    SIDS](http://blogs.msdn.com/larryosterman/archive/2004/09/02/224713.aspx)
 
 ### Site Notes
 

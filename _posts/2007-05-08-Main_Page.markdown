@@ -29,7 +29,6 @@ title: Main Page
 -   [Windows Installer Cleanup
     Utility](http://support.microsoft.com/kb/290301/en-us) - use this to
     remove persistent install dialogs etc.
--   [Windows Installer](http://support.microsoft.com/kb/555175/en-us)
 
 #### Troublehooting
 
@@ -47,6 +46,7 @@ title: Main Page
 -   [Print Spooler Issues](http://support.microsoft.com/kb/324757)
 -   [CD Burning Driver
     Conflicts](http://support.microsoft.com/default.aspx?scid=KB;EN-US;q315345&)
+-   [Windows Installer](http://support.microsoft.com/kb/555175/en-us)
 
 ### Linux
 

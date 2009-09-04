@@ -171,6 +171,8 @@ htaccess](http://www.cyberciti.biz/faq/howto-setup-apache-password-protect-direc
 -   [Introduction to
     iptables](http://wiki.centos.org/HowTos/Network/IPTables#head-06878259fc9bf1aca89a594122670f6403fd604c)
 -   [iptablesrocks.org](http://www.iptablesrocks.org/)
+-   [Getting Started with Citrix XenDesktop
+    2.1](http://support.citrix.com/article/CTX118041)
 
 #### NFS
 

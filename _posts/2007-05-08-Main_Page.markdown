@@ -127,10 +127,11 @@ title: Main Page
 
 ### MySQL
 
--   [Access rights/Privileges/Grants
-    (MySQL)](Access_rights/Privileges/Grants_(MySQL) "wikilink")
--   [Reset Root password
-    (MySQL)](Reset_Root_password_(MySQL) "wikilink")
+-   [Access
+    rights/Privileges/Grants](Access_rights/Privileges/Grants_(MySQL) "wikilink")
+-   [Reset Root password (MySQL)Reset Root
+    password](Reset_Root_password_(MySQL)Reset_Root_password "wikilink")
+-   [Set Global Variables](Set_Global_Variables_(MySQL) "wikilink")
 
 ### Microsoft Office Troubleshooting
 

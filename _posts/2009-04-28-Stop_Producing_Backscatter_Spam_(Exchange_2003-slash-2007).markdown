@@ -52,7 +52,8 @@ Shell](http://technet.microsoft.com/en-us/library/bb123778.aspx):
 
 ### See Also
 
-[1](http://spamlinks.net/prevent-secure-backscatter.htm)
+[Preventing
+Backscatter](http://spamlinks.net/prevent-secure-backscatter.htm)
 
 [Backscatter: What is it? How do I stop
 it?](http://www.spamresource.com/2007/02/backscatter-what-is-it-how-do-i-stop-it.html)

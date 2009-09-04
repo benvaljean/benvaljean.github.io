@@ -48,6 +48,12 @@ Good for when you have a service hanging under \'starting\' or
 [HEX Colour chart](http://www.draac.com/hexchart.html)\
 [Windows Media Player Troubleshooting
 Guide](http://www.zachd.com/pss/pss.html)\
+[Not broadcasting your Wireless SSID does not hide your
+network](http://www.wi-fiplanet.com/tutorials/article.php/3576541)\
+[Determine the SID for a User
+Account](http://www.microsoft.com/technet/scriptcenter/resources/qanda/dec04/hey1203.mspx)\
+[Fun things to do with
+SIDS](http://blogs.msdn.com/larryosterman/archive/2004/09/02/224713.aspx)\
 ==Windows Server 2003 / 2008==
 
 -   [Ascertain FSMO role

@@ -51,12 +51,14 @@ title: Main Page
 ### Linux
 
 -   [Linux Tricks](Linux_Tricks "wikilink")
+-   [Nagios](Nagios "wikilink")
 -   [Open file handling](Open_file_handling_(Linux) "wikilink") List
     open files by process and set system and process limits
 -   [BASH Scripting](BASH_Scripting "wikilink")
 -   [SVN for /etc](SVN_for_/etc "wikilink") Version control your /etc
 -   [Vi](Vi "wikilink")
--   [Nagios](Nagios "wikilink")
+-   [Convert Windows/DOS text file to
+    Unix/Linux](Convert_Windows/DOS_text_file_to_Unix/Linux "wikilink")
 
 ### Web
 

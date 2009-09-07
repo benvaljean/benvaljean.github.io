@@ -62,6 +62,8 @@ SIDS](http://blogs.msdn.com/larryosterman/archive/2004/09/02/224713.aspx)\
     Roles](http://www.windowsdevcenter.com/pub/a/windows/2004/06/15/fsmo.html)
 -   [Recovering post a failed DC
     demotion](http://articles.techrepublic.com.com/5100-10878_11-5031938.html?tag=btxcsim)
+-   [Thumbnail/gallery
+    generation](http://www.exisoftware.com/download.html#etg)
 
 ### IIS and SQL Server
 

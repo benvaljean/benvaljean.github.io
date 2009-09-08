@@ -81,8 +81,6 @@ title: Main Page Stage
 \
 ==Linux==
 
--   [Kitty](http://www.9bis.net/kitty/) Putty replacement with
-    transparency, sessions saved as files, session filter and launcher.
 -   [Linux Tricks](Linux_Tricks "wikilink")
 -   [Nagios](Nagios "wikilink")
 -   [Open file handling](Open_file_handling_(Linux) "wikilink") List

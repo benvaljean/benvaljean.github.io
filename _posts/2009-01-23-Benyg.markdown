@@ -8,23 +8,23 @@ learnt to drive and does not have any pets. \'\'
 
 I like tennis, flying and west-end (London) theatre. I used to play a
 lot of tennis but I find that I prefer flying planes and if I had more
-spare cash I would starting lessons for my PPL. It would be easier to
-list the shows in the west-end that I *have not* seen. Rising prices
-result in my attending a lot less nowadays. Phantom is great but in my
-opinion not worth £75 per seat in my opinion.
+spare cash I would start lessons for my PPL. It would be easier to list
+the shows in the west-end that I *have not* seen; rising prices result
+in my attending a lot less nowadays. Phantom is great but in my opinion
+not worth £75 per seat.
 
 This site was started in 2007 when it was under a different domain and
-hosted on an IBM laptop. It became clear that a web-based documentation
-tool would be very useful for my day-to-day work. Nowadays I document
-most of the work I do although sadly 75% of it never makes it onto here
-as I do not have time to re-write it from my own awful version of
-shorthand to something that other people would understand.
+was hosted on an IBM laptop. It became clear that a web-based
+documentation tool would be very useful for my day-to-day work. Nowadays
+I document most of the work I do although sadly 75% of it never makes it
+onto here as I do not have time to re-write it from my own awful version
+of shorthand to something that other people would understand.
 
 Originally this site was called Rogerrabbit.net and was only a personal
 site, I put it online and its links found their way onto other websites
-and it slowly became an established website, even though I do say so
-myself. With \~1700 unique users per month (audited to remove bots) it
-has come a long way from an IBM laptop sitting under my desk.
+and it slowly became an established website, although I am - to a degree
+- subjective. With \~1700 unique users per month (audited to remove
+bots) it has come a long way from an IBM laptop sitting under my desk.
 
 Comments or suggestions - please get in touch. I would love to hear from
 you. <http://ben.goodacre.name/contact>

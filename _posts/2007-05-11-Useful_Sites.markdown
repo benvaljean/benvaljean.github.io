@@ -54,6 +54,8 @@ network](http://www.wi-fiplanet.com/tutorials/article.php/3576541)\
 Account](http://www.microsoft.com/technet/scriptcenter/resources/qanda/dec04/hey1203.mspx)\
 [Fun things to do with
 SIDS](http://blogs.msdn.com/larryosterman/archive/2004/09/02/224713.aspx)\
+[Kitty](http://www.9bis.net/kitty/) Putty replacement with transparency,
+sessions saved as files, session filter and launcher.\
 ==Windows Server 2003 / 2008==
 
 -   [Ascertain FSMO role

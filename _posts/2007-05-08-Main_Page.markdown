@@ -48,6 +48,17 @@ title: Main Page
     Conflicts](http://support.microsoft.com/default.aspx?scid=KB;EN-US;q315345&)
 -   [Windows Installer](http://support.microsoft.com/kb/555175/en-us)
 
+#### Visual Basic Scripts
+
+*Main page: [Visual Basic Scripts](Visual_Basic_Scripts "wikilink")*
+
+-   [Add Whitelist functionality to Intelligent Message Filter/IMF
+    (Exchange)](Add_Whitelist_functionality_to_Intelligent_Message_Filter/IMF_(Exchange) "wikilink")
+-   [Email notifications for
+    NTBACKUP](Email_notifications_for_NTBACKUP "wikilink")
+-   [Delete all files older than 1
+    day](Delete_all_files_older_than_1_day_(Windows) "wikilink")
+
 ### Linux
 
 -   [Kitty](http://www.9bis.net/kitty/) Putty replacement with

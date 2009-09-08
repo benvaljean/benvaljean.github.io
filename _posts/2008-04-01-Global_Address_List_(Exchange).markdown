@@ -3,10 +3,10 @@ layout: post
 title: Global Address List (Exchange)
 ---
 
-The **Global Address List** (GAL) can be seen as the Active Directory of
-Exchange; it contains all users that have Exchange attributes,
-distribution groups and also contains other Exchange resources such as
-certificates relating to encrypted email.
+The **Global Address List** (GAL) is a list of objects that have
+Exchange attributes that match a pre-defined query. Typically it lists
+all the Exchange users/mailboxes, distribution lists and contacts in an
+organisation.
 
 ### Favorite Resources
 

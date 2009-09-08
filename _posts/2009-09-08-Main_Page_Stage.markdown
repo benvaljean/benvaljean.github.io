@@ -3,7 +3,7 @@ layout: post
 title: Main Page Stage
 ---
 
-\_\_NOEDITSECTION\_\_ \_\_NOTOC\_\_
+\_\_NOEDITSECTION\_\_\_\_NOTOC\_\_
 
 <div style="float:left;width:49%">
 

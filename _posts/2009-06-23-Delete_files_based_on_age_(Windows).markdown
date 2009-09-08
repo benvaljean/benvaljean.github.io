@@ -20,7 +20,7 @@ saved with a .vbs extension:
     Set Directory = Fso.GetFolder(Folder)
     Set Files = Directory.Files
     For Each Modified in Files
-    If DateDiff("D", Modified.DateLastModified, Now) > 7 Then Modified.Delete
+    If DateDiff("D", Modified.DateLastModified, Now) > 1 Then Modified.Delete
 
     Next
 

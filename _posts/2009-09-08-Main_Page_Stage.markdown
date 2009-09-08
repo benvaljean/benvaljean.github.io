@@ -3,7 +3,7 @@ layout: post
 title: Main Page Stage
 ---
 
-\_\_NOEDITSECTION\_\_\_\_NOTOC\_\_
+\_\_NOEDITSECTION\_\_
 
 <div style="float:left;width:49%">
 
@@ -64,7 +64,22 @@ title: Main Page Stage
 </div>
 <div style="float:right;width:49%">
 
-### Linux
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+==Linux==
 
 -   [Kitty](http://www.9bis.net/kitty/) Putty replacement with
     transparency, sessions saved as files, session filter and launcher.

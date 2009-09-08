@@ -3,17 +3,23 @@ layout: post
 title: Visual Basic Scripts
 ---
 
-### What is Visual Basic?
-
-VB is a third-generation programming language based on BASIC; written by
-Microsoft. Its applications inculde scripting for Microsoft Office with
-the ability to write significant apps that use Excel and Access. It can
-also be used by itself with the [Windows Scripting
+[Visual Basic](http://www.vbexplorer.com) is a third-generation
+programming language based on BASIC; written by Microsoft. Its
+applications inculde scripting for Microsoft Office with the ability to
+write significant apps that use Excel and Access. It can also be used by
+itself with the [Windows Scripting
 Host](http://www.pcsupportadvisor.com/Windows_scripting_host_page1.htm)
 bulit into Windows. VB scripts have the `.vbs` extension and file
 assocations are setup by default to run the script when double-clicked
 although some error messages may not appear unless you run it in cmd:
 `cscript scriptname.vbs` .
+
+-   [Add Whitelist functionality to Intelligent Message Filter/IMF
+    (Exchange)](Add_Whitelist_functionality_to_Intelligent_Message_Filter/IMF_(Exchange) "wikilink")
+-   [Email notifications for
+    NTBACKUP](Email_notifications_for_NTBACKUP "wikilink")
+-   [Delete all files older than 1
+    day](Delete_all_files_older_than_1_day_(Windows) "wikilink")
 
 ### Write/Append/Log to a text file
 
@@ -41,12 +47,3 @@ time and a log entry
       objLogFile.Writeline Now & " log entry"
       objLogFile.Close
     Next
-
-### Other VBS scripts on this site
-
--   [Add Whitelist functionality to Intelligent Message Filter/IMF
-    (Exchange)](Add_Whitelist_functionality_to_Intelligent_Message_Filter/IMF_(Exchange) "wikilink")
--   [Email notifications for
-    NTBACKUP](Email_notifications_for_NTBACKUP "wikilink")
--   [Delete all files older than 1
-    day](Delete_all_files_older_than_1_day_(Windows) "wikilink")

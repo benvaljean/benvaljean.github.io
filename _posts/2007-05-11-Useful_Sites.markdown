@@ -56,6 +56,8 @@ Account](http://www.microsoft.com/technet/scriptcenter/resources/qanda/dec04/hey
 SIDS](http://blogs.msdn.com/larryosterman/archive/2004/09/02/224713.aspx)\
 [Kitty](http://www.9bis.net/kitty/) Putty replacement with transparency,
 sessions saved as files, session filter and launcher.\
+[Extract product/license
+keys](http://www.nirsoft.net/utils/product_cd_key_viewer.html)\
 ==Windows Server 2003 / 2008==
 
 -   [Ascertain FSMO role
@@ -66,8 +68,6 @@ sessions saved as files, session filter and launcher.\
     demotion](http://articles.techrepublic.com.com/5100-10878_11-5031938.html?tag=btxcsim)
 -   [Thumbnail/gallery
     generation](http://www.exisoftware.com/download.html#etg)
--   [Extract product/license
-    keys](http://www.nirsoft.net/utils/product_cd_key_viewer.html)
 
 ### IIS and SQL Server
 

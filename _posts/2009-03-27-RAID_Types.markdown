@@ -217,3 +217,7 @@ objections of the extra cost involved in using RAID 1/0. Having said
 that, RAID 5 works extremely well on a CLARiiON - and I\'ve seen it
 running well on a CLARiiON CX700 (the previous generation to your
 system) in Exchange 2003 environments with up to 4000 users.
+
+### See Also
+
+[RAID Types - Classifications](http://www.bytepile.com/raid_class.php)

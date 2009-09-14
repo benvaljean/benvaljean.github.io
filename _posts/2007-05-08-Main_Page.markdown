@@ -207,4 +207,4 @@ title: Main Page
     Rogerrabbit.net?](Why_was_this_site_called_Rogerrabbit.net? "wikilink")
 -   [Mediawiki Notes](Wiki_Stuff "wikilink")
 -   [Squid Notes](Squid_Stuff "wikilink")
--   [Useful sites](Useful_sites "wikilink")
+-   [Useful Sites](Useful_Sites "wikilink")

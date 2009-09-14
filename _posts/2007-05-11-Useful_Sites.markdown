@@ -58,7 +58,10 @@ SIDS](http://blogs.msdn.com/larryosterman/archive/2004/09/02/224713.aspx)\
 sessions saved as files, session filter and launcher.\
 [Extract product/license
 keys](http://www.nirsoft.net/utils/product_cd_key_viewer.html)\
-==Windows Server 2003 / 2008==
+\*[Thumbnail/gallery
+generation](http://www.exisoftware.com/download.html#etg)\
+
+### Windows Server 2003 / 2008
 
 -   [Ascertain FSMO role
     holders](http://www.petri.co.il/determining_fsmo_role_holders.htm)
@@ -66,8 +69,9 @@ keys](http://www.nirsoft.net/utils/product_cd_key_viewer.html)\
     Roles](http://www.windowsdevcenter.com/pub/a/windows/2004/06/15/fsmo.html)
 -   [Recovering post a failed DC
     demotion](http://articles.techrepublic.com.com/5100-10878_11-5031938.html?tag=btxcsim)
--   [Thumbnail/gallery
-    generation](http://www.exisoftware.com/download.html#etg)
+
+[Create custom Windows install CD](http://www.nliteos.com/) Inject RAID
+drivers, CD key and other options.
 
 ### IIS and SQL Server
 

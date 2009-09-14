@@ -487,11 +487,11 @@ enables you to assert functionality of sending & receiving emails.
 
 Notes:
 
--   The scrupt requires access to write to a temporary \'stat\' file.
+-   The script requires access to write to a temporary \'stat\' file.
     Nagios in my setup at least is very particular with permissions. It
     is best to give it its own root folder as seen above or place it in
     /tmp.
--   The script can also server as a check\_tcp for your relay server as
+-   The script can also serve as a check\_tcp for your relay server as
     if it cannot connect it returns critical to Nagios.
 -   If using Exchange the auto forward rule will need to be set using AD
     (Exchange 2003) or the

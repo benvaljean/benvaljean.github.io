@@ -26,6 +26,8 @@ title: Main Page
 -   [WINS Lookup tool](WINS_Lookup_tool "wikilink")
 -   [Disable Group Policy for individual PC locally
     (Windows)](Disable_Group_Policy_for_individual_PC_locally_(Windows) "wikilink")
+-   [Set Terminal Service session
+    Timeouts/Limits](Set_Terminal_Service_session_Timeouts/Limits_(Windows) "wikilink")
 -   [Windows Installer Cleanup
     Utility](http://support.microsoft.com/kb/290301/en-us) - use this to
     remove persistent install dialogs etc.

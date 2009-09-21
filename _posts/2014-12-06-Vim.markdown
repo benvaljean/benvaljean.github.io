@@ -71,6 +71,10 @@ indents are placed on the lines. To disable this:
 
     :set paste
 
+#### Create a new line below the current line
+
+    o
+
 #### Cheat sheet
 
 <http://www.eec.com/business/vi.html>

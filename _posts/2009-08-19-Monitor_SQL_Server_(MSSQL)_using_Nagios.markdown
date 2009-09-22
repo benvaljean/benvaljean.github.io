@@ -252,7 +252,7 @@ respectively.
     }
     define command{
             command_name sql-wmi-mir-tlogqueue
-            command_line $USER1$/check_nt -H $HOSTADDRESS$ -p 24601 -s orange26# -v COUNTER -d SHOWALL -l "\\\\MSSQL\\$PROD:Database Mirroring(_Total)\\Log Send Queue KB","Mirroring TLog Send queue in KB: %.f" -w 50 -c 100
+            command_line $USER1$/check_nt -H $HOSTADDRESS$ -p 24601 -s passhere -v COUNTER -d SHOWALL -l "\\\\MSSQL\\$PROD:Database Mirroring(_Total)\\Log Send Queue KB","Mirroring TLog Send queue in KB: %.f" -w 50 -c 100
     }
 
     #Redo queue / mirror queue
@@ -264,7 +264,7 @@ respectively.
     }
     define command{
             command_name sql-wmi-mir-redoqueue
-            command_line $USER1$/check_nt -H $HOSTADDRESS$ -p 24601 -s orange26# -v COUNTER -d SHOWALL -l "\\\\MSSQL\\$PROD:Database Mirroring(_Total)\\Redo Queue KB","Mirroring TLog Redo queue in KB: %.f" -w 50 -c 100
+            command_line $USER1$/check_nt -H $HOSTADDRESS$ -p 24601 -s passhere -v COUNTER -d SHOWALL -l "\\\\MSSQL\\$PROD:Database Mirroring(_Total)\\Redo Queue KB","Mirroring TLog Redo queue in KB: %.f" -w 50 -c 100
     }
 
     #Transaction delay
@@ -276,9 +276,7 @@ respectively.
     }
     define command{
             command_name sql-wmi-mir-tdelay
-            command_line $USER1$/check_nt -H $HOSTADDRESS$ -p 24601 -s orange26# -v COUNTER -d
-     SHOWALL -l "\\\\MSSQL\\$PROD:Database Mirroring(_Total)\\Transaction Delay","Delay in transac
-    tion termination acknowledgement: %.f" -w 1000 -c 15000
+            command_line $USER1$/check_nt -H $HOSTADDRESS$ -p 24601 -s passhere -v COUNTER -d SHOWALL -l "\\\\MSSQL\\\\PROD:Database Mirroring(_Total)\\Transaction Delay","Delay in transaction termination acknowledgement: %.f" -w 1000 -c 15000
     }
 
 #### See Also

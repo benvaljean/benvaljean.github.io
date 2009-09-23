@@ -318,6 +318,8 @@ as Opera
     error](http://www.shudnow.net/2007/08/10/outlook-2007-certificate-error/)
 -   [Standby Continuous Replication (SCR): Replay and Truncation
     Lag](http://www.exchangepedia.com/blog/2007/12/standby-continuous-replication-replay.html)
+-   [Configure RPC over HTTPS in a single server environment
+    (Exchange 2003)](http://www.petri.co.il/how-can-i-configure-rpc-over-https-on-exchange-2003-single-server-scenario.htm)
 
 #### Auto-append text to all outgoing emails Exchange 2003 (disclaimers)
 

@@ -189,6 +189,8 @@ htaccess](http://www.cyberciti.biz/faq/howto-setup-apache-password-protect-direc
 -   [iptablesrocks.org](http://www.iptablesrocks.org/)
 -   [Getting Started with Citrix XenDesktop
     2.1](http://support.citrix.com/article/CTX118041)
+-   [Kitty](http://www.9bis.net/kitty/) Putty replacement with
+    transparency, sessions saved as files, session filter and launcher.
 
 #### NFS
 

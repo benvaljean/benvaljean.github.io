@@ -63,8 +63,6 @@ title: Main Page
 
 ### Linux
 
--   [Kitty](http://www.9bis.net/kitty/) Putty replacement with
-    transparency, sessions saved as files, session filter and launcher.
 -   [Linux Tricks](Linux_Tricks "wikilink")
 -   [Nagios](Nagios "wikilink")
 -   [Open file handling](Open_file_handling_(Linux) "wikilink") List
@@ -76,6 +74,8 @@ title: Main Page
     Unix/Linux](Convert_Windows/DOS_text_file_to_Unix/Linux "wikilink")
 -   [SSH Tunnels](SSH_Tunnels_(Linux) "wikilink")
 -   [Iptables](Iptables "wikilink")
+-   [Can\'t open /dev/tty: No such device or address
+    Error](Can't_open_/dev/tty:_No_such_device_or_address_Error_(Linux) "wikilink")
 
 ### Web
 

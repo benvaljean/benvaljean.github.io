@@ -92,7 +92,7 @@ title: Main Page
 
 ### DNS
 
-[DNS TTLs](DNS_TTLs "wikilink")
+-   [DNS TTLs](DNS_TTLs "wikilink")
 
 ### Microsoft Exchange
 

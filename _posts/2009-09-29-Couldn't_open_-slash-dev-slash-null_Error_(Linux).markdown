@@ -8,12 +8,12 @@ title: Couldn't open /dev/null Error (Linux)
 1\. When using any command or application (such as ssh or scp) that
 writes to /dev/null the following error could occur:
 
-    Couldn't open /dev/null
+:   Couldn't open /dev/null
 
 2\. When attempting to ssh the following error is given, even when SSHing
 to localhost:
 
-    Host key verification failed.
+:   Host key verification failed.
 
 When running `ssh -vvv user@localhost` the exact debug line relating to
 this issue is:

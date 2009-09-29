@@ -5,15 +5,15 @@ title: Can't open /dev/tty: No such device or address Error (Linux)
 
 ### Symptoms
 
-When attempting a command which requires input from the console the
+1\. When attempting a command which requires input from the console the
 following error could occur:
 
-    can't open /dev/tty: No such device or address
+:   can't open /dev/tty: No such device or address
 
-When attempting to ssh the following error is given, even when SSHing to
-localhost:
+2\. When attempting to ssh the following error is given, even when SSHing
+to localhost:
 
-    Host key verification failed.
+:   Host key verification failed.
 
 When running `ssh -vvv user@localhost` the exact debug line relating to
 this issue is:

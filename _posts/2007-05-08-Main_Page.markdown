@@ -74,9 +74,14 @@ title: Main Page
     Unix/Linux](Convert_Windows/DOS_text_file_to_Unix/Linux "wikilink")
 -   [SSH Tunnels](SSH_Tunnels_(Linux) "wikilink")
 -   [Iptables](Iptables "wikilink")
+-   [Verify SSH server host key](Verify_SSH_server_host_key "wikilink")
 -   [Can\'t open /dev/tty: No such device or address
     Error](Can't_open_/dev/tty:_No_such_device_or_address_Error_(Linux) "wikilink")
--   [Verify SSH server host key](Verify_SSH_server_host_key "wikilink")
+
+#### Troublehooting
+
+-   [Couldn\'t open /dev/null
+    Error](Couldn't_open_/dev/null_Error_(Linux) "wikilink")
 
 ### Web
 

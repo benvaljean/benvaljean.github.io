@@ -90,6 +90,10 @@ title: Main Page
     Certificate Is Currently Installed on
     IIS](http://support.microsoft.com/default.aspx?scid=kb;en-us;Q295281)
 
+### DNS
+
+[DNS TTLs](DNS_TTLs "wikilink")
+
 ### Microsoft Exchange
 
 -   [Exmerge Error

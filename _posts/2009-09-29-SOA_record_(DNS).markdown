@@ -28,5 +28,7 @@ before expiration and return to your (authoritative) nameservers for
 updated information. Reducing TTLs is commonly done when moving sites
 between physical environments.
 
+<http://support.microsoft.com/kb/163971>
+
 [Category:Web](Category:Web "wikilink")
 [Category:DNS](Category:DNS "wikilink")

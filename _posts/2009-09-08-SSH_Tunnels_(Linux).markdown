@@ -18,7 +18,7 @@ Setup an SSH tunnel on the localhost and taking connections from port
 
 This is fairly simple but not that useful as it will only work within in
 a network. If a remote SSH server is used then a SSH tunnel can be used
-to allow a connection between over two seperate networks; over a WAN for
+to allow a connection between two separate networks; over a WAN for
 example.
 
 ### Advanced Syntax
@@ -26,15 +26,14 @@ example.
     ssh -pnon-standard-port  -N remotesshserver -L localinterface:localport:remotemachine:remoteport -f
 
 If the remotesshserver does not listen on the standard port of 22 it
-must be specificed in `-pnon-standard-port`; otherwise it can be
-omitted.
+must be specified in `-pnon-standard-port`; otherwise it can be omitted.
 
 #### Example
 
 Setup SSH tunnel using a remote ssh server perimeterssh01 on where SSH
 listens on a custom port 2400, taking connections from port 6000 on a
-specific local interface of 127.0.0.2 and forwaring them onto port 6002
-on remote server 10.10.8.50 in the remote network of perimeterssh01.
+specific local interface of 127.0.0.2 and forwarding them onto port 6002
+on remote server 10.10.8.50 within the remote network of perimeterssh01.
 
     ssh -p2400 -N perimeterssh01 -L 127.0.0.2:6000:10.10.8.50:6002
 

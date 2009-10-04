@@ -19,7 +19,7 @@ subkey here for every file association that has been defined.
 -   AllFilesystemObjects\\\\shellex
     -   ContextMenuHandlers
         -   Copy To: Create this key to add a useful \"Copy to..\" entry
-            for all files/folders, set the defautl value to
+            for all files/folders, set the default value to
             {C2FBB630-2971-11d1-A18C-00C04FD75D13} .
         -   Move To: As above except the default value must be
             {C2FBB631-2971-11d1-A18C-00C04FD75D13} .
@@ -28,19 +28,16 @@ subkey here for every file association that has been defined.
             to the data-extraction from AVIs for previewing data within
             them in an Explorer view. Sometimes Explorer goes mad and
             tries to extract the whole file in tiny segments and hangs
-            Explorer until it is done. You can avoid this by playing a
-            \"-\" in fornt of the class ID and disable the feature. When
-            you see those notes about backing up the reg before editing
-            it they are talking about keys like this, so ensure you get
-            the right one.
+            Explorer until it is done. This can be avoided by prefixing
+            the class ID with a dish and thus disabling the feature.
         -   {20D04FE0-3AEA-1069-A2D8-08002B30309D} This class ID relates
             to the My Computer icon on the desktop.
             -   LocalisedString: (string) The text that appears for the
-                My Computer icon can be manipulated here to make it more
-                useful. For instance Environment variables can be
-                inserted to read: %username% on %computername%. If IE5.5
-                or earlier or pre XP alter the part of key that reads
-                \"My Computer\" for instance it could read
+                My Computer icon can be manipulated here. For instance
+                Environment variables can be inserted to read:
+                %username% on %computername%. If IE5.5 or earlier or pre
+                XP alter the part of key that reads \"My Computer\" for
+                instance it could read
                 \"\@C:\\\\WINNT\\\\system32\\\\shell32.dll,-9216\@1033,%USERNAME%
                 on %COMPUTERNAME%\". If IE6+ or XP then the key simply
                 reads the actual name under the icon itself, for
@@ -85,7 +82,7 @@ Contains settings regarding the currently logged-on user.
     -   Microsoft\\\\Internet Explorer\\\\Control Panel: This key allow
         restrictions in editing settingsInternet Explorer settings. For
         each key below 0=user can edit settings, 1=appears
-        ghosted/unavilable. All are DWORD.
+        ghosted/unavailable. All are DWORD.
         -   HomePage: Restrict change of home page
         -   Cache: Restrict changes to temporary Internet files
         -   History: Restrict changes to history settings
@@ -137,7 +134,7 @@ Contains settings regarding the currently logged-on user.
             -   ProxyServer: Address for a proxy server for the Internet
                 API
             -   ProxyEnable: (0 or 1)
-            -   ProxyOveride: Exculded addreses
+            -   ProxyOveride: Excluded addreses
         -   Explorer
             -   link: (binary) 00 00 00 00 = no \"Shortcut to\" prefix
                 on shortuts. SK/UK
@@ -296,12 +293,11 @@ generic to all users of this particular computer.
         -   StartButtonBalloonTip: (0 or 1) Disable Start Menu mouse
             hover tips.
         -   InternetOpenWith: (0 or 1) Allows the disabling of the web
-            service dialog when a file of an unknown type is opened -
+            service dialogue when a file of an unknown type is opened -
             opening with Open With dialog instead. SK/UK
         -   PersistBrowsers: (0 or 1) With this enabled Windows will
             reopen and directories that were open when shutting down. -
-            A little like sesion saving with X Window but for directory
-            listings only.
+            A little like session saving for directory listings only.
         -   ThumbnailSize: (height in pixels) This settings specifies
             the size of the thumbnails in the thumbnail view - this is
             useful if you have a large screen resolution and your
@@ -317,9 +313,9 @@ generic to all users of this particular computer.
     -   Policies:
         -   DontDisplayLastUserName: (0 or 1) Set this to 1 and upon
             relogging in the last user name to do will not be shown.
-        -   VerboseStatus: (0 or 1) When enababled this will show
-            verbose information when logging on or off or booting up or
-            shutting down. Useful for dignosing slow startups.
+        -   VerboseStatus: (0 or 1) When enabled this will show verbose
+            information when logging on or off or booting up or shutting
+            down. Useful for diagnosing slow startups.
         -   Explorer:
             -   ClassicShell: (0 or 1) Set to 1 to disable most of the
                 Windows 98+ features in Explorer. Features including
@@ -330,23 +326,23 @@ generic to all users of this particular computer.
             -   NoSaveSettings: (0 or 1) Check this key if your profile
                 is not saving, or use it under HKCU for a standardised
                 login/layout.
-            -   MemCheckBoxInRunDlg: (0 or 1) Show the run in seperate
+            -   MemCheckBoxInRunDlg: (0 or 1) Show the run in separate
                 memory space option in the run dialog box. This is
-                useful if you fdind your 16-bit apps have never run
+                useful if you find your 16-bit apps have never run
                 properly from Win2k onwards as running the virtual DOS
                 machine in sandbox mode might allow it run properly.
     -   OptimalLayout
         -   EnableAutoLayout: (0 or 1) Auto moves data on your disk when
             idle so that frequently used drivers/programmes are quicker
             to access.
-    -   Microsoft\\\\Windows CE Services: Settings in realtion to
+    -   Microsoft\\\\Windows CE Services: Settings in relation to
         PDAs/smartphone, typically with regard to ActiveSync.
         -   GuestOnly: (0 or 1) Set to 1 to disable the ability to
             create new partnerships.
         -   AppMgr
-            -   SilentInstall: (0 or 1) Set to 0 to stop the
-                ActiveSyncinstalling whenever the device is connected,
-                also delete the key below:
+            -   SilentInstall: (0 or 1) Set to 0 to stop the ActiveSync
+                installing whenever the device is connected, also delete
+                the key below:
         -   AutoStartOnConnect
             -   CEAppMgr: (string) Use this key if you wish to set a
                 third-party app back to use the PDA/smartphone after
@@ -386,12 +382,12 @@ generic to all users of this particular computer.
                 announcements in some environments.
             -   LegalNoticeCaption: (string) Set the title for the legal
                 notice window.
-            -   ScreenSaverGracePeriod: (string inseconds) This setting
+            -   ScreenSaverGracePeriod: (string in seconds) This setting
                 determines how many seconds after the screensaver
                 appears that the machine should be locked if it is
                 enabled.
             -   UserEnvDebugLevel: Enable the verbose logging of user
-                profile and other porcesses for troubleshooting. The
+                profile and other processes for troubleshooting. The
                 resulting log file is in
                 %SystemRoot%\\\\Debug\\\\UserMode\\\\Userenv.log .
         -   WPAEvents
@@ -426,7 +422,7 @@ generic to all users of this particular computer.
                     unaffected.
             -   Class\\\\{36FC9E60-C465-11CF-8056-444553540000}\\\\0000
                 -   IdleEnable: (0 or 1) Set this to one to increase the
-                    USB polling inerval. This is useful for laptops as
+                    USB polling interval. This is useful for laptops as
                     it allows a better standby.
             -   Terminal Server
                 -   Winstations
@@ -439,14 +435,14 @@ generic to all users of this particular computer.
                             (MyDigitalLife)](http://www.mydigitallife.info/2006/12/04/modify-and-change-remote-desktop-listening-port/)
         -   Session Manager
             -   SafeDllSearchMode: Change the search order for a
-                required DLL for a pgoramme. 1 = search Windows dirs
+                required DLL for a programme. 1 = search Windows dirs
                 first, 0 = current dir first.
             -   Memory Management
                 -   SystemPages: This key relfects the number of page
                     table entries, if you find your system is crashing
                     under heavy I/O loads this could fix it.
                 -   DisablePagingExecutive: (0 or 1) Systems with a
-                    large amount of RAM can easily incrase system
+                    large amount of RAM can easily increase system
                     performance by forcing Windows to not page its core
                     systems - the Windows Executive.
                 -   ClearPageFileAtShutdown: (0 or 1) Heavy load systems

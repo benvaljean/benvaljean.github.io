@@ -32,7 +32,7 @@ title: Main Page
     Utility](http://support.microsoft.com/kb/290301/en-us) - use this to
     remove persistent install dialogs etc.
 
-#### Troublehooting
+#### Troubleshooting
 
 -   [Context Menu Handler
     (Explorer)](Context_Menu_Handler_(Explorer) "wikilink")
@@ -75,13 +75,13 @@ title: Main Page
 -   [SSH Tunnels](SSH_Tunnels_(Linux) "wikilink")
 -   [Iptables](Iptables "wikilink")
 -   [Verify SSH server host key](Verify_SSH_server_host_key "wikilink")
--   [Can\'t open /dev/tty: No such device or address
-    Error](Can't_open_/dev/tty:_No_such_device_or_address_Error_(Linux) "wikilink")
 
-#### Troublehooting
+#### Troubleshooting
 
 -   [Couldn\'t open /dev/null
     Error](Couldn't_open_/dev/null_Error_(Linux) "wikilink")
+-   [Can\'t open /dev/tty: No such device or address
+    Error](Can't_open_/dev/tty:_No_such_device_or_address_Error_(Linux) "wikilink")
 
 ### Web
 
@@ -181,14 +181,14 @@ title: Main Page
     Advanced Find window in Outlook
     2002](http://support.microsoft.com/default.aspx?scid=kb;en-us;301415)
 
-### CA Brightstor Arcserve Trobuleshooting
+### CA Brightstor Arcserve Troubleshooting
 
 -   [Database Corruption](Database_Corruption_(Arcserve) "wikilink")
 -   [Database login problems / Cannot run VLDB utilities / -2005
     error](Database_login_problems_/_Cannot_run_VLDB_utilities_/_-2005_error_(Arcserve) "wikilink")
 -   [Reinitialise database](Reinitialise_database_(Arcserve) "wikilink")
 
-### Lotus Notes Trobuleshooting
+### Lotus Notes Troubleshooting
 
 -   [Your availability time range is invalid, please correct
     Error](Your_availability_time_range_is_invalid,_please_correct_Error_(Lotus_Notes) "wikilink")

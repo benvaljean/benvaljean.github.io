@@ -184,13 +184,22 @@ htaccess](http://www.cyberciti.biz/faq/howto-setup-apache-password-protect-direc
 -   [Monitoring user activity, via
     snoopy](http://www.debian-administration.org/articles/88)
 -   <http://www.cs.usfca.edu/~parrt/course/601/lectures/unix.util.html>
--   [Introduction to
-    iptables](http://wiki.centos.org/HowTos/Network/IPTables#head-06878259fc9bf1aca89a594122670f6403fd604c)
--   [iptablesrocks.org](http://www.iptablesrocks.org/)
+
+<!-- -->
+
 -   [Getting Started with Citrix XenDesktop
     2.1](http://support.citrix.com/article/CTX118041)
 -   [Kitty](http://www.9bis.net/kitty/) Putty replacement with
     transparency, sessions saved as files, session filter and launcher.
+-   [Linux Filesystem
+    Hierarchy](http://tldp.org/LDP/Linux-Filesystem-Hierarchy/html/index.html)
+    Very concise
+
+#### Networking
+
+-   [Introduction to
+    iptables](http://wiki.centos.org/HowTos/Network/IPTables#head-06878259fc9bf1aca89a594122670f6403fd604c)
+-   [iptablesrocks.org](http://www.iptablesrocks.org/)
 
 #### NFS
 

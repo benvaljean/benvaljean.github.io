@@ -96,13 +96,9 @@ and one or more characters but not for only the \"/\".
 
 ### See Also
 
-[Apache Rewrite](Apache_Rewrite "wikilink")
+-   [Apache Rewrite](Apache_Rewrite "wikilink")
+-   [URL rewriting with
+    IIS6/7](http://stackoverflow.com/questions/550505/url-rewriting-with-iis-6-7-rewriting-host-name-httphost)
 
-### See Also
-
-[Apache Rewrite](Apache_Rewrite "wikilink")
-
-[Category:Windows](Category:Windows "wikilink")
-[Category:Web](Category:Web "wikilink")
 [Category:Windows](Category:Windows "wikilink")
 [Category:Web](Category:Web "wikilink")

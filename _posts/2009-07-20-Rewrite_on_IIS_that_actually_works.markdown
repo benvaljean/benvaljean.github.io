@@ -94,6 +94,28 @@ and one or more characters but not for only the \"/\".
     RewriteCond %{HTTP_HOST} ^(?!nosslsite\\.company\\.co\\.uk)(.+)$
     RedirectRule ^/(.*)$ https://%{HTTP_HOST}/$1 [R=301]
 
+### Avoid SSL certificate errors for non-canonical hostnames
+
+If you employ a rewrite rule to force use of SSL you will find that any
+non-canonical/main hostnames cause an SSL certifciate error. This can be
+avoided by chaning together a rewrite rule with the \[R\] flag a visibly
+redirect the client to the preferred/advertised/main hostname first,
+before redirecting to SSL:
+
+    #Rewrite all compancyabc domains to "www.compancyabc.me" before SSL rewrite to avoid cert error
+    #IIRF does not support proper regex so in order to catch <anything>compancyabc... I had to put
+    #"(^|.*)" before each condition
+    RewriteCond %{HTTP_HOST} (^|.*)compancyabc\\.co\\.uk$ [OR]
+    RewriteCond %{HTTP_HOST} (^|.*)compancyabc\\.org\\.uk$ [OR]
+    RewriteCond %{HTTP_HOST} (^|.*)compancyabc\\.com$ [OR]
+    RewriteCond %{HTTP_HOST} (^|.*)compancyabc\\.eu$
+    RedirectRule ^/($|.*) http://www.compancyabc.me/$1 [R=301]
+
+    #Rewrite everything to SSL apart from the root page and apart from demo sites
+    RewriteCond %{SERVER_PORT} ^80$
+    RewriteCond %{HTTP_HOST} ^(?!(^|.*)demo\\.compancyabc\\.co\\.uk)(.+)$
+    RedirectRule ^/(.*)$ https://%{HTTP_HOST}/$1 [R=301]
+
 ### See Also
 
 -   [Apache Rewrite](Apache_Rewrite "wikilink")

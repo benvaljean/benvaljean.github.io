@@ -233,6 +233,8 @@ htaccess](http://www.cyberciti.biz/faq/howto-setup-apache-password-protect-direc
     Canonical Hostnames
 -   [Apache mod\_rewrite
     generator](http://www.generateit.net/mod-rewrite/)
+-   [Create Private Key and CSR for
+    mod\_ssl](http://www.rapidssl.com/resources/csr/apache_mod_ssl.htm)
 
 ### Squid
 

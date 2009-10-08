@@ -256,8 +256,8 @@ See Also: [Squid Stuff](Squid_Stuff "wikilink")
 [Wiki Stuff](Wiki_Stuff "wikilink")\
 [Copy & Paste Excel-to-Wiki
 Converter](http://people.fas.harvard.edu/~sdouglas/table.cgi) Also works
-in any tab that generates tabs between the cells in copied text - such
-as Opera
+in any app that generates tabs between the cells in copied text - such
+as Opera.
 
 ### Mobiles
 

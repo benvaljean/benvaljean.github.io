@@ -238,10 +238,14 @@ htaccess](http://www.cyberciti.biz/faq/howto-setup-apache-password-protect-direc
 
 ### Squid
 
-[Guide on setting up Squid 2.6 as a Reverse
-Proxy](http://wiki.squid-cache.org/SquidFaq/ReverseProxy)\
-[Howto parse a Squid logfile with
-Awstats](http://longsleep.org/1/howto/squidawstats)
+-   [Guide on setting up Squid 2.6 as a Reverse
+    Proxy](http://wiki.squid-cache.org/SquidFaq/ReverseProxy)\
+-   [Howto parse a Squid logfile with
+    Awstats](http://longsleep.org/1/howto/squidawstats)
+-   [Basic Squid setup with file, domain, and ad
+    blocking](http://mkeadle.org/?p=14)
+-   [Squid with NTLM authentication](http://mkeadle.org/?p=13)
+-   [Squid: Logfile Analysis](http://www.squid-cache.org/Scripts/)
 
 See Also: [Squid Stuff](Squid_Stuff "wikilink")
 

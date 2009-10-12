@@ -34,4 +34,7 @@ To fix this do one of the following, starting with the first:
 [IBM Notes Domino Forum: User cannot delete message in
 inbox](http://www-10.lotus.com/ldd/nd6forum.nsf/DateAllFlatWeb/34aec46c716991988525721400477c60?OpenDocument)
 
+Insted of Control+ Shift + F9 \'\'\'Please try Shift + F9 \'\'\' . It
+works .
+
 [Category:Lotus Notes](Category:Lotus_Notes "wikilink")

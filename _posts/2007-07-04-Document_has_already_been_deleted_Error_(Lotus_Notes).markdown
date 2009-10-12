@@ -27,7 +27,8 @@ To fix this do one of the following, starting with the first:
     access to the database to press Shift+Del when highlighting one of
     the documents/emails that cannot be deleted.
 4.  **Force a refresh of the views:** Get a user with manager access to
-    the database to press Ctrl+Shift+F9 when in the database.
+    the database to press Ctrl+Shift+F9 when in the database. You can
+    also try **Shift+F9** In some versions this will work
 
 ### See Also
 

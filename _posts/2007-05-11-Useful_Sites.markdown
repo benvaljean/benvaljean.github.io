@@ -141,52 +141,20 @@ htaccess](http://www.cyberciti.biz/faq/howto-setup-apache-password-protect-direc
 
 -   [Ubuntuguide: Dapper](http://ubuntuguide.org/wiki/Ubuntu_dapper)
     Great guide
--   [Setup load balanched clustered mysql servers on
-    Debian](http://www.howtoforge.com/loadbalanced_mysql_cluster_debian)
--   [Setup true MySQL cluster with High
-    Availability](http://www.davz.net/static/howto/mysqlcluster) Uses 3
-    servers, 2 mysql and 1 management server. Management server can go
-    down after the cluster starts.
--   [DNS Resource Record
-    Guide](http://technet2.microsoft.com/windowsserver/en/library/7b005a9b-4397-4d94-a584-34c037e2457c1033.mspx?mfr=true)
--   [Bash scripting
-    guide](http://www.linuxtopia.org/online_books/advanced_bash_scripting_guide/moreadv.html)
 -   [Ubuntu Blog guide](http://onlyubuntu.blogspot.com)
 -   [Install JRE on
     Ubuntu](http://www.ubuntugeek.com/how-to-install-java-runtime-environment-jre-in-ubuntu.html)
--   [Linux command reference](http://www.computerhope.com/unix.htm)
-    Excellent reference including MS-DOS vs Linux list.
--   [Advanced BASH scripting Guide:
-    Loops](http://www.museum.state.il.us/ismdepts/library/linuxguides/abs-guide/loops1.html)
-    Good
 -   [/etc/host.allow and hosts.deny
     Guide](http://www.redhat.com/docs/manuals/enterprise/RHEL-3-Manual/ref-guide/s1-tcpwrappers-access.html#S3-TCPWRAPPERS-ACCESS-RULES-WILD)
--   [Guide to using
-    grep](http://www.mkssoftware.com/docs/man1/grep.1.asp)
--   [Scripting with
-    if](http://www.cyberciti.biz/nixcraft/linux/docs/uniqlinuxfeatures/lsst/ch03sec02.html)
 -   [File sharing/SMB/CIFS/Samba over SSH without disabling local file
     sharing](http://www.blisstonia.com/eolson/notes/smboverssh.php)
-    Certainly not something you could guide a user thorugh over the
-    phone but very good nonetheless.
 -   [Automate an SFTP transfer between two
     servers](http://ask-leo.com/how_can_i_automate_an_sftp_transfer_between_two_servers.html)
     Good page from a good site
--   [Fighting malware and spam with
-    Postfix](http://advosys.ca/papers/printable/postfix-filtering.html)
--   [Fairly-Secure Anti-SPAM Gateway Using OpenBSD, Postfix,
-    Amavisd-new, SpamAssassin, Razor and
-    DCC](http://www.flakshack.com/anti-spam/old-index.html)
 -   [Vi Tutorial](http://acs.ucsd.edu/info/vi_tutorial.shtml) Text
     editor tutorial
--   [Debian + exim4 + spamassassin + f-prot
-    HOWTO](http://www.clues.ltd.uk/howto/debian-sa-fprot-HOWTO.html)
 -   [Monitoring user activity, via
     snoopy](http://www.debian-administration.org/articles/88)
--   <http://www.cs.usfca.edu/~parrt/course/601/lectures/unix.util.html>
-
-<!-- -->
-
 -   [Getting Started with Citrix XenDesktop
     2.1](http://support.citrix.com/article/CTX118041)
 -   [Kitty](http://www.9bis.net/kitty/) Putty replacement with
@@ -194,6 +162,34 @@ htaccess](http://www.cyberciti.biz/faq/howto-setup-apache-password-protect-direc
 -   [Linux Filesystem
     Hierarchy](http://tldp.org/LDP/Linux-Filesystem-Hierarchy/html/index.html)
     Very concise
+-   [Table of equivalents / replacements / analogs of Windows software
+    in Linux](http://www.linuxrsp.ru/win-lin-soft/table-eng.html)
+
+#### Bash / Scripting
+
+-   [Bash scripting
+    guide](http://www.linuxtopia.org/online_books/advanced_bash_scripting_guide/moreadv.html)
+-   [Linux command reference](http://www.computerhope.com/unix.htm)
+    Excellent reference including MS-DOS vs Linux list.
+-   [Advanced BASH scripting Guide:
+    Loops](http://www.museum.state.il.us/ismdepts/library/linuxguides/abs-guide/loops1.html)
+    Good
+-   [Guide to using
+    grep](http://www.mkssoftware.com/docs/man1/grep.1.asp)
+-   [UNIX
+    Intro](http://www.cs.usfca.edu/~parrt/course/601/lectures/unix.util.html)
+-   [Scripting with
+    if](http://www.cyberciti.biz/nixcraft/linux/docs/uniqlinuxfeatures/lsst/ch03sec02.html)
+
+#### Antispam
+
+-   [Fighting malware and spam with
+    Postfix](http://advosys.ca/papers/printable/postfix-filtering.html)
+-   [Fairly-Secure Anti-SPAM Gateway Using OpenBSD, Postfix,
+    Amavisd-new, SpamAssassin, Razor and
+    DCC](http://www.flakshack.com/anti-spam/old-index.html)
+-   [Debian + exim4 + spamassassin + f-prot
+    HOWTO](http://www.clues.ltd.uk/howto/debian-sa-fprot-HOWTO.html)
 
 #### Networking
 
@@ -220,6 +216,17 @@ htaccess](http://www.cyberciti.biz/faq/howto-setup-apache-password-protect-direc
 -   [Bind 9 Configuration
     Reference](http://www.isc.org/sw/bind/arm93/Bv9ARM.ch06.html) Very
     concise
+-   [DNS Resource Record
+    Guide](http://technet2.microsoft.com/windowsserver/en/library/7b005a9b-4397-4d94-a584-34c037e2457c1033.mspx?mfr=true)
+
+### MySQL
+
+-   [Setup load balanched clustered mysql servers on
+    Debian](http://www.howtoforge.com/loadbalanced_mysql_cluster_debian)
+-   [Setup true MySQL cluster with High
+    Availability](http://www.davz.net/static/howto/mysqlcluster) Uses 3
+    servers, 2 mysql and 1 management server. Management server can go
+    down after the cluster starts.
 
 ### Apache
 

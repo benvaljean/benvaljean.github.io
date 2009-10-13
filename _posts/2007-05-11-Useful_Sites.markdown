@@ -164,6 +164,8 @@ htaccess](http://www.cyberciti.biz/faq/howto-setup-apache-password-protect-direc
     Very concise
 -   [Table of equivalents / replacements / analogs of Windows software
     in Linux](http://www.linuxrsp.ru/win-lin-soft/table-eng.html)
+-   [OTPW -- A one-time password login
+    package](http://www.cl.cam.ac.uk/~mgk25/otpw.html)
 
 #### Bash / Scripting
 

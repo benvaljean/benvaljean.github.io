@@ -9,9 +9,9 @@ title: Debian Vs Enterprise Linux
 |-
 | sudo apt-get install build-essential||yum install gcc gcc-c++ kernel-devel
 |-
-| ||
+| dpkg -l||yum list installed
 |-
-| ||
+| apt-get install apache2||yum install httpd
 |-
 | ||
 |-

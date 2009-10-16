@@ -244,6 +244,8 @@ htaccess](http://www.cyberciti.biz/faq/howto-setup-apache-password-protect-direc
     generator](http://www.generateit.net/mod-rewrite/)
 -   [Create Private Key and CSR for
     mod\_ssl](http://www.rapidssl.com/resources/csr/apache_mod_ssl.htm)
+-   [Using Apache2's Digest
+    authentication](http://finelycultured.com/2009/09/using-apache2s-digest-authentication/)
 
 ### Squid
 

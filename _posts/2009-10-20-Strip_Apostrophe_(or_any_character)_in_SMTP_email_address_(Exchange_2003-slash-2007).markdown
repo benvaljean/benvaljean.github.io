@@ -55,4 +55,15 @@ To strip/delete all occurances of \"x\"
 -   Double click the policy to be edited, usually Default policy.
 -   Add the new policy from the E-mail addresses (Policy) tab.
 
+### See Also
+
+-   [How to customize the SMTP e-mail address generators through
+    recipient policies](http://support.microsoft.com/kb/285136/en-us)
+-   [Microsoft Exchange Admin Recipient policy - Apostrophe in
+    address](http://www.eggheadcafe.com/software/aspnet/30598513/recipient-policy--apostr.aspx)
+-   [emails with Apostrophe in address being
+    bounced](http://social.technet.microsoft.com/Forums/en-US/exchangesvradmin/thread/feeaa174-3041-4844-86f2-7c343fccf2b4)
+-   [Beware of the
+    apostrophe](http://searchexchange.techtarget.com/tip/0,289483,sid43_gci1009952,00.html)
+
 [Category:Exchange](Category:Exchange "wikilink")

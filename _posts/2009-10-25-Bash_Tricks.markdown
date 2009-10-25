@@ -65,8 +65,9 @@ Refer to the last dir within a command with: <pre>~-/</pre>
 Insert the last command entered with: <pre>!!</pre> If, for example sudo is not used when it should have been <tt>sudo !!</tt> can be used as an alternative to retyping/copying/pasting the last command.
 <p>Insert only the arguments from the previous command with <pre>!*</pre>
 
-==Scroll dir listings made easier==
-Instead of <tt>ls /etc|less</tt> this can be shortened to <tt>less /etc</tt> If a folder is specified in less it will <tt>ls</tt> is and <tt>less</tt> the contents.
+==Scrolling ls listings made easier==
+Instead of  <tt>ls /etc|less</tt>  this can be shortened to  <tt>less /etc</tt>  . If a folder is specified in less it will <tt>ls</tt> is and <tt>less</tt> the contents.
+
 ==See Also==
 *[http://www.gnu.org/software/bash/manual/html_node/index.html Bash Reference Manual]
 *[http://www.linuxjournal.com/article/7385 My Favorite bash Tips and Tricks]

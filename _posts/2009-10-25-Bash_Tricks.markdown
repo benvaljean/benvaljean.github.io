@@ -41,7 +41,7 @@ This will only redirect the standard output, to redirect standard error:
 To redirect the output of both standard output AND standard error:
 <pre>find ~ -name test >outputwitherrorsfile 2>&1</pre>
 ==Eliminate 'looser takes all' Bash History==
-Bash only writes the command history on exiting the shell. If multiple session are open at the same time the very last one to be closed will overwrite any command history since it was opened. Confused? try the following:
+Bash only writes the command history on exiting the shell. If multiple sessions are open at the same time the very last one to be closed will overwrite any command history since it was opened. Confused? try the following:
 #Opening a shell and type <tt>echo 1;echo 2</tt>.
 #Keep this session open and open another bash session (session number 2) and use the <tt>history</tt> command and you will see that the last two commands issued are not there, as the commands are only written on exiting the shell. But that it not all...
 #Reopen another session (session number 3) and you will now see the <tt>echo 1;echo 2</tt>
@@ -58,6 +58,7 @@ PROMPT_COMMAND='history -a'
 shopt -s histappend
 alias history='history -n;history'
 </pre>
+
 ==Refer to previous dirs and commands==
 Cd to last dir: <tt>cd -</tt><br>Refer to the last dir within a command with <tt>~-/</tt><br>
 Insert the last command entered with <tt>!!</tt> If, for example sudo is not used when it should have been <tt>sudo !!</tt> can be used as an alternative to retyping/copying/pasting the last command.<br>

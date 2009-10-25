@@ -81,7 +81,7 @@ indents are placed on the lines. To disable this:
 
 ### Recall previous command
 
-Press Esc to entewr command mode, type a single colon, after which the
-up and down keys can be used in the same manner as BASH.
+Press Esc to enter command mode, type a single colon, after which the up
+and down keys can be used in the same manner as BASH.
 
 [Category:Linux](Category:Linux "wikilink")

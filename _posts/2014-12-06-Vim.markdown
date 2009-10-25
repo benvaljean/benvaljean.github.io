@@ -9,7 +9,7 @@ alternative. It is often used on Linux flavours although ports for
 Windows [gVim portable](http://portablegvim.sourceforge.net/) and Mac
 OSX [Vim for Mac](http://macvim.org/OSX/index.php) are available. Its
 differentiator from other text editors is the many
-keyboard-shortcut-based commands available, just a few of which are
+keyboard-shortcut-based commands are available, just a few of which are
 listed here.
 
 ### Commands

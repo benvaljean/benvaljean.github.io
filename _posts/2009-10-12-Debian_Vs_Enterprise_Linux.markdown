@@ -7,7 +7,7 @@ title: Debian Vs Enterprise Linux
 | align="center" style="background:#f0f0f0;"|'''Debian/Ubuntu'''
 | align="center" style="background:#f0f0f0;"|'''CentOS'''
 |-
-| sudo apt-get install build-essential||yum install gcc gcc-c++ kernel-devel
+| apt-get install build-essential||yum install gcc gcc-c++ kernel-devel
 |-
 | dpkg -l||yum list installed
 |-

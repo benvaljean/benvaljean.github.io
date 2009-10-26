@@ -13,6 +13,8 @@ title: Debian Vs Enterprise Linux
 |-
 | apt-get install apache2||yum install httpd
 |-
+| dpkg -i package.deb||rpm -i package.rpm
+|-
 | ||
 |-
 | ||

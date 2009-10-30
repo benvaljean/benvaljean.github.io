@@ -58,5 +58,7 @@ Press F7 or use the up and down cursor keys
     Scripting](http://commandwindows.com/)
 -   [Command Line Tools \| Free software and tools for Windows
     2003/XP/Vista](http://www.tools4ever.com/products/free/command/)
+-   [19 hidden Windows XP
+    Secrets](http://300allpctips.blogspot.com/2008/12/19-hidden-windows-xp-secrets.html)
 
 [Category:Windows](Category:Windows "wikilink")

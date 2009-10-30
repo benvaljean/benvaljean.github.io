@@ -31,7 +31,6 @@ Rename the title bar of the DOS Window:
     (Windows)](Performing_functions_via_the_command_line_(Windows) "wikilink")
 -   [Dos Tricks and Shortcuts - The Ethical
     Hacking](http://rahulhackingarticles.wetpaint.com/page/Dos+Tricks+and+Shortcuts)
--   [http://blog.commandlinekungfu.com/ Command Line Kung
-    Fu](http://blog.commandlinekungfu.com/_Command_Line_Kung_Fu "wikilink")
+-   [Command Line Kung Fu](http://blog.commandlinekungfu.com/)
 
 [Category:Windows](Category:Windows "wikilink")

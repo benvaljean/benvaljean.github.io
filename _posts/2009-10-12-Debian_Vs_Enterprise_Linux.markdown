@@ -15,6 +15,12 @@ title: Debian Vs Enterprise Linux
 |-
 | dpkg -i package.deb||rpm -i package.rpm
 |-
+| apt-get install bind|| yum install bind bind-devel caching-nameserver
+|-
+| apt-get install dns-utils|| yum install bind-utils
+|-
+| ||
+|-
 | ||
 |-
 | ||

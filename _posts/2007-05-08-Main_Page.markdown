@@ -77,6 +77,7 @@ title: Main Page
 -   [SSH Tunnels](SSH_Tunnels_(Linux) "wikilink")
 -   [Iptables](Iptables "wikilink")
 -   [Verify SSH server host key](Verify_SSH_server_host_key "wikilink")
+-   [Debian or Ubuntu Vs CentOS](Debian_or_Ubuntu_Vs_CentOS "wikilink")
 
 #### Troubleshooting
 

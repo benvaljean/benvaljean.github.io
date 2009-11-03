@@ -3,6 +3,8 @@ layout: post
 title: Debian Vs Enterprise Linux
 ---
 
+A comparison of commands in Ubuntu/Debian and their equivalent in Redhat/CentOS
+
 {| {{table}}
 | align="center" style="background:#f0f0f0;"|'''Debian/Ubuntu'''
 | align="center" style="background:#f0f0f0;"|'''CentOS'''
@@ -19,7 +21,7 @@ title: Debian Vs Enterprise Linux
 |-
 | apt-get install dns-utils|| yum install bind-utils
 |-
-| ||
+| adduser username|| /usr/sbin/adduser username;passwd username
 |-
 | ||
 |-

@@ -29,6 +29,6 @@ A comparison of commands and packages in Ubuntu/Debian and their equivalent in R
 |}
 
 
-[http://www.linuxjournal.com/video/almost-9-distros-almost-6-minutes Almost 9 Distros in Almost 6 Minutes
+[http://www.linuxjournal.com/video/almost-9-distros-almost-6-minutes Almost 9 Distros in Almost 6 Minutes]
 
 [[Category:Linux]]

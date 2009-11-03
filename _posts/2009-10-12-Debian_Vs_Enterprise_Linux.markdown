@@ -7,7 +7,7 @@ A comparison of commands and packages in Ubuntu/Debian and their equivalent in R
 
 {| {{table}}
 | align="center" style="background:#f0f0f0;"|'''Debian/Ubuntu'''
-| align="center" style="background:#f0f0f0;"|'''CentOS'''
+| align="center" style="background:#f0f0f0;"|'''Redhat/CentOS'''
 |-
 | apt-get install build-essential||yum install gcc gcc-c++ kernel-devel
 |-

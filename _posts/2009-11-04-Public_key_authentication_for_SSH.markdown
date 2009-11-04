@@ -90,4 +90,13 @@ From /var/log/secure:
 Check that your authorized\_keys file is owned by the user you are
 logging on as and has 600 permissions.
 
+### See Also
+
+-   [Automate an SFTP transfer between two
+    servers](http://ask-leo.com/how_can_i_automate_an_sftp_transfer_between_two_servers.html)
+-   [log sshd activities
+    (CentOS)](http://grokbase.com/topic/2008/03/11/centos-log-sshd-activities/RRfWGfkC783s05TN2wzJuvYQoMA)
+-   [OpenSSL vulnerability in
+    Debian](http://ubuntuforums.org/showthread.php?t=793517)
+
 [Category:Linux](Category:Linux "wikilink")

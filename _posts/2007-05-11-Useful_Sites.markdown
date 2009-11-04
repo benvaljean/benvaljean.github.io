@@ -166,6 +166,8 @@ htaccess](http://www.cyberciti.biz/faq/howto-setup-apache-password-protect-direc
     in Linux](http://www.linuxrsp.ru/win-lin-soft/table-eng.html)
 -   [OTPW -- A one-time password login
     package](http://www.cl.cam.ac.uk/~mgk25/otpw.html)
+-   [Change ls
+    colours](http://www.cyberciti.biz/tips/where-is-color-of-ls-command-defined.html)
 
 #### Bash / Scripting
 

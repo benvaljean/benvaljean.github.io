@@ -438,3 +438,7 @@ About](http://www.mil-millington.com/)
 
 [The girl with the flower in her hair on the
 subway](http://2parse.com/?p=119)
+
+[Historic inflation
+calculator](http://www.thisismoney.co.uk/historic-inflation-calculator)
+UK

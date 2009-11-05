@@ -41,6 +41,14 @@ www.anydomain.com/anything if the domain is not www.primarydomain.com .
     RewriteCond %{HTTP_HOST} !^www\\.primarydomain\\.com$ [NC]
     RewriteRule ^/($|/.*) http://www.primarydomain.com/$1 [R=301]
 
+### Move a website to another URL/domain
+
+Below is the rewrite in place that redirects users from the previous
+domain for this website. Redirects www.rogerrabbit.net/wiki/anything to
+ben.goodacre.name/tech/anything :
+
+    RewriteRule ^/wiki($|/.*) http://ben.goodacre.name/tech$1 [NC,R=301,L]
+
 ### See Also
 
 [Rewrite on IIS](Rewrite_on_IIS_that_actually_works "wikilink")

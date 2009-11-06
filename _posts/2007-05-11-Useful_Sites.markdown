@@ -72,7 +72,8 @@ generation](http://www.exisoftware.com/download.html#etg)\
     notwithstanding restricted use of a propietry Windows/Mac client and
     a restore procedure that invovles a procress that could delete all
     your backups if followed incorrectly.
--   [ADrive](http://www.adrive.com) 50Gb for free, web-based only
+-   [ADrive](http://www.adrive.com) 50Gb for free, web-based only. FTP
+    access is \$6.95/mth \$69.50 / year
 -   [IDrive](http://www.idrive.com) Free 2gb of stoarege - also includes
     a tool to allow you to map a network drive. 150Gb of storage is
     \$50/year

@@ -80,6 +80,8 @@ title: Main Page
 -   [Debian or Ubuntu Vs CentOS](Debian_or_Ubuntu_Vs_CentOS "wikilink")
 -   [Public key authentication for
     SSH](Public_key_authentication_for_SSH "wikilink")
+-   [Append a remote file using
+    SSH](Append_a_remote_file_using_SSH_(Linux) "wikilink")
 
 #### Troubleshooting
 

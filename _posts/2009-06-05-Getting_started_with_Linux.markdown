@@ -36,3 +36,5 @@ Search text within files and print the lines:
 Search text within files and print only the filenames:
 
     find /dir -type f -print | xargs grep -li "textinfile"
+
+[Category:Linux](Category:Linux "wikilink")

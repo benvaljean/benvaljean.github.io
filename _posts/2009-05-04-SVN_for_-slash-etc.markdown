@@ -35,3 +35,5 @@ To revert a file back to a previous revision for instance:
 <http://ariejan.net/2007/07/04/how-to-resolve-subversion-conflicts/>
 
 <http://svnbook.red-bean.com/en/1.2/svn.branchmerge.commonuses.html#svn.branchmerge.commonuses.undo>
+
+[Category:Linux](Category:Linux "wikilink")

@@ -31,3 +31,5 @@ To change the maximum number of files that the entire OS can have open,
 append the following line to /etc/sysctl.conf
 
     fs.file-max = 100000
+
+[Category:Linux](Category:Linux "wikilink")

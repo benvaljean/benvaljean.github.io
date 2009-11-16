@@ -166,6 +166,13 @@ emails wait in Outbox.
 
 ### Database Health
 
+#### Database Transaction Log Generation Checkpoint Depth
+
+If a particular process stops working, crashes or otherwise fails then
+Exchange must undo/redo work in order to prevent a partial-transaction
+in the DB. This counter tracks the work involved in rolling any work
+back if it is required. Normally 20 - 30, should not exceed 500.
+
     define service {
             use                     generic-service
             hostgroup_name          ex-be-servers
@@ -177,6 +184,14 @@ emails wait in Outbox.
             command_name ex-wmi-tlog-gen-chkpt-length
             command_line $USER1$/check_nt -H $HOSTADDRESS$ -p 12489 -v COUNTER -d SHOWALL -l "\\\\MSExchange Database ==> Instances(Information Store/_Total)\\Log Generation Checkpoint Depth","Ex transaction log generation checkpoint depth: %.f" -w 35 -c 500
     }
+
+#### Database Page fault stalls / sec
+
+Each time the DB cache manageer allocates a new page from the DB cache
+this counter is incremented and should normally read 0. Persistent
+values suggest that unused/dirty pages are not being removed quickly
+enough and probably relate to an IO bottleneck or simply a spike in
+usage.
 
 
     define service {
@@ -190,6 +205,14 @@ emails wait in Outbox.
             command_line $USER1$/check_nt -H $HOSTADDRESS$ -p 12489 -v COUNTER -d SHOWALL -l "\\\\MSExchange Database(Information Store)\\Database Page Fault Stalls/sec","Ex DB Page Fault stalls / sec: %.f" -w 1 -c 3
     }
 
+#### Version Buckets
+
+Version buckets are the number of uncommitted changes in memory that
+have yet to be written to the log. In general this can go up to 12000
+and not be a problem but it is best to get a base-line and then adjust
+the thresholds accordingly. A high value could be due to a large
+attachment being sent or an IO bottleneck.
+
     define service {
             use                     generic-service
             hostgroup_name          ex-be-servers
@@ -201,6 +224,12 @@ emails wait in Outbox.
             command_line $USER1$/check_nt -H $HOSTADDRESS$ -p 12489 -v COUNTER -d SHOWALL -l "\\\\MSExchange Database(Information Store)\\Version buckets allocated","Ex DB Version Buckets allocated: %.f" -w 5000 -c 12000
     }
 
+#### Database Transaction Log Record Stalls / sec
+
+This counter states how many log records Exchange was unable to write to
+the log buffers each second because the buffers are full. This counter
+should remain at 0 for most of the time. Spikes up to 100 are OK, an
+average of 10 or more can indicate high IO write latencies.
 
     define service {
             use                     generic-service
@@ -213,6 +242,15 @@ emails wait in Outbox.
             command_line $USER1$/check_nt -H $HOSTADDRESS$ -p 12489 -v COUNTER -d SHOWALL -l "\\\\MSExchange Database(Information Store)\\Log Record Stalls/sec","Ex DB transaction log record stalls / sec: %.f" -w 5000 -c 12000
     }
 
+#### Database Cache Hit Ratio
+
+Simply the number of DB file page requests that are done without
+requiring a file oprtation - accessing memory instead. With most users
+in Outlook cached-exchange-mode this counter should not fall below 99%.
+If most users do not use Outlook or use Outlook in \'online\' mode this
+should not fall below 90%. As Ex2007 uses up as much RAM as it can do
+with the DB cache a low ratio is a good indication of the server
+requiring more RAM.
 
     define service {
             use                     generic-service
@@ -227,8 +265,10 @@ emails wait in Outbox.
             command_line $USER1$/check_nt -H $HOSTADDRESS$ -p 12489 -v COUNTER -d SHOWALL -l "\\\\MSExchange Database(Information Store)\\Database Cache % Hit","Ex DB cache hit percent: %.f (0 dp)"
     }
 
-See
-<http://searchexchange.techtarget.com/generic/0,295582,sid43_gci1362447,00.html?track=NL-359&ad=716575&asrc=EM_NLT_8754745&uid=8701479>
+#### See Also
+
+[Track Exchange 2007 mailbox server health using database
+counters](http://searchexchange.techtarget.com/generic/0,295582,sid43_gci1362447,00.html?track=NL-359&ad=716575&asrc=EM_NLT_8754745&uid=8701479)
 
 [Category:Nagios](Category:Nagios "wikilink")
 [Category:Exchange](Category:Exchange "wikilink")

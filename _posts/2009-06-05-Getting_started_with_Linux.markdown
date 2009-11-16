@@ -31,10 +31,10 @@ Delete everything older than 7 days:
 
 Search text within files and print the lines:
 
-    find /dir -type f -exec grep "textinfile" {} \\; -print
+    find /dir -type f -exec grep "textinfile" {} \\;
 
 Search text within files and print only the filenames:
 
-    find /dir -type f -print | xargs grep -li "textinfile"
+    find /dir -type f | xargs grep -li "textinfile"
 
 [Category:Linux](Category:Linux "wikilink")

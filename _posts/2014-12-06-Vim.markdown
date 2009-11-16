@@ -79,6 +79,18 @@ indents are placed on the lines. To disable this:
 
 <http://www.eec.com/business/vi.html>
 
+### Settings commands by default
+
+If a particular option or command needs to be the default in Vim - it
+needs to be run every time you start Vim - create a text file called
+`.exrc` or `.vimrc` in your home directory and place your commands in
+there without the proceeding colon. For example to display line numbers
+and search case insensitively by default your .vimrc file would look
+like this:
+
+    set number
+    set ignorecase
+
 ### Recall previous command
 
 Press Esc to enter command mode, type a single colon, after which the up

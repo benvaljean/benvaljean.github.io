@@ -174,6 +174,8 @@ title: Main Page
     rights/Privileges/Grants](Access_rights/Privileges/Grants_(MySQL) "wikilink")
 -   [Reset Root password](Reset_Root_password_(MySQL) "wikilink")
 -   [Set Global Variables](Set_Global_Variables_(MySQL) "wikilink")
+-   [Get or Ascertain Slave
+    Lag](Get_or_Ascertain_Slave_Lag_(MySQL) "wikilink")
 
 ### Microsoft Office Troubleshooting
 

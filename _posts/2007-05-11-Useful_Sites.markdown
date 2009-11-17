@@ -248,6 +248,8 @@ htaccess](http://www.cyberciti.biz/faq/howto-setup-apache-password-protect-direc
     Availability](http://www.davz.net/static/howto/mysqlcluster) Uses 3
     servers, 2 mysql and 1 management server. Management server can go
     down after the cluster starts.
+-   [MySQL Slave Lag (Delay) Explained And 7 Ways To Battle
+    It](http://beerpla.net/2008/09/05/mysql-slave-lag-delay-explained-and-7-ways-to-battle-it/)
 
 ### Apache
 

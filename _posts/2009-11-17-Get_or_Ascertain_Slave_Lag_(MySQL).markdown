@@ -10,9 +10,9 @@ differences in behaviour there can often be a difference between the
 master and a slave - the slave does not have the most up to date data as
 it has \'lagged\' behind.
 
-### Get Slave lag
+#### Get Slave lag
 
-#### Check Slave\'s SQL thread
+##### Check Slave\'s SQL thread
 
 Run the following mysql command on the slave:
 
@@ -24,7 +24,7 @@ processed by the two servers. It can be easily possible to catch up in
 an amount of time less than the value stated, and in rare cases it can
 also take longer.
 
-#### Check IO Thread
+##### Check IO Thread
 
 If the lag is not occurring in the slave\'s SQL thread but in the IO
 thread the above check will not reveal it. Sometimes the SQL thread can

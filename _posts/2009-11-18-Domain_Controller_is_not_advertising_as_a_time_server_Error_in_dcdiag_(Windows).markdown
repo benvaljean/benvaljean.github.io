@@ -78,7 +78,7 @@ completing each step until the problem is resolved.
     the `AnnounceFlags` are set correctly in the
     [Registry](Registry "wikilink"). Edit the
     `[HKLM\\SYSTEM\\CurrentControlSet\\Services\\w32time\\Config\\AnnounceFlags]`
-    key to `a` (the letter a) in hexidecimal. To allow the w32time
+    key to `a` (the letter a) in hexadecimal. To allow the w32time
     service read the config change:
         w32tm /config /update
 

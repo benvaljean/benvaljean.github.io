@@ -31,7 +31,7 @@ Try each of these solutions one step at a time, re-testing after
 completing each step until the problem is resolved.
 
 1.  Ensure the Windows Time service is running. On a DC is does far more
-    than just synchronise time. It is also invovled and required for AD
+    than just synchronise time. It is also involved and required for AD
     replication.
         net start w32time
 
@@ -39,7 +39,7 @@ completing each step until the problem is resolved.
         net stop w32time && net start w32time
 
 3.  Check that Network problems are not stopping NTP form functioning.
-    Note that Windows clients do not syncronise with the DCs via NTP,
+    Note that Windows clients do not synchronise with the DCs via NTP,
     this only tests the ability for DC themselves to check an external
     time source:
         w32tm /stripchart /computer:time.windows.com /samples:2 /dataonly
@@ -95,7 +95,7 @@ restarted:
 
     net start w32time
 
-If you reveive an error message regarding SIDs then DC will need to be
+If you receive an error message regarding SIDs then DC will need to be
 rebooted again.
 
 ### See Also

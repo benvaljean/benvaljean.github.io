@@ -13,10 +13,21 @@ controller the following error can appear:
        The DC DC1 is advertising as a Key Distribution Center
        Warning: DC1 is not advertising as a time server.
        The DS DC1 is advertising as a GC.
-       ......................... DC1 failed test Advertising
+       ......................... DC1 failed test Advertisingche
 
 The exact command run to produce this test is:
 `dcdiag /v /test:advertising`
+
+Another error can appear within a different check in `dcdiag`:
+
+    Starting test: FsmoCheck
+             Warning: DcGetDcName(TIME_SERVER) call failed, error 1355
+             A Time Server could not be located.
+             The server holding the PDC role is down.
+             Warning: DcGetDcName(GOOD_TIME_SERVER_PREFERRED) call failed, error 1355
+             A Good Time Server could not be located.
+
+The exact command run to produce this test is: `dcdiag /test:fsmocheck`
 
 ### Cause
 

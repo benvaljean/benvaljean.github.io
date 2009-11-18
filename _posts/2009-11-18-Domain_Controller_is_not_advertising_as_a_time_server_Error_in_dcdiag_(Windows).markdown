@@ -3,8 +3,12 @@ layout: post
 title: Domain Controller is not advertising as a time server Error in dcdiag (Windows)
 ---
 
-\_\_NOTOC\_\_==Symptom== When performing a `dcdiag` on a Windows domain
-controller the following error can appear:
+\_\_NOTOC\_\_==Symptoms==
+
+#### Advertising check
+
+When performing a `dcdiag` on a Windows domain controller the following
+error can appear:
 
     Starting test: Advertising
        The DC DC1 is advertising itself as a DC and having a DS.
@@ -17,6 +21,8 @@ controller the following error can appear:
 
 The exact command run to produce this test is:
 `dcdiag /v /test:advertising`
+
+#### FSMO Check
 
 Another error can appear within a different check in `dcdiag`:
 

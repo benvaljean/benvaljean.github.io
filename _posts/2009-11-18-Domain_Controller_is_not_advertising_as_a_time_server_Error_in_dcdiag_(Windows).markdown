@@ -42,30 +42,47 @@ completing each step until the problem is resolved.
     Note that Windows clients do not syncronise with the DCs via NTP,
     this only tests the ability for DC themselves to check an external
     time source:
+        w32tm /stripchart /computer:time.windows.com /samples:2 /dataonly
 
-<!-- -->
+    Error 0x800705B4 is a network timeout on the port - 123.
+    `Time.winfows.com` should be replaced with the external time server
+    you are using for a more complete test.
 
-    w32tm /stripchart /computer:time.windows.com /samples:2 /dataonly
-
-Error 0x800705B4 is a network timeout on the port - 123.
-`Time.winfows.com` should be replaced with the external time server you
-are using for a more complete test.
-
-</pre>
-
-1.  Try:
+4.  Try:
          netdiag /fix
 
     `Netdiag` is part of [Windows Server 2003 Service Pack 1 Support
     Tools](http://support.microsoft.com/kb/892777). This can also be
     used on Server 2008.
 
-2.  If you received the error message: `The service name is invalid.`
+5.  If you received the error message: `The service name is invalid`
     earlier the Windows Time service is not even registered.
     Re-registering the W32time service can also fix some issues so
-    perform these steps anyway:
+    perform these steps anyway: [Re-registering the Windows Time
+    Service](Domain_Controller_is_not_advertising_as_a_time_server_Error_in_dcdiag_(Windows)#Re-registering_the_Windows_Time_Service "wikilink")
+6.  Try:
+        w32tm /resync /redisscover
 
-<!-- -->
+7.  Check that the DC has the PDC role:
+        netdom query fsmo
+
+    If it is run the following command:
+
+        w32tm /config /manualpeerlist:time.windows.com /syncfromflags:manual /reliable:yes /update
+
+    Microsoft\'s own free NTP server can be used as shown here, but I
+    would recommend using one in your country if not in thr US. For the
+    UK I can recommend `ntp2d.mcc.ac.uk` but there are many others.
+
+8.  Ensure that the DC is announcing itself correctly through changing
+    the `AnnounceFlags` are set correctly in the
+    [Registry](Registry "wikilink"). Edit the
+    `[HKLM\\SYSTEM\\CurrentControlSet\\Services\\w32time\\Config\\AnnounceFlags]`
+    key to `a` (the letter a) in hexidecimal. To allow the w32time
+    service read the config change:
+        w32tm /config /update
+
+#### Re-registering the Windows Time Service
 
     w32tm /unregister
     rem Ignore Access denied message if it appears and repeat
@@ -80,31 +97,6 @@ restarted:
 
 If you reveive an error message regarding SIDs then DC will need to be
 rebooted again.
-
-1.  Try:
-
-<!-- -->
-
-    w32tm /resync /redisscover
-
-1.  Check that the DC has the PDC role:
-        netdom query fsmo
-
-If it is run the following command:
-
-    w32tm /config /manualpeerlist:time.windows.com /syncfromflags:manual /reliable:yes /update
-
-Microsoft\'s own free NTP server can be used as shown here, but I would
-recommend using one in your country if not in thr US. For the UK I can
-recommend `ntp2d.mcc.ac.uk` but there are many others.
-
-1.  Ensure that the DC is announcing itself correctly through changing
-    the `AnnounceFlags` are set correctly in the
-    [Registry](Registry "wikilink"). Edit the
-    `[HKLM\\SYSTEM\\CurrentControlSet\\Services\\w32time\\Config\\AnnounceFlags]`
-    key to `a` (the letter a) in hexidecimal. To allow the w32time
-    service read the config change:
-        w32tm /config /update
 
 ### See Also
 

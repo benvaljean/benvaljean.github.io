@@ -13,6 +13,9 @@ using the latest version:
 
 ### Install the Nagios-plugins release
 
+Go to <http://www.nagios.org/download/plugins/> and `wget` the latest
+release, in this example it is 1.4.13:
+
     wget http://prdownloads.sourceforge.net/sourceforge/nagiosplug/nagios-plugins-1.4.13.tar.gz
     tar zxf nagios-plugins-1.4.13.tar.gz
     cd nagios-plugins-1.4.13/

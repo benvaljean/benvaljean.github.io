@@ -32,6 +32,14 @@ Download
 
     tasklist
 
+### Add a user to a local group
+
+    net localgroup localgroupnamehere /add usernamehere
+
+For example to add domain\\\\user to the local administrators group:
+
+    net localgroup Administrators /add domain\\user
+
 ### Command line tips
 
 #### Filter/grep output

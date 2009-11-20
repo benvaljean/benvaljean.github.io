@@ -506,9 +506,9 @@ Notes:
 1.  Download the
     [plugin](http://dns.measurement-factory.com/tools/nagios-plugins/src/check_whois)
     and save in your /usr/local/nagios/libexec dir.
-2.  Install the Date::Manip Perl module, on Ubuntu the package is
-    libdate-manip-perl , if that fails you try search for it using
-    `apt-cache search Date::Manip` .
+2.  Install the Date::Manip Perl module, on Debian/Ubuntu the package is
+    libdate-manip-perl , on RHEL/CentOS the package can be
+    perl-Date-Manip or perl-DateManip.noarch .
 3.  Install whois if not present on your system.
 4.  Append this command config to your
     /usr/local/nagios/etc/objects/commands.cfg:

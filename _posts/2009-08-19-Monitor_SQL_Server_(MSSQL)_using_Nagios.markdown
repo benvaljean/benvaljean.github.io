@@ -52,7 +52,7 @@ from
 Or follow this page: [How to connect to a named instance of SQL Server
 2005 or SQL Server 2000 by using the client tools in the earlier version
 of SQL Server](http://support.microsoft.com/kb/265808/) and look under
-the \'Determine the TCP/IP port number of the instance of SQL Server.\'
+the \'Determine the TCP/IP port number of the instance of SQL Server\'
 section.
 
 ### Connection check

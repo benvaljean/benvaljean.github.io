@@ -3,7 +3,7 @@ layout: post
 title: Useful Sites
 ---
 
-\_\_NOTOC\_\_[CA University
+[CA University
 Knowledgebank](http://www.cauniversity.org/knowledgebank?file=kb.php&action=view&id=99)
 Very good tutorials, especially on programming\
 [Fasthosts.co.uk](http://www.fasthosts.co.uk)\
@@ -186,6 +186,8 @@ htaccess](http://www.cyberciti.biz/faq/howto-setup-apache-password-protect-direc
     colours](http://www.cyberciti.biz/tips/where-is-color-of-ls-command-defined.html)
 -   [Howto recover deleted files (undelete) on a Linux ext3
     partition](http://www.hostsvault.com/blog/howto-recover-deleted-files-undelete-on-a-linux-ext3-partition/)
+-   [Disable passwd change for user
+    account](http://www.linuxquestions.org/questions/linux-general-1/disable-passwd-change-for-user-account-218616/)
 
 #### Bash / Scripting
 
@@ -281,6 +283,12 @@ htaccess](http://www.cyberciti.biz/faq/howto-setup-apache-password-protect-direc
 -   [Squid: Logfile Analysis](http://www.squid-cache.org/Scripts/)
 
 See Also: [Squid Stuff](Squid_Stuff "wikilink")
+
+### Perl
+
+-   [If](http://www.tizag.com/perlT/perlif.php)
+-   [System function](http://perldoc.perl.org/functions/system.html)
+    running commands\]
 
 ### Outlook
 

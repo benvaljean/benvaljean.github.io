@@ -26,7 +26,6 @@ Updates](http://www.symantec.com/avcenter/download.html)\
 [Opera Keyboard
 shortcuts](http://help.opera.com/Windows/9.20/en/keyboard.html)\
 [File sync utilities](http://www.nonags.com/nonags/filesync.html)\
-
 [ISP port blocking
 listing](http://forums.microsoft.com/WindowsHomeServer/ShowPost.aspx?PostID=1849610&SiteID=50)
 A reference of ISPs globally that block or do not block ports 80 and
@@ -185,6 +184,8 @@ htaccess](http://www.cyberciti.biz/faq/howto-setup-apache-password-protect-direc
     package](http://www.cl.cam.ac.uk/~mgk25/otpw.html)
 -   [Change ls
     colours](http://www.cyberciti.biz/tips/where-is-color-of-ls-command-defined.html)
+-   [Howto recover deleted files (undelete) on a Linux ext3
+    partition](http://www.hostsvault.com/blog/howto-recover-deleted-files-undelete-on-a-linux-ext3-partition/)
 
 #### Bash / Scripting
 

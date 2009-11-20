@@ -30,7 +30,7 @@ encapsulating it within quotation marks, see below:
             check_command           check_nt!SERVICESTATE!-d SHOWALL -l MSSQL"$$"MAIN
             }
 
-### Default port is open
+### SQL port is open
 
 Default port for SQL is 1433 for non-named instances, adjust as
 required. Ensure the

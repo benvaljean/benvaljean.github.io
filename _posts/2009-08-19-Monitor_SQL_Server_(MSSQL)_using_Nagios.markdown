@@ -32,7 +32,8 @@ encapsulating it within quotation marks, see below:
 
 ### Default port is open
 
-Default port for SQL is 1433, adjust as required. Ensure the
+Default port for SQL is 1433 for non-named instances, adjust as
+required. Ensure the
 [check\_tcp](http://nagiosplugins.org/man/check_tcp) plugin is
 installed.
 
@@ -42,6 +43,17 @@ installed.
             service_description     SQL Connectivity 1433
             check_command           check_tcp!1433
     }
+
+If you have a named-instance SQL allocates a random port number upon
+installation. To ascertain the \'dynamic port\' try using
+[tcpview](http://technet.microsoft.com/en-us/sysinternals/bb897437.aspx)
+from
+[SysInternals](http://technet.microsoft.com/en-gb/sysinternals/default.aspx).
+Or follow this page: [How to connect to a named instance of SQL Server
+2005 or SQL Server 2000 by using the client tools in the earlier version
+of SQL Server](http://support.microsoft.com/kb/265808/) and look under
+the \'Determine the TCP/IP port number of the instance of SQL Server.\'
+section.
 
 ### Connection check
 

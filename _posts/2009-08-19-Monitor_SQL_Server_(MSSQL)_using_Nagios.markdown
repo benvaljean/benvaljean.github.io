@@ -109,7 +109,7 @@ different if a named instance is used as opposed to the default
     }
     define command{
             command_name sql-wmi-totalpages
-            command_line $USER1$/check_nt -H $HOSTADDRESS$ -p 24601 -s orange26# -v COUNTER -d SHOWALL -l "\\\\SQLServer:Buffer Manager\\Total pages","Total allocated pages in memory: %.f"
+            command_line $USER1$/check_nt -H $HOSTADDRESS$ -s password -v COUNTER -d SHOWALL -l "\\\\SQLServer:Buffer Manager\\Total pages","Total allocated pages in memory: %.f"
     }
     define service{
             use                     service
@@ -119,7 +119,7 @@ different if a named instance is used as opposed to the default
     }
     define command{
             command_name sql-wmi-batchreqs
-            command_line $USER1$/check_nt -H $HOSTADDRESS$ -p 24601 -s orange26# -v COUNTER -d SHOWALL -l "\\\\SQLServer:SQL Statistics\\Batch Requests/sec","Batch requests/sec: %.f" -w 50 -c 250
+            command_line $USER1$/check_nt -H $HOSTADDRESS$ -s password -v COUNTER -d SHOWALL -l "\\\\SQLServer:SQL Statistics\\Batch Requests/sec","Batch requests/sec: %.f" -w 50 -c 250
     }
     define service{
             use                     service
@@ -129,7 +129,7 @@ different if a named instance is used as opposed to the default
     }
     define command{
             command_name sql-wmi-logflushes
-            command_line $USER1$/check_nt -H $HOSTADDRESS$ -p 24601 -s orange26# -v COUNTER -d SHOWALL -l "\\\\SQLServer:Databases(_Total)\\Log Flushes/sec","Log flushes/sec: %.f" -w 50 -c 250
+            command_line $USER1$/check_nt -H $HOSTADDRESS$ -s password -v COUNTER -d SHOWALL -l "\\\\SQLServer:Databases(_Total)\\Log Flushes/sec","Log flushes/sec: %.f" -w 50 -c 250
     }
 
     #Monitoring a named instance called PROD:
@@ -141,7 +141,7 @@ different if a named instance is used as opposed to the default
     }
     define command{
             command_name sql-wmi-totalpages2
-            command_line $USER1$/check_nt -H $HOSTADDRESS$ -p 24601 -s orange26# -v COUNTER -d SHOWALL -l "\\\\MSSQL\\$PROD:Buffer Manager\\Total pages","Total allocated pages in memory: %.f"
+            command_line $USER1$/check_nt -H $HOSTADDRESS$ -s password -v COUNTER -d SHOWALL -l "\\\\MSSQL\\$PROD:Buffer Manager\\Total pages","Total allocated pages in memory: %.f"
     }
     define service{
             use                     service
@@ -151,7 +151,7 @@ different if a named instance is used as opposed to the default
     }
     define command{
             command_name sql-wmi-batchreqs2
-            command_line $USER1$/check_nt -H $HOSTADDRESS$ -p 24601 -s orange26# -v COUNTER -d SHOWALL -l "\\\\MSSQL\\$PROD:SQL Statistics\\Batch Requests/sec","Batch requests/sec: %.f" -w 50 -c 250
+            command_line $USER1$/check_nt -H $HOSTADDRESS$ -s password -v COUNTER -d SHOWALL -l "\\\\MSSQL\\$PROD:SQL Statistics\\Batch Requests/sec","Batch requests/sec: %.f" -w 50 -c 250
     }
     define service{
             use                     service
@@ -161,7 +161,7 @@ different if a named instance is used as opposed to the default
     }
     define command{
             command_name sql-wmi-logflushes2
-            command_line $USER1$/check_nt -H $HOSTADDRESS$ -p 24601 -s orange26# -v COUNTER -d SHOWALL -l "\\\\MSSQL\\$PROD:Databases(_Total)\\Log Flushes/sec","Log flushes/sec: %.f" -w 50 -c 250
+            command_line $USER1$/check_nt -H $HOSTADDRESS$ -s password -v COUNTER -d SHOWALL -l "\\\\MSSQL\\$PROD:Databases(_Total)\\Log Flushes/sec","Log flushes/sec: %.f" -w 50 -c 250
     }
 
 ### Connection time

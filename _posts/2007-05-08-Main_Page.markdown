@@ -81,6 +81,8 @@ title: Main Page
     SSH](Public_key_authentication_for_SSH "wikilink")
 -   [Append a remote file using
     SSH](Append_a_remote_file_using_SSH_(Linux) "wikilink")
+-   [Force password change at next
+    login](Force_password_change_at_next_login_(Linux) "wikilink")
 
 #### Troubleshooting
 

@@ -26,19 +26,19 @@ Last character: Other permissions<br>
 ===Examples===
 <pre>
 user@host:~$ chmod 600 test
-user@host:~$ lll test
+user@host:~$ ls -l test
 -rw------- 1 user group 6 2009-11-25 15:48 test
 
 user@host:~$ chmod 640 test
-user@host:~$ lll test
+user@host:~$ ls -l test
 -rw-r----- 1 user group 6 2009-11-25 15:48 test
 
 user@host:~$ chmod 750 test
-user@host:~$ lll test
+user@host:~$ ls -l test
 -rwxr-x--- 1 user group 6 2009-11-25 15:48 test
 
 user@host:~$ chmod 700 test
-user@host:~$ lll test
+user@host:~$ ls -l test
 -rwx------ 1 user group 6 2009-11-25 15:48 test
 </pre>
 [[Category:Linux]]

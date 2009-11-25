@@ -134,6 +134,8 @@ title: Main Page
     Nagios](Monitoring_Exchange_2007_using_Nagios "wikilink")
 -   [Automate/Schedule Exchange
     cmdlet](Automate/Schedule_Exchange_cmdlet "wikilink")
+-   [Searching the Anti-spam Agent Log
+    (Exchange 2007)](Searching_the_Anti-spam_Agent_Log_(Exchange_2007) "wikilink")
 
 #### Troubleshooting
 

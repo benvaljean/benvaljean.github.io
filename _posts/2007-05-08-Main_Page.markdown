@@ -83,6 +83,7 @@ title: Main Page
     SSH](Append_a_remote_file_using_SSH_(Linux) "wikilink")
 -   [Force password change at next
     login](Force_password_change_at_next_login_(Linux) "wikilink")
+-   [Chmod codes](Chmod_codes_(Linux) "wikilink")
 
 #### Troubleshooting
 

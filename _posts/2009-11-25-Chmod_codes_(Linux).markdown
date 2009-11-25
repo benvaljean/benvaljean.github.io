@@ -7,6 +7,7 @@ First charater: User permissions<br>
 Second chracter: Group permissions<br>
 Last character: Other permissions<br>
 
+
 {| {{table}}
 | align="center" style="background:#f0f0f0;"|'''ls listing'''
 | align="center" style="background:#f0f0f0;"|'''chmod code'''

@@ -7,7 +7,6 @@ First charater: User permissions<br>
 Second chracter: Group permissions<br>
 Last character: Other permissions<br>
 
-
 {| {{table}}
 | align="center" style="background:#f0f0f0;"|'''ls listing'''
 | align="center" style="background:#f0f0f0;"|'''chmod code'''
@@ -23,7 +22,7 @@ Last character: Other permissions<br>
 | rwxrwx---||770
 |-
 | 
-|}=
+|}
 ===Examples===
 <pre>
 user@host:~$ chmod 600 test

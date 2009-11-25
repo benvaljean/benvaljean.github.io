@@ -23,8 +23,7 @@ Last character: Other permissions<br>
 | rwxrwx---||770
 |-
 | 
-|}
-
+|}=
 ===Examples===
 <pre>
 user@host:~$ chmod 600 test

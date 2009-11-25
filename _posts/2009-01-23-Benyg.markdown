@@ -23,7 +23,7 @@ of shorthand to something that other people would understand.
 Originally this site was called Rogerrabbit.net and was only a personal
 site, I put it online and its links found their way onto other websites
 and it slowly became an established website, although I am - to a degree
-- subjective. With \~1700 unique users per month (audited to remove
+- subjective. With \~2800 unique users per month (audited to remove
 bots) it has come a long way from an IBM laptop sitting under my desk.
 
 Comments or suggestions - please get in touch. I would love to hear from

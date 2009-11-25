@@ -45,9 +45,9 @@ is running but not announcing itself as a reliable time server.
 Try each of these solutions one step at a time, re-testing after
 completing each step until the problem is resolved.
 
-1.  Ensure the Windows Time service is running. On a DC is does far more
-    than just synchronise time. It is also involved and required for AD
-    replication.
+1.  Ensure the Windows Time service is running. On a DC it is part of
+    the core AD functonality and should be runing even if synchronised
+    time is not essential.
         net start w32time
 
 2.  Restart the Windows time service

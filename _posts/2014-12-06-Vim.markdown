@@ -18,6 +18,18 @@ listed here.
 
     :%s/OLD/NEW/g
 
+#### Delete all occurances of a string
+
+    :g/STRING/d
+
+#### Delete all empty lines
+
+    :g/^$/d
+
+#### Delete all lines with only spaces
+
+    :g/^ *$/d
+
 #### Jump to beginning / end of file
 
 \'G\' alone moves the cursor to the end of file; \'gg\' to the beginning
@@ -95,5 +107,10 @@ like this:
 
 Press Esc to enter command mode, type a single colon, after which the up
 and down keys can be used in the same manner as BASH.
+
+### Redo last typed text
+
+Type a set of text in INSERT mode and go into COMMAND mode by pressing
+Esc. Now pressing `.` (a dot/period) will re-type the text typed in.
 
 [Category:Linux](Category:Linux "wikilink")

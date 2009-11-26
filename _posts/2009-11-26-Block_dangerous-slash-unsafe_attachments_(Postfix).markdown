@@ -21,5 +21,10 @@ scatter](Stop_Producing_Backscatter_Spam_(Exchange_2003/2007) "wikilink").
     other distros if the package is not available Postfix may need to be
     bulit with PRCE support: <http://www.postfix.org/PCRE_README.html> .
 
+### See Also
+
+[Postfix: header\_checks
+directive](http://www.postfix.org/header_checks.5.html)
+
 [Category:Linux](Category:Linux "wikilink")
 [Category:Postfix](Category:Postfix "wikilink")

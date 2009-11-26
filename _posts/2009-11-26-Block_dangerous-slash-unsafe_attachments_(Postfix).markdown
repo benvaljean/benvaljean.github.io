@@ -18,7 +18,7 @@ scatter](Stop_Producing_Backscatter_Spam_(Exchange_2003/2007) "wikilink").
 
 3.  `postmap /etc/postfix/header_checks`
 4.  For Debian and related distros: `apt-get install postfix-pcre` For
-    other distros if the package is not available PRCE may need to be
+    other distros if the package is not available Postfix may need to be
     bulit with PRCE support: <http://www.postfix.org/PCRE_README.html> .
 
 [Category:Linux](Category:Linux "wikilink")

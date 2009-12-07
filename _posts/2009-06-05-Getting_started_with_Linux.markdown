@@ -37,4 +37,8 @@ Search text within files and print only the filenames:
 
     find /dir -type f | xargs grep -li "textinfile"
 
+Search and replace over multiple files:
+
+    perl -pi -w -e 's/old/new/g;' *.php
+
 [Category:Linux](Category:Linux "wikilink")

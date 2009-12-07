@@ -59,4 +59,15 @@ assistant.
 
 Or within account options ensure SSL is not ticked.
 
+### See Also
+
+-   [Entourage
+    errors](http://web.archive.org/web/20080329152232/http://www.entourage.mvps.org/error/page.html)
+-   [Entourage Error -18597 When Sending
+    Email](http://knowledgebase.its.bethel.edu/articles/433/)
+-   [Unable to send mails in entourage 2004 with OS
+    X](http://www.tech-archive.net/Archive/Mac/microsoft.public.mac.office.entourage/2006-06/msg00337.html)
+-   [Entourage and Exchange Server
+    2007](http://benskelton.blogs.com/ben_skeltons_blog/2007/01/entourage_and_e.html)
+
 [Category:Exchange](Category:Exchange "wikilink")

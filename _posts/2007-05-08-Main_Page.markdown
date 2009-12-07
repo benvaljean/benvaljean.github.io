@@ -160,6 +160,8 @@ title: Main Page
     required](Exchange_2007_property_cannot_be_set_due_to_version_0.1_(8.0.535.0)_or_later_required "wikilink")
 -   [Strip Apostrophe (or any character) in SMTP email address (Exchange
     2003/2007)](Strip_Apostrophe_(or_any_character)_in_SMTP_email_address_(Exchange_2003/2007) "wikilink")
+-   [Error -18597 in Entourage when connecting to Exchange
+    2007](Error_-18597_in_Entourage_when_connecting_to_Exchange_2007 "wikilink")
 
 ### Microsoft SQL Server
 

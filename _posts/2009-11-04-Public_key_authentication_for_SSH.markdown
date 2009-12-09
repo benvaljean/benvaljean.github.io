@@ -21,8 +21,8 @@ connect as:
 
     cd ~
     ssh-keygen -t rsa
-    cat ~/.ssh/id_rsa.pub ~/.ssh/authorized_keys
-    cat ~/.ssh/id_rsa.pub ~/.ssh/authorized_keys2
+    cat ~/.ssh/id_rsa.pub >~/.ssh/authorized_keys
+    cat ~/.ssh/id_rsa.pub >~/.ssh/authorized_keys2
     chmod 700 ~/.ssh
     chmod 600 ~/.ssh/authorized*
 

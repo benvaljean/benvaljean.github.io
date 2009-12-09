@@ -41,4 +41,8 @@ Search and replace over multiple files:
 
     perl -pi -w -e 's/old/new/g;' *.php
 
+Show listening ports and the processes using the ports:
+
+    sudo netstat -anp|grep LIST
+
 [Category:Linux](Category:Linux "wikilink")

@@ -86,6 +86,8 @@ title: Main Page
 -   [Chmod codes](Chmod_codes_(Linux) "wikilink")
 -   [Block dangerous/unsafe attachments in
     Postfix](Block_dangerous/unsafe_attachments_(Postfix) "wikilink")
+-   [Installing Perl
+    Modules](Installing_Perl_Modules_(Linux) "wikilink")
 
 #### Troubleshooting
 

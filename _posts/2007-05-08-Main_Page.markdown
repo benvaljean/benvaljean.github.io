@@ -88,6 +88,8 @@ title: Main Page
     Postfix](Block_dangerous/unsafe_attachments_(Postfix) "wikilink")
 -   [Installing Perl
     Modules](Installing_Perl_Modules_(Linux) "wikilink")
+-   [Setup Squid Forward Proxy with Basic
+    authentication](Setup_Squid_Forward_Proxy_with_Basic_authentication "wikilink")
 
 #### Troubleshooting
 

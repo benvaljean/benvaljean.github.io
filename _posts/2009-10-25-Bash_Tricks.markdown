@@ -40,7 +40,7 @@ This will only redirect the standard output, to redirect standard error:
 <pre> find ~ -name test 2>erroroutputfile</pre>
 To redirect the output of both standard output AND standard error:
 <pre>find ~ -name test >outputwitherrorsfile 2>&1</pre>
-==Eliminate 'looser takes all' Bash History==
+==Eliminate 'loser takes all' Bash History==
 Bash only writes the command history on exiting the shell. If multiple sessions are open simultaneously the very last session to be closed will overwrite any command history from other sessions since it was opened. Confused? try the following:
 #Opening a shell and type <tt>echo 1;echo 2</tt> (session number 1.)
 #Keep this session open and open another bash session (session number 2) and use the <tt>history</tt> command and you will see that the last two commands issued are not there, as the commands are only written on exiting the shell. But that it not all...

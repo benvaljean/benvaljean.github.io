@@ -1,0 +1,15 @@
+---
+layout: post 
+title: Deploy
+---
+
+alias cd..=\'cd ..\' alias cdc=\'cd ..\' alias ll=\'ls\' alias lll=\'ls
+-l\' alias ls=\'ls \--color=auto\' alias nan=\'nano -BSc\' alias
+s=\'sudo\' alias snan=\'sudo nano -BSc\' alias sre=\'s /home/benyg/sre\'
+alias svi=\'s vim\'
+
+sre:
+
+1.  !/bin/bash
+
+/etc/init.d/\$1 reload

@@ -22,12 +22,13 @@ nuances to be aware of though.
     <http://iirf.codeplex.com/Release/ProjectReleases.aspx?ReleaseId=29936#DownloadId=74545>
 2.  Load IIS console: Start \> Run \>
     %SystemRoot%\\\\system32\\\\inetsrv\\\\iis.msc
-3.  Right-click \'Web sites\' \> ISAPI Filters \> Add
+3.  Right-click \'Web sites\' \> Properties \> ISAPI Filters \> Add
 4.  Type a name to recognise it by under \'Filter name\' and select the
     IsapiRewrite4.dll file inside the lib folder of the extracted
     archive under \'Executable\'. The filter may not appear to have
     loaded OK straight away, this is OK.
-5.  Go to \'Web service extensions\' in the main window.
+5.  Go to \'Web service extensions\' in the right-hand pane in the main
+    window.
 6.  Click \'Add a new Web Service extension\...\'
 7.  Type in the same details as before, ensure the allow checkbox is
     ticked.

@@ -114,6 +114,8 @@ title: Main Page
 ### DNS
 
 -   [DNS TTLs](DNS_TTLs "wikilink")
+-   [Ascertain and Hide the BIND Version
+    Number](Ascertain_and_Hide_the_BIND_Version_Number "wikilink")
 
 ### Microsoft Exchange
 

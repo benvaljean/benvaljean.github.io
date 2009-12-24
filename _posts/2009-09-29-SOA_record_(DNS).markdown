@@ -30,5 +30,5 @@ between physical environments.
 
 <http://support.microsoft.com/kb/163971>
 
-[Category:Web](Category:Web "wikilink")
+[Category:BIND](Category:BIND "wikilink")
 [Category:DNS](Category:DNS "wikilink")

@@ -31,4 +31,3 @@ effect: `sudo /etc/init.d/bind9 reload`
 
 [Category:DNS](Category:DNS "wikilink")
 [Category:BIND](Category:BIND "wikilink")
-[Category:Linux](Category:Linux "wikilink")

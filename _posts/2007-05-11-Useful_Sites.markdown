@@ -85,34 +85,11 @@ generation](http://www.exisoftware.com/download.html#etg)\
 
 ### IIS and SQL Server
 
--   [How to access SQL Server in Active Server
-    Pages](http://support.microsoft.com/kb/169377)
--   [IIS 6 rsource kit](http://go.microsoft.com/fwlink/?LinkId=34407)
-    includes migration tool and fetch for diagnostics
--   [How to build a SQL server
-    cluster](http://searchsqlserver.techtarget.com/searchSQLServer/downloads/SQL_Cluster_Ezine_Final_needs_URL.pdf)
+<rss><http://feeds.delicious.com/v2/rss/benyg/mssql%7Creverse></rss>
 
-[SQL Clustering (Database
-Server)](SQL_Clustering_(Database_Server) "wikilink")
+### IIS
 
--   [The Definitive Guide to Scaling Out SQL Server
-    2005](http://www.dell.com/content/topics/global.aspx/alliances/en/ebook_landing?c=us&cs=555&l=en&s=biz)
--   [How to: Create a New SQL Server 2005 Failover Cluster
-    (Setup)](http://msdn.microsoft.com/en-us/library/ms179530.aspx)
--   [Active/Active clusters in SQL
-    Server](http://searchsqlserver.techtarget.com/tip/0,289483,sid87_gci1232340,00.html)
--   [Database Mirroring in SQL Server
-    2005](http://www.microsoft.com/technet/prodtechnol/sql/2005/dbmirror.mspx)
--   [SQL Mirroring with more than one
-    instance](https://forums.microsoft.com/TechNet/ShowPost.aspx?PostID=2338504&SiteID=17)
--   [IIS/ASP session
-    timeouts](http://justgeeks.blogspot.com/2008/07/aspnet-session-timeouts.html)
-    Good, details the different timrout settings that exist and how they
-    reflect on production
--   [Database
-    Mirroring](http://www.informit.com/guides/content.aspx?g=sqlserver&seqNum=213)
-    Gives details on how to setup mirroring using T-SQL to allow it to
-    be scripted for many servers.
+<rss><http://feeds.delicious.com/v2/rss/benyg/iis%7Creverse></rss>
 
 #### IIS Rewrite tools
 

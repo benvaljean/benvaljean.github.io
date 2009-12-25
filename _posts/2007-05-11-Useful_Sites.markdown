@@ -423,20 +423,7 @@ See also [Restore using NTBACKUP
 
 ### Downloads
 
--   [Windows XP Support
-    Tools](http://support.microsoft.com/kb/838079/en-us) Includes
-    DOS-based add to domain tool
--   [Invisible
-    Secrets](http://software.techrepublic.com.com/download.aspx?&docid=236355&promo=100511)
-    Hide files inside JPG/BMP etc
--   [Auto hotkey](http://www.autohotkey.com/)
--   [Diino
-    4.1](http://www.download.com/Diino/3000-2196_4-10648970.html?ctype=rubics&cval=1.1.2.14758)
-    2gb free storage backup tool
--   [Contig](http://www.microsoft.com/technet/sysinternals/FileAndDisk/Contig.mspx) -
-    defrag specific files
--   [MoveFile](http://www.microsoft.com/technet/sysinternals/FileAndDisk/pendmoves.mspx) -
-    set a rename/delete schedule at reboot for a file which is in use.
+<rss><http://feeds.delicious.com/v2/rss/benyg/downloads%7Creverse></rss>
 
 ### Registry Related
 

@@ -129,29 +129,11 @@ these plugins:
 
 #### Bash / Scripting
 
--   [Bash scripting
-    guide](http://www.linuxtopia.org/online_books/advanced_bash_scripting_guide/moreadv.html)
--   [Linux command reference](http://www.computerhope.com/unix.htm)
-    Excellent reference including MS-DOS vs Linux list.
--   [Advanced BASH scripting Guide:
-    Loops](http://www.museum.state.il.us/ismdepts/library/linuxguides/abs-guide/loops1.html)
-    Good
--   [Guide to using
-    grep](http://www.mkssoftware.com/docs/man1/grep.1.asp)
--   [UNIX
-    Intro](http://www.cs.usfca.edu/~parrt/course/601/lectures/unix.util.html)
--   [Scripting with
-    if](http://www.cyberciti.biz/nixcraft/linux/docs/uniqlinuxfeatures/lsst/ch03sec02.html)
+<rss><http://feeds.delicious.com/v2/rss/benyg/bash%7Creverse></rss>
 
 #### Antispam
 
--   [Fighting malware and spam with
-    Postfix](http://advosys.ca/papers/printable/postfix-filtering.html)
--   [Fairly-Secure Anti-SPAM Gateway Using OpenBSD, Postfix,
-    Amavisd-new, SpamAssassin, Razor and
-    DCC](http://www.flakshack.com/anti-spam/old-index.html)
--   [Debian + exim4 + spamassassin + f-prot
-    HOWTO](http://www.clues.ltd.uk/howto/debian-sa-fprot-HOWTO.html)
+<rss><http://feeds.delicious.com/v2/rss/benyg/antispam%7Creverse></rss>
 
 #### Networking
 

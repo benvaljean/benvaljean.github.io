@@ -146,20 +146,7 @@ these plugins:
 
 ### Apache
 
--   [Apache configuration
-    notes](http://www.keithjbrown.co.uk/vworks/unix/apache.php)
--   [OWA Apache2 Reverse proxy](http://3cx.org/item/46)
--   <http://www.addedbytes.com/apache/url-rewriting-for-beginners/>
--   [Force the use of a particular hostname in preference of another
-    that points to the same site
-    (Apache)](http://www.dghartung.com/docs/index.php/Rewrite_Rules_For_Apache)
-    Canonical Hostnames
--   [Apache mod\_rewrite
-    generator](http://www.generateit.net/mod-rewrite/)
--   [Create Private Key and CSR for
-    mod\_ssl](http://www.rapidssl.com/resources/csr/apache_mod_ssl.htm)
--   [Using Apache2's Digest
-    authentication](http://finelycultured.com/2009/09/using-apache2s-digest-authentication/)
+<rss><http://feeds.delicious.com/v2/rss/benyg/apache?count=200%7Creverse></rss>
 
 ### Squid
 

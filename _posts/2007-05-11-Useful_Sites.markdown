@@ -121,10 +121,7 @@ works](Rewrite_on_IIS_that_actually_works "wikilink")*
 
 IIS cannot perform rewrite natively but it can do through the use of
 these plugins:
-
--   [ISAPI\_rewrite](http://www.isapirewrite.com)
--   [IIS Rewrite](http://www.qwerksoft.com/products/iisrewrite/)
--   [OpURL](http://www.opcode.co.uk/components/rewrite.asp)
+<rss><http://feeds.delicious.com/v2/rss/benyg/iis+rewrite%7Creverse></rss>
 
 ### Linux Related
 

@@ -125,60 +125,7 @@ these plugins:
 
 ### Linux Related
 
--   [Linux/Server HOWTO site](http://gentoo-wiki.com/Index:HOWTO) Great
-    guide
--   [Dapper Custmisation
-    Guide](http://ubuntuforums.org/showthread.php?t=296462) unverified
-    to be useful
--   [Cyberciti.biz](http://www.cyberciti.biz) Great site, now known as
-    Nixcraft.
-
-:\*[Linux: Synchronize Personal Data / Email / Pictures with Online
-Service or Other
-Computer](http://www.cyberciti.biz/tips/linux-data-photo-email-bookmark-synchronize-software.html)
-
-:\*[Password Protect Directory With
-htaccess](http://www.cyberciti.biz/faq/howto-setup-apache-password-protect-directory-with-htaccess-file/)
-
--   [LinuxHomeNetworking](http://www.linuxhomenetworking.com/wiki/index.php)
-    Great site
-
-:   [Setup a
-    VPN](http://www.linuxhomenetworking.com/wiki/index.php/Quick_HOWTO_:_Ch35_:_Configuring_Linux_VPNs)
-
--   [Ubuntuguide: Dapper](http://ubuntuguide.org/wiki/Ubuntu_dapper)
-    Great guide
--   [Ubuntu Blog guide](http://onlyubuntu.blogspot.com)
--   [Install JRE on
-    Ubuntu](http://www.ubuntugeek.com/how-to-install-java-runtime-environment-jre-in-ubuntu.html)
--   [/etc/host.allow and hosts.deny
-    Guide](http://www.redhat.com/docs/manuals/enterprise/RHEL-3-Manual/ref-guide/s1-tcpwrappers-access.html#S3-TCPWRAPPERS-ACCESS-RULES-WILD)
--   [File sharing/SMB/CIFS/Samba over SSH without disabling local file
-    sharing](http://www.blisstonia.com/eolson/notes/smboverssh.php)
--   [Automate an SFTP transfer between two
-    servers](http://ask-leo.com/how_can_i_automate_an_sftp_transfer_between_two_servers.html)
-    Good page from a good site
--   [Vi Tutorial](http://acs.ucsd.edu/info/vi_tutorial.shtml) Text
-    editor tutorial
--   [Monitoring user activity, via
-    snoopy](http://www.debian-administration.org/articles/88)
--   [Getting Started with Citrix XenDesktop
-    2.1](http://support.citrix.com/article/CTX118041)
--   [Kitty](http://www.9bis.net/kitty/) Putty replacement with
-    transparency, sessions saved as files, session filter and launcher.
--   [Linux Filesystem
-    Hierarchy](http://tldp.org/LDP/Linux-Filesystem-Hierarchy/html/index.html)
-    Very concise
--   [Table of equivalents / replacements / analogs of Windows software
-    in Linux](http://www.linuxrsp.ru/win-lin-soft/table-eng.html)
--   [OTPW -- A one-time password login
-    package](http://www.cl.cam.ac.uk/~mgk25/otpw.html)
--   [Change ls
-    colours](http://www.cyberciti.biz/tips/where-is-color-of-ls-command-defined.html)
--   [Howto recover deleted files (undelete) on a Linux ext3
-    partition](http://www.hostsvault.com/blog/howto-recover-deleted-files-undelete-on-a-linux-ext3-partition/)
--   [Disable passwd change for user
-    account](http://www.linuxquestions.org/questions/linux-general-1/disable-passwd-change-for-user-account-218616/)
+<rss><http://feeds.delicious.com/v2/rss/benyg/linux%7Creverse></rss>
 
 #### Bash / Scripting
 

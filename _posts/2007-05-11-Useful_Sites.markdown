@@ -102,7 +102,7 @@ these plugins:
 
 ### Linux Related
 
-<rss><http://feeds.delicious.com/v2/rss/benyg/linux%7Creverse></rss>
+<rss><http://feeds.delicious.com/v2/rss/benyg/linux?count=200%7Creverse></rss>
 
 #### Bash / Scripting
 

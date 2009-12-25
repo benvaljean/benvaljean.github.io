@@ -83,7 +83,7 @@ generation](http://www.exisoftware.com/download.html#etg)\
 
 <rss><http://feeds.delicious.com/v2/rss/benyg/windows+server%7Creverse></rss>
 
-### IIS and SQL Server
+### SQL Server
 
 <rss><http://feeds.delicious.com/v2/rss/benyg/mssql%7Creverse></rss>
 

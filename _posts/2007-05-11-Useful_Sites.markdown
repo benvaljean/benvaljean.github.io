@@ -142,14 +142,7 @@ these plugins:
 
 ### MySQL
 
--   [Setup load balanched clustered mysql servers on
-    Debian](http://www.howtoforge.com/loadbalanced_mysql_cluster_debian)
--   [Setup true MySQL cluster with High
-    Availability](http://www.davz.net/static/howto/mysqlcluster) Uses 3
-    servers, 2 mysql and 1 management server. Management server can go
-    down after the cluster starts.
--   [MySQL Slave Lag (Delay) Explained And 7 Ways To Battle
-    It](http://beerpla.net/2008/09/05/mysql-slave-lag-delay-explained-and-7-ways-to-battle-it/)
+<rss><http://feeds.delicious.com/v2/rss/benyg/mysql%7Creverse></rss>
 
 ### Apache
 

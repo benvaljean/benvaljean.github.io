@@ -434,7 +434,7 @@ Policy](http://technet2.microsoft.com/windowsserver/en/library/c07587ec-4a60-4bc
 
 ### Cars
 
-<rss><http://feeds.delicious.com/v2/rss/benyg/cars?sort=alphabetical%7Creverse></rss>
+<rss><http://feeds.delicious.com/v2/rss/benyg/cars%7Creverse></rss>
 
 ### Other Stuff
 

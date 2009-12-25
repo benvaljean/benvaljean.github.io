@@ -81,15 +81,7 @@ generation](http://www.exisoftware.com/download.html#etg)\
 
 ### Windows Server 2003 / 2008
 
--   [Ascertain FSMO role
-    holders](http://www.petri.co.il/determining_fsmo_role_holders.htm)
--   [FSMO
-    Roles](http://www.windowsdevcenter.com/pub/a/windows/2004/06/15/fsmo.html)
--   [Recovering post a failed DC
-    demotion](http://articles.techrepublic.com.com/5100-10878_11-5031938.html?tag=btxcsim)
-
-[Create custom Windows install CD](http://www.nliteos.com/) Inject RAID
-drivers, CD key and other options.
+<rss><http://feeds.delicious.com/v2/rss/benyg/windows+server%7Creverse></rss>
 
 ### IIS and SQL Server
 

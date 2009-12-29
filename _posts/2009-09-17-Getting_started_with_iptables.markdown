@@ -7,7 +7,7 @@ title: Getting started with iptables
 
 To view the current FW rules in place:
 
-    iptables -L
+    sudo iptables -L
 
 The iptables command can be used to append/modify rules but it is a lot
 easier to use an iptables script. This is a text file with all your
@@ -132,6 +132,83 @@ needs:
 
 To apply the FW rules:
 
-    iptables-restore <iptabless-script>
+    sudo iptables-restore <iptabless-script>
+
+### Install init script
+
+The FW rules will be flushed when the machine reboots. Creating an init
+script which loads the rules on reboot will ensure the rules are always
+enforced.
+
+1\. Save the contents below as /etc/init.d/iptables
+
+    #!/bin/sh
+
+    # Init script to start/stop IPtables rules
+    # Will Pink 2009
+
+    ### BEGIN INIT INFO
+    # Provides:          scriptname
+    # Required-Start:    $remote_fs $syslog
+    # Required-Stop:     $remote_fs $syslog
+    # Default-Start:     2 3 4 5
+    # Default-Stop:      0 1 6
+    # Short-Description: Start daemon at boot time
+    # Description:       Enable service provided by daemon.
+    ### END INIT INFO
+
+    PATH=$PATH:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+
+    case "$1" in
+        start)
+            echo -n "Starting iptables"
+            iptables-restore /etc/iptables/firewallrules
+            ;;
+        stop)
+            echo -n "Stopping iptables"
+            iptables-restore /etc/iptables/firewallreset
+            ;;
+        status)
+            echo -n "Iptables rules"
+            iptables -L
+            ;;
+        *)
+            ## If no parameters are given, print which are avaiable.
+            echo "Usage: $0 {start|stop|status}"
+            exit 1
+            ;;
+    esac
+
+2\. Create symbolic links in /etc/rcx.d to the new script
+
+    sudo update-rc.d iptables defaults
+
+3\. Save your firewall/iptables script to `/etc/iptables/firewallrules`
+
+4\. Save the following file to `/etc/iptables/firewallreset`
+
+    #IPtables firewall reset script
+    *filter
+    :INPUT ACCEPT [164:15203]
+    :FORWARD ACCEPT [0:0]
+    :OUTPUT ACCEPT [147:63028]
+    COMMIT
+
+    *mangle
+    :PREROUTING ACCEPT [164:15203]
+    :INPUT ACCEPT [164:15203]
+    :FORWARD ACCEPT [0:0]
+    :OUTPUT ACCEPT [147:63028]
+    :POSTROUTING ACCEPT [147:63028]
+    COMMIT
+
+    *nat
+    :PREROUTING ACCEPT [14:672]
+    :POSTROUTING ACCEPT [9:684]
+    :OUTPUT ACCEPT [9:684]
+    COMMIT
+
+This allows `/etc/init.d/iptables stop` to disable all rules and allow
+all traffic in case it is needed.
 
 [Category:Linux](Category:Linux "wikilink")

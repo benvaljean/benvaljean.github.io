@@ -212,3 +212,4 @@ This allows `/etc/init.d/iptables stop` to disable all rules and allow
 all traffic in case it is needed.
 
 [Category:Linux](Category:Linux "wikilink")
+[Category:Networking](Category:Networking "wikilink")

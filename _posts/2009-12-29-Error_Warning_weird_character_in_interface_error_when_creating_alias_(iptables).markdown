@@ -1,10 +1,11 @@
 ---
 layout: post 
-title: Error: Warning: weird character in interface `interface eth0:alias 0' (No aliases
+title: Error: Warning: weird character in interface error when creating alias (iptables)
 ---
 
-Benjamin Goodacre,f1\@goodacre.name,==Symptom== When adding a new
-iptables rule the following error can appear:
+### Symptom
+
+When adding a new iptables rule the following error can appear:
 
     Warning: weird character in interface `eth0:1' (No aliases, :, ! or *).
 

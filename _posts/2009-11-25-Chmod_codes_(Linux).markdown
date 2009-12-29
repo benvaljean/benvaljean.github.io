@@ -11,15 +11,15 @@ Last character: Other permissions<br>
 | align="center" style="background:#f0f0f0;"|'''ls listing'''
 | align="center" style="background:#f0f0f0;"|'''chmod code'''
 |-
-| r--------||400
+| <tt>r--------</tt>||400
 |-
-| rw-------||600
+| <tt>rw-------</tt>||600
 |-
-| rw-r-----||640
+| <tt>rw-r-----</tt>||640
 |-
-| rwx------||700
+| <tt>rwx------</tt>||700
 |-
-| rwxrwx---||770
+| <tt>rwxrwx---</tt>||770
 |-
 | 
 |}

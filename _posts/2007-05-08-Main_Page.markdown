@@ -95,8 +95,14 @@ title: Main Page
 
 -   [Couldn\'t open /dev/null
     Error](Couldn't_open_/dev/null_Error_(Linux) "wikilink")
--   [Can\'t open /dev/tty: No such device or address
-    Error](Can't_open_/dev/tty:_No_such_device_or_address_Error_(Linux) "wikilink")
+-   \[\[Can\'t open /dev/tty: No such device or address Error
+    (Linux)\|Can\'t open /dev/tty: No such device or address
+
+Error\]\]
+
+-   [Error: Warning: weird character in interface \`interface eth0:alias
+    0\' (No aliases, :, ! or \*)
+    (Iptables)](Error:_Warning:_weird_character_in_interface_`interface_eth0:alias_0'_(No_aliases,_:,_!_or_*)_(Iptables) "wikilink")
 
 ### Web
 

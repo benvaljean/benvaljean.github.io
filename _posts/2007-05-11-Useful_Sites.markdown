@@ -313,19 +313,4 @@ Policy](http://technet2.microsoft.com/windowsserver/en/library/c07587ec-4a60-4bc
 
 ### Other Stuff
 
-[Escape!](http://members.iinet.net.au/~pontipak/redsquare.html)
-
-[Aeronautics and aviation pics at
-Wikipedia](http://en.wikipedia.org/wiki/Wikipedia:Featured_pictures/Aeronautics_and_aviation)
-
-[Amiga magazine rack - AF](http://amr.abime.net/issues_4)
-
-[Things My Girlfriend and I Have Argued
-About](http://www.mil-millington.com/)
-
-[The girl with the flower in her hair on the
-subway](http://2parse.com/?p=119)
-
-[Historic inflation
-calculator](http://www.thisismoney.co.uk/historic-inflation-calculator)
-UK
+<rss><http://feeds.delicious.com/v2/rss/benyg/bgothers?count=200%7Creverse></rss>

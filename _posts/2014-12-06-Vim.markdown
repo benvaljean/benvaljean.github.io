@@ -77,8 +77,8 @@ To copy all lines below the curosr:
 
 #### Paste a whole line
 
-The data from this line is placed in a local clipboard and can be
-restored with \'p\' (below cursor) or \'P\' (above cursor).
+The data from this line is placed in a local clipboard called a register
+and can be restored with \'p\' (below cursor) or \'P\' (above cursor).
 
 #### Allow pasting in Vi without Indents
 

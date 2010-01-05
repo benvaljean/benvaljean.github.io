@@ -80,6 +80,14 @@ To copy all lines below the curosr:
 The data from this line is placed in a local clipboard called a register
 and can be restored with \'p\' (below cursor) or \'P\' (above cursor).
 
+#### Show Clipboard items / registers
+
+    :reg
+
+#### Paste from register number 2
+
+    "2p
+
 #### Allow pasting in Vi without Indents
 
 On earlier distributions pasting in Vi from the OS can be tricky as

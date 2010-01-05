@@ -91,6 +91,10 @@ indents are placed on the lines. To disable this:
 
     o
 
+#### Append text at the end of the current line
+
+    A
+
 #### Cheat sheet
 
 <http://www.eec.com/business/vi.html>

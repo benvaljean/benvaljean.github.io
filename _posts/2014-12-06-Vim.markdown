@@ -30,6 +30,10 @@ listed here.
 
     :g/^ *$/d
 
+#### Delete all duplicate lines
+
+    :sort u
+
 #### Jump to beginning / end of file
 
 \'G\' alone moves the cursor to the end of file; \'gg\' to the beginning

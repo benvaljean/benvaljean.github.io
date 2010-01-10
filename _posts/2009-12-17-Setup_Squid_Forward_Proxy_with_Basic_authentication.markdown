@@ -10,7 +10,7 @@ On Debian/Ubuntu and related distros:
 
 On RHEL/CentOS/Fedora and related distros:
 
-    sudo yum instll squid
+    sudo yum install squid
     sudo vim /etc/squid/squid.conf
 
 Add the following lines to squid.conf:

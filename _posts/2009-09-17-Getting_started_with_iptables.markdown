@@ -211,5 +211,11 @@ enforced.
 This allows `/etc/init.d/iptables stop` to disable all rules and allow
 all traffic in case it is needed.
 
+### See Also
+
+[Error: Warning: weird character in interface \`interface eth0:alias 0\'
+(No aliases, :, ! or
+\*)](Error:_Warning:_weird_character_in_interface_`interface_eth0:alias_0'_(No_aliases,_:,_!_or_*)_(Iptables) "wikilink")
+
 [Category:Linux](Category:Linux "wikilink")
 [Category:Networking](Category:Networking "wikilink")

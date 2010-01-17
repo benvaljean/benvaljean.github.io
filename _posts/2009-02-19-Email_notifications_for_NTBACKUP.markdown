@@ -77,3 +77,5 @@ NTBACKUP will cause the shell to wait until it has finished as the
 process is not run in the background; always ensuring that the VBS
 script is run after NTBACKUP has finished.\
 5. Create schedule as required.
+
+[Category:Windows](Category:Windows "wikilink")

@@ -13,7 +13,8 @@ Locate / create the following [Registry](registry "wikilink") DWORD key:
 
     HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\Windows\\System\\DisableGPO
 
-Setting for Value Data: \[0 = Default (Enabled) / 1 = Disabled\]
+Setting for Value Data: \[0 = Allow Group Policy / 1 = Disable Group
+Policy\]
 
 ### Method 2
 

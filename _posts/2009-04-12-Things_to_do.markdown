@@ -42,3 +42,15 @@ bring a torch as the floor is uneven and the entire underground system
 is unlit.
 
 \--
+
+Apsley House stately home Hyde Park Corner
+<http://www.daysoutguide.co.uk/apsley-house>
+
+Opening Times: Wed-Sun 11.00-16.00. Closed Mon & Tue, 24-26 Dec and 1
+Jan.
+
+\--
+
+British Music Experience the O2 bubble Until 31/03/2010
+
+Adults £15 <http://www.britishmusicexperience.com/>

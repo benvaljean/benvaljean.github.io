@@ -70,9 +70,8 @@ For instance:
 
     @echo off
     rem BAT script to run NTBackupNotify.vbs script after previous command has completed.
-    rem AD-hoc backup
-    xcopy c:\\files\\*.* c:\\filesbackup
-    cscript c:\\backupnotify\\NTBackupNotify.vbs
+    <NTbackup command here>
+    cscript NTBackupNotify.vbs
 
 NTBACKUP will cause the shell to wait until it has finished as the
 process is not run in the background; always ensuring that the VBS

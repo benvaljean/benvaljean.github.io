@@ -3,8 +3,8 @@ layout: post
 title: Delete files based on age (Windows)
 ---
 
-On Windows this can be achieved using a VB script. The follwing can be
-saved with a .vbs extension:
+On Windows this can be achieved using a VB script. The VBS script below
+deletes files which are more than 1 day old:
 
     Dim Fso
     Dim Directory

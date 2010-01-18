@@ -21,8 +21,10 @@ title: Main Page
 -   [Rename Mapped or Network Drives
     Automatically](Rename_Mapped_or_Network_Drives_Automatically "wikilink")
 -   [Visual Basic Scripts](Visual_Basic_Scripts "wikilink")
--   [Delete all files older than 1
-    day](Delete_all_files_older_than_1_day_(Windows) "wikilink")
+-   [Create custom System Folder on the Desktop or My
+    Computer](Create_custom_System_Folder_on_Desktop/My_Computer_(Windows) "wikilink")
+-   [Delete files based on
+    age](Delete_files_based_on_age_(Windows) "wikilink")
 -   [WINS Lookup tool](WINS_Lookup_tool "wikilink")
 -   [Disable Group Policy for individual PC locally
     (Windows)](Disable_Group_Policy_for_individual_PC_locally_(Windows) "wikilink")

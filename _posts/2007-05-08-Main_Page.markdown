@@ -177,7 +177,7 @@ Error\]\]
 -   [Error -18597 in Entourage when connecting to Exchange
     2007](Error_-18597_in_Entourage_when_connecting_to_Exchange_2007 "wikilink")
 
-### Microsoft SQL Server
+### Microsoft SQL Server - MSSQL
 
 -   [Monitor SQL Server using
     Nagios](Monitor_SQL_Server_(MSSQL)_using_Nagios "wikilink")
@@ -189,6 +189,8 @@ Error\]\]
     Clustering](High_availability_IIS_&_SQL_using_NLB_&_Clustering "wikilink")
 -   [Backup all DBs on a SQL
     Server](Backup_all_DBs_on_a_SQL_Server "wikilink")
+-   [Create Database T-SQL
+    script](Create_Database_T-SQL_script "wikilink")
 
 ### MySQL
 

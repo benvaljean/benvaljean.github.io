@@ -4,7 +4,7 @@ title: Create Database T-SQL script
 ---
 
 The script below aids the process of migrating multiple databases from
-one MSSQL server to another. The curor will cycle throgh all DBs
+one MSSQL server to another. The cursor will cycle throgh all DBs
 excluding the system databases and print out a \'CREATE DATABASE
 \[dbname\]\' line for each one. This can then be ran on the destination
 server.

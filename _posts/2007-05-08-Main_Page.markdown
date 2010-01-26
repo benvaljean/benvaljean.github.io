@@ -191,8 +191,6 @@ Error\]\]
     Server](Backup_all_DBs_on_a_SQL_Server "wikilink")
 -   [Create Database T-SQL
     script](Create_Database_T-SQL_script "wikilink")
--   [Rename SQL Server (MSSQL)
-    Instance](Rename_SQL_Server_(MSSQL)_Instance "wikilink")
 
 ### MySQL
 

@@ -80,6 +80,12 @@ To copy all lines below the curosr:
 The data from this line is placed in a local clipboard called a register
 and can be restored with \'p\' (below cursor) or \'P\' (above cursor).
 
+#### Insert text at the beginning on each line
+
+Insert a double quote `"` at the beginning of each line:
+
+    :%s!^!"!
+
 #### Show Clipboard items / registers
 
     :reg

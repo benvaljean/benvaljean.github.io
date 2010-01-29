@@ -79,7 +79,7 @@ CREATE ENDPOINT Mirroring
     )
 </pre>
 The port number, in this case <tt>5123</tt> can of course be any non-privileged or already in use port.
-<br>See also: [http://msdn.microsoft.com/en-us/library/ms190456.aspx How to: Create a Mirroring Endpoint for Windows]Authentication (Transact-SQL)]
+<br>See also: [http://msdn.microsoft.com/en-us/library/ms190456.aspx How to: Create a Mirroring Endpoint for Windows Authentication (Transact-SQL)]
 
 ===Enable Mirroring===
 Mirroring is configured through setting up a 'partner' on each database. The mirror databases' will have the principal as its partner and vica-verca. Each database also has the witness configured. The 'partner' parameter has no option to specify whether it is the pricipal or the mirror in the mirroring configuration, it ithe order in which the T-SQL is applied that determines this. The first to receive the <tt>alter database</tt> command will become the mirror, the second will become the master.

@@ -89,12 +89,16 @@ An FQDN must be used as shown in the following T-SQL statements. The preferable 
 <pre>
 --Run the following on the mirror:
 ALTER DATABASE [ExampleDB] SET PARTNER = 'TCP://SQLPrincipal.company.local:5123'
-ALTER DATABASE [ExampleDB] SET PARTNER = 'TCP://SQLWitness.company.local:5123'
+ALTER DATABASE [ExampleDB] SET WITNESS = 'TCP://SQLWitness.company.local:5123'
 --Run the following on the principal:
 ALTER DATABASE [ExampleDB] SET PARTNER = 'TCP://SQLMirror.company.local:5123'
-ALTER DATABASE [ExampleDB] SET PARTNER = 'TCP://SQLWitness.company.local:5123'
+ALTER DATABASE [ExampleDB] SET WITNESS = 'TCP://SQLWitness.company.local:5123'
 </pre>
 
 The principal database when viewed in [http://msdn.microsoft.com/en-us/library/ms174173.aspx Management Studio] will be shown as a <tt>Principal, Synchronized</tt> state. The mirror will be shown as a <tt>Mirror, Synchronized / Restoring...</tt> state.
+
+====Troubleshooting====
+<tt>Database Mirroring Transport is disabled in the endpoint configuration.</tt>
+<br>The mirroring endpoint has not been created, check your configuration
 
 [[Category:MSSQL]]

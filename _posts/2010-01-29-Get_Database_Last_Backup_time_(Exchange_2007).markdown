@@ -55,13 +55,4 @@ From EMS:
     RetainDeletedItemsUntilBackup  : False
     Mounted                        : True
 
-#### View Last Exchange backup time in a Piped format for use with scripts or a monitoring platform
-
-Download [GNU Brep for
-Windows](http://gnuwin32.sourceforge.net/packages/grep.htm) . Find
-cannot be used as it cannot handle the output and fails with a
-`FIND: Parameter format not correct`
-
-From EMS
-
 [Category:Exchange](Category:Exchange "wikilink")

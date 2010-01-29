@@ -61,7 +61,7 @@ The restore of DBs and transaction logs to the mirror server must be done withou
 restore database [ExampleDB] from disk='\\\\SQLMirror\\share\\ExampleDB.bak' with norecovery, replace
 restore log [ExampleDB] from disk='\\\\SQLMirror\\share\\ExampleDB.log' with norecovery, replace 
 </pre>
-the database when viewed in [http://msdn.microsoft.com/en-us/library/ms174173.aspx Management Studio] it will be shoen as a <tt>Restoring...</tt> state.
+The database when viewed in [http://msdn.microsoft.com/en-us/library/ms174173.aspx Management Studio] it will be shown as a <tt>Restoring...</tt> state.
 
 ===Create Endpoints===
 
@@ -87,6 +87,14 @@ Mirroring is configured through setting up a 'partner' on each database. The mir
 An FQDN must be used as shown in the following T-SQL statements. The preferable way to achieve this is to setup the necessary internal DNS records. The hosts file can be used as an alternative but the default domain DNS suffix is not referenced by these commands.
 
 <pre>
---FRom the 
-ALTER DATABASE [ExampleDB] SET PARTNER = 'TCP://MINNIE.tb:5123' 
-<tt>
+--Run the following on the mirror:
+ALTER DATABASE [ExampleDB] SET PARTNER = 'TCP://SQLPrincipal.company.local:5123'
+ALTER DATABASE [ExampleDB] SET PARTNER = 'TCP://SQLWitness.company.local:5123'
+--Run the following on the principal:
+ALTER DATABASE [ExampleDB] SET PARTNER = 'TCP://SQLMirror.company.local:5123'
+ALTER DATABASE [ExampleDB] SET PARTNER = 'TCP://SQLWitness.company.local:5123'
+</pre>
+
+The principal database when viewed in [http://msdn.microsoft.com/en-us/library/ms174173.aspx Management Studio] will be shown as a <tt>Principal, Synchronized</tt> state. The mirror will be shown as a <tt>Mirror, Synchronized / Restoring...</tt> state.
+
+[[Category:MSSQL]]

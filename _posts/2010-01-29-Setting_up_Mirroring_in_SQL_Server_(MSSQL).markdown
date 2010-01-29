@@ -62,6 +62,8 @@ restore database [ExampleDB] from disk='\\\\SQLMirror\\share\\ExampleDB.bak' wit
 restore log [ExampleDB] from disk='\\\\SQLMirror\\share\\ExampleDB.log' with norecovery, replace 
 </pre>
 The database when viewed in [http://msdn.microsoft.com/en-us/library/ms174173.aspx Management Studio] it will be shown as a <tt>Restoring...</tt> state.
+====Troubleshooting====
+Errors referring to the transaction logs either not being rolled forward to a point in time that is encompassed in the transaction log or or being rolled forward to a point in time that beyond reach of the transaction log are usually due to the backup and restore being done too far apart. The longer the amount of time between the principal being backed up and the restore done to the mirror the greater the chance of a problem occurring. In some cases just retrying the backup and restore can allow it to work. Always ensure that the backups are deleted before re-backing up further to setting up mirroring as if SQL has to overwrite files it can cause problems.
 
 ===Create Endpoints===
 

@@ -128,8 +128,8 @@ Error\]\]
 
 ### Microsoft Exchange
 
--   [Allow Out of Office replies to external
-    addresses](Allow_Out_of_Office_replies_to_external_addresses_(Exchange) "wikilink")
+-   [Allow Out of Office replies to external addresses
+    (Exchange 2003)](Allow_Out_of_Office_replies_to_external_addresses_(Exchange_2003) "wikilink")
 -   [Non-Delivery Report (NDR) / Bounce
     Codes](Non-Delivery_Report_(NDR)_/_Bounce_Codes_(Email) "wikilink")
 -   [Add Whitelist functionality to Intelligent Message

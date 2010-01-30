@@ -26,8 +26,8 @@ title: Main Page
 -   [Delete files based on
     age](Delete_files_based_on_age_(Windows) "wikilink")
 -   [WINS Lookup tool](WINS_Lookup_tool "wikilink")
--   [Disable Group Policy for individual PC locally
-    (Windows)](Disable_Group_Policy_for_individual_PC_locally_(Windows) "wikilink")
+-   [Disable Group Policy for individual PC
+    locally](Disable_Group_Policy_for_individual_PC_locally_(Windows) "wikilink")
 -   [Set Terminal Service session
     Timeouts/Limits](Set_Terminal_Service_session_Timeouts/Limits_(Windows) "wikilink")
 -   [Windows DOS Tricks](Windows_DOS_Tricks "wikilink")
@@ -49,8 +49,7 @@ title: Main Page
 -   [System writer is not found in the backup Error (Windows Server
     Backup)](System_writer_is_not_found_in_the_backup_Error_(Windows_Server_Backup) "wikilink")
 -   [Domain Controller is not advertising as a time server Error in
-    dcdiag
-    (Windows)](Domain_Controller_is_not_advertising_as_a_time_server_Error_in_dcdiag_(Windows) "wikilink")
+    dcdiag](Domain_Controller_is_not_advertising_as_a_time_server_Error_in_dcdiag_(Windows) "wikilink")
 
 #### Visual Basic Scripts
 

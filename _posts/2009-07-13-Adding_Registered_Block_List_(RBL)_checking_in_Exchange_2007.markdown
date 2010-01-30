@@ -38,3 +38,5 @@ directory](http://www.powershellcommunity.org/Directories/Cmdlets.aspx)
 
 [Monitor the status of RBL listings for a specific IP address using
 Nagios](Nagios#RBL_Status "wikilink")
+
+[Category:Exchange](Category:Exchange "wikilink")

@@ -67,6 +67,8 @@ title: Main Page
 
 -   [Linux Tricks](Linux_Tricks "wikilink")
 -   [Nagios](Nagios "wikilink")
+-   [Ascertain System
+    Performance](Ascertain_System_Performance_(Linux) "wikilink")
 -   [Open file handling](Open_file_handling_(Linux) "wikilink") List
     open files by process and set system and process limits
 -   [BASH Tricks](BASH_Tricks "wikilink")

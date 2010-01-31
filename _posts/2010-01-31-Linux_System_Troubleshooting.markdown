@@ -6,7 +6,7 @@ title: Linux System Troubleshooting
 This page shows various commands to ascertain how a Linux system is performing and why it may be running slowly if there are other problems.
 ==vmstat==
 Details that amount pages-in and pages-out every x seconds among other information. See [[Swap / Virtual memory#Vmstat|Vmstat]].
-==Top==
+==top==
 Shows continuously-updating information for processes. Processes are sorted in CPU usage descending by default.
 
 Load averages are shown for the last 1, 5 and 15 minutes. Every system is different but as a guide a single CPU system should normally not have a 15 minute load average over 2.
@@ -56,5 +56,30 @@ Get extended IO statistics, updating once per second:<pre>iostat 1 -x</pre>The c
 |-
 | 
 |}
+==tcpdump==
+Tcpdump gives detailed verbose network traffic output. Some examples are shown below, which all refer to the interface eth0. Use <tt>ifconfig -a</tt> to find all interfaces.
+
+Show HTTP traffic:
+<pre>tcpdump -i eth0 'tcp port 80'</pre>
+Show DNS traffic:<pre>tcpdump -i eth1 'udp port 53'</pre>
+Show DNS traffic, and HTTP traffic on ports and 80, 81 and 82:
+<pre>tcpdump -i eth0 udp port 53 or tcp \\( 80 or 81 or 82 \\)</pre>
+Show traffic on port 80 for 1.1.1.1:<pre>
+tcpdump -i eth0 dst 10.168.28.22 and tcp port 80</pre>
+Show traffic on port 80 for 1.1.1.1 with an increased sniff size of 1024 bytes:
+<pre>tcpdump -i eth0 -s 1024 dst 10.168.28.22 and tcp port 80</pre>
+===Send output to a pcap file===
+The <tt>-w</tt> parameter captures the output to a file that can be viewed later.
+
+Capture SSH traffic for 2.2.2.2 and output to a pcap file named ssh.pcap:
+<pre>tcpdump -i eth0 -w ssh.pcap tcp port 22</pre>
+
+This output can then be viewed later:
+<pre>tcpdump -ttttnnr ssh.pcap</pre>
+===See Also===
+*[http://danielmiessler.com/study/tcpdump/ A tcpdump Tutorial / Primer]
+*[http://www.alexonlinux.com/tcpdump-for-dummies tcpdump for Dummies]
+*[http://www.dslreports.com/faq/tcpdump/5._Some_simple_scripts#8443 Useful tcpdump scripts]
+
 
 [[Category:Linux]]

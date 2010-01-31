@@ -80,6 +80,11 @@ This output can then be viewed later:
 *[http://danielmiessler.com/study/tcpdump/ A tcpdump Tutorial / Primer]
 *[http://www.alexonlinux.com/tcpdump-for-dummies tcpdump for Dummies]
 *[http://www.dslreports.com/faq/tcpdump/5._Some_simple_scripts#8443 Useful tcpdump scripts]
+==strace==
+If the server for some reason is not logging what you need or there is a need to debug software at system call level, strace can help. Try <tt>strace echo hello</tt>. Strace becomes more useful when it monitors the system calls for a process already running.
+
+Monitor system calls for pid 12345:
+<pre>strace -p 12345</pre>
 
 
 [[Category:Linux]]

@@ -81,7 +81,7 @@ This output can then be viewed later:
 *[http://www.alexonlinux.com/tcpdump-for-dummies tcpdump for Dummies]
 *[http://www.dslreports.com/faq/tcpdump/5._Some_simple_scripts#8443 Useful tcpdump scripts]
 ==strace==
-If the server for some reason is not logging what you need or there is a need to debug software at system call level, strace can help. Try <tt>strace echo hello</tt>. Strace becomes more useful when it monitors the system calls for a process already running.
+strace shows the systems calls for a process or programme. Try <tt>strace echo hello</tt>. Strace can either invoke a process and monitor system calls end-to-end or attach itself to a process already running.
 
 Monitor system calls for pid 12345:
 <pre>strace -p 12345</pre>
@@ -167,5 +167,29 @@ Process 1071 detached
 100.00    0.000093                   196         1 total
 </pre>
 This shows that in the 5 seconds whilst strace was running Nagios spent most of its time waiting, followed by getting the time of day.
+===Ascertain why a process cannot connect to a server===
+tcpdump can be used instead although strace will show information on a specific process and thereby avoid most of the 'chatter.' Below is an exanple of curl connecting to ben.goodacre.name without any problems:
+<pre>
+  1 [user@host /]$ strace -e poll,select,connect,recvfrom,sendto curl ben.goodacre.name >/dev/null
+  2 connect(3, {sa_family=AF_FILE, path="/var/run/setrans/.setrans-unix"...}, 110) = 0
+  3 connect(3, {sa_family=AF_FILE, path="/var/run/nscd/socket"...}, 110) = -1 ENOENT (No such file or directory)
+  4 connect(3, {sa_family=AF_FILE, path="/var/run/nscd/socket"...}, 110) = -1 ENOENT (No such file or directory)
+  5 connect(3, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.0.1")}, 28) = 0
+  6 poll([{fd=3, events=POLLOUT}], 1, 0)    = 1 ([{fd=3, revents=POLLOUT}])
+  7 poll([{fd=3, events=POLLIN}], 1, 5000)  = 1 ([{fd=3, revents=POLLIN}])
+  8 recvfrom(3, "\\223\\203\\201\\200\\0\\1\\0\\1\\0\\1\\0\\0\\3ben\\10goodacre\\4name\\0\\0"..., 1024, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.0.1")}, [16]) = 120
+  9 connect(3, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.0.1")}, 28) = 0
+ 10 poll([{fd=3, events=POLLOUT}], 1, 0)    = 1 ([{fd=3, revents=POLLOUT}])
+ 11 poll([{fd=3, events=POLLIN}], 1, 5000)  = 1 ([{fd=3, revents=POLLIN}])
+ 12 recvfrom(3, "\\f\\177\\201\\200\\0\\1\\0\\2\\0\\r\\0\\f\\3ben\\10goodacre\\4name\\0\\0"..., 1024, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.0.1")}, [16]) = 504
+ 13 connect(3, {sa_family=AF_INET, sin_port=htons(80), sin_addr=inet_addr("67.223.225.228")}, 16) = -1 EINPROGRESS (Operation now in progress)
+ 14 poll([{fd=3, events=POLLOUT}], 1, 300000) = 1 ([{fd=3, revents=POLLOUT}])
+ 15 poll([{fd=3, events=POLLIN}], 1, 1000)  = 1 ([{fd=3, revents=POLLIN}])
+ 16 poll([{fd=3, events=POLLIN}], 1, 0)     = 1 ([{fd=3, revents=POLLIN}])
+ 17   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+ 18                                  Dload  Upload   Total   Spent    Left  Speed
+ 19 100   701  100   701    0     0   1609      0 --:--:-- --:--:-- --:--:--     0
+</pre>
+Lines 3 and 4 show curl connecting to the NSCD - Name Service Cache Daemon - which is used for LDAP lookups among other things. The connect fails so it moves onto DNS on lines 5 and 9 where it connects to port 53 which is shown by '''sin_port=htons(53)'''. It connects to localhost - '''sin_addr=inet_addr("127.0.0.1")''' as a DNS server listens to localhost and is configured in /etc/resolv.conf. The DNS connection is done twice as ben.goodacre.name is a CNAME, so a second DNS lookup is required. Line 8 is where the CNAME is received and line 12 is where the IP address is returned. The curl client is seen connecting to the IP 67.223.225.228 of this website on line 13. '''EINPROGRESS''' shows the connection has been attempted but not that it has succeeded. A complete POLLOUT line shows a sucessful connect. Try <tt>strace -e poll,select,connect,recvfrom,sendto curl ben.goodacre.name:111 >/dev/null</tt> to see what the POLLOUT line looks like when curl cannot connect. Port 111 is not open.
 
 [[Category:Linux]]

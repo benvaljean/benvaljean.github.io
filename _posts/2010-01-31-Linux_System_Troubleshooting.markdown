@@ -66,14 +66,14 @@ Show DNS traffic:<pre>tcpdump -i eth1 'udp port 53'</pre>
 Show DNS traffic, and HTTP traffic on ports and 80, 81 and 82:
 <pre>tcpdump -i eth0 udp port 53 or tcp \\( 80 or 81 or 82 \\)</pre>
 Show traffic on port 80 for 1.1.1.1:<pre>
-tcpdump -i eth0 dst 10.168.28.22 and tcp port 80</pre>
+tcpdump -i eth0 dst 1.1.1.1 and tcp port 80</pre>
 Show traffic on port 80 for 1.1.1.1 with an increased sniff size of 1024 bytes:
-<pre>tcpdump -i eth0 -s 1024 dst 10.168.28.22 and tcp port 80</pre>
+<pre>tcpdump -i eth0 -s 1024 dst 1.1.1.1 and tcp port 80</pre>
 ===Send output to a pcap file===
 The <tt>-w</tt> parameter captures the output to a file that can be viewed later.
 
 Capture SSH traffic for 2.2.2.2 and output to a pcap file named ssh.pcap:
-<pre>tcpdump -i eth0 -w ssh.pcap tcp port 22</pre>
+<pre>tcpdump -i eth0 -w ssh.pcap dst 2.2.2.2 tcp port 22</pre>
 
 This output can then be viewed later:
 <pre>tcpdump -ttttnnr ssh.pcap</pre>
@@ -81,6 +81,7 @@ This output can then be viewed later:
 *[http://danielmiessler.com/study/tcpdump/ A tcpdump Tutorial / Primer]
 *[http://www.alexonlinux.com/tcpdump-for-dummies tcpdump for Dummies]
 *[http://www.dslreports.com/faq/tcpdump/5._Some_simple_scripts#8443 Useful tcpdump scripts]
+
 ==strace==
 strace shows the systems calls for a process or programme. Try <tt>strace echo hello</tt>. Strace can either invoke a process and monitor system calls end-to-end or attach itself to a process already running.
 

@@ -39,7 +39,7 @@ To show all processes including their command-lines:
 To show the current free and in-use physical RAM and swapped with low/high values in MB:
 <pre>free -ml</pre>
 ==iostat==
-Iostat gives statistics on I/O and CPU usage. <tt>iostat</tt> without any arguments displays transfers per second since boot as 'tps' although a single logical transfer could be any size and can therefore be misleading. The number of blocks read and written since boot and the blocks read and written per second 'since boot.' <tt>iostat -x</tt> gives more information, but this again is not very useful as it only shows the total since boot.
+Iostat gives statistics on I/O and CPU usage. <tt>iostat</tt> without any arguments displays transfers per second since boot as 'tps' although a single logical transfer could be any size and can therefore be misleading. The number of blocks read and written since boot and the blocks read and written per second 'since boot' can also be viewed. <tt>iostat -x</tt> gives more information, but this again is not very useful as it only shows the total since boot.
 
 Iostat is more useful when it is giving repeating output as each output after the first output shows stats 'since the last output' rather than since boot. <tt>iostat 1 5</tt> will give 5 outputs with a 1 second delay. The 2nd - 5th output will look different to the first for this reason.
 
@@ -56,6 +56,7 @@ Get extended IO statistics, updating once per second:<pre>iostat 1 -x</pre>The c
 |-
 | 
 |}
+
 ==tcpdump==
 Tcpdump gives detailed verbose network traffic output. Some examples are shown below, which all refer to the interface eth0. Use <tt>ifconfig -a</tt> to find all interfaces.
 

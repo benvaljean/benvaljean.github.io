@@ -276,6 +276,8 @@ if exist %1\\webSQLMirror.config (
 :eof
 </pre>
 
+==See Also==
+*[[Monitor SQL Server (MSSQL) using Nagios|Monitor SQL Server using Nagios]] Show perfmon counters for Mirroring that can be monitored.
 ==Links==
 *[http://technet.microsoft.com/en-us/library/aa995867.aspx How to Align Exchange I/O with Storage Track Boundaries]
 *[http://www.microsoft.com/technet/prodtechnol/sql/2005/physdbstor.mspx#_RAID Physical storage database design]

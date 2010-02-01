@@ -192,6 +192,11 @@ tcpdump can be used instead although strace will show information on a specific 
  18                                  Dload  Upload   Total   Spent    Left  Speed
  19 100   701  100   701    0     0   1609      0 --:--:-- --:--:-- --:--:--     0
 </pre>
-Lines 3 and 4 show curl connecting to the NSCD - Name Service Cache Daemon - which is used for LDAP lookups among other things. The connect fails so it moves onto DNS on lines 5 and 9 where it connects to port 53 which is shown by '''sin_port=htons(53)'''. It connects to localhost - '''sin_addr=inet_addr("127.0.0.1")''' as a DNS server listens to localhost and is configured in /etc/resolv.conf. The DNS connection is done twice as ben.goodacre.name is a CNAME, so a second DNS lookup is required. Line 8 is where the CNAME is received and line 12 is where the IP address is returned. The curl client is seen connecting to the IP 67.223.225.228 of this website on line 13. '''EINPROGRESS''' shows the connection has been attempted but not that it has succeeded. A complete POLLOUT line shows a sucessful connect. Try <tt>strace -e poll,select,connect,recvfrom,sendto curl ben.goodacre.name:111 >/dev/null</tt> to see what the POLLOUT line looks like when curl cannot connect. Port 111 is not open.
+*Lines 3 and 4 show curl connecting to the NSCD - Name Service Cache Daemon - which is used for LDAP lookups among other things. *The connect fails so it moves onto DNS on lines 5 and 9 where it connects to port 53 which is shown by '''sin_port=htons(53)'''. It connects to localhost - '''sin_addr=inet_addr("127.0.0.1")''' as a DNS server listens to localhost and is configured in /etc/resolv.conf.
+*The DNS connection is done twice as ben.goodacre.name is a CNAME, so a second DNS lookup is required. Line 8 is where the CNAME is received and line 12 is where the IP address is returned.
+*The curl client is seen connecting to the IP 67.223.225.228 of this website on line 13. '''EINPROGRESS''' shows the connection has been attempted but not that it has succeeded.
+*The complete POLLOUT line shows a sucessful connect, on line 14.
+
+Try <tt>strace -e poll,select,connect,recvfrom,sendto curl ben.goodacre.name:111 >/dev/null</tt> to see what the POLLOUT line looks like when curl cannot connect. Port 111 is not open.
 
 [[Category:Linux]]

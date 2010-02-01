@@ -126,8 +126,161 @@ Database Mirroring login attempt failed with error: 'Connection handshake failed
 There is no compatible encryption algorithm. State 22.'.  [CLIENT: 2.2.2.2]
 </pre>
 
-This occurs when one endpoint is setup to do encryption and the other is not, or the algorhythems are setup differently. The endpoint encryption configuration for both endpoints must match.
+This occurs when one endpoint is setup to do encryption and the other is not, or the algorithms are setup differently. The endpoint encryption configuration for both endpoints must match.
+
+==Testing==
+<pre>
+--Run on current principal
+USE master
+GO
+ALTER DATABASE [ExampleDB] SET SAFETY FULL
+GO
+ALTER DATABASE [ExampleDB] SET PARTNER FAILOVER
+GO
+
+--Run on new principal
+USE master
+GO
+ALTER DATABASE [ExampleDB] SET SAFETY OFF
+GO
+</pre>
+This will setup the mirror as a principal.
+==Forced failover==
+If the principal has died and the witness for whatever reason has not setup the mirror to become a principal this can be done manually:
+<pre>
+--Run on mirror if principal isn't available
+USE
+master
+GO
+ALTER DATABASE [ExampleDB] SET PARTNER FORCE_SERVICE_ALLOW_DATA_LOSS
+GO
+</pre>
+This is not as gruesome as it sounds as it is rare for data loss to occur when issuing this T-SQL. - So long as mirroring was working up to the point that the principal died.
+==Failover database back to the principal following an outage finishing==
+DBs are never automatically failed back from the old-mirror-now-master following an outage finishing.
+<pre>
+--Run on old-mirror-now-master
+alter database [ExampleDB] set partner failover</pre>
+As this has to be run on every database individually it can be quicker to create a cursor loop. There are better ways of using a cursor though. Presuming that all of your DBs are setup for mirroring the following can be used:
+<pre>
+Declare @mirrordbs table (dbname char(100))
+Declare @fetcher as char(100)
+Insert @mirrordbs
+select name from sys.databases where name <> 'master' and name <> 'tempdb' and name <> 'msdb' and name <> 'tempdb' and name <> 'model'
+
+DECLARE reader CURSOR FOR SELECT dbname FROM @mirrordbs
+OPEN reader
+FETCH NEXT FROM reader INTO @fetcher
+WHILE @@FETCH_STATUS=0
+BEGIN
+  exec('alter database '+@fetcher+'set partner failover')
+FETCH NEXT FROM reader INTO @fetcher
+END
+</pre>
+==Troubleshooting==
+===Orphaned User mapping===
+Symptom:
+<pre>
+Error 15023: User already exists in current database.</pre>
+User mapping setup was incorrect which resulted in orphaned permissions for some of the databases. This was fixed by:
+<pre>
+USE [ExampleDB]
+GO
+EXEC sp_change_users_login 'Report'
+EXEC sp_change_users_login 'Auto_Fix', 'user', NULL, 'pass'
+EXEC sp_change_users_login 'update_one', 'user', 'user'
+GO
+</pre>
+http://blog.sqlauthority.com/2007/02/15/sql-server-fix-error-15023-user-already-exists-in-current-database/
+===Cannot open database requested by the login. The login failed.===
+If you are not using domain accs this problem could affect you: Despite having the same login details for both servers the credentials fail when the mirror is setup as a principal as the SID gets cached, and is normally randomly generated. Use different usernames for the two server to resolve this or create the login using a T-SQL command where the SID can be specified:
+<pre>
+CREATE LOGIN WITH PASSWORD ="password",SID ="sid for same login on principal server" </pre>
+To retrieve the SID for each login from the principal server query the sys.sql_logins catalog view.
+
+http://deepakrangarajan.blogspot.com/2008/02/failover-in-database-mirroring.html
+
+http://bradmarsh.net/index.php/2008/07/29/sql-2005-mirroring-automatic-failover/
+==Config ASP.net 2.0+ applications to utilise Mirroring==
+The failover mechanism will not automatically change the database server your applications use. The <tt>failover partner</tt> parameter must be used in your connection string:
+<pre>
+<Setting Name="ConnectionString" Value="data source=SQLPrincipal\\PROD; failover Partner=SQLMirror\\PROD; Initial Catalog=ExampleDB;uid=user;pwd=pass" /></pre>
+
+http://www.connectionstrings.com/sql-server-2005
+
+The Initial catalog parameter must be used in preference to the database parameter as 'database' is not recognised by the ActiveX Data Objects (ADO) SQL driver. 
+
+By configuring your application to use these settings, when the application makes a request to the database and the Principal server is not available, .NET will automatically send the request to the mirrored server. This should happen transparently so your website user should not notice any outage. Sessions should also be kept alive, depending upon your application.
+
+If you're using .NET 1.1, this Failover Partner is not present, so you'll need to roll your own code to transfer the client. This could be a simple try...catch around the database connection, and in the catch, it retries using the mirrored server. Or use a script to substitute your connection string as shown below.
+===Failover mechanism===
+*The Principal server goes down. 
+*The Witness server or your monitoring service detects the Principal database in unavailable. 
+*The Witness server or your monitoring service forces the failover to your mirrored server, which becomes the new Principal. 
+*ADO.NET attempts connection to the principal, (witness only informs mirror to become principal, not the ADO.NET access provider - but the success is cached)) this fails and the partner/mirror is tried, if this fails the principal is tried one more time.
+
+http://msdn.microsoft.com/en-us/library/ms366348.aspx
+==Allowing .NET 1.1 sites to recognise failover==
+.NET 1.1 sites do not have the failover partner parameter in the SQL connection string as it natively uses an older version of SQLClient and not the ODBC route as defined in .NET 2.0+ . Natively a .net 1.1 site cannot automatically recognise the failover and will still try to connect to the principal.
+
+One way around this is to create a SQL agent alert on the mirror server to listen for a 1440 in the Application log. 1440 indicates that it is now the principal - indicating that a failover has occurred. This alert runs a job which runs a cmdexec step that can run a BAT script that substitutes the configuration file that contains your connection string with a file that points to the mirror.
+
+===Example===
+web.configToMirror.bat:
+<pre>
+rem @echo off
+if not exist g:\\maptester.txt (
+  net use g: \\\\1.1.1.1\\WebConfigs
+  if not exist g:\\maptester.txt (
+    echo %date% %time% Tried to map drive but could not find g:\\maptester.txt on web1 >>web.configToMirror.log
+    goto eof
+  )
+)
+
+if not exist h:\\maptester.txt (
+  net use h: \\\\2.2.2.2\\IBConfigs
+  if not exist h:\\maptester.txt (
+    echo %date% %time% Tried to map drive but could not find h:\\maptester.txt on web2 >>web.configToMirror.log
+    goto eof
+  )
+)
 
 
+call :checkfiles g:\\client1\\Config
+call :checkfiles g:\\client2\\Config
+call :checkfiles g:\\client3\\Config
+
+call :checkfiles h:\\client1\\Config
+call :checkfiles h:\\client2\\Config
+call :checkfiles h:\\client3\\Config
+
+
+goto eof
+
+
+:checkfiles
+if not exist %1\\webSQLMirror.config (
+  echo %date% %time% Cannot find webSQLMirror.config for %1 >>web.configToMirror.log
+)
+
+
+if not exist %1\\webSQLPrincipal.config (
+  echo %date% %time% Cannot find IBMinnie.config for %1 >>web.configToMirror.log
+)
+if exist %1\\webSQLMirror.config (
+  del %1\\web.config
+  copy %1\\webSQLMirror.config %1\\web.config
+  echo %date% %time% Setup web.config for SQLMirror for %1 >>web.configToMirror.log
+)
+
+:eof
+</pre>
+
+==Links==
+*[http://technet.microsoft.com/en-us/library/aa995867.aspx How to Align Exchange I/O with Storage Track Boundaries]
+*[http://www.microsoft.com/technet/prodtechnol/sql/2005/physdbstor.mspx#_RAID Physical storage database design]
+*[http://www.codeproject.com/KB/database/sqlmirroring.aspx SQL mirroring]
+*[http://msdn.microsoft.com/en-us/library/ms187752.aspx SQL Server field types]
+*[http://support.microsoft.com/kb/231282 IIS stress tools]
 
 [[Category:MSSQL]]

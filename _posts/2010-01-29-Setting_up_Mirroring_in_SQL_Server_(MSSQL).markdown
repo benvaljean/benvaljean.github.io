@@ -100,7 +100,34 @@ ALTER DATABASE [ExampleDB] SET WITNESS = 'TCP://SQLWitness.company.local:5123'
 The principal database when viewed in [http://msdn.microsoft.com/en-us/library/ms174173.aspx Management Studio] will be shown as a <tt>Principal, Synchronized</tt> state. The mirror will be shown as a <tt>Mirror, Synchronized / Restoring...</tt> state.
 
 ====Troubleshooting====
+=====Error 1=====
 <tt>Database Mirroring Transport is disabled in the endpoint configuration.</tt>
-<br>The mirroring endpoint has not been created, check your configuration
+<br>The mirroring endpoint has not been created, check your configuration 
+=====Error 2=====
+<pre>
+An error occurred while starting mirroring.
+------------------------------
+ADDITIONAL INFORMATION:
+Alter failed for Database 'basildondemo'.  (Microsoft.SqlServer.Smo)
+
+For help, click: http://go.microsoft.com/fwlink?ProdName=Microsoft+SQL+Server&ProdVer=9.00.4035.00&EvtSrc=Microsoft.SqlServer.Management.Smo.ExceptionTemplates.FailedOperationExceptionText&EvtID=Alter+Database&LinkId=20476
+------------------------------
+An exception occurred while executing a Transact-SQL statement or batch. (Microsoft.SqlServer.ConnectionInfo)
+------------------------------
+The server network address "TCP://SQLMirror.jobsgopublic.local:5123" can not be reached or does not exist. Check the network address name and that the ports for the local and remote endpoints are operational. (Microsoft SQL Server, Error: 1418)
+For help, click: http://go.microsoft.com/fwlink?ProdName=Microsoft+SQL+Server&ProdVer=09.00.4035&EvtSrc=MSSQLServer&EvtID=1418&LinkId=20476
+</pre>
+Check firewalling, but this is usually not an issue with making a connection on the specified port. If you use the exact statements to create the endpoints as shown in this article there should be know problem. Check the application log on the machine that cannot be connected to.
+=====Error 3=====
+In the application log
+
+<pre>
+Database Mirroring login attempt failed with error: 'Connection handshake failed.
+There is no compatible encryption algorithm. State 22.'.  [CLIENT: 2.2.2.2]
+</pre>
+
+This occurs when one endpoint is setup to do encryption and the other is not, or the algorhythems are setup differently. The endpoint encryption configuration for both endpoints must match.
+
+
 
 [[Category:MSSQL]]

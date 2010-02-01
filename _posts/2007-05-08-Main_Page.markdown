@@ -184,6 +184,7 @@ Error\]\]
 
 -   [Monitor SQL Server using
     Nagios](Monitor_SQL_Server_(MSSQL)_using_Nagios "wikilink")
+-   [Setting up SQL Mirroring](Setting_up_SQL_Mirroring "wikilink")
 -   [SQL Log shipping](SQL_Log_shipping_(Database_Server) "wikilink")
 -   [SQL Clustering](SQL_Clustering_(Database_Server) "wikilink")
 -   [Obtain Service pack

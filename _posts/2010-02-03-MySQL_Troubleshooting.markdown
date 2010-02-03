@@ -15,4 +15,8 @@ title: MySQL Troubleshooting
 
     mysql> show status like 'Threads_created';
 
+### See Also
+
+[Linux Troubleshooting](Linux_Troubleshooting "wikilink")
+
 [Category:MySQL](Category:MySQL "wikilink")

@@ -17,6 +17,6 @@ title: MySQL Troubleshooting
 
 ### See Also
 
-[Linux Troubleshooting](Linux_Troubleshooting "wikilink")
+[Linux Troubleshooting](Linux_System_Troubleshooting "wikilink")
 
 [Category:MySQL](Category:MySQL "wikilink")

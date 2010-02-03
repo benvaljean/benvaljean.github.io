@@ -199,6 +199,7 @@ Error\]\]
 
 ### MySQL
 
+-   [MySQL Troubleshooting](MySQL_Troubleshooting "wikilink")
 -   [Access
     rights/Privileges/Grants](Access_rights/Privileges/Grants_(MySQL) "wikilink")
 -   [Reset Root password](Reset_Root_password_(MySQL) "wikilink")

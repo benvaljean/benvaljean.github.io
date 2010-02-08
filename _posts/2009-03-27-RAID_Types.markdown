@@ -139,6 +139,8 @@ takes longer to rebuild than a 73 GB drive.
 
 See Also: <http://www.pcguide.com/ref/hdd/perf/raid/levels/single.htm>
 
+<http://miracleas.com/BAARF/RAID5_versus_RAID10.txt>
+
 ### Exchange 2007 RAID Discussion
 
 *Taken from

@@ -21,6 +21,7 @@ Last character: Other permissions<br>
 |-
 | <tt>rwxrwx---</tt>||770
 |-
+| <tt>rwxr-xr-x</tt>||755
 | 
 |}
 ===Examples===

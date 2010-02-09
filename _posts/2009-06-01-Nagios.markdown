@@ -27,8 +27,9 @@ release, in this example it is 1.4.13:
 
 ### Configuration
 
-Config fies are /etc/nagios by default if installed using apt-get and
-are in /usr/local/nagios/etc by default when compliled from source.
+Config fies are /etc/nagios by default if installed as a package (at
+least with Debian) and are in /usr/local/nagios/etc by default when
+compliled from source.
 
 #### Verify config
 

@@ -194,13 +194,13 @@ Error\]\]
     0x8004011d](Exmerge_error_0x8004011d_(Exchange) "wikilink")
 -   [Error -514 JET errBadLogVersion when using
     Eseutil](Error_-514_JET_errBadLogVersion_when_using_Eseutil_(Exchange) "wikilink")
--   [Bounce 550 5.7.1 RESOLVER.RST.AuthRequired; authentication required
-    (Exchange 2007)](Bounce_550_5.7.1_RESOLVER.RST.AuthRequired;_authentication_required_(Exchange_2007) "wikilink")
+-   [Bounce 550 5.7.1 RESOLVER.RST.AuthRequired; authentication
+    required](Bounce_550_5.7.1_RESOLVER.RST.AuthRequired;_authentication_required_(Exchange_2007) "wikilink")
 -   [Exchange 2007 property cannot be set due to version 0.1 (8.0.535.0)
     or later
     required](Exchange_2007_property_cannot_be_set_due_to_version_0.1_(8.0.535.0)_or_later_required "wikilink")
--   [Strip Apostrophe (or any character) in SMTP email address (Exchange
-    2003/2007)](Strip_Apostrophe_(or_any_character)_in_SMTP_email_address_(Exchange_2003/2007) "wikilink")
+-   [Strip Apostrophe (or any character) in SMTP email
+    address](Strip_Apostrophe_(or_any_character)_in_SMTP_email_address_(Exchange_2003/2007) "wikilink")
 -   [Error -18597 in Entourage when connecting to Exchange
     2007](Error_-18597_in_Entourage_when_connecting_to_Exchange_2007 "wikilink")
 

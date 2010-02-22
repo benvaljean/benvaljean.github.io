@@ -32,7 +32,7 @@ The \@ARGV array stores parameters.
 
 Display the 2nd parameter:
 
-    $ARGV[2]
+    $ARGV[1]
 
 Display the number of parameters passed:
 

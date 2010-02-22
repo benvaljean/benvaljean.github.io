@@ -36,6 +36,6 @@ Display the 2nd parameter:
 
 Display the number of parameters passed:
 
-    $#ARGV
+    @ARGV
 
 [Category:Linux](Category:Linux "wikilink")

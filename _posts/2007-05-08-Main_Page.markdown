@@ -155,10 +155,9 @@ Error\]\]
 -   [POP3 Connection hangs and other
     issues](POP3_Connection_hangs_and_other_issues_(Exchange) "wikilink")
 -   [One or more users currently use a mailbox store on this server
-    Error
-    (Exchange 2003)](One_or_more_users_currently_use_a_mailbox_store_on_this_server_Error_(Exchange_2003) "wikilink")
--   [Strip Apostrophe (or any character) in SMTP email address (Exchange
-    2003/2007)](Strip_Apostrophe_(or_any_character)_in_SMTP_email_address_(Exchange_2003/2007) "wikilink")
+    Error](One_or_more_users_currently_use_a_mailbox_store_on_this_server_Error_(Exchange_2003) "wikilink")
+-   [Strip Apostrophe (or any character) in SMTP email
+    address](Strip_Apostrophe_(or_any_character)_in_SMTP_email_address_(Exchange_2003/2007) "wikilink")
 
 ### Microsoft Exchange 2007
 

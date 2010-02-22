@@ -38,4 +38,9 @@ Display the number of parameters passed:
 
     @ARGV
 
+### Transforming text
+
+These can be used within a string: `"\\Lall text is lowercase"` Or just
+before a variable: `\\U$varisuppercase`
+
 [Category:Linux](Category:Linux "wikilink")

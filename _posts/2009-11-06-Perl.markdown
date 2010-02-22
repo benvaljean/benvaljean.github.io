@@ -26,4 +26,16 @@ installed. Go to [Debian or Ubuntu Vs
 CentOS](Debian_or_Ubuntu_Vs_CentOS "wikilink") and look at the top line
 to install.
 
+### Arguments / Parameters
+
+The \@ARGV array stores parameters.
+
+Display the 2nd parameter:
+
+    $ARGV[2]
+
+Display the number of parameters passed:
+
+    $#ARGV
+
 [Category:Linux](Category:Linux "wikilink")

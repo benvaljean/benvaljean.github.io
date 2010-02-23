@@ -62,13 +62,16 @@ Setup exim to email to remote domains:
 
     dpkg-reconfigure exim4-config
 
-### Install nsclient++ for windows machines
+### Install NSClient++ for Windows machines
 
-Set NSC.ini to state the Nagios server to restrict what IPs can use it.
+[NSClient++](http://nsclient.org/nscp/) is a monitoring client for
+Windows that works with Nagios. Download: [nscplus from
+sourceforge](http://sourceforge.net/projects/nscplus/files/nscplus/)
 
-    nslicent++ /install
-
-Then start service
+The MSI installer will setup the service, ask for your Nagios server IP
+to restrict requests to that IP as well as ask for a password for use
+with check\_nt. It is recommended that you enable all the modules apart
+from the NSCA client.
 
 ### MySQL Monitoring
 

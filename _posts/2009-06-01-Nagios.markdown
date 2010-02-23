@@ -103,7 +103,8 @@ Then start service
 If more advanced monitoring is required follow these steps:
 
 -   Install the DBD::mysql perl module, on Ubuntu the package is called
-    libdbd-mysql-perl
+    libdbd-mysql-perl See [Installing Perl
+    Modules](Installing_Perl_Modules_(Linux) "wikilink")
 -   Install the
     [check\_mysql\_health](http://exchange.nagios.org/directory/Plugins/Databases/MySQL/check_mysql_health/details)
     plugin, which can be found here:

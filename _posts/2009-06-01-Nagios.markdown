@@ -5,11 +5,18 @@ title: Nagios
 
 ### Install
 
-A quick dirty method of installation on Debian based systems, incluidng
-Ubuntu is to simply type: `sudo apt-get install nagios` . A more recent
-version could be available. It is easy to complile Nagios from source
-using the latest version:
-<http://nagios.sourceforge.net/docs/3_0/quickstart-ubuntu.html>
+A quick method of installation on Debian/Ubuntu based systems, is to
+simply type: `sudo apt-get install nagios` . A more recent version could
+be available.
+
+It is easy to complile Nagios from source using the latest version:
+
+[Debian/Ubuntu
+quickstart](http://nagios.sourceforge.net/docs/3_0/quickstart-ubuntu.html)
+[Fedora
+quickstart](http://nagios.sourceforge.net/docs/3_0/quickstart-fedora.html)
+[OpenSUSE
+quickstart](http://nagios.sourceforge.net/docs/3_0/quickstart-opensuse.html)
 
 ### Install the Nagios-plugins release
 

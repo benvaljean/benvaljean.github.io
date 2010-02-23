@@ -32,15 +32,24 @@ release, in this example it is 1.4.13:
     sudo make install
     sudo chown nagios:nagios /usr/local/nagios/libexec
 
-### Configuration
+### Nagios Files/Dirs
 
-Config fies are /etc/nagios by default if installed as a package (at
-least with Debian) and are in /usr/local/nagios/etc by default when
-compliled from source.
+#### Config files
+
+If installed via a package the config fies are /etc/nagios by default.
+The default location when compiled and setup with ./configure is
+/usr/local/nagios/etc.
 
 #### Verify config
 
 /usr/local/nagios/bin/nagios -v /usr/local/nagios/etc/nagios.cfg
+
+#### Plugins
+
+Plugins are stored in the libexec folder. It is pissible to run pluigns
+from any folder but for the sake of permissions it is best best to run
+them from here. The \$USER1\$ macro (variable) also piints to this
+location by default.
 
 ### Mail notifications
 

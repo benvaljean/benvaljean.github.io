@@ -396,7 +396,8 @@ Check Exchange 2003 services are running:
 
 #### See Also
 
-[End to end email checking](Nagios#End_to_end_email_checking "wikilink")
+[End to end email checking
+(Nagios)](Nagios#End_to_end_email_checking "wikilink")
 
 ### IIS Server Monitoring
 

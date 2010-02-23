@@ -12,9 +12,9 @@ be available.
 It is easy to complile Nagios from source using the latest version:
 
 [Debian/Ubuntu
-quickstart](http://nagios.sourceforge.net/docs/3_0/quickstart-ubuntu.html)
+quickstart](http://nagios.sourceforge.net/docs/3_0/quickstart-ubuntu.html)\
 [Fedora
-quickstart](http://nagios.sourceforge.net/docs/3_0/quickstart-fedora.html)
+quickstart](http://nagios.sourceforge.net/docs/3_0/quickstart-fedora.html)\
 [OpenSUSE
 quickstart](http://nagios.sourceforge.net/docs/3_0/quickstart-opensuse.html)
 

@@ -348,6 +348,8 @@ thresholds. Details on how to monitor the following are explaned:
 
 ### Exchange 2003 Monitoring
 
+Check Exchange 2003 services are running:
+
     #ex2003 Servers
     define service{
             use                     generic-service
@@ -391,6 +393,10 @@ thresholds. Details on how to monitor the following are explaned:
             service_description     SMTP
             check_command           check_nt!SERVICESTATE!-d SHOWALL -l SMTPSVC
             }
+
+#### See Also
+
+[End to end email checking](Nagios#End_to_end_email_checking "wikilink")
 
 ### IIS Server Monitoring
 

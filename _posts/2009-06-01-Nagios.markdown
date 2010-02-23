@@ -3,6 +3,9 @@ layout: post
 title: Nagios
 ---
 
+[Nagios](http://www.nagios.org) is a free open-source monitoring
+software/platform.
+
 ### Install
 
 A quick method of installation on Debian/Ubuntu based systems, is to

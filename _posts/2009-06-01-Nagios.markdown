@@ -424,13 +424,12 @@ relay servers.
 
 1.  Download and extract
     <http://bashton.com/downloads/nagios-check_bl-1.0.tar.gz>
-2.  Copy check\_bl (perl script) to your Nagios plugins dir, usually
-    /usr/local/nagios/libexec
+2.  Copy check\_bl (perl script) to your Nagios plugins dir, the default
+    is /usr/local/nagios/libexec
 3.  Install the NET::DNS module for perl, as otherwise the script will
-    be unable to perform the necessary DNS lookups. The package name
-    varies from distro to distro. On Ubuntu it is libnet-dns-perl . Try
-    <http://www.bioperl.org/wiki/Tutorial:Installing_Perl_modules> if
-    you are problems finding it.
+    be unable to perform the necessary DNS lookups. On Debian/Ubuntu the
+    package is libnet-dns-perl . See [Installing Perl
+    Modules](Installing_Perl_Modules_(Linux) "wikilink") .
 4.  Add the following config with your IP(S) to Nagios\' config:
 
 <!-- -->
@@ -445,6 +444,48 @@ relay servers.
             service_description     Ex RBL Status
             check_command           check_bl
             }
+
+### Domain Expiry Monitoring
+
+1.  Download the
+    [plugin](http://dns.measurement-factory.com/tools/nagios-plugins/src/check_whois)
+    and save to your Nagios plugins dir, the default is
+    /usr/local/nagios/libexec
+2.  Install the Date::Manip Perl module, on Debian/Ubuntu the package is
+    libdate-manip-perl , on RHEL/CentOS the package can be
+    perl-Date-Manip or perl-DateManip.noarch . See [Installing Perl
+    Modules](Installing_Perl_Modules_(Linux) "wikilink")
+3.  Install whois if not present on your system.
+4.  Append this command config to your
+    /usr/local/nagios/etc/objects/commands.cfg:
+
+<!-- -->
+
+    define command{
+            command_name    check_whois
+            command_line    $USER1$/check_whois $ARG1$
+    }
+
+It is best not to use \$HOSTADDRESS\$ as the argument for the check
+command as otherwise every domain will need to have its own host config
+and Nagios will try to ping it by default.
+
+The command should then be referenced in a service:
+
+    define service{
+            use     service
+            host_name       Domains-Expiration
+            service_description domain.com
+            check_command check_whois!$SERVICEDESC$
+    }
+
+    #Dummy host to collate all the checks:
+    define host{
+            use                     domain-expiry
+            host_name               Domains-Expiration
+            alias                   Domains Expiration
+            address                 127.0.0.1
+    }
 
 ### End to end email checking
 

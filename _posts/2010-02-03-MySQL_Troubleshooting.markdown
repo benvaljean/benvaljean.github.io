@@ -3,7 +3,7 @@ layout: post
 title: MySQL Troubleshooting
 ---
 
-### Get current queries
+### Get current processes and queries
 
     mysql> show processlist;
 

@@ -93,6 +93,7 @@ title: Main Page
     Modules](Installing_Perl_Modules_(Linux) "wikilink")
 -   [Setup Squid Forward Proxy with Basic
     authentication](Setup_Squid_Forward_Proxy_with_Basic_authentication "wikilink")
+-   [Convert date format](Convert_date_format_(Linux) "wikilink")
 
 #### Troubleshooting
 

@@ -179,9 +179,9 @@ enforced.
             ;;
     esac
 
-2\. Create symbolic links in /etc/rcx.d to the new script
-
-    sudo update-rc.d iptables defaults
+2\. Create symbolic links in /etc/rcx.d to the new script On Debian based
+systems: `sudo update-rc.d iptables defaults`\
+On Red Hat based systems: `sudo chkconfig --add iptables`
 
 3\. Save your firewall/iptables script to `/etc/iptables/firewallrules`
 

@@ -117,6 +117,18 @@ before redirecting to SSL:
     RewriteCond %{HTTP_HOST} ^(?!(^|.*)demo\\.compancyabc\\.co\\.uk)(.+)$
     RedirectRule ^/(.*)$ https://%{HTTP_HOST}/$1 [R=301]
 
+### Rewrite a particular URI to https
+
+    RewriteCond %{SERVER_PORT} ^80$
+    RewriteCond %{HTTP_HOST} ^www.companyabc.me$
+    RedirectRule ^/sslsite(.*)$ https://%{HTTP_HOST}/sslsite$1 [R=301]
+
+#### Disable rewrite for all other URIs on a domain
+
+    #Disable all other rules for rest of the domain
+    RewriteCond %{HTTP_HOST} ^www.companyabc.me$
+    RewriteRule ^/(.*)$ /$1 [I,L]
+
 ### See Also
 
 -   [Apache Rewrite](Apache_Rewrite "wikilink")

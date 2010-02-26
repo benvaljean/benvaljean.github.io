@@ -22,7 +22,8 @@ is generated in Nagios.
     or from the
     [mirror](http://ben.goodacre.name/nagios/check_diskwrite2) on this
     site and copy it to your [libexec](Nagios#Plugins "wikilink") dir.
-2.  `chwon nagios:nagcmd check_diskwrite2;chmod a+x check_diskwrite2`
+2.  Set it to be executable by Nagios and others for testing:
+    `chown nagios:nagcmd check_diskwrite2;chmod a+x check_diskwrite2`
 3.  Install smbclient if not already present on your system. Type
     `whereis smbclient` to check whether it is installed.
 
@@ -30,6 +31,27 @@ is generated in Nagios.
 
 ::\*Install on Red Hat/CentOS based systems:
 `sudo yum install samba-client`
+
+:   4\. Decide upon the login details for the acc Nagios will use the login
+    to the share. It can either be a local acc or on a domain. Create a
+    pasword file in `/etc/nagios2/conf.d/share1.pw` with the following
+    format:
+
+<!-- -->
+
+    username = nagios
+    password = passhere
+
+The domain is entered in another piece of config.
+
+#### Windows config
+
+1.  Create a service acc for Nagios to use, using the details set above.
+    This can either be a local acc or on a domain.
+2.  Set the security on the dir at the root of each share you wish to
+    monitor and give your newly created Nagios service acc all rights
+    apart from Full Control. More restrictive permissions will probably
+    also work.
 
 [Category:Windows](Category:Windows "wikilink")
 [Category:Nagios](Category:Nagios "wikilink")

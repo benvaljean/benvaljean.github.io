@@ -22,7 +22,8 @@ is generated in Nagios.
     or from the
     [mirror](http://ben.goodacre.name/nagios/check_diskwrite2) on this
     site and copy it to your [libexec](Nagios#Plugins "wikilink") dir.
-2.  Install smbclient if not already present on your system. Type
+2.  `chwon nagios:nagcmd check_diskwrite2;chmod a+x check_diskwrite2`
+3.  Install smbclient if not already present on your system. Type
     `whereis smbclient` to check whether it is installed.
 
 ::\*Install on Debian/Ubuntu based systems: `sudo apt-get install smbfs`

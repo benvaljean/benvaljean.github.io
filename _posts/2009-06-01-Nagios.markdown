@@ -52,7 +52,8 @@ The default location when compiled and setup with ./configure is
 Plugins are stored in the libexec folder. It is pissible to run pluigns
 from any folder but for the sake of permissions it is best best to run
 them from here. The \$USER1\$ macro (variable) also piints to this
-location by default.
+location by default. The default location when compiled and setup with
+./configure is /usr/local/nagios/libexec .
 
 ### Mail notifications
 

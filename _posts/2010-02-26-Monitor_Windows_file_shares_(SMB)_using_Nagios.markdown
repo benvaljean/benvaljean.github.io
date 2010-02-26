@@ -25,9 +25,10 @@ is generated in Nagios.
 2.  Install smbclient if not already present on your system. Type
     `whereis smbclient` to check whether it is installed.
 
--   Install on Debian/Ubuntu based systems: `sudo apt-get install smbfs`
--   Install on Red Hat/CentOS based systems:
-    `sudo yum install samba-client`
+::\*Install on Debian/Ubuntu based systems: `sudo apt-get install smbfs`
+
+::\*Install on Red Hat/CentOS based systems:
+`sudo yum install samba-client`
 
 [Category:Windows](Category:Windows "wikilink")
 [Category:Nagios](Category:Nagios "wikilink")

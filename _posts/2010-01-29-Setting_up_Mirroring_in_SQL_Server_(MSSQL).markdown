@@ -168,7 +168,7 @@ This is not as gruesome as it sounds as it is rare for data loss to occur when i
 ==Failover database back to the principal following an outage finishing==
 DBs are never automatically failed back from the old-mirror-now-master following an outage finishing.
 <pre>
---Run on old-mirror-now-master
+--Run on old-mirror-now-master (new principal)
 alter database [ExampleDB] set partner failover</pre>
 As this has to be run on every database individually it can be quicker to create a cursor loop. There are better ways of using a cursor though. Presuming that all of your DBs are setup for mirroring the following can be used:
 <pre>
@@ -186,6 +186,7 @@ BEGIN
 FETCH NEXT FROM reader INTO @fetcher
 END
 </pre>
+
 ==Troubleshooting==
 ===Orphaned User mapping===
 Symptom:

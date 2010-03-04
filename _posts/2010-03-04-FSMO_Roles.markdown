@@ -79,5 +79,12 @@ To ascertain which DCs have which FSMO roles:
 
     netdom query fsmo
 
+### See Also
+
+[Windows Server 2003 - FSMO -
+Advice](http://computerperformance.co.uk/w2k3/W2K3_FSMO_Advice.htm)
+[Best Practices for Assigning FSMO
+Roles](http://windowsdevcenter.com/pub/a/windows/2004/06/15/fsmo.html)
+
 [Category:Windows](Category:Windows "wikilink") [Category:Domain
 Controllers](Category:Domain_Controllers "wikilink")

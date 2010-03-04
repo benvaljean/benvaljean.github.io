@@ -32,7 +32,7 @@ title: Main Page
     Timeouts/Limits](Set_Terminal_Service_session_Timeouts/Limits_(Windows) "wikilink")
 -   [Windows DOS Tricks](Windows_DOS_Tricks "wikilink")
 -   [FSMO Roles](FSMO_Roles "wikilink")
--   [FSMO Role placement](FSMO_Role_placement "wikilink")
+-   [FSMO Role Placement](FSMO_Role_Placement "wikilink")
 -   [Windows Installer Cleanup
     Utility](http://support.microsoft.com/kb/290301/en-us) - use this to
     remove persistent install dialogs etc.

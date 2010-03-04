@@ -73,4 +73,11 @@ instance makes alterations to the AD DB schema.
 Any installation that requires an alteration to the AD DB schema would
 fail.
 
-[Category:Windows](Category:Windows "wikilink")
+### Query FSMO roles
+
+To ascertain which DCs have which FSMO roles:
+
+    netdom query fsmo
+
+[Category:Windows](Category:Windows "wikilink") [Category:Domain
+Controllers](Category:Domain_Controllers "wikilink")

@@ -232,11 +232,11 @@ Error\]\]
 -   [Get or Ascertain Slave
     Lag](Get_or_Ascertain_Slave_Lag_(MySQL) "wikilink")
 
-### Microsoft Outlook Troubleshooting
+### Microsoft Outlook
 
--   [Disable Attachment Blocking
-    (Outlook)](Disable_Attachment_Blocking_(Outlook) "wikilink")
--   [Always add BCC (Outlook)](Always_add_BCC_(Outlook) "wikilink")
+-   [Disable Attachment
+    Blocking](Disable_Attachment_Blocking_(Outlook) "wikilink")
+-   [Always add BCC line](Always_add_BCC_(Outlook) "wikilink")
 -   [View another user\'s calendar in Outlook Web Access (Exchange 2007
     OWA)](View_another_user's_calendar_in_Outlook_Web_Access_(Exchange_2007_OWA) "wikilink")
 

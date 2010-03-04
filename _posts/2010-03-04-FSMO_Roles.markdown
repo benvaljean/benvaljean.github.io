@@ -56,7 +56,8 @@ functionality with any AD object that has entries from another domain.
 
 #### Domain Naming Master
 
-The Adding new DCs to the environment is handled by this role holder.
+The Adding new DCs to the environment is handled by this role holder -
+changes to the name space.
 
 ##### Impact on loss of DC with this FSMO role
 

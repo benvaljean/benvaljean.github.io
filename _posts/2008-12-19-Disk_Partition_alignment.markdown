@@ -102,6 +102,8 @@ Use parted:
     parted /dev/hda1
     mkpart primary ext3 1024 2048
 
+    *not finished*
+
 ### See Also
 
 [Storage performance for SQL

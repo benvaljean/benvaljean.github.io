@@ -3,8 +3,6 @@ layout: post
 title: Disk Partition alignment
 ---
 
-Not finished
-
 Disk partition alignment involves setting the partition offset of the
 first partition on a logical or physical hard-drive whilst taking into
 account the intended cluster size and any RAID striping of the volume.

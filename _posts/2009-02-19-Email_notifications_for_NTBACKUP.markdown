@@ -78,4 +78,5 @@ process is not run in the background; always ensuring that the VBS
 script is run after NTBACKUP has finished.\
 5. Create schedule as required.
 
-[Category:Windows](Category:Windows "wikilink")
+[Category:Windows](Category:Windows "wikilink") [Category:Disaster
+Recovery](Category:Disaster_Recovery "wikilink")

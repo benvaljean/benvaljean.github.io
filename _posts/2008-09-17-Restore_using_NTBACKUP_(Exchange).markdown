@@ -175,4 +175,5 @@ attributes. The mailbox can now be reconnected.
 -   [AD Explorer: Alternative to ADSI
     edit](http://exchangepedia.com/blog/2007/11/ad-explorer-better-adsiedit-than.html)
 
-[Category:Exchange](Category:Exchange "wikilink")
+[Category:Exchange](Category:Exchange "wikilink") [Category:Disaster
+Recovery](Category:Disaster_Recovery "wikilink")

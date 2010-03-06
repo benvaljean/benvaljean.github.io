@@ -252,6 +252,9 @@ Error\]\]
     updating](Global_Address_List_not_updating_(Outlook) "wikilink")
 -   [Bounce when Sending Meeting
     Request](Bounce_when_Sending_Meeting_Request_(Outlook) "wikilink")
+-   [Security certificate is invalid or does not match the name of the
+    site Error
+    (Outlook 2007)](Security_certificate_is_invalid_or_does_not_match_the_name_of_the_site_Error_(Outlook_2007) "wikilink")
 
 ### CA Brightstor Arcserve Troubleshooting
 

@@ -17,7 +17,7 @@ rebuilding the DC if there are other live DCs in the environment.</font>
 
 ### Disaster Recovery of Active Directory
 
-If there are no DCs available for a domain: Rebulid a DC as the first DC
+If there are no DCs available for a domain: Rebuild a DC as the first DC
 in the domain or forest, whichever is appropriate. An authoritative AD
 Restore must then be performed.
 
@@ -32,7 +32,7 @@ Restore must then be performed.
     existing forest major replication problems will occur.
 -   Perform the restore process whilst NOT connected the to the network,
     and only reconnect when mentioned below.
--   No pervious DCs should be connected to the network post this
+-   No previous DCs should be connected to the network post this
     procedure.
 
 1.  Restart DC in Directory Services Restore Mode

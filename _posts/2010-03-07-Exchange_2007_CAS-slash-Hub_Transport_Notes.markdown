@@ -43,7 +43,9 @@ Whitelist a sending domain:
     Set-ContentFilterConfig -BypassedSenderDomains somedomain.com,someotherdomain.com
 
 These parameters do not append the list - previous addresses must be
-entered. </strike> It is preferable to use a GUI to edit the whitelist:
+entered.
+
+It is preferable to use a GUI to edit the whitelist:
 <http://gsexdev.blogspot.com/2009/02/content-filtering-system-whitelist-gui.html>
 
 ### Recipient whitelist

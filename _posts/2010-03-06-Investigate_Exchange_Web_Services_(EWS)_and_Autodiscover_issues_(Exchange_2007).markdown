@@ -78,6 +78,6 @@ output:
 
 The [Your Out of Office settings cannot be
 displayed](Your_Out_of_Office_settings_cannot_be_displayed_Error_(Outlook_2007) "wikilink")
-issue presented a 401 error occurring.
+issue presented a 401 error.
 
 [Category:Exchange](Category:Exchange "wikilink")

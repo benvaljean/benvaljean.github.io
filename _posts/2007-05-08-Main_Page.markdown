@@ -280,6 +280,8 @@ Error\]\]
     NTBACKUP](Email_notifications_for_NTBACKUP "wikilink")
 -   [Restore using NTBACKUP
     (Exchange)](Restore_using_NTBACKUP_(Exchange) "wikilink")
+-   [Recovering Active
+    Directory](Recovering_Active_Directory "wikilink")
 
 ### Reference
 

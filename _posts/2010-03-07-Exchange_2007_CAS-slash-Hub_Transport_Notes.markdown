@@ -124,6 +124,4 @@ use the `-identity mailboxalias` parameter. To script it:
     :: http://technet.microsoft.com/en-us/library/aa998280.aspx
     C:\\WINDOWS\\system32\\windowspowershell\\v1.0\\powershell.exe -PSConsoleFile "C:\\ExchangeServerBinaries\\bin\\exshell.psc1" -command "get-mailbox|update-safelist -type safesenders"
 
-[Category:Internal IT](Category:Internal_IT "wikilink")
-[Category:Exchange](Category:Exchange "wikilink")
 [Category:Exchange](Category:Exchange "wikilink")

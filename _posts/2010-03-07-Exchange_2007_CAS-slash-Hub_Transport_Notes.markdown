@@ -33,6 +33,7 @@ Install anti-spam agents on hub transport server if not using edge trans
 server:
 
 <http://www.exchangepedia.com/blog/2006/09/how-to-install-anti-spam-agents-on-hub.html>
+
 Whitelist a sender:
 
     Set-ContentFilterConfig -BypassedSenders foo@somedomain.com,foo2@somedomain.com

@@ -3,9 +3,10 @@ layout: post
 title: Investigate Exchange Web Services (EWS) and Autodiscover issues (Exchange 2007)
 ---
 
-EWS refers to the functions of IIS on a CAS Server that are used by the
-Outlook client, this is separate to OWA. EWS handles Free/busy,OOO,OAB
-and RPC.
+EWS refers to the functions of IIS on a
+[CAS](Exchange_2007_Server_Roles#Client_access_role "wikilink") Server
+that are used by the Outlook client, this is separate to OWA. EWS
+handles Free/busy,OOO,OAB and RPC.
 
 Right-clicking on the Outlook 2007 tray icon and choosing Test email
 Autoconfig tests general autodiscover connectivity. It does not test
@@ -77,7 +78,6 @@ output:
 
 The [Your Out of Office settings cannot be
 displayed](Your_Out_of_Office_settings_cannot_be_displayed_Error_(Outlook_2007) "wikilink")
-issue presented a 401 error occurring, leading to the solution detailed
-above.
+issue presented a 401 error occurring.
 
 [Category:Exchange](Category:Exchange "wikilink")

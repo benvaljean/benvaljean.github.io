@@ -29,7 +29,7 @@ output:
 
     Id      : 1006
     Type    : Information
-    Message : Contacted AutoDiscover at https://ivy.jgp.co.uk/Autodiscover/Autodiscover.
+    Message : Contacted AutoDiscover at https://webmail.companyabc.com/Autodiscover/Autodiscover.
               xml.
 
     Id      : 1016
@@ -45,7 +45,7 @@ output:
     Id      : 1005
     Type    : Error
     Message : When accessing https://ex-cas.companyabc.local/UnifiedMessaging/Service.as
-              mx the error "RemoteCertificateNameMismatch:CN=ivy.jgp.co.uk, OU=IT, O=Job
+              mx the error "RemoteCertificateNameMismatch:CN=webmail.companyabc.com, OU=IT, O=Job
               s Go Public, L=London, S=London, C=GB" was reported.
 
     Id      : 1014

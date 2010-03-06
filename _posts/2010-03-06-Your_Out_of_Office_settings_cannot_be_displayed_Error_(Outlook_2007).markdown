@@ -31,5 +31,10 @@ This error can occur due to one or both of the following causes:
     correct user to open Outlook. In order to access the OOO settings of
     another user you must have full access to their mailbox.
 
+#### See Also
+
+[Your Out of Office settings cannot be displayed\...what\'s
+wrong?](http://www.pro-exchange.eu/modules.php?$1&name=News&file=article&sid=686)
+
 [Category:Outlook](Category:Outlook "wikilink")
 [Category:Exchange](Category:Exchange "wikilink")

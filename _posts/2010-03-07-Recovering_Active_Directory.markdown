@@ -46,11 +46,11 @@ Restore must then be performed.
     . If should be set to \"1\" despite the process having finished in
     reality. This key indicates to NTDS that the AD data is invalid due
     to it being out of date further to a restore and to instruct it to
-    perform the required steps make it useable. It some secenarios it
+    perform the required steps make it usable. It some scenarios it
     could be set to \"0\" but the primary requirement is that the key
     exists. If it does not then the restore has failed and must be
     re-attempted.
-4.  Set the AD DB to be the authorative for the forest:
+4.  Set the AD DB to be the authoritative for the forest:
     1.  Reboot into Directory Services Restore Mode
     2.  Start \> Run \> ntdsutil
     3.  authoritative restore <enter>

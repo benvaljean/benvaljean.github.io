@@ -41,7 +41,7 @@ environment.
 
 *Note:* If there is \>1 mailbox database on the server the -identity
 parameter can be used:
-`-identity "server\\first storage group\\mailbox database"`
+`-identity "server\\storage group\\mailbox database"`
 
 #### Set permission to read/write all mailboxes and send/receive as anyone
 

@@ -249,61 +249,7 @@ if not exist BlockwebConfigFailovers.txt (
 '''In order for the failover script to be re-enabled the BlockwebConfigFailovers.txt file must be deleted.''' Accidentally not deleting this file post a manual failover back to SQLPrincipal following an outage will disable the automatic failover.
 
 
-===WebConfigtosqlmirror.bat script===
-<pre>
-@echo off
-If exist BlockwebConfigFailovers.txt goto eof
-if not exist BlockwebConfigFailovers.txt (
- echo Block future web.config failovers, delete me to undo >>BlockwebConfigFailovers.txt
-)
 
-
-if not exist g:\\maptester.txt (
-  net use g: \\\\1.1.1.1\\WebConfigs
-  if not exist g:\\maptester.txt (
-    echo %date% %time% Tried to map drive but could not find g:\\maptester.txt on web1 >>web.configToMirror.log
-    goto eof
-  )
-)
-
-if not exist h:\\maptester.txt (
-  net use h: \\\\2.2.2.2\\IBConfigs
-  if not exist h:\\maptester.txt (
-    echo %date% %time% Tried to map drive but could not find h:\\maptester.txt on web2 >>web.configToMirror.log
-    goto eof
-  )
-)
-
-
-call :checkfiles g:\\client1\\Config
-call :checkfiles g:\\client2\\Config
-call :checkfiles g:\\client3\\Config
-
-call :checkfiles h:\\client1\\Config
-call :checkfiles h:\\client2\\Config
-call :checkfiles h:\\client3\\Config
-
-
-goto eof
-
-
-:checkfiles
-if not exist %1\\webSQLMirror.config (
-  echo %date% %time% Cannot find webSQLMirror.config for %1 >>web.configToMirror.log
-)
-
-
-if not exist %1\\webSQLPrincipal.config (
-  echo %date% %time% Cannot find IBMinnie.config for %1 >>web.configToMirror.log
-)
-if exist %1\\webSQLMirror.config (
-  del %1\\web.config
-  copy %1\\webSQLMirror.config %1\\web.config
-  echo %date% %time% Setup web.config for SQLMirror for %1 >>web.configToMirror.log
-)
-
-:eof
-</pre>
 
 ==See Also==
 [[Monitor SQL Server (MSSQL) using Nagios|Monitor SQL Server using Nagios]] Show perfmon counters for Mirroring that can be monitored.

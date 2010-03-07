@@ -119,9 +119,10 @@ Error\]\]
 -   [Apache Rewrite](Apache_Rewrite "wikilink")
 -   [SSL Cert Format
     converter](https://www.sslshopper.com/ssl-converter.html)
--   [Renew or Create New Certificate Signing Request (CSR) While Another
-    Certificate Is Currently Installed on
-    IIS](http://support.microsoft.com/default.aspx?scid=kb;en-us;Q295281)
+-   \[<http://support.microsoft.com/default.aspx?scid=kb;en-us;Q295281>
+    Renew or Create New Certificate Signing Request (CSR)
+
+While Another Certificate Is Currently Installed on IIS\]
 
 ### DNS
 
@@ -139,9 +140,6 @@ Error\]\]
     Filter/IMF](Add_Whitelist_functionality_to_Intelligent_Message_Filter/IMF_(Exchange) "wikilink")
 -   [Restore Exchange using
     NTBACKUP](Restore_using_NTBACKUP_(Exchange) "wikilink")
-
-<!-- -->
-
 -   [Re-create Outlook Web Access (OWA) Virtual
     Directories](Re-create_Outlook_Web_Access_Virtual_Directories_(Exchange_2003) "wikilink")
 -   [Stop Producing Backscatter
@@ -167,6 +165,8 @@ Error\]\]
 -   [Exchange 2007 Server Roles](Exchange_2007_Server_Roles "wikilink")
 -   [Monitoring Exchange 2007 using
     Nagios](Monitoring_Exchange_2007_using_Nagios "wikilink")
+-   [Standby Continuous
+    Replication](Standby_Continuous_Replication_(Exchange_2007) "wikilink")
 -   [Non-Delivery Report (NDR) / Bounce
     Codes](Non-Delivery_Report_(NDR)_/_Bounce_Codes_(Email) "wikilink")
 -   [Restore Exchange using

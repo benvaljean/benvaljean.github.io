@@ -165,6 +165,8 @@ While Another Certificate Is Currently Installed on IIS\]
 -   [Exchange 2007 Server Roles](Exchange_2007_Server_Roles "wikilink")
 -   [Monitoring Exchange 2007 using
     Nagios](Monitoring_Exchange_2007_using_Nagios "wikilink")
+-   [Exchange 2007 CAS/Hub Transport
+    Notes](Exchange_2007_CAS/Hub_Transport_Notes "wikilink")
 -   [Standby Continuous
     Replication](Standby_Continuous_Replication_(Exchange_2007) "wikilink")
 -   [Non-Delivery Report (NDR) / Bounce

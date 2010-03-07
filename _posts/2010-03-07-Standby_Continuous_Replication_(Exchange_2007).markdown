@@ -89,11 +89,11 @@ From <http://technet.microsoft.com/en-us/library/cc164368.aspx>
 
 Setting up SCR when creating a new Storage Group:
 
-    [PS] C:\\Documents and Settings\\rradmin>New-StorageGroup -Server EXVALJEAN -Name "StorageGroup1" -LogFolderPath "g:\\ExchangeMailboxDBTransactionLogs2" -SystemFolderPath "g:\\ExchangeMailboxDBTransactionLogs2" -StandbyMachine exjavert.jobsgopublic.local -ReplayLagTime 0.1:0:0 -TruncationLagTime 1.0:0:0
+    [PS] C:\\Documents and Settings\\rradmin>New-StorageGroup -Server EX1 -Name "StorageGroup1" -LogFolderPath "g:\\ExchangeMailboxDBTransactionLogs2" -SystemFolderPath "g:\\ExchangeMailboxDBTransactionLogs2" -StandbyMachine ex2.companyabc.local -ReplayLagTime 0.1:0:0 -TruncationLagTime 1.0:0:0
 
     Name                      Server            Replicated        Recovery
     ----                      ------            ----------        --------
-    StorageGroup1             EXVALJEAN         None              False
+    StorageGroup1             EX1         None              False
 
 In contrast to [SQL
 mirroring](Setting_up_Mirroring_in_SQL_Server_(MSSQL) "wikilink"), no
@@ -105,7 +105,7 @@ log file + ReplayLagTime delay.
 
 ### Verify Replication status
 
-    Get-StorageGroupCopyStatus EXVALJEAN\\StorageGroup1 -Standbymachine EXJAVERT|fl
+    Get-StorageGroupCopyStatus EX1\\StorageGroup1 -Standbymachine EX2|fl
 
 ### Failover Testing
 
@@ -121,7 +121,7 @@ Set the Mirror copy to be active:
      group does not have any passive copies configured..
 
 
-    Identity               : EXVALJEAN\\StorageGroup1
+    Identity               : EX1\\StorageGroup1
     LastLogGenerated       : 1235
     LastLogInspected       : 1235
     LatestAvailableLogTime : 09/04/2009 15:03:15
@@ -213,7 +213,7 @@ SCR:
 On the SCR Target perform reseed:
 
     [PS] C:\\Documents and Settingsuser>Update-StorageGroupCopy -Identity "EX1
-    \\StorageGroup1" -StandbyMachine ex2.jobsgopublic.local
+    \\StorageGroup1" -StandbyMachine ex2.companyabc.local
 
     Confirm
     Continuous replication seeding found an obsolete checkpoint
@@ -232,9 +232,9 @@ On the SCR Target perform reseed:
     is.
     At line:1 char:24
     + Update-StorageGroupCopy  <<<< -Identity "EX1\\StorageGroup1" -StandbyMac
-    hine ex2.jobsgopublic.local
+    hine ex2.companyabc.local
     [PS] C:\\Documents and Settings\\user>Update-StorageGroupCopy -Identity "EX1
-    \\StorageGroup1" -StandbyMachine ex2.jobsgopublic.local -DeleteExistingFi
+    \\StorageGroup1" -StandbyMachine ex2.compnyabc.local -DeleteExistingFi
     les
 
     Confirm
@@ -247,7 +247,7 @@ On the SCR Target perform reseed:
 
 Then resume SCR from the SCR source:
 
-    Resume-StorageGroupCopy "EX1\\StorageGroup1" -StandbyMachine ex2.jobsgopublic.local
+    Resume-StorageGroupCopy "EX1\\StorageGroup1" -StandbyMachine ex2.companyabc.local
 
 [Category:Exchange](Category:Exchange "wikilink") [Category:Disaster
 Recovery](Category:Disaster_Recovery "wikilink")

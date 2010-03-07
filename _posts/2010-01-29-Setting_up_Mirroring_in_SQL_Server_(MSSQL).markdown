@@ -249,7 +249,7 @@ if not exist BlockwebConfigFailovers.txt (
 '''In order for the failover script to be re-enabled the BlockwebConfigFailovers.txt file must be deleted.''' Accidentally not deleting this file post a manual failover back to SQLPrincipal following an outage will disable the automatic failover.
 
 
-==WebConfigtosqlmirror.bat script==
+===WebConfigtosqlmirror.bat script===
 <pre>
 @echo off
 If exist BlockwebConfigFailovers.txt goto eof

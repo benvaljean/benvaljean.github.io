@@ -43,6 +43,13 @@ environment.
 parameter can be used:
 `-identity "server\\first storage group\\mailbox database"`
 
+#### Set permission to read/write all mailboxes and send/receive as anyone
+
+From
+[EMS](http://blogs.msdn.com/exchangefaqs/archive/2008/01/23/exchange-management-shell.aspx):
+
+    Get-MailboxDatabase|Set-ADPermission -user "domain\\user" -ExtendedRights GenericAll Send-As Receive-As
+
 ### Method 2: Use ADSI Editor or AD Explorer
 
 Download

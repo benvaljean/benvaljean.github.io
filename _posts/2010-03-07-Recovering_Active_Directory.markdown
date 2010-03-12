@@ -39,7 +39,6 @@ Restore must then be performed.
 2.  Restore System State through NTBackup ensuring that network adapter
     details, drive letters, computer name and SYSVOL data locations are
     identical to the server that the system state backup was taken from.
-    SYSVOL locations are as their defaults for DC1 and DC2.
 3.  Once finished, again reboot into Directory Services Restore Mode and
     verify the following regkey:
     HKEY\_LOCAL\_MACHINE\\\\SYSTEM\\\\CurrentControlSet\\\\Services\\\\NTDSRestoreInProgress

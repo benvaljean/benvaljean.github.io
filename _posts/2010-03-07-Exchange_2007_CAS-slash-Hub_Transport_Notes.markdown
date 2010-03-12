@@ -7,8 +7,6 @@ See [Exchange 2007 Server Roles](Exchange_2007_Server_Roles "wikilink")
 
 ### AntiSpam Mail-flow
 
-<http://wiki.jobsgopublic.local/images/Exchange2007AntiSpamMailFlow.gif>
-
 1.  A SMTP server connects to Exchange 2007 and initiates an SMTP
     session.
 2.  Connection filtering

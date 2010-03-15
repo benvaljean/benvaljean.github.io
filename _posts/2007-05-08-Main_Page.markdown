@@ -75,7 +75,7 @@ title: Main Page
 -   [BASH Tricks](BASH_Tricks "wikilink")
 -   [BASH Scripting](BASH_Scripting "wikilink")
 -   [SVN for /etc](SVN_for_/etc "wikilink") Version control your /etc
--   [Vi](Vi "wikilink")
+-   [Vi/Vim](Vi/Vim "wikilink")
 -   [Convert Windows/DOS text file to
     Unix/Linux](Convert_Windows/DOS_text_file_to_Unix/Linux "wikilink")
 -   [SSH Tunnels](SSH_Tunnels_(Linux) "wikilink")

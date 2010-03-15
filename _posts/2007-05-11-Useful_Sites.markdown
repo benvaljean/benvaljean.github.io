@@ -256,7 +256,7 @@ as Opera.
 
 #### Auto-append text to all outgoing emails Exchange 2003 (disclaimers)
 
-*Exchange 2007 has can append text natively*
+*Exchange 2007 can append text natively*
 
 -   [Setting up email disclaimers and signatures in Exchange
     Server](http://searchexchange.techtarget.com/generic/0,295582,sid43_gci1322354,00.html)

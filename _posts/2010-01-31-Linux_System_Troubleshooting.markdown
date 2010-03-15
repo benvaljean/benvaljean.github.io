@@ -98,7 +98,8 @@ Line 45 shows that it tries to open the /home/exampleusername/.freetds.conf, fin
 This can be expanded to see whether or not a programme has access to a file by viewing the access system call too for a particular filename:
 <pre>strace -e open,access executable | grep filename.conf</pre>
 ===Ascertain what a process is doing===
-If a particular process is using a lot of CPU or I/O log files along may give no information as to what is causing the problem. The <tt>-p</tt>parameter described above achieve this.
+If a particular process is using a lot of CPU or I/O log files along may give no information as to what is causing the problem. The <tt>-p</tt> parameter described above achieve this.
+
 ===Ascertain what system calls are being used the most===
 Statistics on what system calls are being used can be shown with the <tt>-c</tt> parameter. This can more easily show why a process is using high CPU or I/O by showing which system calls are being used the most.
 

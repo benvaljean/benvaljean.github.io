@@ -163,9 +163,7 @@ See Also: [Squid Stuff](Squid_Stuff "wikilink")
 
 ### Perl
 
--   [If](http://www.tizag.com/perlT/perlif.php)
--   [System function](http://perldoc.perl.org/functions/system.html)
-    running commands\]
+<rss><http://feeds.delicious.com/v2/rss/benyg/perl%7Creverse></rss>
 
 ### Outlook
 

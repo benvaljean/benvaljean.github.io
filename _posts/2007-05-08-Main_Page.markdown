@@ -96,6 +96,8 @@ title: Main Page
 -   [Setup Squid Forward Proxy with Basic
     authentication](Setup_Squid_Forward_Proxy_with_Basic_authentication "wikilink")
 -   [Convert date format](Convert_date_format_(Linux) "wikilink")
+-   [Get Motherboard / Manufacturer information from the command
+    line](Get_Motherboard_/_Manufacturer_information_from_the_command_line_(Linux) "wikilink")
 
 #### Troubleshooting
 

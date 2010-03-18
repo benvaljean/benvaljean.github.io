@@ -45,4 +45,8 @@ Show listening ports and the processes using the ports:
 
     sudo netstat -anp|grep LIST
 
+Show processes sorted by memory usage descending:
+
+    ps -e -orss=,args= | sort -b -k1,1n | pr -TW$COLUMNS
+
 [Category:Linux](Category:Linux "wikilink")

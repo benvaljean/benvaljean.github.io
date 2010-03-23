@@ -14,9 +14,12 @@ distro is used as it Perl\'s syntax rather than the distro\'s syntax.
 
     sudo perl -MCPAN -e shell
 
-Answer no to configure it automatically and follow the menus to select
-an appropriate mirror. Within the CPAN shell perl modules can be
-installed by typing `install MODULE::Name` . For example:
+If you are not prompted to setup a config, type: `o conf init` This will
+clear any config to defaults, choose \'yes\' to select the default
+options, then choose your mirrors.
+
+Within the CPAN shell perl modules can be installed by typing
+`install MODULE::Name` . For example:
 
     install Archive::Zip
 

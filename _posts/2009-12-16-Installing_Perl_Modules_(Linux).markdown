@@ -16,11 +16,19 @@ distro is used as it Perl\'s syntax rather than the distro\'s syntax.
 
 If you are not prompted to setup a config, type: `o conf init` This will
 clear any config to defaults, choose \'yes\' to select the default
-options, then choose your mirrors.
+options. When this has completed type `o conf init urllist` to setup
+your mirrors, followed my `o conf commit` to save changes.
 
 Within the CPAN shell perl modules can be installed by typing
 `install MODULE::Name` . For example:
 
     install Archive::Zip
+
+### Removing config
+
+If there is a problem somewhere in your CPAN config you may need to
+delete your `Config.pm` file. The system-wide file is usually kept in
+/etc/perl/CPAN/Config.pm . The user version \~/.cpan/CPAN/MyConfig.pm is
+used if it exists.
 
 [Category:Linux](Category:Linux "wikilink")

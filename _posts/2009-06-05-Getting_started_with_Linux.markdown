@@ -49,4 +49,9 @@ Show processes sorted by memory usage descending:
 
     ps -e -orss=,args= | sort -b -k1,1n | pr -TW$COLUMNS
 
+Strip out characters from a message:
+
+    ;String colons from a MAC address
+    echo 00:00:00:00:00:00 | tr -d ':'
+
 [Category:Linux](Category:Linux "wikilink")

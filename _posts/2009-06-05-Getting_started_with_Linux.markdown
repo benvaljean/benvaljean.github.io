@@ -49,9 +49,10 @@ Show processes sorted by memory usage descending:
 
     ps -e -orss=,args= | sort -b -k1,1n | pr -TW$COLUMNS
 
-Strip out characters from a message:
+Strip out characters from text:
 
-    ;String colons from a MAC address
+    ;Strip colons from a MAC address
     echo 00:00:00:00:00:00 | tr -d ':'
+    000000000000
 
 [Category:Linux](Category:Linux "wikilink")

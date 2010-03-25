@@ -55,4 +55,9 @@ Strip out characters from text:
     echo 00:00:00:00:00:00 | tr -d ':'
     000000000000
 
+Ascertain what line in the rouitng table a particular destination ip
+uses:
+
+    /sbin/ip ro get 1.1.1.1
+
 [Category:Linux](Category:Linux "wikilink")

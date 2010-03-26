@@ -13,6 +13,8 @@ alias s='sudo'
 alias snan='sudo nano -BSc'
 alias sre='s /home/benyg/sre'
 alias svi='s vim'
+alias hl='history|less'
+alias hg='history|grep $1'
 
 sre:
 

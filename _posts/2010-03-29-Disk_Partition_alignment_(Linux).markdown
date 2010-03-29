@@ -52,7 +52,7 @@ Support Pack.
 
 ### How to create partitions that are aligned
 
-Use fdisk: \'replace /dev/hda1 as applicable\'
+Use fdisk: *replace /dev/hda1 as applicable*
 
 -   `fdisk /dev/hda1`
 -   `n` create a new partition

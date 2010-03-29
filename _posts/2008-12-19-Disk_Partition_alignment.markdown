@@ -7,20 +7,21 @@ Disk partition alignment involves setting the partition offset of the
 first partition on a logical or physical hard-drive whilst taking into
 account the intended cluster size and any RAID striping of the volume.
 Aligning a partition correctly can have significant performance gains.
-[1](http://sqlblog.com/blogs/linchi_shea/archive/2007/02/01/performance-impact-of-disk-misalignment.aspx)
 
 ### Rules for aligning
 
 Both of following calculations must produce integers in order for the
-first partition (and therefore all subsequent partitions) to be
-correctly aligned:
+first partition on a disk (and therefore all subsequent partitions) to
+be correctly aligned:
 
 1.  Partition\_offset divided by Stripe\_size
 2.  Stripe\_size divided by Cluster\_size
 
 For example a partition with offset of 64k, cluster size 64k and RAID
 stripe size of 64k (if applicable) will be correctly aligned. These
-settings will work best with disks that will contain databases.
+settings will work best with disks that will contain databases. - The
+performance degradation of unaligned partition occurs during intensive
+I/O workloads rather than on those with low to moderate I/O activity.
 
 ### How to ascertain these values
 
@@ -42,7 +43,7 @@ run it:
     Next
 
 Look for the offset of the first partition \'partition \#0\' of the
-volume you wish to align.
+volume that needs to be aligned.
 
 2\. Cluster size:\
 Intall the [Windows Server 2003 resource
@@ -56,14 +57,16 @@ Type the following and look for the bytes per cluster value:
 1\. Partition offset:\
 For SCSI:
 
-    fdisk -l /dev/sd*
+    fdisk -lu /dev/sd<x>
 
 For IDE:
 
-    fdisk -l /dev/hd*
+    fdisk -lu /dev/hd<x>
 
-Look for the \'Start\' value for the partition you wish to align. The
-values shown are in bytes, for instance 64k = 65536.
+where <x> is the device suffix.
+
+Look for the \'Start\' value for the partition that needs to be aligned.
+The values shown are in sectors, not cylinders.
 
 2\. Cluster size / File Allocation Unit size:\
 As root, type the following:
@@ -95,17 +98,26 @@ use the DiskPart tool:
 
 #### On Linux
 
-Use parted:
+Use fdisk: \'replace /dev/hda1 as applicable\'
 
-    parted /dev/hda1
-    mkpart primary ext3 1024 2048
-
-    *not finished*
+-   `fdisk /dev/hda1`
+-   `n` create a new partition
+-   `p` create a primary partition
+-   `l` create partition number 1
+-   Select the defaults to use the whole disk or specify your required
+    size.
+-   `t` set the partitions system ID as appropriate
+-   `x` go into expert mode
+-   `b` adjust the starting block number
+-   `1` to choose the first partition
+-   Type in the offset in sectors. For example a 64k RAID stripe size
+    and a 64k cluster size type in `64`.
 
 ### See Also
 
-[Storage performance for SQL
-Server](http://sqlblog.com/blogs/joe_chang/archive/2008/03/04/storage-performance-for-sql-server.aspx)
-
-[MS KB article stating partition alignment as a fix for slow
-performance](http://support.microsoft.com/default.aspx?scid=kb;EN-US;929491)
+-   [Performance impact of disk
+    misalignment](http://sqlblog.com/blogs/linchi_shea/archive/2007/02/01/performance-impact-of-disk-misalignment.aspx)
+-   [Storage performance for SQL
+    Server](http://sqlblog.com/blogs/joe_chang/archive/2008/03/04/storage-performance-for-sql-server.aspx)
+-   [MS KB article stating partition alignment as a fix for slow
+    performance](http://support.microsoft.com/default.aspx?scid=kb;EN-US;929491)

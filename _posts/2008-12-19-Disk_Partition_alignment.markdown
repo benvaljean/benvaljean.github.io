@@ -121,3 +121,6 @@ Use fdisk: \'replace /dev/hda1 as applicable\'
     Server](http://sqlblog.com/blogs/joe_chang/archive/2008/03/04/storage-performance-for-sql-server.aspx)
 -   [MS KB article stating partition alignment as a fix for slow
     performance](http://support.microsoft.com/default.aspx?scid=kb;EN-US;929491)
+
+[Category:Windows](Category:Windows "wikilink")
+[Category:Linux](Category:Linux "wikilink")

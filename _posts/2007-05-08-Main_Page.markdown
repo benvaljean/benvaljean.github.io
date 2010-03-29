@@ -33,6 +33,8 @@ title: Main Page
 -   [Windows DOS Tricks](Windows_DOS_Tricks "wikilink")
 -   [FSMO Roles](FSMO_Roles "wikilink")
 -   [FSMO Role Placement](FSMO_Role_Placement "wikilink")
+-   [Disk Partition
+    alignment](Disk_Partition_alignment_(Windows) "wikilink")
 -   [Windows Installer Cleanup
     Utility](http://support.microsoft.com/kb/290301/en-us) - use this to
     remove persistent install dialogs etc.
@@ -98,6 +100,8 @@ title: Main Page
 -   [Convert date format](Convert_date_format_(Linux) "wikilink")
 -   [Get Motherboard / Manufacturer information from the command
     line](Get_Motherboard_/_Manufacturer_information_from_the_command_line_(Linux) "wikilink")
+-   [Disk Partition
+    alignment](Disk_Partition_alignment_(Linux) "wikilink")
 
 #### Troubleshooting
 

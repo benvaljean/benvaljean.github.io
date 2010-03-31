@@ -60,4 +60,9 @@ uses:
 
     /sbin/ip ro get 1.1.1.1
 
+Setup a portable prompt with user\@host: pwd on systems that have an old
+prompt by default, like some BSD machines
+
+    PS1='\\u@\\h:\\w\\$'
+
 [Category:Linux](Category:Linux "wikilink")

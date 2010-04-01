@@ -24,8 +24,6 @@ non-technical user.
     Add-IPBlockListProvider -Name bl.spamcannibal.org -LookupDomain bl.spamcannibal.org -Enabled $True -RejectionResponse "{1} has blocked your IP address ({0}) using the list '{2}'. Please see http://spamcannibal.org/cannibal.cgi for further information. This organization has no control over this RBL (Realtime Block List)."
     Add-IPBlockListProvider -Name psbl.surriel.com -LookupDomain psbl.surriel.com -Enabled $True -RejectionResponse "{1} has blocked your IP address ({0}) using the list '{2}'. Please see http://psbl.surriel.com/listing?ip={0} for further information. This organization has no control over this RBL (Realtime Block List)."
 
-Remember to ammend \"Company ABC\" to match your comapny!
-
 ### See Also
 
 [Add-IPBlockListProvider

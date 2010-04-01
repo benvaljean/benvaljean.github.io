@@ -3,20 +3,47 @@ layout: post
 title: Deploy
 ---
 
-<pre>alias cd..='cd ..'
-alias cdc='cd ..'
-alias ll='ls'
-alias lll='ls -l'
-alias ls='ls --color=auto'
-alias nan='nano -BSc'
-alias s='sudo'
-alias snan='sudo nano -BSc'
-alias sre='s /home/benyg/sre'
-alias svi='s vim'
-alias hl='history|less'
-alias hg='history|grep $1'
+    alias cd..='cd ..'
+    alias cdc='cd ..'
+    alias ll='ls'
+    alias lll='ls -l'
+    alias ls='ls --color=auto'
+    alias nan='nano -BSc'
+    alias s='sudo'
+    alias smy='ssh myspeed.thecloud.net'
+    alias snan='sudo nano -BSc'
+    #alias sre='s /home/benyg/sre'
+    alias svi='s vim'
+    alias hl='history|less'
+    alias h='host'
 
-sre:
 
-#!/bin/bash
-/etc/init.d/$1 reload
+    t80()
+    {
+    telnet $1 80
+    }
+
+    t443()
+    {
+    telnet $1 443
+    }
+
+    hg()
+    {
+    history|grep $1
+    }
+
+    sre()
+    {
+    sudo /etc/init.d/$1 reload
+    }
+
+    ssa()
+    {
+    sudo /etc/init.d/$1 start
+    }
+
+    sso()
+    {
+    sudo /etc/init.d/$1 stop
+    }

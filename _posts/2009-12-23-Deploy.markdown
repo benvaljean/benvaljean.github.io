@@ -10,7 +10,6 @@ title: Deploy
     alias ls='ls --color=auto'
     alias nan='nano -BSc'
     alias s='sudo'
-    alias smy='ssh myspeed.thecloud.net'
     alias snan='sudo nano -BSc'
     #alias sre='s /home/benyg/sre'
     alias svi='s vim'

@@ -41,5 +41,5 @@ Ascertain what line in the rouitng table a particular destination ip uses:
 <pre>/sbin/ip ro get 1.1.1.1</pre>
 Setup a portable prompt with user@host: pwd on systems that have an old prompt by default, like some BSD machines
 <pre>PS1='\\u@\\h:\\w\\$'</pre>
-Case-insensitive search in less:  '''or type -i'''<pre>/normal search text here/i
+Case-insensitive search in less:  ''or type -i''<pre>/normal search text here/i
 [[Category:Linux]]

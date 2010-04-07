@@ -3,66 +3,43 @@ layout: post
 title: Getting started with Linux
 ---
 
-Copy all files inc subdirs:
-
-    cp -a /usr/local/foo/* /var/temp/bar
-
-Delete all files inc subdirs:
-
-    rm -rf folder
-
+Copy all files inc subdirs:<pre>cp -a /usr/local/foo/* /var/temp/bar</pre>
+Delete all files inc subdirs:<pre>rm -rf folder</pre>
 Find files with indexer:
-
-    updatedb
-    locate filename
-
+<pre>
+updatedb
+locate filename
+</pre>
 Find files without indexer:
-
-    find /dir -name filename
-    find /dir -name '*part of file name*'
-
+<pre>
+find /dir -name filename
+find /dir -name '*part of file name*'
+</pre> 
 Search for packages that contain a certain file
-
-    apt-file search filename
-
-Delete everything older than 7 days:
-
-    find /directoryname -type f -mtime +7 -exec rm {} \\;
-
-Search text within files and print the lines:
-
-    find /dir -type f -exec grep "textinfile" {} \\;
-
+<pre>
+apt-file search filename</pre>
+Delete everything older than 7 days:<pre>
+find /directoryname -type f -mtime +7 -exec rm {} \\;</pre>
+Search text within files and print the lines:<pre>
+find /dir -type f -exec grep "textinfile" {} \\;
+</pre>
 Search text within files and print only the filenames:
-
-    find /dir -type f | xargs grep -li "textinfile"
-
+<pre>find /dir -type f | xargs grep -li "textinfile"</pre>
 Search and replace over multiple files:
-
-    perl -pi -w -e 's/old/new/g;' *.php
-
+<pre>perl -pi -w -e 's/old/new/g;' *.php</pre>
 Show listening ports and the processes using the ports:
-
-    sudo netstat -anp|grep LIST
-
+<pre>sudo netstat -anp|grep LIST</pre>
 Show processes sorted by memory usage descending:
-
-    ps -e -orss=,args= | sort -b -k1,1n | pr -TW$COLUMNS
-
+<pre>ps -e -orss=,args= | sort -b -k1,1n | pr -TW$COLUMNS</pre>
 Strip out characters from text:
-
-    ;Strip colons from a MAC address
-    echo 00:00:00:00:00:00 | tr -d ':'
-    000000000000
-
-Ascertain what line in the rouitng table a particular destination ip
-uses:
-
-    /sbin/ip ro get 1.1.1.1
-
-Setup a portable prompt with user\@host: pwd on systems that have an old
-prompt by default, like some BSD machines
-
-    PS1='\\u@\\h:\\w\\$'
-
-[Category:Linux](Category:Linux "wikilink")
+<pre>
+;Strip colons from a MAC address
+echo 00:00:00:00:00:00 | tr -d ':'
+000000000000
+</pre>
+Ascertain what line in the rouitng table a particular destination ip uses:
+<pre>/sbin/ip ro get 1.1.1.1</pre>
+Setup a portable prompt with user@host: pwd on systems that have an old prompt by default, like some BSD machines
+<pre>PS1='\\u@\\h:\\w\\$'</pre>
+Case-insensitive search in less:  '''or type -i'''<pre>/normal search text here/i
+[[Category:Linux]]

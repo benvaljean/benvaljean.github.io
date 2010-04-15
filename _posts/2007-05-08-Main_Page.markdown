@@ -76,6 +76,7 @@ title: Main Page
     open files by process and set system and process limits
 -   [BASH Tricks](BASH_Tricks "wikilink")
 -   [BASH Scripting](BASH_Scripting "wikilink")
+-   [Less Tricks](Less_Tricks "wikilink")
 -   [SVN for /etc](SVN_for_/etc "wikilink") Version control your /etc
 -   [Vi/Vim](Vi/Vim "wikilink")
 -   [Convert Windows/DOS text file to

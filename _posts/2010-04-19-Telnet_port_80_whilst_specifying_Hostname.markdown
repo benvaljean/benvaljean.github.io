@@ -5,11 +5,11 @@ title: Telnet port 80 whilst specifying Hostname
 
 Telnetting to port 80 is very useful in diagnosing whether or not a
 website is running in more discrete terms than using a browser however
-if you nee to specify a specific hostname telnet cannot d this of course
-as there is no absility to mention a hostname in the GET statement.
-[Curl](http://curl.haxx.se/) can do this of course but if you are on a
-machine that does have it installed you can achieve this by using the
-HTTP1.1 syntax within telnet.
+if you need to specify a specific hostname telnet cannot do this of
+course as there is no ability to mention a hostname in the GET
+statement. [Curl](http://curl.haxx.se/) can do this of course but if you
+are on a machine that does have it installed you can achieve this by
+using the HTTP 1.1 syntax within telnet.
 
 #### Example
 

@@ -3,7 +3,8 @@ layout: post
 title: Less Tricks
 ---
 
-To edit a file based on the VISUAL, EDITOR variables, or Vi by default:
+To edit a file based on the VISUAL or EDITOR variables, or Vi by
+default:
 
     v
 
@@ -28,6 +29,11 @@ Go to to top of file:
 Go to bottom of file:
 
     G
+
+Disable word wrap: *useful for big-column DB queries, -S is also a
+parameter*
+
+    -S
 
 #### Searching tricks
 

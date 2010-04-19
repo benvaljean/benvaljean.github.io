@@ -16,7 +16,7 @@ using the HTTP 1.1 syntax within telnet.
 This example views the 301 redirect from goodacre.name to
 ben.goodacre.name :
 
-    benyg@tcuk-029:~$ telnet ben.goodacre.name 80
+    user@host:~$ telnet ben.goodacre.name 80
     Trying 67.223.225.228...
     Connected to goodacre.name.
     Escape character is '^]'.

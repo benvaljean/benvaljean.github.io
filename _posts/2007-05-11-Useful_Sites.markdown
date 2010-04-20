@@ -59,6 +59,11 @@ sessions saved as files, session filter and launcher.\
 keys](http://www.nirsoft.net/utils/product_cd_key_viewer.html)\
 [Thumbnail/gallery
 generation](http://www.exisoftware.com/download.html#etg)\
+[Shareclip](http://homepage.mac.com/bnej/shareclip/) Sync clipboard
+accross multiple computers. Available for Linux (DEB/RPM/TGZ-binary) ,
+Mac OSX and Windows. Linux version requires libstdc++.so.5. Try the
+compat-libsdtc++5 package on RH flavours, the package for Ubuntu can be
+found [here](http://packages.ubuntu.com/jaunty/i386/libstdc++5/download)
 
 ### Online Backup
 

@@ -35,6 +35,10 @@ parameter*
 
     -S
 
+Show/hide line numbers:
+
+    -N
+
 #### Searching tricks
 
 To search for text that matches the pattern:

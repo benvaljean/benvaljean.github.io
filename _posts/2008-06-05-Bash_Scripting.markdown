@@ -13,6 +13,28 @@ to pipe it into a command or an environment variable:
 
     ifconfig|grep "inet addr:"|grep -v "127.0.0.1"|cut -d: -f2|awk '{ print $1}'
 
+### Simple loop
+
+    users="tom jerry ben"
+    for character in $users
+    do
+      echo $character is a good name
+    done
+
+### Simple If
+
+    oldusers="tom jerry sam micky minnie"
+    if [ ! -d /var/spool/mail ]; then
+            echo /var/spool/mail not found - check location
+    else
+            echo Checking /var/spool/mail
+            for user in $oldusers
+            do
+            if [ -e /var/spool/mail/$user ]; then
+                    echo /var/spool/mail/$user exists
+            fi
+    fi
+
 ### Favorite Resources
 
 [BASH for beginners

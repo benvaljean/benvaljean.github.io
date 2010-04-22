@@ -73,4 +73,12 @@ Delete the first character of every line:
 
     cat file|sed 's/^.//'
 
+Redirect standard output and standard error to a file:
+
+    command >file 2>&1
+
+Pipe standard output and standard error: *tee in this example*
+
+    script 2>&1 | tee file
+
 [Category:Linux](Category:Linux "wikilink")

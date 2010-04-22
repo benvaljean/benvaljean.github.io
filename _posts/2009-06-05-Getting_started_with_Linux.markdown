@@ -69,4 +69,8 @@ Case-insensitive search in less: *or type -i*
 
     /normal search text here/i
 
+Delete the first character of every line:
+
+    cat file|sed 's/^.//'
+
 [Category:Linux](Category:Linux "wikilink")

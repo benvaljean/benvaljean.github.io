@@ -81,4 +81,8 @@ Pipe standard output and standard error: *tee in this example*
 
     script 2>&1 | tee file
 
+Show files accessed this year:
+
+    ls -Rlua /dir|grep -v '\\.$'|grep `date "+%Y"`
+
 [Category:Linux](Category:Linux "wikilink")

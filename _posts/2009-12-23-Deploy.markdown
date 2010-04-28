@@ -46,3 +46,8 @@ title: Deploy
     {
     sudo /etc/init.d/$1 stop
     }
+
+    faccyear()
+    {
+    ls -Rlua $1|grep -v '\\.$'|grep `date "+%Y"`
+    }

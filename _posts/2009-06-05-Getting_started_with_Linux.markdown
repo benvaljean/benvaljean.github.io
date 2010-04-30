@@ -91,7 +91,6 @@ automatically scp the most recen tly modified file to another host:
     scpnewestfile()
     {
     scp `ls -ltr|tail -1|cut -d ' ' -f8` $1
-
-}
+    }
 
 [Category:Linux](Category:Linux "wikilink")

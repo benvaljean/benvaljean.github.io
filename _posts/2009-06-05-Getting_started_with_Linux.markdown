@@ -85,4 +85,13 @@ Show files accessed this year:
 
     ls -Rlua /dir|grep -v '\\.$'|grep `date "+%Y"`
 
+Add to bashrc for a `scpnewestfile user@host:/dir` command to
+automatically scp the most recen tly modified file to another host:
+
+    scpnewestfile()
+    {
+    scp `ls -ltr|tail -1|cut -d ' ' -f8` $1
+
+}
+
 [Category:Linux](Category:Linux "wikilink")

@@ -51,3 +51,8 @@ title: Deploy
     {
     ls -Rlua $1|grep -v '\\.$'|grep `date "+%Y"`
     }
+
+    scpnewestfile()
+    {
+    scp `ls -ltr|tail -1|cut -d ' ' -f8` $1
+    }

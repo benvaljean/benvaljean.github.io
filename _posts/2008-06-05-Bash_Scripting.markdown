@@ -4,7 +4,7 @@ title: Bash Scripting
 ---
 
 BASH [(Bourne Again Shell)](http://www.gnu.org/software/bash/) is a
-command shell for Linux as DOS/Command prompt is to Windows.
+command shell and interpretor for Linux.
 
 ### Get IP address
 

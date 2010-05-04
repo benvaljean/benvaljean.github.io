@@ -268,6 +268,11 @@ Error\]\]
 -   [Your Out of Office settings cannot be displayed Error
     (Outlook 2007)](Your_Out_of_Office_settings_cannot_be_displayed_Error_(Outlook_2007) "wikilink")
 
+### Programming
+
+-   [Perl](Perl "wikilink")
+-   [Regular Expressions](Regular_Expressions "wikilink")
+
 ### CA Brightstor Arcserve Troubleshooting
 
 -   [Database Corruption](Database_Corruption_(Arcserve) "wikilink")

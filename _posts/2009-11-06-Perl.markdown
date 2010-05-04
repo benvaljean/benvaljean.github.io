@@ -3,44 +3,55 @@ layout: post
 title: Perl
 ---
 
-### Auto Install perl script (Linux)
-
+==Auto Install perl script (Linux)==
 Needs to be mofidied for the exact Perl version
-
-    wget wget http://www.perl.com/CPAN/src/perl-5.10.0.tar.gz
-    tar xzf perl-5.10.0.tar.gz
-    cd perl-5.10.1
-    ./Configure -des -Dprefix=/
-    make test
-    sudo make install
-
-#### Troubleshooting
-
+<pre>
+wget wget http://www.perl.com/CPAN/src/perl-5.10.0.tar.gz
+tar xzf perl-5.10.0.tar.gz
+cd perl-5.10.1
+./Configure -des -Dprefix=/
+make test
+sudo make install
+</pre>
+===Troubleshooting===
 Error:
+<pre>
+I can't find make or gmake, and my life depends on it.
+Go find a public domain implementation or fix your PATH setting!
+</pre>
+Either make is not in your $PATH or the build utilites are not installed. Go to [[Debian or Ubuntu Vs CentOS]] and look at the top line to install.
+==Arguments / Parameters==
+The @ARGV array stores parameters.
 
-    I can't find make or gmake, and my life depends on it.
-    Go find a public domain implementation or fix your PATH setting!
+Display the 2nd parameter:<pre>$ARGV[1]</pre>
+Display the number of parameters passed:<pre>@ARGV</pre>
 
-Either make is not in your \$PATH or the build utilites are not
-installed. Go to [Debian or Ubuntu Vs
-CentOS](Debian_or_Ubuntu_Vs_CentOS "wikilink") and look at the top line
-to install.
+==Transforming text==
+These can be used within a string: <tt>"\\Lall text is lowercase"</tt> Or just before a variable: <tt>\\U$varisuppercase</tt>
+==String comparison==
+{| {{table}}
+| eq||equal
+|-
+| ne||not equal
+|-
+| =~||contains
+|-
+| !~||does not contain
+|-
+| 
+|}
 
-### Arguments / Parameters
-
-The \@ARGV array stores parameters.
-
-Display the 2nd parameter:
-
-    $ARGV[1]
-
-Display the number of parameters passed:
-
-    @ARGV
-
-### Transforming text
-
-These can be used within a string: `"\\Lall text is lowercase"` Or just
-before a variable: `\\U$varisuppercase`
-
-[Category:Linux](Category:Linux "wikilink")
+===Example===
+Cycle through the current folder, displaying all files except those that contain "dirtest88" and excluding the "." and ".." folders.
+<pre>
+my $dirname = ".";
+opendir(DIR, $dirname) or die "can't opendir $dirname: $!";
+while (defined($file = readdir(DIR))) {
+    # do something with "$dirname/$file"
+    if ($file ne "." && $file !~ /dirtest88/ && $file ne "..") {
+    say "There is $dirname/$file";
+    }
+}
+closedir(DIR);
+</pre>
+[[Category:Linux]]

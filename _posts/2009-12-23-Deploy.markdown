@@ -54,5 +54,5 @@ title: Deploy
 
     scpnewestfile()
     {
-    scp `ls -ltr|tail -1|cut -d ' ' -f8` $1
+    scp `ls -ltr|tail -1|tr -s ' '|cut -d ' ' -f8` $1
     }

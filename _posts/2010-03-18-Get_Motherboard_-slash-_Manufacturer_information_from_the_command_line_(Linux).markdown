@@ -5,7 +5,7 @@ title: Get Motherboard / Manufacturer information from the command line (Linux)
 
 These commands can be useful if you need to ascertain the manufacturer
 of a server or the motherboard when there is no easy way to physically
-access the PC:
+access it:
 
 RHEL/CentOS/Fedora:
 

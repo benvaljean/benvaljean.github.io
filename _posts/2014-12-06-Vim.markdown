@@ -86,6 +86,18 @@ Insert a double quote `"` at the beginning of each line:
 
     :%s!^!"!
 
+#### Insert text at the beginning of all lines below the cursor
+
+Useful for commenting out text in bulk in Apache, insert a `#` at the
+beginning of all ines below the cursor:
+
+    :.,$s!^!#!
+
+`.` means current line\
+`,` range delimeter\
+`$` refers to EOF/last line\
+`s` substitute command\
+
 #### Show Clipboard items / registers
 
     :reg

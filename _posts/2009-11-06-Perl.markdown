@@ -26,6 +26,17 @@ The @ARGV array stores parameters.
 Display the 2nd parameter:<pre>$ARGV[1]</pre>
 Display the number of parameters passed:<pre>@ARGV</pre>
 
+==Subs==
+<pre>
+sub transform
+{
+say "Frist variable $_[0]\
+Second variable $_[1]";
+}
+
+&transform;   #call sub
+&transform(arg1, arg2);   #call sub with params
+</pre>
 ==Transforming text==
 These can be used within a string: <tt>"\\Lall text is lowercase"</tt> Or just before a variable: <tt>\\U$varisuppercase</tt>
 ==String comparison==

@@ -99,7 +99,7 @@ the plugin can be used in the following service and command config:
     }
     #Due to the way that Nagios expends the $HOSTNAME$ variable it does not work, so an individual check_command must be created per server. If somebody knows the correct way to do this, please add it to discussion.
     define command{
-            check_command           check_mssql_sql1
+            command_name           check_mssql_sql1
             command_line            $USER1$/check_mssql.sh sql1 nagios Rogerrabbit45! 2000
     }
 

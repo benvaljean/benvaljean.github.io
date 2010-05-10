@@ -39,6 +39,20 @@ Second variable $_[1]";
 </pre>
 ==Transforming text==
 These can be used within a string: <tt>"\\Lall text is lowercase"</tt> Or just before a variable: <tt>\\U$varisuppercase</tt>
+==Numeric comparison==
+{| {{table}}
+| ==||Equal to
+|-
+| !=||Not Equal to
+|-
+| >||Greater than
+|-
+| <||Less than
+|-
+| >=||Greater than or Equal to
+|-
+| <=||Less than or Equal to
+|}
 ==String comparison==
 {| {{table}}
 | eq||equal
@@ -65,6 +79,7 @@ while (defined($file = readdir(DIR))) {
 }
 closedir(DIR);
 </pre>
+
 ==Arrays==
 <pre>
 my %splitfilenames (1, "allpics.aa",

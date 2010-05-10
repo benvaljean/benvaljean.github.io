@@ -119,6 +119,7 @@ Error\]\]
 
 ### Web
 
+-   [Linux Web Troubleshooting](Linux_Web_Troubleshooting "wikilink")
 -   [SSL Certificates with Globalsign on
     Firefox](SSL_Certificates_with_Globalsign_on_Firefox "wikilink")
 -   [Rewrite on IIS that actually

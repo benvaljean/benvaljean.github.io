@@ -65,4 +65,13 @@ while (defined($file = readdir(DIR))) {
 }
 closedir(DIR);
 </pre>
+==Arrays==
+<pre>
+my %splitfilenames (1, "allpics.aa",
+            2, "allpics.ab",
+            3, "allpics.ac",
+            4, "allpics.ad",
+            5, "allpics.ae");
+</pre>
+$splitfilenames(2) would then return "allpics.ab"
 [[Category:Linux]]

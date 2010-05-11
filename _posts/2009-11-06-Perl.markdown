@@ -37,8 +37,15 @@ Second variable $_[1]";
 &transform;   #call sub
 &transform(arg1, arg2);   #call sub with params
 </pre>
+==Loops==
+<pre>
+my $pagecount = 20;
+my @onetopagecount = (1 .. $pagecount);
+for my $i (@onetopagecount) { &printpage($i,$pagecount); }
+</pre>
 ==Transforming text==
 These can be used within a string: <tt>"\\Lall text is lowercase"</tt> Or just before a variable: <tt>\\U$varisuppercase</tt>
+
 ==Numeric comparison==
 {| {{table}}
 | ==||Equal to

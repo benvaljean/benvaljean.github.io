@@ -88,5 +88,5 @@ my %splitfilenames (1, "allpics.aa",
             4, "allpics.ad",
             5, "allpics.ae");
 </pre>
-$splitfilenames(2) would then return "allpics.ab"
+<tt>$splitfilenames{2}</tt> would then return "allpics.ab"
 [[Category:Linux]]

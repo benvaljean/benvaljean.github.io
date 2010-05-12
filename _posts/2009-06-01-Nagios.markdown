@@ -341,7 +341,7 @@ Nagios](Monitoring_Exchange_2007_using_Nagios "wikilink")*
 
 Nagios can be configured to extensively monitor Exchange 2007 through
 the use of monitoring services and perfmon counters with tailored
-thresholds. Details on how to monitor the following are explaned:
+thresholds. Details on how to monitor the following are explained:
 
 -   Exchange services: AD Topology, Information Store, Mail Submission,
     Mailbox Assistant, Replication, MSExchangeSearch, Service Host,

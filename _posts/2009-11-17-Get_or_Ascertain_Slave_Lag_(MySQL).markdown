@@ -3,10 +3,10 @@ layout: post
 title: Get or Ascertain Slave Lag (MySQL)
 ---
 
-MySQL master servers can handles queries in parallel whereas a slave
-must do them in series as otherwise data integrity would be lost due to
-cancelled queries and salve restarts, among other things. Due to the
-differences in behaviour there can often be a difference between the
+MySQL master servers can handle queries in parallel whereas a slave must
+do them in series as otherwise data integrity would be lost due to
+canceled queries and slave restarts, among other things. Due to the
+differences in behavior there can often be a difference between the
 master and a slave - the slave does not have the most up to date data as
 it has \'lagged\' behind.
 

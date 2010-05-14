@@ -245,6 +245,12 @@ Error\]\]
 -   [Get or Ascertain Slave
     Lag](Get_or_Ascertain_Slave_Lag_(MySQL) "wikilink")
 
+### PostgreSQL
+
+-   [MySQL vs PostgreSQL](MySQL_vs_PostgreSQL "wikilink")
+-   [List tables in all
+    schemas](List_tables_in_all_schemas_(PostgreSQL) "wikilink")
+
 ### Microsoft Outlook
 
 -   [Disable Attachment

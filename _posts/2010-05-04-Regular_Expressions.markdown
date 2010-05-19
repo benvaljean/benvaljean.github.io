@@ -79,28 +79,28 @@ Regular expressions and used in [[Perl]], [[Apache Rewrite]], [[Vim]] among many
 |-
 | 
 |-
-| \\\
+| \
 ||A newline
 |-
-| \\\    ||A tab
+| \    ||A tab
 |-
-| \\\\w||Any alphanumeric (word) character.
+| \\w||Any alphanumeric (word) character.
 |-
 | ||The same as [a-zA-Z0-9_]
 |-
-| \\\\W||Any non-word character.
+| \\W||Any non-word character.
 |-
 | ||The same as [^a-zA-Z0-9_]
 |-
-| \\\\d||Any digit. The same as [0-9]
+| \\d||Any digit. The same as [0-9]
 |-
-| \\\\D||Any non-digit. The same as [^0-9]
+| \\D||Any non-digit. The same as [^0-9]
 |-
-| \\\\s||Any whitespace character: space, tab, newline, etc
+| \\s||Any whitespace character: space, tab, newline, etc
 |-
-| \\\\S||Any non-whitespace character
+| \\S||Any non-whitespace character
 |-
-| \\\\b||A word boundary, outside [] only
+| \\b||A word boundary, outside [] only
 |-
-| \\\\B||No word boundary
+| \\B||No word boundary
 |}

@@ -23,15 +23,7 @@ Regular expressions and used in [[Perl]], [[Apache Rewrite]], [[Vim]] among many
 |-
 | t.e|| t followed by anthing followed by e
 |-
-| || This will match the
-|-
-| ||                 tre
-|-
-| ||                 tle
-|-
-| || but not te
-|-
-| ||         tale
+| || This will match <tt>the</tt> , <tt>tre</tt> , <tt>tle</tt> , but not <tt>te</tt> or <tt>tale</tt>
 |-
 | ^f|| f at the beginning of a line
 |-
@@ -43,13 +35,7 @@ Regular expressions and used in [[Perl]], [[Apache Rewrite]], [[Vim]] among many
 |-
 | und*|| un followed by zero or more d characters
 |-
-| || This will match un
-|-
-| ||                 und
-|-
-| ||                 undd
-|-
-| ||                 unddd (etc)
+| || This will match <tt>un</tt> , <tt>und</tt> , <tt>undd</tt> , <tt>unddd</tt> etc.
 |-
 | .*|| Any string without a newline. This is because the . matches anything except a newline and the * means zero or more of these.
 |-

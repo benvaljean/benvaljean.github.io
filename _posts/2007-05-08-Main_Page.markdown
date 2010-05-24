@@ -101,6 +101,7 @@ title: Main Page
     line](Get_Motherboard_/_Manufacturer_information_from_the_command_line_(Linux) "wikilink")
 -   [Disk Partition
     alignment](Disk_Partition_alignment_(Linux) "wikilink")
+-   [VNC Quickstart (Ubuntu)](VNC_Quickstart_(Ubuntu) "wikilink")
 
 #### Troubleshooting
 

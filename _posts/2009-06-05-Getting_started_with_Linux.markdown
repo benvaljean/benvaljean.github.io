@@ -97,4 +97,38 @@ Du for each folder without showing subdirs:
 
     for i in `find . -maxdepth 1 -type d`; do du -sh $i; done;
 
+SSH Auto complete:
+
+    SSH_COMPLETE=( $(cat ~/.ssh/known_hosts | \\
+                     cut -f 1 -d ' ' | \\
+                     sed -e s/,.*//g | \\
+                     uniq | \\
+                     egrep -v [0123456789]) )
+    complete -o default -W "${SSH_COMPLETE[*]}" ssh
+
+Remove duplicate files [^1] The script below will find duplicate files
+(files with the same md5sum) in a specified directory and output a new
+shell script containing commented-out rm statements for deleting them.
+You can then edit this output to decide which to keep.
+
+    OUTF=rem-duplicates.sh;
+    echo "#! /bin/sh" > $OUTF;
+    find "$@" -type f -print0 |
+      xargs -0 -n1 md5sum |
+        sort --key=1,32 | uniq -w 32 -d --all-repeated=separate |
+        sed -r 's/^[0-9a-f]*( )*//;s/([^a-zA-Z0-9./_-])/\\\\\\1/g;s/(.+)/#rm \\1/' >> $OUTF;
+    chmod a+x $OUTF; ls -l $OUTF
+
+Find words in garbled text [^2]
+
+    echo "Garbled Text" | grep -o -F -f /usr/share/dict/words | sed -e "/^.$/d"
+
+### References
+
+<references/>
+
 [Category:Linux](Category:Linux "wikilink")
+
+[^1]: <http://www.shell-fu.org/lister.php?id=553>
+
+[^2]: <http://www.shell-fu.org/lister.php?id=525>

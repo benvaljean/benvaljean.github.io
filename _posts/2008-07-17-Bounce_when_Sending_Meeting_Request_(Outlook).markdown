@@ -9,7 +9,7 @@ When sending a meeting request in an environment that uses Microsoft
 Outlook with Exchange to a sent or when the accept or deny it a bounce
 is returned to the person who sent the meeting request. The option in
 Outlook that allows other users to receive meeting requests and
-accpet/dreject them on another user\'s behalf is called
+accpet/reject them on another user\'s behalf is called
 [delegates](https://exchange.sandi.net/info/pdf/How%20to%20configure%20Outlook%20delegates%20in%20windows.pdf).
 This delgates option in Outlook is either ghosted - suggesting that no
 delegates actually exist.

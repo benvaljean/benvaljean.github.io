@@ -3,4 +3,4 @@ layout: post
 title: Vi
 ---
 
-1.  REDIRECT [Vi/Vim](Vi/Vim "wikilink")
+1.  REDIRECT [Vim](Vim "wikilink")

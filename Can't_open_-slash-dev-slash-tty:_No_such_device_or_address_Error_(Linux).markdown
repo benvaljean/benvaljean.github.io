@@ -15,9 +15,13 @@ to localhost:
 
 :   Host key verification failed.
 
-When running `ssh -vvv user@localhost` the exact debug line relating to
-this issue is:
-`debug1: read_passphrase: can't open /dev/tty: No such device or address`.
+:   When running `ssh -vvv user@localhost` the exact debug line relating
+    to this issue is:
+    `debug1: read_passphrase: can't open /dev/tty: No such device or address`.
+
+3\. SFTP fails with the following error in auth.log:
+
+    error: open /dev/tty failed - could not set controlling tty: No such file or directory
 
 ### Cause
 

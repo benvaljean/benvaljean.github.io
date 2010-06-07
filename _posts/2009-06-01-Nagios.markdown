@@ -574,38 +574,6 @@ Notes:
     [EMC](http://technet.microsoft.com/en-us/library/bb123762.aspx)
     (Exchange 2007).
 
-### Domain Expiry Monitoring
-
-1.  Download the
-    [plugin](http://dns.measurement-factory.com/tools/nagios-plugins/src/check_whois)
-    and save in your /usr/local/nagios/libexec dir.
-2.  Install the Date::Manip Perl module, on Debian/Ubuntu the package is
-    libdate-manip-perl , on RHEL/CentOS the package can be
-    perl-Date-Manip or perl-DateManip.noarch .
-3.  Install whois if not present on your system.
-4.  Append this command config to your
-    /usr/local/nagios/etc/objects/commands.cfg:
-
-<!-- -->
-
-    define command{
-            command_name    check_whois
-            command_line    $USER1$/check_whois $ARG1$
-    }
-
-It is best not to use \$HOSTADDRESS\$ as the argument for the check
-command as otherwise every domain will need to have its own host config
-and Nagios will try to ping it by default.
-
-The command should then be referenced in a service:
-
-    define service{
-            use     service
-            host_name       Domains-Expiration
-            service_description domain.com
-            check_command check_whois!domain.com
-    }
-
 ### LDAP Monitoring
 
 This can be used for any LDAP service including Windows Domain

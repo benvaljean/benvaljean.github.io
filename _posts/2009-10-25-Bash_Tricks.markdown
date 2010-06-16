@@ -67,7 +67,7 @@ Insert the last command entered with: <pre>!!</pre> If, for example sudo is not 
 <p>Insert only the arguments from the previous command with <pre>!*</pre>
 ===Dir navigation===
 cd with no arguments always goes to your home dir.<br>
-Cd to last dir: <tt>cd -</tt><br>
+cd to last dir: <tt>cd -</tt><br>
 Put current dir in the stack <tt>pushd .</tt>      Then go back to it with <tt>popd</tt><br>
 Go to dir, run a command and then return to the current dir: <tt>(cd dir && command)</tt>
 

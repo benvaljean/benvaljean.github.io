@@ -7,6 +7,8 @@ Search for packages that contain a certain file
 
     apt-file search filename
 
+Stopwatch on your linux machine: `time cat` to srart, Ctrl+D to stop
+
 #### File searching/manipulation
 
 Copy all files inc subdirs:
@@ -77,8 +79,8 @@ uses:
 
 #### Investigating a system / Troubleshooting
 
-\'See also [Linux System
-Troubeshooting](Linux_System_Troubeshooting "wikilink")\'\
+*See also [Linux System
+Troubleshooting](Linux_System_Troubleshooting "wikilink")*\
 Show processes sorted by memory usage descending:
 
     ps -e -orss=,args= | sort -b -k1,1n | pr -TW$COLUMNS
@@ -101,6 +103,7 @@ Find words in garbled text [^2]
 
 #### BASH
 
+*See Also [BASH Tricks](BASH_Tricks "wikilink")*\
 Setup a portable prompt with user\@host: pwd on systems that have an old
 prompt by default, like some BSD machines
 
@@ -116,7 +119,7 @@ automatically scp the most recen tly modified file to another host:
 
 #### Less
 
-\'See Also: [Less Tricks](Less_Tricks "wikilink")\'\
+*See Also: [Less Tricks](Less_Tricks "wikilink")*\
 Case-insensitive search in less: *or type -i*
 
     /normal search text here/i

@@ -56,12 +56,10 @@ foreach $page (@onetopagecount) { &printpage($page,$pagecount); }
 While there is standard input, read into $line variable
 <ref>http://pages.cs.wisc.edu/~hasti/cs368/Perl/notes/lec02.html</ref>
 <pre>
-  # While there is standard input, read into $line variable
         while $line ( <STDIN> )  
         {                            
            chomp $line;
            print $line;             
-           
         } 
 </pre>
 

@@ -143,11 +143,3 @@ $splitfilenames{1) = "allpics.aa";</pre>
 ==References==
 <references />
 [[Category:Linux]]
-
-==References==
-<references />
-[[Category:Linux]]
-
-==References==
-<references />
-[[Category:Linux]]

@@ -38,11 +38,32 @@ Second variable $_[1]";
 &transform(arg1, arg2);   #call sub with params
 </pre>
 ==Loops==
+===For loops (indices)===
+Indices should be avoided in Perl, as better alternatives exist
 <pre>
 my $pagecount = 20;
 my @onetopagecount = (1 .. $pagecount);
 for my $i (@onetopagecount) { &printpage($i,$pagecount); }
 </pre>
+===Foreach loops===
+<pre>
+my $pagecount = 20;
+my @onetopagecount = (1 .. $pagecount);
+foreach $page (@onetopagecount) { &printpage($i,$pagecount); }
+</pre>
+===While loops===
+While there is standard input, read into $line variable
+<ref>http://pages.cs.wisc.edu/~hasti/cs368/Perl/notes/lec02.html</ref>
+<pre>
+  # While there is standard input, read into $line variable
+        while $line ( <STDIN> )  
+        {                            
+           chomp $line;
+           print $line;             
+           
+        } 
+</pre>
+
 ==Transforming text==
 *These can be used within a string: <tt>"\\Lall text is lowercase"</tt> Or just before a variable: <tt>\\U$varisuppercase</tt>
 *Set first character to be uppercase: <tt>$firstinuppercase = ucfirst($lowercasetext);</tt><br>

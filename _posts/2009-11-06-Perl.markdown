@@ -44,8 +44,8 @@ my @onetopagecount = (1 .. $pagecount);
 for my $i (@onetopagecount) { &printpage($i,$pagecount); }
 </pre>
 ==Transforming text==
-These can be used within a string: <tt>"\\Lall text is lowercase"</tt> Or just before a variable: <tt>\\U$varisuppercase</tt>
-Set first character to be uppercase: <tt>$firstinuppercase = ucfirst($lowercasetext);</tt><br>
+*These can be used within a string: <tt>"\\Lall text is lowercase"</tt> Or just before a variable: <tt>\\U$varisuppercase</tt>
+*Set first character to be uppercase: <tt>$firstinuppercase = ucfirst($lowercasetext);</tt><br>
 
 ==Numeric comparison==
 {| {{table}}

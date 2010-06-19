@@ -125,8 +125,7 @@ while (<TIMELINE_PIPE>) {
 ";
 }
 </pre>
-==
-Associative Arrays (Hashes)==
+==Associative Arrays (Hashes)==
 <pre>
 my %splitfilenames (1, "allpics.aa",
             2, "allpics.ab",
@@ -140,6 +139,10 @@ my %splitfilenames;
 $splitfilenames{1) = "allpics.aa";
 <br>
 <tt>$splitfilenames{2}</tt> would then return "allpics.ab"
+
+==References==
+<references />
+[[Category:Linux]]
 
 ==References==
 <references />

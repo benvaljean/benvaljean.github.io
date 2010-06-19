@@ -49,8 +49,9 @@ for my $i (@onetopagecount) { &printpage($i,$pagecount); }
 <pre>
 my $pagecount = 20;
 my @onetopagecount = (1 .. $pagecount);
-foreach $page (@onetopagecount) { &printpage($i,$pagecount); }
+foreach $page (@onetopagecount) { &printpage($page,$pagecount); }
 </pre>
+
 ===While loops===
 While there is standard input, read into $line variable
 <ref>http://pages.cs.wisc.edu/~hasti/cs368/Perl/notes/lec02.html</ref>

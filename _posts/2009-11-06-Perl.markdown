@@ -88,6 +88,22 @@ while (defined($file = readdir(DIR))) {
 closedir(DIR);
 </pre>
 
+==Extracting text==
+The <tt>split()</tt> function gives [http://www.gnu.org/manual/gawk/html_node/Cut-Program.html cut] functionality to Perl.
+<br>Usage: <tt>split('delimeter',input,max_no_of_fields);</tt>
+===Example===
+Cycle through the output of a find command and output the second dir and put them into the array <tt>@dirnames</tt>:
+<pre>
+open(TIMELINE_PIPE,"find www/ -type f -name *.jp* -mtime 6|");
+my $i=0;
+while (<TIMELINE_PIPE>) {
+    chomp;
+    my @dir1 = split('/',$_,3);
+    my $dir2 = $name1[1];
+    print "$dir2\
+";
+}
+</pre>
 ==Arrays==
 <pre>
 my %splitfilenames (1, "allpics.aa",

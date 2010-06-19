@@ -134,4 +134,6 @@ my %splitfilenames (1, "allpics.aa",
             5, "allpics.ae");
 </pre>
 <tt>$splitfilenames{2}</tt> would then return "allpics.ab"
+==References==
+<references />
 [[Category:Linux]]

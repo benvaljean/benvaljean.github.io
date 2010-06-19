@@ -136,9 +136,13 @@ my %splitfilenames (1, "allpics.aa",
 To add a single value at a time (useful in loops):
 <pre>
 my %splitfilenames;
-$splitfilenames{1) = "allpics.aa";
-<br>
+$splitfilenames{1) = "allpics.aa";</pre>
+
 <tt>$splitfilenames{2}</tt> would then return "allpics.ab"
+
+==References==
+<references />
+[[Category:Linux]]
 
 ==References==
 <references />

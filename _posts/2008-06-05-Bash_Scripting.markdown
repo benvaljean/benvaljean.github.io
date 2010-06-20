@@ -13,7 +13,9 @@ to pipe it into a command or an environment variable:
 
     ifconfig|grep "inet addr:"|grep -v "127.0.0.1"|cut -d: -f2|awk '{ print $1}'
 
-### Simple loop
+### Loops
+
+#### Iterate through words in a string
 
     users="tom jerry ben"
     for character in $users
@@ -21,8 +23,15 @@ to pipe it into a command or an environment variable:
       echo $character is a good name
     done
 
-### Simple If
+#### Looping through a series of numbers
 
+    for i in `seq 1 5`;
+    do
+      echo $i
+    done
+
+    ==Simple If==
+    <pre>
     oldusers="tom jerry sam micky minnie"
     if [ ! -d /var/spool/mail ]; then
             echo /var/spool/mail not found - check location

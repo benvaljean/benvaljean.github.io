@@ -44,20 +44,6 @@ to pipe it into a command or an environment variable:
             fi
     fi
 
-### Simple If
-
-    oldusers="tom jerry sam micky minnie"
-    if [ ! -d /var/spool/mail ]; then
-            echo /var/spool/mail not found - check location
-    else
-            echo Checking /var/spool/mail
-            for user in $oldusers
-            do
-            if [ -e /var/spool/mail/$user ]; then
-                    echo /var/spool/mail/$user exists
-            fi
-    fi
-
 ### Favorite Resources
 
 [BASH for beginners

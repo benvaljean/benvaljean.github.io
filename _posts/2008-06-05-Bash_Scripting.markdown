@@ -51,6 +51,7 @@ book](http://books.google.co.uk/books?hl=en&id=OztsPBFGhDIC&dq=BASH&printsec=fro
 [BASH Scripting
 Techniques](http://www.thelinuxblog.com/bash-scripting-techniques/)\
 [Steve Parker\'s Shell Scrpting
-Book](http://steve-parker.org/sh/buy/shellscriptingbook-sample.pdf)
+Book](http://steve-parker.org/sh/buy/shellscriptingbook-sample.pdf)\
+[If](http://tldp.org/LDP/Bash-Beginners-Guide/html/sect_07_01.html)
 
 [Category:Linux](Category:Linux "wikilink")

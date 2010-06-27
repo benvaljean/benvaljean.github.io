@@ -117,6 +117,20 @@ automatically scp the most recen tly modified file to another host:
     scp `ls -ltr|tail -1|tr -s ' '|cut -d ' ' -f8` $1
     }
 
+#### Archiving
+
+Create archive of dir/
+
+    tar -c dir/ | bzip2 > dir.tar.bz2
+
+Extract archive
+
+    bzip2 -dc dir.tar.bz2|tar -x
+
+Copy dir/ with permissions to remote machine
+
+    ( tar -c /dir/to/copy ) | ssh -C user@remote 'cd /where/to/ && tar -x -p'
+
 #### Less
 
 *See Also: [Less Tricks](Less_Tricks "wikilink")*\

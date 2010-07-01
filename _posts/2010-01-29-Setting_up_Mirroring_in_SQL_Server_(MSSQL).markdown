@@ -136,7 +136,7 @@ Msg 1412, Level 16, State 0, Line 1
 The remote copy of database "ExampleDB" has not been rolled forward to a point in time that is encompassed in the 
 local copy of the database log.
 </pre>
-This when the LSN (Log Sequence Number) of the mirror DB is less than the LSN of the principal. - If this were a DR scenario we would refer to it as a gap in the log chain. Ensure that the restore is done straight after the backup and that you backing up your transaction log to a different file name!
+This when the LSN (Log Sequence Number) of the mirror DB is less than the LSN of the principal. - If this were a DR scenario we would refer to it as a gap in the log chain. Ensure that the restore is done straight after the backup and that you are backing up your transaction log to a different file name!
 
 ==Testing==
 <pre>

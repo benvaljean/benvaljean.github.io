@@ -108,7 +108,7 @@ The principal database when viewed in [http://msdn.microsoft.com/en-us/library/m
 An error occurred while starting mirroring.
 ------------------------------
 ADDITIONAL INFORMATION:
-Alter failed for Database 'basildondemo'.  (Microsoft.SqlServer.Smo)
+Alter failed for Database 'exampledb'.  (Microsoft.SqlServer.Smo)
 
 For help, click: http://go.microsoft.com/fwlink?ProdName=Microsoft+SQL+Server&ProdVer=9.00.4035.00&EvtSrc=Microsoft.SqlServer.Management.Smo.ExceptionTemplates.FailedOperationExceptionText&EvtID=Alter+Database&LinkId=20476
 ------------------------------
@@ -117,7 +117,8 @@ An exception occurred while executing a Transact-SQL statement or batch. (Micros
 The server network address "TCP://SQLMirror.companyabc.local:5123" can not be reached or does not exist. Check the network address name and that the ports for the local and remote endpoints are operational. (Microsoft SQL Server, Error: 1418)
 For help, click: http://go.microsoft.com/fwlink?ProdName=Microsoft+SQL+Server&ProdVer=09.00.4035&EvtSrc=MSSQLServer&EvtID=1418&LinkId=20476
 </pre>
-Check firewalling, but this is usually not an issue with making a connection on the specified port. If you use the exact statements to create the endpoints as shown in this article there should be know problem. Check the application log on the machine that cannot be connected to.
+Check firewalling, but this is usually not an issue with making a connection on the specified port. If you use the exact statements to create the endpoints as shown in this article there should be no problem. Check the application log on the machine that cannot be connected to.
+
 =====Error 3=====
 In the application log
 

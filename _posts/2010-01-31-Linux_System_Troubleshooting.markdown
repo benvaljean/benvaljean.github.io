@@ -35,6 +35,13 @@ Load averages are shown for the last 1, 5 and 15 minutes. Every system is differ
 ==ps==
 To show all processes including their command-lines:
 <pre>ps aux</pre>
+==sar==
+Sar shows system activity history and is very useful for ascertaining activity when a cron job runs when it cannot be run in daytime hours.<br>Show CPU activity history:<pre>sar</pre>
+Show IO history:<pre>sar -b</pre>
+Show paging history:<pre>sar -B</pre>
+Show load average and queue history<pre> sar -q</pre>
+Show memory usage history:<pre>sar -r</pre>
+
 ==free==
 To show the current free and in-use physical RAM and swapped with low/high values in MB:
 <pre>free -ml</pre>

@@ -36,7 +36,7 @@ Load averages are shown for the last 1, 5 and 15 minutes. Every system is differ
 To show all processes including their command-lines:
 <pre>ps aux</pre>
 ==sar==
-Sar shows system activity history and is very useful for ascertaining activity when a cron job runs when it cannot be run in daytime hours.<br>Show CPU activity history:<pre>sar</pre>
+Sar shows system activity history and is very useful for ascertaining activity when a cron job runs when it cannot be run in daytime hours.<p>Show CPU activity history:<pre>sar</pre>
 Show IO history:<pre>sar -b</pre>
 Show paging history:<pre>sar -B</pre>
 Show load average and queue history<pre> sar -q</pre>

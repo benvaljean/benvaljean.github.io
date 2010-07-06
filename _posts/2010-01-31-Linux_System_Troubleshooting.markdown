@@ -94,6 +94,9 @@ This output can then be viewed later:
 ==netcat==
 Netcat can be best described as a replacement for using telnet to truobleshoot specific network connections. In many scenarios telnet is just as useful as netcat but unlike telnet netcat can connect to UDP ports, has no problems interpreting certain characters and a source interface can be specified.
 Connect to server:port<pre>netcat -vv server port</pre>
+===See Also===
+*[http://www.catonmat.net/blog/unix-utilities-netcat A Unix Utility You Should Know About: Netcat]
+*[http://www.ihtb.org/security/hacking_with_your_cat.txt Netcat fun]
 
 ==strace==
 strace shows the systems calls for a process or programme. Try <tt>strace echo hello</tt>. Strace can either invoke a process and monitor system calls end-to-end or attach itself to a process already running.

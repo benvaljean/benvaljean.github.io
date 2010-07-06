@@ -45,6 +45,8 @@ Show memory usage history:<pre>sar -r</pre>
 ==free==
 To show the current free and in-use physical RAM and swapped with low/high values in MB:
 <pre>free -ml</pre>
+==fuser==
+Fuser shows what processes are using a given file, socket or filesystem.<p>Show processes that have locked your home dir:<pre>fuser -v ~</pre>
 ==iostat==
 Iostat gives statistics on I/O and CPU usage. <tt>iostat</tt> without any arguments displays transfers per second since boot as 'tps' although a single logical transfer could be any size and can therefore be misleading. The number of blocks read and written since boot and the blocks read and written per second 'since boot' can also be viewed. <tt>iostat -x</tt> gives more information, but this again is not very useful as it only shows the total since boot.
 

@@ -3,7 +3,7 @@ layout: post
 title: Networking
 ---
 
-==Protocol suite==
+==OSI Stack==
 Six layers work together and are collectively known as the 'stack' or more formally the OSI reference model.
 {| {{table}}
 | align="center" style="background:#f0f0f0;"|'''Layer'''

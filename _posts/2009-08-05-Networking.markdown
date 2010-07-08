@@ -4,7 +4,7 @@ title: Networking
 ---
 
 ==Protocol suite==
-Six layers of protocols work together and are collectively known as the 'stack' or more formally the OSI reference model.
+Six layers work together and are collectively known as the 'stack' or more formally the OSI reference model.
 {| {{table}}
 | align="center" style="background:#f0f0f0;"|'''Layer'''
 | align="center" style="background:#f0f0f0;"|'''Name'''
@@ -28,6 +28,7 @@ Six layers of protocols work together and are collectively known as the 'stack' 
 |-
 | 
 |}
+
 ==Data link frame==
 All data on a network is sent/received in packets, all packets are sent within data link frames:
 

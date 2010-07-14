@@ -87,11 +87,15 @@ Show processes sorted by memory usage descending:
 
 #### Text Manipulation
 
-Strip out characters from text:
+Strip out a single character from text:
 
-    ;Strip colons from a MAC address
+    ;Strip colons from a MAC address, tr cannot be used when stripping a phrase
     echo 00:00:00:00:00:00 | tr -d ':'
     000000000000
+
+Strip out the phrase \'remove me\' from text:
+
+    cat file|sed '/s/remove me//g'
 
 Delete the first character of every line:
 

@@ -83,5 +83,6 @@ Instead of  <tt>ls /etc|less</tt>  this can be shortened to  <tt>less /etc</tt> 
 *[http://www.linuxjournal.com/article/7385 My Favorite bash Tips and Tricks]
 *[http://www.ukuug.org/events/linux2003/papers/bash_tips/ Bash Tips & Tricks  - Simon Myers - UKUUG Linux 2003 Conference • August 2003]
 *[http://twitter.com/bashtips Bashtips on twitter]
+*[http://www.catonmat.net/blog/the-definitive-guide-to-bash-command-line-history The Definitive Guide to Bash Command Line History]
 
 [[Category:Linux]]

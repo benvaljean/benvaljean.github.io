@@ -137,6 +137,14 @@ like this:
     set number
     set ignorecase
 
+### Viewing panes
+
+To split the current file into two horizontal panes:
+
+    :split
+
+Use Ctrl+W to switch panes.
+
 ### Recall previous command
 
 Press Esc to enter command mode, type a single colon, after which the up

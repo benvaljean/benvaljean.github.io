@@ -35,6 +35,14 @@ Load averages are shown for the last 1, 5 and 15 minutes. Every system is differ
 ==ps==
 To show all processes including their command-lines:
 <pre>ps aux</pre>
+
+==lsof==
+View current open files for all processes: 
+<pre>lsof -n</pre>
+View all open files in /var/log:<pre>lsof +D /var/log</pre>
+===See Also===
+[[Open file handling (Linux)|Open file handling]]
+
 ==sar==
 Sar shows system activity history and is very useful for ascertaining activity when a cron job runs when it cannot be run in daytime hours.<p>Show CPU activity history:<pre>sar</pre>
 Show IO history:<pre>sar -b</pre>
@@ -215,5 +223,7 @@ tcpdump can be used instead although strace will show information on a specific 
 *The complete POLLOUT line shows a sucessful connect, on line 14.
 
 Try <tt>strace -e poll,select,connect,recvfrom,sendto curl ben.goodacre.name:111 >/dev/null</tt> to see what the POLLOUT line looks like when curl cannot connect. Port 111 is not open.
+
+
 
 [[Category:Linux]]

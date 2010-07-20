@@ -77,8 +77,8 @@ title: Main Page
 -   [Less Tricks](Less_Tricks "wikilink")
 -   [SVN for /etc](SVN_for_/etc "wikilink") Version control your /etc
 -   [Vi/Vim](Vi/Vim "wikilink")
--   [Convert Windows/DOS text file to
-    Unix/Linux](Convert_Windows/DOS_text_file_to_Unix/Linux "wikilink")
+-   [Convert Windows/DOS text file to Unix/Linux and vica
+    verca](Convert_Windows/DOS_text_file_to_Unix/Linux_and_vica_verca "wikilink")
 -   [SSH Tunnels](SSH_Tunnels_(Linux) "wikilink")
 -   [Iptables](Iptables "wikilink")
 -   [Verify SSH server host key](Verify_SSH_server_host_key "wikilink")

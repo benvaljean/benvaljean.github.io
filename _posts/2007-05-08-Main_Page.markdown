@@ -105,6 +105,8 @@ title: Main Page
 -   [VNC Quickstart (Ubuntu)](VNC_Quickstart_(Ubuntu) "wikilink")
 -   [Force Password Authentication on
     SSH](Force_Password_Authentication_on_SSH_(Linux) "wikilink")
+-   [Virtual IPs/Multiple IPs on one Network Interface
+    (Debian/Ubuntu)](Virtual_IPs/Multiple_IPs_on_one_Network_Interface_(Debian/Ubuntu) "wikilink")
 
 #### Troubleshooting
 

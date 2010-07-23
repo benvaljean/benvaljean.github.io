@@ -258,6 +258,7 @@ Error\]\]
     schemas](List_tables_in_all_schemas_(PostgreSQL) "wikilink")
 -   [Get Database, Schema and Table
     Sizes](Get_Database,_Schema_and_Table_Sizes_(PostgreSQL) "wikilink")
+-   [Always use the pager](Always_use_the_pager_(PostgreSQL) "wikilink")
 
 ### Microsoft Outlook
 

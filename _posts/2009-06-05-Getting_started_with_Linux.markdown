@@ -77,6 +77,14 @@ uses:
 
     /sbin/ip ro get 1.1.1.1
 
+View routing table:
+
+    route -n
+
+Add static route:
+
+    sudo ip route add networkaddress/cidr via next_hop_ip
+
 #### Investigating a system / Troubleshooting
 
 *See also [Linux System

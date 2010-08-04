@@ -65,7 +65,7 @@ alias history='history -n;history'
 Refer to the last dir within a command with: <pre>~-/</pre>
 Insert the last command entered with: <pre>!!</pre> If, for example sudo is not used when it should have been <tt>sudo !!</tt> can be used as an alternative to retyping/copying/pasting the last command.
 <p>Insert all the arguments from the previous command with <pre>!*</pre></p>
-Refer to the Nth argument of the last command:<pre>!!:2</pre>
+Refer to the Nth argument of the last command:<pre>!!:n</pre>
 Refer to the first argument:<pre>!!:2</pre>
 Refer to the last argument:<pre>!:$</pre>
 

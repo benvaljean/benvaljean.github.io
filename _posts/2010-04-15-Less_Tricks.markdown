@@ -43,7 +43,7 @@ Show/hide line numbers:
 
     -N
 
-Show current position in the file: `^G` or </tt>f</tt>\
+Show current position in the file: `^G` or `f`\
 Show new lines, \'forever\' mode, similar to \'tail -f\':
 
     F

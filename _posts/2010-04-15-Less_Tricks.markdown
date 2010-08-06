@@ -30,6 +30,10 @@ Go to bottom of file:
 
     G
 
+Go 50% into the file:
+
+    50p
+
 Disable word wrap: *useful for big-column DB queries, -S is also a
 parameter*
 
@@ -38,6 +42,24 @@ parameter*
 Show/hide line numbers:
 
     -N
+
+Show current position in the file: `^G` or </tt>f</tt>\
+Show new lines, \'forever\' mode, similar to \'tail -f\':
+
+    F
+
+#### Using multiple files
+
+Less can open mutliple files at once, where additional features can be
+utilised:
+
+    less file1 file2 file3
+
+Go to next file: `:n`\
+Go to previous file:`:p`\
+Search across multiple files:
+
+    /*pattern
 
 #### Searching tricks
 
@@ -65,5 +87,12 @@ Repeat last search:
 Repeat last search in the previous direction:
 
     N
+
+#### Add a useful prompt
+
+Add the following to your .bashrc for a more useful prompt with
+additional information:
+
+    alias less='less -P "?f%f .?m(file %i of %m) .?ltlines %lt-%lb?L/%L. . byte %bB?s/%s. ?e(END) :?pB%pB\\%..%t"'
 
 [Category:Linux](Category:Linux "wikilink")

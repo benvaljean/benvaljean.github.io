@@ -95,4 +95,8 @@ additional information:
 
     alias less='less -P "?f%f .?m(file %i of %m) .?ltlines %lt-%lb?L/%L. . byte %bB?s/%s. ?e(END) :?pB%pB\\%..%t"'
 
+#### See Also
+
+[About.com: less](http://linux.about.com/library/cmd/blcmdl1_less.htm)
+
 [Category:Linux](Category:Linux "wikilink")

@@ -55,3 +55,30 @@ title: Deploy
     {
     scp `ls -ltr|tail -1|tr -s ' '|cut -d ' ' -f8` $1
     }
+
+    alias ..='cd ..'
+    alias d='ls -l | grep -E "^d"'
+
+
+    export HISTIGNORE="&:[ ]*:exit"
+
+    trap 'archive_history' EXIT
+    export CURBASHSTART=`grep -v "^[ \    ]*$" $HISTFILE | wc -l | awk '{print $1}'`  CURBASHDATE=`date`
+    shopt -s cmdhist histappend
+    archive_history()
+    {
+        HISTORYOLD=${HISTFILE}.archive
+        CURTIME=`date`
+        CURTTY=`tty`
+        if  [ x$HISTDUMPPED = x ]; then
+          echo "#-${HOSTNAME}-- ${CURBASHDATE} - ${CURTIME} ($CURTTY) ----" >>   $HISTORYOLD
+          history $(($HISTCMD-${CURBASHSTART-0})) | sed -e 's/^[ ]*[0-9][0-9]* [ ]*//g'  >> $HISTORYOLD
+          export HISTDUMPPED=1
+        fi
+    }
+
+    exit ()
+    {
+       archive_history
+       builtin exit
+    }

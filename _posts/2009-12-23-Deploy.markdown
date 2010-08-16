@@ -60,6 +60,8 @@ title: Deploy
     alias d='ls -l | grep -E "^d"'
 
 
+    alias less='less -P "?f%f .?m(file %i of %m) .?ltlines %lt-%lb?L/%L. . byte %bB?s/%s. ?e(END) :?pB%pB\\%..%t"'
+
     export HISTIGNORE="&:[ ]*:exit"
 
     trap 'archive_history' EXIT

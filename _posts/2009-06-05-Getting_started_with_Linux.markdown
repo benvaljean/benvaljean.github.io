@@ -70,7 +70,7 @@ You can then edit this output to decide which to keep.
 
 Show listening ports and the processes using the ports:
 
-    sudo netstat -anp|grep LIST
+    sudo netstat -ltnup
 
 Ascertain what line in the rouitng table a particular destination ip
 uses:

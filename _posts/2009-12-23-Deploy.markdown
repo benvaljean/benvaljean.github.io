@@ -84,3 +84,8 @@ title: Deploy
        archive_history
        builtin exit
     }
+
+    fif () 
+    { 
+        find . -type f -exec grep -li $1 {} \\;
+    }

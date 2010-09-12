@@ -58,3 +58,5 @@ Located as */var/lib/pgsql/data/pg\_hba.conf* or
 replacing the network range with your network:
 
     host   dbnamehere   username  10.0.0.0/24
+
+[Category:PostgreSQL](Category:PostgreSQL "wikilink")

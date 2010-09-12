@@ -59,4 +59,8 @@ replacing the network range with your network:
 
     host   dbnamehere   username  10.0.0.0/24
 
+Restart server to apply changes: Debian / Ubuntu:
+`sudo /etc/init.d/postgresql restart` RHEL / CentOS /
+Fedora:`sudo service postgresql restart`
+
 [Category:PostgreSQL](Category:PostgreSQL "wikilink")

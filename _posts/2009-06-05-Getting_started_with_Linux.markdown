@@ -8,6 +8,7 @@ Search for packages that contain a certain file
     apt-file search filename
 
 Stopwatch on your linux machine: `time cat` to srart, Ctrl+D to stop
+Show startup items:`chkconfig --list`
 
 #### File searching/manipulation
 

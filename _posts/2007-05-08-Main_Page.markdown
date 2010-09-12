@@ -253,6 +253,8 @@ Error\]\]
 
 ### PostgreSQL
 
+-   [Getting started with
+    PostgreSQL](Getting_started_with_PostgreSQL "wikilink")
 -   [MySQL vs PostgreSQL](MySQL_vs_PostgreSQL "wikilink")
 -   [List tables in all
     schemas](List_tables_in_all_schemas_(PostgreSQL) "wikilink")

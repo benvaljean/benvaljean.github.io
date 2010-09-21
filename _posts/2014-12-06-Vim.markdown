@@ -7,10 +7,9 @@ Vi is free, open-source advanced text editor. A clone of Vi called
 [Vim](http://www.vim.org) is now commonly used as a *vImproved*
 alternative. It is often used on Linux flavours although ports for
 Windows [gVim portable](http://portablegvim.sourceforge.net/) and Mac
-OSX [Vim for Mac](http://macvim.org/OSX/index.php) are available. Its
-differentiator from other text editors is the many
-keyboard-shortcut-based commands are available, just a few of which are
-listed here.
+OSX [Vim for Mac](http://macvim.org/OSX/index.php) are available. It has
+many keyboard-shortcut-based commands, just a few of which are listed
+here.
 
 ### Commands
 

@@ -20,7 +20,7 @@ For a non-renamed instance the following can be used:
 If the instance has been renamed the service will have a dollar-sign
 (\"\$\") as part of it, for example an instance called \"MAIN\" will be
 called \"MSSQL\$MAIN\". Dollar signs indicate variables to Nagios so the
-character must be escaped. Escaping characters invovles repeating it and
+character must be escaped. Escaping characters involves repeating it and
 encapsulating it within quotation marks, see below:
 
     define service{

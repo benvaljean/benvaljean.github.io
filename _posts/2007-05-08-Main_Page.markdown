@@ -107,6 +107,7 @@ title: Main Page
     SSH](Force_Password_Authentication_on_SSH_(Linux) "wikilink")
 -   [Virtual IPs/Multiple IPs on one Network Interface
     (Debian/Ubuntu)](Virtual_IPs/Multiple_IPs_on_one_Network_Interface_(Debian/Ubuntu) "wikilink")
+-   [Mount NFS Share (Ubuntu)](Mount_NFS_Share_(Ubuntu) "wikilink")
 
 #### Troubleshooting
 

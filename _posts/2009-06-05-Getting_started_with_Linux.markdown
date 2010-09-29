@@ -20,6 +20,10 @@ Delete all files inc subdirs:
 
     rm -rf folder
 
+SCP a folder including sub-dirs:
+
+    scp -r folder/ 1.1.1.1:
+
 Find files with indexer:
 
     updatedb

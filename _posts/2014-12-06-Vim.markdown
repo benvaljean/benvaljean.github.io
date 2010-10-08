@@ -13,6 +13,13 @@ here.
 
 ### Commands
 
+#### Movement
+
+Beginning of word: **b**\
+End of current word: **e**\
+Beginning of line: **0**\
+End of line: **\$**\
+
 #### Search and replace
 
     :%s/OLD/NEW/g

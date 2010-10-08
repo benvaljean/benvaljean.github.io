@@ -108,6 +108,21 @@ beginning of all ines below the cursor:
 
     :reg
 
+#### Visual mode commands
+
+Whilst in command mode, press **v** to enter visual mode. The cursor
+keys can now be used to select text. the following commands will affect
+the text that has been selected. Copy/Yank and Cut/Delete can also be
+used with visual mode.
+
+##### Indent text
+
+    >
+
+##### De-Indent text
+
+    <
+
 #### Paste from register number 2
 
     "2p

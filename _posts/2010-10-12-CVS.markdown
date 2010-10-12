@@ -1,0 +1,18 @@
+---
+layout: post 
+title: CVS
+---
+
+#### Create new project in an existing repo
+
+-   Ensure you CVSROOT variable is set or use the `-d` parameter to set
+    it.
+
+<!-- -->
+
+    mkdir new-project
+    cd new-project
+    cvs import new-project alternative-name v1
+
+-   Enter a description in the Vim window that appears and exit and the
+    project will have been created.

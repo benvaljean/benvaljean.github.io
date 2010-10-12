@@ -16,3 +16,9 @@ title: CVS
 
 -   Enter a description in the Vim window that appears and exit and the
     project will have been created.
+
+#### Add new dir to repo
+
+    cd peroject/
+    mkdir new-folder
+    cvs add new-folder

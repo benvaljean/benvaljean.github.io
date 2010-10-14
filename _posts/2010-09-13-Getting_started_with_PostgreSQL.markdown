@@ -35,7 +35,7 @@ Re-enter the psql terminal:
 
 Create a user and give it full permissions to the DB:
 
-    create user with login username with password 'passhere';
+    create user usernamehere with password 'passhere';
     GRANT ALL PRIVILEGES ON DATABASE dbnamehere to username;
 
 By default the psql terminal uses your shell username for the user, in

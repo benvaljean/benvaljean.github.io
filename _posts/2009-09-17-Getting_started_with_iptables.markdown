@@ -3,8 +3,6 @@ layout: post
 title: Getting started with iptables
 ---
 
-[iptables](http://www.netfilter.org) is the native firewall for Linux.
-
 To view the current FW rules in place:
 
     sudo iptables -L

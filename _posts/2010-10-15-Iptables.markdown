@@ -1,0 +1,7 @@
+---
+layout: post 
+title: Iptables
+---
+
+1.  REDIRECT [Getting started with
+    iptables](Getting_started_with_iptables "wikilink")

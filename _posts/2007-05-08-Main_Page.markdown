@@ -80,7 +80,6 @@ title: Main Page
 -   [Convert Windows/DOS text file to Unix/Linux and vica
     verca](Convert_Windows/DOS_text_file_to_Unix/Linux_and_vica_verca "wikilink")
 -   [SSH Tunnels](SSH_Tunnels_(Linux) "wikilink")
--   [Iptables](Iptables "wikilink")
 -   [Verify SSH server host key](Verify_SSH_server_host_key "wikilink")
 -   [Debian / Ubuntu Vs RHEL / CentOS /
     Fedora](Debian_/_Ubuntu_Vs_RHEL_/_CentOS_/_Fedora "wikilink")
@@ -120,10 +119,6 @@ title: Main Page
 
 Error\]\]
 
--   [Error: Warning: weird character in interface \`interface eth0:alias
-    0\' (No aliases, :, ! or \*)
-    (Iptables)](Error:_Warning:_weird_character_in_interface_`interface_eth0:alias_0'_(No_aliases,_:,_!_or_*)_(Iptables) "wikilink")
-
 ### Web
 
 -   [Linux Web Troubleshooting](Linux_Web_Troubleshooting "wikilink")
@@ -139,6 +134,19 @@ Error\]\]
 -   [Renew or Create New Certificate Signing Request (CSR) While Another
     Certificate Is Currently Installed on
     IIS](http://support.microsoft.com/default.aspx?scid=kb;en-us;Q295281)
+
+### iptables
+
+-   [Getting started with
+    iptables](Getting_started_with_iptables "wikilink")
+-   [Send all incoming traffic on an interface to a listening
+    port](Send_all_incoming_traffic_on_an_interface_to_a_listening_port_(iptables) "wikilink")
+
+#### Troubleshooting
+
+-   [Error: Warning: weird character in interface \`interface eth0:alias
+    0\' (No aliases, :, ! or
+    \*)](Error:_Warning:_weird_character_in_interface_`interface_eth0:alias_0'_(No_aliases,_:,_!_or_*)_(Iptables) "wikilink")
 
 ### DNS
 

@@ -22,3 +22,21 @@ title: CVS
     cd peroject/
     mkdir new-folder
     cvs add new-folder
+
+#### Files
+
+Add a new file:
+
+    cvs add filename
+
+Remove file from the repo, but keep prevision versions:
+
+    rm file
+    cvs remove file
+    cvs commit
+
+Reverse/undo a commit, if current version is 1.1 and the prevision
+version is 1.0:
+
+    cvs update -j 1.1 -j 1.0 file
+    cvs commit file

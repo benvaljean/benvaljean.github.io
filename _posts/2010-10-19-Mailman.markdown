@@ -1,0 +1,17 @@
+---
+layout: post 
+title: Mailman
+---
+
+Change list password
+
+    change_pw -l listname -p newpass
+    Change pass of all lists<pre>change_pw -a -p newpass
+
+Remove a list but retain contents
+
+    rmlist listname
+
+Remove a list and delete contents
+
+    rmlist -a listname

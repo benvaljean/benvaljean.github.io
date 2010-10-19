@@ -133,7 +133,7 @@ Error\]\]
     0\' (No aliases, :, ! or
     \*)](Error:_Warning:_weird_character_in_interface_`interface_eth0:alias_0'_(No_aliases,_:,_!_or_*)_(Iptables) "wikilink")
 
-#### Cisco
+### Cisco
 
 -   [Change MTU for interface and check for too-large
     packets](Change_MTU_for_interface_and_check_for_too-large_packets_(Cisco) "wikilink")

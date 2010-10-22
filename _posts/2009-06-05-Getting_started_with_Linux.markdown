@@ -118,6 +118,10 @@ Find words in garbled text [^2]
 
     echo "Garbled Text" | grep -o -F -f /usr/share/dict/words | sed -e "/^.$/d"
 
+Get columns 1 and 3 and seperate with commas:
+
+    cat file | awk -v OFS=',' '{print $1, $3}'
+
 #### BASH
 
 *See Also [BASH Tricks](BASH_Tricks "wikilink")*\

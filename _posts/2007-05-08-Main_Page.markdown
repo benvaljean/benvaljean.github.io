@@ -126,6 +126,7 @@ Error\]\]
     iptables](Getting_started_with_iptables "wikilink")
 -   [Send all incoming traffic on an interface to a listening
     port](Send_all_incoming_traffic_on_an_interface_to_a_listening_port_(iptables) "wikilink")
+-   [NATing](NATing_(iptables) "wikilink")
 
 ##### Troubleshooting
 

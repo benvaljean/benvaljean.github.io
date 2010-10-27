@@ -52,6 +52,7 @@ book](http://books.google.co.uk/books?hl=en&id=OztsPBFGhDIC&dq=BASH&printsec=fro
 Techniques](http://www.thelinuxblog.com/bash-scripting-techniques/)\
 [Steve Parker\'s Shell Scrpting
 Book](http://steve-parker.org/sh/buy/shellscriptingbook-sample.pdf)\
-[If](http://tldp.org/LDP/Bash-Beginners-Guide/html/sect_07_01.html)
+[If](http://tldp.org/LDP/Bash-Beginners-Guide/html/sect_07_01.html)\
+[Operators and constructs](http://tldp.org/LDP/abs/html/refcards.html)
 
 [Category:Linux](Category:Linux "wikilink")

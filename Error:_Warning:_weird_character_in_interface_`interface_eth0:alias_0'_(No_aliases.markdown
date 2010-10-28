@@ -46,3 +46,4 @@ parameter can be used to limit the rule to a specific interface.
 
 [Category:Linux](Category:Linux "wikilink")
 [Category:Networking](Category:Networking "wikilink")
+[Category:Iptables](Category:Iptables "wikilink")

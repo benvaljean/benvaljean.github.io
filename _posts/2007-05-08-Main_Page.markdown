@@ -136,6 +136,7 @@ Error\]\]
 
 ### Cisco
 
+-   [Cisco Tricks](Cisco_Tricks "wikilink")
 -   [Change MTU for interface and check for too-large
     packets](Change_MTU_for_interface_and_check_for_too-large_packets_(Cisco) "wikilink")
 

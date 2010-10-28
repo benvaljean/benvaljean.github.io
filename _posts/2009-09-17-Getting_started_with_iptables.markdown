@@ -218,3 +218,4 @@ all traffic in case it is needed.
 
 [Category:Linux](Category:Linux "wikilink")
 [Category:Networking](Category:Networking "wikilink")
+[Category:iptables](Category:iptables "wikilink")

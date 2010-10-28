@@ -17,3 +17,5 @@ iptables output should look like:
     xxxK  xxxM REDIRECT   tcp  --  eth1   *       0.0.0.0/0            0.0.0.0/0           redir ports 3128 
 
 [Category:Networking](Category:Networking "wikilink")
+[Category:Linux](Category:Linux "wikilink")
+[Category:iptables](Category:iptables "wikilink")

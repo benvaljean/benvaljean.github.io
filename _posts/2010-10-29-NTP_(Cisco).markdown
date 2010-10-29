@@ -1,0 +1,27 @@
+---
+layout: post 
+title: NTP (Cisco)
+---
+
+Show currently configured NTP servers
+
+    show running-config | i ntp
+
+Remove an NTP server
+
+    en
+    conf t
+    no ntp server x.x.x.x
+
+Add NTP server
+
+    ntp server x.x.x.x
+
+Show NTP status:
+
+    show ntp status
+    show ntp associations
+
+It can take 15 minutes for the NTP sync to occur.
+
+[Category:Cisco](Category:Cisco "wikilink")

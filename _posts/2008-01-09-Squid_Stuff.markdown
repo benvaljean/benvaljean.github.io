@@ -4,7 +4,7 @@ title: Squid Stuff
 ---
 
 <font color=red>Do not have the Squid disk-cache on a RAIDed volume, or
-a RAIDed LUN on a SAN if not just RAID 0</font>
+a RAIDed LUN on a SAN if not just RAID 0</font> test
 
 #### Useful Sites
 

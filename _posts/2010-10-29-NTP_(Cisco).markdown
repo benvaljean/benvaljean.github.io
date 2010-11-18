@@ -3,6 +3,10 @@ layout: post
 title: NTP (Cisco)
 ---
 
+Get current time
+
+    show clock
+
 Show currently configured NTP servers
 
     show running-config | i ntp

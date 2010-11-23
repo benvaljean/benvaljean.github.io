@@ -63,7 +63,13 @@ While there is standard input, read into $line variable
         } 
 </pre>
 
-==Transforming text==
+==Numeric Variable operations==
+Increment: <tt>$num++;</tt><br>
+Decrement: <tt>$num--;</tt><br>
+Add $b to $a: <tt>$a += $b;    </tt>
+Subtract $b from $a: <tt>$a -= $b;</tt>
+==String Variable operations==
+Put two strings together: <tt>$a = $b . $c;</tt>
 *These can be used within a string: <tt>"\\Lall text is lowercase"</tt> Or just before a variable: <tt>\\U$varisuppercase</tt>
 *Set first character to be uppercase: <tt>$firstinuppercase = ucfirst($lowercasetext);</tt><br>
 

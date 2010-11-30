@@ -10,7 +10,7 @@ Allow a maximum of 3 SSH connections per minute:
 
     -A INPUT -p tcp --dport 22 -m state --state NEW -m limit --limit 3/min --limit-burst 3 -j ACCEPT
 
-Ensure this rule is above the rule that allows your SSH connections
+Ensure this rule is above the INPUT rule that allows the connections.
 
 [Category:Linux](Category:Linux "wikilink")
 [Category:Iptables](Category:Iptables "wikilink")

@@ -129,6 +129,8 @@ Error\]\]
 -   [Send all incoming traffic on an interface to a listening
     port](Send_all_incoming_traffic_on_an_interface_to_a_listening_port_(iptables) "wikilink")
 -   [NATing](NATing_(iptables) "wikilink")
+-   [Prevent brute-force attack by rate-limiting connections
+    (iptables)](Prevent_brute-force_attack_by_rate-limiting_connections_(iptables) "wikilink")
 
 ##### Troubleshooting
 

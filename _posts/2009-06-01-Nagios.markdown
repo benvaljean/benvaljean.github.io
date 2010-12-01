@@ -521,7 +521,7 @@ The command should then be referenced in a service:
             address                 127.0.0.1
     }
 
-### SSL Cert expiry monitoring
+### SSL Cert Expiry monitoring
 
 The check\_http command can natively monitor the SSL expiry of a cert
 with the `-C` parameter.
@@ -529,7 +529,6 @@ with the `-C` parameter.
 -   OpenSSL must be installed and the plugin must be compiled with
     opennssl with the `--with-openssl` parameter in your `./configure`
 
-\
 Monitor the cert listening on the hosts ip address and alert if within
 14 days of expiry:
 

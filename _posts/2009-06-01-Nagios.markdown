@@ -521,6 +521,33 @@ The command should then be referenced in a service:
             address                 127.0.0.1
     }
 
+### SSL Cert expiry monitoring
+
+The check\_http command can natively monitor the SSL expiry of a cert
+with the `-C` parameter.
+
+-   OpenSSL must be installed and the plugin must be compiled with
+    opennssl with the `--with-openssl` parameter in your `./configure`
+
+\
+Monitor the cert listening on the hosts ip address and alert if within
+14 days of expiry:
+
+    define command{
+    command_name check_ssl_expiry
+    command_line /usr/lib/nagios/plugins/check_http --ssl -C 14 -H '$HOSTADDRESS$' -I '$HOSTADDRESS$'
+    }
+
+A service directive can then be used as follows on each web server,
+presuming you have 1 listening SSL interface per server:
+
+    define service{
+            use                     generic-service
+            host_name  web_server
+            service_description     SSL Cert Expiry
+            check_command           check_ssl_expiry
+    }
+
 ### End to end email checking
 
 Nagios can monitor end-to-end email functonality when used with a perl

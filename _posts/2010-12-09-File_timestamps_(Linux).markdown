@@ -5,7 +5,7 @@ title: File timestamps (Linux)
 
 #### Last modified time
 
--   Shown by default form `ls` with `ls -l`
+-   Shown by default from `ls`, with `ls -l`
 
 #### Last accessed time
 

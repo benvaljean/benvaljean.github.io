@@ -288,6 +288,7 @@ Error\]\]
     search\_path](Set_Default_Schema_/_search_path_(PostgreSQL) "wikilink")
 -   [Find and replace -
     regexp\_replace](Find_and_replace_-_regexp_replace_(PostreSQL) "wikilink")
+-   [Output Query as CSV](Output_Query_as_CSV_(PostgreSQL) "wikilink")
 
 ### Microsoft Outlook
 

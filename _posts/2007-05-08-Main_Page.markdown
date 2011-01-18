@@ -111,6 +111,8 @@ title: Main Page
 -   [Set Bash Loop
     Delimiter](Set_Bash_Loop_Delimiter_(Linux) "wikilink")
 -   [File timestamps](File_timestamps_(Linux) "wikilink")
+-   [Increase simultaneous/concurrent TCP
+    connections](Increase_simultaneous/concurrent_TCP_connections_(Linux) "wikilink")
 
 #### Troubleshooting
 

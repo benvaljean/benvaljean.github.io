@@ -63,4 +63,8 @@ Restart server to apply changes: Debian / Ubuntu:
 `sudo /etc/init.d/postgresql restart` RHEL / CentOS /
 Fedora:`sudo service postgresql restart`
 
+#### Safer way to restart than init.d
+
+    pg_ctl -D <psql data dir> -m immediate restart
+
 [Category:PostgreSQL](Category:PostgreSQL "wikilink")

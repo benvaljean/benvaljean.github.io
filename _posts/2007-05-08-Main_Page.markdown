@@ -158,6 +158,7 @@ Error\]\]
 -   [Apache Rewrite](Apache_Rewrite "wikilink")
 -   [Telnet port 80 whilst specifying
     Hostname](Telnet_port_80_whilst_specifying_Hostname "wikilink")
+-   [OpenSSL](OpenSSL "wikilink")
 -   [SSL Cert Format
     converter](https://www.sslshopper.com/ssl-converter.html)
 -   [Renew or Create New Certificate Signing Request (CSR) While Another

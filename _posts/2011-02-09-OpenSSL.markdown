@@ -7,12 +7,12 @@ title: OpenSSL
 
     openssl x509 -noout -in cert.crt -dates
 
-### Get cert Subject/CN
-
-=
+#### Get cert Subject/CN
 
     openssl x509 -noout -in cert.crt -subject
 
 #### Convert PEM and plain text key to PKCS12/P12 format
 
     openssl pkcs12 -export -out cert.pfx -inkey cert.key -in cert.crt
+
+[Category:Web](Category:Web "wikilink")

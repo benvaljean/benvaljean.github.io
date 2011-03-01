@@ -26,5 +26,8 @@ and it slowly became an established website. With 3000+ unique users per
 month (audited to remove bots) it has come a long way from an IBM laptop
 sitting under my desk.
 
+I work for an ISP as a Linux Systems Administrator, based NW of London,
+UK.
+
 Comments or suggestions - please get in touch. I would love to hear from
 you. <http://ben.goodacre.name/contact>

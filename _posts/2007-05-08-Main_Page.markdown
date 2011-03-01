@@ -292,6 +292,8 @@ Error\]\]
 -   [Find and replace -
     regexp\_replace](Find_and_replace_-_regexp_replace_(PostreSQL) "wikilink")
 -   [Output Query as CSV](Output_Query_as_CSV_(PostgreSQL) "wikilink")
+-   [Copy table structure
+    only](Copy_table_structure_only_(PostgreSQL) "wikilink")
 
 ### Microsoft Outlook
 

@@ -11,6 +11,6 @@ This site is no longer called Rogerrabbit.net as the domain appeared
 nonsensical. Originally this site was called Rogerrabbit.net and was
 only a personal site, I put it online and its links found their way onto
 other websites and it slowly became an established website, even though
-I do say so myself. :) With \~2500 unique users per month (audited to
+I do say so myself. :) With \~2500+ unique users per month (audited to
 remove bots) it has come a long way from an IBM laptop sitting under my
 desk.

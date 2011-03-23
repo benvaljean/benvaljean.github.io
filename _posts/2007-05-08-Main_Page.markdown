@@ -113,6 +113,8 @@ title: Main Page
 -   [File timestamps](File_timestamps_(Linux) "wikilink")
 -   [Increase simultaneous/concurrent TCP
     connections](Increase_simultaneous/concurrent_TCP_connections_(Linux) "wikilink")
+-   [Capture DHCP packets using
+    Tcpdump](Capture_DHCP_packets_using_Tcpdump_(Linux) "wikilink")
 
 #### Troubleshooting
 

@@ -35,6 +35,16 @@ Load averages are shown for the last 1, 5 and 15 minutes. Every system is differ
 | 
 |}
 
+===CPU Usage summary fields===
+us = user mode<br>
+sy = system mode<br>
+ni = low priority user mode (nice)<br>
+id = idle task<br>
+wa = I/O waiting - waiting for disk to complete operation usually<br>
+hi = servicing hardware interrupts<br>
+si = servicing software interrupts<br>
+t = steal (time given to other DomU instances)
+
 ==ps==
 To show all processes including their command-lines:
 <pre>ps aux</pre>

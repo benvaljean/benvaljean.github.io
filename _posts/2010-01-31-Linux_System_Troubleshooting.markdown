@@ -30,8 +30,11 @@ Load averages are shown for the last 1, 5 and 15 minutes. Every system is differ
 |-
 | o||Change column order
 |-
+| 1 ||Show individual CPUs
+|-
 | 
 |}
+
 ==ps==
 To show all processes including their command-lines:
 <pre>ps aux</pre>

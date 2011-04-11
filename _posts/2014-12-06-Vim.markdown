@@ -176,4 +176,16 @@ and down keys can be used in the same manner as BASH.
 Type a set of text in INSERT mode and go into COMMAND mode by pressing
 Esc. Now pressing `.` (a dot/period) will re-type the text typed in.
 
+### Tabs
+
+Vim can open many files at once and arrange them in tabs:
+
+    vim -p blah.csv blah2.csv
+
+To move between tabs use `:tabn` and `:tabp`
+
+#### Run a command on all files/tabs open
+
+     :tabdo $s/replace/this/g
+
 [Category:Linux](Category:Linux "wikilink")

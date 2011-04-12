@@ -115,9 +115,8 @@ title: Main Page
     connections](Increase_simultaneous/concurrent_TCP_connections_(Linux) "wikilink")
 -   [Capture DHCP packets using
     Tcpdump](Capture_DHCP_packets_using_Tcpdump_(Linux) "wikilink")
--   [Calculate Sum and Average using Awk
-    (Linux)](Calculate_Sum_and_Average_using_Awk_(Linux) "wikilink")\|Calculate
-    Sum and Average using Awk\]\]
+-   [Calculate Sum and Average using
+    Awk](Calculate_Sum_and_Average_using_Awk_(Linux) "wikilink")
 
 #### Troubleshooting
 

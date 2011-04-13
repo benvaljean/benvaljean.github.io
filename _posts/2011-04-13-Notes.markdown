@@ -1,0 +1,8 @@
+---
+layout: post 
+title: Notes
+---
+
+#### Bluecoat
+
+OID for current TCP sessions: 1.3.6.1.2.1.6.9.0

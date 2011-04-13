@@ -40,6 +40,20 @@ are under the `so` column and page-ins are under the `si` column.
     Vmstat <delay in seconds> <count>
 
 For a 5 second dealy between each output 10 times: `vmstat 5 10`.
-Running vmstat qwith no count runs indefinitely.
+Running vmstat with no count runs indefinitely.
+
+-   swpd: The amount of the page file in use
+-   free: Memory not in use, same figure that the `free` command gives.
+-   buff: Memory used as buffer. When data is used Linux may keep some
+    of it in memory as a \'virtual disk\'. Similar to pre-caching in
+    Windows, if GIMP is loaded, closed and restarted it will open faster
+    the second time if Linux has placed it in the buffer.
+-   cache: Memory used as disk-cache. Data that is instended to go to
+    disk is placed here to speed up processes, so that they do nto have
+    to wait for I/O. data that is re-read can also be retrieved from
+    here.
+-   si: Data that is swapped in from disk to memory.
+-   so: Data that is swapped out from memory to disk - this can indicate
+    a system that is eating up its RAM.
 
 [Category:Linux](Category:Linux "wikilink")

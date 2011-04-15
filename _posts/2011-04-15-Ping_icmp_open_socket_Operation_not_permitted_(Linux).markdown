@@ -13,7 +13,7 @@ Unless you are root, ping shows the following error message:
 #### Cause
 
 On Linux (and other flavours) you have to be root to open up a socket.
-the SUID bit must be set in the ping binary to allow it to open sockets.
+The SUID bit must be set in the ping binary to allow it to open sockets.
 This issue is common on jailing users as most disto\'s ping binary will
 have this set by default.
 

@@ -117,6 +117,9 @@ title: Main Page
 
 Error\]\]
 
+-   [Ping: icmp open socket: Operation not
+    permitted](Ping:_icmp_open_socket:_Operation_not_permitted_(Linux) "wikilink")
+
 #### SSH
 
 -   [SSH Tunnels](SSH_Tunnels_(Linux) "wikilink")

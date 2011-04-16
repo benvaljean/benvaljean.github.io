@@ -27,6 +27,10 @@ While there is standard input, read into \$line variable [^1]
                print $line;             
             } 
 
+#### References
+
+<references />
+
 [Category:Perl](Category:Perl "wikilink")
 
 [^1]: <http://pages.cs.wisc.edu/~hasti/cs368/Perl/notes/lec02.html>

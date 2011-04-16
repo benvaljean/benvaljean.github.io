@@ -336,8 +336,13 @@ Error\]\]
 
 ### Programming
 
--   [Perl](Perl "wikilink")
 -   [Regular Expressions](Regular_Expressions "wikilink")
+
+#### Perl
+
+-   [Perl](Perl "wikilink")
+-   [Calling subs from separate
+    script](Calling_subs_from_separate_script_(Perl) "wikilink")
 
 ### CA Brightstor Arcserve Troubleshooting
 

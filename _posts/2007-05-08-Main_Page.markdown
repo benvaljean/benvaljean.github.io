@@ -343,7 +343,8 @@ Error\]\]
 -   [Loops](Loops_(Perl) "wikilink")
 -   [Parameters](Parameters_(Perl) "wikilink")
 -   [Subs](Subs_(Perl) "wikilink")
--   [Transforming text](Transforming_text_(Perl) "wikilink")
+-   [Numeric and String variable
+    operations](Numeric_and_String_variable_operations_(Perl) "wikilink")
 -   [Extracting text](Extracting_text_(Perl) "wikilink")
 -   [Numeric and String
     comparison](Numeric_and_String_comparison_(Perl) "wikilink")

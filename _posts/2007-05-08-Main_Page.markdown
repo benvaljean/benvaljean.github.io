@@ -340,8 +340,14 @@ Error\]\]
 
 #### Perl
 
--   [Perl](Perl "wikilink")
 -   [Loops](Loops_(Perl) "wikilink")
+-   [Parameters](Parameters_(Perl) "wikilink")
+-   [Subs](Subs_(Perl) "wikilink")
+-   [Transforming text](Transforming_text_(Perl) "wikilink")
+-   [Extracting text](Extracting_text_(Perl) "wikilink")
+-   [Numeric and String
+    comparison](Numeric_and_String_comparison_(Perl) "wikilink")
+-   [Associative Arrays](Associative_Arrays_(Perl) "wikilink")
 -   [Calling subs from separate
     script](Calling_subs_from_separate_script_(Perl) "wikilink")
 

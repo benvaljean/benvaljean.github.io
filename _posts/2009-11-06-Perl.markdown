@@ -3,6 +3,4 @@ layout: post
 title: Perl
 ---
 
-1.  REDIRECT
-
-[Category:Perl](Category:Perl "wikilink")
+[Perl.log](http://www.perl.org)

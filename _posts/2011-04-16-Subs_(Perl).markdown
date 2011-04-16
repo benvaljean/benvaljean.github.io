@@ -1,0 +1,20 @@
+---
+layout: post 
+title: Subs (Perl)
+---
+
+    sub transform
+    {
+    say "Frist variable $_[0]\
+    Second variable $_[1]";
+    }
+
+    &transform;   #call sub
+    &transform(arg1, arg2);   #call sub with params
+
+#### See Also
+
+[Calling subs from separate
+script](Calling_subs_from_separate_script_(Perl) "wikilink")
+
+[Category:Perl](Category:Perl "wikilink")

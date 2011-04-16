@@ -341,6 +341,7 @@ Error\]\]
 #### Perl
 
 -   [Perl](Perl "wikilink")
+-   [Loops](Loops_(Perl) "wikilink")
 -   [Calling subs from separate
     script](Calling_subs_from_separate_script_(Perl) "wikilink")
 

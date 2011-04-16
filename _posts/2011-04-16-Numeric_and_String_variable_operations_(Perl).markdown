@@ -12,7 +12,8 @@ Subtract \$b from \$a: `$a -= $b;`\
 
 #### String Variable operations
 
-Put two strings together: `$a = $b . $c;`
+Put two strings together: `$a = $b . $c;`\
+Append to variable: `$d .= "appended text";`
 
 -   These can be used within a string: `"\\Lall text is lowercase"` Or
     just before a variable: `\\U$varisuppercase`

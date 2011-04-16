@@ -3,4 +3,4 @@ layout: post
 title: Perl
 ---
 
-[Perl.log](http://www.perl.org)
+[Perl.org](http://www.perl.org)

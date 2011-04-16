@@ -37,32 +37,6 @@ Second variable $_[1]";
 &transform;   #call sub
 &transform(arg1, arg2);   #call sub with params
 </pre>
-==Loops==
-===For loops (indices)===
-Indices should be avoided in Perl, as better alternatives exist
-<pre>
-my $pagecount = 20;
-my @onetopagecount = (1 .. $pagecount);
-for my $i (@onetopagecount) { &printpage($i,$pagecount); }
-</pre>
-===Foreach loops===
-<pre>
-my $pagecount = 20;
-my @onetopagecount = (1 .. $pagecount);
-foreach $page (@onetopagecount) { &printpage($page,$pagecount); }
-</pre>
-
-===While loops===
-While there is standard input, read into $line variable
-<ref>http://pages.cs.wisc.edu/~hasti/cs368/Perl/notes/lec02.html</ref>
-<pre>
-        while $line ( <STDIN> )  
-        {                            
-           chomp $line;
-           print $line;             
-        } 
-</pre>
-
 ==Numeric Variable operations==
 Increment: <tt>$num++;</tt><br>
 Decrement: <tt>$num--;</tt><br>

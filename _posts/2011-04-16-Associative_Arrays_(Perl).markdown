@@ -12,7 +12,7 @@ title: Associative Arrays (Perl)
 To add a single value at a time (useful in loops):
 
     my %splitfilenames;
-    $splitfilenames{1) = "allpics.aa";
+    $splitfilenames(1) = "allpics.aa";
 
 `$splitfilenames{2}` would then return \"allpics.ab\"
 

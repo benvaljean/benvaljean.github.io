@@ -40,3 +40,7 @@ version is 1.0:
 
     cvs update -j 1.1 -j 1.0 file
     cvs commit file
+
+View previous versions available:
+
+    cvs log file

@@ -15,4 +15,10 @@ title: OpenSSL
 
     openssl pkcs12 -export -out cert.pfx -inkey cert.key -in cert.crt
 
+#### s\_client for telnet-like troubleshooting for SSL connections
+
+See [Linux Web Troubleshooting\#OpenSSL s\_client for telnet-like
+troubleshooting for SSL
+connections](Linux_Web_Troubleshooting#OpenSSL_s_client_for_telnet-like_troubleshooting_for_SSL_connections "wikilink")
+
 [Category:Web](Category:Web "wikilink")

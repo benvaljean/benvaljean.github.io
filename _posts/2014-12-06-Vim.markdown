@@ -142,6 +142,10 @@ indents are placed on the lines. To disable this:
 
     A
 
+#### Diff current unsaved buffer with saved version
+
+    :w !diff % -
+
 #### Cheat sheet
 
 <http://www.eec.com/business/vi.html>

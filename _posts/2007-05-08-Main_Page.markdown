@@ -105,6 +105,8 @@ title: Main Page
     line](Get_Motherboard_/_Manufacturer_information_from_the_command_line_(Linux) "wikilink")
 -   [Get Hard disk manufacturer and
     model](Get_Hard_disk_manufacturer_and_model_(Linux) "wikilink")
+-   [Ascertain package provides a given binary with
+    rpm](Ascertain_package_provides_a_given_binary_with_rpm_(Linux) "wikilink")
 
 #### Troubleshooting
 

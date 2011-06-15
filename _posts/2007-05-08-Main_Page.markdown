@@ -106,7 +106,7 @@ title: Main Page
 -   [Get Hard disk manufacturer and
     model](Get_Hard_disk_manufacturer_and_model_(Linux) "wikilink")
 -   [Ascertain package provides a given binary with
-    rpm](Ascertain_package_provides_a_given_binary_with_rpm_(Linux) "wikilink")
+    rpm](Ascertain_what_package_provides_a_given_binary_with_rpm_(Linux) "wikilink")
 
 #### Troubleshooting
 

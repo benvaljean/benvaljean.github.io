@@ -44,6 +44,11 @@ to pipe it into a command or an environment variable:
             fi
     fi
 
+### Force run as root
+
+    #Only root can run ipset
+    if [ $UID != "0" ];then echo Only root can run this command 1>&2;exit 1;fi
+
 ### Favorite Resources
 
 [BASH for beginners

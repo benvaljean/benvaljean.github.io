@@ -30,7 +30,7 @@ to pipe it into a command or an environment variable:
       echo $i
     done
 
-### Simple If
+### If
 
     oldusers="tom jerry sam micky minnie"
     if [ ! -d /var/spool/mail ]; then
@@ -43,6 +43,20 @@ to pipe it into a command or an environment variable:
                     echo /var/spool/mail/$user exists
             fi
     fi
+
+#### Numeric Operators
+
+##### Single braces
+
+-eq\    equal -ne\    not equal -gt\    greater than -ge\    greater than or
+equal to -lt\    less than -le\    less than or equal to
+
+##### Double Parentheses
+
+Standard mathematical operators apply
+
+\<=\    less than or equal to \>\    greater than \>=\    greater than or
+equal to
 
 ### Force run as root
 

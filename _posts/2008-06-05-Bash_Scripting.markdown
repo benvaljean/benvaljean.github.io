@@ -41,7 +41,7 @@ else
 fi
 </pre>
 ===Numeric Operators===
-====Single braces====
+====Single Braces====
 {| {{table}}
 | -eq||equal
 |-
@@ -63,6 +63,27 @@ Standard mathematical operators apply
 | >||greater than
 |-
 | >=||greater than or equal to
+|}
+===String Operators===
+====Single Braces====
+{| {{table}}
+| =||equal
+|-
+| ==||equal, but has file globbing and word splitting when wildcarded without quotes, and literal matching with quotes
+|-
+| !=||not equal
+|-
+| -z||string is null
+|-
+| -n||string is not null - MUST be quoted string but string should always be quoted anyway...
+|}
+====Double Braces====
+{| {{table}}
+| <||less than in ASCII order
+|-
+| >||more than in ASCII order
+|-
+| ==||equal, but has pattern matching when wildcarded, literal matching with quotes
 |}
 
 ==Force run as root==

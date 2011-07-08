@@ -21,4 +21,16 @@ See [Linux Web Troubleshooting\#OpenSSL s\_client for telnet-like
 troubleshooting for SSL
 connections](Linux_Web_Troubleshooting#OpenSSL_s_client_for_telnet-like_troubleshooting_for_SSL_connections "wikilink")
 
+#### Generate server key and CSR for purchasing SSL cert
+
+Generate RSA key, key size 4096 bytes, without encryption to avoid
+requiring to enter a password when starting the daemon:
+
+    openssl genrsa -out domainname.key 4096
+
+Generate the CSR. Some providers will complain when the CSR \> 2048 even
+if the a key size of \>2048 is accepted:
+
+    openssl genrsa -out domainname.key 2048
+
 [Category:Web](Category:Web "wikilink")

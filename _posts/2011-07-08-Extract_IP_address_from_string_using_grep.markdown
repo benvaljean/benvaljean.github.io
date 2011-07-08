@@ -12,4 +12,4 @@ title: Extract IP address from string using grep
     72.30.2.43
     98.137.149.56
 
-[Categroy:Linux](Categroy:Linux "wikilink")
+[Category:Linux](Category:Linux "wikilink")

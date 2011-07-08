@@ -28,9 +28,10 @@ requiring to enter a password when starting the daemon:
 
     openssl genrsa -out domainname.key 4096
 
-Generate the CSR. Some providers will complain when the CSR \> 2048 even
-if the a key size of \>2048 is accepted:
+Generate the CSR:
 
-    openssl genrsa -out domainname.key 2048
+    openssl req -new -key domainname.key -out domainname.csr
+
+The CSR will smaller than the key size, this is OK.
 
 [Category:Web](Category:Web "wikilink")

@@ -5,10 +5,19 @@ title: Bash Scripting
 
 BASH [http://www.gnu.org/software/bash/ (Bourne Again Shell)] is a command shell and interpretor for Linux.
 
+==Parameters==
+$#  Number of parameters
+
+$1  First parameter
+
+$0  Name of the script
+
+$@  All the parameters in one string
 ==Get IP address==
 
 The following command will print the IP address by itself allowing you to pipe it into a command or an environment variable:
 <pre>ifconfig|grep "inet addr:"|grep -v "127.0.0.1"|cut -d: -f2|awk '{ print $1}'</pre>
+
 ==Loops==
 ===Iterate through words in a string===
 <pre>

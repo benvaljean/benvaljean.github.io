@@ -35,8 +35,11 @@ amount of memory in modern standards (\<1Gb).
 
     # echo "4096" >/proc/sys/net/ipv4/tcp_max_syn_backlog
 
-</pre>
-
 -   Check `dmesg` to see if the problem reoccurs.
+
+#### See Also
+
+[tcp\_max\_syn\_backlog \|
+LinuxInsight](http://www.linuxinsight.com/proc_sys_net_ipv4_tcp_max_syn_backlog.html)
 
 [Category:Linux](Category:Linux "wikilink")

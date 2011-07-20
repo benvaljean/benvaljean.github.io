@@ -111,8 +111,6 @@ title: Main Page
     grep](Extract_IP_address_from_string_using_grep "wikilink")
 -   [Sourcing variables from other files using Source
     command](Sourcing_variables_from_other_files_using_Source_command_(Linux) "wikilink")
--   [Possible SYN flooding on port xxx. Sending
-    cookies](Possible_SYN_flooding_on_port_xxx._Sending_cookies_(Linux) "wikilink")
 
 #### Troubleshooting
 
@@ -127,6 +125,8 @@ Error\]\]
 
 -   [Ping: icmp open socket: Operation not
     permitted](Ping:_icmp_open_socket:_Operation_not_permitted_(Linux) "wikilink")
+-   [Possible SYN flooding on port xxx. Sending
+    cookies](Possible_SYN_flooding_on_port_xxx._Sending_cookies_(Linux) "wikilink")
 
 #### SSH
 

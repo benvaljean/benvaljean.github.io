@@ -15,6 +15,12 @@ Show VRFs:
 
     show ip vrf
 
+#### Show failover config
+
+`sh ip int brief` will not show VIPs, to show this:
+
+    sh standby
+
 #### Restart VPN tunnel
 
 Initiate config mode, and \'cd\' to the tunnel interface:

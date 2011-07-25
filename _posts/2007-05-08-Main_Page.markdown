@@ -194,6 +194,8 @@ Error\]\]
 -   [DNS TTLs](DNS_TTLs "wikilink")
 -   [Ascertain and Hide the BIND Version
     Number](Ascertain_and_Hide_the_BIND_Version_Number "wikilink")
+-   [Find duplicate PTRs in a zone
+    file](Find_duplicate_PTRs_in_a_zone_file "wikilink")
 
 ### Microsoft Exchange 2000/2003
 

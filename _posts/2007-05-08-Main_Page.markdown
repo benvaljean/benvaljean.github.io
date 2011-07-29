@@ -353,6 +353,8 @@ Error\]\]
 ### Programming
 
 -   [Regular Expressions](Regular_Expressions "wikilink")
+-   [Python script fails with \": command not
+    found\"](Python_script_fails_with_":_command_not_found" "wikilink")
 
 #### Perl
 

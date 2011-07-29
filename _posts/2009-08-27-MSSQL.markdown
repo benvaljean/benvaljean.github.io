@@ -5,4 +5,4 @@ title: MSSQL
 
 [Microsoft SQL Server](http://www.functionx.com/sqlserver)
 
-[Category:IT](Category:IT "wikilink")
+[Category:Windows](Category:Windows "wikilink")

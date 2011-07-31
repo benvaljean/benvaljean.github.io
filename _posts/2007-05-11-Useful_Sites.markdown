@@ -101,7 +101,7 @@ found [here](http://packages.ubuntu.com/jaunty/i386/libstdc++5/download)
 *See [Rewrite on IIS that actually
 works](Rewrite_on_IIS_that_actually_works "wikilink")*
 
-IIS cannot perform rewrite natively but it can do through the use of
+IIS6 cannot perform rewrite natively but it can do through the use of
 these plugins:
 <rss><http://feeds.delicious.com/v2/rss/benyg/iis+rewrite%7Creverse></rss>
 

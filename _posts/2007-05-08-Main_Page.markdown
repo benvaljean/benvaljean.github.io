@@ -5,6 +5,91 @@ title: Main Page
 
 \_\_NOEDITSECTION\_\_
 
+### Linux
+
+-   [Linux Tricks](Linux_Tricks "wikilink")
+-   [Nagios](Nagios "wikilink")
+-   [Debian / Ubuntu Vs RHEL / CentOS /
+    Fedora](Debian_/_Ubuntu_Vs_RHEL_/_CentOS_/_Fedora "wikilink")
+-   [Open file handling](Open_file_handling_(Linux) "wikilink") List
+    open files by process and set system and process limits
+-   [Less Tricks](Less_Tricks "wikilink")
+-   [SVN for /etc](SVN_for_/etc "wikilink") Version control your /etc
+-   [Vi/Vim](Vi/Vim "wikilink")
+-   [Convert Windows/DOS text file to Unix/Linux and vica
+    verca](Convert_Windows/DOS_text_file_to_Unix/Linux_and_vica_verca "wikilink")
+-   [Force password change at next
+    login](Force_password_change_at_next_login_(Linux) "wikilink")
+-   [Chmod codes](Chmod_codes_(Linux) "wikilink")
+-   [Block dangerous/unsafe attachments in
+    Postfix](Block_dangerous/unsafe_attachments_(Postfix) "wikilink")
+-   [Installing Perl
+    Modules](Installing_Perl_Modules_(Linux) "wikilink")
+-   [Setup Squid Forward Proxy with Basic
+    authentication](Setup_Squid_Forward_Proxy_with_Basic_authentication "wikilink")
+-   [Convert date format](Convert_date_format_(Linux) "wikilink")
+-   [Disk Partition
+    alignment](Disk_Partition_alignment_(Linux) "wikilink")
+-   [VNC Quickstart (Ubuntu)](VNC_Quickstart_(Ubuntu) "wikilink")
+-   [Mount NFS Share (Ubuntu)](Mount_NFS_Share_(Ubuntu) "wikilink")
+-   [Mailman](Mailman "wikilink")
+-   [File timestamps](File_timestamps_(Linux) "wikilink")
+-   [Calculate Sum and Average using
+    Awk](Calculate_Sum_and_Average_using_Awk_(Linux) "wikilink")
+-   [Get Motherboard / Manufacturer information from the command
+    line](Get_Motherboard_/_Manufacturer_information_from_the_command_line_(Linux) "wikilink")
+-   [Get Hard disk manufacturer and
+    model](Get_Hard_disk_manufacturer_and_model_(Linux) "wikilink")
+-   [Ascertain what package provides a given binary with
+    rpm](Ascertain_what_package_provides_a_given_binary_with_rpm_(Linux) "wikilink")
+-   [Extract IP address from string using
+    grep](Extract_IP_address_from_string_using_grep "wikilink")
+
+#### Troubleshooting
+
+-   [Linux System
+    Troubleshooting](Linux_System_Troubleshooting "wikilink")
+-   [Couldn\'t open /dev/null
+    Error](Couldn't_open_/dev/null_Error_(Linux) "wikilink")
+-   \[\[Can\'t open /dev/tty: No such device or address Error
+    (Linux)\|Can\'t open /dev/tty: No such device or address
+
+Error\]\]
+
+-   [Ping: icmp open socket: Operation not
+    permitted](Ping:_icmp_open_socket:_Operation_not_permitted_(Linux) "wikilink")
+-   [Possible SYN flooding on port xxx. Sending
+    cookies](Possible_SYN_flooding_on_port_xxx._Sending_cookies_(Linux) "wikilink")
+
+### Scripting
+
+-   [Regular Expressions](Regular_Expressions "wikilink")
+-   [Python script fails with \": command not
+    found\"](Python_script_fails_with_":_command_not_found" "wikilink")
+
+#### BASH
+
+-   [BASH Scripting](BASH_Scripting "wikilink")
+-   [BASH Tricks](BASH_Tricks "wikilink")
+-   [Set Bash Loop
+    Delimiter](Set_Bash_Loop_Delimiter_(Linux) "wikilink")
+-   [Sourcing variables from other files using Source
+    command](Sourcing_variables_from_other_files_using_Source_command_(Linux) "wikilink")
+
+#### Perl
+
+-   [Loops](Loops_(Perl) "wikilink")
+-   [Parameters](Parameters_(Perl) "wikilink")
+-   [Subs](Subs_(Perl) "wikilink")
+-   [Numeric and String variable
+    operations](Numeric_and_String_variable_operations_(Perl) "wikilink")
+-   [Extracting text](Extracting_text_(Perl) "wikilink")
+-   [Numeric and String
+    comparison](Numeric_and_String_comparison_(Perl) "wikilink")
+-   [Associative Arrays](Associative_Arrays_(Perl) "wikilink")
+-   [Calling subs from separate
+    script](Calling_subs_from_separate_script_(Perl) "wikilink")
+
 ### Microsoft Windows
 
 -   [Registry](Registry "wikilink")
@@ -65,62 +150,6 @@ title: Main Page
     NTBACKUP](Email_notifications_for_NTBACKUP "wikilink")
 -   [Delete all files older than 1
     day](Delete_all_files_older_than_1_day_(Windows) "wikilink")
-
-### Linux
-
--   [Linux Tricks](Linux_Tricks "wikilink")
--   [Nagios](Nagios "wikilink")
--   [Debian / Ubuntu Vs RHEL / CentOS /
-    Fedora](Debian_/_Ubuntu_Vs_RHEL_/_CentOS_/_Fedora "wikilink")
--   [Open file handling](Open_file_handling_(Linux) "wikilink") List
-    open files by process and set system and process limits
--   [Less Tricks](Less_Tricks "wikilink")
--   [SVN for /etc](SVN_for_/etc "wikilink") Version control your /etc
--   [Vi/Vim](Vi/Vim "wikilink")
--   [Convert Windows/DOS text file to Unix/Linux and vica
-    verca](Convert_Windows/DOS_text_file_to_Unix/Linux_and_vica_verca "wikilink")
--   [Force password change at next
-    login](Force_password_change_at_next_login_(Linux) "wikilink")
--   [Chmod codes](Chmod_codes_(Linux) "wikilink")
--   [Block dangerous/unsafe attachments in
-    Postfix](Block_dangerous/unsafe_attachments_(Postfix) "wikilink")
--   [Installing Perl
-    Modules](Installing_Perl_Modules_(Linux) "wikilink")
--   [Setup Squid Forward Proxy with Basic
-    authentication](Setup_Squid_Forward_Proxy_with_Basic_authentication "wikilink")
--   [Convert date format](Convert_date_format_(Linux) "wikilink")
--   [Disk Partition
-    alignment](Disk_Partition_alignment_(Linux) "wikilink")
--   [VNC Quickstart (Ubuntu)](VNC_Quickstart_(Ubuntu) "wikilink")
--   [Mount NFS Share (Ubuntu)](Mount_NFS_Share_(Ubuntu) "wikilink")
--   [Mailman](Mailman "wikilink")
--   [File timestamps](File_timestamps_(Linux) "wikilink")
--   [Calculate Sum and Average using
-    Awk](Calculate_Sum_and_Average_using_Awk_(Linux) "wikilink")
--   [Get Motherboard / Manufacturer information from the command
-    line](Get_Motherboard_/_Manufacturer_information_from_the_command_line_(Linux) "wikilink")
--   [Get Hard disk manufacturer and
-    model](Get_Hard_disk_manufacturer_and_model_(Linux) "wikilink")
--   [Ascertain what package provides a given binary with
-    rpm](Ascertain_what_package_provides_a_given_binary_with_rpm_(Linux) "wikilink")
--   [Extract IP address from string using
-    grep](Extract_IP_address_from_string_using_grep "wikilink")
-
-#### Troubleshooting
-
--   [Linux System
-    Troubleshooting](Linux_System_Troubleshooting "wikilink")
--   [Couldn\'t open /dev/null
-    Error](Couldn't_open_/dev/null_Error_(Linux) "wikilink")
--   \[\[Can\'t open /dev/tty: No such device or address Error
-    (Linux)\|Can\'t open /dev/tty: No such device or address
-
-Error\]\]
-
--   [Ping: icmp open socket: Operation not
-    permitted](Ping:_icmp_open_socket:_Operation_not_permitted_(Linux) "wikilink")
--   [Possible SYN flooding on port xxx. Sending
-    cookies](Possible_SYN_flooding_on_port_xxx._Sending_cookies_(Linux) "wikilink")
 
 #### SSH
 
@@ -343,35 +372,6 @@ Error\]\]
     (Outlook 2007)](Security_certificate_is_invalid_or_does_not_match_the_name_of_the_site_Error_(Outlook_2007) "wikilink")
 -   [Your Out of Office settings cannot be displayed Error
     (Outlook 2007)](Your_Out_of_Office_settings_cannot_be_displayed_Error_(Outlook_2007) "wikilink")
-
-### Scripting
-
--   [Regular Expressions](Regular_Expressions "wikilink")
--   [Python script fails with \": command not
-    found\"](Python_script_fails_with_":_command_not_found" "wikilink")
-
-#### BASH
-
--   [BASH Scripting](BASH_Scripting "wikilink")
--   [BASH Tricks](BASH_Tricks "wikilink")
--   [Set Bash Loop
-    Delimiter](Set_Bash_Loop_Delimiter_(Linux) "wikilink")
--   [Sourcing variables from other files using Source
-    command](Sourcing_variables_from_other_files_using_Source_command_(Linux) "wikilink")
-
-#### Perl
-
--   [Loops](Loops_(Perl) "wikilink")
--   [Parameters](Parameters_(Perl) "wikilink")
--   [Subs](Subs_(Perl) "wikilink")
--   [Numeric and String variable
-    operations](Numeric_and_String_variable_operations_(Perl) "wikilink")
--   [Extracting text](Extracting_text_(Perl) "wikilink")
--   [Numeric and String
-    comparison](Numeric_and_String_comparison_(Perl) "wikilink")
--   [Associative Arrays](Associative_Arrays_(Perl) "wikilink")
--   [Calling subs from separate
-    script](Calling_subs_from_separate_script_(Perl) "wikilink")
 
 ### CA Brightstor Arcserve Troubleshooting
 

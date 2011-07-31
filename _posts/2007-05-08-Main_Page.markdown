@@ -187,19 +187,6 @@ Error\]\]
     0\' (No aliases, :, ! or
     \*)](Error:_Warning:_weird_character_in_interface_`interface_eth0:alias_0'_(No_aliases,_:,_!_or_*)_(Iptables) "wikilink")
 
-### CVS
-
--   [CVS](CVS "wikilink")
--   [Remove sticky tags](Remove_sticky_tags_(CVS) "wikilink")
-
-### Cisco
-
--   [Cisco Tricks](Cisco_Tricks "wikilink")
--   [Change MTU for interface and check for too-large
-    packets](Change_MTU_for_interface_and_check_for_too-large_packets_(Cisco) "wikilink")
--   [NTP](NTP_(Cisco) "wikilink")
--   [Check DSL Line Noise](Check_DSL_Line_Noise_(Cisco) "wikilink")
-
 ### Web
 
 -   [Linux Web Troubleshooting](Linux_Web_Troubleshooting "wikilink")
@@ -216,6 +203,19 @@ Error\]\]
 -   [Renew or Create New Certificate Signing Request (CSR) While Another
     Certificate Is Currently Installed on
     IIS](http://support.microsoft.com/default.aspx?scid=kb;en-us;Q295281)
+
+### CVS
+
+-   [CVS](CVS "wikilink")
+-   [Remove sticky tags](Remove_sticky_tags_(CVS) "wikilink")
+
+### Cisco
+
+-   [Cisco Tricks](Cisco_Tricks "wikilink")
+-   [Change MTU for interface and check for too-large
+    packets](Change_MTU_for_interface_and_check_for_too-large_packets_(Cisco) "wikilink")
+-   [NTP](NTP_(Cisco) "wikilink")
+-   [Check DSL Line Noise](Check_DSL_Line_Noise_(Cisco) "wikilink")
 
 ### DNS
 

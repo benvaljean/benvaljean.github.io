@@ -17,7 +17,7 @@ following setting in <a href="about:config"><about:config></a> :
 
     network.proxy.socks_remote_dns
 
-Set this value to *true* to route DNS traffic to the SOCKS proxy.
+Set this value to **true** to route DNS traffic to the SOCKS proxy.
 
 [Category:Web](Category:Web "wikilink")
 [Category:Linux](Category:Linux "wikilink")

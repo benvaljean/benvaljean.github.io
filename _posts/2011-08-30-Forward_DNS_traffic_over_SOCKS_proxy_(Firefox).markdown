@@ -13,7 +13,7 @@ drawbacks:
 -   Internet censorship at the DNS level prevents use of SOCKS proxy.
 
 Firefox can be configured to use the SOCKS proxy for DNS by changing the
-following setting in <a href="about:config"><about:config></a> :
+following setting in <about:config> :
 
     network.proxy.socks_remote_dns
 

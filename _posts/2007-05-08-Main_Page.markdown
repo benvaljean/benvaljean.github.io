@@ -206,7 +206,8 @@ Error\]\]
 
 <!-- -->
 
--   \[Forward DNS traffic over SOCKS proxy (Firefox)\]
+-   [Forward DNS traffic over SOCKS proxy
+    (Firefox)](Forward_DNS_traffic_over_SOCKS_proxy_(Firefox) "wikilink")
 
 ### CVS
 

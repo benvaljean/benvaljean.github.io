@@ -221,6 +221,8 @@ Error\]\]
     packets](Change_MTU_for_interface_and_check_for_too-large_packets_(Cisco) "wikilink")
 -   [NTP](NTP_(Cisco) "wikilink")
 -   [Check DSL Line Noise](Check_DSL_Line_Noise_(Cisco) "wikilink")
+-   [Restrict management (telnet) access based on
+    IP](Restrict_management_(telnet)_access_based_on_IP_(Cisco) "wikilink")
 
 ### DNS
 

@@ -13,7 +13,7 @@ title: MySQL vs PostgreSQL
 |-
 | SHOW TABLES;||\\dt
 |-
-| SHOW COLUMNS;||\\d table OR SELECT column_name FROM information_schema.columns WHERE table_name =\\'table\\';
+| SHOW COLUMNS;||\\d table
 |-
 | DESC tblname;||\\d foo
 |-

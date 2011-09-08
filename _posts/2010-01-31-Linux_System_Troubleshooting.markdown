@@ -35,7 +35,7 @@ Load averages are shown for the last 1, 5 and 15 minutes. Every system is differ
 | 
 |}
 
-[http://linux.die.net/man/1/top]
+http://linux.die.net/man/1/top
 
 ===CPU Usage summary fields===
 us = user mode<br>

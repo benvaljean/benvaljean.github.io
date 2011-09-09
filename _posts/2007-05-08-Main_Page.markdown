@@ -111,6 +111,8 @@ Error\]\]
     Delimiter](Set_Bash_Loop_Delimiter_(Linux) "wikilink")
 -   [Sourcing variables from other files using Source
     command](Sourcing_variables_from_other_files_using_Source_command_(Linux) "wikilink")
+-   [Writing defensive BASH
+    scripts](Writing_defensive_BASH_scripts "wikilink")
 
 #### Perl
 

@@ -9,6 +9,8 @@ title: MySQL vs PostgreSQL
 |-
 | SHOW DATABASES;||\\l
 |-
+| \\u db||\\c db 
+|-
 | SHOW GRANTS;||\\du
 |-
 | SHOW TABLES;||\\dt
@@ -24,6 +26,16 @@ title: MySQL vs PostgreSQL
 | describe table;||\\d+ table;
 |-
 | show schemas;||\\dn OR select * from pg_namespace;
+|-
+| \\G (one time effect)||\\x (toggle for all queries)
+|-
+| \\P pager||$PAGER
+|-
+| \\T file||\\o | tee file
+| show create table tablename;||pg_dump --schema-only -t tablename (may not always
 |}
 
+===Identical commands===
+\\e  Edit buffer in external editor; vim by default.
+\\!  Execute shell command
 [[Category:PostgreSQL]]

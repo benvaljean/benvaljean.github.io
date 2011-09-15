@@ -43,4 +43,4 @@ trap - INT TERM EXIT
 </pre>
 Different traps can be configured by specifiying the signals in separate commands.
 
-[[Category:Linux]]
+[[Category:Linux]][[Category:Bash]]

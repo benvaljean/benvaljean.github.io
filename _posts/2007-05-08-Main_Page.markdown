@@ -103,16 +103,18 @@ Error\]\]
 -   [Python script fails with \": command not
     found\"](Python_script_fails_with_":_command_not_found" "wikilink")
 
-#### BASH
+#### Bash
 
--   [BASH Scripting](BASH_Scripting "wikilink")
--   [BASH Tricks](BASH_Tricks "wikilink")
+-   [Bash Scripting](Bash_Scripting "wikilink")
+-   [Bash Tricks](Bash_Tricks "wikilink")
 -   [Set Bash Loop
     Delimiter](Set_Bash_Loop_Delimiter_(Linux) "wikilink")
 -   [Sourcing variables from other files using Source
-    command](Sourcing_variables_from_other_files_using_Source_command_(Linux) "wikilink")
--   [Writing defensive BASH
-    scripts](Writing_defensive_BASH_scripts "wikilink")
+    command](Sourcing_variables_from_other_files_using_Source_command_(Bash) "wikilink")
+-   [Writing defensive Bash
+    scripts](Writing_defensive_Bash_scripts "wikilink")
+-   [Command substitution
+    (Bash)](Command_substitution_(Bash) "wikilink")
 
 #### Perl
 

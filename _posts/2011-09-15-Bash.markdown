@@ -1,0 +1,6 @@
+---
+layout: post 
+title: Bash
+---
+
+[GNU BASH](http://www.gnu.org/s/bash/)

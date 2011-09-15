@@ -21,9 +21,7 @@ Regular expressions and used in [[Perl]], [[Apache Rewrite]], [[Vim]] among many
 |-
 | ?|| Zero or one of the last character
 |-
-| t.e|| t followed by anthing followed by e
-|-
-| || This will match <tt>the</tt> , <tt>tre</tt> , <tt>tle</tt> , but not <tt>te</tt> or <tt>tale</tt>
+| t.e|| t followed by anthing followed by e.  This will match <tt>the</tt> , <tt>tre</tt> , <tt>tle</tt> , but not <tt>te</tt> or <tt>tale</tt>
 |-
 | ^f|| f at the beginning of a line
 |-
@@ -33,15 +31,11 @@ Regular expressions and used in [[Perl]], [[Apache Rewrite]], [[Vim]] among many
 |-
 | tle$|| tle at the end of a line
 |-
-| und*|| un followed by zero or more d characters
-|-
-| || This will match <tt>un</tt> , <tt>und</tt> , <tt>undd</tt> , <tt>unddd</tt> etc.
+| und*|| un followed by zero or more d characters. This will match <tt>un</tt> , <tt>und</tt> , <tt>undd</tt> , <tt>unddd</tt> etc.
 |-
 | .*|| Any string without a newline. This is because the . matches anything except a newline and the * means zero or more of these.
 |-
 | ^$|| A line with nothing in it.
-|-
-| 
 |-
 | [qjk]||Either q or j or k
 |-
@@ -51,19 +45,17 @@ Regular expressions and used in [[Perl]], [[Apache Rewrite]], [[Vim]] among many
 |-
 | [^a-z]||No lower case letters
 |-
-| [a-zA-Z]Any letter
+| [a-zA-Z]||Any letter
 |-
 | [a-z]+||Any non-zero sequence of lower case letters
 |-
 | [^qjk]+ ||Any non-zero sequence that does not contain a q nor j nor k. 
 |-
-| jelly|cream||Either jelly or cream
+| jelly<nowiki>|</nowiki>cream||Either jelly or cream
 |-
 | (eg|le)gs||Either eggs or legs
 |-
 | (da)+||Either da or dada or dadada or...
-|-
-| 
 |-
 | \
 ||A newline

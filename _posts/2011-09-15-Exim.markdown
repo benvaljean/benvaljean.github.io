@@ -1,0 +1,76 @@
+---
+layout: post 
+title: Exim
+---
+
+Get current activity:
+
+    exiwhat
+
+Count of messages in the queue:
+
+    exim -bpc
+
+List details re messages in the queue: time queued, size, message-id,
+sender, recipient
+
+    exim -bp
+
+Queue summary: count, volume, oldest, newest, domain, totals
+
+    exim -bp | exiqsumm
+
+Get routing of an address:
+
+    exim -bt alias@localdomain.com
+
+Test SMTP transaction from a given source IP address:
+
+    exim -bh 192.168.11.22
+
+#### Message queue
+
+Count of messages in the queue:
+
+    exim -bpc
+
+List details re messages in the queue: time queued, size, message-id,
+sender, recipient
+
+    exim -bp
+
+Queue summary: count, volume, oldest, newest, domain, totals
+
+    exim -bp | exiqsumm
+
+Search queue for sender:
+
+    exiqgrep -f [user]@domain
+
+Search queue for recipient:
+
+    exiqgrep -r [luser]@domain
+
+<http://www.man-online.org/page/8-exigrep/>
+
+Remove a message from the queue:
+
+    exim -Mrm <message-id>
+
+Force redelivery now:
+
+    exim -M <message-id>
+
+Force bounce with \"cancelled by administrator\" reason:
+
+    exim -Mg <message-id>
+
+Remove messages older then 5 days:
+
+    exiqgrep -o 432000 -i | xargs exim -Mrm
+
+Freeze all messages from a given sender:
+
+    exiqgrep -i -f user@example.tld | xargs exim -Mf
+
+[Category:Linux](Category:Linux "wikilink")

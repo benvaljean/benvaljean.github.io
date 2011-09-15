@@ -113,8 +113,7 @@ Error\]\]
     command](Sourcing_variables_from_other_files_using_Source_command_(Bash) "wikilink")
 -   [Writing defensive Bash
     scripts](Writing_defensive_Bash_scripts "wikilink")
--   [Command substitution
-    (Bash)](Command_substitution_(Bash) "wikilink")
+-   [Command substitution](Command_substitution_(Bash) "wikilink")
 
 #### Perl
 

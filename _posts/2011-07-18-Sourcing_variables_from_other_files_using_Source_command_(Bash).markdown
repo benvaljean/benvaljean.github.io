@@ -23,3 +23,4 @@ bg2.sh:
     # Outputs "Place is: Monaco" as the variable was set in the same process.
 
 [Category:Linux](Category:Linux "wikilink")
+[Category:Bash](Category:Bash "wikilink")

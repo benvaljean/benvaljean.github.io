@@ -55,7 +55,7 @@ Regular expressions and used in [[Perl]], [[Apache Rewrite]], [[Vim]] among many
 |-
 | [a-z]+||Any non-zero sequence of lower case letters
 |-
-| 
+| [^qjk]+ ||Any non-zero sequence that does not contain a q nor j nor k. 
 |-
 | jelly|cream||Either jelly or cream
 |-

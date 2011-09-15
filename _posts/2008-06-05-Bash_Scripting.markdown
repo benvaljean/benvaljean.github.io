@@ -107,4 +107,4 @@ if [ $UID != "0" ];then echo Only root can run this command 1>&2;exit 1;fi
 [http://tldp.org/LDP/Bash-Beginners-Guide/html/sect_07_01.html If]<br>
 [http://tldp.org/LDP/abs/html/refcards.html Operators and constructs]
 
-[[Category:Linux]]
+[[Category:Linux]][[Category:Bash]]

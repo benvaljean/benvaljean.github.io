@@ -29,8 +29,6 @@ Regular expressions and used in [[Perl]], [[Apache Rewrite]], [[Vim]] among many
 |-
 | e$|| e at the end of a line
 |-
-| tle$|| tle at the end of a line
-|-
 | und*|| un followed by zero or more d characters. This will match <tt>un</tt> , <tt>und</tt> , <tt>undd</tt> , <tt>unddd</tt> etc.
 |-
 | .*|| Any string without a newline. This is because the . matches anything except a newline and the * means zero or more of these.

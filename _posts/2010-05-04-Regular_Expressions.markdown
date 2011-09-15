@@ -90,9 +90,9 @@ Regular expressions and used in [[Perl]], [[Apache Rewrite]], [[Vim]] among many
 |-
 | \\B||No word boundary
 |}
-===Match a date yyyy-mm-dd====
+===Match a date yyyy-mm-dd===
 <pre>\\d{4}-\\d{2}-\\d{2}</pre>
 Will also match 9999-99-99 .
-====Match a time hh:mm:ss===
+===Match a time hh:mm:ss===
 <pre>\\d{2}:\\d{2}:\\d{2}</pre>
 Will also match 99:99:99 .

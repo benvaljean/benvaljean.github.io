@@ -16,3 +16,4 @@ Set the bash loop delimiter to a new line:
     '
 
 [Category:Linux](Category:Linux "wikilink")
+[Category:Bash](Category:Bash "wikilink")

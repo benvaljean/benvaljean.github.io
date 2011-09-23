@@ -71,7 +71,7 @@ To show the current free and in-use physical RAM and swapped with low/high value
 ==fuser==
 Fuser shows what processes are using a given file, socket or filesystem.
 
-Show processes that have locked files in /var:<pre>fuser -v /var</pre>
+Show processes that have locked files in /var:<pre>sudo fuser -v /var</pre>
 
 ==iostat==
 Iostat gives statistics on I/O and CPU usage. <tt>iostat</tt> without any arguments displays transfers per second since boot as 'tps' although a single logical transfer could be any size and can therefore be misleading. The number of blocks read and written since boot and the blocks read and written per second 'since boot' can also be viewed. <tt>iostat -x</tt> gives more information, but this again is not very useful as it only shows the total since boot.

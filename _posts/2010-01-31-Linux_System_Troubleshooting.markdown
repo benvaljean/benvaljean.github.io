@@ -70,7 +70,7 @@ To show the current free and in-use physical RAM and swapped with low/high value
 <pre>free -ml</pre>
 ==fuser==
 Fuser shows what processes are using a given file, socket or filesystem.
-<p>
+
 Show processes that have locked your home dir:<pre>fuser -v ~</pre>
 
 ==iostat==

@@ -77,6 +77,14 @@ Go to dir, run a command and then return to the current dir: <tt>(cd dir && comm
 
 ===Scrolling ls listings made easier===
 Instead of  <tt>ls /etc|less</tt>  this can be shortened to  <tt>less /etc</tt>  . If a folder is specified in less it will <tt>ls</tt> is and <tt>less</tt> the contents.
+===Simple calculator===
+Only useful as a simple calculator as an alternative to using a full caclualator like <pre>bc -l</pre>; fractions are decimals are not supported:
+<pre>
+$ echo $[16*2]
+32
+$ echo $[100/11]
+9
+</pre>
 
 ==See Also==
 *[http://www.gnu.org/software/bash/manual/html_node/index.html Bash Reference Manual]

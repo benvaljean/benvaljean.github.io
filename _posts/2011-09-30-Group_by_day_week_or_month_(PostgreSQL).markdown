@@ -1,10 +1,9 @@
 ---
 layout: post 
-title: Group by day
+title: Group by day week or month (PostgreSQL)
 ---
 
-f1\@goodacre.name,Sum counts of an occurrence into days, weeks, or
-months
+Sum counts of an occurrence into days, weeks, or months
 
 #### Group by day
 

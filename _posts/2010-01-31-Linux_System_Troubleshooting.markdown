@@ -32,6 +32,8 @@ Load averages are shown for the last 1, 5 and 15 minutes. Every system is differ
 |-
 | 1 ||Show individual CPUs
 |-
+| c ||Toggle show command-lines
+|-
 | 
 |}
 

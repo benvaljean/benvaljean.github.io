@@ -86,3 +86,8 @@ Will also match 9999-99-99 .
 ===Match a time hh:mm:ss===
 <pre>\\d{2}:\\d{2}:\\d{2}</pre>
 Will also match 99:99:99 .
+===Match a Mac address===
+With -'s or :'s
+<pre>
+[0-9a-f][0-9a-f][:-][0-9a-f][0-9a-f][:-][0-9a-f][0-9a-f][:-][0-9a-f][0-9a-f][:-][0-9a-f][0-9a-f][:-][0-9a-f][0-9a-f]
+</pre>

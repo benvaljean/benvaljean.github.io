@@ -356,6 +356,8 @@ Error\]\]
 -   [Output Query as CSV](Output_Query_as_CSV_(PostgreSQL) "wikilink")
 -   [Copy table structure
     only](Copy_table_structure_only_(PostgreSQL) "wikilink")
+-   [Group by day, week or
+    month](Group_by_day,_week_or_month_(PostgreSQL) "wikilink")
 
 ### Microsoft Outlook
 

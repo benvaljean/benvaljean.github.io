@@ -13,4 +13,5 @@ feel free to [contact](User:Benyg "wikilink") me if you find an instance
 where it does not work.
 
 [Category:DNS](Category:DNS "wikilink")
+[Category:BIND](Category:BIND "wikilink")
 [Category:Linux](Category:Linux "wikilink")

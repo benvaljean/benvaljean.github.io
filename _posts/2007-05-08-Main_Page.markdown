@@ -115,6 +115,8 @@ Error\]\]
 -   [Writing defensive Bash
     scripts](Writing_defensive_Bash_scripts "wikilink")
 -   [Command substitution](Command_substitution_(Bash) "wikilink")
+-   [Set default value script/function
+    parameter](Set_default_value_script/function_parameter_(Bash) "wikilink")
 
 #### Perl
 

@@ -4,7 +4,7 @@ title: Set default value script/function parameter (Bash)
 ---
 
 `$1`, `$2` .. `$n` can be used to retrieve parameters passed to Bash
-scripts or functions. Default values can be assigned to these variable
+scripts or functions. Default values can be assigned to these variables
 without the use of `[ -z $n ] && ...` in the following syntax:
 
     ${n:-default}
@@ -16,7 +16,7 @@ Where:
 
 #### Example
 
-To create a fatal handling functino in a scritp that gives a exit code
+To create a error handling function in a script that gives a exit code
 of 1 if it is not set under \$2:
 
     fatal()

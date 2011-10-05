@@ -25,3 +25,6 @@ of 1 if it is not set under \$2:
             echo `date`" - FATAL - $1"
             exit $exitval
     }
+
+[Category:Linux](Category:Linux "wikilink")
+[Category:Bash](Category:Bash "wikilink")

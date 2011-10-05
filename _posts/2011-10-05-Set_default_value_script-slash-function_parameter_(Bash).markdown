@@ -9,8 +9,9 @@ without the use of `[ -z $n ] && ...` in the following syntax:
 
     ${n:-default}
 
-Where:\***n** The parameter index value
+Where:
 
+-   **n** The parameter index value
 -   **default** The value that should be assigned if it is null/not set.
 
 #### Example

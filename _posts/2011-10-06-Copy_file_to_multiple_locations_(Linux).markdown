@@ -25,7 +25,7 @@ by `cp`.
 
 Create a loop:
 
-    for dest in $(find . -mindepth 1 -type d);do; cp file $dest;done
+    for dest in $(find . -mindepth 1 -maxdepth 1 -type d);do; cp file $dest;done
 
 [Category:Linux](Category:Linux "wikilink")
 [Category:Bash](Category:Bash "wikilink")

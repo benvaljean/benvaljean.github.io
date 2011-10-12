@@ -92,6 +92,21 @@ downstream.
     Total BER:          1367E-12         0E-0Leakage Avarage BER:      2195E-13         0E-0
     LOM Monitoring : Disabled
 
+##### BT Home Hub (UK)
+
+-   Broadband Connection
+-   DSL Connection
+-   Details
+
+Direct link:
+<http://><Home hub IP address>/cgi/b/dsl/dt/?ce=1&be=0&l0=1&l1=0
+
+If gthese menu options are not available try:
+
+-   Advanced
+-   Status
+-   ADSL Line
+
 #### See Also
 
 [Improve SNR](Improve_SNR_(Networking) "wikilink")

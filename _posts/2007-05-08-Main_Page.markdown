@@ -228,6 +228,8 @@ Error\]\]
 -   [Check DSL Line Noise](Check_DSL_Line_Noise_(Cisco) "wikilink")
 -   [Restrict management (telnet) access based on
     IP](Restrict_management_(telnet)_access_based_on_IP_(Cisco) "wikilink")
+-   [Check ADSL Line
+    Stats](Check_ADSL_Line_Stats_(Networking) "wikilink")
 
 ### DNS
 

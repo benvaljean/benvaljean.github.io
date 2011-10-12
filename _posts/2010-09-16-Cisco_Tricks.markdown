@@ -15,6 +15,10 @@ Show VRFs:
 
     show ip vrf
 
+Show interface names, VLANs and connection-status:
+
+    sh int status
+
 #### Show failover config
 
 `sh ip int brief` will not show VIPs, to show this:

@@ -23,12 +23,11 @@ SNR will be reduced. These cost around £10 in the UK.
 #### Use a different router
 
 In relation to handling low SNR-lines not all routers are the same.
-There is no official data and sucess can be a case of trial-and-error.
+There is no official data and success can be a case of trial-and-error.
 Most Speed touch routers have a good reputation on low-SNR lines.
 
 #### See Also
 
-[Check ADSL Line Stats (Networking)Check ADSL Line
-Stats](Check_ADSL_Line_Stats_(Networking)Check_ADSL_Line_Stats "wikilink")
+[Check ADSL Line Stats](Check_ADSL_Line_Stats_(Networking) "wikilink")
 
 [Category:Networking](Category:Networking "wikilink")

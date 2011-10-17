@@ -203,6 +203,8 @@ Error\]\]
 -   [Rewrite on IIS that actually
     works](Rewrite_on_IIS_that_actually_works "wikilink")
 -   [Apache Rewrite](Apache_Rewrite "wikilink")
+-   [Apache Digest
+    Authentication](Apache_Digest_Authentication "wikilink")
 -   [Telnet port 80 whilst specifying
     Hostname](Telnet_port_80_whilst_specifying_Hostname "wikilink")
 -   [OpenSSL](OpenSSL "wikilink")

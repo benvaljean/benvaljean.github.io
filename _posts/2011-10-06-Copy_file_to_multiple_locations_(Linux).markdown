@@ -5,7 +5,7 @@ title: Copy file to multiple locations (Linux)
 
 #### Background
 
-Top copy a single file to multple destinations the following might be
+To copy a single file to multple destinations the following might be
 attempted:
 
     $ cp file */

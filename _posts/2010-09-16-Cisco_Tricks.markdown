@@ -15,7 +15,9 @@ Show VRFs:
 
     show ip vrf
 
-Show interface names, VLANs and connection-status:
+Show interface names, VLANs and
+connection-status[1](http://www.cisco.com/en/US/products/hw/switches/ps700/products_tech_note09186a008015bfd6.shtml#conno)
+:
 
     sh int status
 

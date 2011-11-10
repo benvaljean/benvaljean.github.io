@@ -94,6 +94,10 @@ Standard mathematical operators apply
 |-
 | ==||equal, but has pattern matching when wildcarded, literal matching with quotes
 |}
+===Test if number===
+<pre>
+[[ "$var" =~ ^[0-9]+([.][0-9]+)?$ ]] && echo $var is a number
+</pre>
 
 ==Force run as root==
 <pre>

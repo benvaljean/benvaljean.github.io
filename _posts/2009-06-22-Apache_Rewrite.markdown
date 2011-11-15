@@ -53,5 +53,7 @@ ben.goodacre.name/tech/anything :
 
 [Rewrite on IIS](Rewrite_on_IIS_that_actually_works "wikilink")
 
+[Regular Expressions](Regular_Expressions "wikilink")
+
 [Category:Web](Category:Web "wikilink")
 [Category:Linux](Category:Linux "wikilink")

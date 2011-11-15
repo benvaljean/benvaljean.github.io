@@ -192,4 +192,8 @@ To move between tabs use `:tabn` and `:tabp`
 
      :tabdo $s/replace/this/g
 
+### See Also
+
+[Regular Expressions](Regular_Expressions "wikilink")
+
 [Category:Linux](Category:Linux "wikilink")

@@ -21,7 +21,9 @@ Regular expressions and used in [[Perl]], [[Apache Rewrite]], [[Vim]] among many
 |-
 | ?|| Zero or one of the last character
 |-
-| t.e|| t followed by anthing followed by e.  This will match <tt>the</tt> , <tt>tre</tt> , <tt>tle</tt> , but not <tt>te</tt> or <tt>tale</tt>
+| (ben\\.)?goodacre.name|| ben.goodacre.name or goodacre.name
+|-
+| t.e|| t followed by any 1 single character followed by e.  This will match <tt>the</tt> , <tt>tre</tt> , <tt>tle</tt> , but not <tt>te</tt> or <tt>tale</tt>
 |-
 | ^f|| f at the beginning of a line
 |-

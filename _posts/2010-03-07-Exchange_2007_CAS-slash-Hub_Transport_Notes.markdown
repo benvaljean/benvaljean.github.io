@@ -12,10 +12,10 @@ See [Exchange 2007 Server Roles](Exchange_2007_Server_Roles "wikilink")
 2.  Connection filtering
 3.  Sender filtering
 4.  Recipient filtering
-5.  Sender ID filtering (not implemented at JGP)
+5.  Sender ID filtering
 6.  Content filtering
 7.  Attachment filtering
-8.  Antivirus scanning (not implemented at JGP)
+8.  Antivirus scanning
 
 ### Logging
 

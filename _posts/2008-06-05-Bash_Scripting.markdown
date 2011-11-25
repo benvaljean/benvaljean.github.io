@@ -94,6 +94,43 @@ Standard mathematical operators apply
 |-
 | ==||equal, but has pattern matching when wildcarded, literal matching with quotes
 |}
+===File Operators===
+====Single Braces====
+*Unary tests:
+{| {{table}}
+| -d||Directory
+|-
+| -e OR -a||Exists
+|-
+| -f||Regular file
+|-
+| -h OR -L||Symbolic link
+|-
+| -p||Named pipe
+|-
+| -r||Readable by you
+|-
+| -s||Not empty
+|-
+| -S||Socket
+|-
+| -w||Writable by you
+|-
+| -N||Has been modified since last being read
+|-
+| 
+|}
+*Compare two files:
+{| {{table}}
+| -nt||file1 is newer than file 2. File modification time stamp is used.
+|-
+| -ot||file1 is older than file 2. File modification time stamp is used.
+|-
+| - ef||file1 is a hard link to file2.
+|-
+| 
+|}
+
 ===Test if number===
 <pre>
 [[ "$var" =~ ^[0-9]+([.][0-9]+)?$ ]] && echo $var is a number

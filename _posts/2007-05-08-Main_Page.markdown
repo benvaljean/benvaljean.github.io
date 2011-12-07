@@ -136,13 +136,6 @@ Error\]\]
 -   [Calling subs from separate
     script](Calling_subs_from_separate_script_(Perl) "wikilink")
 
-### SVN
-
--   [Getting started with SVN](Getting_started_with_SVN "wikilink")
--   \[\[Svn: Can\'t open file \'/mnt/svn/dns/db/txn-current-lock\':
-    Permission denied Error (SVN)\|\]Can\'t open file
-    \'/mnt/svn/dns/db/txn-current-lock\': Permission denied Error\]\]
-
 ### Microsoft Windows
 
 -   [Registry](Registry "wikilink")
@@ -229,6 +222,13 @@ Error\]\]
 
 -   [CVS](CVS "wikilink")
 -   [Remove sticky tags](Remove_sticky_tags_(CVS) "wikilink")
+
+### SVN
+
+-   [Getting started with SVN](Getting_started_with_SVN "wikilink")
+-   [Can\'t open file \'/mnt/svn/dns/db/txn-current-lock\': Permission
+    denied
+    Error](Svn:_Can't_open_file_'/mnt/svn/dns/db/txn-current-lock':_Permission_denied_Error_(SVN) "wikilink")
 
 ### Networking
 

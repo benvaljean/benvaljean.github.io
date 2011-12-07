@@ -136,6 +136,13 @@ Error\]\]
 -   [Calling subs from separate
     script](Calling_subs_from_separate_script_(Perl) "wikilink")
 
+### SVN
+
+-   [Getting started with SVN](Getting_started_with_SVN "wikilink")
+-   \[\[Svn: Can\'t open file \'/mnt/svn/dns/db/txn-current-lock\':
+    Permission denied Error (SVN)\|\]Can\'t open file
+    \'/mnt/svn/dns/db/txn-current-lock\': Permission denied Error\]\]
+
 ### Microsoft Windows
 
 -   [Registry](Registry "wikilink")

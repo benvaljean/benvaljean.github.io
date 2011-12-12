@@ -49,6 +49,8 @@ title: Main Page
     locations](Copy_file_to_multiple_locations_(Linux) "wikilink")
 -   [Block / Ban MAC address in
     dhcpd](Block_/_Ban_MAC_address_in_dhcpd_(Linux) "wikilink")
+-   [Create file with exact / specific
+    size](Create_file_with_exact_/_specific_size_(Linux) "wikilink")
 
 #### Troubleshooting
 

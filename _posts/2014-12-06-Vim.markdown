@@ -108,21 +108,6 @@ beginning of all ines below the cursor:
 
     :reg
 
-#### Visual mode commands
-
-Whilst in command mode, press **v** to enter visual mode. The cursor
-keys can now be used to select text. the following commands will affect
-the text that has been selected. Copy/Yank and Cut/Delete can also be
-used with visual mode.
-
-##### Indent text
-
-    >
-
-##### De-Indent text
-
-    <
-
 #### Paste from register number 2
 
     "2p
@@ -142,9 +127,54 @@ indents are placed on the lines. To disable this:
 
     A
 
-#### Diff current unsaved buffer with saved version
+#### Visual mode commands
+
+Whilst in command mode, press **v** to enter visual mode. The cursor
+keys can now be used to select text. the following commands will affect
+the text that has been selected. Copy/Yank and Cut/Delete can also be
+used with visual mode.
+
+###### Indent text
+
+    >
+
+###### De-Indent text
+
+    <
+
+###### Sort text
+
+**To pipe any selected text into an external command and replace with
+its output**:
+
+    :! command
+
+Use sort:
+
+    :! sort
+
+#### Using external commands
+
+Vim can run an external command with the current file. The file saved on
+disk or the current unsaved buffer can be used:\
+`%` File on disk\
+`-` Current buffer
+
+###### Diff current unsaved buffer with saved version
 
     :w !diff % -
+
+###### Get number of lines through wc
+
+    :w !wc -
+
+###### Syntax check of PHP
+
+    :w !php5 -l -
+
+###### Recall previous external command
+
+**Same as Bash:** `:!!`
 
 #### Cheat sheet
 

@@ -11,7 +11,7 @@ title: Getting started with SVN
     touch test/test1.txt
     touch test/test2.txt
     svn import dir file:///full/path/to/dir -m "Initial Import"
-    svn checkout file:///full/path/to/dir workingtestdir
+    svn cofile:///full/path/to/dir workingtestdir
 
 Add users to new-repo/conf/passwd:
 
@@ -29,5 +29,9 @@ Setup permissions in new-repo/conf/authz:
 Update working copy with data from repo
 
     svn update
+
+Commit changes to repo:
+
+    scn ci file
 
 [Category:Linux](Category:Linux "wikilink")

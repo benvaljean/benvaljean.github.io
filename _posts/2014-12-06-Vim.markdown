@@ -144,8 +144,8 @@ used with visual mode.
 
 ###### Sort text
 
-**To pipe any selected text into an external command and replace with
-its output**:
+*To pipe any selected text into an external command and replace with its
+output*:
 
     :! command
 

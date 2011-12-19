@@ -176,6 +176,10 @@ disk or the current unsaved buffer can be used:\
 
 *Same as Bash:* `:!!`
 
+###### Insert command output
+
+    :r !echo hello
+
 #### Cheat sheet
 
 <http://www.eec.com/business/vi.html>

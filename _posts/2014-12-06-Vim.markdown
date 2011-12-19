@@ -174,7 +174,7 @@ disk or the current unsaved buffer can be used:\
 
 ###### Recall previous external command
 
-**Same as Bash:** `:!!`
+*Same as Bash:* `:!!`
 
 #### Cheat sheet
 

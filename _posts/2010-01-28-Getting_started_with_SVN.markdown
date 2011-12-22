@@ -32,6 +32,6 @@ Update working copy with data from repo
 
 Commit changes to repo:
 
-    scn ci file
+    svn ci file
 
 [Category:Linux](Category:Linux "wikilink")

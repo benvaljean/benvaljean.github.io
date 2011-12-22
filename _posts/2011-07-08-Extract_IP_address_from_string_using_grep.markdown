@@ -14,6 +14,6 @@ title: Extract IP address from string using grep
 
 ### See Also
 
-[Regular expressions](Regular_expressions "wikilink")
+[Regular Expressions](Regular_Expressions "wikilink")
 
 [Category:Linux](Category:Linux "wikilink")

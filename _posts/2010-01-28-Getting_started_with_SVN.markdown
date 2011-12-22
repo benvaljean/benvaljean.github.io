@@ -11,7 +11,7 @@ title: Getting started with SVN
     touch test/test1.txt
     touch test/test2.txt
     svn import dir file:///full/path/to/dir -m "Initial Import"
-    svn cofile:///full/path/to/dir workingtestdir
+    svn co file:///full/path/to/dir workingtestdir
 
 Add users to new-repo/conf/passwd:
 

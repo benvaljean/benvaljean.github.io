@@ -38,4 +38,4 @@ title: MySQL vs PostgreSQL
 ===Identical commands===
 \\e  Edit buffer in external editor; vim by default.
 \\!  Execute shell command
-[[Category:PostgreSQL]]
+[[Category:PostgreSQL]][[Category:MySQL]]

@@ -32,7 +32,8 @@ title: MySQL vs PostgreSQL
 | \\P pager||$PAGER
 |-
 | \\T file||\\o | tee file
-| show create table tablename;||pg_dump --schema-only -t tablename (may not always
+|-
+| show create table tablename;||pg_dump --schema-only -t tablename (may not always work)
 |}
 
 ===Identical commands===

@@ -3,9 +3,7 @@ layout: post
 title: SOA record (DNS)
 ---
 
-Instead of the standard \'TTL\' for a zone/dns record - known as simply
-\'TTL\' - there are additional TTLs that are configured within the SOA
-record:
+SOA record metrics:
 
 **Refresh**: This is the number of seconds between update requests from
 secondary and slave name servers. If notifies are enabled this is a

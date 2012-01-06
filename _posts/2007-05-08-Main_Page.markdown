@@ -254,7 +254,7 @@ Error\]\]
 
 ### DNS
 
--   [DNS TTLs](DNS_TTLs "wikilink")
+-   [SOA record](SOA_record_(DNS) "wikilink")
 -   [Ascertain and Hide the BIND Version
     Number](Ascertain_and_Hide_the_BIND_Version_Number "wikilink")
 -   [Find duplicate PTRs in a zone

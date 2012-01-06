@@ -1,0 +1,6 @@
+---
+layout: post 
+title: DNS TTLs
+---
+
+1.  REDIRECT [SOA record](SOA_record "wikilink")

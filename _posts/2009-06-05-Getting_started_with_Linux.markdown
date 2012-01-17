@@ -140,7 +140,11 @@ automatically scp the most recen tly modified file to another host:
 
 #### Archiving
 
-Create archive of dir/
+Create tar archive
+
+    tar -cvzf files.tar.gz file1 file2 file3 filen
+
+Create bz2 archive of dir/
 
     tar -c dir/ | bzip2 > dir.tar.bz2
 

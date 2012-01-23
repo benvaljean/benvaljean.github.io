@@ -63,3 +63,7 @@ the SSL: <http://technet.microsoft.com/en-us/library/bb124604.aspx>
 ### Removing objects from the cache
 
 squidclient -p 80 -m PURGE <http://fullurl>
+
+### TCP\_DENIED\_REPLY/403
+
+Client has `http_access` but no `http_reply_access`

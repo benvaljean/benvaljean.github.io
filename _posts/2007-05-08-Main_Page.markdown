@@ -391,6 +391,9 @@ Error\]\]
     only](Copy_table_structure_only_(PostgreSQL) "wikilink")
 -   [Group by day, week or
     month](Group_by_day,_week_or_month_(PostgreSQL) "wikilink")
+-   [Checkpoint](Checkpoint_(PostgreSQL) "wikilink")
+-   [Background Writer
+    (bgwriter)](Background_Writer_(bgwriter)_(PostgreSQL) "wikilink")
 
 ### Microsoft Outlook
 

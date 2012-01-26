@@ -5,7 +5,7 @@ title: Bad owner name (check-names) Error (BIND)
 
 #### Problem
 
-When attempting to load a xone file this error can occur:
+When attempting to load a zone file this error can occur:
 
     pop.company.net.zone:313: blah.pop.company.net: bad owner name (check-names)
     zone pop.company.net/IN: loading from master file pop.company.net failed: bad owner name (check-names)

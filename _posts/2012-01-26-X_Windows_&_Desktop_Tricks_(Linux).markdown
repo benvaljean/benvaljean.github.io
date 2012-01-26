@@ -11,3 +11,5 @@ environment:
 -   LightDM - Ubuntu 11.10+ `sudo /etc/init.d/lightdm restart`
 -   Gnome: `sudo /etc/init.d/gdm restart`
 -   KDE: `sudo /etc/init.d/kdm restart`
+
+[Category:Linux](Category:Linux "wikilink")

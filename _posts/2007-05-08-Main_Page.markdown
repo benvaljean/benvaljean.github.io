@@ -51,6 +51,8 @@ title: Main Page
     dhcpd](Block_/_Ban_MAC_address_in_dhcpd_(Linux) "wikilink")
 -   [Create file with exact / specific
     size](Create_file_with_exact_/_specific_size_(Linux) "wikilink")
+-   [X Windows & Desktop
+    Tricks](X_Windows_&_Desktop_Tricks_(Linux) "wikilink")
 
 #### Troubleshooting
 

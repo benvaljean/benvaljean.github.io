@@ -31,4 +31,10 @@ title: Awk Tricks
 
     awk '!a[$0]++'
 
+#### See Also
+
+<http://www.catonmat.net/blog/awk-one-liners-explained-part-two/>
+
+<http://www.catonmat.net/blog/awk-book/>
+
 [Category:Linux](Category:Linux "wikilink")

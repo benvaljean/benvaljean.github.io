@@ -49,6 +49,7 @@ title: Main Page
     size](Create_file_with_exact_/_specific_size_(Linux) "wikilink")
 -   [X Windows & Desktop
     Tricks](X_Windows_&_Desktop_Tricks_(Linux) "wikilink")
+-   [Awk Tricks](Awk_Tricks "wikilink")
 
 #### Troubleshooting
 

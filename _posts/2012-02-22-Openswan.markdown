@@ -1,0 +1,16 @@
+---
+layout: post 
+title: Openswan
+---
+
+#### Multiple Subnets
+
+Use the following syntax in ipsec.conf :
+
+    leftsubnets={1.1.1.0/24,10.10.0.0/16}
+    rightsubnets={2.1.1.0/24,12.12.0.0/16}
+
+This will establish separate tunnels with the same configuration. V2.6+
+required.
+
+[Category:Networking](Category:Networking "wikilink")

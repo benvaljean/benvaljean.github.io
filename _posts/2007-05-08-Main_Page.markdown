@@ -403,6 +403,7 @@ Error\]\]
 -   [Checkpoint](Checkpoint_(PostgreSQL) "wikilink")
 -   [Background Writer
     (bgwriter)](Background_Writer_(bgwriter)_(PostgreSQL) "wikilink")
+-   [Show trigger SQL](Show_trigger_SQL_(PostgreSQL) "wikilink")
 
 ### Microsoft Outlook
 

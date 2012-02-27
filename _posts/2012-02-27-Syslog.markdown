@@ -1,0 +1,110 @@
+---
+layout: post 
+title: Syslog
+---
+
+Syslog is a deamon that runs on every Linux box for collecting local
+system messages. It can also be configured to send these messages to a
+remote syslog server. The syslog server also runs the same syslog but
+with an option set to accept remote messages. There are variants
+available in addition to the standard **sysklogd** installed on many
+Linux distributions, namely
+[rsyslog](http://www.rsyslog.com/doc/manual.html) and
+[syslog-ng](http://www.balabit.com/network-security/syslog-ng/opensource-logging-system/overview)
+but these will not be discussed here.
+
+#### Setup Server
+
+-   If it exists edit /etc/sysconfig/syslog or edit /etc/init.d/syslog
+    and edit the line which contains `SYSLOGD` or `SYSLOGD_OPTIONS` and
+    add the following arguments `-r -m0` . This will set it up to accept
+    remote connections and ignore the `--- MARK ---` lines respectively.
+
+#### Setup Client
+
+##### Linux
+
+-   Add the following to `/etc/syslog.conf`
+
+<!-- -->
+
+    *.*         @syslog-server
+
+##### Cisco IOS
+
+    conf t
+    logging syslog-server
+    logging trap errors
+    ervice timestamps log datetime
+    logging on
+
+Full syntax:
+
+    router#conf t
+    Enter configuration commands, one per line.  End with CNTL/Z.
+    router(config)#logging ?
+      Hostname or A.B.C.D  IP address of the logging host
+      alarm                Configure syslog for alarms
+      buffered             Set buffered logging parameters
+      buginf               Enable buginf logging for debugging
+      cns-events           Set CNS Event logging level
+      console              Set console logging parameters
+      count                Count every log message and timestamp last occurance
+      delimiter            Append delimiter to syslog messages
+      discriminator        Create or modify a message discriminator
+      esm                  Set ESM filter restrictions
+      event                Global interface events
+      exception            Limit size of exception flush output
+      facility             Facility parameter for syslog messages
+      filter               Specify logging filter
+      history              Configure syslog history table
+      host                 Set syslog server IP address and parameters
+      ip                   IP configuration
+      listen               MWAM remote console and logging listen enabler
+      message-counter      Configure log message to include certain counter value 
+      monitor              Set terminal line (monitor) logging parameters
+      on                   Enable logging to all enabled destinations
+      origin-id            Add origin ID to syslog messages
+      persistent           Set persistent logging parameters
+      queue-limit          Set logger message queue size
+      rate-limit           Set messages per second limit
+      reload               Set reload logging level
+      source-interface     Specify interface for source address in logging transactions
+      system               enable/disable System Event Log
+      trap                 Set syslog server logging level
+      userinfo             Enable logging of user info on privileged mode enabling
+
+Show logging status:
+
+    router# show logging
+
+##### Cisco CatOS
+
+    set logging server syslog-server
+    set logging server severity 3
+    set logging timestamp enable
+    set logging server enable
+
+There are 8 logging levels:
+
+-   0 emergencies
+-   1 alerts
+-   2 critical
+-   3 errors
+-   4 warnings
+-   5 notification
+-   6 informational
+-   7 debugging
+
+##### Windows
+
+Syslogging is not native in Windows but there are 3rd-party tools
+available such as <http://www.syslogserver.com/download.html>
+
+#### References
+
+<http://www.aboutdebian.com/syslog.htm>\
+<http://www.techrepublic.com/article/get-to-know-your-logging-options-in-the-cisco-ios/6084442>
+
+[Category:Linux](Category:Linux "wikilink")
+[Category:Networking](Category:Networking "wikilink")

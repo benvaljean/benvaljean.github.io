@@ -31,6 +31,14 @@ title: Awk Tricks
 
     awk '!a[$0]++'
 
+#### Show lines based on field-criteria
+
+-   Show processes in uninterruptible sleep (usually IO):
+
+<!-- -->
+
+    ps aux|awk '{if ($8 == "D") print}'
+
 #### See Also
 
 <http://www.catonmat.net/blog/awk-one-liners-explained-part-two/>

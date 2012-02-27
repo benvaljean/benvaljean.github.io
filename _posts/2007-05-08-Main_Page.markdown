@@ -50,6 +50,7 @@ title: Main Page
 -   [X Windows & Desktop
     Tricks](X_Windows_&_Desktop_Tricks_(Linux) "wikilink")
 -   [Awk Tricks](Awk_Tricks "wikilink")
+-   [Syslog](Syslog "wikilink")
 
 #### Troubleshooting
 
@@ -258,6 +259,7 @@ Error\]\]
 -   [Check DSL Line Noise](Check_DSL_Line_Noise_(Cisco) "wikilink")
 -   [Restrict management (telnet) access based on
     IP](Restrict_management_(telnet)_access_based_on_IP_(Cisco) "wikilink")
+-   [Syslog](Syslog "wikilink")
 
 ### DNS
 

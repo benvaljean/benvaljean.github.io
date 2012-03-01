@@ -3,8 +3,8 @@ layout: post
 title: Benyg
 ---
 
-\'\'Motor sport and animal lover in his mid-twenties who only recently
-learnt to drive and does not have any pets. \'\'
+\'\'Motor sport and animal lover in his ~~mid~~ late-twenties who only
+recently learnt to drive and does not have any pets. \'\'
 
 I like tennis, flying and west-end (London) theatre. I used to play a
 lot of tennis but I find that I prefer flying planes and if I had more

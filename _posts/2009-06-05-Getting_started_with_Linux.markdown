@@ -131,7 +131,7 @@ prompt by default, like some BSD machines
     PS1='\\u@\\h:\\w\\$ '
 
 Add to bashrc for a `scpnewestfile user@host:/dir` command to
-automatically scp the most recen tly modified file to another host:
+automatically scp the most recently modified file to another host:
 
     scpnewestfile()
     {
@@ -184,6 +184,26 @@ SSH Auto complete:
                      egrep -v [0123456789]) )
     complete -o default -W "${SSH_COMPLETE[*]}" ssh
 
+#### RPM
+
+Query all installed packages, similar to `yum list installed`
+
+    rpm -qa
+
+Query package owning a file
+
+    rpm -qf /bin/file
+
+List files installed by a package
+
+    rpm -qc package
+
+List status of files installed by a package
+
+    rpm -qs package
+
+[^3]
+
 ### References
 
 <references/>
@@ -193,3 +213,5 @@ SSH Auto complete:
 [^1]: <http://www.shell-fu.org/lister.php?id=553>
 
 [^2]: <http://www.shell-fu.org/lister.php?id=525>
+
+[^3]: <http://www.rpm.org/max-rpm/s1-rpm-query-parts.html>

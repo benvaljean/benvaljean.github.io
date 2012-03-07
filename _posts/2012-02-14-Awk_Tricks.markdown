@@ -9,15 +9,15 @@ title: Awk Tricks
 
 #### Replace text1 with text2
 
-    awk '{ gsub(/string/,text2); print }'
+    awk '{ gsub(/text1/,text2); print }'
 
 #### Replace text1 with text2 only lines that contain Hello
 
-    awk '/Hello/ { gsub(/string/,text2); print }'
+    awk '/Hello/ { gsub(/text1/,text2); print }'
 
 #### Replace text1 with text2 only lines that do NOT contain Hello
 
-    awk '!/Hello/ { gsub(/string/,text2); print }'
+    awk '!/Hello/ { gsub(/text1/,text2); print }'
 
 #### Swap first field with the second field
 

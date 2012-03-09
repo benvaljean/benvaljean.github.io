@@ -67,6 +67,9 @@ Error\]\]
     permitted](Ping:_icmp_open_socket:_Operation_not_permitted_(Linux) "wikilink")
 -   [Possible SYN flooding on port xxx. Sending
     cookies](Possible_SYN_flooding_on_port_xxx._Sending_cookies_(Linux) "wikilink")
+-   [Error: Could not find/open font when opening font \"xyz\", using
+    internal non-scalable font
+    (gnuplot)](Error:_Could_not_find/open_font_when_opening_font_"xyz",_using_internal_non-scalable_font_(gnuplot) "wikilink")
 
 #### SSH
 

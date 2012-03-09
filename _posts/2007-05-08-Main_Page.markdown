@@ -110,6 +110,8 @@ Error\]\]
 
 -   [Block dangerous/unsafe attachments in
     Postfix](Block_dangerous/unsafe_attachments_(Postfix) "wikilink")
+-   [Use smarthost with mailx/mail in
+    Postfix](Use_smarthost_with_mailx/mail_(Postfix) "wikilink")
 -   [Mailman](Mailman "wikilink")
 -   [Exim](Exim "wikilink")
 

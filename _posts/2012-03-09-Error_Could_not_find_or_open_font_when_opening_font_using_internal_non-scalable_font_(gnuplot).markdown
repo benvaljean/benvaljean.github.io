@@ -1,10 +1,11 @@
 ---
 layout: post 
-title: Error: Could not find/open font when opening font "xyz"
+title: Error: Could not find/open font when opening font "xyz"  using internal non-scalable font (gnuplot)
 ---
 
-f1\@goodacre.name,===Symptom=== When trying to plot with gnuplot the
-following error can appear:
+#### Symptom
+
+When trying to plot with gnuplot the following error can appear:
 
         Could not find/open font when opening font "xyz", using
         internal non-scalable font

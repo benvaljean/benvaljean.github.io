@@ -1,9 +1,9 @@
 ---
 layout: post 
-title: Get Database
+title: Get Database Schema and Table Sizes (PostgreSQL)
 ---
 
-f1\@goodacre.name,===Get Database size===
+#### Get Database size
 
     SELECT pg_size_pretty(pg_database_size('db_name_here')) As fulldbsize;
 

@@ -30,4 +30,8 @@ empty you will need to download a free TTF font.
     $ GDFONTPATH='/usr/share/fonts/truetype'
     $ GNUPLOT_DEFAULT_GDFONT=arielfree
 
+#### References
+
+<http://gnuplot.sourceforge.net/faq/faq.html#SECTION00091000000000000000>
+
 [Category:Linux](Category:Linux "wikilink")

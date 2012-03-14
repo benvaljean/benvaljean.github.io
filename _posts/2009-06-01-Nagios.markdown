@@ -567,7 +567,7 @@ enables you to assert functionality of sending & receiving emails.
     libmail-pop3client-perl.
 2.  Install Dovecot pop3 server:
     `sudo apt-get install dovecot-common dovecot-pop3d` It takes
-    users/passes from /etc/passwd .
+    credentials from /etc/passwd .
 3.  Install Postfix MTA: `sudo apt-get install postfix`. Configure
     through the /etc/postfix/main.cf file or use
     `sudo dpkg-reconfigure postfix`. See

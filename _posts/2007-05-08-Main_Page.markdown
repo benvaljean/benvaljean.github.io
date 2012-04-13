@@ -29,7 +29,6 @@ title: Main Page
 -   [Disk Partition
     alignment](Disk_Partition_alignment_(Linux) "wikilink")
 -   [VNC Quickstart (Ubuntu)](VNC_Quickstart_(Ubuntu) "wikilink")
--   [Mount NFS Share (Ubuntu)](Mount_NFS_Share_(Ubuntu) "wikilink")
 -   [File timestamps](File_timestamps_(Linux) "wikilink")
 -   [Calculate Sum and Average using
     Awk](Calculate_Sum_and_Average_using_Awk_(Linux) "wikilink")
@@ -70,6 +69,8 @@ Error\]\]
 -   [Error: Could not find/open font when opening font \"xyz\", using
     internal non-scalable font
     (gnuplot)](Error:_Could_not_find/open_font_when_opening_font_"xyz",_using_internal_non-scalable_font_(gnuplot) "wikilink")
+-   [Error: mount: wrong fs type, bad option, bad superblock
+    (NFS)](Error:_mount:_wrong_fs_type,_bad_option,_bad_superblock_(NFS) "wikilink")
 
 #### SSH
 

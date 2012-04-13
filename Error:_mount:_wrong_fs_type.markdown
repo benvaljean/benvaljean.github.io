@@ -14,6 +14,8 @@ Benjamin Goodacre,f1\@goodacre.name,When mounting a NFS share on Ubuntu
            In some cases useful info is found in syslog - try
            dmesg | tail  or so
 
+#### NFS Utilities
+
 This usually occurs occurs because the nfs-common package needs to be
 installed:
 
@@ -22,10 +24,34 @@ installed:
 -   Mandriva `urpmi nfs-common`
 -   Gentoo `emerge nfs-common`
 
-The NFS export can now be mounted:
+<!-- -->
 
-    sudo mount -t nfs 10.x.x.x:/vol/vol1/rrd /mnt
+-   Depending on distro `nfs-utils` and `nfs-utils-lib` may also need to
+    be installed.
 
-Ensure that the mountpoint is an empty folder that already exists.
+#### Portmap
+
+Ensure portmap is running:
+
+    [benyg@host:~] $ rpcinfo -p
+       program vers proto   port  service
+        100000    4   tcp    111  portmapper
+        100000    3   tcp    111  portmapper
+        100000    2   tcp    111  portmapper
+        100000    4   udp    111  portmapper
+        100000    3   udp    111  portmapper
+        100000    2   udp    111  portmapper
+        100000    4     0    111  portmapper
+        100000    3     0    111  portmapper
+        100000    2     0    111  portmapper
+        100024    1   udp  57055  status
+        100024    1   tcp  51056  status
+
+Output if it is not running:
+
+    [benyg@host:~] $ rpcinfo -p
+    rpcinfo: can't contact portmapper: RPC: Remote system error - No such file or directory
+
+-   Install it through the `rpcbind` package and start it.
 
 [Category:Linux](Category:Linux "wikilink")

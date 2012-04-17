@@ -115,5 +115,9 @@ and without a column definition list:
 Taken from
 <http://www.postgresql.org/docs/8.3/static/sql-select.html#SQL-FOR-UPDATE-SHARE>
 
+#### Count records on multiple conditions and show weekly results
+
+    select date_trunc('week',start),sum(case when blah is not null then 1 else 0 end) as blah_exists, count(*) as total from cust where user like 'pr/%' and start >='2012-01-01' group by 1 order by 1 asc;
+
 [Category:PostgreSQL](Category:PostgreSQL "wikilink")
 [Category:MySQL](Category:MySQL "wikilink")

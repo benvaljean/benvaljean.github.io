@@ -9,6 +9,7 @@ filenames do not change every day for your logs:
     /var/log/app/app.log /var/log/app/app_something.log {
         rotate 14
         daily
+        compress
         missingok
         notifempty
         sharedscripts

@@ -50,6 +50,7 @@ title: Main Page
     Tricks](X_Windows_&_Desktop_Tricks_(Linux) "wikilink")
 -   [Awk Tricks](Awk_Tricks "wikilink")
 -   [Syslog](Syslog "wikilink")
+-   [Logrotate](Logrotate_(Linux) "wikilink")
 
 #### Troubleshooting
 

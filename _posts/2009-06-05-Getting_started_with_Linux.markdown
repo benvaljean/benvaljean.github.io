@@ -3,13 +3,6 @@ layout: post
 title: Getting started with Linux
 ---
 
-Search for packages that contain a certain file
-
-    apt-file search filename
-
-Stopwatch on your linux machine: `time cat` to srart, Ctrl+D to stop\
-Show startup items:`chkconfig --list`
-
 #### File searching/manipulation
 
 Copy all files inc subdirs:
@@ -203,6 +196,33 @@ List status of files installed by a package
     rpm -qs package
 
 [^3]
+
+#### Aptitude
+
+Search for packages that contain a certain file
+
+    apt-file search filename
+
+##### Auto install security updates
+
+Package unattended-upgrades allows this - installed by default but not
+automatically scheduled to run by default.
+
+Install security updates only:
+
+    sudo unattended-upgrade
+
+Configure to download/install security updates automatically, excluding
+any that have additional dependancies:
+
+    sudo dpkg-reconfigure -plow unattended-upgrades
+
+See Also: /usr/share/doc/unattended-upgrades/README
+
+#### Misc
+
+Stopwatch on your linux machine: `time cat` to srart, Ctrl+D to stop\
+Show startup items:`chkconfig --list`
 
 ### References
 

@@ -21,6 +21,10 @@ filenames do not change every day for your logs:
 
 If your app has the ability to rotate logs via a command-line argument
 (such as Squid) this should be used instead, or even better use
-\[anacron.sourceforge.net/ Anacron\].
+[Cronolog](http://cronolog.org).
+
+#### Test config
+
+    /usr/sbin/logrotate -d /etc/logrotate.conf
 
 [Category:Linux](Category:Linux "wikilink")

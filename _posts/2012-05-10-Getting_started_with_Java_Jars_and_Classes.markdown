@@ -111,7 +111,7 @@ For the above example:
     updated manifest
     adding: F2C.class(in = 956) (out= 578)(deflated 39%)
 
--   The har can now be executed standalone
+-   The jar can now be executed standalone
 
 <!-- -->
 

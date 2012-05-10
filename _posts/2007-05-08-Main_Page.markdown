@@ -127,6 +127,8 @@ Error\]\]
 -   [Regular Expressions](Regular_Expressions "wikilink")
 -   [Python script fails with \": command not
     found\"](Python_script_fails_with_":_command_not_found" "wikilink")
+-   [Getting started with Java Jars and
+    Classes](Getting_started_with_Java_Jars_and_Classes "wikilink")
 
 #### Bash
 

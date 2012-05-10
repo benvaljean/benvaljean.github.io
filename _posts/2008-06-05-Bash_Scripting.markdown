@@ -13,6 +13,11 @@ $1  First parameter
 $0  Name of the script
 
 $@  All the parameters in one string
+
+==Variable Expansion==
+*Remove matching suffix: <tt>${var%suffix}</tt>
+*Find and replace: <tt>${var/test1/test2}</tt>
+
 ==Get IP address==
 
 The following command will print the IP address by itself allowing you to pipe it into a command or an environment variable:

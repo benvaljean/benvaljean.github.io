@@ -120,5 +120,8 @@ For the above example:
     Celsius = 15.555555555555555
     Temp Convert Bean
 
+See also:
+<http://stackoverflow.com/questions/2591516/why-its-failed-to-load-main-class-manifest-attribute-from-jar-file>
+
 [Category:Java](Category:Java "wikilink")
 [Category:Scripting](Category:Scripting "wikilink")

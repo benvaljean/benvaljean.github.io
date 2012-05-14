@@ -81,7 +81,8 @@ with java code that references it and is placed into a Jar:
        }
     }
 
--   Add this code to the existing jar file:
+-   Compile the code into F2C.class (file name implied) whilst
+    referencing the dependancy for the jar:
     `javac -classpath tconvert.jar F2C.java`
 
 At this point the jar file cannot be executed by itself as the class has

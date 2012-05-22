@@ -1,0 +1,12 @@
+---
+layout: post 
+title: Sun
+---
+
+#### ILOM
+
+Access config from within bios under Advanced \> IPMI
+
+By default the Linux root password can be used in the ILOM
+
+Set system name: System Information \> Identification Information

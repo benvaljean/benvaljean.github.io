@@ -26,9 +26,12 @@ Use `git log` to view the list of commits, note the long alpha-numeric
 after \"commit\".
 
     git revert <commit-number>
-    ===Setup remote repo===
-    Setup a bare remote repo:
-    <pre>ssh remote-server
+
+#### Setup remote repo
+
+Setup a bare remote repo:
+
+    ssh remote-server
     mkdir -p /var/git/repo1
     cd /var/git/repo1
     git --bare init

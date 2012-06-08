@@ -4,6 +4,8 @@ title: Getting started with GIT
 ---
 
 [GIT](http://git-scm.com) is a relatively new Version Control System
+originally by Linus himself that has different principals to
+[CVS](CVS "wikilink") and [SVN](SVN "wikilink").
 
 #### Create new repo
 

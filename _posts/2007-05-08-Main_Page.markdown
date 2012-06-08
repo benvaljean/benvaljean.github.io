@@ -242,17 +242,23 @@ Error\]\]
 -   [Simple Apache log file analyser using
     Awk](Simple_Apache_log_file_analyser_using_Awk "wikilink")
 
-### CVS
+### Version Control
+
+#### CVS
 
 -   [CVS](CVS "wikilink")
 -   [Remove sticky tags](Remove_sticky_tags_(CVS) "wikilink")
 
-### SVN
+#### SVN
 
 -   [Getting started with SVN](Getting_started_with_SVN "wikilink")
 -   [Can\'t open file \'/mnt/svn/dns/db/txn-current-lock\': Permission
     denied
     Error](Svn:_Can't_open_file_'/mnt/svn/dns/db/txn-current-lock':_Permission_denied_Error_(SVN) "wikilink")
+
+#### GIT
+
+-   [Getting started with GIT](Getting_started_with_GIT "wikilink")
 
 ### Networking
 

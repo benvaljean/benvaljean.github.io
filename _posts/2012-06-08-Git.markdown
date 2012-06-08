@@ -1,0 +1,7 @@
+---
+layout: post 
+title: Git
+---
+
+1.  REDIRECT [Getting started with
+    GIT](Getting_started_with_GIT "wikilink")

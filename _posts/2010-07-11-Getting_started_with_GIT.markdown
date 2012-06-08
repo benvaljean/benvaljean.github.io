@@ -4,6 +4,16 @@ title: Getting started with GIT
 ---
 
 [http://git-scm.com GIT] is a relatively new Version Control System originally by Linus himself that has different principals to [[CVS]] and [[SVN]].
+
+===Setup Client Environment===
+<pre>
+git config --global user.name "Joe Bloggs"
+git config --global user.email email@email.com
+git config --global color.diff auto
+git config --global color.status auto
+git config --global color.branch auto
+</pre>
+
 ===GIT vs SVN cheat-sheet===
 
 {| {{table}}

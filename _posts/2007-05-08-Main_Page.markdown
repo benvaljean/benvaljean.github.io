@@ -369,7 +369,7 @@ Error\]\]
 -   [Error -18597 in Entourage when connecting to Exchange
     2007](Error_-18597_in_Entourage_when_connecting_to_Exchange_2007 "wikilink")
 
-### DB Servers
+### Databases
 
 [SQL Examples](SQL_Examples "wikilink")
 

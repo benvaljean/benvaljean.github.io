@@ -3,7 +3,7 @@ layout: post
 title: Getting started with GIT
 ---
 
-[GIT](http://git-scm.com) is a relatively new Version Control System\]
+[GIT](http://git-scm.com) is a relatively new Version Control System
 
 #### Create new repo
 

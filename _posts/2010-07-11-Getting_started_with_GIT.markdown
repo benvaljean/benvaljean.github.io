@@ -3,7 +3,11 @@ layout: post
 title: Getting started with GIT
 ---
 
-Cd to the dir where version tracking is required and creator the repo:
+[GIT](http://git-scm.com) is a relatively new Version Control System\]
+
+#### Create new repo
+
+Cd to the dir where version tracking is required and create the repo:
 
     git init
 

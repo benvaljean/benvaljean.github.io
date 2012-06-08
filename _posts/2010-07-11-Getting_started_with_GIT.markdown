@@ -88,3 +88,7 @@ removed and re-added to the repo the change history is still retained.
     mv script.pl script2.pl
     git rm script.pl
     git add script2.pl
+
+#### References
+
+<http://git-scm.com/book/en/Git-Basics-Recording-Changes-to-the-Repository>

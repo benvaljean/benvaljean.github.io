@@ -53,6 +53,8 @@ title: Main Page
 -   [Logrotate](Logrotate_(Linux) "wikilink")
 -   [Max file descriptor
     limit](Max_file_descriptor_limit_(Linux) "wikilink")
+-   [Scan for SSH servers using
+    nmap](Scan_for_SSH_servers_using_nmap_(Linux) "wikilink")
 
 #### Troubleshooting
 

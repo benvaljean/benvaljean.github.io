@@ -291,6 +291,8 @@ Error\]\]
     file](Find_duplicate_PTRs_in_a_zone_file "wikilink")
 -   [Bad owner name (check-names)
     Error](Bad_owner_name_(check-names)_Error_(BIND) "wikilink")
+-   [DNS Failover / High
+    Availability](DNS_Failover_/_High_Availability "wikilink")
 
 ### Microsoft Exchange 2000/2003
 

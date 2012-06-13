@@ -17,11 +17,11 @@ primary upon every single query.
     \[www.linux-ha.org/wiki/Heartbeat\|Heartbeat\]. All resolv.conf
     nameserver entries point to this VIP.
 -   Use a Load-balancer with service-detection - not just layer 3.
--   Use [1](http://linux.die.net/man/8/nscd%7CNSCD) to cache the DNS
-    entries and mitigate the risk of a failure. Not recommended as
-    adding an extra of complexity (caching on the individual servers)
-    may have unpredictable results.
--   Use [Name Relay Daemon](http://dnrd.sourceforge.net/%7CDomain) that
+-   Use [Name Server Cache Daemon](http://linux.die.net/man/8/nscd) to
+    cache the DNS entries and mitigate the risk of a failure. Not
+    recommended as adding an extra of complexity (caching on the
+    individual servers) may have unpredictable results.
+-   Use [Domain Name Relay Daemon](http://dnrd.sourceforge.net/) that
     will allow the DNS client to mark a node as down and not retry it
     until it is back up again. Only the first queries that were sent
     before NSCD marked it as down would be affected by the 10 second

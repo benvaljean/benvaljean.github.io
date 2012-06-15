@@ -199,6 +199,10 @@ List status of files installed by a package
 
 #### Aptitude
 
+Search for packages of a given name or description:
+
+    apt-cache search virtualbox
+
 Search for packages that contain a certain file
 
     apt-file search filename

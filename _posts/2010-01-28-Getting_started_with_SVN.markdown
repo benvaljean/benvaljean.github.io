@@ -34,4 +34,16 @@ Commit changes to repo:
 
     svn ci file
 
+View changes between revisions
+
+    svn diff -r10:12
+
+View changed files only
+
+    svn diff --summarize -r10:12 http://svn.example.com/trunk
+
+#### References
+
+<http://www.learnosity.com/techblog/index.cfm/2009/1/16/SVN--Get-list-of-files-changed-between-revisions>
+
 [Category:Linux](Category:Linux "wikilink")

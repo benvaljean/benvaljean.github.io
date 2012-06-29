@@ -650,3 +650,4 @@ a hostgroup which contains all the Domain Controllers:
 [Category:Nagios](Category:Nagios "wikilink")
 [Category:Linux](Category:Linux "wikilink")
 [Category:Windows](Category:Windows "wikilink")
+[Category:Monitoring](Category:Monitoring "wikilink")

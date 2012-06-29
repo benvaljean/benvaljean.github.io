@@ -275,3 +275,4 @@ counters](http://searchexchange.techtarget.com/generic/0,295582,sid43_gci1362447
 
 [Category:Nagios](Category:Nagios "wikilink")
 [Category:Exchange](Category:Exchange "wikilink")
+[Category:Monitoring](Category:Monitoring "wikilink")

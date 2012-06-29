@@ -1,0 +1,43 @@
+---
+layout: post 
+title: SNMP
+---
+
+#### MIBS
+
+MIBS allow translation between the numeric OIDS and more friendly names
+that can be recalled. Many distributions are packed with a large number
+of MIBS but may not include the MIBS for your device, or could be out of
+date. Once downloaded the MIB should be placed in a dir where snmp
+commands can find it.
+
+-   Ascertain MIB path:
+
+<!-- -->
+
+    net-snmp-config --default-mibdirs
+
+If that fails try:
+
+    snmptranslate -Dinit_mib .1.3 2>&1 |grep MIBDIR
+
+##### Using MIBs
+
+In this example [Squid](http://squid-cache.org) 3.1 is used.
+
+    snmpwalk -v 2c -c cl0udsquid 1.1.1.1:3401 -m SQUID-MIB squid
+    SQUID-MIB::cacheSysVMsize.0 = INTEGER: xxx
+    SQUID-MIB::cacheSysStorage.0 = INTEGER: yyy
+    SQUID-MIB::cacheUptime.0 = Timeticks: (xxxxxx) y:yy:yy.yy
+    ..........
+
+    snmpget -v 2c -c cl0udsquid 1.1.1.1:3401 -m SQUID-MIB cachePeerState.1
+    SQUID-MIB::cachePeerState.1 = INTEGER: 1
+
+#### References
+
+<http://etutorials.org/Server+Administration/Squid.+The+definitive+guide/Chapter+14.+Monitoring+Squid/14.3+Using+SNMP/>
+
+<http://net-snmp.sourceforge.net/wiki/index.php/TUT:Using_and_loading_MIBS>
+
+[Category:Monitoring](Category:Monitoring "wikilink")

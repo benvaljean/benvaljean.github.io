@@ -321,3 +321,5 @@ Metrics](http://msdn.microsoft.com/en-us/library/ms408393.aspx)
     cache](http://blogs.techrepublic.com.com/datacenter/?p=270)
 
 [Category:Nagios](Category:Nagios "wikilink")
+[Category:Windows](Category:Windows "wikilink")
+[Category:Monitoring](Category:Monitoring "wikilink")

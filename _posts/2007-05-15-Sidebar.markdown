@@ -11,6 +11,7 @@ title: Sidebar
     -   <http://ben.goodacre.name/tech/Main_Page#Databases%7CDatabases>
     -   <http://ben.goodacre.name/tech/Main_Page#Scripting%7CScripting>
     -   <http://ben.goodacre.name/tech/Main_Page#Microsoft_Exchange_2000.2F2003%7CExchange>
+    -   <http://ben.goodacre.name/tech/Category:Monitoring%7CMonitoring>
     -   recentchanges-url\|recentchanges
     -   randompage-url\|randompage
     -   About\_the\_Author\|About the Author

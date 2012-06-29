@@ -55,3 +55,4 @@ The domain is entered in another piece of config.
 
 [Category:Windows](Category:Windows "wikilink")
 [Category:Nagios](Category:Nagios "wikilink")
+[Category:Monitoring](Category:Monitoring "wikilink")

@@ -7,8 +7,8 @@ title: Getting started with Chef
 
 #### Install Chef Client
 
-**References
-<http://wiki.opscode.com/display/chef/Installing+Chef+Client+on+CentOS>**
+*References
+<http://wiki.opscode.com/display/chef/Installing+Chef+Client+on+CentOS>*
 Installed and works on CentOS 6.2
 
     sudo rpm -Uvh http://rbel.frameos.org/rbel6

@@ -9,7 +9,7 @@ command-line or piped into a virtual file as file substitution. The
 latter is useful when using command substition with a command that is
 expecting a filename eg. cat.
 
-#### Variable Subtitution
+#### Variable Substitution
 
 In **variable subtition** the output of the command directly replaces
 the command.

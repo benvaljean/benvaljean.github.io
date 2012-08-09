@@ -145,6 +145,9 @@ Error\]\]
 -   [Command substitution](Command_substitution_(Bash) "wikilink")
 -   [Set default value script/function
     parameter](Set_default_value_script/function_parameter_(Bash) "wikilink")
+-   [Remove spaces or any character from a string (Bash)Remove spaces or
+    any character from a
+    string](Remove_spaces_or_any_character_from_a_string_(Bash)Remove_spaces_or_any_character_from_a_string "wikilink")
 
 #### Perl
 

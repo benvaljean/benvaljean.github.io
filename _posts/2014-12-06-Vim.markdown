@@ -15,10 +15,14 @@ here.
 
 #### Movement
 
+##### Command mode
+
 Beginning of word: **b**\
 End of current word: **e**\
-Beginning of line: **0**\
+Beginning of line: **0** or **\^**\
 End of line: **\$**\
+====Insert mode==== Beginning of line: Home key\
+End of line: End key
 
 #### Search and replace
 

@@ -56,5 +56,4 @@ Useful for verifying that server is coning up.
 
     start /SP/console
 
-[Category:Administration](Category:Administration "wikilink")
-[Category:Infrastructure](Category:Infrastructure "wikilink")
+[Category:Hardware](Category:Hardware "wikilink")

@@ -3,10 +3,58 @@ layout: post
 title: Sun
 ---
 
-#### ILOM
+### ILOM
 
 Access config from within bios under Advanced \> IPMI
 
 By default the Linux root password can be used in the ILOM
 
 Set system name: System Information \> Identification Information
+
+Usage is via \'cding\' to various components. /SP is \'service
+processor\' - aka the ilom itself. /SYS is the server itself.
+
+#### Check for POST faults
+
+    show /SYS/faultmgmt -level all
+
+Or:
+
+    -> show /SYS_name = /SYS
+     /SYS  
+    ........
+        Properties:nsole
+            type = Host Systemtart /SP/console (y/n)? y
+            ipmi_name = /SYS
+            product_name = SUN FIRE X4270 M2 SERVER
+            product_part_number = 30056980+1+1
+            product_serial_number = 1137FMM0DG
+            product_manufacturer = ORACLE CORPORATION
+            fault_state = OK
+            clear_fault_action = (none)
+            power_state = On
+
+#### Power cycle system
+
+-   Graceful:
+
+<!-- -->
+
+    stop /SYS
+    start /SYS
+
+-   Ungraceful:
+
+<!-- -->
+
+    start -script /SYS
+    stop -script /SYS
+
+#### Serial console output
+
+Useful for verifying that server is coning up.
+
+    start /SP/console
+
+[Category:Administration](Category:Administration "wikilink")
+[Category:Infrastructure](Category:Infrastructure "wikilink")

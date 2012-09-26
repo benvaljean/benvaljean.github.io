@@ -6,7 +6,7 @@ title: Error: mount: wrong fs type
 Benjamin Goodacre,f1\@goodacre.name,When mounting a NFS share on Ubuntu
 (and probably Debian) for the first time the following error can appear:
 
-    benyg@host:/mnt$ sudo mount -t nfs 10.x.x.x:/vol/vol1/rrd /mnt
+    benyg@host:/mnt$ sudo mount -t nfs 10.x.x.x:/vol/vol1/rrd /mnt/rrd
     mount: wrong fs type, bad option, bad superblock on 10.x.x.x:/vol/vol1/rrd,
            missing codepage or helper program, or other error
            (for several filesystems (e.g. nfs, cifs) you might

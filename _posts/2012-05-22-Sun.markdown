@@ -56,4 +56,8 @@ Useful for verifying that server is coning up.
 
     start /SP/console
 
+#### References
+
+<http://docs.oracle.com/cd/E19350-01/E21356/6_config-booting.html>
+
 [Category:Hardware](Category:Hardware "wikilink")

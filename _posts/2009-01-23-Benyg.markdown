@@ -10,8 +10,8 @@ I like photography, speaking Mandarin and west-end (London) theatre. I
 used to play a lot of tennis but nowadays I prefer photography
 infinitely. When I am not shooting I am usually (trying) to speak
 Mandarin or playing around with aomething Linux-related. To see my
-pictures: www.goodacrephotography.co.uk or my flickr
-flickr.com/roger-rabbit .
+pictures: <http://www.goodacrephotography.co.uk> or my flickr
+<http://flickr.com/roger-rabbit> .
 
 This site was started in 2007 when it was under a different domain and
 was hosted on an IBM laptop. It became clear that a web-based

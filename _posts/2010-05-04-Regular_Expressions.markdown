@@ -84,12 +84,15 @@ Regular expressions and used in [[Perl]], [[Apache Rewrite]], [[Vim]] among many
 |}
 ===Match a date yyyy-mm-dd===
 <pre>\\d{4}-\\d{2}-\\d{2}</pre>
-Will also match 9999-99-99 .
-===Match a time hh:mm:ss===
+Needs some work, will also match 9999-99-99 .
+===Time hh:mm:ss===
 <pre>\\d{2}:\\d{2}:\\d{2}</pre>
-Will also match 99:99:99 .
-===Match a Mac address===
+Needs some work, will also match 99:99:99 .
+===Mac address===
 With -'s or :'s
 <pre>
 [0-9a-f][0-9a-f][:-][0-9a-f][0-9a-f][:-][0-9a-f][0-9a-f][:-][0-9a-f][0-9a-f][:-][0-9a-f][0-9a-f][:-][0-9a-f][0-9a-f]
 </pre>
+===IP adress===
+<pre>^([0-9]|[1-9][0-9]|1([0-9][0-9])|2([0-4][0-9]|5[0-5]))\\.([0-9]|[1-9][0-9]|1([0-9][0-9])|2([0-4][0-9]|5[0-5]))\\.([0-9]|[1-9][0-9]|1([0-9][0-9])|2([0-4][0-9]|5[0-5]))\\.([0-9]|[1-9][0-9]|1([0-9][0-9])|2([0-4][0-9]|5[0-5]))$</pre>
+''References http://www.analyticsmarket.com/freetools/ipregex''

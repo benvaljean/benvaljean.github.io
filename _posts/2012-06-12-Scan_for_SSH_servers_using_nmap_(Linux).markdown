@@ -8,7 +8,8 @@ a format that is easily greppable or parsed into a script of some kind:
 
     nmap -p22 --open -PN -sV -oG ssh_hosts 10.1.100.0/24
 
-*-PN* states that nmap should not try to ping the host. If it does then
-it can detect a host as being down when it is in actual fact up.
+Or another way, this presents a list if IPs that have SSH up:
+
+    nmap -p 22 10.44.46.0/27|awk '/scan report for/ {print $0}'|grep -Eo '[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}'
 
 [Category:Linux](Category:Linux "wikilink")

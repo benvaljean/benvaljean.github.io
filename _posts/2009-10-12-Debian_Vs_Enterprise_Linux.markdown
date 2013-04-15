@@ -23,7 +23,7 @@ A comparison of commands and packages in Ubuntu/Debian and their equivalent in R
 |-
 | adduser username|| /usr/sbin/adduser username;passwd username
 |-
-| ||
+| /etc/apt/sources.list||/etc/yum.conf and /etc/yum.repos.d/*
 |-
 | ||
 |}

@@ -3,7 +3,7 @@ layout: post
 title: Debian Vs Enterprise Linux
 ---
 
-A comparison of commands and packages in Ubuntu/Debian and their equivalent in Redhat/CentOS
+A comparison of commands and packages in Ubuntu/Debian/Mint ... and their equivalent in Redhat/CentOS/Fedora ...
 
 {| {{table}}
 | align="center" style="background:#f0f0f0;"|'''Debian/Ubuntu'''

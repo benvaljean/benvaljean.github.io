@@ -195,7 +195,9 @@ List status of files installed by a package
 
     rpm -qs package
 
-[^3]
+[^3] List post install and uninstall scripts inside an rpm
+
+    rpm --scripts -qp package.rpm
 
 #### Aptitude
 

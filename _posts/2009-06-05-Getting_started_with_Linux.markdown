@@ -209,7 +209,7 @@ Search for packages that contain a certain file
 
     apt-file search filename
 
-##### Auto install security updates
+##### Auto install security updates (Ubuntu)
 
 Package unattended-upgrades allows this - installed by default but not
 automatically scheduled to run by default.

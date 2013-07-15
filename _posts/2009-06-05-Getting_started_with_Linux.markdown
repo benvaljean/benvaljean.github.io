@@ -191,11 +191,11 @@ List files installed by a package
 
     rpm -qc package
 
-List status of files installed by a package
+List status of files installed by a package [^3]
 
     rpm -qs package
 
-[^3] List post install and uninstall scripts inside an rpm
+List post install and uninstall scripts inside an rpm
 
     rpm --scripts -qp package.rpm
 

@@ -195,7 +195,7 @@ List status of files installed by a package [^3]
 
     rpm -qs package
 
-List post install and uninstall scripts inside an rpm
+List post install and uninstall scripts inside an rpm [^4]
 
     rpm --scripts -qp package.rpm
 
@@ -241,3 +241,5 @@ Show startup items:`chkconfig --list`
 [^2]: <http://www.shell-fu.org/lister.php?id=525>
 
 [^3]: <http://www.rpm.org/max-rpm/s1-rpm-query-parts.html>
+
+[^4]: <http://www.linuxquestions.org/questions/programming-9/how-to-extract-spec-file-from-rpm-file-426847/>

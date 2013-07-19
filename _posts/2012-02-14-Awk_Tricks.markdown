@@ -39,6 +39,18 @@ title: Awk Tricks
 
     ps aux|awk '{if ($8 == "D") print}'
 
+#### Use substr with print
+
+Useful for when combining with uniq -c for log file analysis:
+
+    awk '{print substr($4,0,6)}' squidaccess.log | uniq -c
+       2571 [14/J
+       7365 [15/J
+       8085 [16/J
+       6537 [17/J
+        200 [18/J
+         90 [19/J
+
 #### See Also
 
 <http://www.catonmat.net/blog/awk-one-liners-explained-part-two/>

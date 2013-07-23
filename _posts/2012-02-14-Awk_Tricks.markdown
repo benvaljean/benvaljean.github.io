@@ -51,6 +51,15 @@ Useful for when combining with uniq -c for log file analysis:
         200 [18/J
          90 [19/J
 
+#### Substitute characters before extracting data
+
+Used here for named query logging analysis:
+
+    awk '/query:/ { gsub(/#/," "); print $2 " "$5}' named.log | sort | uniq -c|sort -n
+
+All \"\#\" are changed to a space to allow \$2 to print just the ip
+address.
+
 #### See Also
 
 <http://www.catonmat.net/blog/awk-one-liners-explained-part-two/>

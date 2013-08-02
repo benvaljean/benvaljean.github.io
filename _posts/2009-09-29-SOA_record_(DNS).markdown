@@ -20,11 +20,16 @@ server.
 for negative caching. This is the default TTL if the domain does not
 specify a TTL.
 
-**TTL** (time to live) - The \'standard\' TTL, this is the number of
-seconds any DNS record is cached on a DNS server that queries your NS
-before expiration and return to your (authoritative) nameservers for
-updated information. Reducing TTLs is commonly done when moving sites
-between physical environments.
+**DNS Client TTL** (time to live) - The number of seconds any DNS record
+is cached on a DNS server that queries your NS before expiration and
+return to your (authoritative) nameservers for updated information. This
+is also in theory the number of seconds a local DNS Client will keep
+queries cached before re-performing the query although it is largely not
+followed by browsers.
+
+#### References
+
+<http://www.simplefailover.com/outbox/dns-caching.pdf>
 
 <http://support.microsoft.com/kb/163971>
 

@@ -26,8 +26,8 @@ number protects the server from this.
         version "Not available";
     }
 
-A reload of the config is the required for the config change to take
-effect: `sudo /etc/init.d/bind9 reload`
+A reload of the config required for the config change to take effect:
+`sudo /etc/init.d/bind9 reload`
 
 [Category:DNS](Category:DNS "wikilink")
 [Category:BIND](Category:BIND "wikilink")

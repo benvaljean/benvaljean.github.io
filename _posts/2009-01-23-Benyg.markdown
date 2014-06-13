@@ -23,9 +23,8 @@ of shorthand to something that everybody else would understand.
 
 Originally this site was called Rogerrabbit.net and was only a personal
 site, I put it online and its links found their way onto other websites
-and it slowly became an established website. With 3000+ unique users per
-month (audited to remove bots) it has come a long way from an IBM laptop
-sitting under my desk.
+and it slowly became an established website. With 1000s unique users per
+month it has come a long way from an IBM laptop sitting under my desk.
 
 I work for an ISP as a Linux Systems Administrator, based NW of London,
 UK.

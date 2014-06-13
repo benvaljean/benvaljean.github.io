@@ -3,8 +3,9 @@ layout: post
 title: Benyg
 ---
 
-\'\'Motor sport and animal lover in his ~~mid~~ late-twenties who only
-recently learnt to drive and does not have any pets. \'\'
+\'\'Motor sport and animal lover in his ~~mid~~ ~~late-twenties~~
+early-thirties who ~~only recently~~ learnt to drive late in life and
+does not have any pets. \'\'
 
 I like photography, speaking Mandarin and west-end (London) theatre. I
 used to play a lot of tennis but nowadays I prefer photography

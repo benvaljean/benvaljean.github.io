@@ -67,6 +67,30 @@ mv script.pl script2.pl
 git rm script.pl
 git add script2.pl</pre>
 
-
+===Branching and merging===
+A branch is a separate snapshot of your primary or <tt>master</tt> branch that can be worked out with affecting the <tt>master</tt> branch.
+<pre>
+$ git branch
+* master
+$ git checkout -b fix-fallback
+Switched to a new branch 'fix-fallback'
+$ vim index.html
+$ git commit -a -m 'fixed fallback'
+[fix-fallback 3a0874c] fixed fallback
+ 1 files changed, 1 deletion(-)
+</pre>
+Now they changes are committed in the fix-fallback branch. To merge this into <tt>master</tt> we switch to it and perform a <tt>merge</tt> command:
+<pre>
+$ git checkout master
+$ git merge fix-fallback
+Updating f42c576..3a0874c
+Fast-forward
+ ....
+ 1 file changed
+</pre>
+Now that the changes have been merged into <tt>master</tt> the fix-fallback branch can be deleted:
+<pre>
+$ git branch -d fix-fallback
+</pre>
 ===References===
 http://git-scm.com/book/en/Git-Basics-Recording-Changes-to-the-Repository

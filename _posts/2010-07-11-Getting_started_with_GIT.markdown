@@ -94,3 +94,5 @@ $ git branch -d fix-fallback
 </pre>
 ===References===
 http://git-scm.com/book/en/Git-Basics-Recording-Changes-to-the-Repository
+
+http://git-scm.com/book/en/Git-Branching-Basic-Branching-and-Merging

@@ -35,9 +35,21 @@ Perform your first commit:
 <pre>git commit -m "Initial commit"</pre>
 Re-commit every time changes are made:
 <pre>git commit -a -m "test1"</pre>
+===Diffs===
+====Changes in working tree not yet staged for commit====
+<pre>
+git diff        </pre>
+====Changes between staged changes and the working tree====    
+git diff --cached
+====Changes in the working tree since your last commit====
+<pre>git diff HEAD</pre>
+
+http://git-scm.com/docs/git-diff
+
 ===Reverting a commit===
 Use <tt>git log</tt> to view the list of commits, note the long alpha-numeric after "commit".
 <pre>git revert <commit-number></pre>
+
 ===Setup remote repo===
 Setup a bare remote repo:
 <pre>ssh remote-server

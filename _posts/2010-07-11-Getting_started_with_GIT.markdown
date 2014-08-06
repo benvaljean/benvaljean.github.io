@@ -40,7 +40,8 @@ Re-commit every time changes are made:
 <pre>
 git diff        </pre>
 ====Changes between staged changes and the working tree====    
-git diff --cached
+<pre>git diff --cached</pre>
+
 ====Changes in the working tree since your last commit====
 <pre>git diff HEAD</pre>
 

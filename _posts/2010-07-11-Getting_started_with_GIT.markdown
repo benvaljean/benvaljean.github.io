@@ -47,7 +47,14 @@ git diff        </pre>
 
 http://git-scm.com/docs/git-diff
 
-===Reverting a commit===
+===Reverting===
+====Reverting local changes====
+Revert local changes to the version on the same branch of the most recent commit:<ref>http://stackoverflow.com/questions/692246/undo-working-copy-modifications-of-one-file-in-git</ref>
+<pre>
+git checkout HEAD -- file</pre>
+Revert local changes to the version on the same branch of the commit directly BEFORE the most recent commit:<ref>http://stackoverflow.com/questions/692246/undo-working-copy-modifications-of-one-file-in-git</ref>
+<pre>git checkout HEAD^ -- file </pre>
+====Reverting a commit====
 Use <tt>git log</tt> to view the list of commits, note the long alpha-numeric after "commit".
 <pre>git revert <commit-number></pre>
 

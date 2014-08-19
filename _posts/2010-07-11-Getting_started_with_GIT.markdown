@@ -112,6 +112,12 @@ Now that the changes have been merged into <tt>master</tt> the fix-fallback bran
 <pre>
 $ git branch -d fix-fallback
 </pre>
+===Logs===
+====See changes in last commit====
+<pre>
+git log --name-status HEAD^..HEAD
+</pre>
+<ref>http://stackoverflow.com/questions/2231546/git-see-my-last-commit</ref>
 ===References===
 http://git-scm.com/book/en/Git-Basics-Recording-Changes-to-the-Repository
 

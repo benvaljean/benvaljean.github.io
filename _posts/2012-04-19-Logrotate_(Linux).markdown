@@ -20,7 +20,7 @@ filenames do not change every day for your logs:
     }
 
 If your app has the ability to rotate logs via a command-line argument
-(such as Squid) this should be used instead, or even better use
+(such as Squid) this could be used instead, or even better use
 [Cronolog](http://cronolog.org).
 
 #### Test config

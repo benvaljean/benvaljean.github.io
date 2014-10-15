@@ -12,9 +12,9 @@ When running a Python script it fails with the following output:
 #### Cause
 
 as it appears - this is a path issue. Python scripts have a tendency to
-have no [1](http://en.wikipedia.org/wiki/Shebang_(Unix)%7Cshebang) at
-the top and consequently your script may be being executed by your
-standard shell instead of python.
+have no [shebang](http://en.wikipedia.org/wiki/Shebang_(Unix)) at the
+top and consequently your script may be being executed by your standard
+shell instead of python.
 
 #### Resolution
 

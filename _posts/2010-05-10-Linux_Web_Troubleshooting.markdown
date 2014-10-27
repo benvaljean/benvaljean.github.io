@@ -51,11 +51,11 @@ normal HTTP session.
 If networking needs to be eliminated from troubleshooting.\
 Run this on a client:
 
-    sudo tcpdump -s 0 -X 'tcp dst port 80'
+    sudo tcpdump -s 0 -A 'tcp dst port 80'
 
 And/or the following on a server:
 
-    sudo tcpdump -s 0 -X 'tcp host client.ip.address'
+    sudo tcpdump -s 0 -A 'tcp host client.ip.address'
 
 This will show the full ASCII packet. Obviously this will not work for
 SSL connections.

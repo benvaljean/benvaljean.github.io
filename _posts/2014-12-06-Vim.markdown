@@ -118,9 +118,6 @@ beginning of all ines below the cursor:
 
 #### Allow pasting in Vi without Indents
 
-On earlier distributions pasting in Vi from the OS can be tricky as
-indents are placed on the lines. To disable this:
-
     :set paste
 
 #### Create a new line below the current line

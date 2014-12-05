@@ -128,6 +128,10 @@ beginning of all ines below the cursor:
 
     A
 
+#### Delete trailing white space form all lines
+
+    :%s/\\s\\+$//
+
 #### Visual mode commands
 
 Whilst in command mode, press **v** to enter visual mode. The cursor

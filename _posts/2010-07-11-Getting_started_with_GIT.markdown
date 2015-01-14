@@ -111,11 +111,22 @@ Now that the changes have been merged into <tt>master</tt> the fix-fallback bran
 $ git branch -d fix-fallback
 </pre>
 ===Logs===
+====List changes in this branch===
+<pre>
+git cherry -v</pre>
+OR
+<pre>
+git log <upsteam-branch>..</pre>
 ====See changes in last commit====
 <pre>
 git log --name-status HEAD^..HEAD
 </pre>
 <ref>http://stackoverflow.com/questions/2231546/git-see-my-last-commit</ref>
+====See changes in a given commit id====
+<pre>
+git show <commit-id>
+</pre>
+
 ===References===
 http://git-scm.com/book/en/Git-Basics-Recording-Changes-to-the-Repository
 

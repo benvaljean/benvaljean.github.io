@@ -111,7 +111,7 @@ Now that the changes have been merged into <tt>master</tt> the fix-fallback bran
 $ git branch -d fix-fallback
 </pre>
 ===Logs===
-====List changes in this branch===
+===List changes in this branch===
 <pre>
 git cherry -v</pre>
 OR

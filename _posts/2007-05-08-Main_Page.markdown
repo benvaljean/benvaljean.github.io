@@ -3,7 +3,8 @@ layout: post
 title: Main Page
 ---
 
-\_\_NOEDITSECTION\_\_
+*This has not been updated in a long time although some of the
+information can still be useful.* \_\_NOEDITSECTION\_\_
 
 ### Linux
 

@@ -3,31 +3,6 @@ layout: post
 title: Benyg
 ---
 
-\'\'Motor sport and animal lover in his ~~mid~~ ~~late-twenties~~
-early-thirties who ~~only recently~~ learnt to drive late in life and
-does not have any pets. \'\'
+Benjamin Goodacre
 
-I like photography, speaking Mandarin and west-end (London) theatre. I
-used to play a lot of tennis but nowadays I prefer photography
-infinitely. When I am not shooting I am usually (trying) to speak
-Mandarin or playing around with aomething Linux-related. To see my
-pictures: <http://www.goodacrephotography.co.uk> or my flickr
-<http://flickr.com/roger-rabbit> .
-
-This site was started in 2007 when it was under a different domain and
-was hosted on an IBM laptop. It became clear that a web-based
-documentation tool would be very useful for my day-to-day work. Nowadays
-I document most of the work I do although sadly 75% of it never makes it
-onto here as I do not have time to re-write it from my own awful version
-of shorthand to something that everybody else would understand.
-
-Originally this site was called Rogerrabbit.net and was only a personal
-site, I put it online and its links found their way onto other websites
-and it slowly became an established website. With 1000s unique users per
-month it has come a long way from an IBM laptop sitting under my desk.
-
-I work for an ISP as a Linux Systems Administrator, based NW of London,
-UK.
-
-Comments or suggestions - please get in touch. I would love to hear from
-you. <http://ben.goodacre.name/contact>
+See <http://ben.goodacre.name>

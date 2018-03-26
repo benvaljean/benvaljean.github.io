@@ -32,6 +32,4 @@ Generate the CSR:
 
     openssl req -new -key domainname.key -out domainname.csr
 
-The CSR will smaller than the key size, this is OK.
-
 [Category:Web](Category:Web "wikilink")

@@ -407,6 +407,8 @@ Error\]\]
 -   [Set Global Variables](Set_Global_Variables_(MySQL) "wikilink")
 -   [Get or Ascertain Slave
     Lag](Get_or_Ascertain_Slave_Lag_(MySQL) "wikilink")
+-   [Access denied for root when granting privileges in
+    MySQL](Access_denied_for_root_when_granting_privileges "wikilink")
 
 #### PostgreSQL
 

@@ -57,6 +57,8 @@ information can still be useful.* \_\_NOEDITSECTION\_\_
 -   [Scan for SSH servers using
     nmap](Scan_for_SSH_servers_using_nmap_(Linux) "wikilink")
 -   [ARP Cache Timeout](ARP_Cache_Timeout "wikilink")
+-   [Disable Caps lock in Ubuntu
+    16.04](Disable_Caps_lock_in_Ubuntu_16.04 "wikilink")
 
 #### Troubleshooting
 

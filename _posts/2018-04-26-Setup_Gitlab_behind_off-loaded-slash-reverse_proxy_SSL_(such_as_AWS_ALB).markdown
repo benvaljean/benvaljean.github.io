@@ -11,8 +11,9 @@ In this example nginx is setup to redirect http to https and forward
 specific headers that the ALB adds to the http request. The real\_ip
 directives configure gitlab to watch for this header when the request is
 from the addresses in `real_ip_trusted_addresses` for designating the
-real ip. `listen_https` to false informs nginx to not setup ssl
-certificates using let\'s encrypt.
+real ip. The ip range or ip addresses of your load-balancers should go
+here. In the case of AWS you can put your VPC subnet. `listen_https` to
+false informs nginx to not setup ssl certificates using let\'s encrypt.
 
 `/etc/gitlab/gitlab.rb`
 

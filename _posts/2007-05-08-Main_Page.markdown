@@ -59,6 +59,8 @@ information can still be useful.* \_\_NOEDITSECTION\_\_
 -   [ARP Cache Timeout](ARP_Cache_Timeout "wikilink")
 -   [Disable Caps lock in Ubuntu
     16.04](Disable_Caps_lock_in_Ubuntu_16.04 "wikilink")
+-   [Setup Gitlab behind off-loaded/reverse proxy SSL (such as AWS
+    ALB)](Setup_Gitlab_behind_off-loaded/reverse_proxy_SSL_(such_as_AWS_ALB) "wikilink")
 
 #### Troubleshooting
 

@@ -269,6 +269,8 @@ Error\]\]
 #### GIT
 
 -   [Getting started with GIT](Getting_started_with_GIT "wikilink")
+-   [Search/replace all git commit names and
+    emails](Search/replace_all_git_commit_names_and_emails "wikilink")
 
 ### Networking
 

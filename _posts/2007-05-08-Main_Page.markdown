@@ -8,7 +8,7 @@ time.* \_\_NOEDITSECTION\_\_
 
 ### Linux
 
--   [Linux Tricks](Linux_Tricks "wikilink")
+-   [Getting started with Linux](Getting_started_with_Linux "wikilink")
 -   [Nagios](Nagios "wikilink")
 -   [Debian / Ubuntu Vs RHEL / CentOS /
     Fedora](Debian_/_Ubuntu_Vs_RHEL_/_CentOS_/_Fedora "wikilink")

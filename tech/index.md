@@ -8,18 +8,16 @@ layout: default
 
   <ul class="post-list">
 
-    {% assign sorted = site.posts | sort: 'date' | reverse %}
-    {% for post_sorted in sorted %}
-  <li>
-        <span class="post-meta">{{ post_sorted.date | date: "%d %B %Y %H:%M:%S" }}</span>
+      {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.last_modified_at | date: "%d %B %Y %H:%M:%S" }}</span>
 
         <h2>
-          <a class="post-link" href="{{ post_sorted.url | prepend: site.baseurl }}">{{ post_sorted.title }}</a>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
       </li>
     {% endfor %}
 
-  
   </ul>
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>

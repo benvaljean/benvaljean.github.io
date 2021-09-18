@@ -11,7 +11,7 @@ layout: default
     {% assign sorted = site.posts | sort: 'date' | reverse %}
     {% for post_sorted in sorted %}
   <li>
-        <span class="post-meta">{{ post_sorted.last_modified_at | date: "%d %B %Y %H:%M:%S" }}</span>
+        <span class="post-meta">{{ post_sorted.date | date: "%d %B %Y %H:%M:%S" }}</span>
 
         <h2>
           <a class="post-link" href="{{ post_sorted.url | prepend: site.baseurl }}">{{ post_sorted.title }}</a>

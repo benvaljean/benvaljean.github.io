@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Your availability time range is invalid, please correct Error (Lotus Notes)
+tags: Lotus
 ---
 
 ![Availability

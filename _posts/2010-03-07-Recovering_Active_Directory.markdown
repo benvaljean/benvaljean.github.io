@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Recovering Active Directory
+tags: Windows
 ---
 
 ### Backup

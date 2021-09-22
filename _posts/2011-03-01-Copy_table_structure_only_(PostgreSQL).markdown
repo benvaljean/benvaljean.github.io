@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Copy table structure only (PostgreSQL)
+tags: PostgreSQL
 ---
 
 Create a copy of a table but with no data inside it:

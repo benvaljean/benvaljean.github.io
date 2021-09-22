@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: SVN for /etc
+tags: Linux
 ---
 
 [Subversion](http://subversion.tigris.org/) also known as SVN is a

@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Ascertain what package provides a given binary with rpm (Linux)
+tags: Linux
 ---
 
 On Redhat-based systems the **rpm** command can show the package that

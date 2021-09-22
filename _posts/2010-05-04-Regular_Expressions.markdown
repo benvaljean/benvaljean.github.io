@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Regular Expressions
+tags: 
 ---
 
 Regular expressions and used in [[Perl]], [[Apache Rewrite]], [[Vim]] among many other uses.

@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Apache Rewrite
+tags: Web Linux
 ---
 
 Rewrite might not always be required, when changing one static URL to

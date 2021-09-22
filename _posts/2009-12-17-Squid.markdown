@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Squid
+tags: 
 ---
 
 [Squid Proxy](http://www.squid-cache.org)

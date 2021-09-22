@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: System Volume Information folder (Windows)
+tags: Windows
 ---
 
 From Windows 2000 onwards a folder called \'System Volume Information\'

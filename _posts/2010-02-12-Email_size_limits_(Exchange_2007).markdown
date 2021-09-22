@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Email size limits (Exchange 2007)
+tags: Exchange
 ---
 
 The maximum size of an email that can be sent or received can be set

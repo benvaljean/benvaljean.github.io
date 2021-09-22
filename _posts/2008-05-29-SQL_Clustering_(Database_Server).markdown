@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: SQL Clustering (Database Server)
+tags: MSSQL
 ---
 
 A cluster is a two-or-greater-node failover solution, using a

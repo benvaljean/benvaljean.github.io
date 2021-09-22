@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Getting started with Postgresql
+tags: 
 ---
 
 1.  REDIRECT [Getting started with

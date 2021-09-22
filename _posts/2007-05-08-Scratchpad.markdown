@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Scratchpad
+tags: 
 ---
 
 set WshShell = WScript.CreateObject(\"WScript.Shell\") set oShortCutLink

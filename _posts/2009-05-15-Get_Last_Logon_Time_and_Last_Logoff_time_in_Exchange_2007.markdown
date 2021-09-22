@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Get Last Logon Time and Last Logoff time in Exchange 2007
+tags: 
 ---
 
 1.  REDIRECT [Get Last Logon Time, Last Logoff time, Mailbox size and

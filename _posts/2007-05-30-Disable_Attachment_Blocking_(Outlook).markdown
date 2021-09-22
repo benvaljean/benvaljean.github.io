@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Disable Attachment Blocking (Outlook)
+tags: Outlook
 ---
 
 Outlook by default blocks certain attachments (file-types) from being

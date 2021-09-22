@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Monitor SQL Server (MSSQL) using Nagios
+tags: Nagios Windows Monitoring
 ---
 
 [Nagios](Nagios "wikilink") is a free open-source monitoring

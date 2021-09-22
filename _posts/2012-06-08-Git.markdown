@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Git
+tags: 
 ---
 
 1.  REDIRECT [Getting started with

@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Possible SYN flooding on port xxx. Sending cookies (Linux)
+tags: Linux
 ---
 
 #### Symptom

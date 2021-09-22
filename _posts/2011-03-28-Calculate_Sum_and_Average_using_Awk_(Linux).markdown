@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Calculate Sum and Average using Awk (Linux)
+tags: Linux
 ---
 
 Awk can be used to caclulate the sum and average of a particular field:

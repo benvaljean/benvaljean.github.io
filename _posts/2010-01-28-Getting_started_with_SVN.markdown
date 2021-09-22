@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Getting started with SVN
+tags: Linux
 ---
 
 ### Setup new repo

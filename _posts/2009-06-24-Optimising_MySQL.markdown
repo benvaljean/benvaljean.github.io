@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Optimising MySQL
+tags: 
 ---
 
 key\_buffer\_size

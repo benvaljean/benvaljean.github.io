@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: One or more users currently use a mailbox store on this server Error (Exchange 2003)
+tags: Exchange
 ---
 
 ### Symptom

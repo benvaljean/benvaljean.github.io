@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Use smarthost with mailx/mail (Postfix)
+tags: Linux Postfix
 ---
 
 The client mailer mail /

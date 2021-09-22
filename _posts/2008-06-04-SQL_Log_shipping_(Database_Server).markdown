@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: SQL Log shipping (Database Server)
+tags: MSSQL
 ---
 
 Microsoft SQL Server Transaction Log shipping is a mathod of

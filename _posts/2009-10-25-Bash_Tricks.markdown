@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Bash Tricks
+tags: 
 ---
 
 ===Keyboard Shortcuts===

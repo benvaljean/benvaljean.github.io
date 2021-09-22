@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Exim
+tags: Linux
 ---
 
 Get current activity:

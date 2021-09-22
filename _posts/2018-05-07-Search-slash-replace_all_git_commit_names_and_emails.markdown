@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Search/replace all git commit names and emails
+tags: Git
 ---
 
 Search for all git commits in all branches where comitter email is

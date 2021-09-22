@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Fun Stuff
+tags: 
 ---
 
 [Things My Girlfriend and I Have Argued

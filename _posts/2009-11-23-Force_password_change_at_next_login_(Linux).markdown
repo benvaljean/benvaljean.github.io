@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Force password change at next login (Linux)
+tags: Linux
 ---
 
 When creating a new user it can be necessary to force the user to change

@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Public key authentication for SSH
+tags: Linux
 ---
 
 ### Check Server Config

@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Block / Ban MAC address in dhcpd (Linux)
+tags: Linux
 ---
 
 Add to dhcpd.conf:

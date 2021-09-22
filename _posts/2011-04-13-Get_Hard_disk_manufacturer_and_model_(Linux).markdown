@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Get Hard disk manufacturer and model (Linux)
+tags: Linux
 ---
 
 To obtain detailed information on the hard drives installed `sdparm` or

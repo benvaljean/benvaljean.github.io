@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Rdiff
+tags: 
 ---
 
 Rdiff provides rsync functonality with incremental transfer natively.

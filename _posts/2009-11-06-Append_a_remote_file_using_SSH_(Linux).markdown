@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Append a remote file using SSH (Linux)
+tags: Linux
 ---
 
 scp cannot be used to append to a remote file, only replace it.

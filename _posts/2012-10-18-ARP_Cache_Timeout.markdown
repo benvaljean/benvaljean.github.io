@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: ARP Cache Timeout
+tags: Linux
 ---
 
 Default 60 seconds

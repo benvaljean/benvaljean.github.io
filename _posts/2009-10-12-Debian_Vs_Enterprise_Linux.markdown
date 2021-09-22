@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Debian Vs Enterprise Linux
+tags: 
 ---
 
 A comparison of commands and packages in Ubuntu/Debian/Mint ... and their equivalent in Redhat/CentOS/Fedora ...

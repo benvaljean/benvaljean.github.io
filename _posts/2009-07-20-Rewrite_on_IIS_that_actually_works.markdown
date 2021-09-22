@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Rewrite on IIS that actually works
+tags: Windows Web
 ---
 
 It is amazing to think that before IIS7 (Server 2008 / Vista) there was

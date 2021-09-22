@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Settings permission for an Exchange database / Granting access to all mailboxes (Exchange 2007)
+tags: Exchange
 ---
 
 In [Microsoft Exchange

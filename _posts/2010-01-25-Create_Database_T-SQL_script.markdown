@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Create Database T-SQL script
+tags: 
 ---
 
 The script below aids the process of migrating multiple databases from

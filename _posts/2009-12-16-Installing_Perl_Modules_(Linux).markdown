@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Installing Perl Modules (Linux)
+tags: Linux
 ---
 
 A lot of distros have packages for perl modules that allow many modules

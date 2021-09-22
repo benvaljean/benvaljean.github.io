@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Linux
+tags: IT
 ---
 
 [Category:IT](Category:IT "wikilink")

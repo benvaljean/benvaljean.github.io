@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: MySQL vs PostgreSQL
+tags: 
 ---
 
 {| {{table}}

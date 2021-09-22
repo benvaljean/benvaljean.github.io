@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Strip Apostrophe
+tags: 
 ---
 
 1.  REDIRECT [Strip Apostrophe (or any character) in SMTP email address

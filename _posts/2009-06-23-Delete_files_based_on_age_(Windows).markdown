@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Delete files based on age (Windows)
+tags: Windows
 ---
 
 On Windows this can be achieved using a VB script. The VBS script below

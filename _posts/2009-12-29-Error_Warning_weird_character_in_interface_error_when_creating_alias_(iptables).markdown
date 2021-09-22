@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Error: Warning: weird character in interface error when creating alias (iptables)
+tags: Linux Networking Iptables
 ---
 
 ### Symptom

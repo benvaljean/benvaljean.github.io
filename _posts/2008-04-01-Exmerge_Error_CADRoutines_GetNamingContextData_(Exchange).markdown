@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Exmerge Error CADRoutines::GetNamingContextData (Exchange)
+tags: Exchange
 ---
 
 ![Forcing an update to the Exchange Recipient Update

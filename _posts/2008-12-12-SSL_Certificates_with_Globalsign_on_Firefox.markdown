@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: SSL Certificates with Globalsign on Firefox
+tags: Web
 ---
 
 Firefox is more particular than IE and Opera when it comes to SSL. Most

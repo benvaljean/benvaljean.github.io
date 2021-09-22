@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Windows DOS Tricks
+tags: Windows
 ---
 
 Copy a folder and retain its permissions:

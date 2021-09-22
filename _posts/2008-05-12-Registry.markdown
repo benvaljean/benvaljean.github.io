@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Registry
+tags: 
 ---
 
 1.  REDIRECT [Talk:Registry

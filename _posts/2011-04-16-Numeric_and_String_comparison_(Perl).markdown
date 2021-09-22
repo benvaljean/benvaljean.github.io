@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Numeric and String comparison (Perl)
+tags: 
 ---
 
 ===Numeric comparison===

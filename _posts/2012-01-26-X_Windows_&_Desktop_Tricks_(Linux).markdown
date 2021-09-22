@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: X Windows & Desktop Tricks (Linux)
+tags: Linux
 ---
 
 #### Restart X without restarting machine

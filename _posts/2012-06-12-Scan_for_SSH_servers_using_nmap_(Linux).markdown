@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Scan for SSH servers using nmap (Linux)
+tags: Linux
 ---
 
 Scan for SSH servers in a subnet whilst outputting the version string in

@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Myths (Eye)
+tags: Fun
 ---
 
 #### \"Eating carrots will improve your eyesight\"

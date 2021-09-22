@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Disk Partition alignment (Windows)
+tags: Windows
 ---
 
 Disk partition alignment involves setting the partition offset of the

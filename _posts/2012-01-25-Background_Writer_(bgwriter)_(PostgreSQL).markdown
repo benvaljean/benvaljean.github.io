@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Background Writer (bgwriter) (PostgreSQL)
+tags: PostgreSQL
 ---
 
 Bgwriter (background writer) pushes buffers to disk. Backend processes

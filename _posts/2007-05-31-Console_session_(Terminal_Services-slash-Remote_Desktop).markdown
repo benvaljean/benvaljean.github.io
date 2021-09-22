@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Console session (Terminal Services/Remote Desktop)
+tags: Windows
 ---
 
 Windows Server 2003 allows remote connection to the console session of a

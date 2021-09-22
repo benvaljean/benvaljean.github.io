@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: FSMO Roles
+tags: Windows
 ---
 
 Flexible Single Master Operation (FSMO) roles are key points in

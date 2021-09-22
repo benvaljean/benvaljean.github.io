@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: View locking transactions (PostgreSQL)
+tags: PostgreSQL
 ---
 
     SELECT pg_class.relname, pg_locks.transactionid, pg_locks.mode, pg_locks.granted as "g",

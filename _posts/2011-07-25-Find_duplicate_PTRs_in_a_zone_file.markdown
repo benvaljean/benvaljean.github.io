@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Find duplicate PTRs in a zone file
+tags: DNS BIND Linux
 ---
 
 For any RFC compliant reverse zone file including BIND / named, where

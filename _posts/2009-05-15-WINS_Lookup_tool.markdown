@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: WINS Lookup tool
+tags: Windows
 ---
 
 There is no tool with Windows that can perform WINS lookups in order to

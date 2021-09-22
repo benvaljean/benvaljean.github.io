@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Getting started with Java Jars and Classes
+tags: Java Scripting
 ---
 
 #### What is a Java Class?

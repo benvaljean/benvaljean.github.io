@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Forward DNS traffic over SOCKS proxy (Firefox)
+tags: Web Linux Windows
 ---
 
 By default Firefox when using a socks proxy will still use the local DNS

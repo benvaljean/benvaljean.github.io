@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: NATing (iptables)
+tags: iptables Networking
 ---
 
 Forward connectons on WAN IP 1.1.1.1 to a machine on the the local

@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Getting started with Linux
+tags: Linux
 ---
 
 #### File searching/manipulation

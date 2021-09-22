@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Restore/Repair My Documents (Windows)
+tags: Fun
 ---
 
 #### Restore My Documents

@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Get Last Logon Time, Last_Logoff time, Mailbox size and Item_Count (Exchange_2007)
+tags: Exchange
 ---
 
 This feature was removed from the Exchange 2007 UI.

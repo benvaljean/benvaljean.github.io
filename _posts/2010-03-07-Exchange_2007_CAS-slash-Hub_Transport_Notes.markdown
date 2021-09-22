@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Exchange 2007 CAS/Hub Transport Notes
+tags: Exchange
 ---
 
 See [Exchange 2007 Server Roles](Exchange_2007_Server_Roles "wikilink")

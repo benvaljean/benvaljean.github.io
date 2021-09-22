@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Strip Apostrophe (or any character) in SMTP email address (Exchange 2003/2007)
+tags: Exchange
 ---
 
 ### Background

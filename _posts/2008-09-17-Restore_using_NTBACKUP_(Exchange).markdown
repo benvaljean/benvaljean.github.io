@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Restore using NTBACKUP (Exchange)
+tags: Exchange
 ---
 
 ### Background

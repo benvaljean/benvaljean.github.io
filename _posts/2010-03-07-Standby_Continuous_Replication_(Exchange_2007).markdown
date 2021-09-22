@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Standby Continuous Replication (Exchange 2007)
+tags: Exchange
 ---
 
 Exchange Standby Continuous Replication (SCR) is replication in a manual

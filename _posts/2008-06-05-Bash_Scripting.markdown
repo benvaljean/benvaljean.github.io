@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Bash Scripting
+tags: 
 ---
 
 BASH [http://www.gnu.org/software/bash/ (Bourne Again Shell)] is a command shell and interpretor for Linux.

@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Force Password Authentication on SSH (Linux)
+tags: Linux
 ---
 
 Disable use of public key authentication such as provided by your ssh

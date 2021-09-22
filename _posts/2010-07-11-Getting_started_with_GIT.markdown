@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Getting started with GIT
+tags: 
 ---
 
 ===Setup Client Environment===

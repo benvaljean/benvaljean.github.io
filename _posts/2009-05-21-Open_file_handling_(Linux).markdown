@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Open file handling (Linux)
+tags: Linux
 ---
 
 View current open files for all processes:

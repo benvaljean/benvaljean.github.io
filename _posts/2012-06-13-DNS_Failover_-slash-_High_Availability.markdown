@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: DNS Failover / High Availability
+tags: DNS Linux
 ---
 
 The native Linux resolver with default settings cannot be relied upon

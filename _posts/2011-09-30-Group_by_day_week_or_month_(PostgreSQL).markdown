@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Group by day week or month (PostgreSQL)
+tags: PostgreSQL
 ---
 
 Sum counts of an occurrence into days, weeks, or months

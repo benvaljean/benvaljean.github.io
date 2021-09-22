@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Adding Registered Block List (RBL) checking in Exchange 2007
+tags: Exchange
 ---
 
 ### Using the Exchange Management Console

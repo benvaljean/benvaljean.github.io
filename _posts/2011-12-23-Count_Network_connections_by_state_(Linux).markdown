@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Count Network connections by state (Linux)
+tags: Linux
 ---
 
 To display a count of all network connections by their state:

@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Remove sticky tags (CVS)
+tags: Linux
 ---
 
 CVS can use sticky tags, which has similar functionality to a branch in

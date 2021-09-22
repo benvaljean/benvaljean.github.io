@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Chmod codes (Linux)
+tags: 
 ---
 
 First charater: User permissions<br>

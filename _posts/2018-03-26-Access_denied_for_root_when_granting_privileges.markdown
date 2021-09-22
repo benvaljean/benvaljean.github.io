@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Access denied for root when granting privileges
+tags: MySQL
 ---
 
 #### Symptom

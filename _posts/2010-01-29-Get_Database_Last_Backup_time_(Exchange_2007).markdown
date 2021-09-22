@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Get Database Last Backup time (Exchange 2007)
+tags: Exchange
 ---
 
 Through the use of the

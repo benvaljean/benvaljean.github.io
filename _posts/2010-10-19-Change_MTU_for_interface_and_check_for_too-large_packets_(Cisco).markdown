@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Change MTU for interface and check for too-large packets (Cisco)
+tags: Cisco
 ---
 
 #### Check for packets exxeeding MTU

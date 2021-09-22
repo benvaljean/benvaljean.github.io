@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: ScratchCars
+tags: 
 ---
 
 Toyota MR2 TOYOTA MR2 2.0 GT T/BAR LEATH TOYOTA MR2 2.0 GT 92/J T/BAR

@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: POP3 Connection hangs and other issues (Exchange)
+tags: Exchange
 ---
 
 This article details various connection issues to [Microsoft

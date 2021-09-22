@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: SQL Examples
+tags: PostgreSQL MySQL
 ---
 
 To join the table films with the table distributors:

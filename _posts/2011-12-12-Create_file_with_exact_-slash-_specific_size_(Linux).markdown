@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Create file with exact / specific size (Linux)
+tags: Linux
 ---
 
 Create a 250MB (MegaByte) file with random characters:

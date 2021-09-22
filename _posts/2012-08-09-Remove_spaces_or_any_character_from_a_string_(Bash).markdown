@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Remove spaces or any character from a string (Bash)
+tags: Bash Linux
 ---
 
 Remove spaces or any character from a string (Bash)

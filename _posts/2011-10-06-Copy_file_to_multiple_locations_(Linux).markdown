@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Copy file to multiple locations (Linux)
+tags: Linux Bash
 ---
 
 #### Background

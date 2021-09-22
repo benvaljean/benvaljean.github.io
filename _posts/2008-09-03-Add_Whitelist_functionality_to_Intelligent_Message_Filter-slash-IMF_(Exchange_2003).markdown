@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Add Whitelist functionality to Intelligent Message Filter/IMF (Exchange 2003)
+tags: Exchange
 ---
 
 ### Background

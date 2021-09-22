@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Disable Group Policy for individual PC locally (Windows)
+tags: Windows
 ---
 
 If there is a scenario where it is required to disable the loading of

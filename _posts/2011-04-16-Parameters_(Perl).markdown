@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Parameters (Perl)
+tags: Perl
 ---
 
 The \@ARGV array stores parameters.

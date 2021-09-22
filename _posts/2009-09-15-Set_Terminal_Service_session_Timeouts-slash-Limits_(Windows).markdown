@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Set Terminal Service session Timeouts/Limits (Windows)
+tags: Windows
 ---
 
 I order to prevent all your terminal service sessions being used and

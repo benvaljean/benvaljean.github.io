@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Automated rsync for backup
+tags: 
 ---
 
 For the purpises of this page backups are being done from \'liveserver\'

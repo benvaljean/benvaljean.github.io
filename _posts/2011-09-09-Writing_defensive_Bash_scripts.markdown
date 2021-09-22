@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Writing defensive Bash scripts
+tags: Bash Linux 
 ---
 
 Any kind of script should be written to expect the unexpected, this is known as programming ''defensively''.

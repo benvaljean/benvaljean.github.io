@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Create custom System Folder on Desktop/My Computer (Windows)
+tags: Windows
 ---
 
 Follow the steps below to create a custom folder on the Desktop or My

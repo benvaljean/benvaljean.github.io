@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Cisco Tricks
+tags: Networking
 ---
 
 Show interfaces:

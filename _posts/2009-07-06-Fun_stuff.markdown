@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Fun stuff
+tags: 
 ---
 
 1.  REDIRECT [Fun Stuff](Fun_Stuff "wikilink")

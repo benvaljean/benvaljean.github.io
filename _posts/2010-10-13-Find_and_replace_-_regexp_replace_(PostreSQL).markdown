@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Find and replace - regexp replace (PostreSQL)
+tags: PostgreSQL
 ---
 
 The regexp\_replace function allow \'find and replace\' functionality

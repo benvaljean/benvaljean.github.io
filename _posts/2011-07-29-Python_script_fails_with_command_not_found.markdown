@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Python script fails with ": command not found"
+tags: Programming
 ---
 
 #### Problem

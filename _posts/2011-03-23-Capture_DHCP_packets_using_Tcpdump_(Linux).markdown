@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Capture DHCP packets using Tcpdump (Linux)
+tags: Linux
 ---
 
 Change `eth0` to match your service interface:

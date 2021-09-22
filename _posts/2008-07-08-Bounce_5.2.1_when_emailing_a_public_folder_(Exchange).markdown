@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Bounce 5.2.1 when emailing a public folder (Exchange)
+tags: Exchange
 ---
 
 \_\_NOTOC\_\_

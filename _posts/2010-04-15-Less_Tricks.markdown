@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Less Tricks
+tags: Linux
 ---
 
 To edit a file based on the VISUAL or EDITOR variables, or Vi by

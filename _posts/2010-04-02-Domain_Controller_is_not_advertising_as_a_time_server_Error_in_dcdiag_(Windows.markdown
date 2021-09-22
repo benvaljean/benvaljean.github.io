@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Domain Controller is not advertising as a time server Error in dcdiag (Windows
+tags: 
 ---
 
 1.  REDIRECT [Domain Controller is not advertising as a time server

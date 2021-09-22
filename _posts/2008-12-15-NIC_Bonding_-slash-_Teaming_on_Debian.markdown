@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: NIC Bonding / Teaming on Debian
+tags: 
 ---
 
 NIC Bonding / teaming refers to redundant NICS - setting up two NICs on

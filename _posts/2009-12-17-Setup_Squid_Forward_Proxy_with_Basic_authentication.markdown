@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Setup Squid Forward Proxy with Basic authentication
+tags: Squid Linux
 ---
 
 On Debian/Ubuntu and related distros:

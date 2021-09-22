@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: VNC Quickstart (Ubuntu)
+tags: Linux
 ---
 
 This will also probably work on any Debian-based distro.

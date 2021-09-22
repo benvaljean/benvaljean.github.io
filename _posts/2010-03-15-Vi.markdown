@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Vi
+tags: 
 ---
 
 1.  REDIRECT [Vim](Vim "wikilink")

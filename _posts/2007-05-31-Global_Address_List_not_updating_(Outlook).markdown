@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Global Address List not updating (Outlook)
+tags: Outlook
 ---
 
 ### Symptom

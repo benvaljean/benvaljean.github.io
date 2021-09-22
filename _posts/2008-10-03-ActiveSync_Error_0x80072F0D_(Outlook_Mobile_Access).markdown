@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: ActiveSync Error 0x80072F0D (Outlook Mobile Access)
+tags: Windows
 ---
 
 When attempting to syncronise all or part of a mailbox in ActiveSync on

@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Verify SSH server host key
+tags: Linux
 ---
 
 If when SSHing to a server you receive an alert that the host dsa key

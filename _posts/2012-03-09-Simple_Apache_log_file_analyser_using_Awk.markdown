@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Simple Apache log file analyser using Awk
+tags: Web
 ---
 
 Show counts of status codes:

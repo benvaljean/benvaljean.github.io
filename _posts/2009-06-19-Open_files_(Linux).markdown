@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Open files (Linux)
+tags: 
 ---
 
 1.  REDIRECT [Open file handling

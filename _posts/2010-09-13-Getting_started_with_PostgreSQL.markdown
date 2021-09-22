@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Getting started with PostgreSQL
+tags: PostgreSQL
 ---
 
 ### Installation Debian / Ubuntu

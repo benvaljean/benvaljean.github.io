@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Sourcing variables from other files using Source command (Bash)
+tags: Linux Bash
 ---
 
 When a child process is started from a BASH script any evironment

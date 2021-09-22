@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Exchange 2007 property cannot be set due to version 0.1 (8.0.535.0) or later required
+tags: Exchange
 ---
 
 ### Symptoms

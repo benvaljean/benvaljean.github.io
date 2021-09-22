@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Set Global Variables (MySQL)
+tags: MySQL
 ---
 
 Knowledge of global variables principally allows the alteration of

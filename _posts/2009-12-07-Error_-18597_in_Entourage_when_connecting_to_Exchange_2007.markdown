@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Error -18597 in Entourage when connecting to Exchange 2007
+tags: Exchange
 ---
 
 ### Symptoms

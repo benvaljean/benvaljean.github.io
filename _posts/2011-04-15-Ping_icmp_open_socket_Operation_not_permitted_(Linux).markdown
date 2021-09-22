@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Ping: icmp open socket: Operation not permitted (Linux)
+tags: Linux
 ---
 
 #### Problem

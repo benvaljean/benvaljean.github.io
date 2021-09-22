@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Prevent brute-force attack by rate-limiting connections (iptables)
+tags: Linux Iptables
 ---
 
 A quick and easy way to prevent or dramatically-hinder brute-force

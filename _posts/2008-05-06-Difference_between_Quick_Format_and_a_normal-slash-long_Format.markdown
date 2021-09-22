@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Difference between Quick Format and a normal/long Format
+tags: 
 ---
 
 ### Similarities

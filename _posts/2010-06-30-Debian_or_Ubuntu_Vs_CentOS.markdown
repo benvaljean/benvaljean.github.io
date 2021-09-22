@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Debian or Ubuntu Vs CentOS
+tags: 
 ---
 
 1.  REDIRECT [Debian / Ubuntu Vs RHEL / CentOS /

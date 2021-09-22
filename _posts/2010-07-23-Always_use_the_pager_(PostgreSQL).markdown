@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Always use the pager (PostgreSQL)
+tags: PostgreSQL
 ---
 
 Setting the pager to always and using the S command (if it is set to

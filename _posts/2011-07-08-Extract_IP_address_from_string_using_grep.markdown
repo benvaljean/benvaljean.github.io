@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Extract IP address from string using grep
+tags: Linux
 ---
 
 `-o` option tells grep to only print the parts that match the grep

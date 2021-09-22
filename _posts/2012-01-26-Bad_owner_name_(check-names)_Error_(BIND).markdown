@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Bad owner name (check-names) Error (BIND)
+tags: DNS BIND
 ---
 
 #### Problem

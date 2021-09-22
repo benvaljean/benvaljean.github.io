@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Linux Web Troubleshooting
+tags: Linux Web
 ---
 
 ### Telnet port 80

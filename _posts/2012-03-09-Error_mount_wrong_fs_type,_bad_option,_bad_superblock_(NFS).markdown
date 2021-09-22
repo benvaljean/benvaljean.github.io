@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Error: mount: wrong fs type, bad option, bad superblock (NFS)
+tags: Linux
 ---
 
 When mounting a NFS share on Ubuntu

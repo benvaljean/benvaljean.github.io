@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Send all incoming traffic on an interface to a listening port (iptables)
+tags: Networking Linux iptables
 ---
 
 Send all incoming TCP traffic on interface eth1 to port 3128 on any

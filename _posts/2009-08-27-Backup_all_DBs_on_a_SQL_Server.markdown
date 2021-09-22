@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Backup all DBs on a SQL Server
+tags: MSSQL
 ---
 
 This T-SQL script uses a SQL cursor to generate and execute a

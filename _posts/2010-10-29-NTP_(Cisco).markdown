@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: NTP (Cisco)
+tags: Cisco
 ---
 
 Get current time

@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Output Query as CSV (PostgreSQL)
+tags: PostgreSQL
 ---
 
 Use the following to output a query a CSV. Offending characters like

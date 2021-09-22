@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Myths (Common Cold)
+tags: Fun
 ---
 
 #### Susceptibility to colds requires a weakened immune system

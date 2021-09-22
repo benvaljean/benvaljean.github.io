@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Icon problem: Low colour icons (4 bits/16 colours) even with 16/32 bit screen mode (Windows)
+tags: Registry
 ---
 
 ![16 colour icons with a 65k colour desktop behind

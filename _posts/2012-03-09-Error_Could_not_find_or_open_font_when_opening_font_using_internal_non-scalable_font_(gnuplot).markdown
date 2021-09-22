@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Error: Could not find/open font when opening font "xyz"  using internal non-scalable font (gnuplot)
+tags: Linux
 ---
 
 #### Symptom

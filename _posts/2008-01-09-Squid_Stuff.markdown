@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Squid Stuff
+tags: 
 ---
 
 <font color=red>Do not have the Squid disk-cache on a RAIDed volume, or

@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Writing defensive BASH scripts
+tags: 
 ---
 
 1.  REDIRECT [Writing defensive Bash

@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Monitor Windows file shares (SMB) using Nagios
+tags: Windows Nagios Monitoring
 ---
 
 not finished

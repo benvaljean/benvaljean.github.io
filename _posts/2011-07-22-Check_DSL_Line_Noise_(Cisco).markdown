@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Check DSL Line Noise (Cisco)
+tags: Networking
 ---
 
 1.  REDIRECT [Check ADSL Line Stats

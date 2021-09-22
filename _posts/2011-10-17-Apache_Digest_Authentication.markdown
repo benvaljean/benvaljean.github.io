@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Apache Digest Authentication
+tags: Linux Web
 ---
 
 Check that the auth\_user\_module and authz\_group\_module are both

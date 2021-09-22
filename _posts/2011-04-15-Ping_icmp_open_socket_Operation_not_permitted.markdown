@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Ping: icmp open socket: Operation not permitted
+tags: 
 ---
 
 1.  REDIRECT [Ping: icmp open socket: Operation not permitted

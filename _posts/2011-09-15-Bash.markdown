@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Bash
+tags: 
 ---
 
 [GNU BASH](http://www.gnu.org/s/bash/)

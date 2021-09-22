@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Linux Tricks
+tags: 
 ---
 
 1.  REDIRECT [Getting started with

@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Ascertain and Hide the BIND Version Number
+tags: DNS BIND
 ---
 
 By default BIND will display its version number as a chaos type TXT

@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Windows
+tags: 
 ---
 
 [Windows](http://www.microsoft.com/windows/default.aspx)

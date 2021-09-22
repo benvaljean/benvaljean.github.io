@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Global Address List (Exchange)
+tags: Exchange
 ---
 
 The **Global Address List** (GAL) is a list of objects that have

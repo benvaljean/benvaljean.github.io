@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Change Product Key (Windows XP)
+tags: Windows
 ---
 
 If Windows Update or Genuine check is complaining about an non-genuine

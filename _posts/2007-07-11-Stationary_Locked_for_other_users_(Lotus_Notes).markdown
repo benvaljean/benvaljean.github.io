@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Stationary Locked for other users (Lotus Notes)
+tags: Lotus
 ---
 
 ![Stationary Locked for other

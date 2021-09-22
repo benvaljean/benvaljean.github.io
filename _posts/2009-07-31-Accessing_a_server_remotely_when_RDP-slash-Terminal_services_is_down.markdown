@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Accessing a server remotely when RDP/Terminal services is down
+tags: Windows
 ---
 
 If RDP/Terminal services is down it is impossible to access the server

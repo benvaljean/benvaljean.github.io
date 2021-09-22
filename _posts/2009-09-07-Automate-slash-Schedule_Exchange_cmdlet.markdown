@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Automate/Schedule Exchange cmdlet
+tags: Exchange
 ---
 
 To automate the running of a [Microsoft Exchange

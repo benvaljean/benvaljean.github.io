@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Investigate Exchange Web Services (EWS) and Autodiscover issues (Exchange 2007)
+tags: Exchange
 ---
 
 EWS refers to the functions of IIS on a

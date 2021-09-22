@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Access rights/Privileges/Grants (MySQL)
+tags: MySQL
 ---
 
 The `GRANTS` part in MySQL is where the access rights/privileges as to

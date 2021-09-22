@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Numeric and String variable operations (Perl)
+tags: Perl
 ---
 
 #### Numeric Variable operations

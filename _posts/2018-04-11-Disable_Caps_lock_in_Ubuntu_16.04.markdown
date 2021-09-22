@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Disable Caps lock in Ubuntu 16.04
+tags: Linux
 ---
 
 Disable your Caps lock key in Ubuntu, tested on 16.04:

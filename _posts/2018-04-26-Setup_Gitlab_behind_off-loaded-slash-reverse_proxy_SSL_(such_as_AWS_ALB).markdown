@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Setup Gitlab behind off-loaded/reverse proxy SSL (such as AWS ALB)
+tags: Linux
 ---
 
 Setup [Gitlab](http://gitlab.com) behind off-loaded SSL or a

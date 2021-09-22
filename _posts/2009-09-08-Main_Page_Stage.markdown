@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Main Page Stage
+tags: 
 ---
 
 \_\_NOEDITSECTION\_\_

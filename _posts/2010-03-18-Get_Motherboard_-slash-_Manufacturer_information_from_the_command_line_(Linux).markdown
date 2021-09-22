@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Get Motherboard / Manufacturer information from the command line (Linux)
+tags: Linux
 ---
 
 These commands can be useful if you need to ascertain the manufacturer

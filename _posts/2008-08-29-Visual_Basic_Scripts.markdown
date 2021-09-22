@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Visual Basic Scripts
+tags: 
 ---
 
 [Visual Basic](http://www.vbexplorer.com) is a third-generation

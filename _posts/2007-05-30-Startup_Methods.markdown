@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Startup Methods
+tags: Windows
 ---
 
 ### Directories

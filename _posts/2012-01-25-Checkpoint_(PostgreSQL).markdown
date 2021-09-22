@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Checkpoint (PostgreSQL)
+tags: PostgreSQL
 ---
 
 Checkpoint flushes all buffers to disk and deletes xlogs

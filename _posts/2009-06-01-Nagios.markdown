@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Nagios
+tags: Nagios Linux Windows Monitoring
 ---
 
 [Nagios](http://www.nagios.org) is a free open-source monitoring

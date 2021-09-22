@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Telnet port 80 whilst specifying Hostname
+tags: Web
 ---
 
 Telnetting to port 80 is very useful in diagnosing whether or not a

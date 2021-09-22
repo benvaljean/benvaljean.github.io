@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Free up space from deleted files that are still in use (Linux)
+tags: 
 ---
 
 In Linux a discrepancy between `df` and `du` can occur when a file is

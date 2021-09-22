@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Extracting text (Perl)
+tags: Perl
 ---
 
 The `split()` function gives

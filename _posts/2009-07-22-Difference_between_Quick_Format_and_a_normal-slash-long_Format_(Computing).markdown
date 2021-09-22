@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Difference between Quick Format and a normal/long Format (Computing)
+tags: 
 ---
 
 1.  REDIRECT [Difference between Quick Format and a normal/long

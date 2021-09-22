@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Block dangerous/unsafe attachments (Postfix)
+tags: Linux Postfix
 ---
 
 [Postfix](http://www.postfix.org/) can be configured to block

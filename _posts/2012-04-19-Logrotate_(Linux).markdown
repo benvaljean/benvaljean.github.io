@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Logrotate (Linux)
+tags: Linux
 ---
 
 Keep 14 days with helpful dates and the filenames do not change every

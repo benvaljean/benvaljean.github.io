@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Command substitution (Bash)
+tags: Linux BASH
 ---
 
 Command substitution involves substituting a command with its output.

@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Calling subs from separate script (Perl)
+tags: Perl
 ---
 
 To better organise your code or to allow code to be referred to by

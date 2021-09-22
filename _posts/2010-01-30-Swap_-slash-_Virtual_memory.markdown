@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Swap / Virtual memory
+tags: Linux
 ---
 
 ### Paging versus Swapping

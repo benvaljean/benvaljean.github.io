@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Debian / Ubuntu Vs RHEL / CentOS / Fedora
+tags: 
 ---
 
 1.  REDIRECT [Debian Vs Enterprise

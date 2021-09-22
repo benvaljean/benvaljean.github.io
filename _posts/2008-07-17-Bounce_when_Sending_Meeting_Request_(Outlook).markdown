@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Bounce when Sending Meeting Request (Outlook)
+tags: Exchange Outlook
 ---
 
 ### Symptom

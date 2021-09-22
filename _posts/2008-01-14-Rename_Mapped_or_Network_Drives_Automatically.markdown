@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Rename Mapped or Network Drives Automatically
+tags: Windows
 ---
 
 Renaming of mapped drives on a per-user basis is easily done through

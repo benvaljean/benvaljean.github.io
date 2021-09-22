@@ -4,6 +4,8 @@ title: Vim
 tags: Linux
 ---
 
+fgfgfgfgfgfgfg
+
 Vi is free, open-source advanced text editor. A clone of Vi called
 [Vim](http://www.vim.org) is now commonly used as a *vImproved*
 alternative. It is often used on Linux flavours although ports for

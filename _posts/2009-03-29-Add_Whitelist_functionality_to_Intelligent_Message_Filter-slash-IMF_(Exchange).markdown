@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Add Whitelist functionality to Intelligent Message Filter/IMF (Exchange)
+tags: 
 ---
 
 1.  REDIRECT [Add Whitelist functionality to Intelligent Message

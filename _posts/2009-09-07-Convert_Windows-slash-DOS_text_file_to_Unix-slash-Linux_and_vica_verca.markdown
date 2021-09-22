@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Convert Windows/DOS text file to Unix/Linux and vica verca
+tags: Linux
 ---
 
 A text-file created in Windows/DOS may appear incorrectly on Unix/Linux

@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: DOS Scripting
+tags: Windows
 ---
 
 ### Accepting Arguments

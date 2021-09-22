@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Transforming text (Perl)
+tags: 
 ---
 
 1.  REDIRECT [Numeric and String variable operations

@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Document has already been deleted Error (Lotus Notes)
+tags: Lotus
 ---
 
 When trying to delete a particular document/email within [Lotus

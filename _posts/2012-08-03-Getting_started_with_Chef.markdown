@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Getting started with Chef
+tags: Chef Linux 
 ---
 
 #### Cookbooks

@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Restrict management (telnet) access based on IP (Cisco)
+tags: Cisco
 ---
 
 -   Restrict management access to only 10.1.1.0/24 and 10.10.10.0/23

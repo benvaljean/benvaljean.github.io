@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Max file descriptor limit (Linux)
+tags: Linux
 ---
 
 #### Get current limit

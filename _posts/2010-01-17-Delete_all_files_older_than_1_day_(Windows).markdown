@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Delete all files older than 1 day (Windows)
+tags: 
 ---
 
 1.  REDIRECT [Delete files based on age

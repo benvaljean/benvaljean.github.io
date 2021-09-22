@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Flash Movies
+tags: Fun
 ---
 
 Below are some of my favorite flash movies, most of which are from

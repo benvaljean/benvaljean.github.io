@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Always add BCC (Outlook)
+tags: Outlook
 ---
 
 There is no function to always add a BCC entry to every email you

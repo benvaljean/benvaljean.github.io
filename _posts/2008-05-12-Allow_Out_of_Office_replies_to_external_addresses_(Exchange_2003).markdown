@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Allow Out of Office replies to external addresses (Exchange 2003)
+tags: Exchange
 ---
 
 ![Allowing external Out of Office

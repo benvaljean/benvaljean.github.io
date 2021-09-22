@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Get or Ascertain Slave Lag (MySQL)
+tags: MySQL
 ---
 
 MySQL master servers can handle queries in parallel whereas a slave must

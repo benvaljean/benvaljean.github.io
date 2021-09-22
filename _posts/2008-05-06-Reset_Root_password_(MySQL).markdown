@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Reset Root password (MySQL)
+tags: MySQL
 ---
 
 If the root password for a MySQL server is lost, unknown or cannot be

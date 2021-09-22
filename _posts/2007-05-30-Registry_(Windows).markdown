@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Registry (Windows)
+tags: Windows
 ---
 
 ### Structure

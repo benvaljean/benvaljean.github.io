@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Roger2.gif
+tags: 
 ---
 
 Roger in a happy pose

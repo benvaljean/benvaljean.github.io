@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: MySQL Troubleshooting
+tags: MySQL
 ---
 
 ### Get current processes and queries

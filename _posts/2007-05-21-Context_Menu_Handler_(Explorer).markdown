@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Context Menu Handler (Explorer)
+tags: Windows
 ---
 
 Right-click is slow or weird behavior caused by context menu handlers

@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Associative Arrays (Perl)
+tags: Perl
 ---
 
     my %splitfilenames (1, "allpics.aa",

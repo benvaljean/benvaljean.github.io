@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Adprep to 2008 fails: the call back function failed
+tags: 
 ---
 
 In order to install a Microsoft Windows Server 2008 Domain controller in

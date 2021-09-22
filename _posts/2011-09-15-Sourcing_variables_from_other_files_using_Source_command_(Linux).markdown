@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Sourcing variables from other files using Source command (Linux)
+tags: 
 ---
 
 1.  REDIRECT [Sourcing variables from other files using Source command

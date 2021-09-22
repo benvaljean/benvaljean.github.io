@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Exchange 2007 Server Roles
+tags: Exchange
 ---
 
 ### Client access role

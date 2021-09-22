@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Getting started with iptables
+tags: Linux Networking iptables
 ---
 
 To view the current FW rules in place:

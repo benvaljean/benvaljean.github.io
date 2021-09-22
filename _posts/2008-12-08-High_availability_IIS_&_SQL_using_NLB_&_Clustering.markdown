@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: High availability IIS & SQL using NLB & Clustering
+tags: MSSQL Web
 ---
 
 A cluster is a two-or-greater-node failover solution, using a

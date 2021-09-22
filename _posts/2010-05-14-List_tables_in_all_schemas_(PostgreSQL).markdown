@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: List tables in all schemas (PostgreSQL)
+tags: PostgreSQL
 ---
 
 Depending on how your search order is configured it can be easier to

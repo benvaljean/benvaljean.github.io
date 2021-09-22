@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Mount NFS Share (Ubuntu)
+tags: 
 ---
 
 1.  REDIRECT [Error: mount: wrong fs type, bad option, bad superblock

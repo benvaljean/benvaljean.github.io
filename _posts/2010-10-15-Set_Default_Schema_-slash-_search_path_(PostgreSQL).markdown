@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Set Default Schema / search path (PostgreSQL)
+tags: PostgreSQL
 ---
 
 When schema names are omitted the default public schema is searched

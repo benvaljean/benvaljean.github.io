@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Performing functions via the command line (Windows)
+tags: Windows
 ---
 
 ### Start/Stop Services

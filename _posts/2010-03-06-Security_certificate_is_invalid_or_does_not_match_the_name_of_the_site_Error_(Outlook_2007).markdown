@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Security certificate is invalid or does not match the name of the site Error (Outlook 2007)
+tags: Outlook Exchange
 ---
 
 #### Symptom

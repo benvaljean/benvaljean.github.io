@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Command substitution (BASH)
+tags: 
 ---
 
 1.  REDIRECT [Command substitution

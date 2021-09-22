@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: SOA record (DNS)
+tags: BIND DNS
 ---
 
 SOA record metrics:

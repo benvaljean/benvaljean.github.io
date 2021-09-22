@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Can't open /dev/tty: No such device or address Error (Linux)
+tags: Linux
 ---
 
 ### Symptoms

@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Set default value script/function parameter (Bash)
+tags: Linux Bash
 ---
 
 `$1`, `$2` .. `$n` can be used to retrieve parameters passed to Bash

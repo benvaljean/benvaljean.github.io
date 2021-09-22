@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: View another user's calendar in Outlook Web Access (Exchange 2007 OWA)
+tags: OWA Exchange
 ---
 
 Use the following format URL:

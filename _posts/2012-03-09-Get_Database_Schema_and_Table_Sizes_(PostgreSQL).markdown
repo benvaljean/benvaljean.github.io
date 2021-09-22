@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Get Database Schema and Table Sizes (PostgreSQL)
+tags: PostgreSQL
 ---
 
 #### Get Database size

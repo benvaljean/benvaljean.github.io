@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Awk Tricks
+tags: Linux
 ---
 
 #### Delete occurances of a string

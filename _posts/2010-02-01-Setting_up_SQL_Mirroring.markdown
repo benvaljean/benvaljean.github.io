@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Setting up SQL Mirroring
+tags: 
 ---
 
 1.  REDIRECT [Setting up Mirroring in SQL Server

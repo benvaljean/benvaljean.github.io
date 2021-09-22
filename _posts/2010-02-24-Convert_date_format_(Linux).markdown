@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Convert date format (Linux)
+tags: Linux
 ---
 
 Convert a date expressed in `mm/dd/yyyy` format to

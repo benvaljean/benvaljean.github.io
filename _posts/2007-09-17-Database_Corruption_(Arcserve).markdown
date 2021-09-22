@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Database Corruption (Arcserve)
+tags: Arcserve
 ---
 
 Database corruption affects detailed session records even if a merge is

@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: MySQL
+tags: 
 ---
 
 [MySQL](http://www.mysql.com/)

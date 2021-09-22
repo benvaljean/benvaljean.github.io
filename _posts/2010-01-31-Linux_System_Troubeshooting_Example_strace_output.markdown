@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Linux System Troubeshooting:Example strace output
+tags: 
 ---
 
           1 exampleusername@ghost:/usr/local/nagios/libexec$ strace -e open tsql -S testconfig -U test -P test

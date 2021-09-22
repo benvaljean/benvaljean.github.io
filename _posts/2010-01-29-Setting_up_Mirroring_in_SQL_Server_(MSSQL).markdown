@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Setting up Mirroring in SQL Server (MSSQL)
+tags: 
 ---
 
 SQL Mirroring is a native replication feature of SQL Server 2005 SP2+ which can setup two SQL servers in a automatic/hot failover capacity and thereby giving redundancy to each server.

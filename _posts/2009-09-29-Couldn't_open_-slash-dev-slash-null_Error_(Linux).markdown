@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Couldn't open /dev/null Error (Linux)
+tags: Linux
 ---
 
 ### Symptom

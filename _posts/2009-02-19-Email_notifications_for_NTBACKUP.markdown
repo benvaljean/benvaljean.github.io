@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Email notifications for NTBACKUP
+tags: Windows
 ---
 
 The native backup software with Windows is useful to use when no

@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: FSMO Role Placement
+tags: Windows
 ---
 
 [FSMO Roles](FSMO_Roles "wikilink") should be assigned to ensure the

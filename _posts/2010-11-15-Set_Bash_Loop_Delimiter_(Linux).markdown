@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Set Bash Loop Delimiter (Linux)
+tags: Linux Bash
 ---
 
 BASH loops use a space as a delimiter by default but this is not useful

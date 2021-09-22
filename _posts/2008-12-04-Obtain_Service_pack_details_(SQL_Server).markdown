@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Obtain Service pack details (SQL Server)
+tags: MSSQL
 ---
 
 To ascertain what level of service pack is installed run this query on

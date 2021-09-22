@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: MSSQL
+tags: Windows
 ---
 
 [Microsoft SQL Server](http://www.functionx.com/sqlserver)

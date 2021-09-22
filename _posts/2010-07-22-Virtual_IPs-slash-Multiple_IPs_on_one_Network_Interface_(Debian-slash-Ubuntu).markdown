@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Virtual IPs/Multiple IPs on one Network Interface (Debian/Ubuntu)
+tags: Linux
 ---
 
 To add additional IPs to a single network interface add the example

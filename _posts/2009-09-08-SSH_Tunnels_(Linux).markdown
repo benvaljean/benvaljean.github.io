@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: SSH Tunnels (Linux)
+tags: Linux
 ---
 
 \_\_NOTOC\_\_

@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Your Out of Office settings cannot be displayed Error (Outlook 2007)
+tags: Outlook Exchange
 ---
 
 #### Symptom

@@ -4,7 +4,7 @@ layout: default
 
 <div class="home">
 
-This is a blog with <b>no recent<b?> posts with a <b>recent</b> (September 2011) migration from Mediawiki to Jekyll. Further to doing it I will probably use Wordpress instead, so some things might not work correctly and will probably not get fixed for now.
+This is a blog with <b>no recent</b> posts with a <b>recent</b> (September 2011) migration from Mediawiki to Jekyll. Further to doing it I will probably use Wordpress instead, so some things might not work correctly and will probably not get fixed for now.
 
 <h1 class="page-heading">Tags by usage</h1>
 <ul>

@@ -9,7 +9,9 @@
 title: ben.goodacre.name/tech
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
-  Some sort of desc here
+  Benjamin Goodacre technical blog, which is mostly a historical archive
+  rather than being actually useful. - With posts dating from 2007 and few
+  posts after 2009.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "/" # the base hostname & protocol for your site
 
@@ -17,8 +19,8 @@ url: "/" # the base hostname & protocol for your site
 #url: "/" # the base hostname & protocol for your site
 
 
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: benvaljean
+github_username:  benvaljean
 gitlab_username:  pages
 
 # Outputting

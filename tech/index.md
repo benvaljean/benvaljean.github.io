@@ -4,7 +4,7 @@ layout: default
 
 <div class="home">
 
-This is a blog with <b>no recent</b> posts with a <b>recent</b> (September 2011) migration from Mediawiki to Jekyll. Further to doing it I will probably use Wordpress instead, so some things might not work correctly and will probably not get fixed for now.
+This is a blog with <b>no recent</b> posts with a <b>recent</b> (September 2011) migration from Mediawiki to Jekyll. It was partially an experiment and further to doing it I will probably use Wordpress instead for it long-term, so some things might not work correctly and will probably not get fixed for now.
 
 <h1 class="page-heading">Tags by usage</h1>
 <ul>
@@ -51,13 +51,14 @@ No tag set
 {% endfor %}
 </ul>
 
-  <h1 class="page-heading">Posts by date</h1>
+  <h1 class="page-heading">'Recent' Posts (last 30 posts)</h1>
+  For all posts: <a href="/tech/all-posts-by-date.html">Show all posts</a>
 
   <ul class="post-list">
 
-      {% for post in site.posts %}
+      {% for post in site.posts limit:30 %}
       <li>
-        <span class="post-meta">{{ post.date | date: "%d %B %Y %H:%M:%S" }}</span>
+        <span class="post-meta">{{ post.date | date: "%d %B %Y" }}</span>
 
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
@@ -69,4 +70,3 @@ No tag set
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
-</div>

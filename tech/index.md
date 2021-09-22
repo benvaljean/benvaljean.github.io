@@ -22,6 +22,24 @@ layout: default
 {% endfor %}
 
 
+v8
+
+
+No tag set
+<ul>
+{% for post in site.posts %}
+  {% if post.tags.size == 0 %}
+  <li>
+    <a href="{{ post.url }}">{{ post.title }}</a>
+    <span class="date">{{ post.date | date: "%B %-d, %Y"  }}</span>
+  </li>
+  {% endif %}
+{% endfor %}
+</ul>
+
+
+
+
 fgfgfgfg--v2
 
 

@@ -6,12 +6,25 @@ layout: default
 
 This is a blog with **no recent** posts with a **recent** migration from Mediawiki to Jekyll. Further to doing it I will probably use Wordpress instead, so some things might not work correctly and will probably not get fixed for now.
 
+<ul>
+{% capture tags %}
+  {% for tag in site.tags %}
+    <li data-sort="{{ site.posts.size | minus: tag[1].size | prepend: '0000' | slice: -4, 4 }}">
+       <a href="#{{ tag[0] }}">{{ tag[0] }}</a>  {{ tag[1].size }} posts
+       <!-- <a href="/{{ site.tag_page_dir }}/{{ tag[0] | slugify: 'pretty' }}">{{ tag[0] }} <span>{{ tag[1].size }}</span></a> -->
+    </li>
+  {% endfor %}
+{% endcapture %}
+{{ tags | split:'</li>' | sort | join:'</li>' }}
+</ul>
+
+
 <h1 class="page-heading">Posts by tag</h1>
 {% for tag in site.tags %}
   {% assign t = tag | first %}
   {% assign posts = tag | last %}
 
-{{ t }}
+<a id="{{ t }}">{{ t }}</a>
 <ul>
 {% for post in posts %}
   {% if post.tags contains t %}

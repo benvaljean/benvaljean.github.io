@@ -4,6 +4,8 @@ layout: default
 
 <div class="home">
 
+This is a blog with **no recent** posts with a **recent** migration from Mediawiki to Jekyll. Further to doing it I will probably use Wordpress instead, so some things might not work correctly and will probably not get fixed for now.
+
 <h1 class="page-heading">Posts by tag</h1>
 {% for tag in site.tags %}
   {% assign t = tag | first %}
@@ -15,7 +17,7 @@ layout: default
   {% if post.tags contains t %}
   <li>
     <a href="{{ post.url }}">{{ post.title }}</a>
-    <span class="date">{{ post.date | date: "%B %-d, %Y"  }}</span>
+    <span class="date">{{ post.date | date: "%d %B %Y" }}</span>
   </li>
   {% endif %}
 {% endfor %}
@@ -29,7 +31,7 @@ No tag set
   {% if post.tags.size == 0 %}
   <li>
     <a href="{{ post.url }}">{{ post.title }}</a>
-    <span class="date">{{ post.date | date: "%B %-d, %Y"  }}</span>
+    <span class="date">{{ post.date | date: "%d %B %Y" }}</span>
   </li>
   {% endif %}
 {% endfor %}

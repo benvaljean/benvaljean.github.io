@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Main Page
 ---
 
 <div class="home">

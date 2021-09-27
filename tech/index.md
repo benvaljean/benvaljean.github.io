@@ -5,7 +5,7 @@ title: Main Page
 
 <div class="home">
 
-This is a blog with <b>no recent</b> posts with a <b>recent</b> (September 2011) migration from Mediawiki to Jekyll. It was partially an experiment and further to doing it I will probably use Wordpress instead for it long-term, so some things might not work correctly and will probably not get fixed for now.
+This is a blog with <b>very few</b> posts with a <b>recent</b> (September 2021) migration from Mediawiki to Jekyll. It was partially an experiment and further to doing it I will probably use Wordpress instead for it long-term, so some things might not work correctly and will probably not get fixed for now.
 
 <h1 class="page-heading">Tags by usage</h1>
 <ul>
